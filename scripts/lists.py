@@ -40,10 +40,10 @@ def score(r):
 for r in R:
     r['pendulo_score'] = score(r)
     r['ausentes26'] = r['aptos26'] - r['comp26']
-s1 = sorted([r for r in R if r['virou'] and r['aptos26'] >= 10000], key=lambda r: r['swing'])[:100]
-s2 = sorted([r for r in R if r['lula26'] > 50 and r['abst26'] > AB], key=lambda r: -r['ausentes26'])[:100]
+s1 = sorted([r for r in R if r['virou'] and r['aptos26'] >= 10000], key=lambda r: (r['swing'], -r['aptos26'], r['ibge']))[:100]
+s2 = sorted([r for r in R if r['lula26'] > 50 and r['abst26'] > AB], key=lambda r: (-r['ausentes26'], -r['aptos26'], r['ibge']))[:100]
 s3 = sorted([r for r in R if r['flavio26'] >= 50 and r['abst26'] < AB and r['pendulo_score'] >= 3],
-            key=lambda r: (-r['pendulo_score'], -r['aptos26']))[:100]
+            key=lambda r: (-r['pendulo_score'], -r['aptos26'], r['ibge']))[:100]
 for n, L in (('S1', s1), ('S2', s2), ('S3', s3)):
     for i, r in enumerate(L, 1): r.setdefault('cenarios', []).append(f'{n}#{i}')
 json.dump({'S1': [r['ibge'] for r in s1], 'S2': [r['ibge'] for r in s2], 'S3': [r['ibge'] for r in s3]}, open('data/listas.json', 'w'))
