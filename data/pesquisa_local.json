@@ -1741,7 +1741,11 @@
   "pl_local": "não encontrado (PL não elegeu vereadores em 2024; câmara: PP 4, PSB 3, MDB 3, PV 2, PDT 1).",
   "economia": "Município médio (~49 mil hab., 2019) no leste maranhense; Wikipédia só cita histórico canavieiro — base econômica atual não verificada.",
   "pautas": [
-   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+   "[plano de governo 2024] Saúde: construção de 2 UBS (Povoado Santo Inácio e Bairro Subestação), Centro de Diagnóstico, unidade móvel odontológica para a zona rural e equipamentos para Hospital Maternidade, UPA e Centro de Imagem.",
+   "[plano de governo 2024] Meio ambiente: mudança do descarte de resíduos sólidos para nova área de Aterro Sanitário; inclusão de Coelho Neto no Plano Nacional do Turismo (trilhas ecológicas, Trilhão Ecológico).",
+   "[plano de governo 2024] Segurança: posse da Guarda Municipal concursada, criação da Secretaria de Segurança Pública e pedido de aumento do efetivo do 44º Batalhão da PM e de mais um delegado.",
+   "[plano de governo 2024] Infraestrutura e água: ampliação de pavimentação poliédrica e asfalto, pontes e estradas vicinais, rede de água e novos poços artesianos na cidade e zona rural; Minha Casa, Minha Vida.",
+   "[plano de governo 2024] Obras locais: conclusão do Complexo Esportivo do Bairro Olho d'Aguinha, reforma do Teatro Municipal e do Mercado do Produtor, conclusão de escolas e creches inacabadas."
   ],
   "eventos": "Bruno Silva (PP) eleito com 68,95%; município recebeu o Selo UNICEF em 2024 (6ª vez). / Nenhum evento de grande escala identificado; noticiário dominado por crimes violentos. / Nenhum evento 2025–2026 confirmado.",
   "fontes": [
@@ -1751,10 +1755,11 @@
    "https://oimparcial.com.br/politica/2025/08/familias-de-timon-coelho-neto-e-buriti-recebem-cartoes-do-programa-maranhao-livre-da-fome/",
    "https://oimparcial.com.br/noticias/2025/04/policia-investiga-gincana-da-prefeitura-de-coelho-neto-com-show-de-gogo-boys/",
    "https://oimparcial.com.br/noticias/2025/12/policia-busca-suspeitos-de-matar-cozinheira-em-coelho-neto-ma/",
-   "https://www.sgb.gov.br/sace/boletins/Parnaiba/20250425_15-20250425%20-%20150106.pdf"
+   "https://www.sgb.gov.br/sace/boletins/Parnaiba/20250425_15-20250425%20-%20150106.pdf",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002331207_01.pdf (plano de governo de Bruno Silva, PP)"
   ],
   "confianca": "baixa",
-  "obs": "Economia e pautas com lacunas. / Baseado só em manchetes da busca do O Imparcial (matérias não abertas). / PDF do MPMA recusou conexão; boletim SGB visto só em busca.",
+  "obs": "Economia e pautas com lacunas. / Baseado só em manchetes da busca do O Imparcial (matérias não abertas). / PDF do MPMA recusou conexão; boletim SGB visto só em busca. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade (prefeito em reeleição), organizado em 11 eixos com 11 propostas cada.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Bruno Silva"
@@ -1768,7 +1773,11 @@
   "pl_local": "não encontrado (PL não elegeu vereadores em 2024).",
   "economia": "Município médio (~59,6 mil hab.) com comércio tradicional (imigração sírio-libanesa), sede do Hospital Macrorregional de Coroatá e campus da UEMA; base produtiva não detalhada nas fontes.",
   "pautas": [
-   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+   "[plano de governo 2024] Estradas e pontes: busca de recursos para a estrada Coroatá–Pirapemas, recuperação de estradas vicinais e substituição de pontes de madeira por metálicas/concreto na zona rural.",
+   "[plano de governo 2024] Saneamento e drenagem: bueiros em pontos de alagamento, canal de escoamento de chuvas contra enchentes, fossas para reduzir esgoto lançado no rio Itapecuru, aterro sanitário e ampliação da rede de água com a CAEMA.",
+   "[plano de governo 2024] Saúde: Casa de Apoio para pacientes em tratamento em São Luís, reestruturação do SAMU com ambulâncias 4x4 para a zona rural, central de marcação online e meta de zerar filas de especialidades.",
+   "[plano de governo 2024] Educação: programa 'Climatização das Escolas' com subestação de energia, escola de tempo integral experimental (6º ao 9º ano), programa 'Alfabetiza Coroatá' e revisão da gratificação de interiorização de professores da zona rural.",
+   "[plano de governo 2024] Economia local: conclusão do Centro do Comércio Informal (com o Estado), matadouro público, usina de asfalto, reforma dos mercados municipais, galpão para feira da agricultura familiar e gás de cozinha gratuito para famílias vulneráveis."
   ],
   "eventos": "Edimar Vaqueiro (PSB) eleito com 61,03% contra Aryanna Amovelar (PT). / Crise financeira herdada (01/2025); pacote de entregas do governador Carlos Brandão no aniversário de 106 anos (08/04/2026). / Nenhum evento 2025–2026 confirmado.",
   "fontes": [
@@ -1778,10 +1787,11 @@
    "https://oimparcial.com.br/noticias/2026/04/coroata-celebra-106-anos-com-entrega-de-obras-e-servicos-a-populacao/",
    "https://oimparcial.com.br/noticias/2026/04/grupo-suspeito-de-assalto-a-bancos-e-preso-em-coroata/",
    "https://oimparcial.com.br/coroata/cidades/2026/08/homem-e-preso-suspeito-de-matar-motorista-de-aplicativo-em-coroata/",
-   "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf"
+   "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002188750_01.pdf (plano de governo de Edimar Vaqueiro, PSB)"
   ],
   "confianca": "baixa",
-  "obs": "Economia e pautas com lacunas. / Matéria do aniversário baseada em release do governo estadual. / Busca não trouxe imprensa local; recomenda-se nova rodada.",
+  "obs": "Economia e pautas com lacunas. / Matéria do aniversário baseada em release do governo estadual. / Busca não trouxe imprensa local; recomenda-se nova rodada. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). A introdução menciona 'os anseios do povo agudense', indicando trecho aparentemente reaproveitado de modelo de outro município; o texto extraído termina truncado no eixo de esporte.",
   "partido_prefeito_sigla": "PSB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Edimar Vaqueiro"
@@ -1851,16 +1861,22 @@
   "pautas": [
    "Acesso rodoviário: pavimentação da Estrada do Jacaré (sede ao povoado Jacaré), descrita como obra esperada há 109 anos",
    "Segurança: prédio da delegacia (1º DP) com risco de desabamento até a reforma",
-   "Acesso a serviços e documentos sem precisar viajar a outros municípios (Viva/Procon)"
+   "Acesso a serviços e documentos sem precisar viajar a outros municípios (Viva/Procon)",
+   "[plano de governo 2024] Saúde: construção de UBS em Caminho Novo, Santo Antônio e Capoeiro, construção do CAPS, Centro de Parto Normal, teste da orelhinha e do olhinho no Hospital Municipal Jesus de Nazaré e implantação do SAMU.",
+   "[plano de governo 2024] Estradas e ruas: programa 'Avança Penalva em estradas acessíveis' para pavimentação gradual de estradas vicinais ('inverno e verão') e programa de pavimentação de vias urbanas.",
+   "[plano de governo 2024] Água e obras: ampliação de poços artesianos urbanos e rurais, melhoria do abastecimento com o Estado, construção de cemitério público e matadouro público.",
+   "[plano de governo 2024] Educação: redução das turmas multisseriadas nas escolas rurais, climatização de escolas, novos ônibus escolares, programa Alfabetiza Penalva e prédio do Polo da Universidade Aberta.",
+   "[plano de governo 2024] Pesca e renda: cursos de piscicultura, fomento a cooperativa pesqueira para o mercado local, apoio à agricultura familiar e criação do Vale Gás Municipal."
   ],
   "eventos": "Em mai/2025 o governador Carlos Brandão iniciou a obra da Estrada do Jacaré e a 2ª etapa da Beira Rio, e entregou a delegacia reformada e uma unidade Viva/Procon. Em abr/2026 o município aparecia 100% regular no CAUC.",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
    "https://carlosbrandao.com.br/brandao-inicia-obra-da-estrada-do-jacare-e-da-beira-rio-entrega-unidade-do-viva-procon-delegacia-e-ambulancia-para-populacao-de-penalva/",
-   "http://jailsonmendes.com.br/2026/04/30/penalva-lidera-ranking-da-famem-com-100-de-regularidade-no-cauc-na-baixada-maranhense/"
+   "http://jailsonmendes.com.br/2026/04/30/penalva-lidera-ranking-da-famem-com-100-de-regularidade-no-cauc-na-baixada-maranhense/",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002116789_01.pdf (plano de governo de Guerra, PP)"
   ],
   "confianca": "baixa",
-  "obs": "As pautas vêm de fontes governistas e promocionais, sem imprensa crítica local. A economia não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "As pautas vêm de fontes governistas e promocionais, sem imprensa crítica local. A economia não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Henrique Guerra"
@@ -1875,16 +1891,22 @@
   "economia": "Cidade-polo da Baixada Ocidental Maranhense (inferência regional, sem fonte), com comércio, serviços regionais, saúde e educação, além de pesca e pecuária na planície inundável.",
   "pautas": [
    "Saúde regional: reparos no Hospital Materno Infantil, no CEMP e no Hospital Regional Antenor Abreu; novo hospital regional anunciado com R$ 35 milhões",
-   "Situação difícil herdada no início de 2025, segundo a imprensa local"
+   "Situação difícil herdada no início de 2025, segundo a imprensa local",
+   "[plano de governo 2024] Diagnóstico de saneamento: plano cita cobertura de água potável de 85,5%, coleta de esgoto de 44,3% e destinação adequada de lixo de 38,2%, e propõe pavimentação, transporte público, infraestrutura hídrica e tratamento de esgoto e lixo.",
+   "[plano de governo 2024] Saúde: construção de novo Hospital Municipal e de UPA 24h, Centro de Controle de Zoonoses, telemedicina e app de marcação de consultas; cita cobertura da Estratégia Saúde da Família de apenas 70,2%.",
+   "[plano de governo 2024] Educação: plano afirma que alunos passam grande parte do ano letivo sem aulas por falta de planejamento e propõe valorização de professores (IDEB citado de 4,9 e 4,4).",
+   "[plano de governo 2024] Gestão: auditoria (LRF), revisão de contratos, programa Papel Zero, criação da Subprefeitura da Zona Rural e projeto de nova sede da Prefeitura.",
+   "[plano de governo 2024] Habitação e emprego: déficit habitacional citado de 4.500 unidades e desocupação de 9,2%; propõe diversificar a economia e qualificar mão de obra."
   ],
   "eventos": "Em mar/2026 o instituto EPO mediu 63,7% de aprovação do prefeito. Em mai/2026 a prefeitura anunciou investimentos na rede de saúde e recursos para um novo hospital regional.",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
    "https://blogdojorgearagao.com/2026/03/31/prefeito-de-pinheiro-ma-atinge-637-de-aprovacao/",
-   "https://g7ma.com/prefeitura-de-pinheiro-segue-investindo-forte-na-rede-municipal-de-saude/"
+   "https://g7ma.com/prefeitura-de-pinheiro-segue-investindo-forte-na-rede-municipal-de-saude/",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002088508_01.pdf (plano de governo de Andre Da Ralpnet, PODE)"
   ],
   "confianca": "baixa",
-  "obs": "O partido (Podemos) consta apenas da lista de O Imparcial. Pautas além da saúde não foram encontradas. A senadora Ana Paula Lobato tem base em Pinheiro e buscou disputar a prefeitura em 2024, mas sua relação com o resultado não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "O partido (Podemos) consta apenas da lista de O Imparcial. Pautas além da saúde não foram encontradas. A senadora Ana Paula Lobato tem base em Pinheiro e buscou disputar a prefeitura em 2024, mas sua relação com o resultado não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de oposição à gestão anterior, com diagnóstico numérico próprio (fontes dos números não detalhadas no texto); o texto extraído está truncado (documento de 45 páginas, lido até a página ~16).",
   "partido_prefeito_sigla": "PODE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "André da Ralpnet"
@@ -1898,17 +1920,23 @@
   "pl_local": "não encontrado",
   "economia": "Município médio e grande (~75 mil hab., majoritariamente rural), com agropecuária (historicamente arroz, hoje pecuária) e serviços; o perfil atual não foi verificado em fonte.",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Previdência municipal: auditoria no Instituto de Previdência dos Servidores (IPRESAL) e funcionamento efetivo de seus conselhos.",
+   "[plano de governo 2024] Saúde: conclusão das UBS inacabadas (Centro do Adão, Campo Grande e Dioclécio), pleito de uma maternidade, CAPS AD III citando 'elevado quantitativo de dependentes químicos', e combate a IST (aumento de infectados) e hanseníase.",
+   "[plano de governo 2024] Educação e assistência: escola de 13 salas para os Residenciais Francisco Gonçalves, Milton Ericeira e Mutirão do Oseas; climatização de salas pelas altas temperaturas; novos CRAS nos bairros Aeroporto e Mutirão e reforma do CRAS do Santarém.",
+   "[plano de governo 2024] Infraestrutura: Programa Nossas Estradas (vicinais, bueiros, pontes), reforma da Rodoviária, do Mercado Municipal e da Praça da Saudade, Programa Água é Vida (poços) e eletrificação rural.",
+   "[plano de governo 2024] Habitação e produção rural: programa 'Minha Casa, Agora Sim!' (uma casa por mês para famílias do CadÚnico), pasteurizadores e máquinas de silagem para produtores de leite e melhoramento genético do rebanho."
   ],
   "eventos": "O MPF obteve a condenação de um ex-prefeito e de um empresário por desvio de verbas habitacionais (data e nomes não verificados).",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
    "https://www.cnnbrasil.com.br/eleicoes/juscelino-marreca-e-eleito-prefeito-de-santa-luzia-ma/",
    "https://pt.wikipedia.org/wiki/Santa_Luzia_(Maranh%C3%A3o)",
-   "https://www.mpf.mp.br/o-mpf/unidades/pr-ma/noticias/mpf-obtem-condenacao-de-ex-prefeito-e-empresario-por-desvio-de-verbas-habitacionais-em-santa-luzia-ma"
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-ma/noticias/mpf-obtem-condenacao-de-ex-prefeito-e-empresario-por-desvio-de-verbas-habitacionais-em-santa-luzia-ma",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002214148_01.pdf (plano de governo de Juscelino Marreca, PRD)"
   ],
   "confianca": "baixa",
-  "obs": "O prefeito integra a família Marreca (PRD), a mesma de Itapecuru Mirim. Teve a maior queda de Lula no lote (-9,9 p.p.). Lacuna: pautas e eventos. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "O prefeito integra a família Marreca (PRD), a mesma de Itapecuru Mirim. Teve a maior queda de Lula no lote (-9,9 p.p.). Lacuna: pautas e eventos. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). O texto extraído termina truncado na seção de cultura.",
   "partido_prefeito_sigla": "PRD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Juscelino Marreca"
@@ -1922,15 +1950,21 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno e médio da Baixada (~45 mil hab.), com agricultura de subsistência (arroz, milho, feijão, mandioca), extração de babaçu, pecuária (inclusive bubalina) e pesca artesanal nos campos inundáveis.",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Saúde: ambulâncias para as estradas da Sororoca e do Olho d'Água dos Gomes (zona rural) e construção de Centro de Imagem.",
+   "[plano de governo 2024] Infraestrutura: programa 'Acelera São Bento' de pavimentação, avenidas nas entradas da cidade, pontes de concreto e estradas na zona rural, área de lazer no Bairro do Alegre e construção de um aeroporto.",
+   "[plano de governo 2024] Meio ambiente e água: recuperação do Rio da Velha Bárbara, ampliação de redes de água nos povoados, açudes e barragens nas comunidades rurais.",
+   "[plano de governo 2024] Produção: continuidade da dragagem dos campos de São Bento, bacias perto das pontes para represar água e aumentar a produção de peixes, açudes com alevinos e apoio ao projeto estadual Floresta Viva.",
+   "[plano de governo 2024] Assistência: continuidade e ampliação do Auxílio Gás Municipal para famílias de baixa renda."
   ],
   "eventos": "não encontrado",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
-   "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_(Maranh%C3%A3o)"
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_(Maranh%C3%A3o)",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002014764_01.pdf (plano de governo de Dino Penha, MDB)"
   ],
   "confianca": "baixa",
-  "obs": "O prefeito vem apenas da lista de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "O prefeito vem apenas da lista de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano majoritariamente de continuidade ('dar continuidade'), com poucas metas quantificadas.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Dino Penha"
@@ -1944,15 +1978,21 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno e médio (~39 mil hab.) no Médio Mearim; a base econômica não foi verificada (provavelmente agropecuária e serviços).",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Saúde: construção de UBS no Povoado Queimadas, base descentralizada do SAMU, ampliação e modernização do Pronto Socorro e Hospital Municipal e do centro TEA+.",
+   "[plano de governo 2024] Infraestrutura e emprego: implantação de parque industrial, pavimentação asfáltica, casas populares e iluminação LED.",
+   "[plano de governo 2024] Juventude: transporte subsidiado para universitários que estudam em Bacabal (Programa Mais Universitário), prédio para o curso Pré-Universitário e expansão da robótica nas escolas.",
+   "[plano de governo 2024] Igualdade racial: criação de Secretaria de Igualdade Racial, educação escolar quilombola, comercialização de produtos quilombolas (Selo Quilombola) e combate à intolerância contra terreiros.",
+   "[plano de governo 2024] Assistência e turismo: prédio próprio do CREAS, Centro de Convivência (SCFV), família acolhedora, revitalização dos balneários e inserção no Mapa do Turismo."
   ],
   "eventos": "não encontrado",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
-   "https://pt.wikipedia.org/wiki/S%C3%A3o_Mateus_do_Maranh%C3%A3o"
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Mateus_do_Maranh%C3%A3o",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002397484_01.pdf (plano de governo de Miltinho Aragão, PSB)"
   ],
   "confianca": "baixa",
-  "obs": "Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão.",
   "partido_prefeito_sigla": "PSB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Miltinho Aragão"
@@ -1966,15 +2006,21 @@
   "pl_local": "Prefeito eleito em 2024 pelo PL (Diringa); a bancada do PL na câmara não foi verificada.",
   "economia": "Município médio (~53 mil hab., 65% rural) no litoral leste, no polo Delta das Américas e na Rota das Emoções; vive de serviços e administração pública, coco (2º produtor do MA), caju, mandioca, pesca e turismo (Pequenos Lençóis).",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Turismo como eixo central: Avenida Beira Mar, reforma do cais, revitalização da orla, mercado e porto, Batalhão de Turismo da PM, kitesurf e tornar Tutóia 'Município de Interesse Turístico' (portal do Delta do Parnaíba).",
+   "[plano de governo 2024] Estradas: ligações Lagoinha–Arpoador e Tutoia Velha–Tutoia via Taboal; melhoria do corredor Barro Duro–Santo Hilário como rota de escoamento agrícola via Barreirinhas e Santa Quitéria.",
+   "[plano de governo 2024] Saúde: ambulâncias nos polos rurais (Seriema, Barro Duro, Santana dos Carvalhos, Santa Rosa do Jardim, Riacho do Meio do Carmo), SAMU na sede, UPA com o Estado, Centro Oftalmológico e Casa de Apoio em São Luís.",
+   "[plano de governo 2024] Agricultura familiar: destinar 5% do FPM à agricultura familiar, cooperativas nas glebas Belágua, Santa Clara Comum, São Benedito e Murici, casas de farinha e escritório da AGERP.",
+   "[plano de governo 2024] Educação e juventude: Casa do Estudante em Parnaíba (PI) para universitários, pré-vestibular municipal e transporte universitário para quem percorre mais de 100 km por dia."
   ],
   "eventos": "não encontrado",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
-   "https://pt.wikipedia.org/wiki/Tut%C3%B3ia"
+   "https://pt.wikipedia.org/wiki/Tut%C3%B3ia",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002144725_01.pdf (plano de governo de Viriato Cardoso, PL)"
   ],
   "confianca": "baixa",
-  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). O texto extraído termina truncado na seção de obras e infraestrutura.",
   "partido_prefeito_sigla": "PL",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Diringa Viriato Cardoso"
@@ -1988,14 +2034,16 @@
   "pl_local": "não encontrado",
   "economia": "Município médio (~50 mil hab.) no Leste/Itapecuru; a base econômica não foi verificada (provavelmente agricultura familiar, babaçu e serviços).",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Plano apenas genérico: texto de diretrizes em quatro eixos (Cidade Solidária, Cidade Empreendedora, Cidade Humanizada e Administrativo), de continuidade da gestão anterior, sem obras, locais ou projetos específicos; menciona de forma geral ampliar a malha viária urbana, pontes e estradas vicinais, saneamento, praças e a atuação da Guarda Municipal."
   ],
   "eventos": "não encontrado",
   "fontes": [
-   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/"
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002164109_01.pdf (plano de governo de Preto, PP)"
   ],
   "confianca": "baixa",
-  "obs": "Só se obteve o apelido do prefeito ('Preto'); o nome completo não foi verificado. A página da Wikipédia estava inacessível. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "Só se obteve o apelido do prefeito ('Preto'); o nome completo não foi verificado. A página da Wikipédia estava inacessível. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano genérico, sem propostas concretas localizadas.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Preto"
@@ -2009,15 +2057,21 @@
   "pl_local": "Prefeito eleito em 2024 pelo PL (Carrinho Cidreira); a bancada do PL na câmara não foi verificada.",
   "economia": "Município médio (~52 mil hab.), polo histórico da Baixada Maranhense; agricultura, pesca nos lagos e campos, comércio e serviços (perfil atual não verificado).",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Saúde: reestruturação do Hospital Dom Hélio Campos (mais leitos, centro cirúrgico, Centro de Parto Normal, raio-x e ultrassom), base descentralizada do SAMU, CER tipo III e Centro de Zoonoses.",
+   "[plano de governo 2024] Produção e abastecimento: indústria de resfriamento e beneficiamento de pescado, agroindústria de frutas, abatedouro regional e novo Centro Municipal de Abastecimento – Feira da Barra do Sol.",
+   "[plano de governo 2024] Meio ambiente: aterro sanitário em consórcio com municípios vizinhos, tratamento de dejetos do Parque Dilú Melo e campanha de preservação dos campos e lagos.",
+   "[plano de governo 2024] Infraestrutura e segurança: estradas vicinais, pavimentação na sede e zona rural, retomada de habitação social, videomonitoramento nos portais da cidade e rondas da Guarda com a PM em pontos de maior violência.",
+   "[plano de governo 2024] Gestão: polos administrativos em povoados-sede, calendário de pagamento, concurso público e prédio próprio para a Secretaria de Educação."
   ],
   "eventos": "não encontrado",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
-   "https://pt.wikipedia.org/wiki/Viana_(Maranh%C3%A3o)"
+   "https://pt.wikipedia.org/wiki/Viana_(Maranh%C3%A3o)",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002024666_01.pdf (plano de governo de Carrinho Cidreira, PL)"
   ],
   "confianca": "baixa",
-  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano menciona 'luminenses' em um item (provável trecho reaproveitado de outro município); o texto extraído termina truncado na seção de agricultura e meio ambiente.",
   "partido_prefeito_sigla": "PL",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Carrinho Cidreira"
@@ -2031,15 +2085,21 @@
   "pl_local": "Prefeita eleita em 2024 pelo PL (Flavinha Cunha); a bancada do PL na câmara não foi verificada.",
   "economia": "Município médio (~50 mil hab.), principal centro comercial do Alto Turi; comércio de insumos agropecuários e pecuária. Empresas de biocombustível chegaram a sondar instalação (não confirmado).",
   "pautas": [
-   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa",
+   "[plano de governo 2024] Saúde: expansão do programa de redução de filas de cirurgias no Hospital Municipal, rede TEAcolher para autismo, redução da mortalidade materno-infantil e parceria com o DSEI/MA para saúde indígena.",
+   "[plano de governo 2024] Infraestrutura: conclusão da pavimentação asfáltica sede–povoado Ebenézia e de toda a zona urbana, novas avenidas no bairro São Francisco, pontes de concreto em vicinais e prédio próprio da Câmara Municipal.",
+   "[plano de governo 2024] Nova Conquista: construção de CRAS anexo e revitalização do igarapé da Jabota com estrutura para banho e lazer.",
+   "[plano de governo 2024] Meio ambiente e água: limpeza e desassoreamento de córregos e igarapés contra enchentes, reflorestamento de margens e expansão/automatização dos sistemas de água da zona rural.",
+   "[plano de governo 2024] Agropecuária: Feira Agropecuária de Zé Doca, Projeto Leite, laboratório de análise de solo, patrulhas agrícolas e fortalecimento da piscicultura."
   ],
   "eventos": "não encontrado",
   "fontes": [
    "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
-   "https://pt.wikipedia.org/wiki/Z%C3%A9_Doca"
+   "https://pt.wikipedia.org/wiki/Z%C3%A9_Doca",
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002047325_01.pdf (plano de governo de Flavinha Cunha, PL)"
   ],
   "confianca": "baixa",
-  "obs": "A prefeita do PL vem apenas de O Imparcial e não foi confirmada em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta.",
+  "obs": "A prefeita do PL vem apenas de O Imparcial e não foi confirmada em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta. / Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão (coligação 'Zé Doca Segue Avançando').",
   "partido_prefeito_sigla": "PL",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Flavinha Cunha"
@@ -3338,15 +3398,23 @@
   "pl_local": "1 vereador do PL (Luis Lima) entre 15 eleitos em 2024; nenhum outro político do PL identificado",
   "economia": "Município do nordeste/sudeste paraense no entroncamento BR-010/BR-222, base em grãos (soja/milho), pecuária e setor madeireiro [conhecimento geral, sem fonte web verificada nesta rodada].",
   "pautas": [
-   "Não verificadas (lacuna)"
+   "Agronegócio/soja: expansão da fronteira agrícola, eventos do setor (Colheita da Soja 2026, Fenetec 2026) e crédito rural (Pronaf p/ pecuária via Emater)",
+   "Segurança viária nas rodovias BR-222/BR-010: acidente com 6 mortos na BR-222 entre Rondon do Pará e Dom Eliseu (ago/2025)",
+   "Segurança pública/violência: dois homens encontrados executados em área rural (jun/2025); operações contra abate clandestino (500 kg de carne, out/2025)",
+   "Meio ambiente/embargos: histórico de embargos do Ibama e apreensão de soja de áreas desmatadas em Dom Eliseu e Ulianópolis (fonte antiga, contexto)",
+   "Pavimentação urbana e saúde (ambulâncias) aparecem em licitações da prefeitura 2026 (agenda da prefeitura)"
   ],
-  "eventos": "Não verificado nesta rodada.",
+  "eventos": "Mar/2026: Lançamento da Colheita de Soja 2026 em Dom Eliseu (~1.500 pessoas, com presença de deputado federal e presidente da Alepa); mai/2026: Fenetec Pará e inauguração de um centro social 'da Paz' com serviços gratuitos de saúde, educação e esporte (nome exato não verificado); ago/2025: acidente com 6 mortos na BR-222.",
   "fontes": [
    "https://www.oliberal.com/eleicoes/silon-e-eleito-prefeito-de-dom-eliseu-pa-nas-eleicoes-2024-1.870532",
-   "https://www.oliberal.com/eleicoes/confira-a-lista-dos-vereadores-eleitos-em-dom-eliseu-pa-nas-eleicoes-2024-1.870534"
+   "https://www.oliberal.com/eleicoes/confira-a-lista-dos-vereadores-eleitos-em-dom-eliseu-pa-nas-eleicoes-2024-1.870534",
+   "https://cnabrasil.org.br/noticias/dom-eliseu-reune-1-500-pessoas-no-lancamento-da-colheita-de-soja-2026",
+   "https://cnabrasil.org.br/noticias/dom-eliseu-e-vitrine-do-agronegocio-paraense-na-fenetec-para-2026",
+   "https://diariodopara.com.br/tag/dom-eliseu/",
+   "https://en.wikipedia.org/wiki/Dom_Eliseu"
   ],
   "confianca": "baixa",
-  "obs": "Nome civil do prefeito não confirmado (possivelmente Silon Gama, pelo perfil citado). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas.",
+  "obs": "Nome civil do prefeito não confirmado (possivelmente Silon Gama, pelo perfil citado). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas. / Pautas derivadas mais de noticiário policial/agro do que de demandas expressas pela comunidade; sem dados sobre hospital/saúde local.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Silon"
@@ -3458,14 +3526,21 @@
   "pl_local": "não encontrado (disputa 2024 entre dois candidatos do MDB)",
   "economia": "Município do Marajó (porção ocidental), população majoritariamente ribeirinha, base em extrativismo (açaí, madeira), pesca e serviços públicos; baixos indicadores sociais [conhecimento geral, sem fonte web verificada nesta rodada].",
   "pautas": [
-   "Não verificadas (lacuna)"
+   "Energia elétrica: precariedade da rede no Marajó (apagões, falhas; TCE-PA cobrou a Aneel em jun/2025); em Portel a rede chegou a impedir a abertura da agência da Caixa (2023)",
+   "Serviços bancários: dependência de agência-barco; agência da Caixa prometida desde 2021",
+   "Saúde em comunidades ribeirinhas: novo prédio da Secretaria de Saúde e posto de saúde no Rio Pacajá inaugurados em jan/2026 (agenda da prefeitura)",
+   "Insegurança alimentar/assistência: distribuição de 1.500 cestas básicas no aniversário de 2026 (agenda da prefeitura)",
+   "Saneamento, educação e saúde como déficits estruturais do Marajó (diagnóstico regional, não específico de Portel)"
   ],
-  "eventos": "Não verificado nesta rodada.",
+  "eventos": "Jan/2026: aniversário de 268 anos com inaugurações (SESMUB, escola no Igarapé Itaquera, posto de saúde no Rio Pacajá); jun/2025: TCE-PA cobra Aneel/Equatorial sobre apagões no Pará, com destaque ao Marajó.",
   "fontes": [
-   "https://www.oliberal.com/eleicoes/paulo-ferreira-e-eleito-prefeito-de-portel-pa-nas-eleicoes-2024-1.870915"
+   "https://www.oliberal.com/eleicoes/paulo-ferreira-e-eleito-prefeito-de-portel-pa-nas-eleicoes-2024-1.870915",
+   "https://diariodopara.com.br/noticias/aniversario-de-portel-o-paraiso-das-ilhas-tem-programacao-especial/",
+   "https://noticiamarajo.com.br/marajo-2/problema-na-rede-eletrica-adia-inauguracao-de-agencia-da-caixa-no-marajo/",
+   "https://cenarioenergia.com.br/2025/06/26/tce-pa-cobra-da-aneel-solucao-urgente-para-precariedade-no-fornecimento-de-energia-eletrica-no-para/"
   ],
   "confianca": "baixa",
-  "obs": "Vice-colocado Alex Aquino também era do MDB (30,22%). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas.",
+  "obs": "Vice-colocado Alex Aquino também era do MDB (30,22%). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas. / Matéria da Caixa é de 2023; matéria do TCE-PA cita Soure/Salvaterra, não Portel nominalmente. Lacuna: imprensa local 2025-2026 específica.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Paulo Ferreira"
@@ -4255,20 +4330,23 @@
   "pl_local": "PL elegeu 3 dos 13 vereadores em 2024 (Elimário, Lucas Lafaiete, Henrique do Hospital), segunda maior bancada junto com PSD; nenhum deputado do PL com reduto identificado.",
   "economia": "Município da Mata Sul (~40 mil hab., Censo 2022; PIB per capita R$ 16,1 mil em 2023) com base em cana-de-açúcar, comércio/serviços e turismo litorâneo.",
   "pautas": [
-   "Alagamentos/chuvas intensas na Mata Sul (ruas alagadas em 04/08/2025, >128 mm em 12h)",
-   "Contenção de encostas/taludes (ordem de serviço estadual 2025)",
-   "Pavimentação/recapeamento asfáltico urbano (licitação autorizada pelo Estado em 2025)",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Enchentes/alagamentos: cidade alagada em 04/08/2025 (>128 mm em 12h na estação do Hospital Municipal), cheias do rio Carimã",
+   "Risco de inundação recorrente na Mata Sul; barragem de Igarapeba (controle de cheias) com edital de conclusão lançado em jan/2025",
+   "Histórico de situação de emergência por chuvas (2023, entre 15 municípios da Mata Sul)"
   ],
-  "eventos": "Chuva forte de 03-04/08/2025 alagou várias ruas; pacote estadual de R$ 200 mi para a Mata Sul (ago/2025) incluiu recapeamento e contenção de taludes em Barreiros. Prefeito eleito com 70,4%.",
+  "eventos": "Chuva forte de 03-04/08/2025 alagou várias ruas; pacote estadual de R$ 200 mi para a Mata Sul (ago/2025) incluiu recapeamento e contenção de taludes em Barreiros. Prefeito eleito com 70,4%. / Ago/2025: forte chuva deixa ruas de Barreiros alagadas; Barreiros NÃO consta no decreto estadual de estiagem de jun/2026.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/barreiros/",
    "https://www.diariodepernambuco.com.br/amp/vida-urbana/2025/08/7796024-chuva-na-zona-da-mata-sul-deixa-barreiros-debaixo-d-agua-nesta-segunda-4.html",
    "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/11693886-governo-anuncia-mais-de-rs-200-milhoes-em-seguranca-mobilidade-e-infraestrutura-para-mata-sul.html",
-   "https://www.ibge.gov.br/cidades-e-estados/pe/barreiros.html"
+   "https://www.ibge.gov.br/cidades-e-estados/pe/barreiros.html",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/7796024-chuva-na-zona-da-mata-sul-deixa-barreiros-debaixo-d-agua-nesta-segunda-4.html",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/7796041-quatro-cidades-e-um-distrito-da-mata-sul-tem-possibilidades-de-inundacao-por-conta-das-chuvas.html",
+   "https://www.folhape.com.br/noticias/pernambuco-tem-acoes-para-enfrentamento-das-chuvas-na-mata-sul-estado/279928/",
+   "https://movimentoeconomico.com.br/estados/pernambuco/2025/01/01/aguas-de-pe-governo-lanca-edital-para-conclusao-da-barragem-igarapeba/"
   ],
   "confianca": "média",
-  "obs": "Prefeito confirmado no IBGE (2025). Base econômica descrita por conhecimento geral da região; pautas parciais.",
+  "obs": "Prefeito confirmado no IBGE (2025). Base econômica descrita por conhecimento geral da região; pautas parciais. / Pautas concentradas em chuvas; sem dados sobre saúde, emprego ou segurança. Matéria da Folha PE é de 2023 (contexto).",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Carlinhos da Pedreira (Carlos Artur Soares de Avellar Junior)"
@@ -4282,17 +4360,21 @@
   "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
   "economia": "Município do Agreste Meridional (~44 mil hab.; PIB per capita R$ 18,2 mil em 2023), base agropecuária (pecuária leiteira, agricultura familiar) e comércio/serviços.",
   "pautas": [
-   "Escassez hídrica no Agreste Meridional (contexto regional 2024-2025)",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Água na zona rural: Adutora da Barra do Brejo levará água tratada a comunidades rurais (out/2026, agenda da prefeitura)",
+   "Turismo: pesquisa pública da prefeitura sobre turismo (out/2026, agenda da prefeitura)",
+   "Qualificação profissional (cursos Senac/Sala do Empreendedor, agenda da prefeitura)"
   ],
-  "eventos": "Eleição apertada em 2024 (prefeito com 50,8%). Não consta nos decretos de emergência por seca de jan/2025 consultados. Nenhum evento local específico encontrado.",
+  "eventos": "Eleição apertada em 2024 (prefeito com 50,8%). Não consta nos decretos de emergência por seca de jan/2025 consultados. Nenhum evento local específico encontrado. / Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/bom-conselho/",
    "https://www.ibge.gov.br/cidades-e-estados/pe/bom-conselho.html",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://www.bomconselho.pe.gov.br/"
   ],
   "confianca": "baixa",
-  "obs": "Pautas e economia sem fonte local específica.",
+  "obs": "Pautas e economia sem fonte local específica. / Busca específica não retornou imprensa local; pautas genéricas e quase só da agenda da prefeitura.",
   "partido_prefeito_sigla": "PV",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Doutor Edézio (Edezio Ferreira dos Santos Filho)"
@@ -4306,21 +4388,24 @@
   "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
   "economia": "Agreste Central (~52 mil hab.), economia baseada no polo de confecções 'sulanca' (distrito de São Domingos, vizinho a Santa Cruz do Capibaribe), agricultura/serviços na sede e turismo religioso em Fazenda Nova (Nova Jerusalém).",
   "pautas": [
-   "Abastecimento de água/rodízio e obras da Adutora do Agreste (chegada aos distritos Fazenda Nova, Barra de Farias e Mandaçaia em 2024)",
-   "Seca: zona rural em situação de emergência (decreto estadual jan/2025)",
-   "Turismo da Paixão de Cristo de Nova Jerusalém",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Abastecimento de água/estiagem: incluído no decreto estadual de emergência (jun/2026); dependência da Adutora do Agreste (distritos Fazenda Nova, Barra de Farias e Mandaçaia passaram de rodízio 15x15 dias para fornecimento diário)",
+   "Estradas/pavimentação: ~24 km de asfalto e acessos com recursos estaduais citados pelo prefeito (jul/2026)",
+   "Saúde: equipamentos e reforço da rede (citado pelo prefeito)",
+   "Educação: creches e possível escola técnica estadual",
+   "Segurança: envio de viaturas e reforço policial"
   ],
-  "eventos": "Ampliação da Adutora do Agreste em mar/2024 passou três distritos do rodízio 15x15 para abastecimento diário; nova etapa autorizada em mai/2024 (R$ 27 mi, junto com São Bento do Una).",
+  "eventos": "Ampliação da Adutora do Agreste em mar/2024 passou três distritos do rodízio 15x15 para abastecimento diário; nova etapa autorizada em mai/2024 (R$ 27 mi, junto com São Bento do Una). / Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); jul/2026: prefeito elogia pacote de obras do governo estadual (água, asfalto, creches).",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/brejo-da-madre-de-deus/",
    "https://portaldeprefeitura.com.br/pernambuco/pernambuco-anuncia-ampliacao-da-adutora-do-agreste-em-municipio/540885/",
    "https://portaldeprefeitura.com.br/noticia/detalhe/governadora-raquel-lyra-anuncia-implantacao-da-adutora-do-agreste-em/553392/",
    "https://pt.wikipedia.org/wiki/Brejo_da_Madre_de_Deus",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/pernambuco/nunca-vi-um-governo-como-este-diz-prefeito-roberto-asfora-ao/626026/"
   ],
   "confianca": "média",
-  "obs": "Prefeito Roberto Asfora (PP) eleito com 55,9%; IBGE não consultado para este município.",
+  "obs": "Prefeito Roberto Asfora (PP) eleito com 55,9%; IBGE não consultado para este município. / Pautas vêm em boa parte de fala do prefeito em evento do governo estadual (viés oficial).",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Roberto Asfora"
@@ -4334,18 +4419,22 @@
   "pl_local": "PL elegeu 1 vereador em 2024 (Salomão Dentista, por média); nenhum outro nome do PL encontrado.",
   "economia": "Agreste/Sertão do Moxotó (~52 mil hab.), agropecuária de subsistência (feijão, milho, mandioca, pecuária semi-extensiva), comércio e turismo no Parque Nacional do Catimbau; Terra Indígena Kapinawá.",
   "pautas": [
-   "Seca: zona rural em emergência (decreto estadual jan/2025); falta de água e forragem para rebanhos",
-   "Turismo e preservação do Vale do Catimbau",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Turismo no Vale do Catimbau: projeto Sebrae/Adepe/prefeitura de formação de guias (2024)",
+   "Gestão de pessoal/contratações temporárias: TCE-PE julgou ilegais 369 contratações de 2022 e mandou fazer concurso (set/2024, gestão anterior)",
+   "Infraestrutura urbana/habitação (licitações 2026, agenda da prefeitura)"
   ],
-  "eventos": "Disputa municipal 2024 polarizada entre MDB (55,1%) e Republicanos (44,9%). Nenhum evento local recente específico encontrado.",
+  "eventos": "Disputa municipal 2024 polarizada entre MDB (55,1%) e Republicanos (44,9%). Nenhum evento local recente específico encontrado. / Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/buique/",
    "https://pt.wikipedia.org/wiki/Bu%C3%ADque",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/pernambuco/tce-determina-prazo-maximo-de-180-dias-para-que-a-prefeitura-de-buique/581928/",
+   "https://movimentoeconomico.com.br/turismo-3/2024/10/10/projeto-transforma-moradores-em-guias-turisticos-do-vale-do-catimbau/"
   ],
   "confianca": "baixa",
-  "obs": "Vereador eleito pelo MDB 'Preto Kapinawá' indica representação indígena local.",
+  "obs": "Vereador eleito pelo MDB 'Preto Kapinawá' indica representação indígena local. / Fontes de 2024 para TCE e turismo; lacuna de imprensa local 2025-2026.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Túlio Monteiro"
@@ -4359,17 +4448,21 @@
   "pl_local": "não encontrado (nenhum vereador do PL entre os eleitos exibidos em 2024)",
   "economia": "Sertão do Moxotó (~38 mil hab.; PIB per capita R$ 20,4 mil em 2023), agropecuária do semiárido (caprino/ovinocultura, pecuária) e comércio/serviços às margens da BR-232.",
   "pautas": [
-   "Seca: zona rural em situação de emergência (decreto estadual 58.012, jan/2025)",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Estradas/vias urbanas: requalificação de 5 vias (R$ 3,8 mi, PE na Estrada) e iluminação LED (jan/2026)",
+   "Transporte escolar e ensino técnico: ônibus escolares e anúncio de Escola Técnica Estadual",
+   "Agricultura familiar: trator e implementos entregues ao Sindicato dos Trabalhadores Rurais"
   ],
-  "eventos": "Nenhum evento local específico encontrado.",
+  "eventos": "Nenhum evento local específico encontrado. / Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); 29/01/2026: visita da governadora com ordens de serviço de vias, LED e anúncio de ETE.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/custodia/",
    "https://www.ibge.gov.br/cidades-e-estados/pe/custodia.html",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/bastidores-da-politica/raquel-lyra-novos-onibus-escolares-em-custodia/614070/"
   ],
   "confianca": "baixa",
-  "obs": "Economia descrita por conhecimento geral da região, sem fonte específica.",
+  "obs": "Economia descrita por conhecimento geral da região, sem fonte específica. / Pautas majoritariamente de agenda do governo estadual; sem dados sobre saúde/hospital.",
   "partido_prefeito_sigla": "PSD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Manoel Messias (Manoel Messias de Souza)"
@@ -4411,19 +4504,25 @@
   "pl_local": "PL elegeu 1 vereador em 2024 (Gel Napoleão, 1.023 votos, por quociente partidário).",
   "economia": "Agreste (~63 mil hab.; PIB per capita R$ 17,3 mil em 2023), histórico industrial de doces/tomate, agricultura e bordado renascença; maior território indígena do Nordeste (Xukuru do Ororubá).",
   "pautas": [
-   "Seca: zona rural em situação de emergência (decreto estadual jan/2025)",
-   "Questões indígenas/território Xukuru (prefeito é liderança Xukuru)",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Estiagem/água: incluído no decreto estadual de emergência (jun/2026); dessalinizador entregue na aldeia Jatobá-Xukuru (jun/2026)",
+   "Saúde: licitação de equipamentos para o Hospital Dr. Lídio Paraíba e UPA (2026); seleção com 277 vagas na Saúde (2025)",
+   "Pavimentação de ruas nos distritos de Papagaio e Salobro (R$ 1,8 mi, governo estadual)",
+   "Educação indígena: requalificação da Escola Estadual Indígena Ororubá; seleção de 616 temporários na Educação (jan/2026)",
+   "Crise político-judicial: operação 'Pactum Amicis' (fraude em licitações) com mandado de afastamento do prefeito (abr/2025); prefeitura nega envolvimento"
   ],
-  "eventos": "Eleição 2024 muito apertada: Cacique Marcos (Republicanos) 51,2% x Rossine (Podemos) 48,9%; vários vereadores Xukuru eleitos.",
+  "eventos": "Eleição 2024 muito apertada: Cacique Marcos (Republicanos) 51,2% x Rossine (Podemos) 48,9%; vários vereadores Xukuru eleitos. / Abr/2025: operação da Polícia Civil e ordem judicial de afastamento do prefeito (prefeitura contestou, alegando perseguição política); jun/2026: entrega de dessalinizador e obras pela governadora; prefeito fala em ~R$ 100 mi em projetos; Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/pesqueira/",
    "https://www.ibge.gov.br/cidades-e-estados/pe/pesqueira.html",
    "https://pt.wikipedia.org/wiki/Pesqueira",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://www.diariodepernambuco.com.br/noticia/politica/2025/04/prefeito-de-pesqueira-tem-afastamento-do-cargo-pedido-apos-operacao-qu.html",
+   "https://portaldeprefeitura.com.br/pernambuco/em-pesqueira-governadora-entrega-dessalinizador-e-requalificacao-de/625461/",
+   "https://www.brasildefato.com.br/2025/01/05/pesqueira-pe-tem-lider-indigena-prefeito-sindicalista-como-vice-e-camara-40-indigena"
   ],
   "confianca": "média",
-  "obs": "IBGE confirma Marcos Luidson de Araújo como prefeito em 2025; não foram verificadas eventuais ações judiciais posteriores.",
+  "obs": "IBGE confirma Marcos Luidson de Araújo como prefeito em 2025; não foram verificadas eventuais ações judiciais posteriores. / Prefeito indígena (Xukuru) e Câmara 40% indígena desde 2025. Desfecho do afastamento não verificado.",
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Cacique Marcos Xukuru (Marcos Luidson de Araújo)"
@@ -4465,19 +4564,22 @@
   "pl_local": "não encontrado (PL não lançou/elegeu vereadores em 2024 segundo a página de resultados)",
   "economia": "Sertão do Pajeú (~35 mil hab.; PIB per capita R$ 15,2 mil em 2023), agropecuária do semiárido, comércio e serviços.",
   "pautas": [
-   "Seca: zona rural em situação de emergência (decreto jan/2025)",
-   "Segurança pública: município atendido pelo novo Complexo de Polícia Científica de Serra Talhada (entrega prevista out/2026)",
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Recursos hídricos: superexploração de aquíferos na bacia local (estudos técnicos)",
+   "Turismo/acesso: R$ 1,2 mi do Ministério do Turismo para pavimentar o acesso à Pedra do Reino (ago/2026)"
   ],
-  "eventos": "Prefeito eleito com 75% e PSB com 8 de 13 vereadores. Nenhum evento local específico encontrado.",
+  "eventos": "Prefeito eleito com 75% e PSB com 8 de 13 vereadores. Nenhum evento local específico encontrado. / Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); 11/08/2026: contrato de repasse federal para estrada da Pedra do Reino.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/sao-jose-do-belmonte/",
    "https://www.ibge.gov.br/cidades-e-estados/pe/sao-jose-do-belmonte.html",
    "https://portaldeprefeitura.com.br/pernambuco/governo-de-pernambuco-obras-de-creches-complexos-policia/627966/",
-   "https://movimentoeconomico.com.br/?p=83155"
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://atlaspublico.com.br/noticias/caixa-economica-federal-repassa-rs-1-2-milhao-ao-municipio-79963",
+   "https://en.wikipedia.org/wiki/S%C3%A3o_Jos%C3%A9_do_Belmonte"
   ],
   "confianca": "baixa",
-  "obs": "Economia por conhecimento geral.",
+  "obs": "Economia por conhecimento geral. / Pautas escassas; sem imprensa local sobre saúde, emprego ou segurança.",
   "partido_prefeito_sigla": "PSB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Vinicius Marques (Vinicius Marques Alves)"
@@ -4519,16 +4621,18 @@
   "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
   "economia": "Norte do Piauí (~41 mil hab.; PIB per capita R$ 15,4 mil em 2023), região dos Cocais, agricultura familiar, extrativismo e serviços.",
   "pautas": [
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Cheias do rio Longá (rio ultrapassou cota de alerta em episódio anterior; monitoramento SGB/CPRM)",
+   "Somente pautas genéricas encontradas para 2025-2026"
   ],
-  "eventos": "Prefeita eleita com 86,35% sobre candidato do PT; MDB com 7 de 13 vereadores. Nenhum evento local encontrado.",
+  "eventos": "Prefeita eleita com 86,35% sobre candidato do PT; MDB com 7 de 13 vereadores. Nenhum evento local encontrado. / Nenhum evento 2025-2026 verificado.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pi/esperantina/",
    "https://www.ibge.gov.br/cidades-e-estados/pi/esperantina.html",
-   "https://pt.wikipedia.org/wiki/Esperantina_(Piau%C3%AD)"
+   "https://pt.wikipedia.org/wiki/Esperantina_(Piau%C3%AD)",
+   "https://www.climatempo.com.br/noticia/2021/03/02/servico-geologico-do-brasil-monitora-cheia-nos-rios-8356"
   ],
   "confianca": "baixa",
-  "obs": "Buscas não retornaram imprensa local; economia por conhecimento geral.",
+  "obs": "Buscas não retornaram imprensa local; economia por conhecimento geral. / Site da prefeitura retornou 403; busca não trouxe imprensa local 2025-2026. Lacuna principal do lote.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Ivanária Sampaio (Ivanaria do Nascimento Alves Sampaio)"
@@ -4542,17 +4646,21 @@
   "pl_local": "não encontrado (PL sem candidatos a prefeito/vereador em 2024 segundo Itatiaia)",
   "economia": "Norte do Piauí (~38 mil hab.; PIB per capita R$ 13,2 mil em 2023), 'Terra da Opala' (única mineração de opala do Brasil), turismo serrano (Festival de Inverno, Morro do Gritador), artesanato/tecelagem e agricultura.",
   "pautas": [
-   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+   "Turismo e infraestrutura: novo ciclo de obras estaduais de urbanização/mobilidade voltadas ao turismo (2025-2026)",
+   "Qualificação profissional e combate ao trabalho infantil (agenda da prefeitura)",
+   "Contas públicas: TCE-PI aprovou contas de 2024 (ago/2026, agenda da prefeitura)",
+   "Somente pautas genéricas; nada específico sobre saúde, água ou estiagem encontrado"
   ],
-  "eventos": "Concurso público da prefeitura (2025-2026). Prefeita eleita com 60,5% sobre candidata do PT.",
+  "eventos": "Concurso público da prefeitura (2025-2026). Prefeita eleita com 60,5% sobre candidata do PT. / Ago/2026: TCE-PI aprova contas de 2024 da prefeitura; investimentos estaduais em turismo (sem detalhe verificado).",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pi/pedro-ii/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pedro-ii-pi-da-eleicao-2024/",
    "https://www.ibge.gov.br/cidades-e-estados/pi/pedro-ii.html",
-   "https://pt.wikipedia.org/wiki/Pedro_II_(Piau%C3%AD)"
+   "https://pt.wikipedia.org/wiki/Pedro_II_(Piau%C3%AD)",
+   "https://pedroii.pi.gov.br/"
   ],
   "confianca": "baixa",
-  "obs": "Sem fontes locais sobre pautas.",
+  "obs": "Sem fontes locais sobre pautas. / Pautas quase só da agenda da prefeitura; o PDF do Correio da Manhã sobre investimentos não foi legível.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Betinha Brandão (Elisabete Rodrigues de Oliveira Nunes Brandão)"
@@ -6569,15 +6677,21 @@
   "pl_local": "não encontrado",
   "economia": "Cidade-dormitório da Grande SP (~165 mil hab., Censo 2022), com economia de comércio local e sem empresas de grande porte; boa parte dos moradores trabalha na capital ou em municípios vizinhos. É considerada uma das cidades mais carentes da RMSP.",
   "pautas": [
-   "Falta de empregos locais e deslocamento diário para a capital (Wikipedia)",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Chuvas, deslizamentos e áreas de risco em encostas: deslizamento em 01/02/2025 junto à estação Botujuru descarrilou trem da CPTM e houve alagamentos em Botujuru/Caieiras/Franco da Rocha; histórico de mortes por deslizamento (jan/2022, 4 óbitos); estado instalou sirene de alerta para áreas de risco",
+   "Transporte sobre trilhos: interrupções e velocidade reduzida na Linha 7-Rubi (fev/2025) e queixas de intervalos longos entre trens no trecho Francisco Morato–Jundiaí",
+   "Saúde: Santa Casa (gerida pelo Grupo São Cristóvão) e UPA 24h; prefeitura doou terrenos para ampliação hospitalar (doação noticiada em 2024)",
+   "Saneamento/controle de enchentes e habitação aparecem como eixos do plano de governo 2025-2028 (documento TSE, não aberto em detalhe)"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / Temporal de 31/01-01/02/2025: deslizamento de terra próximo à estação Botujuru descarrilou trem (sem passageiros) e suspendeu temporariamente a circulação Francisco Morato–Botujuru na Linha 7-Rubi; ônibus gratuitos (PAESE). Não encontrei decreto de emergência de 2025-2026 nem notícia local de 2026.",
   "fontes": [
-   "https://pt.wikipedia.org/wiki/Francisco_Morato"
+   "https://pt.wikipedia.org/wiki/Francisco_Morato",
+   "https://diariodotransporte.com.br/2025/02/01/novas-imagens-atualizadas-mostram-trem-da-cptm-atingido-por-deslizamento-de-terra/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/prefeita-de-francisco-morato-diz-que-todo-o-territorio-da-cidade-esta-sob-alerta-apos-chuvas/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/veja-como-esta-o-plano-de-contingencia-de-francisco-morato-apos-chuvas/"
   ],
   "confianca": "baixa",
-  "obs": "Pela memória do pesquisador, a prefeita seria Renata Sene (Republicanos), reeleita em 2024; o dado não foi verificado e não foi registrado como fato.",
+  "obs": "Pela memória do pesquisador, a prefeita seria Renata Sene (Republicanos), reeleita em 2024; o dado não foi verificado e não foi registrado como fato. / As matérias da Tribuna de Jundiaí sobre emergência (4 mortes, 36 vias interditadas) são de jan-fev/2022, não 2025-2026; usadas só como contexto de risco. Pautas de 2026 não localizadas. A busca retornou matérias sobre a 'Avenida Professor Francisco Morato' (capital), que NÃO se referem ao município.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6591,16 +6705,16 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno (18,6 mil hab., Censo 2022, população em queda de 6,3%) às margens da Rodovia Anhanguera (SP-330), entre Ribeirão Preto e Franca; base provavelmente agrícola/sucroenergética (não verificado).",
   "pautas": [
-   "Instabilidade no comando da prefeitura em 2025 (ver obs)",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Somente pautas genéricas encontradas: saúde (remanejamentos de recursos para a Secretaria de Saúde citados em documentos da ALESP) e financiamento das Santas Casas regionais (Franca/Ituverava)"
   ],
-  "eventos": "Segundo a Wikipedia, o presidente da Câmara assumiu como prefeito em 01/01/2025, o que indica que o eleito em 2024 não tomou posse (possível indeferimento ou cassação). Pode ter havido eleição suplementar depois; não verificado.",
+  "eventos": "Segundo a Wikipedia, o presidente da Câmara assumiu como prefeito em 01/01/2025, o que indica que o eleito em 2024 não tomou posse (possível indeferimento ou cassação). Pode ter havido eleição suplementar depois; não verificado. / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Guar%C3%A1_(S%C3%A3o_Paulo)",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-guara-sp-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-guara-sp-da-eleicao-2024/",
+   "https://www.al.sp.gov.br/noticia/?id=474243"
   ],
   "confianca": "baixa",
-  "obs": "Os candidatos a prefeito em 2024 foram Dr. Tulio (PODE), Fernando Joaquim (PT) e Vinicius Engenheiro (PSD), segundo a Itatiaia. Não se confirmou quem venceu nem quem governa hoje. A posse do presidente da Câmara em 2025 merece checagem.",
+  "obs": "Os candidatos a prefeito em 2024 foram Dr. Tulio (PODE), Fernando Joaquim (PT) e Vinicius Engenheiro (PSD), segundo a Itatiaia. Não se confirmou quem venceu nem quem governa hoje. A posse do presidente da Câmara em 2025 merece checagem. / Lacuna: buscas trouxeram principalmente Guaíra-SP e Guará-DF. A audiência da ALESP em Ituverava (abr/2024) trata da região, não especificamente de Guará.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6614,15 +6728,15 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~28 mil hab. na divisa com MG, com base sucroalcooleira (canaviais); serviços respondem por 79,8% do valor adicionado e a indústria por 15,1% (SEADE).",
   "pautas": [
-   "População em queda contínua (Wikipedia)",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Saúde: Santa Casa de Misericórdia de Igarapava (filantrópica, referência SUS regional) com dificuldades históricas de investimento; prefeitura abriu Chamamento Público nº 2/2026 para credenciar 20 especialidades médicas (R$ 4,1 milhões) — agenda da prefeitura",
+   "Demais pautas (estradas, emprego, segurança) não localizadas"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / Nenhum evento relevante de 2025-2026 encontrado além do chamamento de especialidades médicas em 2026.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Igarapava"
   ],
   "confianca": "média",
-  "obs": "Mandato 2025-2028, com vice Plininho (União), segundo a Wikipedia.",
+  "obs": "Mandato 2025-2028, com vice Plininho (União), segundo a Wikipedia. / Informações vêm de resumo de busca; página do chamamento não aberta em detalhe. Sem imprensa local localizada. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!licitacao/DOU-1a40957de57be5f926f3",
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Dr. José Humberto"
@@ -6636,16 +6750,15 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno (~14,5 mil hab.) na região de Ribeirão Preto/Franca; economia agrícola, com cana e grãos provável (não verificado).",
   "pautas": [
-   "Disputa judicial sobre as 'áreas de lazer' do município, com decisão do STF e nota de esclarecimento da prefeitura",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Não foram encontradas pautas locais específicas; apenas concurso público da prefeitura em 2026 (inscrições jun-jul/2026)"
   ],
-  "eventos": "Decisão do STF sobre as 'áreas de lazer' (provavelmente loteamentos/ranchos às margens de represa; detalhes não lidos).",
+  "eventos": "Decisão do STF sobre as 'áreas de lazer' (provavelmente loteamentos/ranchos às margens de represa; detalhes não lidos). / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://www.ipua.sp.gov.br/",
    "https://pt.wikipedia.org/wiki/Ipu%C3%A3"
   ],
   "confianca": "baixa",
-  "obs": "O site da prefeitura não mostrou o nome do prefeito.",
+  "obs": "O site da prefeitura não mostrou o nome do prefeito. / Lacuna total de imprensa local; nenhuma fonte aberta especificamente.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6659,14 +6772,14 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~25 mil hab. (Censo 2022) no sudoeste paulista; turismo na represa de Jurumirim (prainhas, condomínios de veraneio) e agropecuária regional (não detalhada).",
   "pautas": [
-   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Não foram encontradas pautas locais específicas (buscas retornaram Itu, Jumirim e Itaquera)"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Ita%C3%AD"
   ],
   "confianca": "baixa",
-  "obs": "A Wikipedia indica como prefeito José Ramiro Antunes do Prado, com vice Marcos Domingos Correa, sem partido nem mandato. O site da prefeitura bloqueou acesso (robots).",
+  "obs": "A Wikipedia indica como prefeito José Ramiro Antunes do Prado, com vice Marcos Domingos Correa, sem partido nem mandato. O site da prefeitura bloqueou acesso (robots). / Lacuna total; busca confundiu com outros municípios.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": "José Ramiro Antunes do Prado"
@@ -6680,16 +6793,18 @@
   "pl_local": "não encontrado",
   "economia": "Município muito pequeno (~7 mil hab.) no Vale Histórico/Fundo do Vale do Paraíba; base agropecuária, com fontes de água mineral e título de Município de Interesse Turístico.",
   "pautas": [
-   "Emprego/renda: o programa municipal Frente de Trabalho teve seleção em 2026",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Habitação: licitação para 20 unidades habitacionais no Jardim Mavisou (2026) — agenda da prefeitura",
+   "Eventos rurais: Torneio Leiteiro (jul/2026) e Festa do Peão (ago/2026) contratados pela prefeitura — agenda da prefeitura",
+   "Plano de governo 2025-2028 (prefeito Marcos Vinicius Franqueira Garcia, segundo o documento) prioriza saúde, educação, segurança e emprego/renda — genérico, agenda da prefeitura"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / Nenhum evento de 2025-2026 encontrado na imprensa.",
   "fontes": [
    "https://www.lavrinhas.sp.gov.br/",
-   "https://pt.wikipedia.org/wiki/Lavrinhas"
+   "https://pt.wikipedia.org/wiki/Lavrinhas",
+   "https://lavrinhas.sp.gov.br/wp-content/uploads/2026/05/Plano-de-Governo-2025-2028.pdf"
   ],
   "confianca": "baixa",
-  "obs": "A Wikipedia traz apenas José Benedito da Silva (mandato 2021-2024). Não se confirmou quem foi eleito em 2024.",
+  "obs": "A Wikipedia traz apenas José Benedito da Silva (mandato 2021-2024). Não se confirmou quem foi eleito em 2024. / PDF do plano de governo baixado mas texto não extraível; conteúdo vem do resumo da busca. Pautas são só agenda da prefeitura. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!licitacao/MN-3526605-2-120262-12026",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6703,16 +6818,18 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~20 mil hab. na região de Franca, às margens do rio Grande; agricultura (soja, cana, milho, feijão, sorgo) com usinas Colorado e Caeté nas proximidades, mais turismo no rio Grande.",
   "pautas": [
-   "Habitação: sorteio de casas da CDHU em 24/09/2026",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Turismo/lazer: controle de acesso de veículos na Praia Artificial (licitação 2026) — agenda da prefeitura",
+   "Saúde e assistência social regionais: reivindicação por recursos para Santas Casas da região e reforma da APAE de Miguelópolis (audiência ALESP em Ituverava, abr/2024 — R$ 1,5 mi reservados para Santas Casas de Ituverava/Franca e APAE Miguelópolis)",
+   "Demais pautas de 2025-2026 não localizadas"
   ],
-  "eventos": "Sorteio de moradias CDHU em setembro de 2026, pouco antes do 1º turno. Concurso público municipal 001/2026.",
+  "eventos": "Sorteio de moradias CDHU em setembro de 2026, pouco antes do 1º turno. Concurso público municipal 001/2026. / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://www.miguelopolis.sp.gov.br/",
-   "https://pt.wikipedia.org/wiki/Miguel%C3%B3polis"
+   "https://pt.wikipedia.org/wiki/Miguel%C3%B3polis",
+   "https://www.al.sp.gov.br/noticia/?id=474243"
   ],
   "confianca": "baixa",
-  "obs": "O site da prefeitura não exibiu o nome do prefeito.",
+  "obs": "O site da prefeitura não exibiu o nome do prefeito. / Fonte da ALESP é de 2024 (contexto). Licitações de 2026 só indicam rotina administrativa. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!municipios/3529708",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6726,14 +6843,14 @@
   "pl_local": "não encontrado",
   "economia": "Município muito pequeno (~5 mil hab.) no Oeste Paulista, região de Presidente Prudente/Pontal do Paranapanema; economia provavelmente de cana e pecuária (não verificado).",
   "pautas": [
-   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Não foram encontradas pautas locais específicas"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Narandiba"
   ],
   "confianca": "baixa",
-  "obs": "A Wikipedia traz apenas Itamar dos Santos Silva (PSDB, 2021-2024). Não se confirmou quem foi eleito em 2024. O site da prefeitura caiu.",
+  "obs": "A Wikipedia traz apenas Itamar dos Santos Silva (PSDB, 2021-2024). Não se confirmou quem foi eleito em 2024. O site da prefeitura caiu. / Lacuna total.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": ""
@@ -6747,15 +6864,15 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~15,7 mil hab. na região de Franca; agropecuária com café de alta qualidade premiado, produção de calçados masculinos ligada ao polo de Franca e ecoturismo.",
   "pautas": [
-   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Não foram encontradas pautas locais específicas; apenas concurso público da prefeitura em 2026"
   ],
-  "eventos": "Na eleição de 2024, Caca Advogado venceu com 5.088 votos (53,10%); Roberto Abrão ficou com 3.312 (34,56%).",
+  "eventos": "Na eleição de 2024, Caca Advogado venceu com 5.088 votos (53,10%); Roberto Abrão ficou com 3.312 (34,56%). / Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://sampi.net.br/franca/noticias/2860620/franca-e-regiao/2024/10/veja-os-prefeitos-eleitos-de-cristais-rifaina-e-pedregulho",
    "https://pt.wikipedia.org/wiki/Pedregulho"
   ],
   "confianca": "média",
-  "obs": "O partido do prefeito não foi informado na fonte.",
+  "obs": "O partido do prefeito não foi informado na fonte. / Lacuna total de imprensa local.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": "Caca Advogado"
@@ -6769,17 +6886,19 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~18,6 mil hab. (Censo 2022) no sudoeste paulista, região de Itapeva/Itapetininga; economia agrícola, com hortifrúti (tomate) provável, não verificado.",
   "pautas": [
-   "Educação: a prefeitura destaca o resultado no IDEB 2025",
-   "Qualificação profissional (curso de eletricista residencial e rural em 2026)",
-   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+   "Estradas/pontes: Concorrência 93/2026 (set/2026) para construir ponte metálica/concreto sobre o rio Apiaí-Guaçu no km 9 da SP-252 — agenda da prefeitura",
+   "Agricultura (tomate): dependência econômica da cultura; reconhecimento como 'Capital do Tomate' (PL ALESP 2025); custos e clima citados como desafios do setor em 2026 na imprensa nacional",
+   "Demais pautas (saúde, emprego) não localizadas"
   ],
-  "eventos": "não levantado",
+  "eventos": "não levantado / PL estadual (dez/2025) para declarar Ribeirão Branco 'Capital do Tomate'; licitação de ponte na SP-252 (set/2026). Nenhum desastre ou crise localizada.",
   "fontes": [
    "https://www.ribeiraobranco.sp.gov.br/",
-   "https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Branco"
+   "https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Branco",
+   "https://alertalicitacao.com.br/!licitacao/MN-3543006-2-9320262-932026",
+   "https://www.al.sp.gov.br/spl/2025/12/Propositura/1000674849_1000844527_Propositura.pdf"
   ],
   "confianca": "média",
-  "obs": "O nome do prefeito e do vice (Alessandro Luís Teixeira) vem do site da prefeitura em 2026; o partido não foi confirmado.",
+  "obs": "O nome do prefeito e do vice (Alessandro Luís Teixeira) vem do site da prefeitura em 2026; o partido não foi confirmado. / Dados de 20% da produção estadual vêm do resumo da busca do PL; o PDF foi baixado mas não teve o texto extraído.",
   "partido_prefeito_sigla": "",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": "Antônio Carlos Camargo Ribas"
@@ -6818,15 +6937,15 @@
   "pl_local": "PL lançou 6 candidatos a vereador em 2024 (ex.: Gilmar do Óleo, Marcelinho da Saúde); eleitos e bancada não verificados. Nenhum eleito do PL com reduto local encontrado.",
   "economia": "Município pequeno (6,3 mil hab., Censo 2022; PIB per capita R$ 38,7 mil em 2023) no oeste paulista; base agropecuária (cana/pecuária, setor por conhecimento geral, não verificado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Não foram encontradas pautas locais específicas"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/sp/3552908.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-taciba-sp-da-eleicao-2024/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito via IBGE Cidades (2025) cruzado com lista de candidatos 2024 da Itatiaia (adversários: Damião Ferreira-PODE, Fúlvia-União). Partido é o da candidatura de 2024.",
+  "obs": "Prefeito via IBGE Cidades (2025) cruzado com lista de candidatos 2024 da Itatiaia (adversários: Damião Ferreira-PODE, Fúlvia-União). Partido é o da candidatura de 2024. / Lacuna total.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Izidoro Arcesti Ricci (Izidoro Ricci)"
@@ -6840,15 +6959,15 @@
   "pl_local": "não encontrado (PL não lançou candidatos a vereador em 2024 segundo a Itatiaia)",
   "economia": "Município pequeno (11,8 mil hab.; PIB per capita R$ 30,4 mil em 2023) na região de Mococa/divisa com MG; agropecuária (café, cana, leite — por conhecimento geral, não verificado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Não foram encontradas pautas locais específicas; prefeitura com processo seletivo em 2025 e reforma do chafariz da Praça Nossa Senhora da Conceição (licitação 2026) — agenda da prefeitura"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/sp/3553609.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tapiratiba-sp-da-eleicao-2024/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito via IBGE Cidades (2025) + Itatiaia (adversários: Domingão-PT, João Carlos-PSB). Site da prefeitura não pôde ser lido (rate limit).",
+  "obs": "Prefeito via IBGE Cidades (2025) + Itatiaia (adversários: Domingão-PT, João Carlos-PSB). Site da prefeitura não pôde ser lido (rate limit). / Lacuna total de imprensa local. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!municipios/3553609",
   "partido_prefeito_sigla": "CIDADANIA",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Ramon Jesus Vieira (Ramon)"
@@ -6862,15 +6981,20 @@
   "pl_local": "não encontrado (PL sem candidatos a vereador em 2024; chapas só de PT, PV e União)",
   "economia": "Município muito pequeno (2,6 mil hab.; 1.906 km²; PIB per capita R$ 55,1 mil em 2023), base agropecuária (pecuária de corte provável — não verificado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Estradas: pavimentação da TO-446 no trecho Miranorte–Abreulândia, cobrada em requerimento na Assembleia Legislativa (2023)",
+   "Habitação: chamamento público 001/2025 da prefeitura para 50 moradias do Minha Casa Minha Vida (agenda da prefeitura)",
+   "Só achei genéricos para 2025–2026; não houve cobertura da imprensa local sobre saúde ou segurança"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Eleição de 2024 com candidato único a prefeito (Conexão Tocantins). Nenhum evento relevante em 2025–2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1700251.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-abreulandia-to-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-abreulandia-to-da-eleicao-2024/",
+   "https://en.wikipedia.org/wiki/Abreul%C3%A2ndia",
+   "https://sapl.al.to.leg.br/media/sapl/public/materialegislativa/2023/7838/requerimento_no_065_-__pavimentacao_asfaltica_to_-.pdf",
+   "https://conexaoto.com.br/2024/10/07/atm-parabeniza-eleitos-e-revela-anuncia-evento-voltado-aos-prefeitos-no-inicio-de-2025"
   ],
   "confianca": "média",
-  "obs": "Candidato único a prefeito em 2024 (PT). Pautas não pesquisadas com sucesso.",
+  "obs": "Candidato único a prefeito em 2024 (PT). Pautas não pesquisadas com sucesso. / Fontes vistas só nos resultados de busca, sem abrir páginas, e com pouca cobertura local. Pautas fracas.",
   "partido_prefeito_sigla": "PT",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Manoel Francisco de Moura (Manoel Moura)"
@@ -6884,15 +7008,22 @@
   "pl_local": "PL lançou 7 candidatos a vereador em 2024 (ex.: Tenente Francilvan, Levi Tavares); eleitos não verificados.",
   "economia": "Pequeno município (5,1 mil hab.; 1.581 km²) às margens da BR-153 no sul do TO, PIB per capita alto (R$ 82,2 mil, 2023) sugerindo agronegócio (soja/pecuária — não verificado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Rodovia: duplicação da BR-153 (trecho Xambioá–Aliança do Tocantins) defendida para inclusão no Novo PAC",
+   "Saúde: chamamento público do Fundo Municipal de Saúde para contratar profissionais de saúde (cerca de R$ 2 milhões) (agenda da prefeitura)",
+   "Saúde/vigilância: licitação para construir um Centro de Controle de Zoonoses, suspensa em maio/2025 (agenda da prefeitura)",
+   "Primeira infância: município incluído pelo TCE-TO na nova fase do programa 'Aliança pela Primeira Infância', destinada a municípios com desafios estruturais na edição de 2025"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Nenhum evento de grande impacto encontrado em 2025–2026.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1700350.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-alianca-do-tocantins-to-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-alianca-do-tocantins-to-da-eleicao-2024/",
+   "https://conexaoto.com.br/2024/02/21/dorinha-e-ayres-defendem-inclusao-no-pac-de-hospital-da-uft-e-duplicacao-da-br-153",
+   "https://alertalicitacao.com.br/!licitacao/PNCP-11341025000175-1-000002-2025",
+   "https://clebertoledo.com.br/tocantins/tce-abre-nova-fase-do-programa-alianca-pela-primeira-infancia-em-12-municipios-com-registros-de-desafios-estruturais-na-edicao-de-2025-confira-a-lista/",
+   "https://central3.to.gov.br/arquivo/id:46697/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito via IBGE + Itatiaia (adversário: Zé Carlos-PP).",
+  "obs": "Prefeito via IBGE + Itatiaia (adversário: Zé Carlos-PP). / O site da prefeitura (alianca.to.gov.br) não carregou e a matéria do TCE deu 403. As informações vêm dos resumos de busca.",
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Elves Moreira Guimarães (Elves Guimarães)"
@@ -6906,15 +7037,22 @@
   "pl_local": "PL lançou 9 candidatos a vereador em 2024; eleitos não verificados.",
   "economia": "Pequeno município (4,9 mil hab.; PIB per capita R$ 58,3 mil em 2023) na região de Palmas/leste; agropecuária (não detalhado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Estradas/pontes rurais: licitação para construir ponte sobre o córrego Barreiro, na zona rural (set/2025) (agenda da prefeitura)",
+   "Assistência social: construção do CRAS (cerca de R$ 761 mil, out/2025) (agenda da prefeitura)",
+   "Turismo/infraestrutura: obra da orla do Rio Negro com recursos do Ministério do Turismo (cerca de R$ 1,08 milhão, jan/2026) (agenda da prefeitura)",
+   "Primeira infância: município incluído pelo TCE-TO no programa 'Aliança pela Primeira Infância' (municípios com desafios estruturais)"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Nenhum evento de grande impacto encontrado em 2025–2026.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1701101.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-aparecida-do-rio-negro-to-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-aparecida-do-rio-negro-to-da-eleicao-2024/",
+   "https://alertalicitacao.com.br/!licitacao/DOU-f869520bbb159c3f91db",
+   "https://www.ibge.gov.br/cidades-e-estados/to/aparecida-do-rio-negro.html",
+   "https://clebertoledo.com.br/tocantins/tce-abre-nova-fase-do-programa-alianca-pela-primeira-infancia-em-12-municipios-com-registros-de-desafios-estruturais-na-edicao-de-2025-confira-a-lista/",
+   "https://central3.to.gov.br/arquivo/id:46697/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito via IBGE + Itatiaia (adversário: Suzano-União).",
+  "obs": "Prefeito via IBGE + Itatiaia (adversário: Suzano-União). / As pautas vêm quase só de licitações da prefeitura; não achei imprensa local.",
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Deusimar Pereira de Amorim (Deusimar Amorim)"
@@ -6928,15 +7066,22 @@
   "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
   "economia": "Pequeno município (4,8 mil hab.; PIB per capita R$ 28,9 mil em 2023) na região central do TO, base agropecuária/serviços (não detalhado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Educação: reforma de duas escolas estaduais (Pres. Tancredo Neves e Pres. Costa e Silva), mais de R$ 5,6 milhões, inauguradas pelo governador em 02/02/2026",
+   "Segurança: prisão (jun/2026) de jovem que ameaçava moradores e policiais com pistola 9mm e fazia manobras de moto ('grau')",
+   "Gestão pública: recomendação do MP-TO (Promotoria de Miranorte, abr/2026) para o prefeito parar de usar perfis oficiais para promoção pessoal",
+   "Habitação: município incluído no Novo PAC/FNHIS Sub 50 para novas moradias; saneamento (obras de esgoto da BRK desde 2022)"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Inauguração de escolas pelo governo estadual (fev/2026), recomendação do MP-TO sobre publicidade pessoal do prefeito (abr/2026) e caso policial de ameaças (jun/2026).",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1703107.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-barrolandia-to-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-barrolandia-to-da-eleicao-2024/",
+   "https://conexaoto.com.br/tag/noticias-de-barrolandia",
+   "https://conexaoto.com.br/2026/02/02/governador-wanderlei-inaugura-reformas-em-barrolandia-com-investimento-superior-a-r-5-6-milhoes",
+   "https://conexaoto.com.br/2026/04/22/uso-de-perfis-oficiais-para-promocao-pessoal-pode-levar-prefeito-a-responder-por-improbidade",
+   "https://conexaoto.com.br/2026/06/29/pcto-prende-jovem-de-19-anos-suspeito-de-ameacar-moradores-e-policiais-em-barrolandia"
   ],
   "confianca": "baixa",
-  "obs": "IBGE dá João Machado Alves como prefeito 2025; candidatos 2024 eram Douglas Carvalho Rosa (PSDB), João do Supergiro (União) e Leila Rocha (PV). Correspondência João Machado Alves = João do Supergiro é inferida, não confirmada.",
+  "obs": "IBGE dá João Machado Alves como prefeito 2025; candidatos 2024 eram Douglas Carvalho Rosa (PSDB), João do Supergiro (União) e Leila Rocha (PV). Correspondência João Machado Alves = João do Supergiro é inferida, não confirmada. / Matérias abertas. Faltam pautas de saúde e estradas.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": true,
   "prefeito_2024_nome": "João Machado Alves (provavelmente 'João do Supergiro')"
@@ -6950,16 +7095,18 @@
   "pl_local": "PL lançou 9 candidatos a vereador em 2024; Júnior Chaveiro (candidato do PL, nº 22000) liderou a chapa eleita para a presidência da Câmara 2025/2026 — indica vereador do PL eleito, partido atual não reconfirmado.",
   "economia": "Pequeno município (4,0 mil hab.) vizinho a Gurupi, com PIB per capita muito alto (R$ 249 mil, 2023), compatível com agronegócio de grande escala (soja/grãos — setor não verificado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Só achei genéricos: no discurso de posse (jan/2025) o prefeito prometeu 'crescimento acelerado' e 'cuidar das pessoas', sem pautas específicas",
+   "Agro: lançamento da 26ª Agrotins na Fazenda Pai e Filho, em Cariri"
   ],
-  "eventos": "Posse em 01/01/2025; prefeito declarou foco em 'cuidar das pessoas' e desenvolvimento acelerado (genérico).",
+  "eventos": "Posse em 01/01/2025; prefeito declarou foco em 'cuidar das pessoas' e desenvolvimento acelerado (genérico). / Posse do novo prefeito e da vice em 01/01/2025, sucedendo Júnior Marajó. Nenhum evento relevante em 2025–2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1703867.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-cariri-do-tocantins-to-da-eleicao-2024/",
-   "https://conexaoto.com.br/2025/01/01/tetin-e-ivonete-tomam-posse-como-prefeito-e-vice-prefeita-de-cariri"
+   "https://conexaoto.com.br/2025/01/01/tetin-e-ivonete-tomam-posse-como-prefeito-e-vice-prefeita-de-cariri",
+   "https://www.ibge.gov.br/cidades-e-estados/to/cariri-do-tocantins.html"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito confirmado pela candidatura (Tetin-União, nº 44; adversário Valdônio Rodrigues-PDT) e por notícia de pré-candidatura pelo União Brasil (Conexão TO, mar/2024).",
+  "obs": "Partido do prefeito confirmado pela candidatura (Tetin-União, nº 44; adversário Valdônio Rodrigues-PDT) e por notícia de pré-candidatura pelo União Brasil (Conexão TO, mar/2024). / Lacuna: sem pautas específicas com fonte.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Elton Moreira Alves (Tetin / 'Tetim do Açougue')"
@@ -6999,15 +7146,18 @@
   "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
   "economia": "Pequeno município (4,7 mil hab.; PIB per capita R$ 37,6 mil em 2023) no centro-norte do TO; agropecuária (não detalhado).",
   "pautas": [
-   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+   "Estradas vicinais: recuperação, cascalhamento e troca de porteiras por mata-burros, destacados pela prefeita como prioridade (matéria de 2021)",
+   "Só achei genéricos para 2025–2026"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Eleição de 2024 com candidato único a prefeito (Conexão Tocantins). Nenhum evento relevante em 2025–2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/to/1708304.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-goianorte-to-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-goianorte-to-da-eleicao-2024/",
+   "https://conexaoto.com.br/2021/12/07/primeira-mulher-a-comandar-goianorte-prefeita-nega-avalia-11-meses-de-gestao-destaca-avancos-e-agradece-apoio",
+   "https://conexaoto.com.br/2024/10/07/atm-parabeniza-eleitos-e-revela-anuncia-evento-voltado-aos-prefeitos-no-inicio-de-2025"
   ],
   "confianca": "média",
-  "obs": "Candidata única a prefeita em 2024.",
+  "obs": "Candidata única a prefeita em 2024. / Lacuna: nenhuma fonte de 2025–2026 encontrada.",
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Maria de Jesus Amaro de Oliveira Parente (Nega)"
@@ -7196,5 +7346,59 @@
   "partido_prefeito_sigla": "REPUBLICANOS",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Leonardo Noleto Moreira (Leonardo Noleto)"
+ },
+ {
+  "ibge": "4115408",
+  "municipio": "Marmeleiro",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Sudoeste do Paraná, base agropecuária (grãos, leite, aves/suínos) — conhecimento geral, não verificado; perdas agropecuárias de R$ 7,98 mi no granizo de 2026 (prefeitura).",
+  "pautas": [
+   "Tempestade de granizo de 30/08/2026: ~848 casas atingidas, ~3.396 pessoas afetadas, 4 feridos, R$ 7,98 mi em perdas na agropecuária; emergência reconhecida pelo governo federal (Portaria 3.084, 16/09/2026)",
+   "Estiagem no Paraná: emergência estadual por estiagem (Decreto 10.047/2025) e perdas no campo em 2026; Sudoeste citado entre regiões secas",
+   "Rodovia PR-280/pedágio: Justiça em Marmeleiro mandou a concessionária EPR Iguaçu (lote 6) suspender obras no trecho da PR-280",
+   "Transporte escolar (R$ 3,6 mi em ônibus, abr/2026) e educação (IDEB 7,5) — agenda da prefeitura"
+  ],
+  "eventos": "Ago-set/2026: granizo e reconhecimento federal de emergência (um mês antes do 1º turno); estiagem estadual 2025-2026; disputa judicial sobre obras da concessão na PR-280.",
+  "fontes": [
+   "https://www.marmeleiro.pr.gov.br/noticia.php?notid=3984",
+   "https://www.marmeleiro.pr.gov.br/",
+   "https://www.parana.pr.gov.br/aen/Noticia/Decreto-declara-situacao-de-emergencia-em-funcao-da-estiagem-em-todo-o-Parana",
+   "https://www.gazetadopovo.com.br/parana/estiagem-atinge-cidades-provoca-prejuizo-pr/"
+  ],
+  "confianca": "média",
+  "obs": "Info da PR-280 veio só do resumo do buscador (matéria não aberta). Matéria da Gazeta não cita Marmeleiro nominalmente.",
+  "partido_prefeito_sigla": "",
+  "partido_prefeito_incerto": false,
+  "prefeito_2024_nome": ""
+ },
+ {
+  "ibge": "4109401",
+  "municipio": "Guarapuava",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo regional do Centro-Sul do Paraná (cerca de 180 mil hab.), com agronegócio de grãos (cevada, soja, milho), agroindústria, comércio e serviços; promove eventos de agro como o InovaçãoAgro 2026 (porte e base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Saúde/filas de cirurgia: o Hospital Regional do Centro-Oeste (Dep. Bernardo Ribas Carli) passou à gestão do CIS em 05/01/2026, com meta de subir de cerca de 600 para 1.000 cirurgias/mês e reduzir filas em 20 municípios da 5ª Regional",
+   "Saúde/fila oftalmológica: triagem de cerca de 3.900 pacientes para cirurgias oftalmológicas, em parceria com o Estado (agenda da prefeitura)",
+   "Superlotação das UPAs Batel, Trianon e Primavera: a prefeitura reativou a classificação de risco e lançou o app 'Fala Saúde' com o tempo de espera (agenda da prefeitura)",
+   "Chuvas: fortes chuvas em 26–29/10/2025, com quatro intervenções da Defesa Civil em áreas historicamente afetadas (agenda da prefeitura)"
+  ],
+  "eventos": "Troca da gestão do Hospital Regional (jan/2026) e chuvas intensas em out/2025 com impacto considerado baixo pela prefeitura.",
+  "fontes": [
+   "https://www.parana.pr.gov.br/aen/Noticia/Estado-firma-novo-contrato-e-projeta-mil-cirurgias-mensais-em-hospital-de-Guarapuava",
+   "https://guarapuava.pr.gov.br/noticias/atencao-secretaria-municipal-de-saude-em-parceria-com-a-secretaria-de-estado-da-saude-inicia-triagem-de-pacientes-para-cirurgias-oftalmologicas/",
+   "https://redesuldenoticias.com.br/noticias/fala-saude-indica-upa-com-menor-fluxo-de-atendimento-em-guarapuava/",
+   "https://guarapuava.pr.gov.br/noticias/prefeitura-de-guarapuava-reduz-efeitos-das-chuvas-com-acoes-de-manutencao-e-prevencao/"
+  ],
+  "confianca": "média",
+  "obs": "Só a matéria da AEN foi aberta; as páginas da prefeitura deram 403 e o resto veio dos resumos de busca. Faltam pautas de segurança, emprego e transporte e a imprensa crítica local (RSN).",
+  "partido_prefeito_sigla": "",
+  "partido_prefeito_incerto": false,
+  "prefeito_2024_nome": ""
  }
 ]

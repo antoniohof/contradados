@@ -1,0 +1,160 @@
+[
+ {
+  "ibge": "1700251",
+  "municipio": "Abreulândia",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município muito pequeno (cerca de 2,6 mil hab. em 2020; 1.895 km²) do centro-oeste do Tocantins, base agropecuária (pecuária de corte) (Wikipedia/Conexão Tocantins; base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Estradas: pavimentação da TO-446 no trecho Miranorte–Abreulândia, cobrada em requerimento na Assembleia Legislativa (2023)",
+   "Habitação: chamamento público 001/2025 da prefeitura para 50 moradias do Minha Casa Minha Vida (agenda da prefeitura)",
+   "Só achei genéricos para 2025–2026; não houve cobertura da imprensa local sobre saúde ou segurança"
+  ],
+  "eventos": "Eleição de 2024 com candidato único a prefeito (Conexão Tocantins). Nenhum evento relevante em 2025–2026 encontrado.",
+  "fontes": [
+   "https://en.wikipedia.org/wiki/Abreul%C3%A2ndia",
+   "https://sapl.al.to.leg.br/media/sapl/public/materialegislativa/2023/7838/requerimento_no_065_-__pavimentacao_asfaltica_to_-.pdf",
+   "https://conexaoto.com.br/2024/10/07/atm-parabeniza-eleitos-e-revela-anuncia-evento-voltado-aos-prefeitos-no-inicio-de-2025"
+  ],
+  "confianca": "baixa",
+  "obs": "Fontes vistas só nos resultados de busca, sem abrir páginas, e com pouca cobertura local. Pautas fracas."
+ },
+ {
+  "ibge": "1700350",
+  "municipio": "Aliança do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (5.651 hab., Pequeno Porte I segundo tabela do governo do TO) às margens da BR-153, base agropecuária (porte com fonte; base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Rodovia: duplicação da BR-153 (trecho Xambioá–Aliança do Tocantins) defendida para inclusão no Novo PAC",
+   "Saúde: chamamento público do Fundo Municipal de Saúde para contratar profissionais de saúde (cerca de R$ 2 milhões) (agenda da prefeitura)",
+   "Saúde/vigilância: licitação para construir um Centro de Controle de Zoonoses, suspensa em maio/2025 (agenda da prefeitura)",
+   "Primeira infância: município incluído pelo TCE-TO na nova fase do programa 'Aliança pela Primeira Infância', destinada a municípios com desafios estruturais na edição de 2025"
+  ],
+  "eventos": "Nenhum evento de grande impacto encontrado em 2025–2026.",
+  "fontes": [
+   "https://conexaoto.com.br/2024/02/21/dorinha-e-ayres-defendem-inclusao-no-pac-de-hospital-da-uft-e-duplicacao-da-br-153",
+   "https://alertalicitacao.com.br/!licitacao/PNCP-11341025000175-1-000002-2025",
+   "https://clebertoledo.com.br/tocantins/tce-abre-nova-fase-do-programa-alianca-pela-primeira-infancia-em-12-municipios-com-registros-de-desafios-estruturais-na-edicao-de-2025-confira-a-lista/",
+   "https://central3.to.gov.br/arquivo/id:46697/"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura (alianca.to.gov.br) não carregou e a matéria do TCE deu 403. As informações vêm dos resumos de busca."
+ },
+ {
+  "ibge": "1701101",
+  "municipio": "Aparecida do Rio Negro",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (4.207 hab., Pequeno Porte I) na região leste de Palmas, base agropecuária e turismo de rio (porte com fonte; base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Estradas/pontes rurais: licitação para construir ponte sobre o córrego Barreiro, na zona rural (set/2025) (agenda da prefeitura)",
+   "Assistência social: construção do CRAS (cerca de R$ 761 mil, out/2025) (agenda da prefeitura)",
+   "Turismo/infraestrutura: obra da orla do Rio Negro com recursos do Ministério do Turismo (cerca de R$ 1,08 milhão, jan/2026) (agenda da prefeitura)",
+   "Primeira infância: município incluído pelo TCE-TO no programa 'Aliança pela Primeira Infância' (municípios com desafios estruturais)"
+  ],
+  "eventos": "Nenhum evento de grande impacto encontrado em 2025–2026.",
+  "fontes": [
+   "https://alertalicitacao.com.br/!licitacao/DOU-f869520bbb159c3f91db",
+   "https://www.ibge.gov.br/cidades-e-estados/to/aparecida-do-rio-negro.html",
+   "https://clebertoledo.com.br/tocantins/tce-abre-nova-fase-do-programa-alianca-pela-primeira-infancia-em-12-municipios-com-registros-de-desafios-estruturais-na-edicao-de-2025-confira-a-lista/",
+   "https://central3.to.gov.br/arquivo/id:46697/"
+  ],
+  "confianca": "baixa",
+  "obs": "As pautas vêm quase só de licitações da prefeitura; não achei imprensa local."
+ },
+ {
+  "ibge": "1703107",
+  "municipio": "Barrolândia",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do centro do Tocantins, perto de Paraíso do Tocantins/BR-153, base agropecuária (conhecimento geral, não verificado).",
+  "pautas": [
+   "Educação: reforma de duas escolas estaduais (Pres. Tancredo Neves e Pres. Costa e Silva), mais de R$ 5,6 milhões, inauguradas pelo governador em 02/02/2026",
+   "Segurança: prisão (jun/2026) de jovem que ameaçava moradores e policiais com pistola 9mm e fazia manobras de moto ('grau')",
+   "Gestão pública: recomendação do MP-TO (Promotoria de Miranorte, abr/2026) para o prefeito parar de usar perfis oficiais para promoção pessoal",
+   "Habitação: município incluído no Novo PAC/FNHIS Sub 50 para novas moradias; saneamento (obras de esgoto da BRK desde 2022)"
+  ],
+  "eventos": "Inauguração de escolas pelo governo estadual (fev/2026), recomendação do MP-TO sobre publicidade pessoal do prefeito (abr/2026) e caso policial de ameaças (jun/2026).",
+  "fontes": [
+   "https://conexaoto.com.br/tag/noticias-de-barrolandia",
+   "https://conexaoto.com.br/2026/02/02/governador-wanderlei-inaugura-reformas-em-barrolandia-com-investimento-superior-a-r-5-6-milhoes",
+   "https://conexaoto.com.br/2026/04/22/uso-de-perfis-oficiais-para-promocao-pessoal-pode-levar-prefeito-a-responder-por-improbidade",
+   "https://conexaoto.com.br/2026/06/29/pcto-prende-jovem-de-19-anos-suspeito-de-ameacar-moradores-e-policiais-em-barrolandia"
+  ],
+  "confianca": "média",
+  "obs": "Matérias abertas. Faltam pautas de saúde e estradas."
+ },
+ {
+  "ibge": "1703867",
+  "municipio": "Cariri do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do sul do Tocantins, perto de Gurupi/BR-153, base agropecuária (a Fazenda Pai e Filho, no município, sediou o lançamento da Agrotins) (porte e base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Só achei genéricos: no discurso de posse (jan/2025) o prefeito prometeu 'crescimento acelerado' e 'cuidar das pessoas', sem pautas específicas",
+   "Agro: lançamento da 26ª Agrotins na Fazenda Pai e Filho, em Cariri"
+  ],
+  "eventos": "Posse do novo prefeito e da vice em 01/01/2025, sucedendo Júnior Marajó. Nenhum evento relevante em 2025–2026 encontrado.",
+  "fontes": [
+   "https://conexaoto.com.br/2025/01/01/tetin-e-ivonete-tomam-posse-como-prefeito-e-vice-prefeita-de-cariri",
+   "https://www.ibge.gov.br/cidades-e-estados/to/cariri-do-tocantins.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: sem pautas específicas com fonte."
+ },
+ {
+  "ibge": "1708304",
+  "municipio": "Goianorte",
+  "uf": "TO",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do centro-norte do Tocantins, base agropecuária (pecuária) (conhecimento geral, não verificado).",
+  "pautas": [
+   "Estradas vicinais: recuperação, cascalhamento e troca de porteiras por mata-burros, destacados pela prefeita como prioridade (matéria de 2021)",
+   "Só achei genéricos para 2025–2026"
+  ],
+  "eventos": "Eleição de 2024 com candidato único a prefeito (Conexão Tocantins). Nenhum evento relevante em 2025–2026 encontrado.",
+  "fontes": [
+   "https://conexaoto.com.br/2021/12/07/primeira-mulher-a-comandar-goianorte-prefeita-nega-avalia-11-meses-de-gestao-destaca-avancos-e-agradece-apoio",
+   "https://conexaoto.com.br/2024/10/07/atm-parabeniza-eleitos-e-revela-anuncia-evento-voltado-aos-prefeitos-no-inicio-de-2025"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: nenhuma fonte de 2025–2026 encontrada."
+ },
+ {
+  "ibge": "4109401",
+  "municipio": "Guarapuava",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo regional do Centro-Sul do Paraná (cerca de 180 mil hab.), com agronegócio de grãos (cevada, soja, milho), agroindústria, comércio e serviços; promove eventos de agro como o InovaçãoAgro 2026 (porte e base econômica: conhecimento geral, não verificado).",
+  "pautas": [
+   "Saúde/filas de cirurgia: o Hospital Regional do Centro-Oeste (Dep. Bernardo Ribas Carli) passou à gestão do CIS em 05/01/2026, com meta de subir de cerca de 600 para 1.000 cirurgias/mês e reduzir filas em 20 municípios da 5ª Regional",
+   "Saúde/fila oftalmológica: triagem de cerca de 3.900 pacientes para cirurgias oftalmológicas, em parceria com o Estado (agenda da prefeitura)",
+   "Superlotação das UPAs Batel, Trianon e Primavera: a prefeitura reativou a classificação de risco e lançou o app 'Fala Saúde' com o tempo de espera (agenda da prefeitura)",
+   "Chuvas: fortes chuvas em 26–29/10/2025, com quatro intervenções da Defesa Civil em áreas historicamente afetadas (agenda da prefeitura)"
+  ],
+  "eventos": "Troca da gestão do Hospital Regional (jan/2026) e chuvas intensas em out/2025 com impacto considerado baixo pela prefeitura.",
+  "fontes": [
+   "https://www.parana.pr.gov.br/aen/Noticia/Estado-firma-novo-contrato-e-projeta-mil-cirurgias-mensais-em-hospital-de-Guarapuava",
+   "https://guarapuava.pr.gov.br/noticias/atencao-secretaria-municipal-de-saude-em-parceria-com-a-secretaria-de-estado-da-saude-inicia-triagem-de-pacientes-para-cirurgias-oftalmologicas/",
+   "https://redesuldenoticias.com.br/noticias/fala-saude-indica-upa-com-menor-fluxo-de-atendimento-em-guarapuava/",
+   "https://guarapuava.pr.gov.br/noticias/prefeitura-de-guarapuava-reduz-efeitos-das-chuvas-com-acoes-de-manutencao-e-prevencao/"
+  ],
+  "confianca": "média",
+  "obs": "Só a matéria da AEN foi aberta; as páginas da prefeitura deram 403 e o resto veio dos resumos de busca. Faltam pautas de segurança, emprego e transporte e a imprensa crítica local (RSN)."
+ }
+]

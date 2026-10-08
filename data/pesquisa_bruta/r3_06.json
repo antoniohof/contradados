@@ -1,0 +1,278 @@
+[
+ {
+  "ibge": "1502939",
+  "municipio": "Dom Eliseu",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo do agronegócio no sudeste paraense (soja, milho, pecuária de corte), ~58 mil hab. (Censo 2022); sediou o Lançamento da Colheita de Soja 2026 da Aprosoja-PA e a Fenetec Pará 2026 (CNA/Agrolink).",
+  "pautas": [
+   "Agronegócio/soja: expansão da fronteira agrícola, eventos do setor (Colheita da Soja 2026, Fenetec 2026) e crédito rural (Pronaf p/ pecuária via Emater)",
+   "Segurança viária nas rodovias BR-222/BR-010: acidente com 6 mortos na BR-222 entre Rondon do Pará e Dom Eliseu (ago/2025)",
+   "Segurança pública/violência: dois homens encontrados executados em área rural (jun/2025); operações contra abate clandestino (500 kg de carne, out/2025)",
+   "Meio ambiente/embargos: histórico de embargos do Ibama e apreensão de soja de áreas desmatadas em Dom Eliseu e Ulianópolis (fonte antiga, contexto)",
+   "Pavimentação urbana e saúde (ambulâncias) aparecem em licitações da prefeitura 2026 (agenda da prefeitura)"
+  ],
+  "eventos": "Mar/2026: Lançamento da Colheita de Soja 2026 em Dom Eliseu (~1.500 pessoas, com presença de deputado federal e presidente da Alepa); mai/2026: Fenetec Pará e inauguração de um centro social 'da Paz' com serviços gratuitos de saúde, educação e esporte (nome exato não verificado); ago/2025: acidente com 6 mortos na BR-222.",
+  "fontes": [
+   "https://cnabrasil.org.br/noticias/dom-eliseu-reune-1-500-pessoas-no-lancamento-da-colheita-de-soja-2026",
+   "https://cnabrasil.org.br/noticias/dom-eliseu-e-vitrine-do-agronegocio-paraense-na-fenetec-para-2026",
+   "https://diariodopara.com.br/tag/dom-eliseu/",
+   "https://en.wikipedia.org/wiki/Dom_Eliseu"
+  ],
+  "confianca": "média",
+  "obs": "Pautas derivadas mais de noticiário policial/agro do que de demandas expressas pela comunidade; sem dados sobre hospital/saúde local."
+ },
+ {
+  "ibge": "1505809",
+  "municipio": "Portel",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do arquipélago do Marajó (sudoeste marajoara), economia extrativista e ribeirinha (açaí, madeira, pesca) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Energia elétrica: precariedade da rede no Marajó (apagões, falhas; TCE-PA cobrou a Aneel em jun/2025); em Portel a rede chegou a impedir a abertura da agência da Caixa (2023)",
+   "Serviços bancários: dependência de agência-barco; agência da Caixa prometida desde 2021",
+   "Saúde em comunidades ribeirinhas: novo prédio da Secretaria de Saúde e posto de saúde no Rio Pacajá inaugurados em jan/2026 (agenda da prefeitura)",
+   "Insegurança alimentar/assistência: distribuição de 1.500 cestas básicas no aniversário de 2026 (agenda da prefeitura)",
+   "Saneamento, educação e saúde como déficits estruturais do Marajó (diagnóstico regional, não específico de Portel)"
+  ],
+  "eventos": "Jan/2026: aniversário de 268 anos com inaugurações (SESMUB, escola no Igarapé Itaquera, posto de saúde no Rio Pacajá); jun/2025: TCE-PA cobra Aneel/Equatorial sobre apagões no Pará, com destaque ao Marajó.",
+  "fontes": [
+   "https://diariodopara.com.br/noticias/aniversario-de-portel-o-paraiso-das-ilhas-tem-programacao-especial/",
+   "https://noticiamarajo.com.br/marajo-2/problema-na-rede-eletrica-adia-inauguracao-de-agencia-da-caixa-no-marajo/",
+   "https://cenarioenergia.com.br/2025/06/26/tce-pa-cobra-da-aneel-solucao-urgente-para-precariedade-no-fornecimento-de-energia-eletrica-no-para/"
+  ],
+  "confianca": "baixa",
+  "obs": "Matéria da Caixa é de 2023; matéria do TCE-PA cita Soure/Salvaterra, não Portel nominalmente. Lacuna: imprensa local 2025-2026 específica."
+ },
+ {
+  "ibge": "2601409",
+  "municipio": "Barreiros",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da Zona da Mata Sul, economia historicamente canavieira e de comércio/serviços — conhecimento geral, não verificado.",
+  "pautas": [
+   "Enchentes/alagamentos: cidade alagada em 04/08/2025 (>128 mm em 12h na estação do Hospital Municipal), cheias do rio Carimã",
+   "Risco de inundação recorrente na Mata Sul; barragem de Igarapeba (controle de cheias) com edital de conclusão lançado em jan/2025",
+   "Histórico de situação de emergência por chuvas (2023, entre 15 municípios da Mata Sul)"
+  ],
+  "eventos": "Ago/2025: forte chuva deixa ruas de Barreiros alagadas; Barreiros NÃO consta no decreto estadual de estiagem de jun/2026.",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/7796024-chuva-na-zona-da-mata-sul-deixa-barreiros-debaixo-d-agua-nesta-segunda-4.html",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/7796041-quatro-cidades-e-um-distrito-da-mata-sul-tem-possibilidades-de-inundacao-por-conta-das-chuvas.html",
+   "https://www.folhape.com.br/noticias/pernambuco-tem-acoes-para-enfrentamento-das-chuvas-na-mata-sul-estado/279928/",
+   "https://movimentoeconomico.com.br/estados/pernambuco/2025/01/01/aguas-de-pe-governo-lanca-edital-para-conclusao-da-barragem-igarapeba/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas concentradas em chuvas; sem dados sobre saúde, emprego ou segurança. Matéria da Folha PE é de 2023 (contexto)."
+ },
+ {
+  "ibge": "2602100",
+  "municipio": "Bom Conselho",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Agreste Meridional, base agropecuária (pecuária leiteira) e comércio — conhecimento geral, não verificado.",
+  "pautas": [
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Água na zona rural: Adutora da Barra do Brejo levará água tratada a comunidades rurais (out/2026, agenda da prefeitura)",
+   "Turismo: pesquisa pública da prefeitura sobre turismo (out/2026, agenda da prefeitura)",
+   "Qualificação profissional (cursos Senac/Sala do Empreendedor, agenda da prefeitura)"
+  ],
+  "eventos": "Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://www.bomconselho.pe.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca específica não retornou imprensa local; pautas genéricas e quase só da agenda da prefeitura."
+ },
+ {
+  "ibge": "2602605",
+  "municipio": "Brejo da Madre de Deus",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Agreste (~51 mil hab.), com turismo religioso (Paixão de Cristo de Nova Jerusalém, distrito de Fazenda Nova) e polo de confecções — turismo verificado; confecções conhecimento geral, não verificado.",
+  "pautas": [
+   "Abastecimento de água/estiagem: incluído no decreto estadual de emergência (jun/2026); dependência da Adutora do Agreste (distritos Fazenda Nova, Barra de Farias e Mandaçaia passaram de rodízio 15x15 dias para fornecimento diário)",
+   "Estradas/pavimentação: ~24 km de asfalto e acessos com recursos estaduais citados pelo prefeito (jul/2026)",
+   "Saúde: equipamentos e reforço da rede (citado pelo prefeito)",
+   "Educação: creches e possível escola técnica estadual",
+   "Segurança: envio de viaturas e reforço policial"
+  ],
+  "eventos": "Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); jul/2026: prefeito elogia pacote de obras do governo estadual (água, asfalto, creches).",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/pernambuco/nunca-vi-um-governo-como-este-diz-prefeito-roberto-asfora-ao/626026/",
+   "https://portaldeprefeitura.com.br/pernambuco/pernambuco-anuncia-ampliacao-da-adutora-do-agreste-em-municipio/540885/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas vêm em boa parte de fala do prefeito em evento do governo estadual (viés oficial)."
+ },
+ {
+  "ibge": "2602803",
+  "municipio": "Buíque",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Agreste/Sertão do Moxotó com agropecuária e turismo no Parque Nacional do Catimbau (2º maior parque arqueológico do país) — Sebrae/Adepe.",
+  "pautas": [
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Turismo no Vale do Catimbau: projeto Sebrae/Adepe/prefeitura de formação de guias (2024)",
+   "Gestão de pessoal/contratações temporárias: TCE-PE julgou ilegais 369 contratações de 2022 e mandou fazer concurso (set/2024, gestão anterior)",
+   "Infraestrutura urbana/habitação (licitações 2026, agenda da prefeitura)"
+  ],
+  "eventos": "Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/pernambuco/tce-determina-prazo-maximo-de-180-dias-para-que-a-prefeitura-de-buique/581928/",
+   "https://movimentoeconomico.com.br/turismo-3/2024/10/10/projeto-transforma-moradores-em-guias-turisticos-do-vale-do-catimbau/"
+  ],
+  "confianca": "baixa",
+  "obs": "Fontes de 2024 para TCE e turismo; lacuna de imprensa local 2025-2026."
+ },
+ {
+  "ibge": "2605103",
+  "municipio": "Custódia",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Sertão do Moxotó (~39 mil hab.), base agropecuária e comércio — população via governo de PE; base econômica conhecimento geral, não verificado.",
+  "pautas": [
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Estradas/vias urbanas: requalificação de 5 vias (R$ 3,8 mi, PE na Estrada) e iluminação LED (jan/2026)",
+   "Transporte escolar e ensino técnico: ônibus escolares e anúncio de Escola Técnica Estadual",
+   "Agricultura familiar: trator e implementos entregues ao Sindicato dos Trabalhadores Rurais"
+  ],
+  "eventos": "Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); 29/01/2026: visita da governadora com ordens de serviço de vias, LED e anúncio de ETE.",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://portaldeprefeitura.com.br/bastidores-da-politica/raquel-lyra-novos-onibus-escolares-em-custodia/614070/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas majoritariamente de agenda do governo estadual; sem dados sobre saúde/hospital."
+ },
+ {
+  "ibge": "2610905",
+  "municipio": "Pesqueira",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Agreste com território indígena Xukuru do Ororubá, agricultura familiar e comércio — conhecimento geral, não verificado.",
+  "pautas": [
+   "Estiagem/água: incluído no decreto estadual de emergência (jun/2026); dessalinizador entregue na aldeia Jatobá-Xukuru (jun/2026)",
+   "Saúde: licitação de equipamentos para o Hospital Dr. Lídio Paraíba e UPA (2026); seleção com 277 vagas na Saúde (2025)",
+   "Pavimentação de ruas nos distritos de Papagaio e Salobro (R$ 1,8 mi, governo estadual)",
+   "Educação indígena: requalificação da Escola Estadual Indígena Ororubá; seleção de 616 temporários na Educação (jan/2026)",
+   "Crise político-judicial: operação 'Pactum Amicis' (fraude em licitações) com mandado de afastamento do prefeito (abr/2025); prefeitura nega envolvimento"
+  ],
+  "eventos": "Abr/2025: operação da Polícia Civil e ordem judicial de afastamento do prefeito (prefeitura contestou, alegando perseguição política); jun/2026: entrega de dessalinizador e obras pela governadora; prefeito fala em ~R$ 100 mi em projetos; Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias).",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://www.diariodepernambuco.com.br/noticia/politica/2025/04/prefeito-de-pesqueira-tem-afastamento-do-cargo-pedido-apos-operacao-qu.html",
+   "https://portaldeprefeitura.com.br/pernambuco/em-pesqueira-governadora-entrega-dessalinizador-e-requalificacao-de/625461/",
+   "https://www.brasildefato.com.br/2025/01/05/pesqueira-pe-tem-lider-indigena-prefeito-sindicalista-como-vice-e-camara-40-indigena"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito indígena (Xukuru) e Câmara 40% indígena desde 2025. Desfecho do afastamento não verificado."
+ },
+ {
+  "ibge": "2613503",
+  "municipio": "São José do Belmonte",
+  "uf": "PE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Sertão Central (~36,9 mil hab., 2025), base agropecuária e turismo cultural (Pedra do Reino/Cavalgada) — população via Wikipedia/IBGE; base econômica conhecimento geral, não verificado.",
+  "pautas": [
+   "Estiagem/abastecimento: incluído no decreto estadual de emergência por seca hidrológica (jun/2026)",
+   "Recursos hídricos: superexploração de aquíferos na bacia local (estudos técnicos)",
+   "Turismo/acesso: R$ 1,2 mi do Ministério do Turismo para pavimentar o acesso à Pedra do Reino (ago/2026)"
+  ],
+  "eventos": "Incluído no decreto estadual de 30/06/2026 que declarou situação de emergência em 75 municípios por estiagem com seca hidrológica nos reservatórios de abastecimento (180 dias); 11/08/2026: contrato de repasse federal para estrada da Pedra do Reino.",
+  "fontes": [
+   "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+   "https://atlaspublico.com.br/noticias/caixa-economica-federal-repassa-rs-1-2-milhao-ao-municipio-79963",
+   "https://en.wikipedia.org/wiki/S%C3%A3o_Jos%C3%A9_do_Belmonte"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas escassas; sem imprensa local sobre saúde, emprego ou segurança."
+ },
+ {
+  "ibge": "2203701",
+  "municipio": "Esperantina",
+  "uf": "PI",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Território dos Cocais, norte do Piauí (40.970 hab., Censo 2022), ~180 km de Teresina; base econômica (extrativismo de babaçu/carnaúba, comércio) conhecimento geral, não verificado.",
+  "pautas": [
+   "Cheias do rio Longá (rio ultrapassou cota de alerta em episódio anterior; monitoramento SGB/CPRM)",
+   "Somente pautas genéricas encontradas para 2025-2026"
+  ],
+  "eventos": "Nenhum evento 2025-2026 verificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Esperantina_(Piau%C3%AD)",
+   "https://www.climatempo.com.br/noticia/2021/03/02/servico-geologico-do-brasil-monitora-cheia-nos-rios-8356"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura retornou 403; busca não trouxe imprensa local 2025-2026. Lacuna principal do lote."
+ },
+ {
+  "ibge": "2207900",
+  "municipio": "Pedro II",
+  "uf": "PI",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município serrano do norte do Piauí (~38,8 mil hab.), conhecido como 'Terra da Opala' (mineração de opala, joalheria, artesanato/tecelagem) e turismo (Festival de Inverno, Mirante do Gritador) — Wikipedia.",
+  "pautas": [
+   "Turismo e infraestrutura: novo ciclo de obras estaduais de urbanização/mobilidade voltadas ao turismo (2025-2026)",
+   "Qualificação profissional e combate ao trabalho infantil (agenda da prefeitura)",
+   "Contas públicas: TCE-PI aprovou contas de 2024 (ago/2026, agenda da prefeitura)",
+   "Somente pautas genéricas; nada específico sobre saúde, água ou estiagem encontrado"
+  ],
+  "eventos": "Ago/2026: TCE-PI aprova contas de 2024 da prefeitura; investimentos estaduais em turismo (sem detalhe verificado).",
+  "fontes": [
+   "https://pedroii.pi.gov.br/",
+   "https://pt.wikipedia.org/wiki/Pedro_II_(Piau%C3%AD)"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas quase só da agenda da prefeitura; o PDF do Correio da Manhã sobre investimentos não foi legível."
+ },
+ {
+  "ibge": "4115408",
+  "municipio": "Marmeleiro",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Sudoeste do Paraná, base agropecuária (grãos, leite, aves/suínos) — conhecimento geral, não verificado; perdas agropecuárias de R$ 7,98 mi no granizo de 2026 (prefeitura).",
+  "pautas": [
+   "Tempestade de granizo de 30/08/2026: ~848 casas atingidas, ~3.396 pessoas afetadas, 4 feridos, R$ 7,98 mi em perdas na agropecuária; emergência reconhecida pelo governo federal (Portaria 3.084, 16/09/2026)",
+   "Estiagem no Paraná: emergência estadual por estiagem (Decreto 10.047/2025) e perdas no campo em 2026; Sudoeste citado entre regiões secas",
+   "Rodovia PR-280/pedágio: Justiça em Marmeleiro mandou a concessionária EPR Iguaçu (lote 6) suspender obras no trecho da PR-280",
+   "Transporte escolar (R$ 3,6 mi em ônibus, abr/2026) e educação (IDEB 7,5) — agenda da prefeitura"
+  ],
+  "eventos": "Ago-set/2026: granizo e reconhecimento federal de emergência (um mês antes do 1º turno); estiagem estadual 2025-2026; disputa judicial sobre obras da concessão na PR-280.",
+  "fontes": [
+   "https://www.marmeleiro.pr.gov.br/noticia.php?notid=3984",
+   "https://www.marmeleiro.pr.gov.br/",
+   "https://www.parana.pr.gov.br/aen/Noticia/Decreto-declara-situacao-de-emergencia-em-funcao-da-estiagem-em-todo-o-Parana",
+   "https://www.gazetadopovo.com.br/parana/estiagem-atinge-cidades-provoca-prejuizo-pr/"
+  ],
+  "confianca": "média",
+  "obs": "Info da PR-280 veio só do resumo do buscador (matéria não aberta). Matéria da Gazeta não cita Marmeleiro nominalmente."
+ }
+]

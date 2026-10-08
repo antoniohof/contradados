@@ -1,0 +1,240 @@
+[
+ {
+  "ibge": "2103406",
+  "municipio": "Coelho Neto",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: construção de 2 UBS (Povoado Santo Inácio e Bairro Subestação), Centro de Diagnóstico, unidade móvel odontológica para a zona rural e equipamentos para Hospital Maternidade, UPA e Centro de Imagem.",
+   "[plano de governo 2024] Meio ambiente: mudança do descarte de resíduos sólidos para nova área de Aterro Sanitário; inclusão de Coelho Neto no Plano Nacional do Turismo (trilhas ecológicas, Trilhão Ecológico).",
+   "[plano de governo 2024] Segurança: posse da Guarda Municipal concursada, criação da Secretaria de Segurança Pública e pedido de aumento do efetivo do 44º Batalhão da PM e de mais um delegado.",
+   "[plano de governo 2024] Infraestrutura e água: ampliação de pavimentação poliédrica e asfalto, pontes e estradas vicinais, rede de água e novos poços artesianos na cidade e zona rural; Minha Casa, Minha Vida.",
+   "[plano de governo 2024] Obras locais: conclusão do Complexo Esportivo do Bairro Olho d'Aguinha, reforma do Teatro Municipal e do Mercado do Produtor, conclusão de escolas e creches inacabadas."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002331207_01.pdf (plano de governo de Bruno Silva, PP)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade (prefeito em reeleição), organizado em 11 eixos com 11 propostas cada."
+ },
+ {
+  "ibge": "2103604",
+  "municipio": "Coroatá",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Estradas e pontes: busca de recursos para a estrada Coroatá–Pirapemas, recuperação de estradas vicinais e substituição de pontes de madeira por metálicas/concreto na zona rural.",
+   "[plano de governo 2024] Saneamento e drenagem: bueiros em pontos de alagamento, canal de escoamento de chuvas contra enchentes, fossas para reduzir esgoto lançado no rio Itapecuru, aterro sanitário e ampliação da rede de água com a CAEMA.",
+   "[plano de governo 2024] Saúde: Casa de Apoio para pacientes em tratamento em São Luís, reestruturação do SAMU com ambulâncias 4x4 para a zona rural, central de marcação online e meta de zerar filas de especialidades.",
+   "[plano de governo 2024] Educação: programa 'Climatização das Escolas' com subestação de energia, escola de tempo integral experimental (6º ao 9º ano), programa 'Alfabetiza Coroatá' e revisão da gratificação de interiorização de professores da zona rural.",
+   "[plano de governo 2024] Economia local: conclusão do Centro do Comércio Informal (com o Estado), matadouro público, usina de asfalto, reforma dos mercados municipais, galpão para feira da agricultura familiar e gás de cozinha gratuito para famílias vulneráveis."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002188750_01.pdf (plano de governo de Edimar Vaqueiro, PSB)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). A introdução menciona 'os anseios do povo agudense', indicando trecho aparentemente reaproveitado de modelo de outro município; o texto extraído termina truncado no eixo de esporte."
+ },
+ {
+  "ibge": "2108306",
+  "municipio": "Penalva",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: construção de UBS em Caminho Novo, Santo Antônio e Capoeiro, construção do CAPS, Centro de Parto Normal, teste da orelhinha e do olhinho no Hospital Municipal Jesus de Nazaré e implantação do SAMU.",
+   "[plano de governo 2024] Estradas e ruas: programa 'Avança Penalva em estradas acessíveis' para pavimentação gradual de estradas vicinais ('inverno e verão') e programa de pavimentação de vias urbanas.",
+   "[plano de governo 2024] Água e obras: ampliação de poços artesianos urbanos e rurais, melhoria do abastecimento com o Estado, construção de cemitério público e matadouro público.",
+   "[plano de governo 2024] Educação: redução das turmas multisseriadas nas escolas rurais, climatização de escolas, novos ônibus escolares, programa Alfabetiza Penalva e prédio do Polo da Universidade Aberta.",
+   "[plano de governo 2024] Pesca e renda: cursos de piscicultura, fomento a cooperativa pesqueira para o mercado local, apoio à agricultura familiar e criação do Vale Gás Municipal."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002116789_01.pdf (plano de governo de Guerra, PP)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão."
+ },
+ {
+  "ibge": "2108603",
+  "municipio": "Pinheiro",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "Plano descreve população economicamente ativa de 44.238 pessoas, desocupação de 9,2%, rendimento médio mensal de R$ 1.605 e cerca de 60% da população dependente do setor agrícola, propondo diversificar a matriz econômica (segundo o plano de governo 2024).",
+  "pautas": [
+   "[plano de governo 2024] Diagnóstico de saneamento: plano cita cobertura de água potável de 85,5%, coleta de esgoto de 44,3% e destinação adequada de lixo de 38,2%, e propõe pavimentação, transporte público, infraestrutura hídrica e tratamento de esgoto e lixo.",
+   "[plano de governo 2024] Saúde: construção de novo Hospital Municipal e de UPA 24h, Centro de Controle de Zoonoses, telemedicina e app de marcação de consultas; cita cobertura da Estratégia Saúde da Família de apenas 70,2%.",
+   "[plano de governo 2024] Educação: plano afirma que alunos passam grande parte do ano letivo sem aulas por falta de planejamento e propõe valorização de professores (IDEB citado de 4,9 e 4,4).",
+   "[plano de governo 2024] Gestão: auditoria (LRF), revisão de contratos, programa Papel Zero, criação da Subprefeitura da Zona Rural e projeto de nova sede da Prefeitura.",
+   "[plano de governo 2024] Habitação e emprego: déficit habitacional citado de 4.500 unidades e desocupação de 9,2%; propõe diversificar a economia e qualificar mão de obra."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002088508_01.pdf (plano de governo de Andre Da Ralpnet, PODE)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de oposição à gestão anterior, com diagnóstico numérico próprio (fontes dos números não detalhadas no texto); o texto extraído está truncado (documento de 45 páginas, lido até a página ~16)."
+ },
+ {
+  "ibge": "2110005",
+  "municipio": "Santa Luzia",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "O plano não traz diagnóstico econômico explícito, mas suas propostas econômicas concentram-se na agricultura familiar, na pecuária leiteira de pequenos produtores e na piscicultura, com festivais do abacaxi, peixe, milho, tomate, abóbora, mandioca e farinha (segundo o plano de governo 2024).",
+  "pautas": [
+   "[plano de governo 2024] Previdência municipal: auditoria no Instituto de Previdência dos Servidores (IPRESAL) e funcionamento efetivo de seus conselhos.",
+   "[plano de governo 2024] Saúde: conclusão das UBS inacabadas (Centro do Adão, Campo Grande e Dioclécio), pleito de uma maternidade, CAPS AD III citando 'elevado quantitativo de dependentes químicos', e combate a IST (aumento de infectados) e hanseníase.",
+   "[plano de governo 2024] Educação e assistência: escola de 13 salas para os Residenciais Francisco Gonçalves, Milton Ericeira e Mutirão do Oseas; climatização de salas pelas altas temperaturas; novos CRAS nos bairros Aeroporto e Mutirão e reforma do CRAS do Santarém.",
+   "[plano de governo 2024] Infraestrutura: Programa Nossas Estradas (vicinais, bueiros, pontes), reforma da Rodoviária, do Mercado Municipal e da Praça da Saudade, Programa Água é Vida (poços) e eletrificação rural.",
+   "[plano de governo 2024] Habitação e produção rural: programa 'Minha Casa, Agora Sim!' (uma casa por mês para famílias do CadÚnico), pasteurizadores e máquinas de silagem para produtores de leite e melhoramento genético do rebanho."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002214148_01.pdf (plano de governo de Juscelino Marreca, PRD)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). O texto extraído termina truncado na seção de cultura."
+ },
+ {
+  "ibge": "2110500",
+  "municipio": "São Bento",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: ambulâncias para as estradas da Sororoca e do Olho d'Água dos Gomes (zona rural) e construção de Centro de Imagem.",
+   "[plano de governo 2024] Infraestrutura: programa 'Acelera São Bento' de pavimentação, avenidas nas entradas da cidade, pontes de concreto e estradas na zona rural, área de lazer no Bairro do Alegre e construção de um aeroporto.",
+   "[plano de governo 2024] Meio ambiente e água: recuperação do Rio da Velha Bárbara, ampliação de redes de água nos povoados, açudes e barragens nas comunidades rurais.",
+   "[plano de governo 2024] Produção: continuidade da dragagem dos campos de São Bento, bacias perto das pontes para represar água e aumentar a produção de peixes, açudes com alevinos e apoio ao projeto estadual Floresta Viva.",
+   "[plano de governo 2024] Assistência: continuidade e ampliação do Auxílio Gás Municipal para famílias de baixa renda."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002014764_01.pdf (plano de governo de Dino Penha, MDB)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano majoritariamente de continuidade ('dar continuidade'), com poucas metas quantificadas."
+ },
+ {
+  "ibge": "2111508",
+  "municipio": "São Mateus do Maranhão",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: construção de UBS no Povoado Queimadas, base descentralizada do SAMU, ampliação e modernização do Pronto Socorro e Hospital Municipal e do centro TEA+.",
+   "[plano de governo 2024] Infraestrutura e emprego: implantação de parque industrial, pavimentação asfáltica, casas populares e iluminação LED.",
+   "[plano de governo 2024] Juventude: transporte subsidiado para universitários que estudam em Bacabal (Programa Mais Universitário), prédio para o curso Pré-Universitário e expansão da robótica nas escolas.",
+   "[plano de governo 2024] Igualdade racial: criação de Secretaria de Igualdade Racial, educação escolar quilombola, comercialização de produtos quilombolas (Selo Quilombola) e combate à intolerância contra terreiros.",
+   "[plano de governo 2024] Assistência e turismo: prédio próprio do CREAS, Centro de Convivência (SCFV), família acolhedora, revitalização dos balneários e inserção no Mapa do Turismo."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002397484_01.pdf (plano de governo de Miltinho Aragão, PSB)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão."
+ },
+ {
+  "ibge": "2112506",
+  "municipio": "Tutóia",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "Plano descreve Tutóia como município do Baixo Parnaíba com cerca de 58,9 mil habitantes (estimativa IBGE de 2019), com praias, mangues, dunas, lagos e rios e porta de entrada do Delta do Parnaíba, apostando em turismo e agricultura familiar (segundo o plano de governo 2024).",
+  "pautas": [
+   "[plano de governo 2024] Turismo como eixo central: Avenida Beira Mar, reforma do cais, revitalização da orla, mercado e porto, Batalhão de Turismo da PM, kitesurf e tornar Tutóia 'Município de Interesse Turístico' (portal do Delta do Parnaíba).",
+   "[plano de governo 2024] Estradas: ligações Lagoinha–Arpoador e Tutoia Velha–Tutoia via Taboal; melhoria do corredor Barro Duro–Santo Hilário como rota de escoamento agrícola via Barreirinhas e Santa Quitéria.",
+   "[plano de governo 2024] Saúde: ambulâncias nos polos rurais (Seriema, Barro Duro, Santana dos Carvalhos, Santa Rosa do Jardim, Riacho do Meio do Carmo), SAMU na sede, UPA com o Estado, Centro Oftalmológico e Casa de Apoio em São Luís.",
+   "[plano de governo 2024] Agricultura familiar: destinar 5% do FPM à agricultura familiar, cooperativas nas glebas Belágua, Santa Clara Comum, São Benedito e Murici, casas de farinha e escritório da AGERP.",
+   "[plano de governo 2024] Educação e juventude: Casa do Estudante em Parnaíba (PI) para universitários, pré-vestibular municipal e transporte universitário para quem percorre mais de 100 km por dia."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002144725_01.pdf (plano de governo de Viriato Cardoso, PL)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). O texto extraído termina truncado na seção de obras e infraestrutura."
+ },
+ {
+  "ibge": "2112704",
+  "municipio": "Vargem Grande",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Plano apenas genérico: texto de diretrizes em quatro eixos (Cidade Solidária, Cidade Empreendedora, Cidade Humanizada e Administrativo), de continuidade da gestão anterior, sem obras, locais ou projetos específicos; menciona de forma geral ampliar a malha viária urbana, pontes e estradas vicinais, saneamento, praças e a atuação da Guarda Municipal."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002164109_01.pdf (plano de governo de Preto, PP)"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano genérico, sem propostas concretas localizadas."
+ },
+ {
+  "ibge": "2112803",
+  "municipio": "Viana",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: reestruturação do Hospital Dom Hélio Campos (mais leitos, centro cirúrgico, Centro de Parto Normal, raio-x e ultrassom), base descentralizada do SAMU, CER tipo III e Centro de Zoonoses.",
+   "[plano de governo 2024] Produção e abastecimento: indústria de resfriamento e beneficiamento de pescado, agroindústria de frutas, abatedouro regional e novo Centro Municipal de Abastecimento – Feira da Barra do Sol.",
+   "[plano de governo 2024] Meio ambiente: aterro sanitário em consórcio com municípios vizinhos, tratamento de dejetos do Parque Dilú Melo e campanha de preservação dos campos e lagos.",
+   "[plano de governo 2024] Infraestrutura e segurança: estradas vicinais, pavimentação na sede e zona rural, retomada de habitação social, videomonitoramento nos portais da cidade e rondas da Guarda com a PM em pontos de maior violência.",
+   "[plano de governo 2024] Gestão: polos administrativos em povoados-sede, calendário de pagamento, concurso público e prédio próprio para a Secretaria de Educação."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002024666_01.pdf (plano de governo de Carrinho Cidreira, PL)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano menciona 'luminenses' em um item (provável trecho reaproveitado de outro município); o texto extraído termina truncado na seção de agricultura e meio ambiente."
+ },
+ {
+  "ibge": "2114007",
+  "municipio": "Zé Doca",
+  "uf": "MA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "",
+  "economia": "",
+  "pautas": [
+   "[plano de governo 2024] Saúde: expansão do programa de redução de filas de cirurgias no Hospital Municipal, rede TEAcolher para autismo, redução da mortalidade materno-infantil e parceria com o DSEI/MA para saúde indígena.",
+   "[plano de governo 2024] Infraestrutura: conclusão da pavimentação asfáltica sede–povoado Ebenézia e de toda a zona urbana, novas avenidas no bairro São Francisco, pontes de concreto em vicinais e prédio próprio da Câmara Municipal.",
+   "[plano de governo 2024] Nova Conquista: construção de CRAS anexo e revitalização do igarapé da Jabota com estrutura para banho e lazer.",
+   "[plano de governo 2024] Meio ambiente e água: limpeza e desassoreamento de córregos e igarapés contra enchentes, reflorestamento de margens e expansão/automatização dos sistemas de água da zona rural.",
+   "[plano de governo 2024] Agropecuária: Feira Agropecuária de Zé Doca, Projeto Leite, laboratório de análise de solo, patrulhas agrícolas e fortalecimento da piscicultura."
+  ],
+  "eventos": "",
+  "fontes": [
+   "TSE, dados abertos, proposta_governo_2024_MA.zip, arquivo MA/2024MA100002047325_01.pdf (plano de governo de Flavinha Cunha, PL)"
+  ],
+  "confianca": "média",
+  "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão (coligação 'Zé Doca Segue Avançando')."
+ }
+]
