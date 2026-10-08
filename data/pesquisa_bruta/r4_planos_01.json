@@ -1,0 +1,353 @@
+[
+  {
+    "ibge": "2700409",
+    "municipio": "Atalaia",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Município de vocação agrícola em retrocesso econômico desde a crise do setor sucroalcooleiro (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Saúde: continuidade da reforma do Hospital João Lyra Filho, reforma/construção de UBS, regularização de exames laboratoriais e de radiologia, Centro de Reabilitação e unidade de acolhimento para pessoas com TEA; plano cita reclamações sobre agendamento de exames, especialistas e cirurgias.",
+      "[plano de governo 2024] Emprego e renda para reverter o 'grave processo de retrocesso econômico' iniciado com a crise do setor sucroalcooleiro: atração de empresas, turismo e estágios para jovens na prefeitura e em empresas locais.",
+      "[plano de governo 2024] Agricultura: departamento municipal de apoio técnico, contratação de técnicos agrícolas, cooperativas, feiras de produtos da região e manutenção das estradas vicinais de escoamento da produção.",
+      "[plano de governo 2024] Saneamento: abastecimento regular de água com rediscussão do contrato de água e saneamento mantido com a BRK; implantação de coleta seletiva.",
+      "[plano de governo 2024] Infraestrutura e segurança: conclusão de pavimentação de ruas e avenidas, iluminação pública, câmeras com monitoramento 24h, término da reforma da Base da Guarda Municipal e moradias populares em regime de mutirão."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20001981543_01.pdf (plano de governo de Ceci, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade (prefeita reeleita, gestão 2021-2024)."
+  },
+  {
+    "ibge": "2701407",
+    "municipio": "Campo Alegre",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Água e saneamento: expandir o SAAE para as localidades hoje atendidas pela CASAL ('menor tarifa de água do Estado'), adutora no bairro Pimenteira, esgotamento na região do Pilãozinho (Luziápolis) e barragem no açude Mandante.",
+      "[plano de governo 2024] Infraestrutura no distrito de Luziápolis e no povoado Chã da Imbira: pavimentação e drenagem da estrada do Pilãozinho, iluminação LED, ampliação da Av. Divaldo Suruagy (Conjunto Olival Tenório–Vista Alegre) e urbanização da AL-220.",
+      "[plano de governo 2024] Saúde: CAPS na sede, UPA regional, centro de imagem, pediatra 24h na emergência, UBS no bairro Vista Alegre ('que vem crescendo') e manutenção da maternidade da Unidade Mista Senador Arnon de Melo.",
+      "[plano de governo 2024] Educação: acompanhar a instalação de campus da UFAL pactuado com Teotônio Vilela, Boca da Mata e Anadia; nova escola no Vista Alegre em substituição à escola Zenóbia; creche no Conjunto Olival Tenório; bolsas para medicina e odontologia.",
+      "[plano de governo 2024] Habitação e emprego: Minha Casa Minha Vida na sede e em Luziápolis, unidades via PAC na Chã da Imbira, erradicação de casas de taipa, polos industriais da sede e de Luziápolis; cobrar do Estado base fixa do CISP em Luziápolis."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20001917353_01.pdf (plano de governo de Pauline Pereira, PP)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Texto extraído começa direto nas propostas (sem diagnóstico econômico); lista extensa de itens por secretaria."
+  },
+  {
+    "ibge": "2702405",
+    "municipio": "Delmiro Gouveia",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Economia baseada em cadeias agropecuárias do semiárido (caprinovinocultura, pecuária leiteira e de corte, apicultura, fruticultura) e produção ribeirinha ao Canal do Sertão, com aposta no potencial turístico (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Agropecuária do semiárido: Programa Alimenta Delmiro (compra direta da agricultura familiar), Casa do Mel, Central de Abastecimento (CEASA), Feira do Gado, patrulha agrícola mecanizada e melhoramento genético de caprinos e ovinos.",
+      "[plano de governo 2024] Água e produção ribeirinha: Programa de Desenvolvimento dos Ribeirinhos do Canal do Sertão e ampliação do programa de cisternas 'Mais Água Mais Vida'.",
+      "[plano de governo 2024] Segurança: 'Cinturão de Segurança' de videomonitoramento em três etapas (Centro; bairros como Pedra Velha, Bom Sossego, Desvio, Cohab Nova; distritos Barragem Leste, Sinimbu, Lagoinha e Jardim Cordeiro) e criação de Secretaria Municipal de Segurança Pública.",
+      "[plano de governo 2024] Meio ambiente: Centro de Conservação da Biodiversidade da Caatinga (primeiro de Alagoas), recuperação da área do antigo lixão (sítio Facão) e da área de transbordo irregular atrás do HRAS no Bom Sossego, programa 'Protetores do Velho Chico'.",
+      "[plano de governo 2024] Gestão e serviços: aplicativo 'Minha Delmiro' para agendamento de consultas e exames, gestão junto a UNEAL/UFAL por cursos de Medicina, reforma do Mercado Público e promoção da cidade como polo turístico."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20001909463_01.pdf (plano de governo de Ziane Costa, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Texto extraído truncado (até a seção de Cultura); plano de continuidade da gestão."
+  },
+  {
+    "ibge": "2706307",
+    "municipio": "Palmeira dos Índios",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Água: nova adutora do Bálsamo, com captação na barragem do Bálsamo e nova estação de tratamento, para acabar com o rodízio de abastecimento; adutoras rurais e rede de água nas comunidades Lages de Caldeirão e Cabaceiros.",
+      "[plano de governo 2024] Saúde: diagnóstico de carência de especialidades médicas mesmo após concurso e unidades de PSF que precisam de melhorias estruturais; recuperação e construção de PSFs, CAPS infantil, Sala Lilás na UPA e pediatria 24h.",
+      "[plano de governo 2024] Estradas: parceria com o Estado (Pró-Estrada) para asfaltar acessos rurais (BR-316 até Caraíbas Dantas; AL-115 até Serra São José; Moreira–Lagoa de Canafístula; Palmeira de Fora–Serra das Espias) e com o Governo Federal para duplicar o trecho urbano do Polo Multisetorial até Canafístula de Frei Damião.",
+      "[plano de governo 2024] Urbanismo: transformar a antiga estação ferroviária em praça multieventos, projeto de mobilidade ao longo da linha férrea (Vila Nova ao Centro e à AL-115), drenagem contra inundações, novo cemitério e reforma da rodoviária.",
+      "[plano de governo 2024] Cultura e turismo: Casa Museu Graciliano Ramos, Festival de Inverno de Palmeira dos Índios (FIPI), Circuito Alagoano de Inverno, rota turística indígena e espaço para artesanato indígena e quilombola."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002188657_01.pdf (plano de governo de Tia Julia, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano apresentado pela coligação MDB, PSB, Solidariedade e Federação PT/PV/PCdoB; texto extraído truncado (até a seção de Infraestrutura)."
+  },
+  {
+    "ibge": "2706703",
+    "municipio": "Penedo",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Cidade histórica (Patrimônio Histórico Nacional, Cidade Criativa da Unesco, Destino Turístico Inteligente) que aposta em turismo e economia criativa (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Obras 'Penedo 400 anos': requalificação da Av. Getúlio Vargas (fiação embutida, saneamento, drenagem), 3ª etapa da Orla Fluvial, Terminal Turístico, píer flutuante no antigo cais da lancha da Passagem, Praça 12 de Abril, Prainha e Rua do Banheiro.",
+      "[plano de governo 2024] Saúde: colocar em funcionamento o Centro de Hemodiálise, criar Centro Municipal de Apoio aos Neurodivergentes, Remédio em Casa e melhorias nos postos de saúde.",
+      "[plano de governo 2024] Mobilidade: dois terminais urbanos (Vale do São Francisco e Cooperativa I), terminal rodoviário de baldeação, abrigos de ônibus no Centro Histórico e regularização dos mototaxistas.",
+      "[plano de governo 2024] Turismo e economia criativa: APA Marituba do Peixe como produto turístico, Film Commission, Distrito Criativo (compromisso com a UNESCO), Festa de Bom Jesus dos Navegantes como patrimônio imaterial de Alagoas.",
+      "[plano de governo 2024] Abastecimento e assistência: Mercado do Peixe, reforma de mercados públicos e das feiras do Centro Histórico e do Barro Duro, entrega do Centro Público de Convivência no bairro Senhor do Bonfim, conclusão da Casa do Empreendedor."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002042584_01.pdf (plano de governo de Ronaldo Lopes, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano em formato de lista de propostas, sem diagnóstico detalhado."
+  },
+  {
+    "ibge": "2707404",
+    "municipio": "Porto de Pedras",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Saúde: concluir a UBS Salinas, construir UBS no assentamento Lucena, reformar e ampliar a UBS do Curtume, unidade odontológica móvel para a zona rural e telemedicina.",
+      "[plano de governo 2024] Infraestrutura: pavimentação (com o Estado) da via alternativa da Salinas (Trinta) até o Povoado Curtume, programa Porto Mais Asfalto, paralelepípedo nas vilas agrárias dos assentamentos e recuperação do Cais do Rio Manguaba.",
+      "[plano de governo 2024] Turismo: continuidade do Projeto Orla, revitalização do farol (cessão da área pela Marinha), Bandeira Azul em mais praias, Instância Costa dos Corais e apoio à associação do projeto Peixe-Boi.",
+      "[plano de governo 2024] Meio ambiente: UC Encosta do Farol, reflorestamento de mangue e restinga na boca do rio, desassoreamento do Rio Tatuamunha e recuperação do antigo lixão.",
+      "[plano de governo 2024] Zona rural e habitação: água encanada nas comunidades rurais, extensão da distribuição de leite, programa Casa Nova–Vida Nova (taipa para alvenaria), campos de futebol nos assentamentos Lucena/Boa Vista e organização do embarque na balsa."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002258977_01.pdf (plano de governo de Allan De Jesus, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de continuidade da gestão do prefeito Henrique Vilela; sem diagnóstico econômico explícito."
+  },
+  {
+    "ibge": "2708709",
+    "municipio": "São Miguel dos Milagres",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Turismo e rede hoteleira apontados como principal fonte de renda do município, com crescimento na gestão 2020-2024 (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Turismo: marca 'Onde Milagres Acontecem', Rota Turística dos Bugueiros, cadastro e ordenamento de ônibus e vans excursionistas e ordenamento da visitação às piscinas naturais (fiscalização aquaviária, capacitação de jangadeiros).",
+      "[plano de governo 2024] Infraestrutura: asfalto em toda a cidade, orla marítima, reorganização da orla de Porto da Rua e do acesso à praia de São Miguel, plataformas elevadas para preservar a restinga, pavimentação da estrada aos povoados.",
+      "[plano de governo 2024] Saúde: UBS em Porto da Rua, posto de saúde e ponto de apoio no povoado/assentamento Jubileu, central farmacêutica, vans para exames e especialidades em Maceió, ultrassonografia e eletrocardiograma no município.",
+      "[plano de governo 2024] Habitação e assistência: diagnóstico de famílias em áreas de invasão e casas de taipa e de migração de famílias vulneráveis de outras cidades; Minha Casa Minha Vida urbano e rural, Moradia Legal (regularização com o TJ) e extensão do CRAS ao bairro Central.",
+      "[plano de governo 2024] Gestão costeira e resíduos: Plano Municipal de Gerenciamento Costeiro (erosão, marés), coleta seletiva e ecopontos; polo de lazer e reforma da casa de farinha no povoado Jubileu."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002007710_01.pdf (plano de governo de Jadson Lessa, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de reeleição; texto extraído truncado (seção de Meio Ambiente)."
+  },
+  {
+    "ibge": "2709152",
+    "municipio": "Teotônio Vilela",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Município de 38.053 habitantes (Censo 2022) no Leste alagoano, que o plano quer consolidar como polo de indústria, comércio e serviços da região sul de Alagoas (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Saúde: novo Centro de Parto (com cesarianas), ampliação do Centro Cirúrgico, novos leitos no Hospital Nossa Senhora das Graças, CAPS infantil, Ambulatório de Saúde da Mulher e cirurgias de catarata.",
+      "[plano de governo 2024] Rodovias: infraestrutura urbana nas margens da BR-101 e da AL-104 (pavimentação, iluminação, segurança) e redutores de velocidade na AL-104.",
+      "[plano de governo 2024] Economia: consolidar o município como polo de indústria, comércio e serviços do sul de Alagoas, novas empresas no Polo Industrial, agroshopping regional e Banco da Mulher (crédito de até R$ 3.000).",
+      "[plano de governo 2024] Esporte e educação: dois complexos esportivos, estádio municipal, ginásio no bairro Sebastião Vilela, quadras nos povoados Alto do Garrote, Água de Menino e Sucupira; 2 centros de educação infantil, 2 escolas e polo universitário.",
+      "[plano de governo 2024] Agricultura e assistência: agricultura familiar irrigada com poços artesianos, piscicultura, máquinas de arrancar mandioca; CRAS em dois povoados e na zona urbana; Museu do Patrono Teotônio Vilela."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002048243_01.pdf (plano de governo de Peu Pereira, PP)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião)."
+  },
+  {
+    "ibge": "2709301",
+    "municipio": "União dos Palmares",
+    "uf": "AL",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Água e esgoto: embate com a concessionária Verde Alagoas — exigir troca de hidrômetros e devolução de valores, ação judicial pela tarifa social e contra cobrança de esgoto sem rede, Procon Municipal e painel de controle do abastecimento.",
+      "[plano de governo 2024] Turismo: transformar a cidade na 'Capital Mundial do Afroturismo', com Festival Negritude, Centro da Memória Afro e teleférico na Serra da Barriga.",
+      "[plano de governo 2024] Viário e moradia: concluir a pavimentação nos bairros Santa Maria Madalena, Robertão, Bairro dos Frios, Sementeira e Abdon Veríssimo; terceira via de acesso, quarta via da Rua do Cangote à BR-104, binários em Cana Brava e Castelo Branco; regularizar 2 mil casas.",
+      "[plano de governo 2024] Educação: curso de Direito da Uneal, polo da Ufal, creches no Timbó e na Usina Laginha, Vila Olímpica no Orlandão e nova escola no bairro Nova Esperança.",
+      "[plano de governo 2024] Emprego: Condomínio Industrial e de Distribuição da Zona da Mata, aeroporto regional de cargas, estudos para porto seco, Casa de Costura (polo têxtil) e plano de prevenção de enchentes com o Estado."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_AL.zip, arquivo 2024AL20002267724_01.pdf (plano de governo de Júnior Menezes, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Texto extraído com os mesmos blocos repetidos várias vezes (duplicação na extração); plano de continuidade da gestão Kil de Freitas."
+  },
+  {
+    "ibge": "5204805",
+    "municipio": "Campo Alegre de Goiás",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Saúde: médico como diretor técnico em tempo integral no hospital, Centro de Autismo 'Colorindo o Mundo', SAMU via Estado e parcerias com hospitais de Catalão para reduzir viagens a Goiânia.",
+      "[plano de governo 2024] Habitação: programa Lar Doce Lar com 150 casas ou mais, ampliação do Cheque Reforma e continuidade da REURB.",
+      "[plano de governo 2024] Infraestrutura: canalização do córrego, rede de esgoto e Estação de Tratamento, usina de asfalto, nova rodoviária às margens da BR-050, asfalto na avenida principal do povoado Sesmaria e gestão junto a Equatorial e Saneago por energia e água.",
+      "[plano de governo 2024] Agropecuária e indústria: atrair indústrias beneficiadoras de grãos, subsídio a pequenos e médios produtores de bovinocultura leiteira e de corte, patrulha mecanizada e ensiladeiras, montagem do distrito industrial.",
+      "[plano de governo 2024] Educação e segurança: parceria para militarizar o colégio estadual, ar-condicionado em todas as salas, implantação de faculdade; ponto de apoio para a CPE (PM) e para a patrulha rural."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90001894711_01.pdf (plano de governo de Douglas Sertório, PL)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano em formato de lista de propostas, sem diagnóstico econômico."
+  },
+  {
+    "ibge": "5209952",
+    "municipio": "Indiara",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Saúde: diagnóstico de que a população recorre a cidades vizinhas para exames e especialistas; zerar em 1 ano a fila de cirurgias eletivas, tornar o hospital referência regional em obstetrícia, contratar exames de imagem (há 1 aparelho de ultrassom) e farmácia básica até as 22h.",
+      "[plano de governo 2024] Educação: creche em tempo integral no Setor Martins e fundação de ensino superior; plano cita alunos estudando em outros municípios.",
+      "[plano de governo 2024] Saneamento e água: continuidade da ETE e da rede de esgoto, barragem no Córrego das Antas junto à Saneago e subsídio a produtores para recuperar nascente e afluentes do Córrego das Antas.",
+      "[plano de governo 2024] Resíduos: aterro sanitário e encerramento do lixão.",
+      "[plano de governo 2024] Habitação e infraestrutura: casas populares com AGEHAB e Ministério das Cidades para reduzir o déficit habitacional, cheque-reforma, terminal rodoviário e gestão junto à concessionária de energia; plano cita máquinas de municípios vizinhos atendendo áreas do município."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90002251667_01.pdf (plano de governo de Dr Conin, PL)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Texto com ruído de extração (letras faltando); seções de assistência social, meio ambiente e empreendedorismo trazem muitas propostas genéricas/padronizadas."
+  },
+  {
+    "ibge": "5210901",
+    "municipio": "Itapaci",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Saúde: construir novo Hospital Municipal, comprar tomógrafo e raio-X digital, serviço móvel de urgência municipal, Hospital Veterinário municipal e reforma da UBS do Distrito da Fazendinha.",
+      "[plano de governo 2024] Educação: reforma da Escola Municipal Leôncio José de Santana, renovação do convênio com o Colégio Assunção, poços artesianos nas escolas e creches, nova escola e nova creche.",
+      "[plano de governo 2024] Economia: estreitar vínculos com a empresa Vale Verde, área para Polo Industrial, indústria de aproveitamento de resíduos da cana-de-açúcar e lei de incentivo fiscal a partir de janeiro de 2025.",
+      "[plano de governo 2024] Urbano: extinguir o lixão, criar a Guarda Municipal, ponte pênsil e infraestrutura turística na represa João Albino, LED na Ponte Nova e na Fazendinha, pontes na zona rural.",
+      "[plano de governo 2024] Habitação, social e lazer: 200 casas com a AGEHAB, programa Mães de Itapaci, pista de caminhada no Lago Azul, etapa de jet ski na represa do Lago Azul e apoio aos romeiros da Romaria de Guarinos."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90001901798_01.pdf (plano de governo de Dr Fabio, MDB)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano lista 'projetos prioritários' por secretaria, sem diagnóstico econômico."
+  },
+  {
+    "ibge": "5215504",
+    "municipio": "Ouvidor",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Município minerador cuja receita pode ser afetada pela reforma tributária (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Infraestrutura: pavimentação de 14 km da rodovia municipal Ouvidor–Paraíso (até o trevo da comunidade São Miguel), ciclovia às margens da GO-503 até as Minerações, requalificação da Av. Irapuan Costa Júnior e passarela no Residencial Cecília.",
+      "[plano de governo 2024] Lazer e cultura: Parque do Peão, espelho d'água no córrego Corregozinho (entre Jardim América e Jardim Esmeralda) com parque, Complexo Cultural no antigo prédio do Colégio Estadual e Museu da História de Ouvidor.",
+      "[plano de governo 2024] Saúde: Laboratório Municipal de Análises Clínicas, endoscopia e tomografia para o Hospital Municipal Santo Antônio, convênios com hospitais de Catalão e parceria com o Hospital de Amor de Barretos.",
+      "[plano de governo 2024] Meio ambiente: aterro sanitário licenciado, esgoto em 100% do município com Saneago e FUNASA, manejo da APA da Lagoa.",
+      "[plano de governo 2024] Economia e campo: Distrito Industrial com o Estado e a CODEGO, adequação de incentivos fiscais à reforma tributária, Feira Coberta, seis pontes de concreto na zona rural e nova sede da prefeitura."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90002059188_01.pdf (plano de governo de Cebinha, PODE)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano de reeleição."
+  },
+  {
+    "ibge": "5218300",
+    "municipio": "Posse",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "Polo de comércio e serviços do Nordeste Goiano, na divisa com a Bahia, com agropecuária (soja, milho, algodão, gado de corte e leite) e PIB de R$ 463 milhões em 2016 (segundo o plano de governo 2024).",
+    "pautas": [
+      "[plano de governo 2024] Desemprego como eixo central: convocação dos aprovados no último concurso, incentivos fiscais, capacitação e meta de ampliar em 100% as vagas de emprego.",
+      "[plano de governo 2024] Urbanização e saneamento: plano cita IBGE com 48,3% dos domicílios com esgotamento adequado e 0,4% com urbanização adequada; metas de ampliar urbanização e acessibilidade, gestão de resíduos e reduzir em 50% o déficit habitacional.",
+      "[plano de governo 2024] Turismo: ecoturismo com destaque ao Parque Estadual Terra Ronca e meta de dobrar a visitação.",
+      "[plano de governo 2024] Educação: atender 100% da demanda por CMEIs, concluir e ativar creches municipais, Escola Modelo de Tempo Integral e programa 'CMEI nas Férias'.",
+      "[plano de governo 2024] Assistência: Cartão Cidadania, programa 'Leite e Pão' para famílias do CadÚnico, Centro Especializado de Atendimento à Mulher e ampliação da ILPI."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90001955975_01.pdf (plano de governo de Paulo Trabalho, PL)"
+    ],
+    "confianca": "média",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Texto extraído truncado (seção de Esporte)."
+  },
+  {
+    "ibge": "5219308",
+    "municipio": "Santa Helena de Goiás",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Meta de gerar 2.000 empregos em quatro anos com microcrédito, atração de empresas e qualificação; bolsa para jovens formados permanecerem na cidade.",
+      "[plano de governo 2024] Feiras de terça a quinta para pequenos produtores, revitalização da tradicional feira de domingo e cooperativa de catadores de material reciclável.",
+      "[plano de governo 2024] Revitalização das praças e do parque municipal/lago, centro de esportes radicais e apoio ao Santa Helena Esporte Clube.",
+      "[plano de governo 2024] Demais eixos (saúde, educação, infraestrutura, segurança) são genéricos, sem obras ou locais específicos."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90002024992_01.pdf (plano de governo de Iris Parreira, MDB)"
+    ],
+    "confianca": "baixa",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano majoritariamente genérico, com poucos itens locais e sem diagnóstico."
+  },
+  {
+    "ibge": "5220405",
+    "municipio": "São Simão",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "",
+    "economia": "",
+    "pautas": [
+      "[plano de governo 2024] Investimentos em infraestrutura no distrito de Itaguaçu (vias, praças, iluminação e serviços essenciais).",
+      "[plano de governo 2024] Recuperação da receita e da credibilidade: melhorar o Índice de Participação dos Municípios (IPM), pagamento pontual de salários e fornecedores, insalubridade aos servidores.",
+      "[plano de governo 2024] Regularização fundiária (REURB) com conselho próprio e programas federais de moradia.",
+      "[plano de governo 2024] Saúde: adesão ao Mais Médicos, mutirões contra filas de consultas e cirurgias, Unidade de Proteção Materno Infantil e reestruturação da gestão para 'recuperar a credibilidade' do sistema municipal.",
+      "[plano de governo 2024] Turismo e economia: reestruturar, iluminar e asfaltar pontos turísticos, polos empresariais e industriais, câmeras nas principais avenidas."
+    ],
+    "eventos": "",
+    "fontes": [
+      "TSE, dados abertos, proposta_governo_2024_GO.zip, arquivo 2024GO90001974474_01.pdf (plano de governo de Dr Wallisson, PODE)"
+    ],
+    "confianca": "baixa",
+    "obs": "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião). Plano majoritariamente genérico; introdução cita 'administração no período de 2023 a 2024' e 'curto período de gestão', indicando possível reaproveitamento de texto anterior."
+  }
+]

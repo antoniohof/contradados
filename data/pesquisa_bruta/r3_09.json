@@ -1,0 +1,218 @@
+[
+ {
+  "ibge": "3516309",
+  "municipio": "Francisco Morato",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade-dormitório da Região Metropolitana de SP (zona noroeste), servida pela Linha 7-Rubi da CPTM, com renda per capita baixa e grande dependência de deslocamento para a capital/Jundiaí (conhecimento geral, não verificado).",
+  "pautas": [
+   "Chuvas, deslizamentos e áreas de risco em encostas: deslizamento em 01/02/2025 junto à estação Botujuru descarrilou trem da CPTM e houve alagamentos em Botujuru/Caieiras/Franco da Rocha; histórico de mortes por deslizamento (jan/2022, 4 óbitos); estado instalou sirene de alerta para áreas de risco",
+   "Transporte sobre trilhos: interrupções e velocidade reduzida na Linha 7-Rubi (fev/2025) e queixas de intervalos longos entre trens no trecho Francisco Morato–Jundiaí",
+   "Saúde: Santa Casa (gerida pelo Grupo São Cristóvão) e UPA 24h; prefeitura doou terrenos para ampliação hospitalar (doação noticiada em 2024)",
+   "Saneamento/controle de enchentes e habitação aparecem como eixos do plano de governo 2025-2028 (documento TSE, não aberto em detalhe)"
+  ],
+  "eventos": "Temporal de 31/01-01/02/2025: deslizamento de terra próximo à estação Botujuru descarrilou trem (sem passageiros) e suspendeu temporariamente a circulação Francisco Morato–Botujuru na Linha 7-Rubi; ônibus gratuitos (PAESE). Não encontrei decreto de emergência de 2025-2026 nem notícia local de 2026.",
+  "fontes": [
+   "https://diariodotransporte.com.br/2025/02/01/novas-imagens-atualizadas-mostram-trem-da-cptm-atingido-por-deslizamento-de-terra/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/prefeita-de-francisco-morato-diz-que-todo-o-territorio-da-cidade-esta-sob-alerta-apos-chuvas/",
+   "https://tribunadejundiai.com.br/cidades/francisco-morato/veja-como-esta-o-plano-de-contingencia-de-francisco-morato-apos-chuvas/"
+  ],
+  "confianca": "média",
+  "obs": "As matérias da Tribuna de Jundiaí sobre emergência (4 mortes, 36 vias interditadas) são de jan-fev/2022, não 2025-2026; usadas só como contexto de risco. Pautas de 2026 não localizadas. A busca retornou matérias sobre a 'Avenida Professor Francisco Morato' (capital), que NÃO se referem ao município."
+ },
+ {
+  "ibge": "3517703",
+  "municipio": "Guará",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (IBGE estima ~18,7 mil hab. em 2025, segundo resultado de busca do IBGE Cidades, página não aberta) da região administrativa de Franca, com economia agrícola baseada em cana-de-açúcar/usinas e grãos (conhecimento geral, não verificado para a base econômica).",
+  "pautas": [
+   "Somente pautas genéricas encontradas: saúde (remanejamentos de recursos para a Secretaria de Saúde citados em documentos da ALESP) e financiamento das Santas Casas regionais (Franca/Ituverava)"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [
+   "https://www.al.sp.gov.br/noticia/?id=474243"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: buscas trouxeram principalmente Guaíra-SP e Guará-DF. A audiência da ALESP em Ituverava (abr/2024) trata da região, não especificamente de Guará."
+ },
+ {
+  "ibge": "3520103",
+  "municipio": "Igarapava",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~28-30 mil hab. na divisa com MG (rio Grande), na região de Franca, com economia de cana-de-açúcar/usina e a UHE Igarapava (conhecimento geral, não verificado; população de 30,8 mil em 2021 consta de documento do TCE-SP visto na busca, não aberto).",
+  "pautas": [
+   "Saúde: Santa Casa de Misericórdia de Igarapava (filantrópica, referência SUS regional) com dificuldades históricas de investimento; prefeitura abriu Chamamento Público nº 2/2026 para credenciar 20 especialidades médicas (R$ 4,1 milhões) — agenda da prefeitura",
+   "Demais pautas (estradas, emprego, segurança) não localizadas"
+  ],
+  "eventos": "Nenhum evento relevante de 2025-2026 encontrado além do chamamento de especialidades médicas em 2026.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Informações vêm de resumo de busca; página do chamamento não aberta em detalhe. Sem imprensa local localizada. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!licitacao/DOU-1a40957de57be5f926f3"
+ },
+ {
+  "ibge": "3521309",
+  "municipio": "Ipuã",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~15 mil hab. na região de Franca/Ituverava, economia baseada em cana-de-açúcar e agropecuária (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas; apenas concurso público da prefeitura em 2026 (inscrições jun-jul/2026)"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total de imprensa local; nenhuma fonte aberta especificamente."
+ },
+ {
+  "ibge": "3521804",
+  "municipio": "Itaí",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~25 mil hab. no sudoeste paulista, às margens da represa de Jurumirim, com agricultura (grãos), turismo náutico e unidade prisional (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas (buscas retornaram Itu, Jumirim e Itaquera)"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total; busca confundiu com outros municípios."
+ },
+ {
+  "ibge": "3526605",
+  "municipio": "Lavrinhas",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (~7 mil hab.) do Vale do Paraíba, divisa com Cruzeiro, Queluz, Silveiras e Passa Quatro (MG), com pecuária leiteira e turismo de serra (Mantiqueira) (conhecimento geral, não verificado).",
+  "pautas": [
+   "Habitação: licitação para 20 unidades habitacionais no Jardim Mavisou (2026) — agenda da prefeitura",
+   "Eventos rurais: Torneio Leiteiro (jul/2026) e Festa do Peão (ago/2026) contratados pela prefeitura — agenda da prefeitura",
+   "Plano de governo 2025-2028 (prefeito Marcos Vinicius Franqueira Garcia, segundo o documento) prioriza saúde, educação, segurança e emprego/renda — genérico, agenda da prefeitura"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado na imprensa.",
+  "fontes": [
+   "https://lavrinhas.sp.gov.br/wp-content/uploads/2026/05/Plano-de-Governo-2025-2028.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "PDF do plano de governo baixado mas texto não extraível; conteúdo vem do resumo da busca. Pautas são só agenda da prefeitura. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!licitacao/MN-3526605-2-120262-12026"
+ },
+ {
+  "ibge": "3529708",
+  "municipio": "Miguelópolis",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~20 mil hab. na região de Franca, às margens do rio Grande/represa de Volta Grande, com cana-de-açúcar e turismo de represa (Praia Artificial) (conhecimento geral, não verificado).",
+  "pautas": [
+   "Turismo/lazer: controle de acesso de veículos na Praia Artificial (licitação 2026) — agenda da prefeitura",
+   "Saúde e assistência social regionais: reivindicação por recursos para Santas Casas da região e reforma da APAE de Miguelópolis (audiência ALESP em Ituverava, abr/2024 — R$ 1,5 mi reservados para Santas Casas de Ituverava/Franca e APAE Miguelópolis)",
+   "Demais pautas de 2025-2026 não localizadas"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [
+   "https://www.al.sp.gov.br/noticia/?id=474243"
+  ],
+  "confianca": "baixa",
+  "obs": "Fonte da ALESP é de 2024 (contexto). Licitações de 2026 só indicam rotina administrativa. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!municipios/3529708"
+ },
+ {
+  "ibge": "3532207",
+  "municipio": "Narandiba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (~5 mil hab.) do Pontal do Paranapanema, região de Presidente Prudente, com pecuária e cana-de-açúcar (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total."
+ },
+ {
+  "ibge": "3537008",
+  "municipio": "Pedregulho",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~16 mil hab. na região de Franca, divisa com MG, com café, agropecuária, usinas hidrelétricas no rio Grande (Estreito/Jaguara) e turismo no Parque Estadual Furnas do Bom Jesus (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas; apenas concurso público da prefeitura em 2026"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total de imprensa local."
+ },
+ {
+  "ibge": "3543006",
+  "municipio": "Ribeirão Branco",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~18 mil hab. no sudoeste paulista (EDR Itapeva), apontado como um dos maiores polos de tomate do país; projeto de lei na ALESP (dez/2025) propõe o título de 'Capital do Tomate', citando ~20% da produção estadual e base na agricultura familiar (resumo da busca; PDF não legível).",
+  "pautas": [
+   "Estradas/pontes: Concorrência 93/2026 (set/2026) para construir ponte metálica/concreto sobre o rio Apiaí-Guaçu no km 9 da SP-252 — agenda da prefeitura",
+   "Agricultura (tomate): dependência econômica da cultura; reconhecimento como 'Capital do Tomate' (PL ALESP 2025); custos e clima citados como desafios do setor em 2026 na imprensa nacional",
+   "Demais pautas (saúde, emprego) não localizadas"
+  ],
+  "eventos": "PL estadual (dez/2025) para declarar Ribeirão Branco 'Capital do Tomate'; licitação de ponte na SP-252 (set/2026). Nenhum desastre ou crise localizada.",
+  "fontes": [
+   "https://alertalicitacao.com.br/!licitacao/MN-3543006-2-9320262-932026",
+   "https://www.al.sp.gov.br/spl/2025/12/Propositura/1000674849_1000844527_Propositura.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Dados de 20% da produção estadual vêm do resumo da busca do PL; o PDF foi baixado mas não teve o texto extraído."
+ },
+ {
+  "ibge": "3552908",
+  "municipio": "Taciba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (~6 mil hab.) da região de Presidente Prudente, com pecuária e cana-de-açúcar (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total."
+ },
+ {
+  "ibge": "3553609",
+  "municipio": "Tapiratiba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~12-13 mil hab. na divisa com MG (região de Mococa/Caconde), com cafeicultura e agropecuária (conhecimento geral, não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas; prefeitura com processo seletivo em 2025 e reforma do chafariz da Praça Nossa Senhora da Conceição (licitação 2026) — agenda da prefeitura"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Lacuna total de imprensa local. URLs vistas só nos resultados de busca (não abertas): https://alertalicitacao.com.br/!municipios/3553609"
+ }
+]
