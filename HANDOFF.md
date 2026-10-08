@@ -77,7 +77,7 @@ python3 scripts/segundo_turno.py   # -> data/segundo_turno/ (2nd-round view; aft
    - `lula2p` = Lula / (Lula + PL) in p.p., so the 1T and 2T shares compare on the same basis.
    - In 2022, Lula's two-party share fell between rounds in 97.9% of municipalities, from 52.85 to 50.90 nationally. Read the 2026 deltas against that precedent.
    - Local factors on 25/10 that can move turnout:
-     - Governor runoffs in AC, AM, DF, ES, RJ, RN and TO. In RJ, Garotinho's 274k votes are "anulado sub judice"; Ruas has 49.27% counting them and 50.88% of valid votes without them (see `data/tse/estados_2026.csv`, `pct_com_sub_judice`).
+     - Governor runoffs in AC, AM, DF, ES, RJ, RN and TO. In RJ, Garotinho's 274k votes are "anulado sub judice"; Ruas has 49.27% counting them and 50.88% of valid votes without them (see `data/tse/estados_2026.csv`, `pct_com_sub_judice`). On 08/10 the TSE formed a majority to annul those votes (RO 0602359-26.2026.6.19.0000), so the RJ runoff is **probably cancelled** pending the TRE-RJ recount. Check this before 25/10 and update `GOV_2T_STATUS` in `scripts/segundo_turno.py`.
      - A supplementary mayoral election in Narandiba/SP. Flag it before reading its d_abst_26.
 
 ## Gotchas
