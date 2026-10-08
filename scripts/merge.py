@@ -6,7 +6,7 @@ def empty(v):
     s = str(v or '').lower().strip()
     return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))
 M = {}
-for f in sorted(glob.glob('data/pesquisa_bruta/lote_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r2_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r3_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r4_*.json')):
+for f in sorted(glob.glob('data/pesquisa_bruta/lote_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r2_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r3_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r4_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r5_*.json')):
     for x in json.load(open(f)):
         k = str(x.get('ibge')); cur = M.setdefault(k, {})
         for key, v in x.items():
