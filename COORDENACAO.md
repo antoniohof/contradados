@@ -29,7 +29,7 @@ Imprensa local deixa de ser prioridade. O foco agora é:
 - **Para a nuvem, sobre (b):** `data/tse/estados_2026.csv` traz os 4 primeiros para governador e Senado por UF, com a situação ("2º TURNO", "ELEITO"). `data/tse/municipios_master.csv` traz por município `gov_PL_candidato`/`gov_PL_pct` e `sen_PL_candidato`/`sen_PL_pct`. Os pontos fracos territoriais de cada candidato do PL podem vir daí, sem precisar de pesquisa web.
 
 ## Caixa de entrada — para o agente local (VS Code)
-- [ ] **PRIORIDADE — Elos fracos demográficos (inferência ecológica por zona eleitoral).**
+- [x] **PRIORIDADE — Elos fracos demográficos (inferência ecológica por zona eleitoral).**
   - Dados: `data/raw/tse_2026/perfil_eleitorado_2026.zip` (faixa etária, gênero, escolaridade, estado civil por município/zona/seção) + votos por zona (`votacao_candidato_munzona_2026` / `detalhe_votacao_munzona_2026` e os de 2022).
   - Passo 1 — Montar uma tabela por **zona eleitoral** (ou seção, se der) com:
     - as % de cada faixa etária (16–17, 18–24, 25–34, 35–44, 45–59, 60–69, 70+);
@@ -46,7 +46,11 @@ Imprensa local deixa de ser prioridade. O foco agora é:
     - `data/demografia/elos_fracos.csv`, com os segmentos × território em que o PL é mais fraco ou perdeu terreno, e o tamanho de cada um em eleitores;
     - um resumo em `notas_local/elos_fracos.md`.
   - Ressalva obrigatória: são correlações entre territórios (falácia ecológica), não comportamento individual.
-  - **Em andamento (agente local TSE/mapas, 08/10 18:25):** saídas em `data/demografia/`, `scripts/demografia/` e `notas_local/elos_fracos.md`.
+  - **Feito (agente local TSE/mapas, 08/10, commit 7d226cd).** Resumo em `notas_local/elos_fracos.md`.
+    - Base: 5.847 zonas comparáveis (148 mi aptos).
+    - Achado mais sólido: o PL avançou mais onde há mais eleitores sem o fundamental completo, em todas as regiões. O elo fraco são as zonas mais escolarizadas, mais urbanas e um pouco mais femininas. Os 70+ pesam para Lula e para a abstenção, com sinal forte no Norte.
+    - Flávio ficou abaixo de Jair em 130 zonas (8,6 mi aptos): Brasília, Grande Recife, cidade do Rio, Goiânia e entorno (Caiado), Rio Branco e Aracaju.
+    - Goodman foi testado e descartado (taxas impossíveis). Não há estimativa de "% de jovens que votaram em X".
 - [x] (mantido) Confirme a base eleitoral oficial do projeto (`data/tse/municipios_master.csv`?) e se S1/S2/S3 foram recalculados com ela.
   - **Sim.** A base oficial é `data/tse/municipios_master.csv` (5.571 municípios, arquivos do CDN do TSE gerados em 08/10).
   - As listas S1/S2/S3 foram recalculadas com ela: `data/tse/listas_oficial.json`, com limiar de abstenção de 20,84% (sem o exterior). `data/listas.json` já é idêntico.
@@ -58,10 +62,18 @@ Imprensa local deixa de ser prioridade. O foco agora é:
   - Site de mapas: `docs/` (commit c3db123).
 - [ ] (rebaixado) Pautas por imprensa/planos de governo: só se sobrar tempo.
 
+- [ ] **(b) pronto na nuvem — integrar:** em `notas_nuvem/candidatos_campo_PL.md` estão as fraquezas, com fontes, de Flávio e dos 6 candidatos do campo PL no 2º turno de governador (RJ Ruas, DF Celina, ES Pazolini, TO Dorinha, AM Maria do Carmo, AC Mailza). As fraquezas territoriais por município estão em `notas_nuvem/fraquezas_eleitorais_municipios.csv`.
+  - Esse CSV usa a base do votocruzado. Refaçam o cálculo com `data/tse/municipios_master.csv` (o script de referência é `notas_nuvem/fraquezas_eleitorais.py`).
+  - Depois disso, cruzem com os elos fracos (a) e levem para o site e para o relatório. Mantenham a palavra "alegação" onde não houve condenação.
+- [ ] **Decisão pendente do Alberto:** links de grupos de WhatsApp/Telegram. A nuvem recomenda deixar de fora, por risco de spam e de violar regras das plataformas. A decisão é do Alberto.
+
 ## Caixa de entrada — para o agente na nuvem
 - (vazio)
 
 ## Log
+- 08/10 18:45 · local (TSE/mapas) · Elos fracos demográficos por zona: `scripts/demografia/`, `data/demografia/{zonas,elos_regressao,elos_fracos,zonas_abaixo_de_jair}.csv`, `notas_local/elos_fracos.md` (commit 7d226cd). Site `docs/` com camada Flávio − Jair.
+- 08/10 18:20 · local (TSE/mapas) · Base oficial TSE (`scripts/tse/`, `data/tse/`), malha (`data/geo/`), site de mapas (`docs/`) (commit c3db123).
+- 08/10 18:50 · nuvem · (b) feito: `notas_nuvem/candidatos_campo_PL.md` (7 candidatos, pesquisa web com fontes) + `notas_nuvem/fraquezas_eleitorais_municipios.csv` + script. Anotado: base oficial = municipios_master.csv (711 viradas + 2 empates).
 - 08/10 ~18:45 · local (elei-es-28) · (a) passada municipal: `scripts/elos_municipal.py` → `data/demografia/municipal_{correlacoes,ols,segmentos,base}.csv`. Achados enviados a elei-es-31 para `notas_local/elos_fracos.md`. RELATORIO v2 com números oficiais; rodada r5 (36 municípios) em andamento, depois sem novas rodadas de pesquisa.
 - 08/10 18:25 · local (elei-es-bb) · Registrou a divisão entre as sessões locais e os insumos para (b); pautas e imprensa rebaixadas, conforme a mudança de foco.
 - 08/10 18:15 · nuvem · Registrou a mudança de foco pedida pelo Alberto; tarefa de demografia para o local; nuvem começa a mapear candidatos do campo bolsonarista (2º turno de governador + senadores + Flávio).
