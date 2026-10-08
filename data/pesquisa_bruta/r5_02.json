@@ -1,0 +1,290 @@
+[
+ {
+  "ibge": "3170800",
+  "municipio": "Várzea da Palma",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade de 33,7 mil hab. (Censo 2022) no Norte de MG, PIB 2023 de R$ 1,35 bi (R$ 40 mil per capita); indústria responde por ~37% do valor adicionado (2021), serviços 30%, adm. pública 21%, agro 11% (IBGE). Polo de siderurgia/ferroligas: conhecimento geral, não verificado.",
+  "pautas": [
+   "Ponte da BR-365 sobre o Rio das Velhas (Barra do Guaicuí, entre Várzea da Palma e Pirapora): restrições desde jan/2025; em 11/06/2026 DNIT impôs pare-e-siga 24h e limite de 10 t; desvio de ~170 km para cargas, protesto de produtores, empresários e transportadores; limite ajustado em 01/08/2026; DNIT firmou contrato emergencial de ~R$ 56,9 mi para reconstrução",
+   "Segurança/tráfico de drogas: operações com presos (ago/2026), denúncias de tráfico em 'disk bebidas' (set/2026), assalto com roubo de caminhonete (manchete)",
+   "Temporal deixou cerca de 40 famílias desalojadas em jan/2026 (manchete)",
+   "Fiscalização do consumidor: Procon-MPMG apreendeu 642 kg de alimentos impróprios em açougues/supermercados (set/2026) (manchete)",
+   "Segurança viária na BR-365 (acidente com duas crianças mortas em jun/2026) (manchete)"
+  ],
+  "eventos": "Crise logística da ponte da BR-365 ao longo de 2026 (restrição a 10 t a partir de 11/06/2026, manifestação, contrato emergencial do DNIT); temporal com ~40 famílias desalojadas (jan/2026, manchete); TCE afastou inconsistências em shows de festa municipal (mai/2026, manchete); TAC do MPMG viabilizou construção de centro cultural (set/2026, manchete).",
+  "fontes": [
+   "https://www.itatiaia.com.br/montesclaros/produtores-rurais-organizam-manifestacao-cobrando-solucoes-para-ponte-da-barra-do-guaicui/",
+   "https://news.google.com/rss/search?q=%22V%C3%A1rzea+da+Palma%22+MG&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[3170800]"
+  ],
+  "confianca": "média",
+  "obs": "Pauta da ponte bem documentada (Itatiaia aberta; resumo de busca citou contrato emergencial DNIT de R$ 56,9 mi, não aberto). Demais pautas por manchete. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "5106232",
+  "municipio": "Nova Olímpia",
+  "uf": "MT",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 16,4 mil hab. (Censo 2022) no sudoeste de MT, PIB 2023 de R$ 772 mi (R$ 47 mil per capita); indústria ~34% e agro ~27% do valor adicionado (2021, IBGE) — base sucroenergética (cana/usina; Diário da Serra/MidiaNews apontam a cidade entre as 3 de MT com mais da metade dos empregos formais na indústria, manchete).",
+  "pautas": [
+   "Pecuária e agroindústria local: autorização de frigorífico municipal com selo Sisbi-POA, anunciada em 23/04/2026 (Diário da Serra)",
+   "Segurança viária na MT-358 (Tangará–Nova Olímpia–Barra do Bugres): acidente com 6 mortos em 06/06/2026, colisões de carretas e motociclistas com caminhões canavieiros (manchete)",
+   "Habitação: governo estadual entregou 96 casas populares em jun/2026 (manchete)",
+   "Educação: criação da carreira do magistério com 200 cargos (set/2026) e plano decenal com o GEMTE (manchete)",
+   "Segurança: tráfico (150 kg de drogas na estrada para Tangará), contrabando de cigarros, violência doméstica (manchete)"
+  ],
+  "eventos": "40 anos de emancipação (mai/2026) com entregas e lançamentos; frigorífico municipal (abr/2026); tragédia na MT-358 com 6 mortos (jun/2026); assentamento do acampamento Ernesto Che Guevara (MST) celebrado em ago/2026 (manchete); Olhar Direto registrou que Nova Olímpia liderou brancos e nulos em três cargos no 1º turno de 2026 (manchete).",
+  "fontes": [
+   "https://diariodaserra.com.br/noticia/caravana-em-nova-olimpia-carlos-favaro-lanca-frigorifico-municipal",
+   "https://news.google.com/rss/search?q=%22Nova+Ol%C3%ADmpia%22+MT&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[5106232]"
+  ],
+  "confianca": "média",
+  "obs": "Só a matéria do frigorífico foi aberta; demais por manchete (Fatos de MT e Diário da Serra com erro/404). Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "1503804",
+  "municipio": "Jacundá",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 37,7 mil hab. (Censo 2022) no sudeste do PA, PIB 2023 de R$ 800 mi (R$ 21 mil per capita); administração pública responde por ~45% do valor adicionado e serviços 38%, agro 12% (2021, IBGE) — economia dependente do setor público, pecuária e comércio na PA-150.",
+  "pautas": [
+   "PA-150 (rodovia estadual concedida à Rota do Pará): governo suspendeu em 19/03/2026 a cobrança em 5 praças entre Nova Ipixuna, Jacundá, Goianésia e Tailândia por falhas de manutenção/asfalto; obras de recuperação Marabá–Jacundá em set/2026 (manchete)",
+   "Violência no trânsito da PA-150: série de mortes de motociclistas em 2026 e colisão que matou 4 indígenas de uma mesma família em fev/2026 (carreta incendiada em seguida) (manchete)",
+   "Saúde: inauguração do Centro Integrado de Saúde (25/09/2026) unificando Secretaria, Melhor em Casa, Vigilância, Centro de Especialidades e Atenção Básica (agenda da prefeitura, via Correio de Carajás)",
+   "Trabalho escravo: resgate de trabalhadores em fazenda de gado (mai/2026) (manchete)",
+   "Violência urbana/feminicídio (abr/2026) (manchete)"
+  ],
+  "eventos": "Suspensão do pedágio da PA-150 (mar/2026) e posterior retomada após melhorias; acidente com 4 indígenas mortos (fev/2026); Centro Integrado de Saúde (set/2026); ponte na vicinal Bela Vista entregue (jan/2026, manchete).",
+  "fontes": [
+   "https://correiodecarajas.com.br/centro-integrado-de-saude-com-mais-de-100-servidores-e-inaugurado-em-jacunda/",
+   "https://dol.com.br/carajas/noticias/para/937082/governo-suspende-cobranca-de-pedagio-em-cinco-pracas-da-pa-150?d=1",
+   "https://news.google.com/rss/search?q=%22Jacund%C3%A1%22+PA&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[1503804]"
+  ],
+  "confianca": "média",
+  "obs": "Suspensão do pedágio confirmada por resultado de busca (DOL/Diário do Pará), página não aberta. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "1508001",
+  "municipio": "Tomé-Açu",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 67,6 mil hab. (Censo 2022) no nordeste do PA, PIB 2023 de R$ 1,75 bi (R$ 26 mil per capita); adm. pública ~36%, serviços 28%, agro 24% do valor adicionado (2021, IBGE); polo de dendê, pimenta-do-reino e sistemas agroflorestais da colônia japonesa (Embrapa/imprensa, manchete).",
+  "pautas": [
+   "'Guerra do dendê': Operação Termidor (PF/MPF/Receita, 17–23/09/2026) contra organização armada de furto e receptação de dendê que movimentou ~R$ 1 bi (2023–2026), com mandados em Tomé-Açu; conflitos agrários envolvendo indígenas e quilombolas",
+   "Terras indígenas/fundiário: Justiça determinou andamento da demarcação do território Turiwara a pedido do MPF (abr/2026) e programa de regularização fundiária com Faepa/Senar (mai–jul/2026) (manchete)",
+   "Segurança: confrontos policiais com mortes (líder de facção em jan/2026; maio/2026), violência contra mulheres (manchete)",
+   "Trânsito na PA-140/PA-256 (acidentes fatais em 2026) (manchete)",
+   "Serviços públicos: Usina da Paz entregue pelo governo do estado em 16/04/2026 (manchete)"
+  ],
+  "eventos": "Operação Termidor (set/2026) sobre o dendê; Usina da Paz (abr/2026); incêndio destruiu complexo de lojas em distrito (out/2026, manchete).",
+  "fontes": [
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-pa/noticias/operacao-com-atuacao-do-mpf-mira-esquema-bilionario-de-desvio-de-dende-e-lavagem-de-dinheiro-no-para",
+   "https://news.google.com/rss/search?q=%22Tom%C3%A9-A%C3%A7u%22+PA&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[1508001]"
+  ],
+  "confianca": "média",
+  "obs": "Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "2208403",
+  "municipio": "Piripiri",
+  "uf": "PI",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade-polo do norte do Piauí com 65,5 mil hab. (Censo 2022), PIB 2023 de R$ 1,24 bi (R$ 19 mil per capita); serviços ~46% e adm. pública ~38% do valor adicionado, agro só 3% (2021, IBGE); projeto de mineração de ferro e nova subestação da Equatorial (manchete).",
+  "pautas": [
+   "Educação/trabalho: MP investiga ~500 'voluntários remunerados' na Secretaria de Educação que recebem abaixo do salário mínimo por 40h semanais, com descontos previdenciários sem comprovação (Lupa1, 24/09/2026)",
+   "Seca/calor: alerta da Defesa Civil com umidade de 10% no norte do PI (out/2026) e incêndio que interditou a BR-343 (manchete)",
+   "Segurança: operação da SSP com 16 mandados contra tráfico e facções (jun/2026), homicídios de adolescentes (manchete)",
+   "Questão indígena: MPF acompanha demarcação de terras do povo Tabajara em Piripiri (abr/2026) e pede reinstalação da Funai no PI (manchete)",
+   "Contratos e gestão: empresa investigada por subcontratar 28 veículos em contratos municipais; aluguel de R$ 24 mil para sede do CRAS (manchete)"
+  ],
+  "eventos": "Prefeita Jôve Oliveira (PT) teve cassação em 1ª instância em nov/2025 (manchete G1) e rompeu com o grupo político de Genival Sales em ago/2026 (manchete GP1); TRE-PI negou liminar em representação sobre os 'Arrastões da Jôve' (22/09/2026); vereadora presa pela PF após sacar R$ 500 mil (jun/2026, manchete).",
+  "fontes": [
+   "https://lupa1.com.br/noticias/geral/voluntarios-da-educacao-de-piripiri-recebem-abaixo-do-salario-minimo-aponta-denuncia-investigada-pelo-mp-75719.html",
+   "https://www.gp1.com.br/piaui/noticia/2026/9/23/justica-eleitoral-nega-liminar-contra-prefeita-jove-oliveira-632193.html",
+   "https://news.google.com/rss/search?q=%22Piripiri%22+PI&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[2208403]"
+  ],
+  "confianca": "média",
+  "obs": "Situação recursal da cassação de 2025 não verificada. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4101002",
+  "municipio": "Ampére",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 19,6 mil hab. (Censo 2022) no Sudoeste do PR, PIB 2023 de R$ 1,0 bi (R$ 51 mil per capita); serviços ~39%, indústria ~26% e agro ~21% do valor adicionado (2021, IBGE); atacarejo SuperDia investiu R$ 5 mi em loja (set/2026, manchete).",
+  "pautas": [
+   "Pedágio eletrônico free-flow na PR-182/rodovias do Sudoeste: ANTT autorizou cobrança em Ampére e Vitorino a partir de 23/02/2026 (manchete)",
+   "Segurança viária na PR-182 (Ampére–Francisco Beltrão/Realeza): acidente com 5 mortos em dez/2025 e várias mortes em 2026 (manchete)",
+   "Gestão municipal: Justiça afastou secretária de Assistência Social após ação do MPPR por improbidade e suspeita de nepotismo (mai/2026) e secretário condenado por importunação sexual e corrupção passiva (jul/2026) (manchete)",
+   "Planejamento urbano: ação levou à revogação da licitação do Plano Diretor (CAU, jul/2026) (manchete)"
+  ],
+  "eventos": "Início do pedágio free-flow (fev/2026); afastamento de secretária pelo MPPR (mai/2026) e condenação de secretário (jul/2026); EXPOAMP (abr/2026); nova loja de atacarejo (set/2026).",
+  "fontes": [
+   "https://news.google.com/rss/search?q=%22Amp%C3%A9re%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4101002]"
+  ],
+  "confianca": "baixa",
+  "obs": "Matérias locais (Jornal de Beltrão, Bem Paraná, Rádio Clube de Realeza) bloqueadas (403/Cloudflare); tudo por manchete. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4102901",
+  "municipio": "Bituruna",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 15,5 mil hab. (Censo 2022) no Sul do PR, PIB 2023 de R$ 656 mi (R$ 42 mil per capita); agro ~37% e indústria ~23% do valor adicionado (2021, IBGE); polo madeireiro (Randa, 800 funcionários, portas/compensados para os EUA — Gazeta do Povo) e 'capital paranaense do vinho' (manchete).",
+  "pautas": [
+   "Tarifaço dos EUA sobre madeira (ago/2025): indústria Randa teve queda de 50–55% no faturamento, rodízio de férias e desligamentos (Gazeta do Povo; G1/Estadão manchetes)",
+   "Rodovia PR-170: modernização do trecho urbano de R$ 32,1 mi anunciada em 31/03/2026 (viaduto no bairro N. Sra. Aparecida); recuperação de trecho danificado por chuvas (out/2025) e queda de barreira entre Pinhão e Bituruna (jul/2026) (AEN; manchetes)",
+   "Eventos climáticos: temporal com ventos de 70 km/h derrubou árvores e deixou escola sem aulas (out/2025) (manchete)",
+   "Energia/ambiente: licenciamento da PCH Paiol Grande e requerimento de hidrelétrica entre Palmas e Bituruna (2025–2026) (manchete)",
+   "Limites territoriais: MPPR considera inconstitucional alteração de divisa com Coronel Domingos Soares (set/2025) (manchete)"
+  ],
+  "eventos": "Choque do tarifaço sobre a indústria madeireira (2025); obra da PR-170 (2026); afogamento de dois pescadores em açude (jul/2026, manchete).",
+  "fontes": [
+   "https://www.gazetadopovo.com.br/parana/tarifa-dos-eua-ameaca-empregos-industria-madeireira/",
+   "https://www.parana.pr.gov.br/aen/Noticia/Bituruna-e-o-Estado-vao-modernizar-rodovia-dentro-do-municipio",
+   "https://news.google.com/rss/search?q=%22Bituruna%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4102901]"
+  ],
+  "confianca": "média",
+  "obs": "Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4104428",
+  "municipio": "Candói",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 15 mil hab. (Censo 2022) no Centro-Sul do PR, PIB 2023 de R$ 901 mi (R$ 60 mil per capita); agropecuária responde por ~52% do valor adicionado (2021, IBGE) — grãos e pecuária (leilões de reposição bovina, manchete).",
+  "pautas": [
+   "Granizo de 30/06/2026: decreto de situação de emergência, ~90 casas danificadas em 6 localidades (outras fontes falam em ~400–492), 840 afetados e 200 desalojados; estado enviou 400 cestas, 400 colchões, 400 kits e 7.300 telhas; moradores 4 dias sem energia (Tribuna PR; ND Mais; G1 manchete)",
+   "Vendaval/possível tornado em 08/08/2026 na comunidade rural de Santa Clara, com casas e barracões destruídos (Portal Nova Santa Rosa)",
+   "Assistência às vítimas: Defensoria Pública atendeu atingidos em Turvo e Candói, incluindo quilombolas e indígenas (07/07/2026); saque calamidade do FGTS liberado (prazo 07/10/2026)",
+   "Segurança viária na BR-277 e BR-373: vários acidentes fatais em 2026 (manchete)",
+   "Saneamento urbano em expansão (mai/2026) (manchete)"
+  ],
+  "eventos": "Emergência por granizo (jun/2026) reconhecida para saque calamidade do FGTS; vendaval/tornado em Santa Clara (ago/2026).",
+  "fontes": [
+   "https://tribunapr.com.br/noticias/parana/cidades-parana-recebem-ajuda-tempestades-granizo",
+   "https://portalnovasantarosa.com.br/noticia/temporal-deixa-rastro-de-destruicao-em-candoi-e-simepar-investiga-possivel-tornado",
+   "https://www.tribunapr.com.br/noticias/parana/moradores-de-24-cidades-do-parana-podem-sacar-fgts-por-calamidade/",
+   "https://redesuldenoticias.com.br/noticias/defensoria-publica-atende-atingidos-por-tornado-em-turvo-e-candoi",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4104428]"
+  ],
+  "confianca": "alta",
+  "obs": "Divergência no número de casas atingidas pelo granizo (90 na Tribuna PR vs. ~400/492 em manchetes G1/Paraná Central). Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4106571",
+  "municipio": "Cruzeiro do Iguaçu",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 4,1 mil hab. (Censo 2022) no Sudoeste do PR, PIB 2023 de R$ 207 mi (R$ 50 mil per capita); agro ~42% do valor adicionado (2021, IBGE); turismo nos lagos da usina de Salto Caxias: conhecimento geral, não verificado.",
+  "pautas": [
+   "Instabilidade política: prefeito Reni Kovalski (PP) e vice cassados por compra de votos (pagamento de IPVA e promessa de emprego), eleição suplementar em 05/10/2025 (Bem Paraná); Jean Cardoso eleito (manchete)",
+   "Infraestrutura: aeródromo municipal concluiu obras e teve sinalização positiva da Anac (mar/2026) (manchete)",
+   "Segurança: duplo homicídio de pai e filho após briga em bar (set/2026); presos com medicamentos estrangeiros (ago/2026) (manchete)",
+   "Trânsito na PR-473 Cruzeiro–Dois Vizinhos (acidente fatal jul/2026) (manchete)"
+  ],
+  "eventos": "Cassação da chapa eleita em 2024 e eleição suplementar (out/2025); duplo homicídio (set/2026); nova agência Sicredi (set/2026, manchete).",
+  "fontes": [
+   "https://www.bemparana.com.br/noticias/parana/eleicao-fora-de-epoca-parana/",
+   "https://news.google.com/rss/search?q=%22Cruzeiro+do+Igua%C3%A7u%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4106571]"
+  ],
+  "confianca": "baixa",
+  "obs": "Município pequeno, pouca cobertura; pautas sociais genéricas. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4107850",
+  "municipio": "Flor da Serra do Sul",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 4,4 mil hab. (Censo 2022) no Sudoeste do PR, junto à fronteira com a Argentina/SC; PIB 2023 de R$ 206 mi (R$ 47 mil per capita); agropecuária ~50% do valor adicionado (2021, IBGE).",
+  "pautas": [
+   "Contrabando na fronteira: PF/BPFron apreenderam 1.200 caixas de vinho argentino (R$ 1,8 mi) na PR-280 (out/2026); cigarros e canetas emagrecedoras (manchete)",
+   "Finanças/obras: Câmara aprovou crédito de R$ 5 milhões para projetos (out/2026) (manchete)",
+   "Saúde: reforço de equipe e ampliação de atendimento (out/2026) (manchete — agenda da prefeitura)",
+   "Clima: município em listas de alerta de temporais/granizo do Inmet em 2026 (manchete); sem decreto específico encontrado"
+  ],
+  "eventos": "Nenhum evento local de grande porte identificado; concursos/processos seletivos municipais em 2026.",
+  "fontes": [
+   "https://news.google.com/rss/search?q=%22Flor+da+Serra+do+Sul%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4107850]"
+  ],
+  "confianca": "baixa",
+  "obs": "Jornal da Fronteira bloqueou acesso (403); só manchetes. Pautas basicamente genéricas. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4111209",
+  "municipio": "Itapejara d'Oeste",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 12,3 mil hab. (Censo 2022) no Sudoeste do PR, PIB 2023 de R$ 971 mi (maior per capita do lote, R$ 79 mil); serviços ~37%, indústria ~29% e agro ~26% do valor adicionado (2021, IBGE); setor industrial destacado pelo Jornal de Beltrão (manchete).",
+  "pautas": [
+   "Obras: prefeitura projeta R$ 100 mi em obras (mai/2026) e DER/PR reforça pavimento da PR-566 (manchete)",
+   "Segurança: sucessivas prisões por tráfico e apreensão de cigarros contrabandeados (2026) (Grupo RBJ, títulos do feed)",
+   "Trânsito nas PR-566/PR-493 (morte de criança em ago/2026) (manchete)",
+   "Probidade: ex-prefeito condenado a ressarcir R$ 2,4 mi teve ocultação de patrimônio reconhecida pela Justiça (set/2025) (manchete)"
+  ],
+  "eventos": "Concursos municipais para professores (2026); nenhum desastre ou crise fiscal encontrado.",
+  "fontes": [
+   "https://rbj.com.br/?s=itapejara&feed=rss2",
+   "https://news.google.com/rss/search?q=%22Itapejara+d%27Oeste%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4111209]"
+  ],
+  "confianca": "baixa",
+  "obs": "Jornal de Beltrão/Gazeta do Paraná bloqueados; pautas por manchete, em grande parte genéricas. Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ },
+ {
+  "ibge": "4127965",
+  "municipio": "Turvo",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de 14,2 mil hab. (Centro-Sul do PR, Censo 2022), PIB 2023 de R$ 698 mi (R$ 49 mil per capita); indústria ~34% e agro ~30% do valor adicionado (2021, IBGE) — fábrica de papelcartão da Ibema (manchete) e agricultura familiar.",
+  "pautas": [
+   "Granizo/vendaval de fim de jun/2026: decreto de situação de emergência, ~200 desalojados, 30 abrigados em escola estadual; campanha para famílias da aldeia indígena Marrecas (Tribuna PR; manchete)",
+   "Saque calamidade do FGTS liberado (prazo até 12/10/2026) e atendimento da Defensoria Pública a atingidos, incluindo quilombolas e indígenas",
+   "Duplicação da PRC-466 entre Pitanga/Guarapuava e Turvo: obra com detonações e interdições frequentes, 29% concluída em mai/2026, previsão abr/2027 (manchete)",
+   "Saúde: espaço de saúde inaugurado pela Ibema em parceria com operadoras (abr/2026) (manchete)"
+  ],
+  "eventos": "Emergência por granizo/vendaval (jun/2026); obras da PRC-466 ao longo de 2026; Inverno Gastronômico e festa de 44 anos (manchete).",
+  "fontes": [
+   "https://tribunapr.com.br/noticias/parana/cidades-parana-recebem-ajuda-tempestades-granizo",
+   "https://www.tribunapr.com.br/noticias/parana/moradores-de-24-cidades-do-parana-podem-sacar-fgts-por-calamidade/",
+   "https://redesuldenoticias.com.br/noticias/defensoria-publica-atende-atingidos-por-tornado-em-turvo-e-candoi",
+   "https://news.google.com/rss/search?q=%22Turvo%22+PR&hl=pt-BR&gl=BR&ceid=BR:pt-419",
+   "https://servicodados.ibge.gov.br/api/v3/agregados/5938/periodos/2021/variaveis/513|517|6575|525?localidades=N6[4127965]"
+  ],
+  "confianca": "alta",
+  "obs": "Economia: Censo 2022 (agregado 4709), PIB 2023 e VA setorial 2021 (agregado 5938) via API IBGE. Itens '(manchete)' vistos só no título do feed Google News/Bing News, não abertos."
+ }
+]

@@ -1,0 +1,307 @@
+[
+ {
+  "ibge": "2914000",
+  "municipio": "Ipirá",
+  "uf": "BA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "Senador candidato João Roma (PL) fez carreata em Ipirá com ACM Neto (União) em 22/09/2026 (Bahia Notícias); reduto não verificado (ver TSE).",
+  "economia": "Censo 2022: 56.876 hab.; PIB 2023 R$ 799 mi; valor adicionado 2021: agropecuária 12%, indústria 13%, serviços 39%, adm. pública 36% (IBGE/SIDRA). Bacia do Jacuípe, a ~200 km de Salvador; fábrica de calçados femininos da catarinense Lia Line (marca Softli) opera desde 2024 no prédio que abrigou por 20 anos a Paquetá (Jornal Exclusivo); agricultura familiar (mandioca, milho, feijão).",
+  "pautas": [
+   "Saúde: demanda por urgência/emergência hospitalar citada em campanha; policlínica regional e 2 UBS em obras pelo Novo PAC (Bahia Notícias; bahia.ba)",
+   "Ensino superior: reabertura de campus da Uneb fechado no passado é prioridade apontada localmente (Bahia Notícias, 22/09/2026)",
+   "Emprego/industrialização: dependência de poucas indústrias (fábrica de calçados Lia Line, ex-Paquetá) e cobrança por atração de empresas (Jornal Exclusivo; Bahia Notícias)",
+   "Segurança: Operação 'Banda Suja' (MP-BA, 27/02/2026) prendeu 4 PMs suspeitos de milícia na região de Ipirá; homicídios (suplente de vereador morto em fev/2026 – manchete G1)",
+   "Água e agricultura familiar: barragem de pedra no Rio Paulista (povoado de Conceição), caixas d'água e tanque-pipa entregues pelo Estado/CAR em abr/2026 (Bahia Econômica)"
+  ],
+  "eventos": "Fev/2026: Operação 'Banda Suja' contra suposta milícia de PMs (G1/MP-BA). Abr/2026: Estado entrega equipamentos e autoriza R$ 4,4 mi em convênios (Centro de Abastecimento, barragem) e inaugura colégio estadual de tempo integral. Set/2026: cidade foi palco de agendas das duas chapas ao governo; campanha governista citou >R$ 100 mi do Novo PAC desde 2023 (473 casas MCMV, policlínica, UBS). Chuvas dentro da média em 2026 (Canal Rural, manchete).",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/321434-acm-neto-diz-que-vai-reabrir-campus-universitario-e-ampliar-servicos-em-ipira",
+   "https://bahia.ba/politica/rui-defende-voto-casado-e-cita-r-100-mi-do-pac-em-ipira/",
+   "https://bahiaeconomica.com.br/wp/2026/04/13/governo-da-bahia-autoriza-obras-para-a-agricultura-familiar-em-ipira/",
+   "https://g1.globo.com/ba/feira-de-santana-regiao/noticia/2026/03/01/o-que-se-sabe-sobre-operacao-que-prendeu-policiais-na-bahia.ghtml",
+   "https://exclusivo.com.br/negocios/calcadista-comemora-2-anos-de-operacao-de-fabrica-no-nordeste/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/2914000/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": "Pautas de saúde/universidade vêm em parte de falas de campanha (registradas como demandas locais citadas). Fontes via Google News RSS + leitura direta."
+ },
+ {
+  "ibge": "2305902",
+  "municipio": "Ipueiras",
+  "uf": "CE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 36.798 hab.; PIB 2023 R$ 407 mi; valor adicionado 2021: agropecuária 11%, indústria 2%, serviços 33%, adm. pública 54% (IBGE/SIDRA). Sertão de Crateús; economia muito dependente da administração pública e de transferências.",
+  "pautas": [
+   "Água/saneamento: SAAE de Ipueiras sob investigação – Justiça afastou 6 servidores por suspeita de 'rachadinha' (Diário do Nordeste, mar/2026); operação 'Sedentos' do MPCE contra fraude em compras do SAAE (MPCE; data do texto indica 31/01, provavelmente 2023)",
+   "Rodovias: CE-187 – casal de servidores municipais (engenheiro e biomédica) morreu em acidente em jun/2026 em Tauá; prefeitura decretou luto (Diário do Nordeste)",
+   "Chuvas/açudes: Ipueiras teve a maior chuva do CE em 13/04/2026 (109 mm, Funceme – manchete Ceará Agora); demora na construção de barragem lamentada por moradores (manchete A Notícia do Ceará, fev/2025)",
+   "Política local: realinhamento na Câmara – vereador do PT migrou para a base do prefeito (Republicanos) por orientação do governo estadual (Diário do Nordeste, mai/2026)",
+   "Genéricos/escassos: poucas matérias locais sobre saúde e emprego; concursos da Câmara e seleção de professores (manchetes)"
+  ],
+  "eventos": "Mar/2026: afastamento de servidores do SAAE por suspeita de 'rachadinha'. Mai/2026: troca de lado de vereador do PT para a base do prefeito. Jun/2026: luto oficial pela morte de dois servidores na CE-187. Atenção: há homônimo Ipueiras/TO com muitas notícias (corte de salários por queda do FPM, ação contra prefeito) – NÃO se referem ao CE.",
+  "fontes": [
+   "https://diariodonordeste.verdesmares.com.br/pontopoder/por-suspeita-de-rachadinha-justica-afasta-servidores-do-servico-de-agua-e-esgoto-de-ipueiras-1.3749270",
+   "https://diariodonordeste.verdesmares.com.br/pontopoder/vereador-tira-tapioca-do-terno-apos-colega-trocar-oposicao-pela-base-do-prefeito-em-ipueiras-ce-1.3762949",
+   "https://diariodonordeste.verdesmares.com.br/ceara/ipueiras-decreta-luto-oficial-de-sete-dias-apos-morte-de-casal-na-ce-187-1.3772654",
+   "https://mpce.mp.br/operacao-do-mpce-prende-suspeitos-de-corrupcao-em-contratacoes-feitas-pelo-servico-autonomo-de-agua-e-esgoto-de-ipueiras/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/2305902/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "baixa",
+  "obs": "Cobertura local escassa; pautas de saúde/emprego não encontradas. Homônimo no TO filtrado."
+ },
+ {
+  "ibge": "2308500",
+  "municipio": "Mombaça",
+  "uf": "CE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 37.735 hab.; PIB 2023 R$ 552 mi; valor adicionado 2021: agropecuária 18%, indústria 7%, serviços 33%, adm. pública 42% (IBGE/SIDRA). Sertão Central do CE (bacia do Banabuiú); agropecuária de sequeiro e serviços; campus da UECE (Fecli) e IFCE.",
+  "pautas": [
+   "Saúde: médicos plantonistas do Hospital Municipal com ~3 meses de salários atrasados; Sindicato dos Médicos cobrou a SMS (abr/2026); gestão via Instituto Saúde e Cidadania",
+   "Estradas: nova estrada de 15 km sede–distrito de Boa Vista, ordem de serviço assinada pelo governador em 22/04/2026 (Blog Roberto Moreira)",
+   "Água/seca: açude Serafim Dias (40,9 hm³) voltou a sangrar em mai/2026 após anos seco – última sangria em 2011 (Diário do Nordeste)",
+   "Educação: teto de sala da EEF Profª Laura Alencar desabou em ago/2025 apesar de reforma recente; vereadores cobraram (Diário do Nordeste); município obteve no TRF1 R$ 32,9 mi de precatórios do FUNDEF (mai/2026, programa do rubão – manchete/aberto)"
+  ],
+  "eventos": "Ago/2025: desabamento de teto em escola municipal. Abr/2026: atrasos salariais no Hospital Municipal; visita do governador com entrega de 553 tablets e OS da estrada para Boa Vista. Mai/2026: sangria do açude Serafim Dias após quadra chuvosa forte; decisão do FUNDEF (R$ 32,9 mi). Jun/2026: prefeitura não conseguiu ligar telão para jogo do Brasil (G1, manchete).",
+  "fontes": [
+   "https://sindicatodosmedicosdoceara.org.br/2026/04/15/sms-de-mombaca-esclarece-atrasos-de-pagamento-dos-profissionais-que-atuam-no-hospital-municipal/",
+   "https://www.blogrobertomoreira.com/2026/04/mombaca-governo-do-ceara-entrega.html",
+   "https://diariodonordeste.verdesmares.com.br/ceara/seco-por-oito-anos-acude-serafim-dias-volta-a-sangrar-em-mombaca-1.3764002",
+   "https://diariodonordeste.verdesmares.com.br/ceara/teto-de-sala-de-aula-de-escola-desaba-em-mombaca-no-interior-do-ceara-1.3686776",
+   "https://www.programadorubao.com.br/prefeito-orlando-filho-anuncia-vitoria-judicial-de-r-329-milhoes-para-mombaca-em-processo-do-fundef/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/2308500/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": ""
+ },
+ {
+  "ibge": "2310308",
+  "municipio": "Parambu",
+  "uf": "CE",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "Manchete: candidato a deputado estadual 'Dr. Marcio Roney' (PL) aparece associado a Parambu em buscas (Tribuna do Paraná/plural.jor.br, manchete; reduto não verificado – ver TSE).",
+  "economia": "Censo 2022: 31.445 hab.; PIB 2023 R$ 349 mi; valor adicionado 2021: agropecuária 18%, indústria 3%, serviços 32%, adm. pública 47% (IBGE/SIDRA). Sertão dos Inhamuns, divisa com o PI (BR-020); agricultura de sequeiro, beneficiária do Garantia-Safra.",
+  "pautas": [
+   "Seca/estiagem: situação de emergência por estiagem reconhecida pelo governo federal em 06/06/2025 (MIDR); em mar/2026 o açude Parambu (Puiú) tinha 35% e o Facundo ~10% (quase volume morto), ambos usados no abastecimento (Blog do Wilrismar/COGERH)",
+   "Renda rural: pagamento do Garantia-Safra 2024/2025 liberado em abr/2026 para Parambu e municípios vizinhos (Blog do Wilrismar)",
+   "Trânsito/segurança viária: alto índice de mortes de motociclistas sem capacete; Demutran passou a autuar em jul/2026; acidentes graves na BR-020 (Blog do Wilrismar; Riachão Net)",
+   "Gestão pública/nepotismo: MPCE recomendou ao prefeito exonerar parentes sem qualificação (chefe de gabinete e secretária-adjunta de Saúde) – terceira recomendação em seis meses (Revista Central, mai/2025)",
+   "Saúde: licitação para equipar Hospital Municipal e UBS e chamamento para contratar médicos especialistas em 2026 (alertalicitacao, via resultado de busca; não aberto)"
+  ],
+  "eventos": "Jun/2025: reconhecimento federal de emergência por estiagem. 2025: recomendações do MPCE sobre nepotismo. Ago/2026: TRE-CE manteve inelegibilidade do ex-vice-prefeito (condenação por abuso de poder político em 2018) a pedido do MP Eleitoral. Set/2026: Justiça Eleitoral estabeleceu rotas oficiais de transporte de eleitores em Parambu (manchete).",
+  "fontes": [
+   "https://www.gov.br/mdr/pt-br/noticias/parambu-ce-obtem-o-reconhecimento-federal-de-situacao-de-emergencia-por-causa-da-estiagem",
+   "https://blogdowilrismar.com.br/?view=1&id_evento=11697",
+   "https://blogdowilrismar.com.br/?view=1&id_evento=12154",
+   "https://revistacentral.com.br/mpce-recomenda-que-prefeito-de-parambu-exonere-secretarios-que-so-estudaram-ate-4a-serie/",
+   "https://cn7.com.br/tre-ce-mantem-inelegibilidade-de-ex-vice-prefeito-de-parambu-nas-eleicoes-de-2026/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/2310308/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": ""
+ },
+ {
+  "ibge": "3100104",
+  "municipio": "Abadia dos Dourados",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 6.272 hab.; PIB 2023 R$ 190 mi; valor adicionado 2021: agropecuária 45%, indústria 6%, serviços 26%, adm. pública 23% (IBGE/SIDRA). Alto Paranaíba, vizinha de Coromandel; base agropecuária (soja/grãos escoados pela BR-352) e garimpo de diamante no Rio Dourados.",
+  "pautas": [
+   "Estradas: trecho de ~6 km sem asfalto da BR-352 entre a ponte do Rio Paranaíba (divisa GO) e a ponte do Rio Pardo – buracos e lama; DNIT prometeu retomar obras (Rádio Montanheza, jan/2026); rodotrem com soja tombou após buracos (abr/2026, manchete)",
+   "Segurança viária: acidentes graves recorrentes na BR-352 e MG-190 (G1/Patrocínio Online, manchetes)",
+   "Patrimônio/obras: Justiça, a pedido do MPMG, suspendeu obra do Centro Municipal de Eventos na Praça da Matriz (~1.478 m²) e protegeu o conjunto paisagístico (Clarim, set/2026)",
+   "Garimpo ilegal: draga ativa flagrada no Rio Dourados, 2 presos (G1, set/2025)",
+   "Saúde: mutirão de exames para mulheres (G1, ago/2026, manchete)"
+  ],
+  "eventos": "Set/2025: flagrante de garimpo ilegal no Rio Dourados. Jan/2026: DNIT anuncia retomada da pavimentação do trecho da BR-352. Set/2026: liminar suspende projeto de centro de eventos da prefeitura na praça central.",
+  "fontes": [
+   "https://montanheza.com.br/dnit-afirma-que-obras-em-trecho-sem-asfalto-da-br-352-em-abadia-dos-dourados-serao-retomadas-no-proximo-mes/",
+   "https://clarim.net.br/justica-atende-mpmg-protege-praca-da-matriz-de-abadia-dos-dourados-e-suspende-obra-de-centro-de-eventos/",
+   "https://g1.globo.com/mg/triangulo-mineiro/noticia/2025/09/17/garimpo-clandestino-e-flagrado-com-draga-ativa-no-interior-de-minas.ghtml",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3100104/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": ""
+ },
+ {
+  "ibge": "3133501",
+  "municipio": "Itapecerica",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 21.046 hab.; PIB 2023 R$ 666 mi; valor adicionado 2021: agropecuária 16%, indústria 30%, serviços 37%, adm. pública 18% (IBGE/SIDRA). Centro-Oeste de Minas; peso industrial relevante (ramo não verificado – carretas de ferro-ligas circulam na MG-164, G1); turismo cultural/gastronômico (Festival de Inverno, Festival de Gastronomia Rural, Natal).",
+  "pautas": [
+   "Rodovias: MG-164 com acidentes fatais recorrentes (queda em abismo nov/2025; colisão com 1 morto e 6 feridos dez/2025; capotamento com morte de adolescente mai/2026; tombamento de carreta que interditou o acesso por Neolândia mai/2026) e BR-494 (G1, DiviNews)",
+   "Tráfico de drogas: operações da PM com apreensões de cocaína e 'fazenda urbana' de maconha (DiviNews/Iguatama Agora, manchetes 2026)",
+   "Turismo e renda: plano municipal para transformar gastronomia/festivais em renda o ano todo (Portal Gerais – agenda da prefeitura)",
+   "Saúde: licitação de UBS no bairro N. Sra. das Graças (2026, via busca, não aberto); Carreta da Saúde (manchete); surto de sarna humana monitorado pela SES no Centro-Oeste mineiro (manchete, jan/2026)",
+   "Genéricos: pouca cobertura de demandas cívicas; nada encontrado sobre crise hospitalar ou emergência climática"
+  ],
+  "eventos": "Mar/2026: perfil oficial da prefeitura no Instagram bloqueado, com decisão judicial contra a Meta (Portal Gerais, manchete). Série de acidentes graves na MG-164 em 2025–2026.",
+  "fontes": [
+   "https://g1.globo.com/mg/centro-oeste/noticia/2026/05/07/carreta-carregada-com-ferro-tomba-e-interdita-trecho-da-mg-164-em-itapecerica.ghtml",
+   "https://g1.globo.com/mg/centro-oeste/noticia/2025/11/11/mulher-morre-apos-carro-cair-em-abismo-na-mg-164.ghtml",
+   "https://portalgerais.com/itapecerica-plano-quer-transformar-gastronomia-em-lucro-o-ano-todo/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3133501/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "baixa",
+  "obs": "Homônimo Itapecerica da Serra/SP filtrado. Portal Gerais só carregou título; demais itens só por manchete."
+ },
+ {
+  "ibge": "3137403",
+  "municipio": "Lagoa Dourada",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 12.769 hab.; PIB 2023 R$ 377 mi; valor adicionado 2021: agropecuária 42%, indústria 4%, serviços 33%, adm. pública 21% (IBGE/SIDRA). Campo das Vertentes; agropecuária e confeitarias – 'Capital Nacional do Rocambole' por lei de 2023, cerca de uma confeitaria por mil habitantes (G1).",
+  "pautas": [
+   "Saúde: médico que atendia no município preso em set/2026 após denúncias de quatro pacientes de Lagoa Dourada por crimes sexuais (G1); prefeitura divulgou redução de filas para consultas especializadas (manchete Entre Rios News, jul/2025)",
+   "Rodovias: afundamento de pista interditou parcialmente a rodovia São João del-Rei–Lagoa Dourada (fev/2026) e acidentes graves na MGC-383 (manchetes Entre Rios News/Correio da Cidade)",
+   "Emprego/comércio: chegada da rede Supermercados BH em out/2025 (Diário do Comércio)",
+   "Infraestrutura distrital: calçamento no distrito do Arame (manchete, set/2025 – agenda da prefeitura)",
+   "Saúde pública: alerta sobre escorpiões (manchete, out/2026)"
+  ],
+  "eventos": "Out/2025: inauguração do Supermercados BH. Fev/2026: afundamento de pista na ligação com São João del-Rei. Set/2026: prisão de médico investigado por abusos contra pacientes no município.",
+  "fontes": [
+   "https://g1.globo.com/mg/minas-gerais/noticia/2026/09/24/medico-indiciado-preso-suspeito-abuso-sexual-pacientes-mg.ghtml",
+   "https://diariodocomercio.com.br/negocios/supermercados-bh-unidade-lagoa-dourada/",
+   "https://g1.globo.com/mg/minas-gerais/noticia/2023/08/03/cidade-mineira-e-a-nova-capital-nacional-do-rocambole-entenda.ghtml",
+   "https://www.entreriosnews.com.br/noticia/6596/afundamento-de-pista-interdita-parcialmente-rodovia-entre-sao-joao-del-rei-e-lagoa-dourada",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3137403/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": "Entre Rios News (principal portal local) bloqueou acesso (403): itens dele são (manchete)."
+ },
+ {
+  "ibge": "3143005",
+  "municipio": "Monte Belo",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 13.046 hab.; PIB 2023 R$ 486 mi; valor adicionado 2021: agropecuária 25%, indústria 13%, serviços 42%, adm. pública 20% (IBGE/SIDRA). Sul de Minas; café, usina de cana (Usina Monte Alegre) e polo de moda íntima (feira anual com apoio do Sebrae).",
+  "pautas": [
+   "Café/renda rural: ~400 cafeicultores reclamaram de atraso no pagamento de sacas vendidas a armazém local (G1/EPTV, mar/2025)",
+   "Usina/emprego: Adecoagro assinou em 28/09/2026 a venda da Usina Monte Alegre, em Monte Belo, para um fundo (JornalCana/Globo Rural)",
+   "Habitação/indenizações: famílias aguardam indenização 6 anos após cratera engolir casas no bairro Santa Rita (2019); prefeitura parou de pagar aluguel (G1, nov/2025); entrega de escrituras em dois bairros (mar/2026, manchete)",
+   "Violência: feminicídios e homicídios em 2025–2026 (G1, manchetes); operação da Polícia Civil contra tráfico (mai/2026, manchete)",
+   "Rodovias: mortes na BR-491/MGC-491 (G1, manchetes)"
+  ],
+  "eventos": "Mar/2025: crise de pagamentos de armazém de café. Abr/2026: temporal causou estragos (G1, manchete). Set–out/2026: venda da Usina Monte Alegre anunciada.",
+  "fontes": [
+   "https://g1.globo.com/mg/sul-de-minas/noticia/2025/03/28/produtores-que-venderam-cafe-para-armazem-reclamam-de-atraso-de-pagamento-das-sacas-em-monte-belo-mg.ghtml",
+   "https://g1.globo.com/mg/sul-de-minas/noticia/2025/11/05/familias-aguardam-por-indenizacao-6-anos-apos-cratera-engolir-casas-em-monte-belo.ghtml",
+   "https://jornalcana.com.br/mercado/adecoagro-vende-usina-em-mg-para-fundo-e-foca-em-mato-grosso-do-sul/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3143005/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": ""
+ },
+ {
+  "ibge": "3143104",
+  "municipio": "Monte Carmelo",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 47.692 hab.; PIB 2023 R$ 1.957 mi; valor adicionado 2021: agropecuária 28%, indústria 6%, serviços 48%, adm. pública 17% (IBGE/SIDRA). Alto Paranaíba/Cerrado Mineiro; cafeicultura (núcleo da Cooxupé, sede da Feira do Cerrado) e serviços regionais.",
+  "pautas": [
+   "Café: Feira do Cerrado da Cooxupé (fev/2026) concentra pautas de custo, gestão e colheita do café (Canal Rural)",
+   "Saúde: denúncia de falta de medicamento de alto custo (quetiapina) na rede pública por dois meses (O Tempo, abr/2026); licitação municipal de oxigênio medicinal de R$ 3,3 mi (via busca, não aberto)",
+   "Segurança/tráfico: 'central de vigilância' do tráfico descoberta em distrito de ~2 mil moradores (G1, mai/2026, manchete); crimes violentos em 2026 (manchetes)",
+   "Rodovias: acidentes no trevo MG-190/MG-223 (manchete)",
+   "Genéricos: cobertura local é dominada por vôlei (time na Superliga) e ocorrências policiais; pouca pauta cívica encontrada"
+  ],
+  "eventos": "Mar/2026: tremor de terra de magnitude 2.2 sentido por moradores (G1/CNN, manchetes). Jun/2026: moradora condenada pelos atos de 8 de janeiro obteve prisão domiciliar (G1, manchete) – fato com repercussão local.",
+  "fontes": [
+   "https://www.canalrural.com.br/agricultura/cafe/feira-do-cerrado-comeca-nesta-quarta-feira-em-monte-carmelo/",
+   "https://www.otempo.com.br/cidades/2026/4/8/mulher-denuncia-falta-de-remedio-da-rede-publica-para-irma-com-esquizofrenia-em-mg-alto-custo",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3143104/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "baixa",
+  "obs": "Sem matérias locais sobre demandas estruturais (hospital, água) nas buscas."
+ },
+ {
+  "ibge": "3146909",
+  "municipio": "Papagaios",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 13.920 hab.; PIB 2023 R$ 378 mi; valor adicionado 2021: agropecuária 11%, indústria 31%, serviços 37%, adm. pública 22% (IBGE/SIDRA). Região Central/bacia do Paraopeba; extração e beneficiamento de ardósia (Província da Ardósia, segundo Agência Minas via resultado de busca, não aberto).",
+  "pautas": [
+   "Ponte/acesso: nova ponte sobre o Rio Paraopeba (Inhaúma–Papagaios), licitada em 2025 e iniciada em 2026; ~R$ 20,1 mi, 200 m, previsão fev/2027 (SeteLagoas.com.br manchetes; detalhes via resultado de busca Agência Minas)",
+   "Estradas: pavimentação da MG-060 Papagaios–Pompéu anunciada com recursos do Acordo de Reparação (Brumadinho) para a bacia do Paraopeba (via resultado de busca, não aberto)",
+   "Segurança: homicídios e operação policial com morte de foragido (G1, manchetes 2025–2026)",
+   "Rio Paraopeba: dois irmãos morreram arrastados pela correnteza em mar/2025 (G1, manchete)",
+   "Agenda da prefeitura: Expo Papagaios, Motofest, Movimento Saúde (Jornal Panorama Minas, manchetes)"
+  ],
+  "eventos": "2025–2026: obras viárias do Acordo de Reparação da Vale na bacia do Paraopeba (ponte e MG-060). Out/2025: Ponto de Inclusão Digital do TJMG (manchete).",
+  "fontes": [
+   "https://setelagoas.com.br/noticias/regiao/papagaios/273904-governo-de-minas-inicia-obra-da-ponte-sobre-o-rio-paraopeba-em-papagaios/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3146909/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "baixa",
+  "obs": "SeteLagoas.com.br bloqueou (403) e PDFs da Agência Minas não abriram; dados de ponte/MG-060 vêm de resumo de busca. Homônimo (aves papagaios) filtrado."
+ },
+ {
+  "ibge": "3151701",
+  "municipio": "Poço Fundo",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 16.390 hab.; PIB 2023 R$ 549 mi; valor adicionado 2021: agropecuária 29%, indústria 9%, serviços 42%, adm. pública 20% (IBGE/SIDRA). Sul de Minas; café e fumo (fumo de corda), cooperativas agropecuárias; frigorífico local.",
+  "pautas": [
+   "Energia elétrica: quedas constantes da Cemig – liminar de out/2025 obrigou regularização (multa R$ 10 mil/dia); em set/2026 novas quedas suspenderam cirurgias eletivas no Hospital Gimirim e danificaram eletrodomésticos (G1/EPTV)",
+   "Saúde: Hospital Gimirim afetado pelas falhas de energia; pacientes dependentes de oxigênio em risco (G1)",
+   "Clima/agro: granizo em 31/03/2026 destruiu lavouras de café e fumo (Barra Grande, Quebra Machado), prejuízo estimado em R$ 1,5 mi pela Emater (G1)",
+   "Meio ambiente urbano: moradores reclamam de forte odor de frigorífico (EPTV, dez/2025)",
+   "Segurança rural e transporte escolar: assalto a cafeicultor com roubo de 94 sacas (ago/2025) e Kombi escolar tombada em estrada rural (ago/2026) (G1, manchetes)"
+  ],
+  "eventos": "Out/2025: ação civil pública da prefeitura contra a Cemig com liminar favorável. Abr/2026: chuva de granizo com perdas agrícolas. Set/2026: nova crise de energia afetando o hospital.",
+  "fontes": [
+   "https://g1.globo.com/mg/sul-de-minas/noticia/2026/09/11/quedas-de-energia-interrompem-servicos-no-hospital-gimirim-e-preocupam-moradores-em-poco-fundo.ghtml",
+   "https://g1.globo.com/mg/sul-de-minas/noticia/2025/10/23/justica-determina-que-cemig-regularize-fornecimento-de-energia-em-poco-fundo-mg.ghtml",
+   "https://g1.globo.com/mg/sul-de-minas/noticia/2026/04/01/transtornos-causados-pelas-chuvas-abril.ghtml",
+   "https://g1.globo.com/mg/sul-de-minas/videos-jornal-da-eptv-2-edicao/video/moradores-reclamam-de-forte-odor-vindo-de-frigorifico-em-poco-fundo-14151437.ghtml",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3151701/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "alta",
+  "obs": ""
+ },
+ {
+  "ibge": "3169604",
+  "municipio": "Tupaciguara",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Censo 2022: 25.470 hab.; PIB 2023 R$ 1.400 mi; valor adicionado 2021: agropecuária 33%, indústria 13%, serviços 37%, adm. pública 17% (IBGE/SIDRA). Triângulo Mineiro, divisa com GO; agropecuária (grãos, pecuária) e cana – Bioenergética Aroeira, primeira de MG a operar frota com biometano (JornalCana, manchete).",
+  "pautas": [
+   "Rodovias: MGC-452 Tupaciguara–Araporã em estado precário, estratégica para o agronegócio; DER-MG anunciou R$ 96 mi para recuperação em audiência pública da ALMG na cidade (out/2025), obra prevista para 2026; corredor logístico de R$ 80 mi no Triângulo (O Tempo, manchete)",
+   "Finanças municipais: município teve repasse federal de R$ 578 mil travado por pendência de precatórios e liberado na Justiça (Migalhas, jun/2026)",
+   "Tráfico/segurança: maior apreensão de maconha de MG em 2025 (7,5 t, Denarc) e estufa de maconha descoberta (G1, manchetes 2025)",
+   "Comércio/emprego: Grupo Bahamas anunciou loja de R$ 20 mi na cidade (out/2025, manchetes)",
+   "Acesso a serviços: atendimento itinerante da Defensoria Pública (set/2026, manchete)"
+  ],
+  "eventos": "Out/2025: audiência pública da ALMG e anúncio da recuperação da MGC-452. Jun/2026: decisão judicial sobre precatórios/repasse. 2026: interdição por 1 ano da ponte Quinca Mariano (GO-139, divisa GO/MG) desvia tráfego por rotas que passam por Tupaciguara (Tribuna do Planalto).",
+  "fontes": [
+   "https://www.almg.gov.br/comunicacao/noticias/arquivos/DER-MG-anuncia-R$-96-milhoes-para-recuperacao-da-MGC-452/",
+   "https://www.migalhas.com.br/quentes/458484/juiz-libera-repasse-apos-municipio-atestar-regularizacao-de-precatorio",
+   "https://tribunadoplanalto.com.br/vai-viajar-de-goias-para-minas-ponte-sera-interditada-por-um-ano/",
+   "https://apisidra.ibge.gov.br/values/t/5938/n6/3169604/v/37,513,517,6575,525/p/2021"
+  ],
+  "confianca": "média",
+  "obs": ""
+ }
+]

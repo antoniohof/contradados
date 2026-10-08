@@ -5,10 +5,17 @@ def empty(v):
     if isinstance(v, list): return all(empty(x) for x in v)
     s = str(v or '').lower().strip()
     return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))
+NIVEL = {'baixa': 0, 'média': 1, 'alta': 2}
 M = {}
 for f in sorted(glob.glob('data/pesquisa_bruta/lote_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r2_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r3_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r4_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r5_*.json')):
     for x in json.load(open(f)):
         k = str(x.get('ibge')); cur = M.setdefault(k, {})
+        # confiança acompanha as pautas: lote que preenche pautas vazias define a confiança; se somar pautas, fica a maior
+        if not empty(x.get('pautas')) and x.get('confianca') in NIVEL:
+            antes = cur.get('confianca')
+            if empty(cur.get('pautas')) or antes not in NIVEL or NIVEL[x['confianca']] > NIVEL[antes]:
+                cur['confianca'] = x['confianca']
+            x = {kk: vv for kk, vv in x.items() if kk != 'confianca'}
         for key, v in x.items():
             if key == 'fontes':
                 cur['fontes'] = list(dict.fromkeys((cur.get('fontes') or []) + (v if isinstance(v, list) else [v])))

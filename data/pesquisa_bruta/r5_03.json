@@ -1,0 +1,287 @@
+[
+ {
+  "ibge": "4311734",
+  "municipio": "Mampituba",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município rural pequeno do Litoral Norte gaúcho (microrregião de Torres), base em agricultura familiar: um dos municípios do RS com mais agricultores orgânicos certificados (CNPO/Mapa, jun/2026, via A Folha Torres) e grande produtor de banana (3º do RS segundo Agrolink, visto só no resumo da busca).",
+  "pautas": [
+   "Pavimentação da estrada de ligação Torres–Mampituba (RS-453, 16 km, mais de mil famílias, comunidades Pirataba e Barro Cortado): comissão de moradores cobra a obra; projeto custeado por Torres em fase final, depende de aprovação do Estado e de captação de recursos (jun/2026)",
+   "Asfalto em estradas de interesse turístico via consórcio intermunicipal CIDIRUR, incluindo Torres e Mampituba (licitação com sessão em 31/07/2026; visto só no resumo da busca)",
+   "Agricultura familiar orgânica/agroecológica (certificação participativa Rede Ecovida) e bananicultura como base de renda",
+   "Lacuna: pouca cobertura local específica; não achei pautas de saúde/segurança próprias do município"
+  ],
+  "eventos": "Nenhum evento local de grande porte em 2025–2026 encontrado. Itens do feed são majoritariamente sobre o rio Mampituba (Torres/Passo de Torres) ou boato sobre residência de Nelson Piquet (out/2025), sem relevância eleitoral.",
+  "fontes": [
+   "https://afolhatorres.com.br/avancam-tratativas-para-pavimentacao-da-estrada-de-ligacao-entre-as-cidades-de-torres-e-mampituba/",
+   "https://afolhatorres.com.br/regiao-de-torres-concentra-tres-dos-cinco-municipios-com-mais-agricultores-organicos-certificados-no-rs/",
+   "https://news.google.com/rss/search?q=%22Mampituba%22+RS&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "baixa",
+  "obs": "Dado de banana do Agrolink (https://www.agrolink.com.br/culturas/banana/estatistica/rs) e licitação CIDIRUR (alertalicitacao.com.br) vistos só em resumo de busca, não abertos. Homônimo: 'Operação Mampituba' (tráfico, 2025) e notícias sobre a barra do rio Mampituba referem-se ao rio/Torres, não ao município."
+ },
+ {
+  "ibge": "4315958",
+  "municipio": "Rolador",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município muito pequeno das Missões (cerca de 2.290 habitantes, IBGE citado pelo g1), economia agropecuária (grãos e leite – conhecimento geral, não verificado).",
+  "pautas": [
+   "Pavimentação da ERS-165 entre Rolador e Cerro Largo: R$ 28 milhões do Estado, 13,65 de 14,37 km asfaltados em jun/2026 (ligação asfáltica histórica do município)",
+   "Assistência social/idosos: grupos de convivência do CRAS Santa Rita de Cássia (agenda da prefeitura) (manchete)",
+   "Concurso público municipal 2026 com 11 vagas (manchete)",
+   "Lacuna: sem pautas de saúde/segurança específicas encontradas; pautas em grande parte genéricas"
+  ],
+  "eventos": "Set/2025: ex-prefeito Paulo Rogério de Menezes Peixoto condenado (4 anos e 6 meses, semiaberto) por usurpação de função – seguiu atuando como prefeito após a Câmara extinguir o mandato em dez/2019, com ao menos 470 atos ilegais; há também condenação por improbidade no TJRS (resumo de busca MPRS). Obra da ERS-165 em reta final no ano eleitoral.",
+  "fontes": [
+   "https://radioaltouruguai.com.br/asfaltamento-da-ligacao-entre-rolador-e-cerro-largo-entra-na-fase-final/",
+   "https://www.correiodamanha.com.br/nacional/sul/2026/06/291934-rs-pavimentacao-da-ers-165-entre-rolador-e-cerro-largo-entra-na-fase-final.html",
+   "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2025/09/02/ex-prefeito-de-rolador-no-noroeste-do-rs-e-condenado-por-continuar-no-cargo-mesmo-apos-perder-o-mandato.ghtml"
+  ],
+  "confianca": "baixa",
+  "obs": "Correio da Manhã visto via resumo de busca. Condenação por improbidade vista só em resumo de busca (mprs.mp.br/noticias/63830)."
+ },
+ {
+  "ibge": "4316105",
+  "municipio": "Ronda Alta",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município agrícola do norte gaúcho (região de Sarandi/Passo Fundo), com grãos e leite (conhecimento geral, não verificado) e repasses de royalties de hidrelétrica da ENGIE (manchete AU Online, abr/2026).",
+  "pautas": [
+   "Estradas: buracos e má conservação da RS-324 no trecho de 70 km Passo Fundo–Ronda Alta (GZH, out/2025) e sequência de acidentes fatais na ERS-324 (dez/2025, jun/2026, ago/2026)",
+   "Ponte da RS-211 entre Ronda Alta e Campinas do Sul: esperada há 50 anos, obra parada desde dez/2024 e retomada em 2025; em jan/2026 municípios contestam o nome dado por lei estadual",
+   "Eventos climáticos: chuvas intensas em 28/06/2026 com alagamentos e força-tarefa da prefeitura; alerta vermelho da Defesa Civil estadual para granizo grande e vendaval em 27/09/2026, com danos em nove residências (manchete RD Foco); temporal em jul/2026",
+   "Segurança: duplo feminicídio em abr/2025 e operação contra tráfico e tortura em nov/2025 (manchetes)",
+   "Saúde indígena: protestos com bloqueio de rodovias no norte do RS por melhorias no atendimento (ago/2025, regional) (manchete)"
+  ],
+  "eventos": "Ponte RS-211 liberada/inaugurada no período (GZH jan/2026); temporais e granizo em set/2026, às vésperas do 1º turno; série de mortes na ERS-324.",
+  "fontes": [
+   "https://gauchazh.clicrbs.com.br/passo-fundo/transito/noticia/2025/10/buracos-na-rs-324-causam-prejuizos-a-motoristas-no-norte-do-rs-essa-estrada-sai-cara-pra-nos-cmgplzss400a4016bi62ma85j.html",
+   "https://gauchazh.clicrbs.com.br/passo-fundo/geral/noticia/2026/01/ponte-entre-ronda-alta-e-campinas-do-sul-fortalece-economia-do-norte-gaucho-mas-nome-gera-impasse-cmjt80mo700uf017b2tlhkzt5.html",
+   "https://www.radiominuano.com.br/noticia/10291/sarandi/geral/chuvas-intensas-causam-transtornos-em-ronda-alta-e-mobilizam-forca-tarefa-da-prefeitura.html",
+   "https://estado.rs.gov.br/defesa-civil-estadual-alerta-para-tempestade-com-vendaval-e-granizo-grande-nas-proximidades-de-ronda-alta"
+  ],
+  "confianca": "média",
+  "obs": "Ronda Alta abriga o Monumento dos Sem Terra (memória da Encruzilhada Natalino; manchete MST mai/2026). Matérias GZH com paywall parcial: usados título/linha fina."
+ },
+ {
+  "ibge": "4316428",
+  "municipio": "Sagrada Família",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município rural pequeno do norte gaúcho (região do Rio da Várzea/Palmeira das Missões), agricultura familiar e silvicultura (Emater local sediou reunião regional de silvicultores, out/2026).",
+  "pautas": [
+   "Pavimentação asfáltica de ruas de acesso às escolas Paulo Freire e Olímpio Garabaldi Villarinho (agenda da prefeitura, via DiárioRS, out/2026)",
+   "Silvicultura: novo cadastramento obrigatório de florestas plantadas, com orientação da Emater a produtores da região (out/2026)",
+   "Segurança viária na BR-386: acidente em 10/08/2026 matou pai e filha de 7 anos, com luto oficial",
+   "Lacuna: só pautas genéricas; não achei cobertura de saúde, estiagem ou crises específicas"
+  ],
+  "eventos": "Acidente fatal na BR-386 em ago/2026 com repercussão regional. Nenhum decreto de emergência ou crise local encontrado.",
+  "fontes": [
+   "https://diariors.com.br/62713/sagrada-familia-mais-infraestrutura-e-qualidade-para-o-municipio",
+   "https://diariors.com.br/62532/sagrada-familia-municipio-sedia-reuniao-regional-para-orientar-silvicultores-sobre-novo-cadastramento-de-florestas-plantadas",
+   "https://ndmais.com.br/transito/acidente-br-386-mata-pai-filha-sagrada-familia-rs/"
+  ],
+  "confianca": "baixa",
+  "obs": "Homônimos (Sagrada Família de Barcelona, bairros e comunidades) dificultam a busca; o feed do Google News filtrado por RS trouxe poucos itens locais."
+ },
+ {
+  "ibge": "4316451",
+  "municipio": "Salto do Jacuí",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Alto Jacuí ligado a hidrelétricas do rio Jacuí (conhecimento geral, não verificado), agricultura com fumo (encontro regional da Afubra em jun/2026, manchete) e extração de pedras (ágata).",
+  "pautas": [
+   "Saneamento: ETE sem licença ambiental lançando esgoto in natura; MPRS obteve decisão (dez/2025) suspendendo a tarifa de esgoto da Corsan cobrada desde dez/2024; cobertura de esgoto passou de 0 para 34% (manchete Rádio Geração, jun/2026)",
+   "Mineração ilegal de ágata: operação da PF em abr/2025 apreendeu cerca de 23 toneladas",
+   "Instabilidade política: cassação do prefeito e do vice e processo de cassação de vereador na Câmara",
+   "Questão indígena: comunidade em processo de regularização fundiária acompanhada pela Defensoria (abr/2025) (manchete)",
+   "Fiscalização de alimentos: força-tarefa do MP apreendeu 1,5 t de produtos impróprios (set/2025) (manchete)"
+  ],
+  "eventos": "Jul/2025: a Justiça Eleitoral cassou os diplomas do prefeito Ronaldo Moraes (PP) e do vice Gelso Brito (PP) por abuso de poder político na eleição de 2024 (1ª instância; desfecho dos recursos/eleição suplementar não verificado). Out/2025: Câmara aceitou denúncia por quebra de decoro contra vereador. Dez/2025: decisão judicial contra a Corsan sobre o esgoto.",
+  "fontes": [
+   "https://gauchazh.clicrbs.com.br/colunistas/rosane-de-oliveira/noticia/2025/07/prefeito-e-vice-de-salto-do-jacui-sao-cassados-por-abuso-de-poder-politico-na-eleicao-de-2024-cmckz8lmh00up013dkz1df4hb.html",
+   "https://www.mprs.mp.br/noticias/64782/",
+   "https://gauchazh.clicrbs.com.br/passo-fundo/seguranca/noticia/2025/04/policia-federal-faz-operacao-contra-grupo-especializado-em-mineracao-ilegal-em-salto-do-jacui-cm91fjb91003v016xsm7uawml.html",
+   "https://gauchazh.clicrbs.com.br/passo-fundo/politica/noticia/2025/10/camara-de-salto-do-jacui-aceita-denuncia-que-pede-cassacao-de-vereador-por-quebra-de-decoro-cmh22pjce0103015gf8ro4ie2.html"
+  ],
+  "confianca": "média",
+  "obs": "Conferir no TSE se o prefeito de 2024 segue no cargo. Matéria MPRS 52351 (Operação Hybris) é da eleição de 2020, não de 2024. Página da Rádio Geração deu erro 503."
+ },
+ {
+  "ibge": "4317806",
+  "municipio": "Santo Augusto",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo regional do noroeste gaúcho (Celeiro/Grande Santa Rosa), com agro (grãos), comércio e serviços: Hospital Bom Pastor (48 mil atendimentos em 2025) e nova loja de rede supermercadista regional com investimento de R$ 20 milhões (manchete, jul/2025).",
+  "pautas": [
+   "Saúde: ampliação do Hospital Bom Pastor com R$ 7 milhões do programa estadual Avançar Mais na Saúde e inauguração de ambulatório de oftalmologia (jul/2026)",
+   "Segurança/tráfico: Operação Rancho Fechado, 2ª fase, contra esquema de tráfico no município (ago/2026)",
+   "Estradas: acidentes fatais na ERS-155 Santo Augusto–Ijuí (mar/2025 com 3 mortes; dez/2025) e na RS-155 (jun/2026) (manchetes)",
+   "Educação: elaboração do Plano Municipal de Educação 2026–2036 com fórum público (ago/2026)",
+   "Clima: temporal com quedas de árvores e destelhamentos (jul/2026) (manchete)"
+  ],
+  "eventos": "Investimento estadual no hospital anunciado em jul/2026 com presença do vice-governador. Portal local registrou vitória de Flávio Bolsonaro no município com 55,86% dos válidos no 1º turno (manchete Querência Online).",
+  "fontes": [
+   "https://estado.rs.gov.br/em-santo-augusto-governo-do-estado-anuncia-investimento-de-r-7-milhoes-para-o-hospital-bom-pastor",
+   "https://radioaltouruguai.com.br/operacao-rancho-fechado-segunda-fase-desarticula-esquema-de-trafico-de-drogas-em-santo-augusto/",
+   "https://querenciaonline.com/noticia/63462/educacao-em-debate-santo-augusto-inicia-hoje-a-construcao-do-plano-municipal-para-a-proxima-decada"
+  ],
+  "confianca": "média",
+  "obs": ""
+ },
+ {
+  "ibge": "4320354",
+  "municipio": "Sentinela do Sul",
+  "uf": "RS",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno da região de Camaquã (Costa Doce), base na agricultura familiar com fumicultura (tabaco) e atendimento da Emater; tem o pior Índice de Progresso Social do RS em 2026.",
+  "pautas": [
+   "Qualidade de vida/vulnerabilidade social: pior IPS do RS em 2026 (50,27 pontos, 5.492º de 5.570 municípios do país)",
+   "Segurança rural: furtos de fardos de tabaco em propriedades, alvo da Operação Pica Fumo da Polícia Civil (jun/2026)",
+   "Apoio à agricultura familiar: veículo da Operação Terra Forte (Estado) para a Emater e auxílio de recuperação produtiva (dez/2025)",
+   "Violência: ataque a tiros durante jogo de futsal em nov/2025 deixou um morto e feriu o diretor municipal de Esportes",
+   "Acessibilidade: município contemplado pelo programa RS Sem Barreiras (agenda da prefeitura) (manchete)"
+  ],
+  "eventos": "Ataque a tiros em nov/2025 (com suspeito preso em dez/2025); ranking IPS 2026 com grande repercussão estadual (G1/GZH, mai/2026).",
+  "fontes": [
+   "https://g1.globo.com/rs/rio-grande-do-sul/noticia/2026/05/20/ranking-mostra-cidades-gauchas-com-menores-notas-em-qualidade-de-vida.ghtml",
+   "https://www.terra.com.br/noticias/brasil/cidades/operacao-mira-furtos-de-tabaco-e-fiscaliza-mais-de-38-toneladas-de-produto-no-rs,f2ad02fd9833b740ee0e498e53f63c6fk0me6j51.html",
+   "https://www.cristalwebradio.com.br/novo-veiculo-da-emater-reforca-atendimento-aos-agricultores-familiares-em-sentinela-do-sul.html"
+  ],
+  "confianca": "média",
+  "obs": "Ataque no futsal visto em manchetes G1/Correio do Povo (nov/2025), sem abrir a matéria."
+ },
+ {
+  "ibge": "3521804",
+  "municipio": "Itaí",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do sudoeste paulista às margens da represa de Jurumirim, com pecuária de corte (confinamento Nelore; manchete Canal Rural) e agricultura; sedia penitenciária com presos estrangeiros (manchete G1).",
+  "pautas": [
+   "Segurança viária na SP-255 e SP-270 (Raposo Tavares): série de acidentes fatais em 2025–2026, trevo de acesso a condomínios citado como trecho perigoso (set/2026), verificação de radares pelo Ipem",
+   "Pedágio: aumento de tarifas nas praças de Itaí e Coronel Macedo anunciado pela Arteris (nov/2025) (manchete)",
+   "Saúde: decreto de situação de emergência por surto de gripe após primeira morte por influenza (mai/2025)",
+   "Proteção social: afastamento de coordenadora e educador de abrigo após denúncias de agressão e assédio (out/2025) e programa do MP contra violência doméstica (jul/2025) (manchetes)"
+  ],
+  "eventos": "Emergência sanitária por gripe em mai/2025; acidentes recorrentes na SP-255 (inclusive em out/2026, ônibus x carreta com 11 feridos).",
+  "fontes": [
+   "https://g1.globo.com/sp/itapetininga-regiao/noticia/2025/05/16/prefeitura-decreta-situacao-de-emergencia-para-gripe-apos-1a-morte-ser-confirmada-em-itai.ghtml",
+   "https://sudoestepaulista.com.br/acidente-em-trevo-de-acesso-a-condominios-na-sp-255-em-itai-chama-a-atencao-para-o-perigoso-trecho/",
+   "https://sudoestepaulista.com.br/ipem-tambem-vai-ate-itai-e-itaporanga-verificar-radares-na-rodovia-sp-255/"
+  ],
+  "confianca": "média",
+  "obs": "Itens de pedágio, abrigo e pecuária só em manchete."
+ },
+ {
+  "ibge": "3532207",
+  "municipio": "Narandiba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do Oeste Paulista (região de Presidente Prudente), base no agronegócio e pecuária (especial publicitário da prefeitura no g1), com unidade da usina sucroenergética Cocal como grande empregadora.",
+  "pautas": [
+   "Crise política: cassação do prefeito e da vice eleitos em 2024 por compra de votos (Pix e materiais de construção; abordagem de eleitoras em igreja), confirmada pelo TRE-SP em nov/2025; eleição suplementar marcada para 25/10/2026",
+   "Emprego na cana: feirão da usina Cocal com 150 vagas em Paraguaçu Paulista e Narandiba (nov/2025)",
+   "Clima: alertas de tempestade e granizo no Oeste Paulista (out/2025, mar/2026) (manchetes)",
+   "Lacuna: não achei pautas de saúde/infraestrutura específicas"
+  ],
+  "eventos": "Prefeitura sob comando interino: presidente da Câmara tomou posse como prefeito em exercício (jul/2026, manchete Imparcial); TSE chegou a suspender a decisão em nov/2025 até o fim dos recursos; vice-prefeita morreu em ago/2025. TRE-SP marcou nova eleição para 25/10/2026.",
+  "fontes": [
+   "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/07/30/tre-marca-novas-eleicoes-em-martinopolis-e-narandiba-apos-cassacao-de-mandatos.ghtml",
+   "https://www.tre-sp.jus.br/comunicacao/noticias/2026/Julho/tres-municipios-paulistas-terao-eleicao-suplementar-para-a-prefeitura-no-dia-de-eventual-segundo-turno-da",
+   "https://g1.globo.com/sp/presidente-prudente-regiao/especial-publicitario/prefeitura-municipal-de-narandiba/noticia/2025/03/19/narandiba-cidade-em-expansao-economica-completa-61-anos.ghtml",
+   "https://www.tvparaguacu.com.br/noticia/19849/feirao-de-emprego-da-cocal-oferece-150-vagas-em-diversos-setores-em-paraguacu-e-narandiba"
+  ],
+  "confianca": "média",
+  "obs": "Página do TRE-SP vista via resumo de busca. Eleição suplementar municipal coincide com o 2º turno presidencial, o que pode afetar mobilização/abstenção."
+ },
+ {
+  "ibge": "3537008",
+  "municipio": "Pedregulho",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da Alta Mogiana (região de Franca), economia apoiada no café e na agropecuária; abriga o Parque Estadual Furnas do Bom Jesus (conhecimento geral, não verificado; café confirmado por notícias de furtos em lavouras).",
+  "pautas": [
+   "Segurança rural: furtos em lavouras de café (abr/2026, Sindicato Rural cobra ação), desvio de uma tonelada de café (set/2026) e matadouro clandestino de gado furtado (mai/2026, manchete CBN Ribeirão)",
+   "Câmara Municipal: cassação de vereadores por fraude à cota de gênero (TRE, jan/2026), retotalização de votos e posse de quatro novos vereadores (abr/2026)",
+   "Gastos com agentes políticos: o Órgão Especial do TJSP declarou inconstitucional lei que dava 13º e férias a agentes políticos (ação do MP; jun/2026); ex-vereadores e o atual vice cobravam os valores na Justiça",
+   "Parque Estadual de Pedregulho: desaparecimento de ciclista (jun/2026), buscas e corpo achado após dois meses (ago/2026), com repercussão nacional"
+  ],
+  "eventos": "Recomposição da Câmara em abr/2026 após cassação por fraude na cota de gênero; decisão do TJSP sobre benefícios a agentes políticos (jun/2026).",
+  "fontes": [
+   "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/04/25/apos-cassacao-por-fraude-na-cota-de-genero-veja-quem-serao-os-quatro-novos-vereadores-de-pedregulho.ghtml",
+   "https://sampi.net.br/franca/noticias/2984824/franca-e-regiao/2026/06/tribunal-derruba-lei-que-garantia-13-e-ferias-em-pedregulho",
+   "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/04/24/quadrilha-e-presa-suspeita-de-furtar-lavoura-de-cafe-em-pedregulho.ghtml",
+   "https://g1.globo.com/sp/ribeirao-preto-franca/noticia/2026/01/30/tre-cassa-vereadores-em-pedregulho-por-fraude-na-cota-de-genero-nas-eleicoes-2024.ghtml"
+  ],
+  "confianca": "média",
+  "obs": "Matéria do g1 sobre novos vereadores e a do TRE de jan/2026: vistas por título (link resolvido do feed e da busca no Bing)."
+ },
+ {
+  "ibge": "3552908",
+  "municipio": "Taciba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do Oeste Paulista (região de Presidente Prudente), economia agropecuária (conhecimento geral, não verificado), cortado por rodovias usadas em rotas de tráfico.",
+  "pautas": [
+   "Chuvas/temporais: decreto de situação de emergência (decreto nº 267, fev/2025) após temporal que alagou vias, casas, prédios públicos e estradas rurais, com Carnaval cancelado; novo temporal derrubou muro em mai/2026",
+   "Tráfico nas rodovias: apreensões de 291 kg de maconha na Rodovia Rodolfo Ribeiro de Castro (jun/2025), de mais de 50 kg em carreta (jul/2025) e prisão por tráfico (ago/2026) (manchetes)",
+   "Rodovias: obras na Raposo Tavares (SP-270) alteram o acesso a Presidente Prudente (abr/2026); colisão com seis feridos na SP-483 (jul/2026)",
+   "Lacuna: sem pautas de saúde/emprego específicas encontradas"
+  ],
+  "eventos": "Situação de emergência por chuvas em fev/2025, decretada pelo prefeito Izidoro Arcesti Ricci (PP), conforme o g1.",
+  "fontes": [
+   "https://g1.globo.com/sp/presidente-prudente-regiao/noticia/2025/02/28/decreto-declara-situacao-de-emergencia-apos-chuvas-intensas-atingirem-taciba.ghtml",
+   "https://g1.globo.com/sp/presidente-prudente-e-regiao/noticia/2026/04/09/obras-na-raposo-tavares-alteram-trafego-entre-taciba-e-presidente-prudente-confira-rotas-alternativas.ghtml",
+   "https://g1.globo.com/sp/presidente-prudente-regiao/noticia/2025/06/05/homem-e-preso-ao-transportar-291kg-de-maconha-em-porta-malas-na-rodovia-rodolfo-ribeiro-de-castro-em-taciba.ghtml"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito citado só como contexto do decreto; usar dado do TSE."
+ },
+ {
+  "ibge": "3553609",
+  "municipio": "Tapiratiba",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da região de São João da Boa Vista/Mococa, na divisa com MG, com pecuária leiteira de destaque: a Fazenda São José, em Tapiratiba, é a 3ª maior produtora de leite do país (33,9 milhões de litros; Agência SP, set/2025).",
+  "pautas": [
+   "Segurança escolar: aluno de 22 anos esfaqueou uma estudante e uma servidora na Escola Municipal Monsenhor João Luiz do Prado, em Tapiratiba (mai/2026)",
+   "Violência urbana: homem baleado na cabeça na frente do filho de 3 anos, com adolescentes apreendidos (ago/2025) (manchete)",
+   "Temporais: queda de árvore de grande porte na Praça da Igrejinha (set/2026)",
+   "Educação: capacitação de educadores com o Sebrae-SP (set/2026) (manchete)",
+   "Lacuna: sem pautas de saúde/infraestrutura municipais específicas"
+  ],
+  "eventos": "Ataque em escola em mai/2026 com repercussão estadual. Nenhum decreto de emergência encontrado.",
+  "fontes": [
+   "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/05/20/jovem-esfaqueia-duas-mulheres-dentro-de-escola-no-interior-de-sp.ghtml",
+   "https://www.agenciasp.sp.gov.br/ranking-dos-maiores-produtores-de-leite/",
+   "https://g1.globo.com/sp/sao-carlos-regiao/noticia/2026/09/11/temporal-derruba-arvores-destelha-imoveis-e-provoca-alagamentos-no-interior-de-sp.ghtml"
+  ],
+  "confianca": "média",
+  "obs": "Canal Rural (ranking do leite 2026) bloqueou o acesso (403)."
+ }
+]

@@ -112,7 +112,9 @@ O que aparece neste cenário:
   - BR-230 sem asfalto (Rurópolis);
   - ponte da BR-235 interditada (Pedro Afonso/TO);
   - crise fiscal municipal (Balsas, Coroatá) e processo de impeachment do prefeito (Santa Helena de Goiás);
-  - enchente do rio Acre e decreto de emergência em dez/2025 (Feijó/AC).
+  - enchente do rio Acre e decreto de emergência em dez/2025 (Feijó/AC);
+  - granizo e decretos de emergência em jun/2026 (Candói e Turvo/PR); tarifa dos EUA sobre a madeira, com queda de faturamento na maior indústria local (Bituruna/PR);
+  - ponte da BR-365 sobre o rio das Velhas limitada a 10 t desde jun/2026 (Várzea da Palma/MG); pedágio da PA-150 suspenso por má conservação (Jacundá/PA).
 - **Somados, os 100 municípios deram a Flávio 158.560 votos de vantagem.**
 
 ---
@@ -228,7 +230,25 @@ Os candidatos do PL em 2026 em cada município (governador, Senado e deputados, 
 
 ---
 
-## 7. Para o 2º turno (25/10)
+## 7. Elos fracos demográficos
+
+Comparando os municípios (e, na nota detalhada, as zonas eleitorais) pelo perfil do eleitorado do TSE (jul/2026):
+
+- **Onde o PL avançou menos entre 2022 e 2026, o eleitorado é mais escolarizado, mais urbano e mais feminino.**
+  - A fatia de eleitores sem fundamental completo acompanha o swing para o PL em todas as regiões. É o sinal mais robusto, tanto por município quanto por zona.
+  - A fatia feminina tem correlação de −0,57 com o swing para o PL entre municípios. Ela se mantém com controle de porte, mas se sobrepõe à urbanização, porque municípios com mais homens tendem a ser fronteiras agrícolas.
+  - Nos municípios onde o PL avançou menos em cada estado, eleitores com ensino superior estão sobrerrepresentados em 25 das 26 UFs. São cerca de 12,1 milhões de pessoas.
+- **Flávio ficou abaixo de Jair (1º turno de 2022) em só 90 municípios, com 8,1 milhões de eleitores.**
+  - A maior parte está em Goiás (45 municípios), onde Caiado teve de 10% a 17%, na Grande Recife e em Brasília.
+  - Por zona, aparecem ainda 11 zonas da capital do Rio de Janeiro.
+- **O voto em terceiros, sobretudo em Renan, se concentrou em lugares mais escolarizados, femininos e maiores.**
+- **A abstenção subiu mais nos municípios maiores** do Sudeste e do Sul.
+
+São correlações entre territórios, não comportamento de grupos de pessoas. As estimativas de voto por faixa etária (método de Goodman) deram taxas impossíveis e não foram publicadas. Detalhes em `notas_local/elos_fracos.md` e `data/demografia/`.
+
+---
+
+## 8. Para o 2º turno (25/10)
 
 Os números abaixo vêm de `data/segundo_turno/resumo.json`, calculados sobre os dados oficiais sem o exterior. Eles descrevem o tamanho dos grupos de eleitores, não para onde esses votos irão.
 
@@ -250,12 +270,13 @@ Os números abaixo vêm de `data/segundo_turno/resumo.json`, calculados sobre os
 
 ---
 
-## 8. Limites e pendências
+## 9. Limites e pendências
 
 - **Cobertura da pesquisa local**, em 08/10/2026:
   - os 279 municípios têm prefeito e vereadores pela base oficial do TSE;
-  - os 279 foram pesquisados; 243 têm pautas com fonte (imprensa, órgão público ou plano de governo) e 36 seguem só com lacunas;
-  - a confiança declarada é alta em 6, média em 109 e baixa em 164;
+  - os 279 foram pesquisados em cinco rodadas, e todos têm ao menos uma pauta com fonte (imprensa, órgão público ou plano de governo);
+  - a confiança declarada é alta em 13, média em 156 e baixa em 110. Onde o plano de governo de 2024 completou uma pesquisa fraca, a confiança pode ter subido para média;
+  - itens vistos só no título de uma matéria estão marcados "(manchete)";
   - a lista do que falta está em `data/pendencias.csv`.
 - **"Pautas" vêm de imprensa local, sites de prefeitura e câmara e planos de governo,** não de pesquisas de opinião.
   - Várias são institucionais, ou seja, o que a prefeitura divulga, e estão marcadas como "agenda da prefeitura".
@@ -270,7 +291,8 @@ Os números abaixo vêm de `data/segundo_turno/resumo.json`, calculados sobre os
 - `data/base_municipios.csv`: os 5.570 municípios com todos os indicadores.
 - `data/cenarios.csv`: os 300 registros dos cenários com números oficiais, prefeito pelo TSE, pesquisa local e fontes.
 - `data/tse/municipios_master.csv`: a base mestre oficial, com cerca de 160 colunas por município.
-- `data/pesquisa_local.json`: a pesquisa consolidada. A pesquisa bruta por rodada está em `data/pesquisa_bruta/` (`lote_*`, `r2_*`, `r3_*`, `r4_planos_*`).
+- `data/pesquisa_local.json`: a pesquisa consolidada. A pesquisa bruta por rodada está em `data/pesquisa_bruta/` (`lote_*`, `r2_*`, `r3_*`, `r4_planos_*`, `r5_*`).
 - `data/segundo_turno/`: a visão para o 2º turno.
+- `data/demografia/` e `notas_local/elos_fracos.md`: elos fracos demográficos por município e por zona eleitoral.
 - `docs/`: o mapa interativo dos cenários.
 - `research/`: o relatório de contexto anterior (literatura, abstenção, perfis demográficos), com as notas.
