@@ -5,7 +5,7 @@
 Quatro achados resumem o relatório:
 
 - **711 municípios viraram de Lula para Flávio Bolsonaro, e outros 2 terminaram empatados.** Nenhum virou no sentido contrário. A comparação é entre os primeiros turnos de 2022 e de 2026, e o movimento se concentra no interior agrícola de MG, PR e RS. A versão anterior contava 713 viradas porque incluía os dois empates exatos: Trabiju/SP (574 x 574) e Crixás do Tocantins/TO (679 x 679).
-- **A virada não segue o partido do prefeito.** Entre os 279 municípios analisados de perto, **21 têm prefeito do PL**, e não 11 como dizia a versão anterior, que se baseava em pesquisa web. Isso dá 9% dos municípios que viraram, praticamente a mesma fatia do PL entre todos os prefeitos do país (9,3%). Nas cidades que viraram, governam sobretudo MDB, PP, PSD e União.
+- **A virada não segue o partido do prefeito.** Entre os 279 municípios analisados de perto, **21 têm prefeito do PL**, e não 11 como dizia a versão anterior, que se baseava em pesquisa web. No cenário 1, o dos que viraram, são 9 de 100 (9%), praticamente a fatia do PL entre todos os prefeitos do país (9,3%). Nas cidades que viraram, governam sobretudo MDB, PP, PSD e União.
 - **Nos 100 redutos do PT com mais ausentes, a abstenção quase empata com a vantagem de Lula.** Lá faltaram 1,11 milhão de eleitores, e a vantagem de Lula sobre Flávio nesses lugares foi de 1,15 milhão de votos.
 - **As pautas locais mais citadas são as mesmas nos três grupos.** São saúde (hospital, UPA, especialistas), estradas e pontes, água e seca. No Sul e no Centro-Oeste pesam ainda as estiagens e a quebra de safra de 2025–26. No Norte aparecem garimpo e conflitos fundiários. Em Minas, mineração (lítio, minério de ferro, zinco) e enchentes.
 
@@ -239,6 +239,13 @@ Os números abaixo vêm de `data/segundo_turno/resumo.json`, calculados sobre os
   - 5,96 milhões de brancos e nulos.
 - **No voto só entre os dois finalistas, Lula teve 48,98% no 1º turno.**
 - **Referência de 2022:** a fatia de Lula entre os dois finalistas foi de 52,85% no 1º turno para 50,90% no 2º, uma perda de 1,95 p.p. entre os turnos. Ela caiu em 97,9% dos municípios.
+  - Nos mesmos municípios dos cenários, a variação mediana entre os turnos de 2022 foi de −3,0 p.p. no cenário 1, −1,9 no cenário 2 e −2,9 no cenário 3.
+- **Saldo de cada cenário no 1º turno de 2026:** Flávio +158.560 no cenário 1, Lula +1.150.533 no cenário 2 e Flávio +92.371 no cenário 3. No cenário 2, 135.887 ausentes são o excesso sobre a abstenção média de 20,84%.
+- **Por porte do município (eleitores aptos):**
+  - os municípios com menos de 50 mil eleitores deram a Lula 2,98 milhões de votos de vantagem;
+  - os de 50 mil a 1 milhão deram a Flávio 5,35 milhões;
+  - a reserva (ausentes + terceiros + brancos e nulos) se divide em cerca de 36% nos municípios com menos de 50 mil, 44% nos de 50 mil a 1 milhão e 20% nos de mais de 1 milhão.
+- **2º turno para governador em 2022:** no Norte e no Nordeste, a abstenção subiu menos entre os turnos nos estados que tiveram 2º turno para governador. É uma descrição, não uma relação de causa.
 - **Há 2º turno para governador em AC, AM, DF, ES, RJ, RN e TO,** o que mantém uma segunda disputa na urna nesses estados.
 
 ---
