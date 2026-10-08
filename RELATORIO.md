@@ -266,7 +266,10 @@ Os números abaixo vêm de `data/segundo_turno/resumo.json`, calculados sobre os
   - os de 50 mil a 1 milhão deram a Flávio 5,35 milhões;
   - a reserva (ausentes + terceiros + brancos e nulos) se divide em cerca de 36% nos municípios com menos de 50 mil, 44% nos de 50 mil a 1 milhão e 20% nos de mais de 1 milhão.
 - **2º turno para governador em 2022:** no Norte e no Nordeste, a abstenção subiu menos entre os turnos nos estados que tiveram 2º turno para governador. É uma descrição, não uma relação de causa.
-- **Há 2º turno para governador em AC, AM, DF, ES, RJ, RN e TO,** o que mantém uma segunda disputa na urna nesses estados.
+- **Há 2º turno para governador em AC, AM, DF, ES, RN e TO,** o que mantém uma segunda disputa na urna nesses estados.
+  - No RJ, o 2º turno para governador está provavelmente cancelado. O TSE formou maioria em 08/10 para anular os 274.411 votos de Garotinho (RO 0602359-26.2026.6.19.0000), segundo o [Canal MyNews](https://canalmynews.com.br/eleicoes-2026/tse-forma-maioria-para-anular-votos-de-garotinho-e-declarar-douglas-ruas-governador-do-rio/).
+  - Com a anulação, Douglas Ruas teria 50,9% dos válidos no 1º turno.
+  - Ainda faltam a retotalização e a proclamação pelo TRE-RJ.
 
 ---
 
