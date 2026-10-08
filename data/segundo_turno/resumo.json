@@ -1,0 +1,212 @@
+{
+ "gap_nacional_1t": -2238452,
+ "limiar_abstencao": 20.84,
+ "ausentes": 32894899,
+ "terceiros": 9287152,
+ "brancos_nulos": 5964163,
+ "terceiros_por_candidato": {
+  "caiado": 2600440,
+  "renan": 2667307,
+  "cury": 3438835,
+  "zema": 323159,
+  "outros": 257411
+ },
+ "lula2p_1t26": 48.98,
+ "lula2p_2022": {
+  "t1": 52.85,
+  "t2": 50.9
+ },
+ "uf_com_2t_governador": [
+  "AC",
+  "AM",
+  "DF",
+  "ES",
+  "RJ",
+  "RN",
+  "TO"
+ ],
+ "cenarios": {
+  "Brasil": {
+   "municipios": 5571.0,
+   "gap26": -2238452.0,
+   "ausentes26": 32894899.0,
+   "ausentes_excesso": 2215657.0,
+   "votos_terceiros26": 9287152.0,
+   "reserva_sobre_gap_nacional": 21.5087
+  },
+  "S1": {
+   "municipios": 100.0,
+   "gap26": -158560.0,
+   "ausentes26": 444680.0,
+   "ausentes_excesso": 38677.0,
+   "votos_terceiros26": 109163.0,
+   "reserva_sobre_gap_nacional": 0.2771
+  },
+  "S2": {
+   "municipios": 100.0,
+   "gap26": 1150533.0,
+   "ausentes26": 1109200.0,
+   "ausentes_excesso": 135887.0,
+   "votos_terceiros26": 195994.0,
+   "reserva_sobre_gap_nacional": 0.6613
+  },
+  "S3": {
+   "municipios": 100.0,
+   "gap26": -92371.0,
+   "ausentes26": 175270.0,
+   "ausentes_excesso": 0.0,
+   "votos_terceiros26": 46887.0,
+   "reserva_sobre_gap_nacional": 0.1125
+  },
+  "S1∪S2∪S3": {
+   "municipios": 279.0,
+   "gap26": 935387.0,
+   "ausentes26": 1659097.0,
+   "ausentes_excesso": 174564.0,
+   "votos_terceiros26": 335200.0,
+   "reserva_sobre_gap_nacional": 1.0075
+  }
+ },
+ "porte": {
+  "<10 mil": {
+   "municipios": 2941.0,
+   "gap26": 495314.0,
+   "reserva26": 4524929.0,
+   "pct_reserva": 9.4
+  },
+  "10–50 mil": {
+   "municipios": 2134.0,
+   "gap26": 2485910.0,
+   "reserva26": 12869883.0,
+   "pct_reserva": 26.7
+  },
+  "50–200 mil": {
+   "municipios": 394.0,
+   "gap26": -2808400.0,
+   "reserva26": 10881285.0,
+   "pct_reserva": 22.6
+  },
+  "200 mil–1 mi": {
+   "municipios": 90.0,
+   "gap26": -2540788.0,
+   "reserva26": 10206539.0,
+   "pct_reserva": 21.2
+  },
+  ">1 mi": {
+   "municipios": 12.0,
+   "gap26": 129512.0,
+   "reserva26": 9663578.0,
+   "pct_reserva": 20.1
+  }
+ },
+ "precedente_2022": {
+  "pct_municipios_lula2p_caiu": 97.9,
+  "por_regiao": {
+   "Centro-Oeste": {
+    "municipios": 468,
+    "d_lula2p_22": -1.99,
+    "d_abst_22": -0.27
+   },
+   "Nordeste": {
+    "municipios": 1794,
+    "d_lula2p_22": -1.44,
+    "d_abst_22": 0.15
+   },
+   "Norte": {
+    "municipios": 450,
+    "d_lula2p_22": -1.69,
+    "d_abst_22": 2.66
+   },
+   "Sudeste": {
+    "municipios": 1668,
+    "d_lula2p_22": -1.83,
+    "d_abst_22": -0.98
+   },
+   "Sul": {
+    "municipios": 1191,
+    "d_lula2p_22": -2.36,
+    "d_abst_22": -0.87
+   }
+  },
+  "por_cenario": {
+   "S1": {
+    "municipios": 100,
+    "d_lula2p_22": -3.01,
+    "d_abst_22": -0.74
+   },
+   "S2": {
+    "municipios": 100,
+    "d_lula2p_22": -1.88,
+    "d_abst_22": -0.25
+   },
+   "S3": {
+    "municipios": 100,
+    "d_lula2p_22": -2.93,
+    "d_abst_22": -0.5
+   }
+  },
+  "gov_2t_2022_por_regiao": {
+   "Centro-Oeste": {
+    "com_2t_gov": {
+     "municipios": 79,
+     "d_lula2p_22": -2.42,
+     "d_abst_22": 0.43
+    },
+    "sem_2t_gov": {
+     "municipios": 389,
+     "d_lula2p_22": -1.88,
+     "d_abst_22": -0.48
+    }
+   },
+   "Nordeste": {
+    "com_2t_gov": {
+     "municipios": 1002,
+     "d_lula2p_22": -1.45,
+     "d_abst_22": -0.3
+    },
+    "sem_2t_gov": {
+     "municipios": 792,
+     "d_lula2p_22": -1.44,
+     "d_abst_22": 0.92
+    }
+   },
+   "Norte": {
+    "com_2t_gov": {
+     "municipios": 114,
+     "d_lula2p_22": -1.58,
+     "d_abst_22": 0.75
+    },
+    "sem_2t_gov": {
+     "municipios": 336,
+     "d_lula2p_22": -1.74,
+     "d_abst_22": 2.94
+    }
+   },
+   "Sudeste": {
+    "com_2t_gov": {
+     "municipios": 723,
+     "d_lula2p_22": -1.32,
+     "d_abst_22": -0.85
+    },
+    "sem_2t_gov": {
+     "municipios": 945,
+     "d_lula2p_22": -2.21,
+     "d_abst_22": -1.08
+    }
+   },
+   "Sul": {
+    "com_2t_gov": {
+     "municipios": 792,
+     "d_lula2p_22": -2.5,
+     "d_abst_22": -0.92
+    },
+    "sem_2t_gov": {
+     "municipios": 399,
+     "d_lula2p_22": -2.13,
+     "d_abst_22": -0.78
+    }
+   }
+  }
+ },
+ "tem_2t": false
+}

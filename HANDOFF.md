@@ -32,6 +32,7 @@ python3 scripts/lists.py          # -> data/base_enriquecida.json, data/listas.j
 python3 scripts/merge.py          # -> data/pesquisa_local.json (merges data/pesquisa_bruta/*)
 python3 scripts/export_csv.py     # -> data/base_municipios.csv, data/cenarios.csv
 python3 scripts/make_xlsx.py      # -> outputs/eleitor_pendular_2026.xlsx
+python3 scripts/segundo_turno.py   # -> data/segundo_turno/ (2nd-round view; after scripts/tse/04_master.py)
 ```
 
 **After `make_xlsx.py`, recalculate the formulas.** Open the file in LibreOffice or Excel and save it, or run `soffice --headless --convert-to xlsx`. If you skip this, the summary and swing cells show empty in previews.
@@ -71,7 +72,10 @@ python3 scripts/make_xlsx.py      # -> outputs/eleitor_pendular_2026.xlsx
    - small multiples per scenario.
 
    Municipal geometries: the TopoJSON files in `lfbl-cp/painel-eleicoes-2026/output/geo/`, or `geobr` (IPEA).
-6. **Second round (25/10/2026):** when results are out, add `lula26_t2` / `flavio26_t2` / `abst26_t2` and measure whether S2 abstention fell and whether S3 moved.
+6. **Second round (25/10/2026):** `scripts/segundo_turno.py` (needs pandas) reads `data/tse/municipios_master.csv` and writes `data/segundo_turno/` (`municipios_2t.csv`, `uf_2t.csv`, `cenarios_2t.csv`, `porte_2t.csv`, `resumo.json`). Today it covers the 1st-round gap, the reserve per place (absentees + third parties + blank/null), the 2022 between-round precedent and the governor runoffs.
+   - On 25/10, re-download `votacao_candidato_munzona_2026.zip` and `detalhe_votacao_munzona_2026.zip` into `TSE_RAW/tse_2026/` and rerun the script. It detects `NR_TURNO == "2"` and adds `*_t2` columns plus the deltas `d_abst_26`, `d_lula2p_26` and `d_gap_26`, at municipality, UF and scenario level.
+   - `lula2p` = Lula / (Lula + PL) in p.p., so the 1T and 2T shares compare on the same basis.
+   - In 2022, Lula's two-party share fell between rounds in 97.9% of municipalities, from 52.85 to 50.90 nationally. Read the 2026 deltas against that precedent.
 
 ## Gotchas
 
