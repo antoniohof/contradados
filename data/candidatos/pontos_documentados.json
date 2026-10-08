@@ -1,0 +1,60 @@
+{
+  "_sobre": "Pontos públicos documentados sobre os candidatos do campo PL no 2º turno de 2026, curados a partir de notas_nuvem/candidatos_campo_PL.md (pesquisa da nuvem, 08/10/2026). Regras: cada ponto tem ao menos uma URL que o sustenta; 'alegação' = sem condenação; quando houve absolvição ou defesa publicada, ela vai junto. Pontos sem URL específica na pesquisa (ou baseados só em título de chamada) ficaram de fora. É uma compilação documentada, não uma avaliação dos candidatos. Os números eleitorais de cada cartão são calculados à parte, a partir dos arquivos do TSE (scripts/tse/06_extra.py).",
+  "races": [
+    {"uf": "BR", "cargo": "Presidente", "cand": "FLAVIO BOLSONARO", "adv": "LULA", "rotulo_cand": "Flávio Bolsonaro (PL)", "rotulo_adv": "Lula (PT)",
+     "pontos": [
+      {"tipo": "pesquisa", "texto": "Rejeição de 48% a 49% em pesquisas de julho a setembro de 2026 (Datafolha, BTG/Nexus), próxima à de Lula (46% a 49%).",
+       "urls": ["https://www.band.com.br/politica/eleicoes/2026/rejeicao-a-flavio-bolsonaro-chega-a-48-e-a-de-lula-a-46-diz-datafolha-202607241953", "https://www.metropoles.com/brasil/btg-nexus-lula-e-flavio-tem-rejeicao-de-49-entre-os-eleitores"]},
+      {"tipo": "pesquisa", "texto": "Lula lidera entre as mulheres na Quaest.",
+       "urls": ["https://tvtnews.com.br/pesquisa-quaest-lula-lidera-entre-mulheres/"]},
+      {"tipo": "alegação", "texto": "Investigação autorizada no STF em julho de 2026 sobre o financiamento do filme Dark Horse (desdobramento do caso Banco Master). Não há denúncia nem condenação. Flávio nega ter oferecido vantagens ou recebido dinheiro.",
+       "urls": ["https://www.poder360.com.br/poder-justica/flavio-e-investigado-no-stf-por-financiamento-do-dark-horse/", "https://www.jornalopcao.com.br/justica/fachin-redistribui-investigacao-sobre-flavio-bolsonaro-no-caso-dark-horse-para-andre-mendonca-840780/", "https://www.oliberal.com/politica/rogerio-marinho-flavio-bolsonaro-nao-sabia-que-era-investigado-por-caso-dark-horse-1.1169215"]},
+      {"tipo": "fato", "texto": "No 2º turno, Zema, Caiado e a federação União–PP declararam apoio a Flávio. Cury e Renan Santos (5,1% dos válidos somados) ficaram neutros.",
+       "urls": ["https://atarde.com.br/eleicoes/caiado-zema-cury-e-renan-veja-quem-apoia-lula-ou-flavio-no-2-turno-1404636", "https://viva.com.br/politica/caiado-declara-apoio-integral-a-flavio-bolsonaro-no-2-turno.html"]}
+     ]},
+    {"uf": "RJ", "cargo": "Governador", "cand": "DOUGLAS RUAS", "adv": "EDUARDO PAES", "rotulo_cand": "Douglas Ruas (PL)", "rotulo_adv": "Eduardo Paes (PSD)",
+     "pontos": [
+      {"tipo": "decisão", "texto": "Em 08/10 o TSE formou maioria para anular os 274.411 votos de Garotinho (RO 0602359-26.2026.6.19.0000). Com isso, Ruas fica com 50,9% dos válidos e o 2º turno no RJ provavelmente não acontece. Falta a retotalização e a proclamação pelo TRE-RJ.",
+       "urls": ["https://canalmynews.com.br/eleicoes-2026/tse-forma-maioria-para-anular-votos-de-garotinho-e-declarar-douglas-ruas-governador-do-rio/", "https://www.metropoles.com/colunas/manoela-alcantara/tse-julga-caso-de-garotinho-em-eleicoes-no-rj"]},
+      {"tipo": "alegação", "texto": "Investigação do MPRJ aberta em 02/10/2026, sob sigilo, sobre o crescimento patrimonial de empresas ligadas a Ruas. Não há denúncia nem decisão. A defesa não foi publicada na fonte consultada.",
+       "urls": ["https://www.dgabc.com.br/Noticia/4350925/ruas-surpreende-e-chega-ao-2-turno-a-frente-de-paes-no-rio-de-janeiro"]},
+      {"tipo": "alegação", "texto": "Relatório da CGE-RJ questiona contratos de R$ 449,8 milhões da Secretaria das Cidades na gestão de Ruas, incluindo um aditivo de 45%. Ruas nega irregularidades e diz que a contratação seguiu pregão eletrônico.",
+       "urls": ["https://diariodorio.com/cge-questiona-contratos-de-r-449-milhoes-da-gestao-de-douglas-ruas-na-secretaria-de-cidades/"]}
+     ]},
+    {"uf": "DF", "cargo": "Governador", "cand": "CELINA LEÃO", "adv": "LEANDRO GRASS", "rotulo_cand": "Celina Leão (PP)", "rotulo_adv": "Leandro Grass (PT)",
+     "pontos": [
+      {"tipo": "alegação", "texto": "Mensagens de Daniel Vorcaro apreendidas pela PF no caso BRB/Banco Master tratam de declarações de Celina sobre o negócio. Não há acusação formal contra ela. Celina diz que era contrária à compra e que nunca teve contato com Vorcaro.",
+       "urls": ["https://www.congressoemfoco.com.br/noticia/122355/vorcaro-discutiu-atacar-celina-por-criticas-a-operacao-master-brb", "https://www.cnnbrasil.com.br/politica/celina-tenta-blindar-governo-do-df-apos-prisao-ex-brb-cada-um-tem-um-cpf/"]},
+      {"tipo": "processo", "texto": "Pedido de impeachment apresentado na CLDF pelo deputado distrital Gabriel Magno (PT) em setembro de 2026, com admissibilidade pendente.",
+       "urls": ["https://www.jornalopcao.com.br/ultimas-noticias/deputado-pede-impeachment-de-celina-leao-e-cita-casos-envolvendo-brb-e-contratos-do-gdf-868742/"]},
+      {"tipo": "processo", "texto": "Operação Drácon (2016): absolvida na ação penal em 1ª instância. É ré desde 2019 numa ação de improbidade, que segue com recursos. Em 23/04/2026 o TJDFT negou um agravo da defesa.",
+       "urls": ["https://www.jornalopcao.com.br/ultimas-noticias/celina-leao-sofre-derrota-no-tjdft-e-perde-recurso-em-investigacao-da-dracon-818785/", "https://blogs.correiobraziliense.com.br/cbpoder/dracon-celina-leao-julio-cesar-e-outros-seis-viram-reus-por-improbidade-administrativa/"]}
+     ]},
+    {"uf": "ES", "cargo": "Governador", "cand": "LORENZO PAZOLINI", "adv": "RICARDO FERRAÇO", "rotulo_cand": "Lorenzo Pazolini (REPUBLICANOS)", "rotulo_adv": "Ricardo Ferraço (MDB)",
+     "pontos": [
+      {"tipo": "pesquisa", "texto": "Na última simulação de 2º turno antes de 04/10 (Real Time Big Data), Ferraço tinha 48% e Pazolini 41%.",
+       "urls": ["https://www.poder360.com.br/poder-eleicoes-2026/ferraco-tem-48-e-pazolini-41-no-2o-turno-no-es-diz-big-data/"]},
+      {"tipo": "alegação", "texto": "Representação no TRE-ES pelo uso da Guarda Municipal de Vitória em vídeos de campanha. A liminar foi negada em 19/09 e o mérito está pendente.",
+       "urls": ["https://eshoje.com.br/politica/2026/09/tre-es-pazolini-guarda/"]}
+     ]},
+    {"uf": "TO", "cargo": "Governador", "cand": "PROFESSORA DORINHA", "adv": "VICENTINHO JÚNIOR", "rotulo_cand": "Professora Dorinha (UNIÃO)", "rotulo_adv": "Vicentinho Júnior (PSDB)",
+     "pontos": [
+      {"tipo": "pesquisa", "texto": "Pesquisas antes do 1º turno mostravam empate técnico com Vicentinho Júnior num 2º turno.",
+       "urls": ["https://www.poder360.com.br/poder-eleicoes/dorinha-e-vicentinho-empatam-na-disputa-pelo-governo-do-tocantins/"]},
+      {"tipo": "processo", "texto": "Respondeu no STF por compras de livros sem licitação em 2003–2004, quando era secretária de Educação. Foi absolvida pelo Plenário em 2018 (AP 946) e pela 1ª Turma em 2019 (AP 962). Não há condenação vigente noticiada.",
+       "urls": ["https://www.migalhas.com.br/quentes/286661/stf-absolve-deputada-professora-dorinha-do-crime-de-dispensa-indevida-de-licitacao", "https://www.migalhas.com.br/quentes/303698/ex-deputada-federal--professora-dorinha-e-absolvida-de-crimes-contra-a-lei-de-licitacoes"]}
+     ]},
+    {"uf": "AM", "cargo": "Governador", "cand": "PROFESSORA MARIA DO CARMO", "adv": "OMAR AZIZ", "rotulo_cand": "Professora Maria do Carmo (PL)", "rotulo_adv": "Omar Aziz (PSD)",
+     "pontos": [
+      {"tipo": "fato", "texto": "Segundo a Revista Cenarium, o patrimônio declarado ao TSE passou de R$ 14,8 milhões (2022) para R$ 118,5 milhões (2026), 77,6% em crédito com pessoa jurídica. Não há acusação formal. A campanha não respondeu às perguntas da revista até a publicação.",
+       "urls": ["https://revistacenarium.com.br/en/with-assets-of-r-118-million-maria-do-carmos-declaration-is-8-times-greater-than-in-2022/"]}
+     ]},
+    {"uf": "AC", "cargo": "Governador", "cand": "MAILZA ASSIS", "adv": "ALAN RICK", "rotulo_cand": "Mailza Assis (PP)", "rotulo_adv": "Alan Rick (REPUBLICANOS)",
+     "pontos": [
+      {"tipo": "alegação", "texto": "Operações da PF e da CGU em setembro de 2026 (Death Note, Ptolomeu IV, Umbra) investigam a gestão estadual. Nenhuma fonte informa que Mailza seja investigada. Ela diz que herdou os contratos e que não vai interferir.",
+       "urls": ["https://noticiasdahora.com.br/politica/peguei-um-estado-com-os-contratos-prontos-mailza-reage-a-operacao-da-pf-e-diz-que-nao-vai-interferir-nas-investigacoes/", "https://ac24horas.com/2026/09/23/mailza-traca-linha-entre-sua-gestao-e-investigacoes-do-governo-anterior/"]},
+      {"tipo": "processo", "texto": "Condenada em 1ª instância (2016) por improbidade numa contratação sem licitação em Senador Guiomard (2009). O TJ-AC manteve a condenação e o recurso estava pendente no STJ em 2019. O desfecho não foi encontrado; ela disputou as eleições de 2022 e de 2026.",
+       "urls": ["https://www.cartacapital.com.br/politica/senadora-fa-dos-bolsonaro-tem-condenacao-por-improbidade/"]}
+     ]}
+  ]
+}

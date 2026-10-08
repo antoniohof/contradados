@@ -2,9 +2,12 @@
    Dados: data/municipios.json (chaves curtas, ver scripts/tse/05_web_data.py), data/meta.json,
    data/municipios.topo.json (malha IBGE). */
 (async function () {
-  const [topo, D, meta] = await Promise.all([
+  const [topo, D, meta, X] = await Promise.all([
     d3.json("data/municipios.topo.json"), d3.json("data/municipios.json"), d3.json("data/meta.json"),
+    d3.json("data/extra.json").catch(() => null),
   ]);
+  // camadas extras: 2º turno de governador (campo PL) e zonas onde Flávio ficou abaixo de Jair
+  if (X) Object.entries(X.mun).forEach(([id, v]) => { if (D[id]) Object.assign(D[id], v); });
 
   // ---------- formatação ----------
   const nf = new Intl.NumberFormat("pt-BR");
@@ -89,6 +92,11 @@
     i16: { label: "Eleitores de 16 e 17 anos (voto facultativo)", v: (d) => d.i16 * 100, scale: () => seqScale([0.5, 3]), fmt: p1 },
     esup: { label: "Eleitores com ensino superior completo", v: (d) => d.esup * 100, scale: () => seqScale([2, 30]), fmt: p1 },
     rsg: { label: "Reserva (ausentes + terceiros + brancos/nulos) ÷ diferença nacional", v: (d) => (d.rsg == null ? null : d.rsg * 100), scale: () => seqScale([0.01, 3], true), fmt: (v) => (v == null ? "–" : v.toLocaleString("pt-BR", { maximumFractionDigits: 2 }) + "% da diferença") },
+    mul: { label: "Mulheres no eleitorado", v: (d) => (d.mul == null ? null : d.mul * 100), scale: () => seqScale([46, 54]), fmt: p1 },
+    esf: { label: "Eleitores sem fundamental completo", v: (d) => (d.esf == null ? null : d.esf * 100), scale: () => seqScale([10, 50]), fmt: p1 },
+    zfja: { label: "Eleitores em zonas onde Flávio ficou abaixo de Jair", v: (d) => d.zfja ?? null, scale: () => seqScale([1000, 1500000], true), fmt: n0 },
+    gd: { label: "Candidato do campo PL a governador abaixo de Flávio (p.p.)", v: (d) => d.gd ?? null, scale: () => neutro(-20, 30), fmt: pp, ends: ["acima de Flávio", "abaixo de Flávio"] },
+    gc: { label: "Candidato do campo PL a governador, 1º turno (% válidos)", v: (d) => d.gc ?? null, scale: () => seqScale([20, 70]), fmt: p1 },
     rsp: { label: "Reserva (ausentes + terceiros + brancos/nulos) em % dos aptos", v: (d) => (d.rsv == null || !d.apt ? null : (d.rsv / d.apt) * 100), scale: () => seqScale([20, 45]), fmt: p1 },
     asm: { label: "Ausentes ÷ diferença local Lula−Flávio", v: (d) => d.asm, scale: () => seqScale([0.1, 10], true), fmt: (v) => (v == null ? "–" : f1(v) + "×") },
     dl2p22: { label: "Lula, voto bipartidário: 1T → 2T de 2022 (p.p.)", v: (d) => d.dl2p22, scale: () => polit(-8, 8), fmt: pp, ends: ["→ Bolsonaro", "→ Lula"] },
@@ -154,6 +162,33 @@
   };
   // listas das vistas sem lista fixa
   VIEWS.T2.list = Object.keys(D).filter((k) => D[k].rsv != null).sort((a, b) => D[b].rsv - D[a].rsv).slice(0, 100);
+  if (X) {
+    const EF = {
+      tab: "Elos fracos",
+      title: "Elos fracos: onde o voto no PL é mais mole",
+      lede: "Zonas eleitorais comparadas dentro de cada estado. O PL avançou mais onde há mais eleitores sem o fundamental completo. Avançou menos, e Flávio ficou abaixo de Jair, onde o eleitorado é mais escolarizado, mais urbano e um pouco mais feminino. A lista traz os municípios em que Flávio teve menos voto que Jair em 2022.",
+      uni: (d) => d.f26 != null && d.b22 != null && d.f26 < d.b22, uniLabel: "Flávio abaixo de Jair (1º turno)",
+      layer: "fj", list: null, mk: (d) => d.apt, mkLabel: "eleitores aptos",
+      cols: [["Flávio − Jair", (d) => pp(d.f26 - d.b22)], ["Superior", (d) => fr(d.esup)], ["Caiado", (d) => p1(d.cai)]],
+      layers: ["fj", "esup", "esf", "mul", "i70", "i16", "zfja", "da"],
+      note: "Correlações entre territórios, não comportamento de pessoas (falácia ecológica). Servem para escolher onde olhar e quais hipóteses testar com pesquisa de opinião. Fonte: perfil do eleitorado e votação por zona (TSE). Método em notas_local/elos_fracos.md.",
+    };
+    EF.list = Object.keys(D).filter((k) => EF.uni(D[k]) && D[k].apt >= 5000).sort((a, b) => D[b].apt - D[a].apt).slice(0, 100);
+    const CA = {
+      tab: "Candidatos do campo PL",
+      title: "Governador: candidatos do campo PL no 2º turno e onde ficaram atrás de Flávio",
+      lede: "Candidatos da coligação do PL que foram ao 2º turno para governador: AC, AM, DF, ES, RJ e TO. A cor mostra quantos pontos o candidato ficou abaixo de Flávio no mesmo município. No RJ, o TSE formou maioria em 08/10 para anular os votos de Garotinho, e o 2º turno provavelmente não acontece.",
+      uni: (d) => d.gd != null, uniLabel: "UFs com 2º turno de governador e candidato do campo PL",
+      layer: "gd", list: null, mk: (d) => d.apt, mkLabel: "eleitores aptos",
+      cols: [["Abaixo de Flávio", (d) => pp(d.gd)], ["Cand.", (d) => p1(d.gc)], ["Adv.", (d) => p1(d.ga)]],
+      layers: ["gd", "gc", "f26", "a26", "esup", "mul"],
+      note: "Base: votos de governador e presidente no 1º turno, sobre os válidos oficiais do TSE. O painel ao lado é uma compilação de fatos públicos documentados, cada um com fonte própria. Não é uma avaliação dos candidatos. Onde não houve condenação, o fato aparece como alegação, junto com a defesa quando ela foi publicada.",
+    };
+    CA.list = Object.keys(D).filter((k) => D[k].gd != null && D[k].apt >= 5000).sort((a, b) => D[b].gd * D[b].apt - D[a].gd * D[a].apt).slice(0, 100);
+    const o = {};
+    Object.entries(VIEWS).forEach(([k, v]) => { o[k] = v; if (k === "S3") { o.EF = EF; o.CA = CA; } });
+    Object.keys(VIEWS).forEach((k) => delete VIEWS[k]); Object.assign(VIEWS, o);
+  }
 
   const state = { view: "S1", layer: "sw", onlyUni: true, sel: null, q: "" };
 
@@ -287,7 +322,6 @@
         const [lo, , hi] = scale.domain;
         stops = d3.range(0, 1.0001, 0.05).map((t) => (t < 0.5 ? scale(lo * (1 - t * 2)) : scale(hi * (t * 2 - 1))));
         ticks = [Ly.fmt(lo).replace(" p.p.", ""), "0", Ly.fmt(hi).replace(" p.p.", "")];
-        if (Ly.ends) ticks = [`${ticks[0]} ${Ly.ends[0]}`, "0", `${Ly.ends[1]} ${ticks[2]}`];
       } else {
         const [a, b] = scale.domain;
         const vals = d3.range(0, 1.0001, 0.05).map((t) => (scale.log ? a * Math.pow(b / a, t) : a + (b - a) * t));
@@ -296,6 +330,7 @@
       }
       box.append("div").attr("class", "bar").style("background", `linear-gradient(90deg, ${stops.join(",")})`);
       box.append("div").attr("class", "ticks").selectAll("span").data(ticks).join("span").text((t) => t);
+      if (scale.kind === "div" && Ly.ends) box.append("div").attr("class", "ticks").selectAll("span").data([`← ${Ly.ends[0]}`, `${Ly.ends[1]} →`]).join("span").text((t) => t);
     }
     if (state.onlyUni && state.view !== "EX" && state.view !== "T2") el.append("span").attr("class", "sw").html(`<i style="background:${C.off}"></i>fora do universo (${esc(V.uniLabel)} não se aplica)`);
     if (V.mk || state.view === "EX") el.append("span").attr("class", "sw mkkey").html(`<i></i>os 100 da lista${V.mk ? ` (tamanho = ${esc(V.mkLabel)})` : ""}`);
@@ -303,8 +338,12 @@
 
   function renderList(V, Ly, ids) {
     const cols = V.cols.map((c, i) => (i === 0 && c[1] == null ? ["Valor", (d) => Ly.fmt(Ly.v(d)).replace(" p.p.", "")] : c));
-    d3.select("#ltitle").text(state.view === "EX" ? `Top 100: ${Ly.label}` : state.view === "T2" ? "Os 100 com maior reserva de votos" : `A lista: 100 municípios`);
-    d3.select("#lsub").text(state.view === "EX" ? "Municípios com 5 mil eleitores ou mais." : state.view === "T2" ? "Ausentes + terceiros + brancos/nulos no 1º turno, em votos." : `Universo: ${n0(Object.values(D).filter(V.uni).length)} municípios (${V.uniLabel}).`);
+    const LT = { EX: [`Top 100: ${Ly.label}`, "Municípios com 5 mil eleitores ou mais."],
+      T2: ["Os 100 com maior reserva de votos", "Ausentes + terceiros + brancos/nulos no 1º turno, em votos."],
+      EF: ["Onde Flávio ficou abaixo de Jair", "Municípios com 5 mil eleitores ou mais, do maior para o menor."],
+      CA: ["Onde o candidato mais ficou atrás de Flávio", "Pontos abaixo de Flávio × eleitores, municípios com 5 mil+."] }[state.view];
+    d3.select("#ltitle").text(LT ? LT[0] : "A lista: 100 municípios");
+    d3.select("#lsub").text(LT ? LT[1] : `Universo: ${n0(Object.values(D).filter(V.uni).length)} municípios (${V.uniLabel}).`);
     const t = d3.select("#list").html("");
     t.append("thead").append("tr").selectAll("th").data(["#", "Município"].concat(cols.map((c) => c[0]))).join("th").text((x) => x);
     const rows = t.append("tbody").selectAll("tr").data(ids).join("tr")
@@ -345,7 +384,7 @@
       .concat(d.vir ? ['<span class="chip">Virou Lula → Flávio</span>'] : [])
       .concat(d.emp ? ['<span class="chip">Empate exato em 2026</span>'] : [])
       .concat(d.psup ? ['<span class="chip">Prefeito de eleição suplementar</span>'] : [])
-      .concat(d.g2t ? ['<span class="chip">2º turno para governador na UF</span>'] : []);
+      .concat(d.g2t ? [`<span class="chip">${d.g2ts && d.g2ts.startsWith("provavelmente") ? "2º turno para governador provavelmente cancelado" : "2º turno para governador na UF"}</span>`] : []);
     const hist = (d.h || "").split("-");
     const histTxt = hist.length === 3 ? `2T 2018: ${hist[0] === "H" ? "Haddad" : "Bolsonaro"} · 2T 2022: ${hist[1] === "L" ? "Lula" : "Bolsonaro"} · 1T 2026: ${hist[2] === "L" ? "Lula" : "Flávio"}` : "–";
     const pautas = d.pau ? d.pau.split(" | ").filter(Boolean) : [];
@@ -369,6 +408,7 @@
           ["Brancos + nulos 2026", p1(d.bn)], ["Reserva (ausentes + terceiros + brancos/nulos)", d.rsv == null ? null : n0(d.rsv)]])}
       </div>
       <div class="sec"><h4>Poder local (eleição de 2024, TSE)</h4>
+        ${d.pf || d.vtot ? "" : `<p class="fontes">Sem eleição municipal (Distrito Federal e Fernando de Noronha) ou prefeito ainda não diplomado.</p>`}
         ${rowsKV([["Prefeito(a)", d.pf ? `${titulo(d.pf)} (${d.pp})` : "–"], ["Vice", d.vice ? `${titulo(d.vice)} (${d.vp})` : null],
           ["Perfil", d.pid ? `${d.pid} anos, ${d.pg}, ${String(d.pocu || "").toLowerCase()}` : null],
           ["Vereadores do PL", d.vtot ? `${d.vpl ?? 0} de ${d.vtot}` : null], ["Vereadores do PT", d.vtot ? `${d.vpt ?? 0} de ${d.vtot}` : null],
@@ -378,7 +418,9 @@
         ${d.vpln ? `<div class="fontes">Vereadores do PL: ${esc(titulo(d.vpln))}</div>` : ""}
       </div>
       <div class="sec"><h4>Candidatos de 2026 no município</h4>
-        ${rowsKV([["Governador mais votado", d.gov ? `${d.gov} ${fr(d.govp)}` : null], ["Candidato do PL a governador", d.gpl ? `${d.gpl} ${fr(d.gplp)}` : null],
+        ${rowsKV([["Governador mais votado", d.gov ? `${d.gov} ${fr(d.govp)}` : null],
+          ["Campo PL × adversário (governador)", d.gc != null ? `${d.gcn.split(" (")[0]} ${p1(d.gc)} × ${d.gan.split(" (")[0]} ${p1(d.ga)}` : null],
+          ["Campo PL abaixo de Flávio", d.gd != null ? pp(d.gd) : null], ["Candidato do PL a governador", d.gpl ? `${d.gpl} ${fr(d.gplp)}` : null],
           ["Candidato do PT a governador", d.gpt ? `${d.gpt} ${fr(d.gptp)}` : null], ["Senador mais votado", d.sen ? `${d.sen} ${fr(d.senp)}` : null],
           ["Melhor do PL ao Senado", d.spl ? `${d.spl} ${fr(d.splp)}` : null], ["Melhor do PT ao Senado", d.spt ? `${d.spt} ${fr(d.sptp)}` : null],
           ["Votos anulados sub judice (gov. · senado)", d.gsj || d.ssj ? `${n0(d.gsj || 0)} · ${n0(d.ssj || 0)}` : null],
@@ -404,6 +446,26 @@
   function renderExtra() {
     const ex = d3.select("#extra");
     const ST = meta.segundo_turno;
+    if (state.view === "EF" && X) {
+      const sig = (v) => esc(v).replace(/\*/g, "<sup>*</sup>");
+      ex.attr("hidden", null).html(`<h3>Efeito de cada grupo, zonas dentro da mesma UF</h3><div class="sub">Pontos percentuais para +1 desvio-padrão do grupo na zona. Swing positivo = rumo a Lula. * = p &lt; 0,05. Associação entre lugares, não entre pessoas.</div>
+        <div class="listwrap" style="max-height:none"><table class="list"><thead><tr><th>Grupo</th><th>Swing</th><th>Flávio − Jair</th><th>Δ abst.</th></tr></thead><tbody>
+        ${X.elos_nac.map((r) => `<tr><td style="text-align:left">${esc(r[0])}</td><td>${sig(r[1])}</td><td>${sig(r[2])}</td><td>${sig(r[3])}</td></tr>`).join("")}</tbody></table></div>
+        <h3>Maiores segmentos com sinal de PL mais fraco</h3><div class="sub">Grupo × território, com o número de eleitores no segmento e quantos sinais aparecem (Flávio abaixo de Jair, swing para Lula, mais terceiros).</div>
+        <div class="listwrap" style="max-height:none"><table class="list"><thead><tr><th>Território</th><th>Grupo</th><th>Eleitores</th><th>Sinais</th></tr></thead><tbody>
+        ${X.celulas.map((r) => `<tr><td style="text-align:left">${esc(r[0])}</td><td style="text-align:left;white-space:normal">${esc(r[1])}</td><td>${n0(r[2])}</td><td>${r[3]}</td></tr>`).join("")}</tbody></table></div>`);
+      return;
+    }
+    if (state.view === "CA" && X) {
+      const dom = (u) => esc(u.replace(/^https?:\/\/(www\.)?/, "").split("/")[0]);
+      ex.attr("hidden", null).html(`<h3>Fatos públicos documentados</h3><div class="sub">Compilação de pesquisas, resultados, processos e alegações publicados até 08/10/2026, cada um com a própria fonte. Não é uma avaliação dos candidatos. "Alegação" quer dizer que não houve condenação.</div>` +
+        X.cards.map((c) => `<div class="sec"><h4>${esc(c.uf === "BR" ? "Presidente" : c.cargo + " · " + c.uf)} · ${esc(c.status)}</h4>
+          <div style="font-size:14px;font-weight:600">${esc(c.cand)} <span style="color:var(--muted);font-weight:400">× ${esc(c.adv)} · 1º turno ${esc(c.t1)}</span></div>
+          ${c.status_txt && c.status_txt !== "confirmado" ? `<p class="fontes" style="margin:4px 0">${esc(c.status_txt)}</p>` : ""}
+          <ul class="pautas" style="margin-top:6px">${c.eleitorais.map((p) => `<li>${esc(p)} <span class="fontes">[TSE]</span></li>`).join("")}
+          ${c.pontos.map((p) => `<li><span class="chip">${esc(p.tipo)}</span> ${esc(p.texto)} <span class="fontes">${p.urls.map((u) => `<a href="${esc(u)}" target="_blank" rel="noopener">${dom(u)}</a>`).join(" · ")}</span></li>`).join("")}</ul></div>`).join(""));
+      return;
+    }
     if (state.view !== "T2" || !ST) { ex.attr("hidden", true).html(""); return; }
     ex.attr("hidden", null).html(`<h3>Reserva × diferença, por cenário</h3><div class="sub">Votos do 1º turno de 2026. A diferença é Lula − Flávio no grupo (negativa = Flávio à frente).</div><div class="bars" id="bars"></div>`);
     const css = getComputedStyle(root);
@@ -423,7 +485,7 @@
     });
     const U = ST.cenarios["S1∪S2∪S3"];
     bars.append("p").attr("class", "fontes").html(`Brasil: Flávio ${n0(Math.abs(ST.gap_nacional_1t))} votos à frente, contra uma reserva de ${n0(ST.ausentes + ST.terceiros + ST.brancos_nulos)} (${n0(ST.ausentes)} ausentes, ${n0(ST.terceiros)} em terceiros, ${n0(ST.brancos_nulos)} brancos e nulos). Só nos 279 municípios das três listas, a reserva equivale a ${f1(U.reserva_sobre_gap_nacional)}× a diferença nacional.` +
-      (ST.uf_com_2t_governador ? ` UFs com 2º turno para governador: ${ST.uf_com_2t_governador.join(", ")}.` : ""));
+      (ST.status_2t_governador ? ` 2º turno para governador: ${Object.entries(ST.status_2t_governador).filter(([, s]) => s === "confirmado").map(([u]) => u).join(", ")}. ${Object.entries(ST.status_2t_governador).filter(([, s]) => s !== "confirmado").map(([u, s]) => `${u}: ${s}`).join(" ")}` : ""));
   }
 
   // ---------- controles ----------
@@ -453,7 +515,7 @@
     state.view = v;
     const V = VIEWS[v];
     state.layer = V.layer;
-    state.onlyUni = v !== "EX" && v !== "T2";
+    state.onlyUni = !["EX", "T2", "EF"].includes(v);
     d3.selectAll("#tabs button").attr("aria-selected", ([key]) => String(key === v));
     d3.select("#vtitle").text(V.title);
     d3.select("#vlede").text(V.lede);

@@ -49,7 +49,7 @@ KEYS = {  # chave curta: (coluna, casas decimais | None para texto/inteiro)
 T2KEYS = {  # colunas de data/segundo_turno/municipios_2t.csv; as de 2T real aparecem quando publicadas
     "rsv": ("reserva26", None), "rsg": ("reserva_sobre_gap_nacional", 4), "aex": ("ausentes_excesso", None),
     "tp": ("terceiro_principal", None), "l2p": ("lula2p26", 2), "l2p22a": ("lula2p22_t1", 2), "l2p22b": ("lula2p22_t2", 2),
-    "dl2p22": ("d_lula2p_22", 2), "dab22": ("d_abst_22", 2), "g2t": ("gov_2t_uf", None),
+    "dl2p22": ("d_lula2p_22", 2), "dab22": ("d_abst_22", 2), "g2t": ("gov_2t_uf", None), "g2ts": ("gov_2t_status", None),
     "vl2": ("votos_lula26_t2", None), "vf2": ("votos_flavio26_t2", None), "a26t2": ("abst26_t2", 2),
     "l26t2": ("lula26_t2", 2), "g26t2": ("gap26_t2", None), "da26": ("d_abst_26", 2),
     "dl2p26": ("d_lula2p_26", 2), "dg26": ("d_gap_26", None),
