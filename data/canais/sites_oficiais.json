@@ -1,0 +1,6295 @@
+[
+ {
+  "ibge": "4125100",
+  "municipio": "São João Do Triunfo",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmsaojoaodotriunfo.pr.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4306502",
+  "municipio": "Dom Feliciano",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://domfeliciano.rs.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraDeDomFeliciano"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradomfeliciano"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCpiY3_yOKwkR6N-NRK3yKRw"
+  ],
+  "camara_site": "https://www.camaradomfeliciano.rs.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipaldedomfeliciano"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1507805",
+  "municipio": "Senador José Porfírio",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1301704",
+  "municipio": "Humaitá",
+  "uf": "AM",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.humaita.am.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.humaita.am.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318101",
+  "municipio": "São Francisco De Assis",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.saofranciscodeassis.rs.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefsfa"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituramunicipal-saofra9239"
+   ],
+   "tiktok": [
+    "tiktok.com/@prefeiturasaochicoassis"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saofranciscodeassis.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradevereadoressfa"
+   ],
+   "instagram": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec"
+  ]
+ },
+ {
+  "ibge": "4320800",
+  "municipio": "Soledade",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarasoledade.rs.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarasoledaders"
+   ],
+   "instagram": [
+    "instagram.com/camarasoledaders"
+   ],
+   "youtube": [
+    "youtube.com/@camarasoledaders"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2101400",
+  "municipio": "Balsas",
+  "uf": "MA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.balsas.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradebalsas"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradebalsasma"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradebalsas"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmbalsas.ma.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/cmbalsas"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldebalsas3062"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1507953",
+  "municipio": "Tailândia",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://tailandia.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradetailandia"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradetailandia"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/c/tutsplus"
+  ],
+  "camara_site": "https://tailandia.pa.leg.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaratailandia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4311205",
+  "municipio": "Júlio De Castilhos",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.juliodecastilhos.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pmjcrs"
+   ],
+   "instagram": [
+    "instagram.com/pmjcrs"
+   ],
+   "youtube": [
+    "youtube.com/c/PrefeituradeJuliodeCastilhosRS"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarajuliodecastilhos.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5215504",
+  "municipio": "Ouvidor",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.ouvidor.go.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradeouvidor"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3155504",
+  "municipio": "Rio Paranaíba",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://rioparanaiba.mg.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5538998808181"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturarioparanaiba"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturarioparanaiba"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camararioparanaiba.mg.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camararioparanaiba"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraMunicipalRioParanaiba"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4306601",
+  "municipio": "Dom Pedrito",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaradompedrito.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4127965",
+  "municipio": "Turvo",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.turvo.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554236421145"
+   ],
+   "facebook": [
+    "facebook.com/prefeituradeturvo.pr"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeturvo.pr"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4102901",
+  "municipio": "Bituruna",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4104428",
+  "municipio": "Candói",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracandoi.pr.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3112307",
+  "municipio": "Capelinha",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://pmcapelinha.mg.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituramunicipaldecapelinha"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecapelinha"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5219308",
+  "municipio": "Santa Helena De Goiás",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3152808",
+  "municipio": "Prata",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://prata.mg.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5534996867414"
+   ],
+   "facebook": [
+    "facebook.com/PrefeituraPrataMG"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradoprata"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCq9UIFh5dhC8P8eMHi_9p2g"
+  ],
+  "camara_site": "https://www.prata.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraprata"
+   ],
+   "instagram": [
+    "instagram.com/camaraprata",
+    "instagram.com/procuradoriadamulherprata"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3161908",
+  "municipio": "São Gonçalo Do Rio Abaixo",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3157708",
+  "municipio": "Santa Juliana",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.santajuliana.mg.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318507",
+  "municipio": "São José Do Norte",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.saojosedonorte.rs.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5553999937594"
+   ],
+   "facebook": [
+    "facebook.com/PrefeituraSJN"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturasaojosedonorte",
+    "instagram.com/saojosenorteturismoesporte"
+   ],
+   "youtube": [
+    "youtube.com/channel/UCMrICRTHB0OWZawGMKw6dFQ"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4115408",
+  "municipio": "Marmeleiro",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.marmeleiro.pr.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/marmeleiropr"
+   ],
+   "instagram": [
+    "instagram.com/marmeleiropr"
+   ],
+   "youtube": [
+    "youtube.com/@marmeleiropr"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.marmeleiro.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradevereadoresdemarmeleiro"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipalmarmeleiro"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldemarmeleir1468"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318200",
+  "municipio": "São Francisco De Paula",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.saofranciscodepaula.rs.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=555431963094"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturasaofranciscodepaula"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturasaochicors"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3129509",
+  "municipio": "Ibiá",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.ibia.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeibia"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeibia"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.ibia.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaradeIbia"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeibia839"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4105706",
+  "municipio": "Clevelândia",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.clevelandia.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5546935059633"
+   ],
+   "facebook": [
+    "facebook.com/PrefeituraClevelandia"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraclevelandia"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.clevelandia.pr.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4321402",
+  "municipio": "Tenente Portela",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.tenenteportela.rs.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/555535513401"
+   ],
+   "facebook": [
+    "facebook.com/prefeituradetenenteportela"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradetenenteportela"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318903",
+  "municipio": "São Luiz Gonzaga",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4322202",
+  "municipio": "Tupanciretã",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.tupancireta.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pmtupancireta"
+   ],
+   "instagram": [
+    "instagram.com/pmtupancireta"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.tupancireta.rs.leg.br",
+  "camara_canais": {
+   "facebook": [],
+   "instagram": [
+    "instagram.com/cmvereadorestupancireta"
+   ],
+   "youtube": [
+    "youtube.com/@tvwebtupancireta3960"
+   ]
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec"
+  ]
+ },
+ {
+  "ibge": "4319604",
+  "municipio": "São Sepé",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://saosepe.rs.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5555996117280"
+   ],
+   "facebook": [
+    "facebook.com/Prefeituradesaosepe"
+   ],
+   "instagram": [
+    "instagram.com/desenvolvimentosaosepe",
+    "instagram.com/saosepeoficial"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3112604",
+  "municipio": "Capinópolis",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.capinopolis.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradecapinopolis"
+   ],
+   "instagram": [
+    "instagram.com/camaradecapinopolis"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1200302",
+  "municipio": "Feijó",
+  "uf": "AC",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.feijo.ac.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/pmf_feijo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.feijo.ac.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipaldefeijo"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCYAOYL1QqLkG1Isc7DH7iMA"
+  ]
+ },
+ {
+  "ibge": "4126603",
+  "municipio": "Siqueira Campos",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.siqueiracampos.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=554335711222",
+    "wa.me/4335711231"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturasiqueiracampos"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturasiq"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1711902",
+  "municipio": "Lagoa Da Confusão",
+  "uf": "TO",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.lagoadaconfusao.to.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5563992978806"
+   ],
+   "facebook": [
+    "facebook.com/prefeituralagoadaconfusaoto"
+   ],
+   "instagram": [
+    "instagram.com/prefeituralagoadaconfusao"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.lagoadaconfusao.to.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4119608",
+  "municipio": "Pitanga",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.pitanga.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554231412300"
+   ],
+   "facebook": [
+    "facebook.com/PrefeituraPitanga"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pitanga.pr.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4127502",
+  "municipio": "Tibagi",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://tibagi.pr.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/preftibagi"
+   ],
+   "youtube": [
+    "youtube.com/user/Tibagipr"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaratibagi.pr.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraMunicipaldeTibagi"
+   ],
+   "instagram": [
+    "instagram.com/camaratibagi"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldetibagi"
+   ]
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCiTIVv8oefKP_r2GoaXM-TA"
+  ]
+ },
+ {
+  "ibge": "3543006",
+  "municipio": "Ribeirão Branco",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3171006",
+  "municipio": "Vazante",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.vazante.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pmvazante"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.vazante"
+   ],
+   "youtube": [
+    "youtube.com/@vazante-mg"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaravazante.mg.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4114401",
+  "municipio": "Mangueirinha",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://mangueirinha.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554632438000"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturademangueirinha"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturademangueirinha"
+   ],
+   "youtube": [
+    "youtube.com/@PrefMangueirinha"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.mangueirinha.pr.leg.br",
+  "camara_canais": {
+   "youtube": [
+    "youtube.com/@camaramunicipaldemangueiri4315"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3133501",
+  "municipio": "Itapecerica",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5209952",
+  "municipio": "Indiara",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4101002",
+  "municipio": "Ampére",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.ampere.pr.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4107207",
+  "municipio": "Dois Vizinhos",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://doisvizinhos.pr.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554635368800"
+   ],
+   "facebook": [
+    "facebook.com/municipiodedoisvizinhos"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradedoisvizinhos"
+   ],
+   "youtube": [
+    "youtube.com/c/municipiodedoisvizinhosparana"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3152006",
+  "municipio": "Pompéu",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pompeu.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1502939",
+  "municipio": "Dom Eliseu",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://domeliseu.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradedomeliseu"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradedomeliseu"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4313706",
+  "municipio": "Palmeira Das Missões",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://palmeiradasmissoes.atende.net/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraDePalmeiraDasMissoes"
+   ],
+   "instagram": [
+    "instagram.com/prefpalmeiradasmissoes"
+   ]
+  },
+  "prefeitura_descartados": [
+   "facebook.com/https",
+   "instagram.com/https"
+  ],
+  "camara_site": "https://www.palmeiradasmissoes.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4113304",
+  "municipio": "Laranjeiras Do Sul",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.laranjeirasdosul.pr.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradelaranjeirasdosul"
+   ],
+   "instagram": [
+    "instagram.com/laranjeirasdosul_prefeitura"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituradeLaranjeiras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4305207",
+  "municipio": "Cerro Largo",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracerrolargo.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3153400",
+  "municipio": "Presidente Olegário",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.presidenteolegario.mg.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5534997804546"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturapo"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturapo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3145000",
+  "municipio": "Nova Ponte",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.novaponte.mg.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3521804",
+  "municipio": "Itaí",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.itai.sp.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeitai"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeitai"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradeitai9634"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5107701",
+  "municipio": "Rosário Oeste",
+  "uf": "MT",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.rosariooeste.mt.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5565993248171",
+    "wa.me/5565993096832"
+   ],
+   "facebook": [
+    "facebook.com/PrefeituraRosarioOeste"
+   ],
+   "instagram": [
+    "instagram.com/assistenciasocial_rosariooeste",
+    "instagram.com/prefeituraderosariooeste"
+   ],
+   "youtube": [
+    "youtube.com/user/rosariooeste"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3146909",
+  "municipio": "Papagaios",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1713304",
+  "municipio": "Miranorte",
+  "uf": "TO",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.miranorte.to.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefmiranorte"
+   ],
+   "instagram": [
+    "instagram.com/prefmiranorte"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.miranorte.to.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camarademiranorteto"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3107901",
+  "municipio": "Bom Repouso",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.bomrepouso.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturabomrepouso"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturabomrepouso"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituraBomRepouso"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4117800",
+  "municipio": "Palmital",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.palmital.pr.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradepalmital"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepalmital"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarapalmital.pr.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradepalmital"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCoJ1jrpidAs9UMy8Feoce8Q"
+  ]
+ },
+ {
+  "ibge": "4317806",
+  "municipio": "Santo Augusto",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://santoaugusto.rs.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/SantoAugustoOficial"
+   ],
+   "instagram": []
+  },
+  "prefeitura_descartados": [
+   "facebook.com/policies",
+   "instagram.com/1896641480634370"
+  ],
+  "camara_site": "https://www.santoaugusto.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1716505",
+  "municipio": "Pedro Afonso",
+  "uf": "TO",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.pedroafonso.to.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send/?phone=63992943085"
+   ],
+   "facebook": [
+    "facebook.com/prefeituramunicipalpedroafonso"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepedroafonso"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5205109",
+  "municipio": "Catalão",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.catalao.go.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituracatalao"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecatalaogo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracatalao.go.gov.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5564993033081"
+   ],
+   "facebook": [
+    "facebook.com/Camaracatalao",
+    "facebook.com/camaramunicipaldecatalao"
+   ],
+   "instagram": [
+    "instagram.com/camaracatalao"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCxlz_BQHL9KOyYJ-JYycZOA"
+  ]
+ },
+ {
+  "ibge": "5218300",
+  "municipio": "Posse",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3142809",
+  "municipio": "Monte Alegre De Minas",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318002",
+  "municipio": "São Borja",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://portal.saoborja.rs.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradesaoborja"
+   ],
+   "instagram": [
+    "instagram.com/prefsaoborja"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraSaoBorja"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saoborja.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarasaoborja"
+   ],
+   "instagram": [
+    "instagram.com/camaradeveresdoressb"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraSaoBorja"
+   ]
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec"
+  ]
+ },
+ {
+  "ibge": "1503804",
+  "municipio": "Jacundá",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://jacunda.pa.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradejacunda"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4124400",
+  "municipio": "Santo Antônio Do Sudoeste",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.santoantoniodosudoeste.pr.leg.br",
+  "camara_canais": {
+   "facebook": [],
+   "instagram": [
+    "instagram.com/poderlegislativosas"
+   ],
+   "youtube": [
+    "youtube.com/@poderlegislativosantoanton8187"
+   ]
+  },
+  "camara_descartados": [
+   "facebook.com/search"
+  ]
+ },
+ {
+  "ibge": "4119806",
+  "municipio": "Planalto",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.planalto.pr.gov.br",
+  "prefeitura_canais": {
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCApuq4zHRmWzboMNZeYy4Fw"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4104501",
+  "municipio": "Capanema",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.capanema.pr.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradecapanema"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC2p6xbnpXXbJI2SF9OdYLRw",
+   "youtube.com/channel/UCkmDbPN-xQYTqQ3eEwnX1eg"
+  ],
+  "camara_site": "https://www.capanema.pr.leg.br",
+  "camara_canais": {
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UC9BEbtBV04_4RKcLKGFrCBw"
+  ]
+ },
+ {
+  "ibge": "5107008",
+  "municipio": "Poxoréu",
+  "uf": "MT",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://poxoreu.mt.leg.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradepoxoreu"
+   ],
+   "instagram": [
+    "instagram.com/camaradepoxoreu"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/c/C"
+  ]
+ },
+ {
+  "ibge": "3117306",
+  "municipio": "Conceição Das Alagoas",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.conceicaodasalagoas.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraconceicao"
+   ],
+   "instagram": [
+    "instagram.com/prefconceicaoalagoas"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCQInSq5I4jbXjKuB3NjwuZQ"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3304151",
+  "municipio": "Quissamã",
+  "uf": "RJ",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4117602",
+  "municipio": "Palmas",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.palmas.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarapalmaspr"
+   ],
+   "instagram": [
+    "instagram.com/camaradepalmaspr"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraMunicipaldePalmasParan"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3151701",
+  "municipio": "Poço Fundo",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.pocofundo.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pocofundo"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepocofundo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3131901",
+  "municipio": "Itabirito",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.itabirito.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraitabirito"
+   ],
+   "instagram": [
+    "instagram.com/camaraitabirito"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCRVxkMwUg9X_zhuC_qQNEXw"
+  ]
+ },
+ {
+  "ibge": "1508126",
+  "municipio": "Ulianópolis",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://ulianopolis.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeulianopolis"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraulianopolis"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCur9JRBIDTvD7pJqKZq_94Q"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1300904",
+  "municipio": "Canutama",
+  "uf": "AM",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.canutama.am.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=555433481080"
+   ],
+   "facebook": [
+    "facebook.com/prefeituracanutama"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecanutama"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5210901",
+  "municipio": "Itapaci",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3521309",
+  "municipio": "Ipuã",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.ipua.sp.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeipua"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeipua"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCds2C4zmE_rB-RpbvyMmx7w"
+  ],
+  "camara_site": "https://www.camaraipua.sp.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5220405",
+  "municipio": "São Simão",
+  "uf": "GO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4301909",
+  "municipio": "Barra Do Ribeiro",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.barradoribeiro.rs.gov.br/site/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/Prefeitura-de-Contenda-510287095718716",
+    "facebook.com/prefeituradebarradoribeiro"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradebarradoribeiro"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC3ADe9VfWlP4CO9fvImy93A"
+  ],
+  "camara_site": "https://www.barradoribeiro.rs.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=555196772152"
+   ],
+   "facebook": [
+    "facebook.com/camarabarradoribeiro"
+   ],
+   "instagram": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "facebook.com/novotempojornal",
+   "instagram.com/cittatec"
+  ]
+ },
+ {
+  "ibge": "3143104",
+  "municipio": "Monte Carmelo",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.montecarmelo.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeiturademontecarmelo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaramontecarmelo.mg.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipal.demontecarmelo"
+   ],
+   "instagram": [
+    "instagram.com/camara.montecarmelo"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3114501",
+  "municipio": "Carmópolis De Minas",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://carmopolisdeminas.atende.net/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.carmopolisdeminas.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3537008",
+  "municipio": "Pedregulho",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.pedregulho.sp.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1504950",
+  "municipio": "Nova Esperança Do Piriá",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.novaesperancadopiria.pa.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradopiria"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.novaesperancadopiria.pa.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/legislativo.nep"
+   ],
+   "instagram": [
+    "instagram.com/camaradopiria"
+   ],
+   "youtube": [
+    "youtube.com/@cmnep"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3134400",
+  "municipio": "Iturama",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.iturama.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.iturama"
+   ],
+   "instagram": [
+    "instagram.com/camaraiturama"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraMunicipaldeIturama"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4315305",
+  "municipio": "Quaraí",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.quarai.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradequarai"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura_municipal_de_quarai"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraquarai.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3529708",
+  "municipio": "Miguelópolis",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.miguelopolis.sp.leg.br",
+  "camara_canais": {
+   "youtube": [
+    "youtube.com/@camaramiguelopolis"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3517703",
+  "municipio": "Guará",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.guara.sp.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraguara.sp.gov.br/index",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraguaraoficial"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipaldeguara"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeguara7129"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2105427",
+  "municipio": "Itinga Do Maranhão",
+  "uf": "MA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1508357",
+  "municipio": "Vitória Do Xingu",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://vitoriadoxingu.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pmvtx"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCLEYF9j3-e6XWPdu3r3iDbw"
+  ],
+  "camara_site": "https://cmvitoriadoxingu.pa.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4318309",
+  "municipio": "São Gabriel",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.saogabriel.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/dicom.saogabriel.3"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura_saogabriel_rs"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarasg.rs.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4122206",
+  "municipio": "Rio Branco Do Sul",
+  "uf": "PR",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.riobrancodosul.pr.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.riobrancodosul.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camararbs"
+   ],
+   "instagram": [
+    "instagram.com/camararbs"
+   ],
+   "youtube": [
+    "youtube.com/@camararbs"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1501451",
+  "municipio": "Belterra",
+  "uf": "PA",
+  "cenarios": [
+   "viraram_para_PL",
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.belterra.pa.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camarabelterra.pa.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarabelterra.oficial"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipaldebelterra"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3170800",
+  "municipio": "Várzea Da Palma",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.varzeadapalma.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituravarzeadapalma2025"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC1r2MxMDInut_NR0uBo6sYQ"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3143005",
+  "municipio": "Monte Belo",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.montebelo.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/pmmontebelomgoficial"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.montebelomg.oficial",
+    "instagram.com/prefeiturademontebelo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaramontebelo.mg.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramontebelo"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3107109",
+  "municipio": "Boa Esperança",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.boaesperanca.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeboaesperanca"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeboaesperanca"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1718204",
+  "municipio": "Porto Nacional",
+  "uf": "TO",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://portonacional.to.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituradePortoNacional"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeportonacional"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradeportonacional"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.portonacional.to.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldeportonacional"
+   ],
+   "instagram": [
+    "instagram.com/camaraportonacional"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeportonaci7294"
+   ]
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCGOPwp16NdS-tbg9kT2njGQ"
+  ]
+ },
+ {
+  "ibge": "4318408",
+  "municipio": "São Jerônimo",
+  "uf": "RS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saojeronimo.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.vereadores.Sao.Jeronimo"
+   ],
+   "instagram": [
+    "instagram.com/camarasaojeronimo"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UC1Sg0zKFMkSOBJ7pi7zBz4w"
+  ]
+ },
+ {
+  "ibge": "5004601",
+  "municipio": "Itaquiraí",
+  "uf": "MS",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.itaquirai.ms.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/556734763500"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura_de_itaquirai"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraitaquirai.ms.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldeitaquirai"
+   ],
+   "instagram": [
+    "instagram.com/camaraitaquirai"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeitaquirai"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3113206",
+  "municipio": "Carandaí",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://carandai.mg.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradecarandai"
+   ],
+   "instagram": [
+    "instagram.com/prefeituracarandai"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracarandai.mg.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.carandai"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "facebook.com/events",
+   "youtube.com/channel/UCZWbWxKFF50BjJAN8KW2qBw"
+  ]
+ },
+ {
+  "ibge": "5106232",
+  "municipio": "Nova Olímpia",
+  "uf": "MT",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaranovaolimpia.mt.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaracidada.denovaolimpia"
+   ],
+   "instagram": [
+    "instagram.com/camaranovaolimpia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3520103",
+  "municipio": "Igarapava",
+  "uf": "SP",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.igarapava.sp.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3169604",
+  "municipio": "Tupaciguara",
+  "uf": "MG",
+  "cenarios": [
+   "viraram_para_PL"
+  ],
+  "prefeitura_site": "https://www.tupaciguara.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradetupaciguaramg"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3513801",
+  "municipio": "Diadema",
+  "uf": "SP",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmdiadema.sp.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradediadema"
+   ],
+   "instagram": [
+    "instagram.com/camaradediadema"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UC2g1qvx711SO59kxETnhHqg"
+  ]
+ },
+ {
+  "ibge": "4315602",
+  "municipio": "Rio Grande",
+  "uf": "RS",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://riogrande.rs.gov.br/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.riogrande.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradevereadoresrg"
+   ],
+   "instagram": [
+    "instagram.com/camarariogrande"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec",
+   "youtube.com/c/C",
+   "youtube.com/channel/UC5KM6UZBMgHo5jUXzs6zfWg"
+  ]
+ },
+ {
+  "ibge": "2919207",
+  "municipio": "Lauro De Freitas",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.laurodefreitas.ba.gov.br/site/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/Prefeitura-de-Lauro-de-Freitas-1411969378822513"
+   ],
+   "instagram": [
+    "instagram.com/preflaurodefreitas"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3516309",
+  "municipio": "Francisco Morato",
+  "uf": "SP",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2900702",
+  "municipio": "Alagoinhas",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://transparencia.alagoinhas.ba.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradealagoinhas"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.alagoinhas"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaradealagoinhas.ba.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2103307",
+  "municipio": "Codó",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.codo.ma.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradecodoma"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmcodo.ma.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradecodo"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2924009",
+  "municipio": "Paulo Afonso",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://pauloafonso.ba.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefpauloafonso"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradepauloafonso"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pauloafonso.ba.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradepauloafonso"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1301902",
+  "municipio": "Itacoatiara",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://itacoatiara.am.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefdeitacoatiara"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeitacoatiara"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituraitacoatiara"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.itacoatiara.am.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradeitacoatiara"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipalitacoatiara"
+   ],
+   "youtube": [
+    "youtube.com/channel/UCXmR91ujBVOfCmuqanXoJkg"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1302504",
+  "municipio": "Manacapuru",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.manacapuru.am.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradempu"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradempu"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.manacapuru.am.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1303403",
+  "municipio": "Parintins",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.parintins.am.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraOficialParintins"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeparintins",
+    "instagram.com/secatparintins"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradeparintins"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3306107",
+  "municipio": "Valença",
+  "uf": "RJ",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://valenca.rj.gov.br/inicio",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.valenca.rj.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/cmvalenca"
+   ],
+   "instagram": [
+    "instagram.com/cmvalencarj"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCJTkQhoZu_oKuMJXzSZ9WYg"
+  ]
+ },
+ {
+  "ibge": "3135209",
+  "municipio": "Januária",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.januaria.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradejanuaria"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura_januaria"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.januaria.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2108603",
+  "municipio": "Pinheiro",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2906501",
+  "municipio": "Candeias",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://prefeitura.candeias.ba.gov.br/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracandeias.ba.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradecandeias"
+   ],
+   "instagram": [
+    "instagram.com/camaradecandeias"
+   ],
+   "youtube": [
+    "youtube.com/@camaradecandeias"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3146107",
+  "municipio": "Ouro Preto",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.ouropreto.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraouropreto"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraouropreto"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCu0ZGX70qwsjfp1jpbN9KkA"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3171303",
+  "municipio": "Viçosa",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.vicosa.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1301209",
+  "municipio": "Coari",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.coari.am.gov.br",
+  "prefeitura_canais": {
+   "facebook": []
+  },
+  "prefeitura_descartados": [
+   "facebook.com/Plesk"
+  ],
+  "camara_site": "https://www.coari.am.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradecoari"
+   ],
+   "instagram": [
+    "instagram.com/camara_decoari"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3115300",
+  "municipio": "Cataguases",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.cataguases.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/cataguasesprefeitura"
+   ],
+   "instagram": [
+    "instagram.com/cataguasesprefeitura"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCTiRcUtR19uVOb6KhVVYWrA"
+  ],
+  "camara_site": "https://www.cataguases.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraCataguases"
+   ],
+   "instagram": [
+    "instagram.com/cataguasescamara"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldecataguases"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3161106",
+  "municipio": "São Francisco",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.saofrancisco.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeitura.sf"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.sf"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC-Oz5-kMZrV28rDGAknU0JA"
+  ],
+  "camara_site": "https://www.saofrancisco.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradesaofranciscomg"
+   ],
+   "instagram": [
+    "instagram.com/camarasfmg"
+   ],
+   "youtube": [
+    "youtube.com/@tvcamarasaofrancisco"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2208403",
+  "municipio": "Piripiri",
+  "uf": "PI",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.piripiri.pi.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradepiripiri"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepiripiri"
+   ],
+   "youtube": [
+    "youtube.com/channel/UCM5cuimxrzjgmcwk-pd1dZA"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2610905",
+  "municipio": "Pesqueira",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://pesqueira.pe.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraPesqueiraPE"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepesqueiraoficial"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradepesqueira"
+   ]
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCxk986K6RFA5N8FjjGgSZ4A"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3140001",
+  "municipio": "Mariana",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.mariana.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefmariana"
+   ],
+   "instagram": [
+    "instagram.com/prefmariana",
+    "instagram.com/visitmariana"
+   ],
+   "tiktok": [
+    "tiktok.com/@prefeituramariana"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2103604",
+  "municipio": "Coroatá",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://coroata.ma.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraDeCoroataOficial"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecoroata"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituradeCoroat"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2910057",
+  "municipio": "Dias D'Ávila",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.diasdavila.ba.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2602803",
+  "municipio": "Buíque",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://buique.pe.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituramunicipaldebuique"
+   ],
+   "instagram": [
+    "instagram.com/buiquegov",
+    "instagram.com/prefeituramunicipaldebuique"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradebuique6062"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1508001",
+  "municipio": "Tomé-Açu",
+  "uf": "PA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.prefeituratomeacu.pa.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituratomeacu"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituratomeacu"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2706307",
+  "municipio": "Palmeira Dos Índios",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://palmeiradosindios.al.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/palmeiradosindiosoficial"
+   ],
+   "instagram": [
+    "instagram.com/palmeiradosindiosoficial"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC9dbK6DXBHekj84FY6DAFsg"
+  ],
+  "camara_site": "https://palmeiradosindios.al.leg.br/home/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarade.palmeira.7"
+   ],
+   "instagram": [
+    "instagram.com/camaradepalmeiradosindios"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2914000",
+  "municipio": "Ipirá",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.ipira.ba.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefipira"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaraipira.ba.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2709301",
+  "municipio": "União Dos Palmares",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://uniaodospalmares.al.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/uniaodospalmaresprefeitura"
+   ],
+   "instagram": [
+    "instagram.com/pref.uniaodospalmares"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://uniaodospalmares.al.leg.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipaludp"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2105401",
+  "municipio": "Itapecuru Mirim",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.itapecurumirim.ma.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradeitapecuru"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.itapecurumirim.ma.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraitapecurumirim"
+   ],
+   "instagram": [
+    "instagram.com/camara.itapecuru"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCFc8XGJnLqau1PVSMkODXFA"
+  ]
+ },
+ {
+  "ibge": "3121605",
+  "municipio": "Diamantina",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.diamantina.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradiamantinaoficial"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradediamantina"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmdiamantina.mg.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldediamantina"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipaldediamantina"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCe7hwRijtiJHhgL3LjCHtLg"
+  ]
+ },
+ {
+  "ibge": "2706703",
+  "municipio": "Penedo",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://penedo.al.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraPenedo",
+    "facebook.com/prefeituradepenedo",
+    "facebook.com/prefeiturapenedo"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepenedo"
+   ],
+   "tiktok": [
+    "tiktok.com/@prefeitura.de.penedo"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.penedo.al.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarapenedo"
+   ],
+   "instagram": [
+    "instagram.com/camaradepenedo"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCY-6KofOcupUhAQ2mgRN1Cw"
+  ]
+ },
+ {
+  "ibge": "2928604",
+  "municipio": "Santo Amaro",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.santoamaro.ba.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/santoamaroprefeitura"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarasantoamaro.ba.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldesantoamaro"
+   ],
+   "instagram": [
+    "instagram.com/camara.santoamaro"
+   ],
+   "youtube": [
+    "youtube.com/@camaradesantoamaro"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2110005",
+  "municipio": "Santa Luzia",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.santaluzia.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituradeSantaLuziaUmacidadeparatodos"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradesantaluziaa"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmsantaluzia.ma.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipal.santaluzia.ma"
+   ],
+   "instagram": []
+  },
+  "camara_descartados": [
+   "instagram.com/workcenter.consultoria"
+  ]
+ },
+ {
+  "ibge": "3152105",
+  "municipio": "Ponte Nova",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pontenova.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2102325",
+  "municipio": "Buriticupu",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.buriticupu.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraDeBuriticupu"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraburiticupu"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmburiticupu.ma.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradeburiticupu"
+   ],
+   "instagram": [
+    "instagram.com/camaraburiticupu_ma"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3138401",
+  "municipio": "Leopoldina",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.leopoldina.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1505809",
+  "municipio": "Portel",
+  "uf": "PA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://portel.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraportel"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraportel"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituraportel"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2600500",
+  "municipio": "Águas Belas",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://aguasbelas.pe.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraaguasbelas"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeaguasbelas"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCOfouVAhNDyGYS34CzBqwrw"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2702405",
+  "municipio": "Delmiro Gouveia",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://delmirogouveia.al.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradelmirogouveia"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradelmirogouveia"
+   ],
+   "youtube": [
+    "youtube.com/c/PrefeituradeDelmiroGouveia"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2112506",
+  "municipio": "Tutóia",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://tutoia.ma.gov.br/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmtutoia.ma.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/cmtutoia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1302900",
+  "municipio": "Maués",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2921005",
+  "municipio": "Mata De São João",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.matadesaojoao.ba.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefMatadeSaoJoao"
+   ],
+   "instagram": [
+    "instagram.com/prefmatadesaojoao"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2613008",
+  "municipio": "São Bento Do Una",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.saobentodouna.pe.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/558195481569",
+    "wa.me/5581988326253"
+   ],
+   "instagram": [
+    "instagram.com/prefsbu"
+   ],
+   "youtube": [
+    "youtube.com/@prefeiturasaobentodouna"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://saobentodouna.pe.leg.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraMunicipalSBU"
+   ],
+   "instagram": [
+    "instagram.com/camarasbu"
+   ],
+   "youtube": [
+    "youtube.com/@tvcamarasbu4282",
+    "youtube.com/channel/UC2w1HtAyJmxlqBPMMuykwqA"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3145307",
+  "municipio": "Novo Cruzeiro",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.novocruzeiro.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituranovocruzeiro"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3160702",
+  "municipio": "Santos Dumont",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.santosdumont.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituradeSantosDumont"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradesantosdumont"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituradeSantosDumont"
+   ]
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCkRnHcEBh2aPT0O9TH2xvWA"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2112803",
+  "municipio": "Viana",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3101706",
+  "municipio": "Almenara",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.almenara.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradealmenara"
+   ],
+   "instagram": [
+    "instagram.com/prefalmenara"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituradeAlmenara"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "http://www.camaraalmenara.mg.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldealmenara"
+   ],
+   "instagram": [
+    "instagram.com/camara.almenara"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UC23JNxk-rFOSIQIYN7GFd2w"
+  ]
+ },
+ {
+  "ibge": "2610004",
+  "municipio": "Palmares",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://palmares.pe.leg.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradevereadoresdospalmares"
+   ],
+   "instagram": [
+    "instagram.com/camara_palmares",
+    "instagram.com/prefeituradeamaraji"
+   ],
+   "youtube": [
+    "youtube.com/@CAMARADEVEREADORESPALMARESPE"
+   ]
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCgdOtLXKVZG3lu2WVgyTMeQ",
+   "youtube.com/channel/UCw_fJKGR2_7TWYLCcqe3Ahg"
+  ]
+ },
+ {
+  "ibge": "3103405",
+  "municipio": "Araçuaí",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.aracuai.mg.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=553337311570",
+    "wa.me/+553337311570"
+   ],
+   "facebook": [
+    "facebook.com/Prefeitura-de-Ara"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradearacuai"
+   ],
+   "youtube": [
+    "youtube.com/channel/UCmTw3iR_KJ4WuDggFtjxbJA"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1304062",
+  "municipio": "Tabatinga",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://tabatinga.am.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituramunicipaldetabatingaAM"
+   ],
+   "instagram": [
+    "instagram.com/prefeituratabatingaam"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2902104",
+  "municipio": "Araci",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.araci.ba.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradearaci_"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.araci.ba.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3157005",
+  "municipio": "Salinas",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.salinas.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraMuncipalDeSalinas"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturasalinas"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCLpSFeEb9YCIQSi-XMInoyQ"
+  ],
+  "camara_site": "https://www.camarasalinas.mg.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarasalinas"
+   ],
+   "instagram": [
+    "instagram.com/camaradesalinas"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "facebook.com/watch",
+   "youtube.com/channel/UCTjVPo0AueRJIylKVIWg7KA"
+  ]
+ },
+ {
+  "ibge": "1303809",
+  "municipio": "São Gabriel Da Cachoeira",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saogabrieldacachoeira.am.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2709152",
+  "municipio": "Teotônio Vilela",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://teotoniovilela.al.leg.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1300300",
+  "municipio": "Autazes",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://autazes.am.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [],
+   "instagram": [
+    "instagram.com/prefeituramunicipaldeautazes"
+   ]
+  },
+  "prefeitura_descartados": [
+   "facebook.com/photo"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2207900",
+  "municipio": "Pedro Ii",
+  "uf": "PI",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://pedroii.pi.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefpedroii"
+   ],
+   "instagram": [
+    "instagram.com/prefpedroii"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradepedroii"
+   ],
+   "tiktok": [
+    "tiktok.com/@prefpedroii"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pedroii.pi.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldepedroii"
+   ],
+   "instagram": [
+    "instagram.com/camarapedroii"
+   ],
+   "youtube": [
+    "youtube.com/@camarapedroii"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2917607",
+  "municipio": "Jaguaquara",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://jaguaquara.ba.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturajaguaquara"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturajaguaquara"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "facebook.com/ribeiradopombalbahia",
+   "youtube.com/channel/UClPSU9V1Ojeq9h-g7NJSjug"
+  ],
+  "camara_site": "https://www.camarajaguaquara.ba.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradejaguaquara"
+   ],
+   "youtube": [
+    "youtube.com/@camaradejaguaquara"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3141801",
+  "municipio": "Minas Novas",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.minasnovas.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraminasnovas"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraminasnovas"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.minasnovas.mg.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/553337641216"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipal_minasnovas"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeminasnovasmg"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2929206",
+  "municipio": "São Francisco Do Conde",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://novo.saofranciscodoconde.ba.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturasaofranciscodoconde"
+   ],
+   "instagram": [
+    "instagram.com/prefsaofranciscodoconde"
+   ],
+   "youtube": [
+    "youtube.com/@PMSFCTube"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2933604",
+  "municipio": "Xique-Xique",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://xiquexique.ba.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraxiquexique"
+   ],
+   "instagram": [
+    "instagram.com/prefeituraxiquexique"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.xiquexique.ba.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldexiquexique"
+   ],
+   "youtube": [
+    "youtube.com/channel/UC5dBb8yUjZUBW0_OfCmplXw"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2902708",
+  "municipio": "Barra",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://barra.ba.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/barraprefeitura"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmbarra.ba.gov.br/",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/557436622284"
+   ],
+   "instagram": [
+    "instagram.com/camarabarraba"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2925105",
+  "municipio": "Poções",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2602605",
+  "municipio": "Brejo Da Madre De Deus",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://brejodamadrededeus.pe.leg.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camarabrejo"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1501782",
+  "municipio": "Breu Branco",
+  "uf": "PA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3107307",
+  "municipio": "Bocaiúva",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.bocaiuva.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeiturabocaiuva"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.bocaiuva.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipalboc"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipalboc"
+   ],
+   "youtube": [
+    "youtube.com/@tvcamarabocaiuvamg6081"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2110500",
+  "municipio": "São Bento",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.saobento.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradesaobentoma"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradesaobentoma"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmsaobento.ma.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camarasaobento.ma"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2310506",
+  "municipio": "Pedra Branca",
+  "uf": "CE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.pedrabranca.ce.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeiturapedrabranca"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarapedrabranca.ce.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/cmpedrabranca"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipalpedrabranca"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldepedrabran1137"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2103406",
+  "municipio": "Coelho Neto",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://coelhoneto.ma.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituracoelhoneto"
+   ],
+   "instagram": [
+    "instagram.com/prefeituracoelhoneto"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCYnIOg7HSmdeEm5UlPwKIHw"
+  ],
+  "camara_site": "https://cmcoelhoneto.ma.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaracoelhonetoasscom"
+   ],
+   "instagram": [
+    "instagram.com/camara_cn",
+    "instagram.com/camara_coelhoneto"
+   ],
+   "youtube": [
+    "youtube.com/@camara_cn"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2913903",
+  "municipio": "Ipiaú",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.ipiau.ba.leg.br/captcha",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3201605",
+  "municipio": "Conceição Da Barra",
+  "uf": "ES",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://conceicaodabarra.es.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/Prefeitura-Municipal-De-Concei"
+   ],
+   "instagram": [
+    "instagram.com/pmcbes",
+    "instagram.com/saudeconceicaodabarra",
+    "instagram.com/semaspmcb",
+    "instagram.com/turismo.barra"
+   ]
+  },
+  "prefeitura_descartados": [
+   "instagram.com/agropescacb",
+   "instagram.com/seceducacaocb"
+  ],
+  "camara_site": "https://www.conceicaodabarra.es.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3108602",
+  "municipio": "Brasília De Minas",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.brasiliademinas.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturabm"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturabm"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.brasiliademinas.mg.leg.br/404.html",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2910503",
+  "municipio": "Entre Rios",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://entrerios.ba.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradecastelo"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecastelo",
+    "instagram.com/prefeituraentrerios"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC2XxdXvjYtYtqm_B3RgWiig"
+  ],
+  "camara_site": "https://camaraentrerios.ba.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraentrerios",
+    "facebook.com/camaramunicipaldeseabra"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2111508",
+  "municipio": "São Mateus Do Maranhão",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2602100",
+  "municipio": "Bom Conselho",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.bomconselho.pe.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/pref.bomconselho"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.bomconselho.pe.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/87996690025"
+   ],
+   "instagram": [
+    "instagram.com/camaravereadoresbc"
+   ],
+   "youtube": [
+    "youtube.com/@TVBOMCONSELHOPE"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1301407",
+  "municipio": "Eirunepé",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://eirunepe.am.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraeirunepe"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1301100",
+  "municipio": "Careiro",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://careiro.am.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeitura.careiro"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.careiro.am.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaracareirocastanho"
+   ],
+   "instagram": [
+    "instagram.com/camara.careiro"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1503705",
+  "municipio": "Itupiranga",
+  "uf": "PA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://itupiranga.pa.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituraitupiranga"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://itupiranga.pa.leg.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipaldeitupiranga"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2112704",
+  "municipio": "Vargem Grande",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.vargemgrande.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/vgprefeitura"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradevargemgrande"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cmvargemgrande.ma.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipalvg"
+   ],
+   "youtube": [
+    "youtube.com/@CamaradeVargemGrande"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3152204",
+  "municipio": "Porteirinha",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.porteirinha.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituraporteirinha"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.porteirinha.mg.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/553832208662"
+   ],
+   "facebook": [
+    "facebook.com/camaramunicipalporteirinha"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipalporteirinha"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipalporteirinha"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2114007",
+  "municipio": "Zé Doca",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmzedoca.ma.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipalzd"
+   ],
+   "youtube": [
+    "youtube.com/@cmzedoca-oficial"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2927705",
+  "municipio": "Santa Cruz Cabrália",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarasantacruzcabralia.ba.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldesantarcuzcabraliabahia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1600279",
+  "municipio": "Laranjal Do Jari",
+  "uf": "AP",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://laranjaldojari.ap.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituradeLaranjaldoJari"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradelaranjaldojari"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.laranjaldojari.ap.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/cmlj.ap"
+   ],
+   "instagram": [
+    "instagram.com/camaradelaranjaldojari"
+   ],
+   "youtube": [
+    "youtube.com/@camaradelaranjaldojari"
+   ]
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCGQeGBBqU5wqdCblnmMXKGw"
+  ]
+ },
+ {
+  "ibge": "3162401",
+  "municipio": "São João Da Ponte",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.saojoaodaponte.mg.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saojoaodaponte.mg.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraSaoJoaodaPonte"
+   ],
+   "instagram": [
+    "instagram.com/camaramunicipal_de_sjpmg"
+   ],
+   "youtube": [
+    "youtube.com/@tvcamarasaojoaodaponte-ofi5386"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2605103",
+  "municipio": "Custódia",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://custodia.pe.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/governodecustodia"
+   ]
+  },
+  "prefeitura_descartados": [
+   "facebook.com/396004790745607"
+  ],
+  "camara_site": "https://custodia.pe.leg.br/",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5587991483857"
+   ],
+   "instagram": [
+    "instagram.com/camaracustodia"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldecustodia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2700409",
+  "municipio": "Atalaia",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.atalaia.al.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/Prefeitura-De-Atalaia-102318725148006"
+   ],
+   "instagram": [
+    "instagram.com/pref.atalaia"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.atalaia.al.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2308500",
+  "municipio": "Mombaça",
+  "uf": "CE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.mombaca.ce.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraMunicipalDeMombaca"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturademombaca"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaramombaca.ce.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramombaca"
+   ],
+   "youtube": [
+    "youtube.com/channel/UC4GycmC8tkNl57B026b4pXw"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2601409",
+  "municipio": "Barreiros",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.barreiros.pe.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituraabarreiros"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturabarreiros"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "http://www.camarabarreiros.pe.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarabarreiros"
+   ],
+   "instagram": [
+    "instagram.com/camarabarreiros"
+   ],
+   "youtube": [
+    "youtube.com/@camarabarreiros5260"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2203701",
+  "municipio": "Esperantina",
+  "uf": "PI",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://esperantina.pi.gov.br/esperantina",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituraesperantina"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.esperantina.pi.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/cmesperantina.pi"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldeesperanti5807"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1302405",
+  "municipio": "Lábrea",
+  "uf": "AM",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.labrea.am.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipallabrea"
+   ],
+   "instagram": [
+    "instagram.com/camaradelabrea"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldelabrea6733"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2922003",
+  "municipio": "Mucuri",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://mucuri.ba.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturademucuri"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturademucuri"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaramucuri.ba.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipaldemucuri"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldemucuri"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2906303",
+  "municipio": "Canavieiras",
+  "uf": "BA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.canavieiras.ba.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeituraDeCanavieiras"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.canavieiras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracanavieiras.ba.gov.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradecanavieiras"
+   ],
+   "youtube": [
+    "youtube.com/channel/UCVsqoWtcGgGamK42-Uy2Dng"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4317301",
+  "municipio": "Santa Vitória Do Palmar",
+  "uf": "RS",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.santavitoriadopalmar.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2305902",
+  "municipio": "Ipueiras",
+  "uf": "CE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.ipueiras.ce.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeipueiras"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeipueiras"
+   ],
+   "youtube": [
+    "youtube.com/c/PrefeituradeIpueiras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.ipueiras.ce.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2701407",
+  "municipio": "Campo Alegre",
+  "uf": "AL",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.campoalegre.al.gov.br/site/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/prefeituracampoalegre"
+   ],
+   "instagram": [
+    "instagram.com/prefeituracampoalegre"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituracampoalegre1140"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2108306",
+  "municipio": "Penalva",
+  "uf": "MA",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.penalva.ma.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeitinga"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradepenalva"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCOzgfOoAykJR9UmsA3b52uQ"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1600501",
+  "municipio": "Oiapoque",
+  "uf": "AP",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3135050",
+  "municipio": "Jaíba",
+  "uf": "MG",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.jaiba.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradejaiba"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturajaiba",
+    "instagram.com/prefeiturajaibaoficial"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2613503",
+  "municipio": "São José Do Belmonte",
+  "uf": "PE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://saojosedobelmonte.pe.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5508799105632"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturasaojosedobelmonte"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturasaojosedobelmonte"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCWy5snyRbxaiYU9G1JdRzWA"
+  ],
+  "camara_site": "https://saojosedobelmonte.pe.leg.br/",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5587999388586"
+   ],
+   "instagram": [
+    "instagram.com/camaravereadoresbelmonte"
+   ],
+   "youtube": [
+    "youtube.com/@camaradesaojosedobelmonte"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2310308",
+  "municipio": "Parambu",
+  "uf": "CE",
+  "cenarios": [
+   "reduto_13_alta_abstencao"
+  ],
+  "prefeitura_site": "https://www.parambu.ce.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraparambu.ce.gov.br/CAMARAPARAMBU/faces/jsp/inicio.jsp",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.parambu",
+    "facebook.com/camaramunicipalparambu"
+   ],
+   "instagram": [
+    "instagram.com/camaraparambu.ce"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4311130",
+  "municipio": "Jari",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.jari.rs.gov.br/home",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/municipiodejari"
+   ],
+   "instagram": [
+    "instagram.com/municipiodejari"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarajari.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4304614",
+  "municipio": "Canudos Do Vale",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.canudosdovale.rs.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5551990030325",
+    "api.whatsapp.com/send?phone=5551990030329"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradecanudosdovale"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracanudosdovale.rs.gov.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5551990030029"
+   ],
+   "instagram": [
+    "instagram.com/camaracanudosdovale"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4217154",
+  "municipio": "São Miguel Da Boa Vista",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.saomigueldaboavista.sc.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4111209",
+  "municipio": "Itapejara D'Oeste",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.itapejaradoeste.pr.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/itapejaradoesteoficial"
+   ],
+   "instagram": [
+    "instagram.com/itapejaradoesteoficial"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituramunicipaldeitape676"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.itapejaradoeste.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.itapejara.9"
+   ],
+   "instagram": [
+    "instagram.com/camaraitapejaradooeste"
+   ],
+   "youtube": [
+    "youtube.com/@camaradevereadoresitapejar1118"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4117255",
+  "municipio": "Nova Prata Do Iguaçu",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2707404",
+  "municipio": "Porto De Pedras",
+  "uf": "AL",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://portodepedras.al.gov.br/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.portodepedras.al.leg.br/home/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradeportodepedras"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4316451",
+  "municipio": "Salto Do Jacuí",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.saltodojacui.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeitura.saltodojacui"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.saltodojacui"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCie5xCWmMqQ_ZRIge2POOkQ"
+  ],
+  "camara_site": "https://www.camarasaltodojacui.rs.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.jacui"
+   ],
+   "youtube": [
+    "youtube.com/@camaravereadoressaltodojac2652"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4216800",
+  "municipio": "São José Do Cerrito",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4203501",
+  "municipio": "Campo Erê",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.campoere.sc.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaracampoere"
+   ],
+   "instagram": [
+    "instagram.com/camaracampoere"
+   ],
+   "youtube": [
+    "youtube.com/@CamaradeVereadoresdeCampoEre"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4128534",
+  "municipio": "Ventania",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.ventania.pr.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554298019924"
+   ],
+   "instagram": [
+    "instagram.com/prefsventania"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradeventania"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.ventania.pr.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradeventaniapr"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipalventania922"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4316105",
+  "municipio": "Ronda Alta",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.rondaalta.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4128609",
+  "municipio": "Verê",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.vere.pr.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradevere"
+   ],
+   "instagram": [
+    "instagram.com/prefeituramunicipaldevere"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4313805",
+  "municipio": "Palmitinho",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.palmitinho.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.palmitinho.9"
+   ],
+   "instagram": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec"
+  ]
+ },
+ {
+  "ibge": "4319158",
+  "municipio": "São Miguel Das Missões",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4321956",
+  "municipio": "Trindade Do Sul",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.trindadedosul.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/admtrindadedosul"
+   ],
+   "instagram": [
+    "instagram.com/admtrindadedosul"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmtrindadedosul.rs.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/cmtrindadedosul"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "5204805",
+  "municipio": "Campo Alegre De Goiás",
+  "uf": "GO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1717909",
+  "municipio": "Ponte Alta Do Tocantins",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.pontealtadotocantins.to.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1706100",
+  "municipio": "Cristalândia",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.cristalandia.to.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/CidadedeCristalandia"
+   ],
+   "instagram": [
+    "instagram.com/prefeituracristalandiato"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4307302",
+  "municipio": "Erval Seco",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.ervalseco.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/PrefeErvalSeco"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraervalseco.rs.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaraimbe"
+   ],
+   "instagram": [
+    "instagram.com/camara_ervalseco"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4212007",
+  "municipio": "Palma Sola",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://palmasola.sc.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefpalmasola"
+   ],
+   "instagram": [
+    "instagram.com/prefeiturapalmasola"
+   ]
+  },
+  "prefeitura_descartados": [
+   "facebook.com/795764780481794"
+  ],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4121604",
+  "municipio": "Renascença",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.renascenca.pr.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.renascenca.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipalde.renascenca"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1703107",
+  "municipio": "Barrolândia",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.barrolandia.to.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradebarrolandia"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.barrolandia.to.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarabrd2023"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraMunicipalBarrolandia-TO"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4200507",
+  "municipio": "Águas De Chapecó",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraaguasdechapeco.sc.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1701101",
+  "municipio": "Aparecida Do Rio Negro",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.aparecidadorionegro.to.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituraaparecidadorionegro"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.aparecidadorionegro.to.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaradeaparecidadorionegro"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1708304",
+  "municipio": "Goianorte",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.goianorte.to.gov.br",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/5563992229102"
+   ],
+   "facebook": [
+    "facebook.com/prefeituradegoianorte",
+    "facebook.com/tapora.municipio"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradegoianorte"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "facebook.com/https",
+   "facebook.com/peraltatec",
+   "youtube.com/channel/UCjJMYK2BhOy7ALybhMn7IUQ"
+  ],
+  "camara_site": "https://www.goianorte.to.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/tapora.municipio"
+   ]
+  },
+  "camara_descartados": [
+   "facebook.com/https",
+   "facebook.com/peraltatec"
+  ]
+ },
+ {
+  "ibge": "4107850",
+  "municipio": "Flor Da Serra Do Sul",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.flordaserradosul.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/legislativofss"
+   ],
+   "instagram": [
+    "instagram.com/camaravereadoresfsspr"
+   ],
+   "youtube": [
+    "youtube.com/@CAMARAVEREADORESFSS"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4204103",
+  "municipio": "Caxambu Do Sul",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://caxambudosul.atende.net/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaracaxambudosul.sc.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4307203",
+  "municipio": "Erval Grande",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.ervalgrande.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1700350",
+  "municipio": "Aliança Do Tocantins",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.aliancadotocantins.to.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaraaliancaoficial"
+   ],
+   "youtube": [
+    "youtube.com/@CAMARAMDEALIAN"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4320354",
+  "municipio": "Sentinela Do Sul",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.sentineladosul.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeitura.sentineladosul"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradesentineladosul"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.sentineladosul.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4303301",
+  "municipio": "Caibaté",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "http://caibate.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.caibate.rs.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5555996509222"
+   ],
+   "facebook": [],
+   "instagram": [
+    "instagram.com/camaracaibate"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec",
+   "youtube.com/channel/UCxc4aLhbPr1L-MA6RS5nU_w"
+  ]
+ },
+ {
+  "ibge": "4304002",
+  "municipio": "Campo Novo",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaracamponovo.rs.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaracamponovo"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1712504",
+  "municipio": "Marianópolis Do Tocantins",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.marianopolisdotocantins.to.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramarianopolisto"
+   ],
+   "instagram": [
+    "instagram.com/camarademarianopolisto"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipaldemarianopolis"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4313490",
+  "municipio": "Novo Barreiro",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaranovobarreiro.rs.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4106571",
+  "municipio": "Cruzeiro Do Iguaçu",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://cruzeirodoiguacu.pr.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/Munic"
+   ],
+   "instagram": [
+    "instagram.com/prefeitura.cruzeirodoiguacu"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.cruzeirodoiguacu.pr.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaracruzeirodoiguacu"
+   ],
+   "instagram": [
+    "instagram.com/camaracruzeirodoiguacu"
+   ],
+   "youtube": [
+    "youtube.com/@CamaraDeCruzeirodoIguacuPR"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4323754",
+  "municipio": "Vitória Das Missões",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4310850",
+  "municipio": "Jaboticaba",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camarajaboticaba.rs.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4311734",
+  "municipio": "Mampituba",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://mampituba.rs.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeiturademampituba"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.mampituba.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4126652",
+  "municipio": "Sulina",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://sulina.pr.gov.br/",
+  "prefeitura_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/554688032134"
+   ],
+   "facebook": [
+    "facebook.com/prefeiturasulina"
+   ],
+   "instagram": [
+    "instagram.com/prefeituramunicipaldesulina"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCruOb1CjOLDJKQUeBKzMokg"
+  ],
+  "camara_site": "https://camarasulina.pr.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4213153",
+  "municipio": "Planalto Alegre",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://planaltoalegre.sc.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraplanaltoalegre.sc.gov.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4306072",
+  "municipio": "Cristal Do Sul",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4309571",
+  "municipio": "Herveiras",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.herveiras.rs.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeitura_herveiras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaraherveiras.rs.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradeherveiras"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4323507",
+  "municipio": "Vista Alegre",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4215752",
+  "municipio": "São Bernardino",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1718881",
+  "municipio": "Santa Maria Do Tocantins",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.santamariadotocantins.to.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefsantamariato"
+   ],
+   "instagram": [
+    "instagram.com/prefsantamaria"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.santamariadotocantins.to.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipalsantamariato"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1700251",
+  "municipio": "Abreulândia",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.abreulandia.to.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituradeabreulandia2021a2024"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradeabreulandia_to"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UC81CJuzENyu5AEF5yZc6cNQ"
+  ],
+  "camara_site": "https://www.abreulandia.to.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraMunicipaldeAbreulandia"
+   ],
+   "instagram": [
+    "instagram.com/camaradeabreulandia"
+   ],
+   "youtube": [
+    "youtube.com/@camaradeabreulandia",
+    "youtube.com/@camaramunicipaldeabreuland8454"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4315958",
+  "municipio": "Rolador",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4311239",
+  "municipio": "Lagoa Bonita Do Sul",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.lagoabonitadosul.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaralbs"
+   ],
+   "youtube": [
+    "youtube.com/@camaralagoabonita"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4316428",
+  "municipio": "Sagrada Família",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.sagradafamilia.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camarasagradafamilia.rs.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarasagradafamilia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4302154",
+  "municipio": "Boa Vista Das Missões",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaraboavistadasmissoes.rs.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.boa.vista.das.missoes"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipalbvm"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4306429",
+  "municipio": "Dois Irmãos Das Missões",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.doisirmaosdasmissoes.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaradoisirmaosdasmissoes.rs.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/CamaraDIM"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4310876",
+  "municipio": "Jacuizinho",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.jacuizinho.rs.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/municipiojacuizinho"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarajacuizinho.rs.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipalvereadoresjacuizinho"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4207858",
+  "municipio": "Irati",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarairati.sc.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4211876",
+  "municipio": "Paial",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://paial.atende.net/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradepaial"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camarapaial.sc.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4313441",
+  "municipio": "Novo Tiradentes",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4306924",
+  "municipio": "Engenho Velho",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://engenhovelho.rs.gov.br/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.engenhovelho.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4109401",
+  "municipio": "Guarapuava",
+  "uf": "PR",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.guarapuava.pr.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "1500404",
+  "municipio": "Alenquer",
+  "uf": "PA",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://alenquer.pa.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/alenquerprefeitura"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradealenquer"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmalenquer.pa.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/cmalenqueroficial"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3114204",
+  "municipio": "Carmo Do Cajuru",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.carmodocajuru.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/euamocajuru"
+   ],
+   "instagram": [
+    "instagram.com/prefscajuru"
+   ],
+   "youtube": []
+  },
+  "prefeitura_descartados": [
+   "youtube.com/channel/UCG2CG66xLFtFeJmuLwhmSUw"
+  ],
+  "camara_site": "https://camaracarmodocajuru.mg.gov.br/",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "wa.me/+5537999696523"
+   ],
+   "facebook": [
+    "facebook.com/camaracarmodocajuru"
+   ],
+   "instagram": [
+    "instagram.com/camara_c_cajuru"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCDbSv4a1Di26-r5kyr7fG4A"
+  ]
+ },
+ {
+  "ibge": "3137403",
+  "municipio": "Lagoa Dourada",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.lagoadourada.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3301603",
+  "municipio": "Duas Barras",
+  "uf": "RJ",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://duasbarras.rj.gov.br/site/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeitura_duasbarras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.duasbarras.rj.leg.br",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camaramunicipalduasbarras"
+   ],
+   "youtube": [
+    "youtube.com/c/camaramunicipaldeduasbarras"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3553609",
+  "municipio": "Tapiratiba",
+  "uf": "SP",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.tapiratiba.sp.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituratapiratiba"
+   ],
+   "instagram": [
+    "instagram.com/prefeituratapiratiba"
+   ],
+   "youtube": [
+    "youtube.com/@Prefeituradetapiratiba"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://camaratapiratiba.sp.gov.br/artigo/?ent=71732&p=feed",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaratapiratiba"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4205308",
+  "municipio": "Faxinal Dos Guedes",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "2708709",
+  "municipio": "São Miguel Dos Milagres",
+  "uf": "AL",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://site.saomigueldosmilagres.al.gov.br/",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituramilagres"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://portal.camarasaomigueldosmilagres.al.gov.br/",
+  "camara_canais": {
+   "instagram": [
+    "instagram.com/camarasmdosmilagres"
+   ],
+   "youtube": [
+    "youtube.com/@camaradesaomigueldosmilagr5500"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3123007",
+  "municipio": "Dores De Campos",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.doresdecampos.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3164605",
+  "municipio": "São Sebastião Do Oeste",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.saosebastiaodooeste.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/policiamilitarssoeste",
+    "instagram.com/prefeiturasaosebastiaodooeste"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://saosebastiaodooeste.cam.mg.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camarassoeste"
+   ],
+   "instagram": [
+    "instagram.com/camarassoeste"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3156304",
+  "municipio": "Rodeiro",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.rodeiro.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4300505",
+  "municipio": "Alpestre",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.alpestre.rs.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/alpestreprefeitura"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3526605",
+  "municipio": "Lavrinhas",
+  "uf": "SP",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://lavrinhas.sp.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeituralavrinhas"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradelavrinhas"
+   ],
+   "youtube": [
+    "youtube.com/@prefeituradelavrinhas8488",
+    "youtube.com/channel/UCrR0tsf25upM5Bx85I-XP-w"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.lavrinhas.sp.leg.br",
+  "camara_canais": {
+   "youtube": [
+    "youtube.com/@camaramunicipaldelavrinhas7515"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4311775",
+  "municipio": "Maquiné",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.maquine.rs.gov.br",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.maquine.rs.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4310504",
+  "municipio": "Iraí",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.irai.rs.leg.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camara.irai"
+   ],
+   "instagram": [
+    "instagram.com/camarairai"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCIdS_4omo3h26CjkBoo4J5A"
+  ]
+ },
+ {
+  "ibge": "3100104",
+  "municipio": "Abadia Dos Dourados",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://abadiadosdourados.mg.gov.br",
+  "prefeitura_canais": {
+   "instagram": [
+    "instagram.com/prefeituradeabadiadosdourados"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmabadiadosdourados.mg.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipaldeabadiadosdourados"
+   ],
+   "youtube": [
+    "youtube.com/@camaramunicipalabadia"
+   ]
+  },
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3552007",
+  "municipio": "Silveiras",
+  "uf": "SP",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://silveiras.sp.gov.br/site/",
+  "prefeitura_canais": {
+   "youtube": [
+    "youtube.com/@PrefeituraMunicipaldeSilveiras"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://cmsilveiras.sp.gov.br/",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaradesilveiras"
+   ]
+  },
+  "camara_descartados": [
+   "facebook.com/watch"
+  ]
+ },
+ {
+  "ibge": "3552908",
+  "municipio": "Taciba",
+  "uf": "SP",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3532207",
+  "municipio": "Narandiba",
+  "uf": "SP",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://narandiba.sp.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/GovernodeNarandiba"
+   ],
+   "instagram": [
+    "instagram.com/narandibasp"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaranarandiba.sp.gov.br",
+  "camara_canais": {
+   "facebook": [
+    "facebook.com/camaramunicipal.denarandiba"
+   ],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "youtube.com/channel/UCOJPehZQoRG9H5Rtl-N2X9A"
+  ]
+ },
+ {
+  "ibge": "4211454",
+  "municipio": "Nova Itaberaba",
+  "uf": "SC",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://novaitaberaba.atende.net/",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.camaranovaitaberaba.sc.gov.br/",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "4314498",
+  "municipio": "Pinheirinho Do Vale",
+  "uf": "RS",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://pinheirinhodovale.rs.gov.br/",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/MunicipioPinheirinhodoVale"
+   ],
+   "instagram": [
+    "instagram.com/pinheirinhodovale"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.pinheirinhodovale.rs.leg.br",
+  "camara_canais": {
+   "whatsapp_atendimento": [
+    "api.whatsapp.com/send?phone=5555559135773",
+    "api.whatsapp.com/send?phone=5555992000177",
+    "wa.me/555591357739"
+   ],
+   "facebook": [
+    "facebook.com/CamaradeVereadoresPinheirinhodoVale"
+   ],
+   "instagram": [],
+   "youtube": []
+  },
+  "camara_descartados": [
+   "facebook.com/cittainteligencia",
+   "instagram.com/cittatec",
+   "youtube.com/channel/UCXiZP3-PC2UDuWo9yVzgAbw"
+  ]
+ },
+ {
+  "ibge": "1703867",
+  "municipio": "Cariri Do Tocantins",
+  "uf": "TO",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "",
+  "prefeitura_canais": {},
+  "prefeitura_descartados": [],
+  "camara_site": "",
+  "camara_canais": {},
+  "camara_descartados": []
+ },
+ {
+  "ibge": "3135308",
+  "municipio": "Japaraíba",
+  "uf": "MG",
+  "cenarios": [
+   "base_flavio_pendular"
+  ],
+  "prefeitura_site": "https://www.japaraiba.mg.gov.br",
+  "prefeitura_canais": {
+   "facebook": [
+    "facebook.com/prefeiturajaparaiba"
+   ],
+   "instagram": [
+    "instagram.com/prefeituradejaparaiba"
+   ],
+   "youtube": [
+    "youtube.com/@PrefeituradeJapara"
+   ]
+  },
+  "prefeitura_descartados": [],
+  "camara_site": "https://www.japaraiba.mg.leg.br",
+  "camara_canais": {},
+  "camara_descartados": []
+ }
+]
