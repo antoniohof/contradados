@@ -1,0 +1,244 @@
+[
+ {
+  "ibge": "3100104",
+  "municipio": "Abadia dos Dourados",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno (6.272 hab., Censo 2022; ~880 km²) no Alto Paranaíba/Triângulo, divisa com GO, de origem garimpeira (diamantes no rio Dourado) e hoje de base agropecuária (Wikipedia/IBGE; detalhe atual de culturas não verificado).",
+  "pautas": [
+   "Só genéricos encontrados: nenhuma pauta local específica de 2025–2026 em imprensa regional nas buscas."
+  ],
+  "eventos": "Nenhum evento de 2025–2026 identificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Abadia_dos_Dourados"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca retornou apenas IBGE, concursos e leis municipais. Lacuna de imprensa local."
+ },
+ {
+  "ibge": "3101706",
+  "municipio": "Almenara",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo regional do Baixo Jequitinhonha (40.364 hab., Censo 2022; est. 42 mil em 2025), economia de pecuária extensiva, comércio/serviços e polo educacional (IFNMG, UFVJM), com chegada recente de mineradoras e redes varejistas (Wikipedia).",
+  "pautas": [
+   "Saúde: crise financeira do Hospital Deraldo Guimarães (HDG), com atraso prolongado de pagamento a médicos e anúncio de greve a partir de 08/06/2026; MPMG recomendou ao Estado, à prefeitura e à fundação gestora manter urgência/emergência ('vaga zero', compra de leitos) (MPMG).",
+   "Saúde regional: HDG atende Almenara e municípios vizinhos do Baixo Jequitinhonha via SUS (MPMG).",
+   "Chuvas/enchentes no Vale do Jequitinhonha (dez/2024, gabinete de operações do Estado) — citado apenas em resumo de busca, não verificado."
+  ],
+  "eventos": "Ameaça de greve médica no Hospital Deraldo Guimarães em jun/2026 com intervenção do MPMG. Anúncio estadual (2025) de 2 novas UBS em Almenara aparece em resumo de busca (PDF Agência Minas 121890 retornou 404).",
+  "fontes": [
+   "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/mpmgalertaque-greve-de-medicosnaopodeimpactar-atendimentos-de-urgencia-eemergenciaemalmenara-e-municipiosvizinhos-2C9F8A9B9E653947019E88D4F7613746-00.shtml",
+   "https://pt.wikipedia.org/wiki/Almenara"
+  ],
+  "confianca": "média",
+  "obs": "Pauta de saúde bem documentada (MPMG); demais pautas fracas. PDF agenciaminas.mg.gov.br/news/pdf/121890.pdf não abriu (404)."
+ },
+ {
+  "ibge": "3103405",
+  "municipio": "Araçuaí",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Médio Jequitinhonha no centro do 'Vale do Lítio', com projetos de lítio/espodumênio (Sigma, CBL, Atlas) em licenciamento/operação; receitas municipais pressionadas (CFEM caiu de R$ 3,9 mi em 2024 para R$ 330 mil em 2025) (Brasil de Fato).",
+  "pautas": [
+   "Mineração de lítio: dívida de R$ 6,3 mi do setor minerário em tributos municipais, R$ 3,4 mi só da Sigma (2024–2025), denunciada por vereador; prefeitura sem cobrança judicial (Brasil de Fato, mar/2026).",
+   "Crise fiscal municipal: atrasos salariais e suspensão de horas extras de servidores (Brasil de Fato).",
+   "Conflito com comunidades quilombolas: prefeitura pediu ao TRF-6 (fev/2026) derrubar liminar de proteção ambiental ligada à mineração (Brasil de Fato).",
+   "Água/estiagem: contratação de caminhões-pipa (~R$ 2,48 mi) para comunidades rurais, escolas e unidades de saúde em 2026 (agenda da prefeitura; licitação vista só em resultado de busca).",
+   "Saúde: investimento estadual de R$ 5 mi para hemodiálise no Hospital São Vicente de Paulo (resumo de busca; PDF Agência Minas 129705 retornou 404)."
+  ],
+  "eventos": "Crise fiscal da prefeitura e queda da CFEM em 2025; vendas de lítio da Sigma em jan–fev/2026; disputa judicial sobre proteção a quilombolas (fev/2026). Município estava no decreto estadual de emergência por estiagem de jun/2024.",
+  "fontes": [
+   "https://www.brasildefato.com.br/2026/03/05/mineradora-sigma-deve-mais-de-r-3-milhoes-aos-cofres-de-aracuai-mg-diz-vereador/",
+   "https://ofator.com.br/?p=8616"
+  ],
+  "confianca": "média",
+  "obs": "Fonte principal com viés editorial (Brasil de Fato), fatos citados são verificáveis. Pautas de água e hemodiálise não confirmadas em página aberta."
+ },
+ {
+  "ibge": "3107307",
+  "municipio": "Bocaiúva",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Sexto município mais populoso do Norte de Minas (48.032 hab., Censo 2022; 3.207 km², semiárido), entroncamento rodoviário na BR-135 perto de Montes Claros, com agronegócio e logística (Wikipedia; Agência Minas).",
+  "pautas": [
+   "Mobilidade/rodovias: entrega do Anel Viário de Bocaiúva na BR-135 (15 km duplicados, >R$ 300 mi) em 14/12/2025, para tirar o tráfego pesado (~10 mil veículos/dia) do perímetro urbano (Agência Minas).",
+   "Saúde: Hospital Municipal Dr. Gil Alves com licitações de medicamentos e equipamentos em 2026 (agenda da prefeitura; licitações vistas só em resultado de busca).",
+   "Demais pautas: só genéricos encontrados."
+  ],
+  "eventos": "Inauguração do Anel Viário (dez/2025), com ~500 empregos diretos na obra (Agência Minas).",
+  "fontes": [
+   "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-entrega-obras-do-anel-viario-de-bocaiuva-e-inaugura-novo-marco-de-mobilidade-e-desenvolvimento-no-norte-do-estado/",
+   "https://pt.wikipedia.org/wiki/Bocaiúva"
+  ],
+  "confianca": "média",
+  "obs": "Bocaiúva não aparece na lista do decreto estadual de seca de jun/2024 conforme resumo da busca. Sem imprensa local independente encontrada."
+ },
+ {
+  "ibge": "3108602",
+  "municipio": "Brasília de Minas",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo microrregional do Norte de Minas (32.025 hab., Censo 2022), economia de agropecuária e serviços, com receitas públicas muito dependentes de transferências (82,7%) e campus da Unimontes (Wikipedia).",
+  "pautas": [
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Saúde/oncologia: inauguração de Centro Oncológico no Hospital Municipal Senhora Santana em visita do governador (28/06/2026), evitando deslocamento a Montes Claros para quimioterapia (só resumo de busca; PDF Agência Minas 122644 retornou 404 — não verificado).",
+   "Demais pautas: só genéricos encontrados."
+  ],
+  "eventos": "Possível inauguração de centro oncológico (jun/2026), não verificada em página aberta.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Brasília_de_Minas",
+   "https://ofator.com.br/?p=8616"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna de imprensa local; principal pauta de 2026 não confirmada em página aberta."
+ },
+ {
+  "ibge": "3112307",
+  "municipio": "Capelinha",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Maior centro populacional do Alto Jequitinhonha (39.626 hab., Censo 2022), economia de café (exportado majoritariamente) e grandes plantios de eucalipto para bioenergia/carvão (Aperam), com campus federal e distrito industrial (Wikipedia).",
+  "pautas": [
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Saúde: Hospital Municipal São Vicente de Paulo (municipal) e compra de veículos para a Secretaria de Saúde em 2026 (agenda da prefeitura; documentos vistos só em resultado de busca).",
+   "Demais pautas: só genéricos encontrados."
+  ],
+  "eventos": "Nenhum evento de 2025–2026 identificado em imprensa.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Capelinha",
+   "https://ofator.com.br/?p=8616"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca retornou só documentos da prefeitura/licitações. Sem notícias sobre café/eucalipto em 2025–2026."
+ },
+ {
+  "ibge": "3112604",
+  "municipio": "Capinópolis",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Pontal do Triângulo (~15 mil hab.), agropecuária responde por ~45% do valor adicionado (soja, milho, sorgo, cana) com usina de açúcar entre os maiores empregadores (Wikipedia/IBGE).",
+  "pautas": [
+   "Só genéricos encontrados: licitações municipais de saúde em 2026 (medicamentos para ordens judiciais, resíduos de saúde, sistema de gestão) — agenda da prefeitura, vista só em resultado de busca."
+  ],
+  "eventos": "Nenhum evento de 2025–2026 identificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Capinópolis"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna de imprensa local."
+ },
+ {
+  "ibge": "3114204",
+  "municipio": "Carmo do Cajuru",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Centro-Oeste mineiro (23.479 hab., Censo 2022), vizinho de Divinópolis, cuja economia é dominada pela indústria moveleira (~117 fábricas, segundo polo moveleiro do país, ~80% da PEA) (Wikipedia).",
+  "pautas": [
+   "Só genéricos encontrados: sinalização viária urbana, reforma de quadra e ônibus escolares em 2026 (agenda da prefeitura; licitações vistas só em resultado de busca)."
+  ],
+  "eventos": "Nenhum evento de 2025–2026 identificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Carmo_do_Cajuru"
+  ],
+  "confianca": "baixa",
+  "obs": "Nenhuma notícia sobre o setor moveleiro em 2025–2026 encontrada."
+ },
+ {
+  "ibge": "3114501",
+  "municipio": "Carmópolis de Minas",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Oeste/Campo das Vertentes (~18 mil hab., Censo 2022), 'capital mineira do tomate' (maior produtor do estado em 2021), com hortifruti e pecuária leiteira (Wikipedia).",
+  "pautas": [
+   "Só genéricos encontrados (agenda da prefeitura, vista só em resultado de busca): trator por emenda parlamentar (ago/2025), vacinação animal, Festa do Rodeio 2026."
+  ],
+  "eventos": "Nenhum evento relevante de 2025–2026 identificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Carmópolis_de_Minas"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna de imprensa local; nada sobre preço/produção do tomate em 2025–2026."
+ },
+ {
+  "ibge": "3115300",
+  "municipio": "Cataguases",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo industrial da Zona da Mata (75.261 hab., Censo 2022), com indústria têxtil (Companhia Industrial Cataguases), reciclagem de papel, mineração e sede do Grupo Energisa (Wikipedia).",
+  "pautas": [
+   "Enchentes: transbordamento do rio Pomba em 26/02/2026 (6,05 m; 104 mm em 1 h), centro alagado, deslizamentos e dois pontos de interdição na avenida principal, plano de contingência acionado (Itatiaia).",
+   "Risco hidrológico recorrente: rio Pomba e ribeirão Meia Pataca, com cheias históricas (7,62 m em jan/2022, desalojados em escolas) e sistema de alerta do SGB para a bacia (Tribuna de Minas; SGB).",
+   "Demais pautas: só genéricos encontrados."
+  ],
+  "eventos": "Enchente de 26/02/2026 no centro de Cataguases.",
+  "fontes": [
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/rio-pomba-transborda-e-inunda-cidade-de-cataguases-na-zona-da-mata-veja-videos/",
+   "https://tribunademinas.com.br/?p=455867",
+   "https://pt.wikipedia.org/wiki/Cataguases"
+  ],
+  "confianca": "média",
+  "obs": "Decreto de emergência e número de desalojados de 2026 não confirmados."
+ },
+ {
+  "ibge": "3121605",
+  "municipio": "Diamantina",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade histórica (Patrimônio Mundial) do Alto Jequitinhonha, com economia de turismo, serviços, educação (UFVJM) e herança garimpeira; investe no turismo gastronômico (Tribuna de Minas; porte: conhecimento geral, não verificado).",
+  "pautas": [
+   "Segurança viária: tombamento de ônibus na MG-367, km 570, com 1 morto e 40 feridos, levando trabalhadores rurais de Unaí a Itamarandiba (SBT News; data 10/05, ano a confirmar).",
+   "Turismo: promoção como destino gastronômico (press trip abr/2026) e nova rota aérea BH–Diamantina (resumo de busca) (Tribuna de Minas).",
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Patrimônio: problemas de conservação da Casa de JK (jul/2025) — só resumo de busca, não verificado."
+  ],
+  "eventos": "Acidente grave de ônibus na MG-367 (mai/2026 segundo SBT; dia da semana citado sugere possivelmente 2025).",
+  "fontes": [
+   "https://sbtnews.sbt.com.br/noticia/brasil/onibus-tomba-em-diamantina-mg-e-causa-grave-acidente-com-40-vitimas",
+   "https://tribunademinas.com.br/colunas/coluna-mg/30-04-2026/diamantina-se-projeta-nacionalmente-no-turismo.html",
+   "https://ofator.com.br/?p=8616"
+  ],
+  "confianca": "baixa",
+  "obs": "Nenhuma pauta de saúde ou de crise fiscal encontrada; vítimas do acidente não necessariamente eram moradores."
+ },
+ {
+  "ibge": "3123007",
+  "municipio": "Dores de Campos",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município pequeno do Campo das Vertentes (10.007 hab., Censo 2022), no circuito turístico Trilha dos Inconfidentes; tradição em selaria/artefatos de couro é conhecimento geral, não verificado (Wikipedia não detalha).",
+  "pautas": [
+   "Só genéricos encontrados: calçamento de ruas com bloquetes em 2026 (agenda da prefeitura; licitação vista só em resultado de busca)."
+  ],
+  "eventos": "Nenhum evento de 2025–2026 identificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Dores_de_Campos"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna de imprensa local."
+ }
+]

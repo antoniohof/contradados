@@ -1980,9 +1980,9 @@
   "pl_local": "Não encontrado; em 2024 o PL não teve candidatos a prefeito nem a vereador no município (lista Itatiaia).",
   "economia": "Município pequeno (6.272 hab., Censo 2022) do Alto Paranaíba, região de Monte Carmelo; vive de pecuária de corte, comércio e lavouras de café, milho, arroz e soja; inclui área da represa de Emborcação.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Só genéricos encontrados: nenhuma pauta local específica de 2025–2026 em imprensa regional nas buscas."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Nenhum evento de 2025–2026 identificado.",
   "fontes": [
    "https://abadiadosdourados.mg.gov.br/administracao.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-abadia-dos-dourados-mg-da-eleicao-2024/",
@@ -1991,7 +1991,7 @@
    "https://www.ibge.gov.br/cidades-e-estados/mg/3100104.html"
   ],
   "confianca": "média",
-  "obs": "Vice: Fernanda Vieira da Silva Assunção (União), segundo o site da prefeitura. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas não levantadas; precisa nova rodada.",
+  "obs": "Vice: Fernanda Vieira da Silva Assunção (União), segundo o site da prefeitura. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas não levantadas; precisa nova rodada. / Busca retornou apenas IBGE, concursos e leis municipais. Lacuna de imprensa local.",
   "partido_prefeito_sigla": "PSD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Ciro Luiz da Silva Junior (Ciro)"
@@ -2005,17 +2005,20 @@
   "pl_local": "Não encontrado; em 2024 o PL não teve candidatos a prefeito nem a vereador no município (lista Itatiaia).",
   "economia": "Polo do Baixo Jequitinhonha (40.364 hab., Censo 2022); a economia gira em torno de pecuária, comércio e serviços, e a página cita a chegada da mineradora Magnesita.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Saúde: crise financeira do Hospital Deraldo Guimarães (HDG), com atraso prolongado de pagamento a médicos e anúncio de greve a partir de 08/06/2026; MPMG recomendou ao Estado, à prefeitura e à fundação gestora manter urgência/emergência ('vaga zero', compra de leitos) (MPMG).",
+   "Saúde regional: HDG atende Almenara e municípios vizinhos do Baixo Jequitinhonha via SUS (MPMG).",
+   "Chuvas/enchentes no Vale do Jequitinhonha (dez/2024, gabinete de operações do Estado) — citado apenas em resumo de busca, não verificado."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Ameaça de greve médica no Hospital Deraldo Guimarães em jun/2026 com intervenção do MPMG. Anúncio estadual (2025) de 2 novas UBS em Almenara aparece em resumo de busca (PDF Agência Minas 121890 retornou 404).",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-almenara-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Almenara",
-   "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/"
+   "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/",
+   "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/mpmgalertaque-greve-de-medicosnaopodeimpactar-atendimentos-de-urgencia-eemergenciaemalmenara-e-municipiosvizinhos-2C9F8A9B9E653947019E88D4F7613746-00.shtml"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas só regionais/genéricas; g1 bloqueado e tag da Itatiaia desatualizada.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas só regionais/genéricas; g1 bloqueado e tag da Itatiaia desatualizada. / Pauta de saúde bem documentada (MPMG); demais pautas fracas. PDF agenciaminas.mg.gov.br/news/pdf/121890.pdf não abriu (404).",
   "partido_prefeito_sigla": "PT",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Eduardo Oliveira Brasileiro (Eduardo Brasileiro)"
@@ -2029,19 +2032,25 @@
   "pl_local": "Não encontrado; em 2024 o PL não teve candidatos a prefeito nem a vereador no município (lista Itatiaia).",
   "economia": "Centro comercial e educacional do Médio Jequitinhonha (34.297 hab., Censo 2022); a região, o chamado 'Vale do Lítio', atrai projetos de mineração de lítio, mas esse ponto não foi verificado nas fontes desta pesquisa.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Mineração de lítio: dívida de R$ 6,3 mi do setor minerário em tributos municipais, R$ 3,4 mi só da Sigma (2024–2025), denunciada por vereador; prefeitura sem cobrança judicial (Brasil de Fato, mar/2026).",
+   "Crise fiscal municipal: atrasos salariais e suspensão de horas extras de servidores (Brasil de Fato).",
+   "Conflito com comunidades quilombolas: prefeitura pediu ao TRF-6 (fev/2026) derrubar liminar de proteção ambiental ligada à mineração (Brasil de Fato).",
+   "Água/estiagem: contratação de caminhões-pipa (~R$ 2,48 mi) para comunidades rurais, escolas e unidades de saúde em 2026 (agenda da prefeitura; licitação vista só em resultado de busca).",
+   "Saúde: investimento estadual de R$ 5 mi para hemodiálise no Hospital São Vicente de Paulo (resumo de busca; PDF Agência Minas 129705 retornou 404)."
   ],
-  "eventos": "Onda de calor em 19/11/2023 com recorde de 44,8 °C, segundo a Wikipédia. Tadeu foi reeleito em 2024. / Expansão da mineração de lítio e conflitos com comunidades (2023-2025); recomendação do MPF (09/2025).",
+  "eventos": "Onda de calor em 19/11/2023 com recorde de 44,8 °C, segundo a Wikipédia. Tadeu foi reeleito em 2024. / Expansão da mineração de lítio e conflitos com comunidades (2023-2025); recomendação do MPF (09/2025). / Crise fiscal da prefeitura e queda da CFEM em 2025; vendas de lítio da Sigma em jan–fev/2026; disputa judicial sobre proteção a quilombolas (fev/2026). Município estava no decreto estadual de emergência por estiagem de jun/2024.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-aracuai-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Araçuaí",
    "https://revistapesquisa.fapesp.br/exploracao-de-litio-amplia-contaminacao-do-solo-e-da-agua-em-minas-gerais/",
    "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/",
-   "https://www.itatiaia.com.br/brasil/sudeste/mg/onda-de-calor-aracuai-mg-registra-o-dia-mais-quente-da-historia-do-brasil/"
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/onda-de-calor-aracuai-mg-registra-o-dia-mais-quente-da-historia-do-brasil/",
+   "https://www.brasildefato.com.br/2026/03/05/mineradora-sigma-deve-mais-de-r-3-milhoes-aos-cofres-de-aracuai-mg-diz-vereador/",
+   "https://ofator.com.br/?p=8616"
   ],
   "confianca": "média",
-  "obs": "Prefeito reeleito em 2024. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Reportagem FAPESP (12/2025) informa que prefeitura de Araçuaí e Sigma não responderam.",
+  "obs": "Prefeito reeleito em 2024. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Reportagem FAPESP (12/2025) informa que prefeitura de Araçuaí e Sigma não responderam. / Fonte principal com viés editorial (Brasil de Fato), fatos citados são verificáveis. Pautas de água e hemodiálise não confirmadas em página aberta.",
   "partido_prefeito_sigla": "PSD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Tadeu Barbosa de Oliveira (Tadeu)"
@@ -2055,9 +2064,11 @@
   "pl_local": "Não encontrado; em 2024 o PL não teve candidatos a prefeito nem a vereador no município (lista Itatiaia).",
   "economia": "Município médio do Norte de Minas (46,6 mil hab. em 2010; o dado do Censo 2022 não foi obtido); segunda maior arrecadação da região, com perfil regional de comércio e serviços. A composição setorial não foi detalhada nas fontes.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Mobilidade/rodovias: entrega do Anel Viário de Bocaiúva na BR-135 (15 km duplicados, >R$ 300 mi) em 14/12/2025, para tirar o tráfego pesado (~10 mil veículos/dia) do perímetro urbano (Agência Minas).",
+   "Saúde: Hospital Municipal Dr. Gil Alves com licitações de medicamentos e equipamentos em 2026 (agenda da prefeitura; licitações vistas só em resultado de busca).",
+   "Demais pautas: só genéricos encontrados."
   ],
-  "eventos": "Nenhum identificado. / Entrega do Anel Viário duplicado pelo governo de Minas (12/2025).",
+  "eventos": "Nenhum identificado. / Entrega do Anel Viário duplicado pelo governo de Minas (12/2025). / Inauguração do Anel Viário (dez/2025), com ~500 empregos diretos na obra (Agência Minas).",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-bocaiuva-mg-da-eleicao-2024/",
@@ -2066,7 +2077,7 @@
    "https://en.wikipedia.org/wiki/Bocai%C3%BAva"
   ],
   "confianca": "baixa",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Fonte principal é release do governo estadual.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Fonte principal é release do governo estadual. / Bocaiúva não aparece na lista do decreto estadual de seca de jun/2024 conforme resumo da busca. Sem imprensa local independente encontrada.",
   "partido_prefeito_sigla": "AVANTE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Roberto Jairo Torres (Robertão)"
@@ -2080,17 +2091,20 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 5 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Município do Norte de Minas (32.025 hab., Censo 2022); as fontes consultadas não descrevem a base econômica.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Saúde/oncologia: inauguração de Centro Oncológico no Hospital Municipal Senhora Santana em visita do governador (28/06/2026), evitando deslocamento a Montes Claros para quimioterapia (só resumo de busca; PDF Agência Minas 122644 retornou 404 — não verificado).",
+   "Demais pautas: só genéricos encontrados."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Possível inauguração de centro oncológico (jun/2026), não verificada em página aberta.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-brasilia-de-minas-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Brasília_de_Minas",
-   "https://www.acessa.com/colunistas/sindijori/2025/07/268778-50-municipios-ficam-no-semiarido.html"
+   "https://www.acessa.com/colunistas/sindijori/2025/07/268778-50-municipios-ficam-no-semiarido.html",
+   "https://ofator.com.br/?p=8616"
   ],
   "confianca": "baixa",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Fonte citada trata da revisão do semiárido pela Sudene (07/2025), sem nomear o município.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Fonte citada trata da revisão do semiárido pela Sudene (07/2025), sem nomear o município. / Lacuna de imprensa local; principal pauta de 2026 não confirmada em página aberta.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Marcus Vinicius Ferreira Carvalho (Dr. Marcus Vinicius)"
@@ -2104,18 +2118,21 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 8 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Município do Alto Jequitinhonha (39.626 hab., Censo 2022) com economia agrícola: café voltado à exportação e grandes plantios de eucalipto da Aperam.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Saúde: Hospital Municipal São Vicente de Paulo (municipal) e compra de veículos para a Secretaria de Saúde em 2026 (agenda da prefeitura; documentos vistos só em resultado de busca).",
+   "Demais pautas: só genéricos encontrados."
   ],
-  "eventos": "Onda de calor em 11/2023 (37,6 °C). / Nenhum evento relevante identificado.",
+  "eventos": "Onda de calor em 11/2023 (37,6 °C). / Nenhum evento relevante identificado. / Nenhum evento de 2025–2026 identificado em imprensa.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-capelinha-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Capelinha",
    "https://www.acessa.com/colunistas/sindijori/2025/07/268778-50-municipios-ficam-no-semiarido.html",
-   "https://www.ibge.gov.br/cidades-e-estados/mg/3112307.html"
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3112307.html",
+   "https://ofator.com.br/?p=8616"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas muito incompletas.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Pautas muito incompletas. / Busca retornou só documentos da prefeitura/licitações. Sem notícias sobre café/eucalipto em 2025–2026.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Jonas Barreiros dos Santos (Jonas Barreiros)"
@@ -2129,16 +2146,16 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 5 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Município pequeno do Pontal do Triângulo Mineiro (cerca de 15,3 mil hab., estimativa IBGE 2024) com economia agropecuária; a Wikipédia descreve só a base histórica (café, mandioca, cana, milho e arroz).",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Só genéricos encontrados: licitações municipais de saúde em 2026 (medicamentos para ordens judiciais, resíduos de saúde, sistema de gestão) — agenda da prefeitura, vista só em resultado de busca."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Nenhum evento de 2025–2026 identificado.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-capinopolis-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Capinópolis"
   ],
   "confianca": "média",
-  "obs": "Daniel França preside a Câmara em 2025–2026, segundo a Wikipédia. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Daniel França preside a Câmara em 2025–2026, segundo a Wikipédia. Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Lacuna de imprensa local.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Luciano Batista Belchior (Luciano Belchior)"
@@ -2152,16 +2169,16 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 12 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Município do Centro-Oeste mineiro (cerca de 21 mil hab.) dominado pela indústria moveleira: cerca de 117 fábricas, que formam um dos maiores polos de móveis do país e empregam a maior parte da mão de obra.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Só genéricos encontrados: sinalização viária urbana, reforma de quadra e ônibus escolares em 2026 (agenda da prefeitura; licitações vistas só em resultado de busca)."
   ],
-  "eventos": "A Wikipédia cita a implantação da PPP 'Cidade Inteligente', sem data.",
+  "eventos": "A Wikipédia cita a implantação da PPP 'Cidade Inteligente', sem data. / Nenhum evento de 2025–2026 identificado.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-carmo-do-cajuru-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Carmo_do_Cajuru"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Nenhuma notícia sobre o setor moveleiro em 2025–2026 encontrada.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Vinicius Alves Camargos (Vinicius Camargos)"
@@ -2175,16 +2192,16 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 9 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Município pequeno do Campo das Vertentes/Oeste (cerca de 18 mil hab., Censo 2022) centrado na horticultura, sobretudo tomate: foi o maior produtor de Minas em 2021.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Só genéricos encontrados (agenda da prefeitura, vista só em resultado de busca): trator por emenda parlamentar (ago/2025), vacinação animal, Festa do Rodeio 2026."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Nenhum evento relevante de 2025–2026 identificado.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-carmopolis-de-minas-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Carmópolis_de_Minas"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Lacuna de imprensa local; nada sobre preço/produção do tomate em 2025–2026.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Celio Roberto Azevedo (Celinho da Saúde)"
@@ -2198,16 +2215,20 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 15 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Cidade média industrial da Zona da Mata (66.261 hab., Censo 2022): indústria têxtil (Cia. Industrial Cataguases), papel reciclado e mineração, além de sediar o grupo Energisa.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Enchentes: transbordamento do rio Pomba em 26/02/2026 (6,05 m; 104 mm em 1 h), centro alagado, deslizamentos e dois pontos de interdição na avenida principal, plano de contingência acionado (Itatiaia).",
+   "Risco hidrológico recorrente: rio Pomba e ribeirão Meia Pataca, com cheias históricas (7,62 m em jan/2022, desalojados em escolas) e sistema de alerta do SGB para a bacia (Tribuna de Minas; SGB).",
+   "Demais pautas: só genéricos encontrados."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Enchente de 26/02/2026 no centro de Cataguases.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-cataguases-mg-da-eleicao-2024/",
-   "https://pt.wikipedia.org/wiki/Cataguases"
+   "https://pt.wikipedia.org/wiki/Cataguases",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/rio-pomba-transborda-e-inunda-cidade-de-cataguases-na-zona-da-mata-veja-videos/",
+   "https://tribunademinas.com.br/?p=455867"
   ],
   "confianca": "média",
-  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Decreto de emergência e número de desalojados de 2026 não confirmados.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "José Inácio Peixoto Parreiras Henriques (José Henriques)"
@@ -2221,16 +2242,22 @@
   "pl_local": "Não encontrado político do PL com reduto local; em 2024 o PL lançou 13 candidatos a vereador (Itatiaia); quantos foram eleitos não verificado.",
   "economia": "Cidade média do Alto Jequitinhonha (47.702 hab., Censo 2022), patrimônio histórico, que vive de turismo, serviços e da UFVJM; a mineração de diamante e ouro hoje pesa menos.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Segurança viária: tombamento de ônibus na MG-367, km 570, com 1 morto e 40 feridos, levando trabalhadores rurais de Unaí a Itamarandiba (SBT News; data 10/05, ano a confirmar).",
+   "Turismo: promoção como destino gastronômico (press trip abr/2026) e nova rota aérea BH–Diamantina (resumo de busca) (Tribuna de Minas).",
+   "Estiagem/seca: município incluído no decreto estadual de emergência por seca de jun/2024 (O Fator) — contexto anterior a 2025.",
+   "Patrimônio: problemas de conservação da Casa de JK (jul/2025) — só resumo de busca, não verificado."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Acidente grave de ônibus na MG-367 (mai/2026 segundo SBT; dia da semana citado sugere possivelmente 2025).",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-diamantina-mg-da-eleicao-2024/",
-   "https://pt.wikipedia.org/wiki/Diamantina"
+   "https://pt.wikipedia.org/wiki/Diamantina",
+   "https://sbtnews.sbt.com.br/noticia/brasil/onibus-tomba-em-diamantina-mg-e-causa-grave-acidente-com-40-vitimas",
+   "https://tribunademinas.com.br/colunas/coluna-mg/30-04-2026/diamantina-se-projeta-nacionalmente-no-turismo.html",
+   "https://ofator.com.br/?p=8616"
   ],
   "confianca": "média",
-  "obs": "Eleição de 2024 com apenas dois candidatos (Paquito/MDB e Prof. Fred/REDE). Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Eleição de 2024 com apenas dois candidatos (Paquito/MDB e Prof. Fred/REDE). Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Nenhuma pauta de saúde ou de crise fiscal encontrada; vítimas do acidente não necessariamente eram moradores.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Geferson Giordani Burgarelli (Paquito)"
@@ -2244,16 +2271,16 @@
   "pl_local": "Não encontrado; em 2024 o PL não teve candidatos a prefeito nem a vereador no município (lista Itatiaia).",
   "economia": "Município pequeno do Campo das Vertentes (10.007 hab., Censo 2022); as fontes consultadas não descrevem a base econômica.",
   "pautas": [
-   "Lacuna: pautas locais não pesquisadas (limite de buscas web da sessão esgotado antes desta etapa)"
+   "Só genéricos encontrados: calçamento de ruas com bloquetes em 2026 (agenda da prefeitura; licitação vista só em resultado de busca)."
   ],
-  "eventos": "Nenhum identificado.",
+  "eventos": "Nenhum identificado. / Nenhum evento de 2025–2026 identificado.",
   "fontes": [
    "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-dores-de-campos-mg-da-eleicao-2024/",
    "https://pt.wikipedia.org/wiki/Dores_de_Campos"
   ],
   "confianca": "baixa",
-  "obs": "Eleição de 2024 com dois candidatos (MDB x PT). Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado.",
+  "obs": "Eleição de 2024 com dois candidatos (MDB x PT). Partido do prefeito cruzado entre a lista de eleitos da Itatiaia e a lista de candidatos (Itatiaia). Pautas/eventos não pesquisados: o limite de buscas web da sessão se esgotou; vale uma nova rodada. Nº de vereadores do PL eleitos não verificado. / Lacuna de imprensa local.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Marcio Antonio Pinheiro (Marcinho do Tica)"
@@ -2267,15 +2294,20 @@
   "pl_local": "não encontrado (PL lançou 12 candidatos a vereador em 2024; eleitos não verificados)",
   "economia": "Município médio do Alto Paranaíba (22,2 mil hab.; PIB per capita R$ 76,5 mil em 2023, alto), base agropecuária (leite, café, grãos) — setorial por conhecimento geral, não verificado.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Sem pautas locais verificadas na imprensa; apenas genéricos.",
+   "Estradas rurais: decretos de desapropriação por utilidade pública para melhoria de estradas rurais e ampliação de área esportiva escolar (out/2026) — agenda da prefeitura",
+   "Segurança viária na MG-187 (acidente com duas mortes noticiado pela Itatiaia; data não confirmada)",
+   "Concurso público (Edital 01/2026, 17 vagas) e processos seletivos — agenda da prefeitura"
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Nenhum evento de grande porte (emergência, desastre, escândalo) encontrado para 2025-2026.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3129509.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ibia-mg-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ibia-mg-da-eleicao-2024/",
+   "https://www.ibia.mg.gov.br/",
+   "https://pt.wikipedia.org/wiki/Ibiá"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Nome de urna 'Gillianno Mamão' vs. IBGE 'Gilliann Gilles Ferreira': correspondência assumida. Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Nome de urna 'Gillianno Mamão' vs. IBGE 'Gilliann Gilles Ferreira': correspondência assumida. Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Buscas retornaram quase só concursos. Matéria do acidente na MG-187 vista só em resultado de busca (itatiaia.com.br, 'em poucas horas dois acidentes matam quatro'), não aberta.",
   "partido_prefeito_sigla": "PSD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Gillianno Mamão (Gilliann Gilles Ferreira)"
@@ -2289,16 +2321,17 @@
   "pl_local": "não encontrado (PL lançou 10 candidatos a vereador em 2024; eleitos não verificados)",
   "economia": "Município pequeno-médio do Centro-Oeste mineiro (21 mil hab.; PIB per capita R$ 31,6 mil) com extração de grafite (Nacional Grafite), agropecuária, calçados e turismo rural.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Sem pautas locais encontradas; apenas genéricos (concursos com vagas na saúde, ex. agentes comunitários)."
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Nenhum evento 2025-2026 encontrado. Itapecerica não consta na lista de 44 municípios em emergência por temporais (Defesa Civil MG, boletim jan/2025, via Itatiaia).",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3133501.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-itapecerica-mg-da-eleicao-2024/",
-   "https://pt.wikipedia.org/wiki/Itapecerica_(Minas_Gerais)"
+   "https://pt.wikipedia.org/wiki/Itapecerica_(Minas_Gerais)",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/sobe-para-44-o-numero-de-cidades-de-mg-em-situacao-de-emergencia-devido-os-ultimos-temporais/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial segundo Wikipedia. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial segundo Wikipedia. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Site da prefeitura (itapecerica.mg.gov.br) e portal regional sistemampa.com.br retornaram 403. Lacuna total de pautas.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Gleytinho do Valério (Gleyton Luiz Pereira)"
@@ -2312,17 +2345,21 @@
   "pl_local": "não encontrado; lista parcial de vereadores eleitos 2024 (Tribuna PR) não mostra nenhum do PL",
   "economia": "Polo do Norte de Minas às margens do São Francisco (65 mil hab.; PIB per capita baixo, R$ 16 mil), economia de agricultura, pecuária e serviços, com cachaça, artesanato e turismo.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Saúde/Hospital Municipal: licitações em 2026 para sistema de gestão hospitalar e manutenção de ventiladores pulmonares; recursos estaduais para reforma do Hospital Municipal e equipamentos de hemodiálise (vistos em resultado de busca, DOU/Agência Minas)",
+   "Seca/estiagem no Norte de Minas: região com dezenas de municípios em emergência por seca segundo a Defesa Civil estadual (genérico regional; Januária não confirmada nominalmente)",
+   "Turismo (guia turístico digital, eventos na 'Praia de Minas') — agenda da prefeitura",
+   "Assistência farmacêutica (relatórios de estoque da Farmácia de Minas) — agenda da prefeitura"
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Sem evento específico verificado em 2025-2026.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3135209.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-januaria-mg-da-eleicao-2024/",
    "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-januaria-mg-nas-eleicoes-2024-veja-a-lista/amp/",
-   "https://pt.wikipedia.org/wiki/Januária"
+   "https://pt.wikipedia.org/wiki/Januária",
+   "https://www.januaria.mg.gov.br/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial segundo Wikipedia. Pautas e eventos não pesquisados (limite de buscas atingido). Wikipedia cita recorde de calor de 41,8 °C em 26/09/2023. Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial segundo Wikipedia. Pautas e eventos não pesquisados (limite de buscas atingido). Wikipedia cita recorde de calor de 41,8 °C em 26/09/2023. Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Itens de saúde vieram de snippets de busca (alertalicitacao.com.br DOU Pregão 25/2026 e 27/2026; agenciaminas.mg.gov.br/news/pdf/120199.pdf deu 404). Matéria maisgoias sobre seca em 10 cidades retornou 403.",
   "partido_prefeito_sigla": "PODE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Maurício Almeida (Maurício Almeida do Nascimento)"
@@ -2336,15 +2373,19 @@
   "pl_local": "não encontrado",
   "economia": "Município muito pequeno do Centro-Oeste mineiro (4,5 mil hab.; PIB per capita R$ 28 mil), base agropecuária — setorial não verificado.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Habitação: 100 unidades do Minha Casa, Minha Vida obtidas (jun/2026) — agenda da prefeitura",
+   "Educação: reforma da creche Dona Zizica e melhorias em escola (2026) — agenda da prefeitura",
+   "Concurso público com 45 vagas (reaberto 2025) e seletivo para saúde, assistência e educação"
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Nenhum evento relevante encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3135308.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-japaraiba-mg-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-japaraiba-mg-da-eleicao-2024/",
+   "https://www.japaraiba.mg.gov.br/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial não verificada. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial não verificada. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Buscas só retornaram concursos (folha.qconcursos.com, concursosnobrasil.com).",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Alexandre (Geraldo Alexandre Lopes)"
@@ -2358,15 +2399,19 @@
   "pl_local": "não encontrado",
   "economia": "Município médio do Norte de Minas (37,7 mil hab.; PIB per capita R$ 25,8 mil) associado ao Projeto Jaíba de fruticultura irrigada (banana, limão etc.) — setorial por conhecimento geral, não verificado nesta pesquisa.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Irrigação: reparo urgente do canal CP3 do Projeto Jaíba, que irriga 8,2 mil ha; produtor disse que sem a obra seria 'colapso' (Agência Minas, mar/2026)",
+   "Abastecimento de água potável e esgoto nos núcleos habitacionais do Projeto Jaíba (~20 mil moradores) — R$ 15 mi via Copasa",
+   "Alagamentos/macrodrenagem comprometendo 1,4 mil ha de áreas produtivas",
+   "Regularização fundiária (títulos de propriedade no 2º núcleo habitacional) e kits de irrigação para agricultura familiar"
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Mar/2026: Governo de Minas anunciou R$ 23,1 mi para reparação de infraestrutura (canal CP3, macrodrenagem) e abastecimento do Projeto Jaíba.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3135050.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-jaiba-mg-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-jaiba-mg-da-eleicao-2024/",
+   "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-destina-r-23-1-milhoes-para-a-reparacao-da-infraestrutura-e-abastecimento-do-projeto-jaiba/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Fonte única estadual (Agência Minas); faltou imprensa local independente.",
   "partido_prefeito_sigla": "PSD",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Jimmy Murça (Jimmy Diogo Silva Murça)"
@@ -2402,15 +2447,15 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno do Campo das Vertentes (12,8 mil hab.; PIB per capita R$ 29,5 mil), agropecuária e produção de rocambole/turismo gastronômico — setorial não verificado.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Sem pautas locais encontradas; apenas genéricos (concursos/seletivos com 47 vagas em 2025)."
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Nenhum evento 2025-2026 encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3137403.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-lagoa-dourada-mg-da-eleicao-2024/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Site da prefeitura (lagoadourada.mg.gov.br) retornou 403; nenhuma página aberta com sucesso. Snippets: en.wikipedia.org/wiki/Lagoa_Dourada; itatiaia.com.br (capital nacional do rocambole).",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Ismar (Ismar José de Melo)"
@@ -2424,18 +2469,23 @@
   "pl_local": "Prefeito Pedro Augusto Junqueira Ferraz eleito pelo PL em 2024 (venceu Iolanda, PT, em disputa polarizada de 2 candidatos); bancada de vereadores do PL não verificada / Prefeito Pedro Augusto Junqueira Ferraz eleito pelo PL em 2024 (rodada 1); bancada de vereadores do PL não verificada",
   "economia": "Cidade-polo da Zona da Mata (51 mil hab.; PIB per capita R$ 26,3 mil), economia de serviços/comércio e pecuária leiteira — setorial não verificado.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Crise na Casa de Caridade Leopoldinense: intervenção administrativa da prefeitura (dez/2024), prisão de anestesistas por suposta fraude em escalas, UTI interditada em 20/02/2025 por falta de médicos de sobreaviso e reaberta parcialmente após reunião no MP",
+   "Temporais: decreto de emergência de 180 dias após chuva de granizo e ventos >80 km/h em 04/11/2025 (casas destelhadas, alagamentos, deslizamentos, estradas rurais bloqueadas; hemodiálise da Casa de Caridade destelhada)",
+   "Chuvas do verão 2024/25: Leopoldina na lista estadual de municípios em emergência (boletim Defesa Civil, jan/2025)",
+   "Estradas rurais danificadas por chuvas"
   ],
-  "eventos": "Temporal com granizo em 04/11/2025 (emergência decretada 06/11/2025); enchentes de fevereiro de 2026 na Zona da Mata (calamidade em Ubá e Juiz de Fora, dezenas de mortos na região), com Leopoldina em situação de emergência.",
+  "eventos": "Temporal com granizo em 04/11/2025 (emergência decretada 06/11/2025); enchentes de fevereiro de 2026 na Zona da Mata (calamidade em Ubá e Juiz de Fora, dezenas de mortos na região), com Leopoldina em situação de emergência. / Nov/2025: decreto de emergência por temporal; fev/2025: interdição da UTI da Casa de Caridade; dez/2024: intervenção municipal no hospital.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3138401.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-leopoldina-mg-da-eleicao-2024/",
    "https://tribunademinas.com.br/?p=793733",
    "https://www.agenciaminas.mg.gov.br/news/pdf/129194.pdf",
-   "https://www.leopoldina.mg.gov.br/"
+   "https://www.leopoldina.mg.gov.br/",
+   "https://tribunademinas.com.br/noticias/regiao/24-02-2025/gerencia-regional-de-saude-autoriza-funcionamento-parcial-da-uti-da-casa-de-caridade-leopoldinense.html?amp=1",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/sobe-para-44-o-numero-de-cidades-de-mg-em-situacao-de-emergencia-devido-os-ultimos-temporais/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Pautas centradas em eventos climáticos; outras demandas não levantadas por limite de buscas e bloqueio (HTTP 429) do WebFetch.",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Pautas centradas em eventos climáticos; outras demandas não levantadas por limite de buscas e bloqueio (HTTP 429) do WebFetch. / Intervenção (dez/2024) e prisão de anestesistas vistos em snippets de tribunademinas.com.br (16-12-2024 e 20-02-2025), não abertos.",
   "partido_prefeito_sigla": "PL",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Pedro Augusto (Pedro Augusto Junqueira Ferraz)"
@@ -2508,15 +2558,18 @@
   "pl_local": "não encontrado",
   "economia": "Município pequeno do Triângulo Mineiro (14,6 mil hab.; PIB per capita muito alto, R$ 108 mil) com agronegócio (grãos, café) e usina hidrelétrica de Nova Ponte — setorial não verificado.",
   "pautas": [
-   "LACUNA: pautas locais não pesquisadas — orçamento de buscas web da sessão esgotou antes desta etapa; reprocessar"
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Saúde mental (projeto do CAPS no Setembro Amarelo 2026) — agenda da prefeitura",
+   "Cultura/eventos ('Nova Ponte é Show', consulta sobre política cultural) — agenda da prefeitura"
   ],
-  "eventos": "não pesquisado (limite de buscas atingido)",
+  "eventos": "Nenhum evento relevante encontrado.",
   "fontes": [
    "https://www.ibge.gov.br/cidades-e-estados/mg/3145000.html",
-   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-nova-ponte-mg-da-eleicao-2024/"
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-nova-ponte-mg-da-eleicao-2024/",
+   "https://www.novaponte.mg.gov.br/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Lacuna total de pautas; site da prefeitura com timeout; WebFetch bloqueado (HTTP 429).",
+  "obs": "Prefeito identificado cruzando IBGE Cidades (prefeito 2025) com a lista de candidatos 2024 da Itatiaia; partido é o da candidatura 2024 (possível troca partidária em 2025-26 não verificada). Economia: porte/PIB per capita via IBGE; descrição setorial conhecimento geral não verificado. Pautas e eventos não pesquisados (limite de buscas atingido). Confiança do prefeito/partido: média-alta; confiança geral baixa por falta de pautas. / Lacuna total de pautas; site da prefeitura com timeout; WebFetch bloqueado (HTTP 429). / Busca no Correio de Uberlândia sem resultados úteis.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Zé Divino (José Divino da Silva)"
@@ -2606,9 +2659,12 @@
   "pl_local": "não encontrado",
   "economia": "Município de ~32 mil hab. no centro-oeste mineiro; PIB ~60% serviços, ~21% indústria (usina de etanol de cana, ardósia, móveis) e ~19% agropecuária (leite, eucalipto) — dados de 2017.",
   "pautas": [
-   "não encontrado — pesquisa interrompida"
+   "Reparação do desastre de Brumadinho (Acordo Vale, Anexo 1.3, monitorado pela FGV): projetos em Pompéu escolhidos por consulta popular",
+   "Saúde: ampliação de consultas, exames especializados e cirurgias eletivas; estruturação de salas de urgência e atenção primária",
+   "Estradas: compra de equipamentos para recuperação de estradas vicinais; trevo e pista lateral no entroncamento MG-420/MG-164",
+   "Regularização fundiária e energia fotovoltaica (projetos regionais da bacia)"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Execução de projetos da reparação Vale/Brumadinho em 2024-2026; nenhum outro evento verificado.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Pompéu",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pompeu-mg-da-eleicao-2024/",
@@ -2617,7 +2673,7 @@
    "https://renovabr.org/en/?p=5276"
   ],
   "confianca": "baixa",
-  "obs": "Site da prefeitura inacessível (robots/503). Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, PL local, pautas e eventos não levantados. / Prefeito pelo IBGE Cidades (2025) cruzado com lista de candidatos da Itatiaia (Kenedy Wállafy, NOVO). Pauta da reparação inferida do título do documento da Guaicuy (não lido: HTTP 429). Página da RenovaBR possivelmente sobre o prefeito, não lida.",
+  "obs": "Site da prefeitura inacessível (robots/503). Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, PL local, pautas e eventos não levantados. / Prefeito pelo IBGE Cidades (2025) cruzado com lista de candidatos da Itatiaia (Kenedy Wállafy, NOVO). Pauta da reparação inferida do título do documento da Guaicuy (não lido: HTTP 429). Página da RenovaBR possivelmente sobre o prefeito, não lida. / Pautas derivadas de projetos escolhidos em consulta popular (Instituto Guaicuy, ago/2024), não de imprensa local 2025-26.",
   "partido_prefeito_sigla": "NOVO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Kenedy Wallafy Souza de Oliveira ('Kenedy Wállafy')"
@@ -2631,9 +2687,11 @@
   "pl_local": "não encontrado",
   "economia": "Cidade-polo da Zona da Mata (~60 mil hab., IBGE 2024), com economia de serviços regionais, comércio e agroindústria; participa do projeto Coopera+ Rio Doce.",
   "pautas": [
-   "não encontrado — pesquisa interrompida"
+   "Saúde regional: repasses estaduais em 2025 ao Hospital Arnaldo Gavazza (~R$ 3,48 mi) e Hospital N. Sra. das Dores (~R$ 2,21 mi); R$ 5 mi para Centro de Parto Normal, CME e ampliação do centro cirúrgico (Agência Minas, via busca)",
+   "Nova sede do Hemonúcleo da Hemominas em obras (~R$ 10 mi, previsão dez/2025)",
+   "Sem pautas da imprensa local verificadas (segurança, enchentes etc. não confirmadas)"
   ],
-  "eventos": "Prefeitura anunciou em jul/2026 inclusão no Projeto Coopera+ Rio Doce e lançou a plataforma Empreende Ponte Nova (sem indicação de impacto eleitoral). / Adesão ao acordo de repactuação Samarco (pagamento antecipado em mar/2025); Coopera+ Rio Doce (jul/2026).",
+  "eventos": "Prefeitura anunciou em jul/2026 inclusão no Projeto Coopera+ Rio Doce e lançou a plataforma Empreende Ponte Nova (sem indicação de impacto eleitoral). / Adesão ao acordo de repactuação Samarco (pagamento antecipado em mar/2025); Coopera+ Rio Doce (jul/2026). / Mai/2025 (aprox.): capital do estado transferida simbolicamente a Ponte Nova no programa 'Governo Presente' (Agência Minas, via busca).",
   "fontes": [
    "https://www.pontenova.mg.gov.br/",
    "https://pt.wikipedia.org/wiki/Ponte_Nova",
@@ -2642,7 +2700,7 @@
    "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/mariana-15-das-49-cidades-afetadas-optaram-pela-repactuacao-no-brasil/"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito atual tem vice-prefeita (mulher), mas os nomes não aparecem no site lido. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; pautas não levantadas. Descrição econômica parcialmente de conhecimento geral. / Prefeito via IBGE Cidades (2025) = 'Dr Milton' (Avante) na lista Itatiaia; correspondência por nome. Concorrentes 2024: Guto Malta (PT), Valéria Alvarenga (PP), André Luiz (PMB).",
+  "obs": "Prefeito atual tem vice-prefeita (mulher), mas os nomes não aparecem no site lido. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; pautas não levantadas. Descrição econômica parcialmente de conhecimento geral. / Prefeito via IBGE Cidades (2025) = 'Dr Milton' (Avante) na lista Itatiaia; correspondência por nome. Concorrentes 2024: Guto Malta (PT), Valéria Alvarenga (PP), André Luiz (PMB). / Informações de snippets de agenciaminas.mg.gov.br/news/pdf/125837.pdf e 112219.pdf; o PDF 125837 deu 404 ao abrir. Site da prefeitura redireciona para google.com. Nenhuma página aberta com sucesso.",
   "partido_prefeito_sigla": "AVANTE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Milton Teodoro Irias Junior ('Dr Milton')"
@@ -2656,19 +2714,23 @@
   "pl_local": "não encontrado",
   "economia": "Município do Norte de Minas (~38 mil hab., estimativa 2018), região semiárida da Serra Geral/Gorutuba, de base agropecuária e serviços.",
   "pautas": [
-   "não encontrado — pesquisa interrompida"
+   "Barragem das Lajes (1983): risco iminente de rompimento após 120 mm em 4 h (maior enchente em 40+ anos), sangrador >90% comprometido",
+   "Evacuação de 114 pessoas de 46 residências; até ~800 pessoas potencialmente desalojadas",
+   "Defesa Civil/resposta a chuvas extremas e recursos federais para intervenção na barragem",
+   "Seca/estiagem regional do Norte de Minas (genérico, não confirmado para o município em 2025-26)"
   ],
-  "eventos": "Emergência por risco de rompimento de barragem em Porteirinha, com >100 pessoas deslocadas e reconhecimento federal de situação de emergência; EM (mar/2026) relata 'rompimento parcial' e governo de MG dizendo que a situação estava controlada.",
+  "eventos": "Emergência por risco de rompimento de barragem em Porteirinha, com >100 pessoas deslocadas e reconhecimento federal de situação de emergência; EM (mar/2026) relata 'rompimento parcial' e governo de MG dizendo que a situação estava controlada. / 01/03/2026: MIDR reconheceu sumariamente situação de emergência por risco de rompimento da Barragem das Lajes.",
   "fontes": [
    "https://pt.wikipedia.org/wiki/Porteirinha",
    "https://www.ibge.gov.br/cidades-e-estados/mg/3152204.html",
    "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-porteirinha-mg-da-eleicao-2024/",
    "https://www.em.com.br/gerais/2026/03/7365778-governo-de-mg-diz-que-situacao-na-barragem-de-porteirinha-esta-controlada.html",
    "https://jornaldebrasilia.com.br/noticias/brasil/risco-de-rompimento-em-barragem-leva-ao-deslocamento-de-mais-de-cem-pessoas-em-mg/",
-   "https://www.itatiaia.com.br/brasil/sudeste/mg/governo-reconhece-emergencia-em-porteirinha-apos-alerta-de-rompimento-de-barragem/"
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/governo-reconhece-emergencia-em-porteirinha-apos-alerta-de-rompimento-de-barragem/",
+   "https://diariodocomercio.com.br/economia/minas-governo-federal-reconhece-situacao-emergencia-porteirinha/"
   ],
   "confianca": "baixa",
-  "obs": "Site da prefeitura bloqueado por robots.txt. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados. Caracterização semiárida é conhecimento geral, não verificada aqui. / Detalhes do evento da barragem extraídos apenas de títulos/URLs dos resultados (matérias não lidas por HTTP 429); nome da barragem e data exata não confirmados. Prefeito via IBGE Cidades cruzado com lista Itatiaia (outros candidatos: Branquinha-União, Juracy Freire-PSD, Wilson Marcos-SD).",
+  "obs": "Site da prefeitura bloqueado por robots.txt. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados. Caracterização semiárida é conhecimento geral, não verificada aqui. / Detalhes do evento da barragem extraídos apenas de títulos/URLs dos resultados (matérias não lidas por HTTP 429); nome da barragem e data exata não confirmados. Prefeito via IBGE Cidades cruzado com lista Itatiaia (outros candidatos: Branquinha-União, Juracy Freire-PSD, Wilson Marcos-SD). / Evento bem documentado; outras pautas (saúde, emprego) não pesquisadas por limite.",
   "partido_prefeito_sigla": "PSB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Silvanei Batista Santos ('Silvanei Batista')"
@@ -2682,10 +2744,12 @@
   "pl_local": "não encontrado",
   "economia": "Maior município do Triângulo Mineiro em área (~29,6 mil hab., IBGE 2024), às margens da BR-153; pecuária de corte extensiva, granjas de aves e suínos, silvicultura e grãos.",
   "pautas": [
-   "Acesso ao ensino superior (Programa Bolsa Faculdade, 186 vagas remanescentes em 2026)",
-   "Demais pautas não encontradas — pesquisa interrompida"
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Educação superior: Bolsa Faculdade (186 vagas remanescentes, R$ 429/mês) e Bolsa Aprendizagem — agenda da prefeitura",
+   "Isenção de IPTU 2026 para idosos/PcD — agenda da prefeitura",
+   "Rodovias do Triângulo: concessão estadual do Lote 1 (627 km) — genérico regional"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Nenhum evento municipal relevante encontrado.",
   "fontes": [
    "https://www.prata.mg.gov.br/",
    "https://pt.wikipedia.org/wiki/Prata_(Minas_Gerais)",

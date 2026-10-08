@@ -2,7 +2,21 @@
 import json, csv
 vc = json.load(open('data/raw/votocruzado_appdata.json'))
 base = {r['ibge']: r for r in json.load(open('data/base.json'))}
-AB = 20.75  # abstenção média nacional (sem exterior)
+AB = 20.75  # abstenção média nacional (sem exterior) na compilação votocruzado
+# 2026 oficial (TSE, scripts/tse/04_master.py): aptos, comparecimento, abstenção, brancos/nulos e terceiros.
+# A compilação tem 182 mil aptos a menos que o TSE; votos de Lula e Flávio são idênticos.
+OFICIAL = 'data/tse/municipios_master.csv'
+try:
+    with open(OFICIAL, encoding='utf-8') as f:
+        for o in csv.DictReader(f):
+            r = base.get(o['IBGE'])
+            if r is None or not o['aptos26']: continue
+            for k in ('aptos26', 'comp26'): r[k] = int(float(o[k]))
+            for k in ('abst26', 'brancnul26', 'terceiros26'): r[k] = round(float(o[k]), 2)
+            if 'abst22' in r: r['d_abst'] = round(r['abst26'] - r['abst22'], 2)
+    AB = 20.84  # abstenção média nacional oficial (sem exterior)
+except FileNotFoundError:
+    pass
 for m in vc['mun']:
     r = base[m['id']]; U = vc['ufs'][m['uf']]
     g = m['g']; ng = len(U['gov']); vvg = sum(g[:ng]) or 1
@@ -18,6 +32,9 @@ for m in vc['mun']:
     r['sen_PL'] = '; '.join(f"{U['sen'][k]['n'].title()} – {U['sen'][k]['st']} ({round(100*s[k]/vvs,1)}% local)" for k in pl)
     r['apoio_governador_2T'] = U['stance']
 R = [r for r in base.values() if 'swing' in r]
+for r in R:  # virada estrita: empate exato (Trabiju/SP, Crixás do Tocantins/TO) não conta como virada
+    r['empate26'] = r['votos_lula26'] == r['votos_flavio26']
+    r['virou'] = r['margem22'] > 0 and r['votos_lula26'] < r['votos_flavio26']
 def score(r):
     return (r['hist'][0]=='H') + (r['hist'][2]=='L') + (r['swing']<=-15) + (r['terceiros26']>=8) + (abs(r['margem26'])<=20)
 for r in R:

@@ -1,0 +1,247 @@
+[
+ {
+  "ibge": "3129509",
+  "municipio": "Ibiá",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Alto Paranaíba (Triângulo Mineiro/Alto Paranaíba), 22.229 hab. (Censo 2022) em 2.704 km², vizinho de Araxá (Wikipedia); base agropecuária (leite, café, grãos) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Sem pautas locais verificadas na imprensa; apenas genéricos.",
+   "Estradas rurais: decretos de desapropriação por utilidade pública para melhoria de estradas rurais e ampliação de área esportiva escolar (out/2026) — agenda da prefeitura",
+   "Segurança viária na MG-187 (acidente com duas mortes noticiado pela Itatiaia; data não confirmada)",
+   "Concurso público (Edital 01/2026, 17 vagas) e processos seletivos — agenda da prefeitura"
+  ],
+  "eventos": "Nenhum evento de grande porte (emergência, desastre, escândalo) encontrado para 2025-2026.",
+  "fontes": [
+   "https://www.ibia.mg.gov.br/",
+   "https://pt.wikipedia.org/wiki/Ibiá"
+  ],
+  "confianca": "baixa",
+  "obs": "Buscas retornaram quase só concursos. Matéria do acidente na MG-187 vista só em resultado de busca (itatiaia.com.br, 'em poucas horas dois acidentes matam quatro'), não aberta."
+ },
+ {
+  "ibge": "3133501",
+  "municipio": "Itapecerica",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Oeste de Minas, 21.046 hab. (Censo 2022) em 1.040 km², a 184 km de BH (smargiassi.com.br, visto em resultado de busca); base agropecuária — conhecimento geral, não verificado.",
+  "pautas": [
+   "Sem pautas locais encontradas; apenas genéricos (concursos com vagas na saúde, ex. agentes comunitários)."
+  ],
+  "eventos": "Nenhum evento 2025-2026 encontrado. Itapecerica não consta na lista de 44 municípios em emergência por temporais (Defesa Civil MG, boletim jan/2025, via Itatiaia).",
+  "fontes": [
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/sobe-para-44-o-numero-de-cidades-de-mg-em-situacao-de-emergencia-devido-os-ultimos-temporais/"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura (itapecerica.mg.gov.br) e portal regional sistemampa.com.br retornaram 403. Lacuna total de pautas."
+ },
+ {
+  "ibge": "3135209",
+  "municipio": "Januária",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo do Norte de Minas às margens do Rio São Francisco; serviços, agricultura familiar, cachaça artesanal e turismo fluvial ('Praia de Minas') — conhecimento geral, não verificado (turismo citado pela prefeitura).",
+  "pautas": [
+   "Saúde/Hospital Municipal: licitações em 2026 para sistema de gestão hospitalar e manutenção de ventiladores pulmonares; recursos estaduais para reforma do Hospital Municipal e equipamentos de hemodiálise (vistos em resultado de busca, DOU/Agência Minas)",
+   "Seca/estiagem no Norte de Minas: região com dezenas de municípios em emergência por seca segundo a Defesa Civil estadual (genérico regional; Januária não confirmada nominalmente)",
+   "Turismo (guia turístico digital, eventos na 'Praia de Minas') — agenda da prefeitura",
+   "Assistência farmacêutica (relatórios de estoque da Farmácia de Minas) — agenda da prefeitura"
+  ],
+  "eventos": "Sem evento específico verificado em 2025-2026.",
+  "fontes": [
+   "https://www.januaria.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Itens de saúde vieram de snippets de busca (alertalicitacao.com.br DOU Pregão 25/2026 e 27/2026; agenciaminas.mg.gov.br/news/pdf/120199.pdf deu 404). Matéria maisgoias sobre seca em 10 cidades retornou 403."
+ },
+ {
+  "ibge": "3135308",
+  "municipio": "Japaraíba",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município do Centro-Oeste mineiro, vizinho de Lagoa da Prata; base agropecuária/cana — conhecimento geral, não verificado.",
+  "pautas": [
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Habitação: 100 unidades do Minha Casa, Minha Vida obtidas (jun/2026) — agenda da prefeitura",
+   "Educação: reforma da creche Dona Zizica e melhorias em escola (2026) — agenda da prefeitura",
+   "Concurso público com 45 vagas (reaberto 2025) e seletivo para saúde, assistência e educação"
+  ],
+  "eventos": "Nenhum evento relevante encontrado.",
+  "fontes": [
+   "https://www.japaraiba.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Buscas só retornaram concursos (folha.qconcursos.com, concursosnobrasil.com)."
+ },
+ {
+  "ibge": "3135050",
+  "municipio": "Jaíba",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Norte de Minas (~40 mil hab.) sede do Projeto Jaíba, maior perímetro irrigado contínuo da América do Sul (29 mil ha), com fruticultura (banana, limão, manga), olerícolas, feijão e cana (Agência Minas).",
+  "pautas": [
+   "Irrigação: reparo urgente do canal CP3 do Projeto Jaíba, que irriga 8,2 mil ha; produtor disse que sem a obra seria 'colapso' (Agência Minas, mar/2026)",
+   "Abastecimento de água potável e esgoto nos núcleos habitacionais do Projeto Jaíba (~20 mil moradores) — R$ 15 mi via Copasa",
+   "Alagamentos/macrodrenagem comprometendo 1,4 mil ha de áreas produtivas",
+   "Regularização fundiária (títulos de propriedade no 2º núcleo habitacional) e kits de irrigação para agricultura familiar"
+  ],
+  "eventos": "Mar/2026: Governo de Minas anunciou R$ 23,1 mi para reparação de infraestrutura (canal CP3, macrodrenagem) e abastecimento do Projeto Jaíba.",
+  "fontes": [
+   "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-destina-r-23-1-milhoes-para-a-reparacao-da-infraestrutura-e-abastecimento-do-projeto-jaiba/"
+  ],
+  "confianca": "média",
+  "obs": "Fonte única estadual (Agência Minas); faltou imprensa local independente."
+ },
+ {
+  "ibge": "3137403",
+  "municipio": "Lagoa Dourada",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Campo das Vertentes, ~13,2 mil hab. (est. 2025), 'Capital Nacional do Rocambole' pela Lei 14.646/2023, cortado pela Estrada Real (Wikipedia/Itatiaia, vistos em resultado de busca); agropecuária e doces — conhecimento geral, não verificado.",
+  "pautas": [
+   "Sem pautas locais encontradas; apenas genéricos (concursos/seletivos com 47 vagas em 2025)."
+  ],
+  "eventos": "Nenhum evento 2025-2026 encontrado.",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura (lagoadourada.mg.gov.br) retornou 403; nenhuma página aberta com sucesso. Snippets: en.wikipedia.org/wiki/Lagoa_Dourada; itatiaia.com.br (capital nacional do rocambole)."
+ },
+ {
+  "ibge": "3138401",
+  "municipio": "Leopoldina",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade-polo da Zona da Mata mineira (~50 mil hab.), com serviços regionais de saúde (Gerência Regional de Saúde) e agropecuária — conhecimento geral, não verificado.",
+  "pautas": [
+   "Crise na Casa de Caridade Leopoldinense: intervenção administrativa da prefeitura (dez/2024), prisão de anestesistas por suposta fraude em escalas, UTI interditada em 20/02/2025 por falta de médicos de sobreaviso e reaberta parcialmente após reunião no MP",
+   "Temporais: decreto de emergência de 180 dias após chuva de granizo e ventos >80 km/h em 04/11/2025 (casas destelhadas, alagamentos, deslizamentos, estradas rurais bloqueadas; hemodiálise da Casa de Caridade destelhada)",
+   "Chuvas do verão 2024/25: Leopoldina na lista estadual de municípios em emergência (boletim Defesa Civil, jan/2025)",
+   "Estradas rurais danificadas por chuvas"
+  ],
+  "eventos": "Nov/2025: decreto de emergência por temporal; fev/2025: interdição da UTI da Casa de Caridade; dez/2024: intervenção municipal no hospital.",
+  "fontes": [
+   "https://tribunademinas.com.br/?p=793733",
+   "https://tribunademinas.com.br/noticias/regiao/24-02-2025/gerencia-regional-de-saude-autoriza-funcionamento-parcial-da-uti-da-casa-de-caridade-leopoldinense.html?amp=1",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/sobe-para-44-o-numero-de-cidades-de-mg-em-situacao-de-emergencia-devido-os-ultimos-temporais/"
+  ],
+  "confianca": "alta",
+  "obs": "Intervenção (dez/2024) e prisão de anestesistas vistos em snippets de tribunademinas.com.br (16-12-2024 e 20-02-2025), não abertos."
+ },
+ {
+  "ibge": "3145000",
+  "municipio": "Nova Ponte",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Triângulo Mineiro (~14,6 mil hab.), cidade reconstruída após o enchimento do reservatório da UHE Nova Ponte (1993-94); economia 'em torno da água': energia, grãos e tubérculos (smargiassi.com.br, visto em resultado de busca).",
+  "pautas": [
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Saúde mental (projeto do CAPS no Setembro Amarelo 2026) — agenda da prefeitura",
+   "Cultura/eventos ('Nova Ponte é Show', consulta sobre política cultural) — agenda da prefeitura"
+  ],
+  "eventos": "Nenhum evento relevante encontrado.",
+  "fontes": [
+   "https://www.novaponte.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca no Correio de Uberlândia sem resultados úteis."
+ },
+ {
+  "ibge": "3152006",
+  "municipio": "Pompéu",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Centro-Oeste/Central mineiro, 32.441 hab. e 2.551 km² (Wikipedia, via busca), na Bacia do Paraopeba (atingida pelo rompimento de Brumadinho), base agropecuária — parcialmente não verificado.",
+  "pautas": [
+   "Reparação do desastre de Brumadinho (Acordo Vale, Anexo 1.3, monitorado pela FGV): projetos em Pompéu escolhidos por consulta popular",
+   "Saúde: ampliação de consultas, exames especializados e cirurgias eletivas; estruturação de salas de urgência e atenção primária",
+   "Estradas: compra de equipamentos para recuperação de estradas vicinais; trevo e pista lateral no entroncamento MG-420/MG-164",
+   "Regularização fundiária e energia fotovoltaica (projetos regionais da bacia)"
+  ],
+  "eventos": "Execução de projetos da reparação Vale/Brumadinho em 2024-2026; nenhum outro evento verificado.",
+  "fontes": [
+   "https://guaicuy.org.br/wp-content/uploads/2023/08/20240807_ANEXO-1.3_Projetos_POMPEU.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Pautas derivadas de projetos escolhidos em consulta popular (Instituto Guaicuy, ago/2024), não de imprensa local 2025-26."
+ },
+ {
+  "ibge": "3152105",
+  "municipio": "Ponte Nova",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade-polo da Zona da Mata (~57 mil hab.), referência regional em saúde (Hospital Arnaldo Gavazza, Hospital N. Sra. das Dores), com agroindústria (cana, suinocultura) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Saúde regional: repasses estaduais em 2025 ao Hospital Arnaldo Gavazza (~R$ 3,48 mi) e Hospital N. Sra. das Dores (~R$ 2,21 mi); R$ 5 mi para Centro de Parto Normal, CME e ampliação do centro cirúrgico (Agência Minas, via busca)",
+   "Nova sede do Hemonúcleo da Hemominas em obras (~R$ 10 mi, previsão dez/2025)",
+   "Sem pautas da imprensa local verificadas (segurança, enchentes etc. não confirmadas)"
+  ],
+  "eventos": "Mai/2025 (aprox.): capital do estado transferida simbolicamente a Ponte Nova no programa 'Governo Presente' (Agência Minas, via busca).",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Informações de snippets de agenciaminas.mg.gov.br/news/pdf/125837.pdf e 112219.pdf; o PDF 125837 deu 404 ao abrir. Site da prefeitura redireciona para google.com. Nenhuma página aberta com sucesso."
+ },
+ {
+  "ibge": "3152204",
+  "municipio": "Porteirinha",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Norte de Minas (Serra Geral), base em agricultura familiar e serviços — conhecimento geral, não verificado.",
+  "pautas": [
+   "Barragem das Lajes (1983): risco iminente de rompimento após 120 mm em 4 h (maior enchente em 40+ anos), sangrador >90% comprometido",
+   "Evacuação de 114 pessoas de 46 residências; até ~800 pessoas potencialmente desalojadas",
+   "Defesa Civil/resposta a chuvas extremas e recursos federais para intervenção na barragem",
+   "Seca/estiagem regional do Norte de Minas (genérico, não confirmado para o município em 2025-26)"
+  ],
+  "eventos": "01/03/2026: MIDR reconheceu sumariamente situação de emergência por risco de rompimento da Barragem das Lajes.",
+  "fontes": [
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/governo-reconhece-emergencia-em-porteirinha-apos-alerta-de-rompimento-de-barragem/",
+   "https://diariodocomercio.com.br/economia/minas-governo-federal-reconhece-situacao-emergencia-porteirinha/"
+  ],
+  "confianca": "média",
+  "obs": "Evento bem documentado; outras pautas (saúde, emprego) não pesquisadas por limite."
+ },
+ {
+  "ibge": "3152808",
+  "municipio": "Prata",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Triângulo Mineiro, 29.578 hab. (2024) em 4.847 km², com pecuária moderna, granjas de aves e suínos (distrito de Jardinésia), silvicultura e grãos (distrito do Patrimônio) (Wikipedia).",
+  "pautas": [
+   "Sem pautas locais na imprensa; apenas genéricos.",
+   "Educação superior: Bolsa Faculdade (186 vagas remanescentes, R$ 429/mês) e Bolsa Aprendizagem — agenda da prefeitura",
+   "Isenção de IPTU 2026 para idosos/PcD — agenda da prefeitura",
+   "Rodovias do Triângulo: concessão estadual do Lote 1 (627 km) — genérico regional"
+  ],
+  "eventos": "Nenhum evento municipal relevante encontrado.",
+  "fontes": [
+   "https://www.prata.mg.gov.br/",
+   "https://pt.wikipedia.org/wiki/Prata_(Minas_Gerais)"
+  ],
+  "confianca": "baixa",
+  "obs": ""
+ }
+]

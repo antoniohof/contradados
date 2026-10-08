@@ -8,6 +8,17 @@ from openpyxl.worksheet.table import Table, TableStyleInfo
 B = {r['ibge']: r for r in json.load(open('data/base_enriquecida.json'))}
 L = json.load(open('data/listas.json'))
 P = {str(x.get('ibge')): x for x in json.load(open('data/pesquisa_local.json'))}
+# prefeitos e vereadores eleitos em 2024, base oficial TSE (gerado por scripts/tse/01_candidatos_2024.py)
+import csv, os
+T = {r['IBGE']: r for r in csv.DictReader(open('data/tse/poder_local_2024.csv'))} if os.path.exists('data/tse/poder_local_2024.csv') else {}
+def tse(k):
+    return lambda r: T.get(r['ibge'], {}).get(k, '')
+def n_int(k):
+    return lambda r: int(float(T[r['ibge']][k])) if T.get(r['ibge'], {}).get(k) else ''
+def diverge(r):
+    p, t = P.get(r['ibge'], {}), T.get(r['ibge'], {})
+    if not t or not p.get('partido_prefeito_sigla') or p.get('partido_prefeito_incerto'): return ''
+    return 'sim' if p['partido_prefeito_sigla'] != t['prefeito_partido'] else 'não'
 
 F = 'Arial'
 HDR = PatternFill('solid', fgColor='1F2937'); HF = Font(name=F, bold=True, color='FFFFFF', size=10)
@@ -43,8 +54,14 @@ COLS = [
  ('PL gov % local', lambda r: (r['gov_PL_pct']/100) if r['gov_PL_pct'] != '' else '', pct),
  ('Candidatos PL ao Senado (% local)', 'sen_PL', None), ('Senador mais votado', 'sen_mais_votado', None),
  ('Governador no 2T apoia', 'apoio_governador_2T', None),
- ('Prefeito 2024', lambda r: j(P.get(r['ibge'], {}).get('prefeito_2024')), None),
- ('Partido prefeito', lambda r: j(P.get(r['ibge'], {}).get('partido_prefeito')), None),
+ ('Prefeito 2024 (TSE)', tse('prefeito'), None), ('Partido prefeito (TSE)', tse('prefeito_partido'), None),
+ ('Coligação do prefeito (TSE)', tse('prefeito_coligacao'), None),
+ ('Eleição suplementar', lambda r: 'sim' if T.get(r['ibge'], {}).get('prefeito_eleicao_suplementar') == 'True' else '', None),
+ ('Vereadores PL', n_int('vereadores_PL'), '0'), ('Vereadores total', n_int('vereadores_total'), '0'),
+ ('Maior bancada', tse('maior_bancada'), None),
+ ('Prefeito 2024 (pesquisa web)', lambda r: j(P.get(r['ibge'], {}).get('prefeito_2024')), None),
+ ('Partido prefeito (web)', lambda r: j(P.get(r['ibge'], {}).get('partido_prefeito_sigla')), None),
+ ('Partido web ≠ TSE', diverge, None),
  ('PL local', lambda r: j(P.get(r['ibge'], {}).get('pl_local')), None),
  ('Economia', lambda r: j(P.get(r['ibge'], {}).get('economia')), None),
  ('Pautas da comunidade', lambda r: j(P.get(r['ibge'], {}).get('pautas')), None),
@@ -70,7 +87,7 @@ def write(ws, rows, name, cols=COLS, rank=True):
             cell = ws.cell(i, c, v); cell.font = BODY
             if fmt: cell.number_format = fmt
     widths = {'Município': 22, 'Pautas da comunidade': 60, 'Fontes': 40, 'Economia': 35, 'PL local': 35, 'Eventos recentes': 40,
-              'Obs. pesquisa': 35, 'Candidatos PL ao Senado (% local)': 34, 'Gov. mais votado no município': 26, 'Candidato PL a governador': 26}
+              'Obs. pesquisa': 35, 'Coligação do prefeito (TSE)': 28, 'Maior bancada': 22, 'Prefeito 2024 (pesquisa web)': 24, 'Candidatos PL ao Senado (% local)': 34, 'Gov. mais votado no município': 26, 'Candidato PL a governador': 26}
     for c, (h, _, _) in enumerate(cols, 1):
         ws.column_dimensions[get_column_letter(c)].width = widths.get(h, 13)
     ws.row_dimensions[1].height = 42
@@ -86,7 +103,7 @@ for title, rows, tn in (('1 Viraram para o PL', S[0], 'Cenario1'), ('2 Reduto 13
                         ('3 Base Flávio pendular', S[2], 'Cenario3')):
     write(wb.create_sheet(title), rows, tn)
 # base completa (sem colunas de pesquisa)
-base_cols = [c for c in COLS if c[0] not in ('Prefeito 2024','Partido prefeito','PL local','Economia','Pautas da comunidade','Eventos recentes','Fontes','Obs. pesquisa','Status pesquisa')]
+base_cols = [c for c in COLS if c[0] not in ('Prefeito 2024 (pesquisa web)','Partido prefeito (web)','Partido web ≠ TSE','PL local','Economia','Pautas da comunidade','Eventos recentes','Fontes','Obs. pesquisa','Status pesquisa')]
 base_cols = base_cols + [('Virou Lula→Flávio', lambda r: 'sim' if r['virou'] else 'não', None)]
 allrows = sorted([r for r in B.values() if 'swing' in r], key=lambda r: r['swing'])
 wsb = wb.create_sheet('Base completa 5570')
