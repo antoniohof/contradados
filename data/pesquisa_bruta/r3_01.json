@@ -1,0 +1,251 @@
+[
+ {
+  "ibge": "1200302",
+  "municipio": "Feijó",
+  "uf": "AC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de médio porte do Vale do Envira/Tarauacá (~30 mil hab. atendidos pelo Hospital Geral, segundo o Conass), com economia baseada em serviço público, agricultura/extrativismo e população ribeirinha que depende do rio Envira para transporte (conhecimento geral, não verificado quanto à base produtiva).",
+  "pautas": [
+   "Enchentes do rio Envira: Feijó entrou no decreto estadual de situação de emergência de 29/12/2025 (180 dias), junto com Rio Branco, Tarauacá, Plácido de Castro e Santa Rosa do Purus",
+   "Saúde: reforma e ampliação do Hospital Geral de Feijó (mais de R$ 5 mi, primeira modernização desde a década de 1980; entrega do 1º bloco prevista para abril/2026)",
+   "Isolamento/transporte fluvial: comunidades ribeirinhas do Envira dependem do rio para escoar produção e receber abastecimento (pauta inferida, fonte não aberta)"
+  ],
+  "eventos": "Decreto estadual de emergência por enchentes (29/12/2025) incluindo Feijó; obra de reforma do Hospital Geral de Feijó em andamento em fev/2026 com entrega prevista para abril/2026.",
+  "fontes": [
+   "https://jornaldebrasilia.com.br/noticias/brasil/acre-decreta-situacao-de-emergencia-em-cinco-municipios-afetados-por-enchentes/",
+   "https://www.conass.org.br/governo-do-acre-avanca-na-reforma-e-ampliacao-do-hospital-geral-de-feijo-e-confirma-entrega-para-abril/"
+  ],
+  "confianca": "média",
+  "obs": "Sem imprensa local de Feijó consultada; pautas de segurança/facções e estradas (BR-364) não verificadas."
+ },
+ {
+  "ibge": "2700409",
+  "municipio": "Atalaia",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da Zona da Mata alagoana, no vale do rio Paraíba do Meio, com economia historicamente ligada à cana-de-açúcar e serviços (conhecimento geral, não verificado).",
+  "pautas": [
+   "Chuvas e alagamentos: em 10/05/2026 chuvas fortes afetaram 110 famílias (279 pessoas), sobretudo no bairro Girador (91 famílias), além de Buraco do Jacaré, Burarema e Centro; Defesa Civil monitorando o rio Paraíba",
+   "Drenagem urbana e descarte irregular de lixo nas ruas apontados pela prefeitura como agravantes dos alagamentos",
+   "Demais pautas (saúde, emprego) não encontradas com fonte"
+  ],
+  "eventos": "Chuvas de maio/2026 com famílias desalojadas (4 famílias/9 pessoas) e ações emergenciais da prefeitura; a matéria não menciona decreto de emergência.",
+  "fontes": [
+   "https://www.tnh1.com.br/noticia/nid/chuvas-afetam-centenas-de-pessoas-e-provocam-alagamentos-em-atalaia-interior-de-alagoas/"
+  ],
+  "confianca": "baixa",
+  "obs": "Apenas uma fonte local aberta. Resultados de busca citavam decreto estadual de emergência em Atalaia, mas sem data verificada (possivelmente evento de 2022); não registrado."
+ },
+ {
+  "ibge": "2701407",
+  "municipio": "Campo Alegre",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~32 mil hab. (Censo 2022; estimativa 32,5 mil em 2025, segundo a prefeitura), da região canavieira de Alagoas, com emprego formal sensível à safra/entressafra e ao fechamento de usinas (dados.al.gov.br, nota de 2015).",
+  "pautas": [
+   "Emprego sazonal ligado à cana-de-açúcar e fechamento de unidades sucroalcooleiras (fonte antiga, 2015 — pauta estrutural, não verificada para 2025-2026)",
+   "Prefeitura publicou Planejamento Estratégico 2026-2029 (agenda da prefeitura; conteúdo não legível)",
+   "Sem pautas locais específicas de 2025-2026 encontradas com fonte"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [
+   "https://www.campoalegre.al.gov.br/uploads/pagina/arquivos/PlanejamentoEstrategicoPMCA.pdf",
+   "https://dados.al.gov.br/catalogo/dataset/88c1787a-a963-487e-8fe2-3a9251828d1e/resource/d5b8be26-0cc7-4444-9d72-480ce5d36670/download/2015.nt20flutuacaodomercadodetrabalhoformalemalagoasparamaio2015.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: sem imprensa local 2025-2026. PDF da prefeitura não pôde ser lido (imagem). Fonte dados.al.gov.br vista apenas no resultado de busca."
+ },
+ {
+  "ibge": "2702405",
+  "municipio": "Delmiro Gouveia",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo do Alto Sertão alagoano às margens do São Francisco, com comércio, serviços regionais e campus da UFAL/IFAL (conhecimento geral, não verificado).",
+  "pautas": [
+   "Saneamento: obra da Estação de Tratamento de Esgoto parada desde 2018, com esgoto lançado no rio São Francisco; MPF reuniu Seinfra, Águas do Sertão, ARSAL e prefeitura em 17/03/2026 e deu 30 dias para cronograma de retomada (cerca de R$ 300 mi em convênios)",
+   "Seca no semiárido e acesso a água potável: MPF articulou com a Semarh medidas preventivas contra efeitos da estiagem no sertão alagoano (2025)",
+   "Saúde regional: Hospital Regional do Alto Sertão (123 leitos, anunciado em 2017) e histórica dependência de Paulo Afonso (BA) para atendimento especializado",
+   "Abastecimento de água/esgoto via programa estadual Mais Água Alagoas (anunciado em 2024)"
+  ],
+  "eventos": "Reunião do MPF sobre a ETE paralisada (mar/2026).",
+  "fontes": [
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-al/noticias/mpf-articula-solucao-para-obras-paralisadas-de-saneamento-basico-em-delmiro-gouveia-al",
+   "https://www.tnh1.com.br/noticia/nid/hospital-regional-do-alto-sertao-sera-construido-em-delmiro-gouveia/",
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-al/noticias/mpf-articula-acoes-para-mitigacao-dos-efeitos-da-seca-e-garantia-de-agua-potavel-no-semiarido-alagoano"
+  ],
+  "confianca": "média",
+  "obs": "Matéria do hospital é de 2017 (contexto); a página do MPF sobre seca não foi aberta, apenas vista na busca."
+ },
+ {
+  "ibge": "2706703",
+  "municipio": "Penedo",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade histórica do Baixo São Francisco e um dos destinos turísticos mais visitados de Alagoas (TNH1), com comércio/serviços regionais e agricultura (arroz, pesca) (conhecimento geral, não verificado quanto à agricultura).",
+  "pautas": [
+   "Falta d'água recorrente na parte baixa da cidade (ex.: Rua 15 de Novembro), com moradores buscando água no rio São Francisco; serviço da concessionária Conasa/Águas do Sertão (TNH1, 07/10/2025)",
+   "Esgoto lançado no rio São Francisco: projeto de R$ 2,1 mi para ampliar rede coletora na parte baixa, em parceria com o Comitê da Bacia do São Francisco",
+   "Erosão e poluição nas margens do Velho Chico (pauta regional)"
+  ],
+  "eventos": "Crise de abastecimento de água em out/2025.",
+  "fontes": [
+   "https://www.tnh1.com.br/noticia/nid/falta-dagua-afeta-a-cidade-de-penedo/",
+   "https://cdn.agenciapeixevivo.org.br/media/2021/07/ANEXO_I_TDR_SES-PENEDO.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Projeto de esgoto vem de termo de referência de 2021 (não aberto, visto na busca). Saúde/segurança não pesquisadas."
+ },
+ {
+  "ibge": "2707404",
+  "municipio": "Porto de Pedras",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município do litoral norte de Alagoas na Rota Ecológica dos Milagres, com turismo de praia (pousadas premiadas no Booking 2025), pesca e coqueirais (conhecimento geral, não verificado quanto a pesca/coco).",
+  "pautas": [
+   "Expansão do turismo na Rota Ecológica e conflitos socioambientais associados (estudo do IFAL 'Uma Rota Nada Ecológica: turistificação e conflitos socioambientais em Porto de Pedras-AL' — conteúdo não acessado)",
+   "Sem pautas locais específicas de 2025-2026 encontradas com fonte"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado.",
+  "fontes": [
+   "https://www.tnh1.com.br/noticia/nid/rota-ecologica-atrai-turistas-pelo-requinte-simplicidade-e-sustentabilidade/",
+   "https://repositorio.ifal.edu.br/bitstreams/4198d0eb-c6fb-4490-80bb-d1c123a14141/download"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: busca só retornou conteúdo turístico. TNH1 visto na busca, não aberto; PDF do IFAL não legível."
+ },
+ {
+  "ibge": "2708709",
+  "municipio": "São Miguel dos Milagres",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Um dos menores municípios de Alagoas (8.482 hab., 76,7 km², a 106 km de Maceió), com economia de pesca artesanal e turismo de charme em 23 km de costa da Rota Ecológica (UAI, mai/2026).",
+  "pautas": [
+   "Crescimento do turismo e preservação da costa/APA (praia listada em ranking internacional 2026)",
+   "Sem pautas locais específicas de 2025-2026 (saúde, segurança, infraestrutura) encontradas com fonte"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado além de destaque turístico.",
+  "fontes": [
+   "https://www.uai.com.br/cidades/2026/05/23/o-vilarejo-alagoano-de-8-482-moradores-que-reune-5-praias-paradisiacas-em-23-km-de-costa-preservada/"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: apenas conteúdo turístico; pautas genéricas."
+ },
+ {
+  "ibge": "2709152",
+  "municipio": "Teotônio Vilela",
+  "uf": "AL",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do agreste/tabuleiros canavieiros de Alagoas, emancipado em 1986, com emprego formal ligado à cana-de-açúcar e usinas (dados.al.gov.br) (conhecimento geral, não verificado para 2025-2026).",
+  "pautas": [
+   "Emprego sazonal ligado à cana e fechamento/entressafra de usinas (fonte de 2015, pauta estrutural)",
+   "Sem pautas locais específicas de 2025-2026 encontradas com fonte"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 encontrado (busca retornou apenas evento político-partidário de ago/2026, não registrado aqui).",
+  "fontes": [
+   "https://dados.al.gov.br/catalogo/dataset/e67a1cf9-207c-4b52-beb5-bcedbe5cb669/resource/0a3dda6f-5495-42b3-848b-25da9b610367/download/municipalteotoniovilela2013.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna total de pautas 2025-2026. Fonte vista apenas no resultado de busca."
+ },
+ {
+  "ibge": "1300300",
+  "municipio": "Autazes",
+  "uf": "AM",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da região metropolitana ampliada de Manaus (~120 km), com pecuária leiteira/queijo e agricultura (conhecimento geral, não verificado); sede do Projeto Potássio Autazes (Potássio do Brasil), mina de silvinita a 800 m de profundidade, com licença de instalação estadual do Ipaam.",
+  "pautas": [
+   "Projeto Potássio Autazes: disputa sobre licenciamento e consulta ao povo indígena Mura; MPF pediu nova suspensão das licenças em 01/08/2025; em ago/2026 a empresa anunciou decisões do TRF consolidando licenças e a consulta",
+   "Eventos climáticos extremos: estado de alerta na cheia de 2025 (Defesa Civil-AM, jun/2025); seca de 2024 com entrega de 3 mil cestas básicas",
+   "Impacto da queda de pontes da BR-319 (2022) no acesso rodoviário à região (contexto)"
+  ],
+  "eventos": "Pedido do MPF de suspensão das licenças (ago/2025); decisão judicial favorável ao projeto anunciada em ago/2026; cheia de 2025 (alerta).",
+  "fontes": [
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-am/noticias/mpf-faz-novo-pedido-de-suspensao-do-projeto-potassio-autazes-por-impactos-a-povos-indigenas-no-amazonas",
+   "https://www.brasildefato.com.br/2025/06/18/fortes-chuvas-deixam-mais-da-metade-dos-municipios-do-amazonas-em-estado-de-emergencia/",
+   "https://www.reporteminero.cl/noticia/noticias/2026/08/tribunal-brasil-ratifica-licencias-proyecto-autazes-brasil-potash"
+  ],
+  "confianca": "média",
+  "obs": "Notícia do TRF (ago/2026) vista só na busca, não aberta. Sem imprensa local de saúde/segurança."
+ },
+ {
+  "ibge": "1301100",
+  "municipio": "Careiro",
+  "uf": "AM",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Careiro (Careiro Castanho), município às margens da BR-319 ao sul de Manaus, com agricultura familiar, pecuária e dependência da rodovia para escoamento (conhecimento geral, não verificado).",
+  "pautas": [
+   "BR-319: dependência da rodovia; queda das pontes dos rios Curuçá e Autaz Mirim (set-out/2022) afetou ~104 mil pessoas e levou a decreto de emergência estadual (contexto anterior a 2025)",
+   "Cheia de 2025: Careiro Castanho em situação de emergência segundo boletim da Defesa Civil-AM (jun/2025)",
+   "Sem pautas locais específicas de saúde/segurança encontradas"
+  ],
+  "eventos": "Situação de emergência na cheia de 2025.",
+  "fontes": [
+   "https://www.brasildefato.com.br/2025/06/18/fortes-chuvas-deixam-mais-da-metade-dos-municipios-do-amazonas-em-estado-de-emergencia/",
+   "https://revistacenarium.com.br/en/am-governor-declares-a-state-of-emergency-after-the-collapse-of-a-second-bridge-on-br-319"
+  ],
+  "confianca": "baixa",
+  "obs": "Queda das pontes é de 2022 (não 2025). Sem imprensa local de 2025-2026."
+ },
+ {
+  "ibge": "1301704",
+  "municipio": "Humaitá",
+  "uf": "AM",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Polo regional do sul do Amazonas às margens do rio Madeira e no entroncamento BR-319/BR-230 (Transamazônica), com pecuária, agricultura, comércio e serviços (conhecimento geral, não verificado).",
+  "pautas": [
+   "Cheia do rio Madeira em 2025: Humaitá em situação de emergência (Defesa Civil-AM, jun/2025), com ajuda humanitária da Operação Cheia 2025 (cestas, caixas d'água, purificadores) — detalhe de ajuda visto só na busca",
+   "BR-319: debate sobre pavimentação do 'trecho do meio' e uso da rodovia como corredor de garimpo ilegal, tráfico e contrabando (imprensa nacional)",
+   "Garimpo ilegal no rio Madeira e desmatamento no sul do Amazonas (pauta regional, não verificada em fonte local)"
+  ],
+  "eventos": "Situação de emergência pela cheia de 2025.",
+  "fontes": [
+   "https://www.brasildefato.com.br/2025/06/18/fortes-chuvas-deixam-mais-da-metade-dos-municipios-do-amazonas-em-estado-de-emergencia/",
+   "https://www.cartacapital.com.br/blogs/daniel-camargos/a-rodovia-que-divide-a-amazonia/"
+  ],
+  "confianca": "baixa",
+  "obs": "Página da Rede Onda Digital sobre Operação Cheia 2025 retornou 403. Um resultado de busca falava em 'calamidade pública' em Humaitá, não confirmado. CartaCapital visto só na busca."
+ },
+ {
+  "ibge": "2902708",
+  "municipio": "Barra",
+  "uf": "BA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do oeste/médio São Francisco baiano, na confluência dos rios Grande e São Francisco, com agropecuária, pesca e serviços (conhecimento geral, não verificado).",
+  "pautas": [
+   "Nível do rio São Francisco/estiagem: Barra é ponto de monitoramento nos boletins hidrometeorológicos do Inema (2025-2026); Bahia tinha 123 municípios com emergência reconhecida em set/2025, a maioria por seca (sem confirmar se Barra está entre eles)",
+   "Erosão/assoreamento no encontro dos rios Grande e São Francisco: desabamento de trecho do cais municipal em 2020 (contexto antigo)",
+   "Sem pautas locais específicas de 2025-2026 encontradas com fonte"
+  ],
+  "eventos": "Nenhum evento de 2025-2026 confirmado.",
+  "fontes": [
+   "https://www.bahianoticias.com.br/municipios/noticia/19661-barra-cais-desmorona-apos-chuva-forte-atingir-municipio-no-oeste-da-bahia",
+   "https://www.ba.gov.br/inema/sites/site-inema/files/2025-08/158_Boletim_de_Monitoramento_Hidrometereol%C3%B3gico_27-08-2025.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna: sem imprensa local 2025-2026. Matéria do cais é de 2020; boletim do Inema visto só na busca."
+ }
+]

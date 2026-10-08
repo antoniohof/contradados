@@ -1,0 +1,259 @@
+[
+ {
+  "ibge": "3153400",
+  "municipio": "Presidente Olegário",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Noroeste/Alto Paranaíba mineiro com ~19,2 mil hab. (estimativa IBGE 2025, via snippet de busca do IBGE Cidades) e 3.503 km²; base agropecuária (grãos, pecuária, leite) — perfil econômico por conhecimento geral, não verificado.",
+  "pautas": [
+   "Agenda da prefeitura: saúde materno-infantil (Café das Gestantes, ago/2026) e rede de cuidado/proteção social (comitê de gestão colegiada lançado em ago/2026)",
+   "Agenda da prefeitura: educação/alfabetização (CNCA, 99,9% de lançamentos no ciclo II, ago/2026)",
+   "Hospital municipal Darci José Fernandes citado no Plano Municipal de Saúde 2022-2025 (snippet; sem notícia de crise)",
+   "Lacuna: não foram encontradas pautas comunitárias em imprensa local/regional 2025-2026"
+  ],
+  "eventos": "Nenhum evento relevante de 2025-2026 encontrado (sem decreto de emergência localizado). Município não consta na lista de seca de 2023 da Cedec-MG.",
+  "fontes": [
+   "https://www.presidenteolegario.mg.gov.br/",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/"
+  ],
+  "confianca": "baixa",
+  "obs": "Só agenda oficial da prefeitura. População de snippet de https://www.ibge.gov.br/cidades-e-estados/mg/3153400.html (não aberto)."
+ },
+ {
+  "ibge": "3155504",
+  "municipio": "Rio Paranaíba",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Alto Paranaíba com ~15,3 mil hab. (estimativa IBGE 2025, via snippet); economia agrícola forte (café, grãos, hortaliças/batata, alho) e campus da UFV — conhecimento geral, não verificado.",
+  "pautas": [
+   "Estradas: pavimentação da MG-230 (Rio Paranaíba–Serra do Salitre, 57 km, com contorno de Rio Paranaíba), descrita como demanda antiga de moradores, produtores rurais e empresários (Agência Minas, snippet; PDF não abriu)",
+   "Agenda da prefeitura: transporte universitário gratuito mantido até o fim do ano letivo de 2025",
+   "Saúde: municípios da região aplicando recursos do acordo de Brumadinho em reformas/ampliação de estruturas de saúde (snippet Agência Minas)",
+   "Recursos hídricos/saneamento rural via Comitê da Bacia do Rio Paranaíba (projetos em 2025, snippet)"
+  ],
+  "eventos": "Visita do governador em nov/2024 com vistoria de obras rodoviárias na região (snippet). Nenhum decreto de emergência 2025-2026 localizado.",
+  "fontes": [
+   "https://www.rioparanaiba.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "PDFs da Agência Minas (120644, 111905) retornaram 404; pautas de estrada/saúde baseadas apenas em snippet de busca."
+ },
+ {
+  "ibge": "3156304",
+  "municipio": "Rodeiro",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município da Zona da Mata (microrregião de Ubá), integrado ao polo moveleiro de Ubá — conhecimento geral, não verificado.",
+  "pautas": [
+   "Chuvas/enchentes: Rodeiro listado entre os municípios atingidos pelo evento de chuvas de 18-27/02/2026 na região de Ubá (snippet de busca de documento da Agência Minas; PDF não abriu)",
+   "Estradas: interdições de rodovias estaduais na microrregião de Ubá (MGC-265 em Visconde do Rio Branco, MGC-120 em Guidoval) após o temporal de 23-24/02/2026",
+   "Lacuna: sem pautas locais específicas de Rodeiro em imprensa 2025-2026"
+  ],
+  "eventos": "Temporal histórico de fev/2026 na Zona da Mata: Ubá (vizinha, polo regional) e Juiz de Fora decretaram calamidade; dezenas de mortos na região (65 em JF e 7 em Ubá segundo snippet). Rodeiro aparece em lista de municípios afetados; situação de emergência própria não confirmada em página aberta.",
+  "fontes": [
+   "https://www.em.com.br/gerais/2026/02/7361339-chuva-deixa-mortos-e-cenario-de-destruicao-em-uba-na-zona-da-mata.html",
+   "https://tribunademinas.com.br/?p=816890"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura retornou 403. Menção a Rodeiro só em snippet de https://agenciaminas.mg.gov.br/news/pdf/129214.pdf (404 ao abrir)."
+ },
+ {
+  "ibge": "3157005",
+  "municipio": "Salinas",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade-polo do Norte de Minas (~40 mil hab.), conhecida pela produção de cachaça artesanal, comércio/serviços regionais e campus do IFNMG — conhecimento geral, não verificado.",
+  "pautas": [
+   "Saúde: Hospital São Lucas (média complexidade, sem UTI) credenciado ao Ipsemg, atendendo Salinas e região (Agência Minas, snippet; data não confirmada)",
+   "Agenda da prefeitura: combate à dengue (1º Mutirão de Limpeza, out/2026)",
+   "Seca/estiagem recorrente no Norte de Minas (Salinas listada em emergência por seca em 2023; 2025-2026 não confirmado)",
+   "Lacuna: pautas 2025-2026 da imprensa local não encontradas"
+  ],
+  "eventos": "Nenhum evento 2025-2026 confirmado. Emergência por seca em 2023 (Cedec-MG).",
+  "fontes": [
+   "https://www.salinas.mg.gov.br/",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/",
+   "https://brasil61.com/n/minas-gerais-tem-135-municipios-em-situacao-de-seca-informa-defesa-civil-bras239865"
+  ],
+  "confianca": "baixa",
+  "obs": "Listas de seca abertas são de set-out/2023. PDF Agência Minas 111496 (Hospital São Lucas) deu 404."
+ },
+ {
+  "ibge": "3157708",
+  "municipio": "Santa Juliana",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Triângulo Mineiro/Alto Paranaíba (~14 mil hab.) com base no agronegócio (grãos, cana, hortifrúti) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Agenda da prefeitura: construção de nova UBS no bairro Horácio Ferreira (2026)",
+   "Agenda da prefeitura: combate à dengue (fumacê, dedetização de bueiros)",
+   "Agenda da prefeitura: obras urbanas (requalificação do Bolsão; novo salão do Parque de Exposições; sinalização de trânsito) e coleta de resíduos inclusive no distrito de Zelândia",
+   "Lacuna: sem pautas de imprensa local/regional 2025-2026"
+  ],
+  "eventos": "Nenhum evento relevante 2025-2026 encontrado.",
+  "fontes": [
+   "https://www.santajuliana.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Só agenda oficial; licitações de insumos agrícolas pela prefeitura (alertalicitacao, snippet)."
+ },
+ {
+  "ibge": "3160702",
+  "municipio": "Santos Dumont",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município da Zona da Mata (~45 mil hab.) próximo a Juiz de Fora, com pecuária leiteira na zona rural, indústria e serviços — conhecimento geral, não verificado.",
+  "pautas": [
+   "Chuvas/temporais e vulnerabilidade da zona rural (distritos São João da Serra, Patrimônio da Serra, Formoso): falta de energia, estradas bloqueadas e perdas de leite (episódio de fev/2023)",
+   "Agenda da prefeitura: população em situação de rua (ações intensificadas, out/2026)",
+   "Agenda da prefeitura: educação infantil/alfabetização (Proleei/CNCA) e castração animal",
+   "Lacuna: pautas 2025-2026 da imprensa regional não encontradas"
+  ],
+  "eventos": "Calamidade/emergência por temporais em fev/2023 (carnaval cancelado). Para fev/2026 (temporais em JF/Ubá) não foi confirmada inclusão de Santos Dumont.",
+  "fontes": [
+   "https://www.santosdumont.mg.gov.br/",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/apos-forte-chuva-distrito-de-santos-dumont-esta-sem-luz-eletrica-ha-24h-e-produtores-de-leite-temem-prejuizo/"
+  ],
+  "confianca": "baixa",
+  "obs": "Material de imprensa encontrado é de 2023."
+ },
+ {
+  "ibge": "3161106",
+  "municipio": "São Francisco",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Norte de Minas às margens do Rio São Francisco (~50 mil hab.), com agropecuária, pesca e comércio regional — conhecimento geral, não verificado.",
+  "pautas": [
+   "Ponte sobre o Rio São Francisco na MG-402 (São Francisco–Pintópolis): 1.120 m, ~R$ 220 mi do acordo de Brumadinho, 50% executada em jul/2026; fim da travessia por balsa é demanda histórica",
+   "Seca/estiagem recorrente (município listado em emergência por seca em 2023)",
+   "Agenda da prefeitura: saúde (unidade móvel odontológica, vigilância) e assistência social",
+   "Lacuna: sem notícias de hospital/saúde regional 2025-2026"
+  ],
+  "eventos": "Vistoria do governador à obra da ponte em 01/07/2026 (Programa Caminhos pra Avançar).",
+  "fontes": [
+   "https://www.agenciaminas.mg.gov.br/noticia/governador-vistoria-obras-da-ponte-sobre-o-rio-sao-francisco-que-ja-alcancam-50-de-execucao",
+   "https://www.saofrancisco.mg.gov.br/",
+   "https://brasil61.com/n/minas-gerais-tem-135-municipios-em-situacao-de-seca-informa-defesa-civil-bras239865"
+  ],
+  "confianca": "média",
+  "obs": "Pauta principal (ponte) bem documentada; seca com fonte de 2023."
+ },
+ {
+  "ibge": "3161908",
+  "municipio": "São Gonçalo do Rio Abaixo",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município minerador (~12,5 mil hab.) que abriga a mina de Brucutu (Vale); PIB de R$ 3,76 bi e PIB per capita ~R$ 317 mil (4º de MG), receita anual ~R$ 480 mi (Diário do Comércio, mai/2026).",
+  "pautas": [
+   "Dependência da mineração e diversificação econômica (programa Prospera+, atração de frigorífico, distribuidora e processadora de cacau em 2025; crédito 'Crescer Sem Juros')",
+   "Déficit habitacional e especulação imobiliária ligada à mineração",
+   "Qualificação de mão de obra (parceria com IFMG/parque tecnológico)",
+   "Grande volume de obras públicas (~150 obras; R$ 600 mi em infraestrutura desde 2021)"
+  ],
+  "eventos": "HackTown 2026 sediado no município (snippet Diário do Comércio). Nenhum desastre ou escândalo localizado.",
+  "fontes": [
+   "https://diariodocomercio.com.br/integra-minas/sao-goncalo-aposta-infraestrutura-diversificar-economia/"
+  ],
+  "confianca": "média",
+  "obs": "Fonte única aberta (matéria de perfil, tom institucional)."
+ },
+ {
+  "ibge": "3162401",
+  "municipio": "São João da Ponte",
+  "uf": "MG",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Norte de Minas (~25 mil hab.), predominantemente rural, agricultura familiar e pecuária no semiárido — conhecimento geral, não verificado.",
+  "pautas": [
+   "Seca/estiagem e abastecimento de água no semiárido (município listado em emergência por seca em 2023)",
+   "Lacuna: não foram encontradas pautas 2025-2026 em imprensa ou no site da prefeitura (site sem conteúdo legível)"
+  ],
+  "eventos": "Nenhum evento 2025-2026 localizado.",
+  "fontes": [
+   "https://brasil61.com/n/minas-gerais-tem-135-municipios-em-situacao-de-seca-informa-defesa-civil-bras239865",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/"
+  ],
+  "confianca": "baixa",
+  "obs": "Fontes sobre seca são de 2023; site oficial não carregou notícias."
+ },
+ {
+  "ibge": "1500404",
+  "municipio": "Alenquer",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Baixo Amazonas/oeste do Pará, com agropecuária (gado, agricultura familiar) e extrativismo — conhecimento geral, não verificado.",
+  "pautas": [
+   "Chuvas intensas e enchentes (cheia do rio Surubiú é risco histórico)",
+   "Situação de emergência por tempestade/chuvas intensas desde março/2026, homologada pelo Estado por 180 dias"
+  ],
+  "eventos": "Emergência por chuvas intensas (desde mar/2026) homologada pelo governo do Pará (O Liberal, 28/05/2026).",
+  "fontes": [
+   "https://www.oliberal.com/para/para-reconhece-situacao-de-emergencia-em-belem-e-outros-municipios-devido-as-fortes-chuvas-1.1127199"
+  ],
+  "confianca": "média",
+  "obs": "Outras pautas (saúde, estradas) não pesquisadas por limite de buscas."
+ },
+ {
+  "ibge": "1501451",
+  "municipio": "Belterra",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~18 mil hab. no oeste do Pará, junto ao rio Tapajós e à BR-163, a 49 km de Santarém, com forte expansão do agronegócio de soja e milho (Agência Pública, 2024).",
+  "pautas": [
+   "Impactos do agronegócio: contaminação por agrotóxicos na escola Profa. Vitalina Motta (33 atendidos em jun/2024), comunidades rurais esvaziadas (Tracuá), cemitério cercado por lavouras",
+   "Agenda da prefeitura: recuperação de estradas vicinais (licitação set/2026) e pavimentação urbana (Rua Tapajós)",
+   "Agenda da prefeitura: hospital municipal com sala de raio-X revitalizada (set/2026)",
+   "Queimadas/estiagem e desmatamento citados pela imprensa"
+  ],
+  "eventos": "Sem evento específico 2025-2026 confirmado; tensões agro-ambientais documentadas até 2024.",
+  "fontes": [
+   "https://apublica.org/?p=170867",
+   "https://www.belterra.pa.gov.br/"
+  ],
+  "confianca": "média",
+  "obs": "Matéria da Pública é de set/2024."
+ },
+ {
+  "ibge": "1501782",
+  "municipio": "Breu Branco",
+  "uf": "PA",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Lago de Tucuruí, sudeste paraense, com agropecuária e influência da UHE Tucuruí — conhecimento geral, não verificado.",
+  "pautas": [
+   "Saúde regional: novo Hospital Regional de Tucuruí (215 leitos, >30% executado em mai/2025) atenderá Breu Branco",
+   "Saúde: Policlínica Lago de Tucuruí com aumento de atendimentos em 2025 (snippet Agência Pará)",
+   "Segurança/violência histórica (prefeito assassinado na PA-263 em 2017)",
+   "Lacuna: pautas locais 2025-2026 não encontradas"
+  ],
+  "eventos": "Nenhum evento 2025-2026 localizado.",
+  "fontes": [
+   "https://dol.com.br/carajas/cidades/tucurui/906605/obras-do-novo-hospital-de-tucurui-avancam-no-sudeste-do-para",
+   "https://dol.com.br/noticias/para/noticia-414956-prefeito-de-breu-branco-e-assassinado-em-rodovia.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura redireciona para domínio externo (breubranco.online), não aberto."
+ }
+]
