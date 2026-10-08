@@ -36,6 +36,7 @@ KEYS = {  # chave curta: (coluna, casas decimais | None para texto/inteiro)
     "gplp": ("gov_PL_pct", 3), "gpt": ("gov_PT_candidato", None), "gptp": ("gov_PT_pct", 3),
     "sen": ("sen_mais_votado", None), "senp": ("sen_mais_votado_pct", 3), "spl": ("sen_PL_candidato", None),
     "splp": ("sen_PL_pct", 3), "spt": ("sen_PT_candidato", None), "sptp": ("sen_PT_pct", 3),
+    "gsj": ("gov_votos_sub_judice", None), "ssj": ("sen_votos_sub_judice", None),
     "dfpl": ("depfed_PL_pct", 3), "dfpt": ("depfed_PT_pct", 3), "dfm": ("depfed_mais_votado", None), "dfmp": ("depfed_mais_votado_pct", 3),
     "depl": ("depest_PL_pct", 3), "dept": ("depest_PT_pct", 3), "dem": ("depest_mais_votado", None),
     "i16": ("idade_16_17_pct", 3), "i18": ("idade_18_24_pct", 3), "i25": ("idade_25_34_pct", 3), "i35": ("idade_35_44_pct", 3),

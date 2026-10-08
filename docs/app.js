@@ -381,8 +381,10 @@
         ${rowsKV([["Governador mais votado", d.gov ? `${d.gov} ${fr(d.govp)}` : null], ["Candidato do PL a governador", d.gpl ? `${d.gpl} ${fr(d.gplp)}` : null],
           ["Candidato do PT a governador", d.gpt ? `${d.gpt} ${fr(d.gptp)}` : null], ["Senador mais votado", d.sen ? `${d.sen} ${fr(d.senp)}` : null],
           ["Melhor do PL ao Senado", d.spl ? `${d.spl} ${fr(d.splp)}` : null], ["Melhor do PT ao Senado", d.spt ? `${d.spt} ${fr(d.sptp)}` : null],
+          ["Votos anulados sub judice (gov. · senado)", d.gsj || d.ssj ? `${n0(d.gsj || 0)} · ${n0(d.ssj || 0)}` : null],
           ["Dep. federal mais votado", d.dfm ? `${d.dfm} ${fr(d.dfmp)}` : null], ["PL · PT para dep. federal", `${fr(d.dfpl)} · ${fr(d.dfpt)}`],
           ["Dep. estadual mais votado", d.dem], ["PL · PT para dep. estadual", `${fr(d.depl)} · ${fr(d.dept)}`]])}
+        ${d.gsj || d.ssj ? `<p class="fontes">Os % de governador e senado são sobre os votos válidos oficiais. Votos em candidatos com registro sub judice ficam fora até o julgamento (no RJ, Garotinho teve 274 mil; com eles, Douglas Ruas cai de 50,9% para 49,3%).</p>` : ""}
       </div>
       <div class="sec"><h4>Eleitorado 2026 (TSE)</h4>
         ${rowsKV([["16–17 anos · 18–24 · 25–34", `${fr(d.i16)} · ${fr(d.i18)} · ${fr(d.i25)}`], ["35–44 · 45–59 · 60–69", `${fr(d.i35)} · ${fr(d.i45)} · ${fr(d.i60)}`],

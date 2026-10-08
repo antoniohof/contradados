@@ -1,217 +1,252 @@
-UF,cargo,candidato,partido,votos,pct,situacao
-AC,Governador,Mailza Assis,PP,218760,0.4976,2º TURNO
-AC,Governador,Alan Rick,REPUBLICANOS,141859,0.3227,2º TURNO
-AC,Governador,Tião Bocalom,PSDB,44946,0.1022,NÃO ELEITO
-AC,Governador,Thor Dantas,PSB,32963,0.075,NÃO ELEITO
-AC,Senador,Marcio Bittar,PL,223972,0.3068,ELEITO
-AC,Senador,Mara Rocha,REPUBLICANOS,157104,0.2152,ELEITO
-AC,Senador,Jorge Viana,PT,124063,0.1699,NÃO ELEITO
-AC,Senador,Eduardo Velloso,SOLIDARIEDADE,95128,0.1303,NÃO ELEITO
-AL,Governador,Jhc,PSDB,892484,0.522,ELEITO
-AL,Governador,Renan Filho,MDB,809796,0.4737,NÃO ELEITO
-AL,Governador,Lenilda Luna,UP,6454,0.0038,NÃO ELEITO
-AL,Governador,Márcio Jambo,DEMOCRATA,880,0.0005,NÃO ELEITO
-AL,Senador,Arthur Lira,PP,948703,0.2887,ELEITO
-AL,Senador,Marina Jhc,PSDB,926860,0.282,ELEITO
-AL,Senador,Renan,MDB,731045,0.2224,NÃO ELEITO
-AL,Senador,Dr. Wanderley,MDB,358478,0.1091,NÃO ELEITO
-AM,Governador,Omar Aziz,PSD,841846,0.4063,2º TURNO
-AM,Governador,Professora Maria Do Carmo,PL,507335,0.2449,2º TURNO
-AM,Governador,Roberto Cidade,UNIÃO,453896,0.2191,NÃO ELEITO
-AM,Governador,David Almeida,AVANTE,218490,0.1054,NÃO ELEITO
-AM,Senador,Eduardo Braga,MDB,1240471,0.3229,ELEITO
-AM,Senador,Plinio Valério,PSDB,948793,0.247,ELEITO
-AM,Senador,Capitão Alberto Neto,PL,909155,0.2366,NÃO ELEITO
-AM,Senador,Wilson Lima,UNIÃO,456854,0.1189,NÃO ELEITO
-AP,Governador,Dr. Furlan,PSD,281595,0.6275,ELEITO
-AP,Governador,Clécio,UNIÃO,165900,0.3697,NÃO ELEITO
-AP,Governador,Carlos Cley,PSTU,561,0.0013,NÃO ELEITO
-AP,Governador,Delegado Marcos,DC,376,0.0008,NÃO ELEITO
-AP,Senador,Rayssa Furlan,PODE,264799,0.2998,ELEITO
-AP,Senador,Lucas Barreto,PSD,213948,0.2422,ELEITO
-AP,Senador,Randolfe,PT,163857,0.1855,NÃO ELEITO
-AP,Senador,Acácio Favacho,MDB,131321,0.1487,NÃO ELEITO
-BA,Governador,Jerônimo Rodrigues,PT,4626509,0.558,ELEITO
-BA,Governador,Acm Neto,UNIÃO,3625227,0.4372,NÃO ELEITO
-BA,Governador,Ronaldo Mansur,PSOL,27243,0.0033,NÃO ELEITO
-BA,Governador,Aroldo Felix,UP,5238,0.0006,NÃO ELEITO
-BA,Senador,Rui Costa,PT,4335196,0.3007,ELEITO
-BA,Senador,Jaques Wagner,PT,3986690,0.2765,ELEITO
-BA,Senador,Angelo Coronel,REPUBLICANOS,2898885,0.2011,NÃO ELEITO
-BA,Senador,João Roma,PL,2879443,0.1997,NÃO ELEITO
-CE,Governador,Elmano De Freitas,PT,2875573,0.5319,ELEITO
-CE,Governador,Ciro Gomes,PSDB,2498891,0.4622,NÃO ELEITO
-CE,Governador,Delegado Huggo,MISSÃO,17219,0.0032,NÃO ELEITO
-CE,Governador,Vera Lúcia,NOVO,5701,0.0011,NÃO ELEITO
-CE,Senador,Cid Gomes,PSB,3033562,0.3123,ELEITO
-CE,Senador,Luizianne,REDE,2822806,0.2906,ELEITO
-CE,Senador,Capitão Wagner,UNIÃO,2011388,0.207,NÃO ELEITO
-CE,Senador,Alcides Fernandes,PL,1776782,0.1829,NÃO ELEITO
-DF,Governador,Celina Leão,PP,825530,0.4999,2º TURNO
-DF,Governador,Leandro Grass,PT,569930,0.3451,2º TURNO
-DF,Governador,Paula Belmonte,PSDB,140765,0.0852,NÃO ELEITO
-DF,Governador,Kiko Caputo,NOVO,72148,0.0437,NÃO ELEITO
-DF,Senador,Michelle Bolsonaro,PL,938496,0.2909,ELEITO
-DF,Senador,Bia Kicis,PL,886616,0.2748,ELEITO
-DF,Senador,Leila Do Vôlei,PDT,686340,0.2127,NÃO ELEITO
-DF,Senador,Erika Kokay,PT,610950,0.1894,NÃO ELEITO
-ES,Governador,Lorenzo Pazolini,REPUBLICANOS,1048633,0.4965,2º TURNO
-ES,Governador,Ricardo Ferraço,MDB,719397,0.3406,2º TURNO
-ES,Governador,Helder Salomão,PT,323483,0.1532,NÃO ELEITO
-ES,Governador,Breno Barcelos,MISSÃO,17988,0.0085,NÃO ELEITO
-ES,Senador,Renato Casagrande,PSB,995361,0.247,ELEITO
-ES,Senador,Evair De Melo,REPUBLICANOS,982978,0.2439,ELEITO
-ES,Senador,Maguinha Malta,PL,761722,0.189,NÃO ELEITO
-ES,Senador,Fabiano Contarato,PT,521431,0.1294,NÃO ELEITO
-GO,Governador,Daniel Vilela,MDB,2148218,0.5917,ELEITO
-GO,Governador,Wilder Morais,PL,797141,0.2196,NÃO ELEITO
-GO,Governador,Luis Cesar Bueno,PT,356692,0.0982,NÃO ELEITO
-GO,Governador,Marconi Perillo,PSDB,315676,0.0869,NÃO ELEITO
-GO,Senador,Gustavo Gayer,PL,1639247,0.2453,ELEITO
-GO,Senador,Gracinha Caiado,UNIÃO,1458522,0.2183,ELEITO
-GO,Senador,Dr. Zacharias Calil,MDB,998319,0.1494,NÃO ELEITO
-GO,Senador,Oséias Varão,PL,676930,0.1013,NÃO ELEITO
-MA,Governador,Eduardo Braide,PSD,2104122,0.5471,ELEITO
-MA,Governador,Orleans Brandão,MDB,1354044,0.3521,NÃO ELEITO
-MA,Governador,Felipe Camarão,PT,374039,0.0973,NÃO ELEITO
-MA,Governador,André Luis,MISSÃO,7905,0.0021,NÃO ELEITO
-MA,Senador,Fufuca,PP,1530187,0.215,ELEITO
-MA,Senador,Lahesio Bonfim,NOVO,1471859,0.2068,ELEITO
-MA,Senador,Roseana Sarney,MDB,1171634,0.1646,NÃO ELEITO
-MA,Senador,Weverton Rocha,PDT,1086318,0.1526,NÃO ELEITO
-MG,Governador,Cleitinho Azevedo,REPUBLICANOS,6321590,0.554,ELEITO
-MG,Governador,Patrus Ananias,PT,3006088,0.2635,NÃO ELEITO
-MG,Governador,Flávio Roscoe,PL,795193,0.0697,NÃO ELEITO
-MG,Governador,Mateus Simões,PSD,530292,0.0465,NÃO ELEITO
-MG,Senador,Domingos Sávio,PL,4968829,0.2421,ELEITO
-MG,Senador,Marília Campos,PT,3990864,0.1945,ELEITO
-MG,Senador,Carlos Viana,PSD,3583487,0.1746,NÃO ELEITO
-MG,Senador,Áurea Carolina,PSOL,2664763,0.1298,NÃO ELEITO
-MS,Governador,Eduardo Riedel,PP,914323,0.6707,ELEITO
-MS,Governador,Fábio Trad,PT,322807,0.2368,NÃO ELEITO
-MS,Governador,João Henrique Catan,NOVO,98677,0.0724,NÃO ELEITO
-MS,Governador,Delcidio Amaral,PRD,14431,0.0106,NÃO ELEITO
-MS,Senador,Reinaldo Azambuja,PL,903554,0.3464,ELEITO
-MS,Senador,Capitão Contar,PL,856045,0.3282,ELEITO
-MS,Senador,Vander Loubet,PT,361920,0.1388,NÃO ELEITO
-MS,Senador,Soraya,PSB,340788,0.1307,NÃO ELEITO
-MT,Governador,Otaviano Pivetta,REPUBLICANOS,1128099,0.6077,ELEITO
-MT,Governador,Wellington Fagundes,PL,430442,0.2319,NÃO ELEITO
-MT,Governador,Doutora Natasha,PSD,281548,0.1517,NÃO ELEITO
-MT,Governador,Rafaell Milas,MISSÃO,10300,0.0055,NÃO ELEITO
-MT,Senador,Mauro Mendes,UNIÃO,1187352,0.3321,ELEITO
-MT,Senador,Zé Medeiros,PL,977777,0.2735,ELEITO
-MT,Senador,Janaina Riva,MDB,519434,0.1453,NÃO ELEITO
-MT,Senador,Fávaro,PSD,411020,0.115,NÃO ELEITO
-PA,Governador,Dr. Daniel,PODE,2345721,0.5139,ELEITO
-PA,Governador,Hana Ghassan,MDB,2125084,0.4655,NÃO ELEITO
-PA,Governador,Araceli,PSOL,85857,0.0188,NÃO ELEITO
-PA,Governador,Gal Leite,UP,5503,0.0012,NÃO ELEITO
-PA,Senador,Helder,MDB,2342070,0.2615,ELEITO
-PA,Senador,Chicão,UNIÃO,2014409,0.2249,ELEITO
-PA,Senador,Delegado Éder Mauro,PL,1997768,0.223,NÃO ELEITO
-PA,Senador,Zequinha Marinho,PODE,1889653,0.211,NÃO ELEITO
-PB,Governador,Lucas Ribeiro,PP,1470252,0.643,ELEITO
-PB,Governador,Efraim Filho,PL,552836,0.2418,NÃO ELEITO
-PB,Governador,Cícero Lucena,MDB,252884,0.1106,NÃO ELEITO
-PB,Governador,Yuri Ezequiel,UP,8272,0.0036,NÃO ELEITO
-PB,Senador,Joao Azevêdo,PSB,1391994,0.325,ELEITO
-PB,Senador,Veneziano,MDB,974550,0.2276,ELEITO
-PB,Senador,Nabor,REPUBLICANOS,895398,0.2091,NÃO ELEITO
-PB,Senador,Dr. Marcelo Queiroga,PL,533723,0.1246,NÃO ELEITO
-PE,Governador,Raquel Lyra,PSD,2805438,0.5327,ELEITO
-PE,Governador,João Campos,PSB,2360469,0.4482,NÃO ELEITO
-PE,Governador,Ivan Moraes,PSOL,77699,0.0148,NÃO ELEITO
-PE,Governador,Renan,MISSÃO,18340,0.0035,NÃO ELEITO
-PE,Senador,Humberto Costa,PT,2531389,0.2724,ELEITO
-PE,Senador,Marília Arraes,PDT,2325127,0.2502,ELEITO
-PE,Senador,Mendonça Filho,PL,1728587,0.186,NÃO ELEITO
-PE,Senador,Eduardo Da Fonte,PP,1289058,0.1387,NÃO ELEITO
-PI,Governador,Rafael Fonteles,PT,1436697,0.7108,ELEITO
-PI,Governador,Joel Rodrigues,PP,557972,0.2761,NÃO ELEITO
-PI,Governador,Professor Gisvaldo,PSOL,10002,0.0049,NÃO ELEITO
-PI,Governador,Dra. Lúcia Santos,PSDB,9611,0.0048,NÃO ELEITO
-PI,Senador,Marcelo Castro,MDB,1307833,0.3592,ELEITO
-PI,Senador,Júlio César O Julim Do Lula,PSD,989146,0.2717,ELEITO
-PI,Senador,Ciro Nogueira,PP,904961,0.2486,NÃO ELEITO
-PI,Senador,Tiago Junqueira,PL,324530,0.0891,NÃO ELEITO
-PR,Governador,Sergio Moro,PL,3127911,0.5011,ELEITO
-PR,Governador,Sandro Alex,PSD,1583764,0.2537,NÃO ELEITO
-PR,Governador,Requião Filho,PDT,1465601,0.2348,NÃO ELEITO
-PR,Governador,Luiz França,MISSÃO,44581,0.0071,NÃO ELEITO
-PR,Senador,Filipe Barros,PL,3148583,0.2728,ELEITO
-PR,Senador,Deltan Dallagnol,NOVO,2904594,0.2516,ELEITO
-PR,Senador,Alexandre Curi,REPUBLICANOS,1947135,0.1687,NÃO ELEITO
-PR,Senador,Gleisi,PT,1542636,0.1336,NÃO ELEITO
-RJ,Governador,Douglas Ruas,PL,4271199,0.5088,2º TURNO
-RJ,Governador,Eduardo Paes,PSD,3706984,0.4416,2º TURNO
-RJ,Governador,William Siri,PSOL,235347,0.028,NÃO ELEITO
-RJ,Governador,Coronel Busnello,MISSÃO,84889,0.0101,NÃO ELEITO
-RJ,Senador,Carlos Portinho,PL,4264932,0.2678,ELEITO
-RJ,Senador,Carlos Jordy,PL,3912405,0.2457,ELEITO
-RJ,Senador,Benedita Da Silva,PT,3220765,0.2023,NÃO ELEITO
-RJ,Senador,Pedro Paulo,PSD,1904352,0.1196,NÃO ELEITO
-RN,Governador,Allyson,UNIÃO,733809,0.3694,2º TURNO
-RN,Governador,Cadu De Lula,PT,718300,0.3616,2º TURNO
-RN,Governador,Álvaro Dias,PL,530580,0.2671,NÃO ELEITO
-RN,Governador,Arinalda Do Mlb,UP,1466,0.0007,NÃO ELEITO
-RN,Senador,Styvenson Valentim,PODE,1055000,0.2925,ELEITO
-RN,Senador,Samanda De Lula,PT,635924,0.1763,ELEITO
-RN,Senador,Zenaide Maia,PSD,630159,0.1747,NÃO ELEITO
-RN,Senador,Coronel Hélio,PL,620354,0.172,NÃO ELEITO
-RO,Governador,Marcos Rogério,PL,537370,0.5686,ELEITO
-RO,Governador,Adailton Furia,PSD,189547,0.2006,NÃO ELEITO
-RO,Governador,Hildon Chaves,UNIÃO,134355,0.1422,NÃO ELEITO
-RO,Governador,Expedito Netto,PT,72851,0.0771,NÃO ELEITO
-RO,Senador,Dr. Fernando Máximo,PL,570799,0.3243,ELEITO
-RO,Senador,Bruno Scheid,PL,474226,0.2695,ELEITO
-RO,Senador,Sílvia Cristina,PP,304061,0.1728,NÃO ELEITO
-RO,Senador,Mariana Carvalho,REPUBLICANOS,207398,0.1178,NÃO ELEITO
-RR,Governador,Arthur Henrique,PL,220809,0.6915,ELEITO
-RR,Governador,Soldado Sampaio,REPUBLICANOS,93434,0.2926,NÃO ELEITO
-RR,Governador,Rosi Aires,PSOL,4880,0.0153,NÃO ELEITO
-RR,Governador,Farah Mesquita,SOLIDARIEDADE,213,0.0007,NÃO ELEITO
-RR,Senador,Nicoletti,PL,138269,0.2292,ELEITO
-RR,Senador,Teresa Surita,MDB,117270,0.1944,ELEITO
-RR,Senador,Helena Da Asatur,PSD,106652,0.1768,NÃO ELEITO
-RR,Senador,Chico Rodrigues,PSB,81845,0.1356,NÃO ELEITO
-RS,Governador,Zucco,PL,3516048,0.5807,ELEITO
-RS,Governador,Juliana Brizola,PDT,1917374,0.3166,NÃO ELEITO
-RS,Governador,Gabriel Souza,MDB,510698,0.0843,NÃO ELEITO
-RS,Governador,Marcelo Maranata,PSDB,101978,0.0168,NÃO ELEITO
-RS,Senador,Sanderson,PL,3453316,0.3012,ELEITO
-RS,Senador,Marcel Van Hattem,NOVO,3449053,0.3008,ELEITO
-RS,Senador,Manuela D Ávila,PSOL,1957697,0.1707,NÃO ELEITO
-RS,Senador,Pimenta,PT,1870301,0.1631,NÃO ELEITO
-SC,Governador,Jorginho Mello,PL,2942386,0.6898,ELEITO
-SC,Governador,Gelson Merísio,PSB,668021,0.1566,NÃO ELEITO
-SC,Governador,João Rodrigues,PSD,569263,0.1335,NÃO ELEITO
-SC,Governador,Marcelo Brigadeiro,MISSÃO,46624,0.0109,NÃO ELEITO
-SC,Senador,Carol De Toni,PL,2694918,0.3351,ELEITO
-SC,Senador,Carlos Bolsonaro,PL,2041840,0.2539,ELEITO
-SC,Senador,Esperidião Amin,PP,1233034,0.1533,NÃO ELEITO
-SC,Senador,Décio Lima,PT,823200,0.1024,NÃO ELEITO
-SE,Governador,Fábio,PSD,727291,0.6112,ELEITO
-SE,Governador,Valmir De Francisquinho,REPUBLICANOS,459908,0.3865,NÃO ELEITO
-SE,Governador,Taty  Cristina De Jesus,DC,2728,0.0023,NÃO ELEITO
-SE,Governador,Dr. Helton,PSOL,0,0.0,NÃO ELEITO
-SE,Senador,Rogerio Carvalho,PT,511142,0.2267,ELEITO
-SE,Senador,Delegado Alessandro,MDB,399775,0.1773,ELEITO
-SE,Senador,Delegado André David,REPUBLICANOS,378710,0.168,NÃO ELEITO
-SE,Senador,André Moura,UNIÃO,377669,0.1675,NÃO ELEITO
-SP,Governador,Tarcísio,REPUBLICANOS,14491874,0.6265,ELEITO
-SP,Governador,Fernando Haddad,PT,8423656,0.3642,NÃO ELEITO
-SP,Governador,Vivian Mendes,UP,80480,0.0035,NÃO ELEITO
-SP,Governador,Vera Lúcia,PSTU,75641,0.0033,NÃO ELEITO
-SP,Senador,Guilherme Derrite,PP,13273880,0.306,ELEITO
-SP,Senador,André Do Prado,PL,12703089,0.2928,ELEITO
-SP,Senador,Simone Tebet,PSB,8342968,0.1923,NÃO ELEITO
-SP,Senador,Marina Silva,REDE,7862400,0.1813,NÃO ELEITO
-TO,Governador,Professora Dorinha,UNIÃO,386260,0.4552,2º TURNO
-TO,Governador,Vicentinho Júnior,PSDB,372848,0.4394,2º TURNO
-TO,Governador,Laurez Moreira,PSD,69967,0.0824,NÃO ELEITO
-TO,Governador,Ataides De Oliveira,NOVO,13173,0.0155,NÃO ELEITO
-TO,Senador,Eduardo Gomes,PL,450191,0.2728,ELEITO
-TO,Senador,Alexandre Guimarães,MDB,316786,0.1919,ELEITO
-TO,Senador,Eli Borges,REPUBLICANOS,271829,0.1647,NÃO ELEITO
-TO,Senador,Gaguim,UNIÃO,255548,0.1548,NÃO ELEITO
+UF,cargo,candidato,partido,votos,votos_nominais,destinacao,pct,pct_com_sub_judice,situacao
+AC,Governador,Mailza Assis,PP,218760,218760,Válido,0.4976,0.4976,2º TURNO
+AC,Governador,Alan Rick,REPUBLICANOS,141859,141859,Válido,0.3227,0.3227,2º TURNO
+AC,Governador,Tião Bocalom,PSDB,44946,44946,Válido,0.1022,0.1022,NÃO ELEITO
+AC,Governador,Thor Dantas,PSB,32963,32963,Válido,0.075,0.075,NÃO ELEITO
+AC,Senador,Marcio Bittar,PL,223972,223972,Válido,0.3068,0.2559,ELEITO
+AC,Senador,Mara Rocha,REPUBLICANOS,157104,157104,Válido,0.2152,0.1795,ELEITO
+AC,Senador,Gladson Camelí,PP,0,145244,Anulado sub judice,0.0,0.1659,NÃO ELEITO
+AC,Senador,Jorge Viana,PT,124063,124063,Válido,0.1699,0.1417,NÃO ELEITO
+AL,Governador,Jhc,PSDB,892484,892484,Válido,0.522,0.522,ELEITO
+AL,Governador,Renan Filho,MDB,809796,809796,Válido,0.4737,0.4737,NÃO ELEITO
+AL,Governador,Lenilda Luna,UP,6454,6454,Válido,0.0038,0.0038,NÃO ELEITO
+AL,Governador,Márcio Jambo,DEMOCRATA,880,880,Válido,0.0005,0.0005,NÃO ELEITO
+AL,Senador,Arthur Lira,PP,948703,948703,Válido,0.2887,0.2887,ELEITO
+AL,Senador,Marina Jhc,PSDB,926860,926860,Válido,0.282,0.282,ELEITO
+AL,Senador,Renan,MDB,731045,731045,Válido,0.2224,0.2224,NÃO ELEITO
+AL,Senador,Dr. Wanderley,MDB,358478,358478,Válido,0.1091,0.1091,NÃO ELEITO
+AM,Governador,Omar Aziz,PSD,841846,841846,Válido,0.4063,0.4063,2º TURNO
+AM,Governador,Professora Maria Do Carmo,PL,507335,507335,Válido,0.2449,0.2449,2º TURNO
+AM,Governador,Roberto Cidade,UNIÃO,453896,453896,Válido,0.2191,0.2191,NÃO ELEITO
+AM,Governador,David Almeida,AVANTE,218490,218490,Válido,0.1054,0.1054,NÃO ELEITO
+AM,Senador,Eduardo Braga,MDB,1240471,1240471,Válido,0.3229,0.3229,ELEITO
+AM,Senador,Plinio Valério,PSDB,948793,948793,Válido,0.247,0.247,ELEITO
+AM,Senador,Capitão Alberto Neto,PL,909155,909155,Válido,0.2366,0.2366,NÃO ELEITO
+AM,Senador,Wilson Lima,UNIÃO,456854,456854,Válido,0.1189,0.1189,NÃO ELEITO
+AP,Governador,Dr. Furlan,PSD,281595,281595,Válido,0.6275,0.6275,ELEITO
+AP,Governador,Clécio,UNIÃO,165900,165900,Válido,0.3697,0.3697,NÃO ELEITO
+AP,Governador,Carlos Cley,PSTU,561,561,Válido,0.0013,0.0013,NÃO ELEITO
+AP,Governador,Delegado Marcos,DC,376,376,Válido,0.0008,0.0008,NÃO ELEITO
+AP,Senador,Rayssa Furlan,PODE,264799,264799,Válido,0.2998,0.2998,ELEITO
+AP,Senador,Lucas Barreto,PSD,213948,213948,Válido,0.2422,0.2422,ELEITO
+AP,Senador,Randolfe,PT,163857,163857,Válido,0.1855,0.1855,NÃO ELEITO
+AP,Senador,Acácio Favacho,MDB,131321,131321,Válido,0.1487,0.1487,NÃO ELEITO
+BA,Governador,Jerônimo Rodrigues,PT,4626509,4626509,Válido,0.558,0.558,ELEITO
+BA,Governador,Acm Neto,UNIÃO,3625227,3625227,Válido,0.4372,0.4372,NÃO ELEITO
+BA,Governador,Ronaldo Mansur,PSOL,27243,27243,Válido,0.0033,0.0033,NÃO ELEITO
+BA,Governador,Aroldo Felix,UP,5238,5238,Válido,0.0006,0.0006,NÃO ELEITO
+BA,Senador,Rui Costa,PT,4335196,4335196,Válido,0.3007,0.3007,ELEITO
+BA,Senador,Jaques Wagner,PT,3986690,3986690,Válido,0.2765,0.2765,ELEITO
+BA,Senador,Angelo Coronel,REPUBLICANOS,2898885,2898885,Válido,0.2011,0.2011,NÃO ELEITO
+BA,Senador,João Roma,PL,2879443,2879443,Válido,0.1997,0.1997,NÃO ELEITO
+CE,Governador,Elmano De Freitas,PT,2875573,2875573,Válido,0.5319,0.5319,ELEITO
+CE,Governador,Ciro Gomes,PSDB,2498891,2498891,Válido,0.4622,0.4622,NÃO ELEITO
+CE,Governador,Delegado Huggo,MISSÃO,17219,17219,Válido,0.0032,0.0032,NÃO ELEITO
+CE,Governador,Vera Lúcia,NOVO,5701,5701,Válido,0.0011,0.0011,NÃO ELEITO
+CE,Senador,Cid Gomes,PSB,3033562,3033562,Válido,0.3123,0.3122,ELEITO
+CE,Senador,Luizianne,REDE,2822806,2822806,Válido,0.2906,0.2905,ELEITO
+CE,Senador,Capitão Wagner,UNIÃO,2011388,2011388,Válido,0.207,0.207,NÃO ELEITO
+CE,Senador,Alcides Fernandes,PL,1776782,1776782,Válido,0.1829,0.1828,NÃO ELEITO
+CE,Senador,Lino Alves,PCO,0,2677,Anulado sub judice,0.0,0.0003,NÃO ELEITO
+DF,Governador,Celina Leão,PP,825530,825530,Válido,0.4999,0.4993,2º TURNO
+DF,Governador,Leandro Grass,PT,569930,569930,Válido,0.3451,0.3447,2º TURNO
+DF,Governador,Paula Belmonte,PSDB,140765,140765,Válido,0.0852,0.0851,NÃO ELEITO
+DF,Governador,Kiko Caputo,NOVO,72148,72148,Válido,0.0437,0.0436,NÃO ELEITO
+DF,Governador,Elisson,AGIR,0,1172,Anulado sub judice,0.0,0.0007,NÃO ELEITO
+DF,Governador,Rico Pinheiro,PRTB,0,671,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+DF,Senador,Michelle Bolsonaro,PL,938496,938496,Válido,0.2909,0.2905,ELEITO
+DF,Senador,Bia Kicis,PL,886616,886616,Válido,0.2748,0.2744,ELEITO
+DF,Senador,Leila Do Vôlei,PDT,686340,686340,Válido,0.2127,0.2125,NÃO ELEITO
+DF,Senador,Erika Kokay,PT,610950,610950,Válido,0.1894,0.1891,NÃO ELEITO
+DF,Senador,Tiago,AGIR,0,4238,Anulado sub judice,0.0,0.0013,NÃO ELEITO
+ES,Governador,Lorenzo Pazolini,REPUBLICANOS,1048633,1048633,Válido,0.4965,0.4965,2º TURNO
+ES,Governador,Ricardo Ferraço,MDB,719397,719397,Válido,0.3406,0.3406,2º TURNO
+ES,Governador,Helder Salomão,PT,323483,323483,Válido,0.1532,0.1532,NÃO ELEITO
+ES,Governador,Breno Barcelos,MISSÃO,17988,17988,Válido,0.0085,0.0085,NÃO ELEITO
+ES,Senador,Renato Casagrande,PSB,995361,995361,Válido,0.247,0.247,ELEITO
+ES,Senador,Evair De Melo,REPUBLICANOS,982978,982978,Válido,0.2439,0.2439,ELEITO
+ES,Senador,Maguinha Malta,PL,761722,761722,Válido,0.189,0.189,NÃO ELEITO
+ES,Senador,Fabiano Contarato,PT,521431,521431,Válido,0.1294,0.1294,NÃO ELEITO
+GO,Governador,Daniel Vilela,MDB,2148218,2148218,Válido,0.5917,0.5917,ELEITO
+GO,Governador,Wilder Morais,PL,797141,797141,Válido,0.2196,0.2196,NÃO ELEITO
+GO,Governador,Luis Cesar Bueno,PT,356692,356692,Válido,0.0982,0.0982,NÃO ELEITO
+GO,Governador,Marconi Perillo,PSDB,315676,315676,Válido,0.0869,0.0869,NÃO ELEITO
+GO,Senador,Gustavo Gayer,PL,1639247,1639247,Válido,0.2453,0.2453,ELEITO
+GO,Senador,Gracinha Caiado,UNIÃO,1458522,1458522,Válido,0.2183,0.2183,ELEITO
+GO,Senador,Dr. Zacharias Calil,MDB,998319,998319,Válido,0.1494,0.1494,NÃO ELEITO
+GO,Senador,Oséias Varão,PL,676930,676930,Válido,0.1013,0.1013,NÃO ELEITO
+MA,Governador,Eduardo Braide,PSD,2104122,2104122,Válido,0.5471,0.5402,ELEITO
+MA,Governador,Orleans Brandão,MDB,1354044,1354044,Válido,0.3521,0.3476,NÃO ELEITO
+MA,Governador,Felipe Camarão,PT,374039,374039,Válido,0.0973,0.096,NÃO ELEITO
+MA,Governador,Roberto Rocha,PRTB,0,48924,Anulado sub judice,0.0,0.0126,NÃO ELEITO
+MA,Senador,Fufuca,PP,1530187,1530187,Válido,0.215,0.2143,ELEITO
+MA,Senador,Lahesio Bonfim,NOVO,1471859,1471859,Válido,0.2068,0.2061,ELEITO
+MA,Senador,Roseana Sarney,MDB,1171634,1171634,Válido,0.1646,0.1641,NÃO ELEITO
+MA,Senador,Weverton Rocha,PDT,1086318,1086318,Válido,0.1526,0.1521,NÃO ELEITO
+MA,Senador,Simplício Araújo,DC,0,23995,Anulado sub judice,0.0,0.0034,NÃO ELEITO
+MG,Governador,Cleitinho Azevedo,REPUBLICANOS,6321590,6321590,Válido,0.554,0.554,ELEITO
+MG,Governador,Patrus Ananias,PT,3006088,3006088,Válido,0.2635,0.2634,NÃO ELEITO
+MG,Governador,Flávio Roscoe,PL,795193,795193,Válido,0.0697,0.0697,NÃO ELEITO
+MG,Governador,Mateus Simões,PSD,530292,530292,Válido,0.0465,0.0465,NÃO ELEITO
+MG,Governador,Henrique Áreas,PCO,0,1464,Anulado sub judice,0.0,0.0001,NÃO ELEITO
+MG,Senador,Domingos Sávio,PL,4968829,4968829,Válido,0.2421,0.2421,ELEITO
+MG,Senador,Marília Campos,PT,3990864,3990864,Válido,0.1945,0.1944,ELEITO
+MG,Senador,Carlos Viana,PSD,3583487,3583487,Válido,0.1746,0.1746,NÃO ELEITO
+MG,Senador,Áurea Carolina,PSOL,2664763,2664763,Válido,0.1298,0.1298,NÃO ELEITO
+MG,Senador,Tião Pessoa,PCO,0,3184,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+MS,Governador,Eduardo Riedel,PP,914323,914323,Válido,0.6707,0.6707,ELEITO
+MS,Governador,Fábio Trad,PT,322807,322807,Válido,0.2368,0.2368,NÃO ELEITO
+MS,Governador,João Henrique Catan,NOVO,98677,98677,Válido,0.0724,0.0724,NÃO ELEITO
+MS,Governador,Delcidio Amaral,PRD,14431,14431,Válido,0.0106,0.0106,NÃO ELEITO
+MS,Senador,Reinaldo Azambuja,PL,903554,903554,Válido,0.3464,0.3464,ELEITO
+MS,Senador,Capitão Contar,PL,856045,856045,Válido,0.3282,0.3282,ELEITO
+MS,Senador,Vander Loubet,PT,361920,361920,Válido,0.1388,0.1388,NÃO ELEITO
+MS,Senador,Soraya,PSB,340788,340788,Válido,0.1307,0.1307,NÃO ELEITO
+MT,Governador,Otaviano Pivetta,REPUBLICANOS,1128099,1128099,Válido,0.6077,0.6077,ELEITO
+MT,Governador,Wellington Fagundes,PL,430442,430442,Válido,0.2319,0.2319,NÃO ELEITO
+MT,Governador,Doutora Natasha,PSD,281548,281548,Válido,0.1517,0.1517,NÃO ELEITO
+MT,Governador,Rafaell Milas,MISSÃO,10300,10300,Válido,0.0055,0.0055,NÃO ELEITO
+MT,Senador,Mauro Mendes,UNIÃO,1187352,1187352,Válido,0.3321,0.3321,ELEITO
+MT,Senador,Zé Medeiros,PL,977777,977777,Válido,0.2735,0.2735,ELEITO
+MT,Senador,Janaina Riva,MDB,519434,519434,Válido,0.1453,0.1453,NÃO ELEITO
+MT,Senador,Fávaro,PSD,411020,411020,Válido,0.115,0.115,NÃO ELEITO
+PA,Governador,Dr. Daniel,PODE,2345721,2345721,Válido,0.5139,0.5136,ELEITO
+PA,Governador,Hana Ghassan,MDB,2125084,2125084,Válido,0.4655,0.4653,NÃO ELEITO
+PA,Governador,Araceli,PSOL,85857,85857,Válido,0.0188,0.0188,NÃO ELEITO
+PA,Governador,Gal Leite,UP,5503,5503,Válido,0.0012,0.0012,NÃO ELEITO
+PA,Governador,Ruth Reis,DEMOCRATA,0,1987,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+PA,Senador,Helder,MDB,2342070,2342070,Válido,0.2615,0.261,ELEITO
+PA,Senador,Chicão,UNIÃO,2014409,2014409,Válido,0.2249,0.2245,ELEITO
+PA,Senador,Delegado Éder Mauro,PL,1997768,1997768,Válido,0.223,0.2226,NÃO ELEITO
+PA,Senador,Zequinha Marinho,PODE,1889653,1889653,Válido,0.211,0.2106,NÃO ELEITO
+PA,Senador,Edlaine Rodrigues,DEMOCRATA,0,8766,Anulado sub judice,0.0,0.001,NÃO ELEITO
+PA,Senador,Breno Guimarães,MOBILIZA,0,7047,Anulado sub judice,0.0,0.0008,NÃO ELEITO
+PB,Governador,Lucas Ribeiro,PP,1470252,1470252,Válido,0.643,0.643,ELEITO
+PB,Governador,Efraim Filho,PL,552836,552836,Válido,0.2418,0.2418,NÃO ELEITO
+PB,Governador,Cícero Lucena,MDB,252884,252884,Válido,0.1106,0.1106,NÃO ELEITO
+PB,Governador,Yuri Ezequiel,UP,8272,8272,Válido,0.0036,0.0036,NÃO ELEITO
+PB,Senador,Joao Azevêdo,PSB,1391994,1391994,Válido,0.325,0.325,ELEITO
+PB,Senador,Veneziano,MDB,974550,974550,Válido,0.2276,0.2276,ELEITO
+PB,Senador,Nabor,REPUBLICANOS,895398,895398,Válido,0.2091,0.2091,NÃO ELEITO
+PB,Senador,Dr. Marcelo Queiroga,PL,533723,533723,Válido,0.1246,0.1246,NÃO ELEITO
+PE,Governador,Raquel Lyra,PSD,2805438,2805438,Válido,0.5327,0.5327,ELEITO
+PE,Governador,João Campos,PSB,2360469,2360469,Válido,0.4482,0.4482,NÃO ELEITO
+PE,Governador,Ivan Moraes,PSOL,77699,77699,Válido,0.0148,0.0148,NÃO ELEITO
+PE,Governador,Renan,MISSÃO,18340,18340,Válido,0.0035,0.0035,NÃO ELEITO
+PE,Senador,Humberto Costa,PT,2531389,2531389,Válido,0.2724,0.2719,ELEITO
+PE,Senador,Marília Arraes,PDT,2325127,2325127,Válido,0.2502,0.2497,ELEITO
+PE,Senador,Mendonça Filho,PL,1728587,1728587,Válido,0.186,0.1857,NÃO ELEITO
+PE,Senador,Eduardo Da Fonte,PP,1289058,1289058,Válido,0.1387,0.1384,NÃO ELEITO
+PE,Senador,Pastor Gilvan Costa,DEMOCRATA,0,18179,Anulado sub judice,0.0,0.002,NÃO ELEITO
+PI,Governador,Rafael Fonteles,PT,1436697,1436697,Válido,0.7108,0.709,ELEITO
+PI,Governador,Joel Rodrigues,PP,557972,557972,Válido,0.2761,0.2754,NÃO ELEITO
+PI,Governador,Professor Gisvaldo,PSOL,10002,10002,Válido,0.0049,0.0049,NÃO ELEITO
+PI,Governador,Dra. Lúcia Santos,PSDB,9611,9611,Válido,0.0048,0.0047,NÃO ELEITO
+PI,Governador,Geraldo Carvalho,PSTU,0,1858,Anulado sub judice,0.0,0.0009,NÃO ELEITO
+PI,Governador,Lourdes Melo,PCO,0,1296,Anulado sub judice,0.0,0.0006,NÃO ELEITO
+PI,Governador,Professor Jurity,DC,0,1102,Anulado sub judice,0.0,0.0005,NÃO ELEITO
+PI,Governador,Ravenna Da Inclusão,DEMOCRATA,0,819,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+PI,Senador,Marcelo Castro,MDB,1307833,1307833,Válido,0.3592,0.3567,ELEITO
+PI,Senador,Júlio César O Julim Do Lula,PSD,989146,989146,Válido,0.2717,0.2698,ELEITO
+PI,Senador,Ciro Nogueira,PP,904961,904961,Válido,0.2486,0.2468,NÃO ELEITO
+PI,Senador,Tiago Junqueira,PL,324530,324530,Válido,0.0891,0.0885,NÃO ELEITO
+PI,Senador,Dionisio Carvalho,DC,0,7832,Anulado sub judice,0.0,0.0021,NÃO ELEITO
+PI,Senador,Jardenya Bezerra,DEMOCRATA,0,6476,Anulado sub judice,0.0,0.0018,NÃO ELEITO
+PI,Senador,Irmão Evandro Marques,DC,0,6279,Anulado sub judice,0.0,0.0017,NÃO ELEITO
+PI,Senador,Danniel Rocha,PSTU,0,2790,Anulado sub judice,0.0,0.0008,NÃO ELEITO
+PI,Senador,Missionário Evandro Craveiro,DEMOCRATA,0,1513,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+PI,Senador,Cloves José,PCO,0,634,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+PR,Governador,Sergio Moro,PL,3127911,3127911,Válido,0.5011,0.501,ELEITO
+PR,Governador,Sandro Alex,PSD,1583764,1583764,Válido,0.2537,0.2537,NÃO ELEITO
+PR,Governador,Requião Filho,PDT,1465601,1465601,Válido,0.2348,0.2347,NÃO ELEITO
+PR,Governador,Luiz França,MISSÃO,44581,44581,Válido,0.0071,0.0071,NÃO ELEITO
+PR,Governador,Adriano Funileiro,PCO,0,1525,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+PR,Senador,Filipe Barros,PL,3148583,3148583,Válido,0.2728,0.2725,ELEITO
+PR,Senador,Deltan Dallagnol,NOVO,2904594,2904594,Válido,0.2516,0.2514,ELEITO
+PR,Senador,Alexandre Curi,REPUBLICANOS,1947135,1947135,Válido,0.1687,0.1685,NÃO ELEITO
+PR,Senador,Gleisi,PT,1542636,1542636,Válido,0.1336,0.1335,NÃO ELEITO
+PR,Senador,Marcelo Marcelino,PCO,0,9194,Anulado sub judice,0.0,0.0008,NÃO ELEITO
+RJ,Governador,Douglas Ruas,PL,4271199,4271199,Válido,0.5088,0.4927,2º TURNO
+RJ,Governador,Eduardo Paes,PSD,3706984,3706984,Válido,0.4416,0.4276,2º TURNO
+RJ,Governador,Garotinho,REPUBLICANOS,0,274411,Anulado sub judice,0.0,0.0317,NÃO ELEITO
+RJ,Governador,William Siri,PSOL,235347,235347,Válido,0.028,0.0271,NÃO ELEITO
+RJ,Senador,Carlos Portinho,PL,4264932,4264932,Válido,0.2678,0.2677,ELEITO
+RJ,Senador,Carlos Jordy,PL,3912405,3912405,Válido,0.2457,0.2456,ELEITO
+RJ,Senador,Benedita Da Silva,PT,3220765,3220765,Válido,0.2023,0.2022,NÃO ELEITO
+RJ,Senador,Pedro Paulo,PSD,1904352,1904352,Válido,0.1196,0.1195,NÃO ELEITO
+RJ,Senador,Luiz Eugenio,PCO,0,5825,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+RN,Governador,Allyson,UNIÃO,733809,733809,Válido,0.3694,0.3694,2º TURNO
+RN,Governador,Cadu De Lula,PT,718300,718300,Válido,0.3616,0.3616,2º TURNO
+RN,Governador,Álvaro Dias,PL,530580,530580,Válido,0.2671,0.2671,NÃO ELEITO
+RN,Governador,Arinalda Do Mlb,UP,1466,1466,Válido,0.0007,0.0007,NÃO ELEITO
+RN,Governador,Henrique Lyra,PCO,0,227,Anulado sub judice,0.0,0.0001,NÃO ELEITO
+RN,Senador,Styvenson Valentim,PODE,1055000,1055000,Válido,0.2925,0.2925,ELEITO
+RN,Senador,Samanda De Lula,PT,635924,635924,Válido,0.1763,0.1763,ELEITO
+RN,Senador,Zenaide Maia,PSD,630159,630159,Válido,0.1747,0.1747,NÃO ELEITO
+RN,Senador,Coronel Hélio,PL,620354,620354,Válido,0.172,0.172,NÃO ELEITO
+RO,Governador,Marcos Rogério,PL,537370,537370,Válido,0.5686,0.5686,ELEITO
+RO,Governador,Adailton Furia,PSD,189547,189547,Válido,0.2006,0.2006,NÃO ELEITO
+RO,Governador,Hildon Chaves,UNIÃO,134355,134355,Válido,0.1422,0.1422,NÃO ELEITO
+RO,Governador,Expedito Netto,PT,72851,72851,Válido,0.0771,0.0771,NÃO ELEITO
+RO,Senador,Dr. Fernando Máximo,PL,570799,570799,Válido,0.3243,0.3197,ELEITO
+RO,Senador,Bruno Scheid,PL,474226,474226,Válido,0.2695,0.2656,ELEITO
+RO,Senador,Sílvia Cristina,PP,304061,304061,Válido,0.1728,0.1703,NÃO ELEITO
+RO,Senador,Mariana Carvalho,REPUBLICANOS,207398,207398,Válido,0.1178,0.1162,NÃO ELEITO
+RO,Senador,Neidinha,PSB,0,25316,Anulado sub judice,0.0,0.0142,NÃO ELEITO
+RR,Governador,Arthur Henrique,PL,220809,220809,Válido,0.6915,0.6913,ELEITO
+RR,Governador,Soldado Sampaio,REPUBLICANOS,93434,93434,Válido,0.2926,0.2925,NÃO ELEITO
+RR,Governador,Rosi Aires,PSOL,4880,4880,Válido,0.0153,0.0153,NÃO ELEITO
+RR,Governador,Farah Mesquita,SOLIDARIEDADE,213,213,Válido,0.0007,0.0007,NÃO ELEITO
+RR,Governador,Clébio Genuíno,PCO,0,77,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+RR,Senador,Nicoletti,PL,138269,138269,Válido,0.2292,0.2268,ELEITO
+RR,Senador,Teresa Surita,MDB,117270,117270,Válido,0.1944,0.1924,ELEITO
+RR,Senador,Helena Da Asatur,PSD,106652,106652,Válido,0.1768,0.175,NÃO ELEITO
+RR,Senador,Chico Rodrigues,PSB,81845,81845,Válido,0.1356,0.1343,NÃO ELEITO
+RR,Senador,Márcio Junqueira,PSDB,0,3806,Anulado sub judice,0.0,0.0062,NÃO ELEITO
+RR,Senador,Hiperion De Oliveira,PV,0,2442,Anulado sub judice,0.0,0.004,NÃO ELEITO
+RS,Governador,Zucco,PL,3516048,3516048,Válido,0.5807,0.5805,ELEITO
+RS,Governador,Juliana Brizola,PDT,1917374,1917374,Válido,0.3166,0.3165,NÃO ELEITO
+RS,Governador,Gabriel Souza,MDB,510698,510698,Válido,0.0843,0.0843,NÃO ELEITO
+RS,Governador,Marcelo Maranata,PSDB,101978,101978,Válido,0.0168,0.0168,NÃO ELEITO
+RS,Governador,Cesar Pontes,PCO,0,2137,Anulado sub judice,0.0,0.0004,NÃO ELEITO
+RS,Senador,Sanderson,PL,3453316,3453316,Válido,0.3012,0.3011,ELEITO
+RS,Senador,Marcel Van Hattem,NOVO,3449053,3449053,Válido,0.3008,0.3008,ELEITO
+RS,Senador,Manuela D Ávila,PSOL,1957697,1957697,Válido,0.1707,0.1707,NÃO ELEITO
+RS,Senador,Pimenta,PT,1870301,1870301,Válido,0.1631,0.1631,NÃO ELEITO
+RS,Senador,Ric Jones,PCO,0,2310,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+SC,Governador,Jorginho Mello,PL,2942386,2942386,Válido,0.6898,0.6898,ELEITO
+SC,Governador,Gelson Merísio,PSB,668021,668021,Válido,0.1566,0.1566,NÃO ELEITO
+SC,Governador,João Rodrigues,PSD,569263,569263,Válido,0.1335,0.1335,NÃO ELEITO
+SC,Governador,Marcelo Brigadeiro,MISSÃO,46624,46624,Válido,0.0109,0.0109,NÃO ELEITO
+SC,Senador,Carol De Toni,PL,2694918,2694918,Válido,0.3351,0.3346,ELEITO
+SC,Senador,Carlos Bolsonaro,PL,2041840,2041840,Válido,0.2539,0.2535,ELEITO
+SC,Senador,Esperidião Amin,PP,1233034,1233034,Válido,0.1533,0.1531,NÃO ELEITO
+SC,Senador,Décio Lima,PT,823200,823200,Válido,0.1024,0.1022,NÃO ELEITO
+SC,Senador,Carol,PCO,0,11975,Anulado sub judice,0.0,0.0015,NÃO ELEITO
+SE,Governador,Fábio,PSD,727291,727291,Válido,0.6112,0.5927,ELEITO
+SE,Governador,Valmir De Francisquinho,REPUBLICANOS,459908,459908,Válido,0.3865,0.3748,NÃO ELEITO
+SE,Governador,Dr. Helton,PSOL,0,37081,Anulado sub judice,0.0,0.0302,NÃO ELEITO
+SE,Governador,Taty  Cristina De Jesus,DC,2728,2728,Válido,0.0023,0.0022,NÃO ELEITO
+SE,Senador,Rogerio Carvalho,PT,511142,511142,Válido,0.2267,0.2191,ELEITO
+SE,Senador,Delegado Alessandro,MDB,399775,399775,Válido,0.1773,0.1713,ELEITO
+SE,Senador,Delegado André David,REPUBLICANOS,378710,378710,Válido,0.168,0.1623,NÃO ELEITO
+SE,Senador,André Moura,UNIÃO,377669,377669,Válido,0.1675,0.1619,NÃO ELEITO
+SE,Senador,Iran Barbosa,PSOL,0,78400,Anulado sub judice,0.0,0.0336,NÃO ELEITO
+SP,Governador,Tarcísio,REPUBLICANOS,14491874,14491874,Válido,0.6265,0.6265,ELEITO
+SP,Governador,Fernando Haddad,PT,8423656,8423656,Válido,0.3642,0.3642,NÃO ELEITO
+SP,Governador,Vivian Mendes,UP,80480,80480,Válido,0.0035,0.0035,NÃO ELEITO
+SP,Governador,Vera Lúcia,PSTU,75641,75641,Válido,0.0033,0.0033,NÃO ELEITO
+SP,Senador,Guilherme Derrite,PP,13273880,13273880,Válido,0.306,0.3059,ELEITO
+SP,Senador,André Do Prado,PL,12703089,12703089,Válido,0.2928,0.2928,ELEITO
+SP,Senador,Simone Tebet,PSB,8342968,8342968,Válido,0.1923,0.1923,NÃO ELEITO
+SP,Senador,Marina Silva,REDE,7862400,7862400,Válido,0.1813,0.1812,NÃO ELEITO
+SP,Senador,William Teixeira,AGIR,0,8732,Anulado sub judice,0.0,0.0002,NÃO ELEITO
+TO,Governador,Professora Dorinha,UNIÃO,386260,386260,Válido,0.4552,0.4552,2º TURNO
+TO,Governador,Vicentinho Júnior,PSDB,372848,372848,Válido,0.4394,0.4394,2º TURNO
+TO,Governador,Laurez Moreira,PSD,69967,69967,Válido,0.0824,0.0824,NÃO ELEITO
+TO,Governador,Ataides De Oliveira,NOVO,13173,13173,Válido,0.0155,0.0155,NÃO ELEITO
+TO,Senador,Eduardo Gomes,PL,450191,450191,Válido,0.2728,0.2722,ELEITO
+TO,Senador,Alexandre Guimarães,MDB,316786,316786,Válido,0.1919,0.1916,ELEITO
+TO,Senador,Eli Borges,REPUBLICANOS,271829,271829,Válido,0.1647,0.1644,NÃO ELEITO
+TO,Senador,Gaguim,UNIÃO,255548,255548,Válido,0.1548,0.1545,NÃO ELEITO
+TO,Senador,Helio Rodrigues Bolsonaro,DEMOCRATA,0,3254,Anulado sub judice,0.0,0.002,NÃO ELEITO

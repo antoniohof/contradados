@@ -14,7 +14,12 @@ import pandas as pd
 T26 = TSE_RAW / "tse_2026"
 UFS = "AC AL AM AP BA CE DF ES GO MA MG MS MT PA PB PE PI PR RJ RN RO RR RS SC SE SP TO".split()
 COLS = ["NR_TURNO", "SG_UF", "CD_MUNICIPIO", "CD_CARGO", "NR_CANDIDATO", "NM_URNA_CANDIDATO",
-        "SG_PARTIDO", "QT_VOTOS_NOMINAIS_VALIDOS", "DS_SIT_TOT_TURNO"]
+        "SG_PARTIDO", "QT_VOTOS_NOMINAIS", "QT_VOTOS_NOMINAIS_VALIDOS", "NM_TIPO_DESTINACAO_VOTOS", "DS_SIT_TOT_TURNO"]
+NUM = ["QT_VOTOS_NOMINAIS", "QT_VOTOS_NOMINAIS_VALIDOS"]
+# Votos "Anulado sub judice": candidatos com registro sob julgamento. O TSE não os conta como
+# válidos (QT_VOTOS_NOMINAIS_VALIDOS = 0), então os % de governador/senado aqui são sobre os
+# válidos oficiais. Em 2026 isso afeta governador (RJ, MA, SE...) e senado (AC, SE, RO...),
+# nunca presidente. `vn` guarda os nominais, incluindo os sub judice.
 PRES = {"LULA": "lula", "FLAVIO BOLSONARO": "flavio", "RONALDO CAIADO": "caiado", "RENAN SANTOS": "renan",
         "ESCRITOR AUGUSTO CURY": "cury", "ZEMA": "zema"}
 
@@ -24,10 +29,10 @@ def read_member(z, name, cargos):
     for ch in pd.read_csv(z.open(name), sep=";", encoding="latin1", dtype=str, usecols=COLS, chunksize=500_000):
         ch = ch[ch.CD_CARGO.isin(cargos) & (ch.SG_UF != "ZZ")]
         ch["CD_MUNICIPIO"] = ch.CD_MUNICIPIO.str.zfill(5)  # o arquivo _BR vem sem zeros à esquerda
-        ch = ch.assign(v=ch.QT_VOTOS_NOMINAIS_VALIDOS.astype(int)).drop(columns="QT_VOTOS_NOMINAIS_VALIDOS")
-        parts.append(ch.groupby([c for c in COLS if c != "QT_VOTOS_NOMINAIS_VALIDOS"], dropna=False).v.sum().reset_index())
+        ch = ch.assign(v=ch.QT_VOTOS_NOMINAIS_VALIDOS.astype(int), vn=ch.QT_VOTOS_NOMINAIS.astype(int)).drop(columns=NUM)
+        parts.append(ch.groupby([c for c in COLS if c not in NUM], dropna=False)[["v", "vn"]].sum().reset_index())
     d = pd.concat(parts)
-    return d.groupby([c for c in d.columns if c != "v"], dropna=False).v.sum().reset_index()
+    return d.groupby([c for c in d.columns if c not in ("v", "vn")], dropna=False)[["v", "vn"]].sum().reset_index()
 
 
 def pct(a, b):
@@ -47,6 +52,8 @@ def local_race(d, cargo, label):
         bp = x[x.SG_PARTIDO == party].groupby("CD_MUNICIPIO").head(1).set_index("CD_MUNICIPIO")
         out[f"{label}_{party}_candidato"] = bp.NM_URNA_CANDIDATO.str.title()
         out[f"{label}_{party}_pct"] = bp.p.round(4)
+    sj = d[(d.CD_CARGO == cargo) & (d.NM_TIPO_DESTINACAO_VOTOS != "Válido")]
+    out[f"{label}_votos_sub_judice"] = sj.groupby("CD_MUNICIPIO").vn.sum().reindex(out.index).fillna(0).astype(int)
     return out
 
 
@@ -135,12 +142,15 @@ def main():
         d = read_member(z, f"votacao_candidato_munzona_2026_{uf}.csv", {"3", "5"})
         d = d[d.NR_TURNO == "1"]
         for cargo, lab in [("3", "Governador"), ("5", "Senador")]:
-            x = d[d.CD_CARGO == cargo].groupby(["NM_URNA_CANDIDATO", "SG_PARTIDO", "DS_SIT_TOT_TURNO"]).v.sum().reset_index()
-            x["pct"] = pct(x.v, x.v.sum())
-            x = x.sort_values("v", ascending=False).head(4)
-            for r in x.itertuples():
+            x = d[d.CD_CARGO == cargo].groupby(["NM_URNA_CANDIDATO", "SG_PARTIDO", "DS_SIT_TOT_TURNO", "NM_TIPO_DESTINACAO_VOTOS"])[["v", "vn"]].sum().reset_index()
+            x["pct"] = pct(x.v, x.v.sum())                      # base oficial: válidos
+            x["pct_com_sub_judice"] = pct(x.vn, x.vn.sum())     # base: válidos + anulados sub judice
+            sj = x[x.NM_TIPO_DESTINACAO_VOTOS != "Válido"]
+            x = pd.concat([x.sort_values("vn", ascending=False).head(4), sj]).drop_duplicates()
+            for r in x.sort_values("vn", ascending=False).itertuples():
                 est.append(dict(UF=uf, cargo=lab, candidato=r.NM_URNA_CANDIDATO.title(), partido=r.SG_PARTIDO,
-                                votos=r.v, pct=r.pct, situacao=r.DS_SIT_TOT_TURNO))
+                                votos=r.v, votos_nominais=r.vn, destinacao=r.NM_TIPO_DESTINACAO_VOTOS,
+                                pct=r.pct, pct_com_sub_judice=r.pct_com_sub_judice, situacao=r.DS_SIT_TOT_TURNO))
     pd.DataFrame(est).to_csv(OUT / "estados_2026.csv", index=False)
 
 
