@@ -27,3 +27,18 @@ with open('data/cenarios.csv', 'w', newline='', encoding='utf-8') as f:
                         j(p.get('prefeito_2024')), j(p.get('partido_prefeito_sigla')), j(p.get('pl_local')),
                         j(p.get('economia')), j(p.get('pautas')), j(p.get('eventos')), j(p.get('fontes')), j(p.get('confianca'))])
 print('ok')
+# pendências: prefeito ausente na base TSE, pautas vazias (mesmo critério de merge.py) ou confiança baixa
+def vazio(v):
+    if isinstance(v, list): return all(vazio(x) for x in v)
+    s = str(v or '').lower().strip()
+    return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))
+cen = {}
+for k, ids in L.items():
+    for n, i in enumerate(ids, 1): cen.setdefault(i, []).append(f'{k}#{n}')
+with open('data/pendencias.csv', 'w', newline='', encoding='utf-8') as f:
+    w = csv.writer(f); w.writerow(['ibge', 'municipio', 'uf', 'cenarios', 'falta_prefeito', 'falta_pautas', 'sem_pesquisa', 'confianca'])
+    for i, c in sorted(cen.items(), key=lambda x: (idx[x[0]]['uf'], idx[x[0]]['municipio'])):
+        p = P.get(i)
+        row = [int(i not in T), int(p is None or vazio(p.get('pautas'))), int(p is None)]
+        if any(row) or (p or {}).get('confianca') == 'baixa':
+            w.writerow([i, idx[i]['municipio'], idx[i]['uf'], ', '.join(c), *row, (p or {}).get('confianca', '')])

@@ -1,136 +1,173 @@
-ibge,municipio,uf,cenarios,falta_prefeito,falta_pautas,sem_pesquisa
-1200302,Feijó,AC,S1#31,0,1,0
-1300300,Autazes,AM,S2#56,0,1,0
-1301100,Careiro,AM,S2#77,0,1,0
-1301704,Humaitá,AM,S1#4,0,1,0
-1500404,Alenquer,PA,S3#72,0,1,0
-1501451,Belterra,PA,S1#89;S3#8,0,1,0
-1501782,Breu Branco,PA,S2#65,0,1,0
-1502939,Dom Eliseu,PA,S1#44;S3#6,0,1,0
-1503804,Jacundá,PA,S1#62,1,0,0
-1505809,Portel,PA,S2#38,0,1,0
-1600501,Oiapoque,AP,S2#97,1,0,0
-1700251,Abreulândia,TO,S3#61,0,1,0
-1700350,Aliança Do Tocantins,TO,S3#44,0,1,0
-1701101,Aparecida Do Rio Negro,TO,S3#39,0,1,0
-1703107,Barrolândia,TO,S3#37,0,1,0
-1703867,Cariri Do Tocantins,TO,S3#98,0,1,0
-1708304,Goianorte,TO,S3#40,0,1,0
-1717909,Ponte Alta Do Tocantins,TO,S3#32,1,0,0
-1718204,Porto Nacional,TO,S1#94,1,0,0
-2103307,Codó,MA,S2#6,0,1,0
-2103406,Coelho Neto,MA,S2#69,0,1,0
-2103604,Coroatá,MA,S2#23,0,1,0
-2203701,Esperantina,PI,S2#89,0,1,0
-2207900,Pedro Ii,PI,S2#57,0,1,0
-2208403,Piripiri,PI,S2#20,1,0,0
-2310506,Pedra Branca,CE,S2#68,1,0,0
-2601409,Barreiros,PE,S2#88,0,1,0
-2602100,Bom Conselho,PE,S2#75,0,1,0
-2602605,Brejo Da Madre De Deus,PE,S2#64,0,1,0
-2602803,Buíque,PE,S2#25,0,1,0
-2605103,Custódia,PE,S2#85,0,1,0
-2610905,Pesqueira,PE,S2#21,0,1,0
-2613503,São José Do Belmonte,PE,S2#99,0,1,0
-2700409,Atalaia,AL,S2#86,0,1,0
-2701407,Campo Alegre,AL,S2#95,0,1,0
-2702405,Delmiro Gouveia,AL,S2#40,0,1,0
-2706703,Penedo,AL,S2#32,0,1,0
-2707404,Porto De Pedras,AL,S3#21,0,1,0
-2708709,São Miguel Dos Milagres,AL,S3#84,0,1,0
-2709152,Teotônio Vilela,AL,S2#55,0,1,0
-2900702,Alagoinhas,BA,S2#5,0,1,0
-2902708,Barra,BA,S2#62,0,1,0
-2906501,Candeias,BA,S2#14,0,1,0
-2910057,Dias D'Ávila,BA,S2#24,0,1,0
-2910503,Entre Rios,BA,S2#73,0,1,0
-2922003,Mucuri,BA,S2#90,0,1,0
-2925105,Poções,BA,S2#63,0,1,0
-2928604,Santo Amaro,BA,S2#33,0,1,0
-2933604,Xique-Xique,BA,S2#61,0,1,0
-3100104,Abadia Dos Dourados,MG,S3#92,0,1,0
-3101706,Almenara,MG,S2#48,0,1,0
-3103405,Araçuaí,MG,S2#50,0,1,0
-3107307,Bocaiúva,MG,S2#66,0,1,0
-3108602,Brasília De Minas,MG,S2#72,0,1,0
-3112307,Capelinha,MG,S1#16,0,1,0
-3112604,Capinópolis,MG,S1#30,0,1,0
-3113206,Carandaí,MG,S1#97,1,0,0
-3114204,Carmo Do Cajuru,MG,S3#74,0,1,0
-3114501,Carmópolis De Minas,MG,S1#79;S3#10,0,1,0
-3115300,Cataguases,MG,S2#18,0,1,0
-3121605,Diamantina,MG,S2#31,0,1,0
-3123007,Dores De Campos,MG,S3#85,0,1,0
-3129509,Ibiá,MG,S1#24,0,1,0
-3133501,Itapecerica,MG,S1#39,0,1,0
-3135050,Jaíba,MG,S2#98,0,1,0
-3135209,Januária,MG,S2#12,0,1,0
-3135308,Japaraíba,MG,S3#99,0,1,0
-3137403,Lagoa Dourada,MG,S3#78,0,1,0
-3138401,Leopoldina,MG,S2#37,0,1,0
-3145000,Nova Ponte,MG,S1#49,0,1,0
-3146107,Ouro Preto,MG,S2#15,1,0,0
-3152006,Pompéu,MG,S1#43,0,1,0
-3152105,Ponte Nova,MG,S2#35,0,1,0
-3152204,Porteirinha,MG,S2#80,0,1,0
-3152808,Prata,MG,S1#18,0,1,0
-3153400,Presidente Olegário,MG,S1#48,0,1,0
-3155504,Rio Paranaíba,MG,S1#11,0,1,0
-3156304,Rodeiro,MG,S3#87,0,1,0
-3157005,Salinas,MG,S2#53,1,1,0
-3157708,Santa Juliana,MG,S1#20,1,1,0
-3160702,Santos Dumont,MG,S2#46,1,1,0
-3161106,São Francisco,MG,S2#19,1,1,0
-3161908,São Gonçalo Do Rio Abaixo,MG,S1#19,1,1,0
-3162401,São João Da Ponte,MG,S2#84,1,1,0
-3171006,Vazante,MG,S1#37,1,0,0
-3171303,Viçosa,MG,S2#16,1,0,0
-3513801,Diadema,SP,S2#1,0,1,0
-3516309,Francisco Morato,SP,S2#4,1,1,0
-3517703,Guará,SP,S1#85;S3#77,1,1,0
-3520103,Igarapava,SP,S1#99,0,1,0
-3521309,Ipuã,SP,S1#75,1,1,0
-3521804,Itaí,SP,S1#50,1,1,0
-3526605,Lavrinhas,SP,S3#89,1,1,0
-3529708,Miguelópolis,SP,S1#84,1,1,0
-3532207,Narandiba,SP,S3#95,1,1,0
-3537008,Pedregulho,SP,S1#80,1,1,0
-3543006,Ribeirão Branco,SP,S1#36,1,1,0
-3552007,Silveiras,SP,S3#93,1,0,0
-3552908,Taciba,SP,S3#94,0,1,0
-3553609,Tapiratiba,SP,S3#82,0,1,0
-4101002,Ampére,PR,S1#41,1,0,0
-4102901,Bituruna,PR,S1#14;S3#11,1,0,0
-4111209,Itapejara D'Oeste,PR,S3#19,1,0,0
-4114401,Mangueirinha,PR,S1#38,1,0,0
-4115408,Marmeleiro,PR,S1#22;S3#13,1,1,1
-4117255,Nova Prata Do Iguaçu,PR,S3#20,1,1,1
-4117602,Palmas,PR,S1#69,1,1,1
-4117800,Palmital,PR,S1#55,1,1,1
-4119608,Pitanga,PR,S1#34,1,1,1
-4119806,Planalto,PR,S1#64;S3#17,1,1,1
-4121604,Renascença,PR,S3#36,1,1,1
-4122206,Rio Branco Do Sul,PR,S1#90;S3#73,1,1,1
-4122800,Salgado Filho,PR,S3#100,1,1,1
-4124400,Santo Antônio Do Sudoeste,PR,S1#63;S3#76,1,1,1
-4125100,São João Do Triunfo,PR,S1#1;S3#1,0,1,0
-4126603,Siqueira Campos,PR,S1#32,1,1,1
-4126652,Sulina,PR,S3#54,1,1,1
-4128534,Ventania,PR,S3#25,1,0,0
-4200507,Águas De Chapecó,SC,S3#38,0,1,0
-4203501,Campo Erê,SC,S3#24,1,1,0
-4204103,Caxambu Do Sul,SC,S3#42,1,1,0
-4205308,Faxinal Dos Guedes,SC,S3#83,0,1,0
-4207858,Irati,SC,S3#68,1,1,0
-4211454,Nova Itaberaba,SC,S3#96,1,1,0
-4211876,Paial,SC,S3#69,1,1,0
-4212007,Palma Sola,SC,S3#35,1,1,0
-4213153,Planalto Alegre,SC,S3#55,0,1,0
-4215752,São Bernardino,SC,S3#59,1,1,0
-4216800,São José Do Cerrito,SC,S3#23,1,1,0
-4217154,São Miguel Da Boa Vista,SC,S3#4,1,1,0
-4315305,Quaraí,RS,S1#83,0,1,0
-5204805,Campo Alegre De Goiás,GO,S3#31,1,0,0
-5209952,Indiara,GO,S1#40,1,0,0
-5215504,Ouvidor,GO,S1#10,0,1,0
-5219308,Santa Helena De Goiás,GO,S1#17,0,1,0
+ibge,municipio,uf,cenarios,falta_prefeito,falta_pautas,sem_pesquisa,confianca
+2700409,Atalaia,AL,S2#86,0,0,0,baixa
+2701407,Campo Alegre,AL,S2#95,0,0,0,baixa
+2702405,Delmiro Gouveia,AL,S2#40,0,0,0,baixa
+2706307,Palmeira Dos Índios,AL,S2#27,0,0,0,baixa
+2706703,Penedo,AL,S2#32,0,0,0,baixa
+2707404,Porto De Pedras,AL,S3#21,0,0,0,baixa
+2708709,São Miguel Dos Milagres,AL,S3#85,0,0,0,baixa
+2709152,Teotônio Vilela,AL,S2#55,0,0,0,baixa
+2709301,União Dos Palmares,AL,S2#29,0,0,0,baixa
+2902708,Barra,BA,S2#62,0,0,0,baixa
+2906303,Canavieiras,BA,S2#92,0,0,0,baixa
+2906501,Candeias,BA,S2#14,0,0,0,baixa
+2910057,Dias D'Ávila,BA,S2#24,0,0,0,baixa
+2910503,Entre Rios,BA,S2#73,0,0,0,baixa
+2913903,Ipiaú,BA,S2#70,0,0,0,baixa
+2914000,Ipirá,BA,S2#28,0,1,0,baixa
+2921005,Mata De São João,BA,S2#43,0,0,0,baixa
+2922003,Mucuri,BA,S2#91,0,0,0,baixa
+2925105,Poções,BA,S2#63,0,0,0,baixa
+2927705,Santa Cruz Cabrália,BA,S2#82,0,0,0,baixa
+2928604,Santo Amaro,BA,S2#33,0,0,0,baixa
+2929206,São Francisco Do Conde,BA,S2#60,0,0,0,baixa
+2933604,Xique-Xique,BA,S2#61,0,0,0,baixa
+2305902,Ipueiras,CE,S2#94,0,1,0,baixa
+2308500,Mombaça,CE,S2#87,0,1,0,baixa
+2310308,Parambu,CE,S2#100,0,1,0,baixa
+2310506,Pedra Branca,CE,S2#68,0,0,0,baixa
+5204805,Campo Alegre De Goiás,GO,S3#31,0,0,0,baixa
+5209952,Indiara,GO,S1#40,0,0,0,baixa
+5210901,Itapaci,GO,S1#74,0,0,0,baixa
+5218300,Posse,GO,S1#59,0,0,0,baixa
+5220405,São Simão,GO,S1#76,0,0,0,baixa
+2103406,Coelho Neto,MA,S2#69,0,0,0,baixa
+2103604,Coroatá,MA,S2#23,0,0,0,baixa
+2108306,Penalva,MA,S2#96,0,0,0,baixa
+2108603,Pinheiro,MA,S2#13,0,0,0,baixa
+2110005,Santa Luzia,MA,S2#34,0,0,0,baixa
+2110500,São Bento,MA,S2#67,0,0,0,baixa
+2111508,São Mateus Do Maranhão,MA,S2#74,0,0,0,baixa
+2112506,Tutóia,MA,S2#41,0,0,0,baixa
+2112704,Vargem Grande,MA,S2#79,0,0,0,baixa
+2112803,Viana,MA,S2#47,0,0,0,baixa
+2114007,Zé Doca,MA,S2#81,0,0,0,baixa
+3100104,Abadia Dos Dourados,MG,S3#93,0,1,0,média
+3107109,Boa Esperança,MG,S1#93,0,0,0,baixa
+3107307,Bocaiúva,MG,S2#66,0,0,0,baixa
+3107901,Bom Repouso,MG,S1#54,0,0,0,baixa
+3108602,Brasília De Minas,MG,S2#72,0,0,0,baixa
+3113206,Carandaí,MG,S1#97,0,0,0,baixa
+3117306,Conceição Das Alagoas,MG,S1#67,0,0,0,baixa
+3123007,Dores De Campos,MG,S3#86,0,0,0,baixa
+3129509,Ibiá,MG,S1#24,0,0,0,baixa
+3131901,Itabirito,MG,S1#71,0,0,0,baixa
+3133501,Itapecerica,MG,S1#39,0,1,0,baixa
+3134400,Iturama,MG,S1#82,0,0,0,baixa
+3135209,Januária,MG,S2#12,0,0,0,baixa
+3135308,Japaraíba,MG,S3#100,0,0,0,baixa
+3135050,Jaíba,MG,S2#98,0,0,0,baixa
+3137403,Lagoa Dourada,MG,S3#79,0,1,0,baixa
+3138401,Leopoldina,MG,S2#37,0,0,0,baixa
+3140001,Mariana,MG,S2#22,0,0,0,baixa
+3141801,Minas Novas,MG,S2#59,0,0,0,baixa
+3142809,Monte Alegre De Minas,MG,S1#60,0,0,0,baixa
+3143005,Monte Belo,MG,S1#92,0,1,0,baixa
+3143104,Monte Carmelo,MG,S1#78,0,1,0,baixa
+3145000,Nova Ponte,MG,S1#49,0,0,0,baixa
+3145307,Novo Cruzeiro,MG,S2#45,0,0,0,baixa
+3146909,Papagaios,MG,S1#52,0,1,0,baixa
+3152006,Pompéu,MG,S1#43,0,0,0,baixa
+3152105,Ponte Nova,MG,S2#35,0,0,0,baixa
+3152204,Porteirinha,MG,S2#80,0,0,0,baixa
+3151701,Poço Fundo,MG,S1#70,0,1,0,baixa
+3152808,Prata,MG,S1#18,0,0,0,baixa
+3155504,Rio Paranaíba,MG,S1#11,0,0,0,baixa
+3156304,Rodeiro,MG,S3#88,0,0,0,baixa
+3157005,Salinas,MG,S2#53,0,0,0,baixa
+3157708,Santa Juliana,MG,S1#20,0,0,0,baixa
+3160702,Santos Dumont,MG,S2#46,0,0,0,baixa
+3161106,São Francisco,MG,S2#19,0,0,0,baixa
+3161908,São Gonçalo Do Rio Abaixo,MG,S1#19,0,0,0,baixa
+3162401,São João Da Ponte,MG,S2#84,0,0,0,baixa
+3169604,Tupaciguara,MG,S1#100,0,1,0,baixa
+3171006,Vazante,MG,S1#37,0,0,0,baixa
+3171303,Viçosa,MG,S2#16,0,0,0,baixa
+3170800,Várzea Da Palma,MG,S1#91,0,1,0,baixa
+5106232,Nova Olímpia,MT,S1#98,0,1,0,média
+1500404,Alenquer,PA,S3#73,0,0,0,baixa
+1501451,Belterra,PA,"S1#90, S3#8",0,0,0,baixa
+1501782,Breu Branco,PA,S2#65,0,0,0,baixa
+1502939,Dom Eliseu,PA,"S1#44, S3#6",0,0,0,baixa
+1503804,Jacundá,PA,S1#62,0,1,0,baixa
+1504950,Nova Esperança Do Piriá,PA,S1#81,0,0,0,baixa
+1505809,Portel,PA,S2#38,0,0,0,baixa
+1507953,Tailândia,PA,S1#8,0,0,0,baixa
+1508001,Tomé-Açu,PA,S2#26,0,1,0,baixa
+1508126,Ulianópolis,PA,"S1#72, S3#7",0,0,0,baixa
+1508357,Vitória Do Xingu,PA,"S1#87, S3#76",0,0,0,baixa
+2602100,Bom Conselho,PE,S2#75,0,0,0,baixa
+2602803,Buíque,PE,S2#25,0,0,0,baixa
+2605103,Custódia,PE,S2#85,0,0,0,baixa
+2613503,São José Do Belmonte,PE,S2#99,0,0,0,baixa
+2203701,Esperantina,PI,S2#89,0,0,0,baixa
+2207900,Pedro Ii,PI,S2#57,0,0,0,baixa
+2208403,Piripiri,PI,S2#20,0,1,0,baixa
+4101002,Ampére,PR,S1#41,0,1,0,baixa
+4102901,Bituruna,PR,"S1#14, S3#11",0,1,0,baixa
+4104428,Candói,PR,"S1#15, S3#12",0,1,0,média
+4106571,Cruzeiro Do Iguaçu,PR,S3#50,0,1,0,média
+4107850,Flor Da Serra Do Sul,PR,S3#41,0,1,0,média
+4111209,Itapejara D'Oeste,PR,S3#19,0,1,0,baixa
+4114401,Mangueirinha,PR,S1#38,0,0,0,baixa
+4117800,Palmital,PR,S1#55,0,0,0,baixa
+4119806,Planalto,PR,"S1#64, S3#17",0,0,0,baixa
+4126652,Sulina,PR,S3#54,0,0,0,baixa
+4127965,Turvo,PR,S1#13,0,1,0,média
+4128534,Ventania,PR,S3#25,0,0,0,baixa
+4304002,Campo Novo,RS,S3#47,0,0,0,baixa
+4304614,Canudos Do Vale,RS,S3#3,0,0,0,baixa
+4305207,Cerro Largo,RS,"S1#47, S3#18",0,0,0,baixa
+4306072,Cristal Do Sul,RS,S3#56,0,0,0,baixa
+4306429,Dois Irmãos Das Missões,RS,S3#66,0,0,0,baixa
+4306601,Dom Pedrito,RS,S1#12,0,0,0,baixa
+4306924,Engenho Velho,RS,S3#71,0,0,0,baixa
+4307203,Erval Grande,RS,S3#43,0,0,0,baixa
+4307302,Erval Seco,RS,S3#34,0,0,0,baixa
+4309571,Herveiras,RS,S3#57,0,0,0,baixa
+4310504,Iraí,RS,S3#92,0,0,0,baixa
+4310850,Jaboticaba,RS,S3#52,0,0,0,baixa
+4310876,Jacuizinho,RS,S3#67,0,0,0,baixa
+4311734,Mampituba,RS,S3#53,0,1,0,baixa
+4313441,Novo Tiradentes,RS,S3#70,0,0,0,baixa
+4313805,Palmitinho,RS,S3#28,0,0,0,baixa
+4314498,Pinheirinho Do Vale,RS,S3#98,0,0,0,baixa
+4315958,Rolador,RS,S3#62,0,1,0,baixa
+4316105,Ronda Alta,RS,S3#26,0,1,0,baixa
+4316428,Sagrada Família,RS,S3#64,0,1,0,baixa
+4316451,Salto Do Jacuí,RS,S3#22,0,1,0,baixa
+4317806,Santo Augusto,RS,S1#56,0,1,0,média
+4320354,Sentinela Do Sul,RS,S3#45,0,1,0,baixa
+4318101,São Francisco De Assis,RS,S1#5,0,0,0,baixa
+4318200,São Francisco De Paula,RS,S1#23,0,0,0,baixa
+4318408,São Jerônimo,RS,S1#95,0,0,0,baixa
+4319604,São Sepé,RS,S1#29,0,0,0,baixa
+4321402,Tenente Portela,RS,"S1#26, S3#15",0,0,0,baixa
+4323507,Vista Alegre,RS,S3#58,0,0,0,baixa
+4203501,Campo Erê,SC,S3#24,0,0,0,baixa
+4204103,Caxambu Do Sul,SC,S3#42,0,0,0,baixa
+4205308,Faxinal Dos Guedes,SC,S3#84,0,0,0,baixa
+4207858,Irati,SC,S3#68,0,0,0,baixa
+4211454,Nova Itaberaba,SC,S3#97,0,0,0,baixa
+4211876,Paial,SC,S3#69,0,0,0,baixa
+4212007,Palma Sola,SC,S3#35,0,0,0,baixa
+4213153,Planalto Alegre,SC,S3#55,0,0,0,baixa
+4215752,São Bernardino,SC,S3#59,0,0,0,baixa
+4216800,São José Do Cerrito,SC,S3#23,0,0,0,baixa
+4217154,São Miguel Da Boa Vista,SC,S3#4,0,0,0,baixa
+4200507,Águas De Chapecó,SC,S3#38,0,0,0,baixa
+3516309,Francisco Morato,SP,S2#4,0,0,0,baixa
+3517703,Guará,SP,"S1#85, S3#78",0,0,0,baixa
+3521309,Ipuã,SP,S1#75,0,0,0,baixa
+3521804,Itaí,SP,S1#50,0,1,0,baixa
+3526605,Lavrinhas,SP,S3#90,0,0,0,baixa
+3529708,Miguelópolis,SP,S1#84,0,0,0,baixa
+3532207,Narandiba,SP,S3#96,0,1,0,baixa
+3537008,Pedregulho,SP,S1#80,0,1,0,média
+3552007,Silveiras,SP,S3#94,0,0,0,baixa
+3552908,Taciba,SP,S3#95,0,1,0,baixa
+3553609,Tapiratiba,SP,S3#83,0,1,0,baixa
+1700350,Aliança Do Tocantins,TO,S3#44,0,0,0,baixa
+1701101,Aparecida Do Rio Negro,TO,S3#39,0,0,0,baixa
+1703107,Barrolândia,TO,S3#37,0,0,0,baixa
+1717909,Ponte Alta Do Tocantins,TO,S3#32,0,0,0,baixa

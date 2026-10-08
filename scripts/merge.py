@@ -1,9 +1,10 @@
 # junta pesquisa da rodada 1 e 2 (rodada 2 completa/substitui campos vazios)
 import json, glob, re
 def empty(v):
-    s = ' '.join(map(str, v)) if isinstance(v, list) else str(v or '')
-    s = s.lower().strip()
-    return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrado', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))
+    # lista: vazia só se todos os itens forem lacunas (um item "Lacuna: ..." não anula os demais)
+    if isinstance(v, list): return all(empty(x) for x in v)
+    s = str(v or '').lower().strip()
+    return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))
 M = {}
 for f in sorted(glob.glob('data/pesquisa_bruta/lote_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r2_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r3_*.json')) + sorted(glob.glob('data/pesquisa_bruta/r4_*.json')):
     for x in json.load(open(f)):
@@ -33,6 +34,8 @@ def limpa_nome(n):
     n = re.split(r'\s*\((?=[^)]*(\d|%|nome de urna|válidos|prefeit|reeleit|atual|grafado))', n)[0]
     return n.split(';')[0].strip()
 for v in M.values():
+    if isinstance(v.get('pautas'), list) and not empty(v['pautas']):  # tira notas de lacuna quando há pautas
+        v['pautas'] = [x for x in v['pautas'] if not empty(x)]
     v['partido_prefeito_sigla'], v['partido_prefeito_incerto'] = sigla(v.get('partido_prefeito'))
     v['prefeito_2024_nome'] = limpa_nome(v.get('prefeito_2024'))
 json.dump(list(M.values()), open('data/pesquisa_local.json', 'w'), ensure_ascii=False, indent=1)

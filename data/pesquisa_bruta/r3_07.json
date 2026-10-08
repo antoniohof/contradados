@@ -1,0 +1,281 @@
+[
+ {
+  "ibge": "4117255",
+  "municipio": "Nova Prata do Iguaçu",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município agrícola de pequeno porte do Sudoeste do PR (cerca de 7,2 mil eleitores em 2026, segundo a Rádio Independência), às margens do lago da usina de Salto Caxias; produção agrícola e loteamentos/turismo beira-lago citados na imprensa local.",
+  "pautas": [
+   "Estiagem 2025/26: município entre os que decretaram situação de emergência por seca (lista Bem Paraná, abr/2026); perdas de até 100% em lavouras no Sudoeste (Jornal de Beltrão, mar/2026, manchete)",
+   "Estradas rurais/escoamento: asfalto da Rodovia Cândido Rizzotto (Alto Bela Vista até a balsa para Três Barras do Paraná, ~9 km, R$ 11,2 mi do Estado/SEIL), reivindicado há mais de 30 anos",
+   "Saúde: construção de novo PAM (Pronto Atendimento Municipal) e renovação da frota com mais de R$ 9 mi do Estado (jul/2025)",
+   "Enchentes/temporais: temporal de 29/09/2026 danificou cerca de 60 casas, afetou ~240 pessoas, desalojou 15, inundou o posto de saúde e destruiu pontes",
+   "Segurança: operações contra tráfico e descaminho/contrabando (BPFron, Polícia Civil) ao longo de 2026 (manchetes)"
+  ],
+  "eventos": "Situação de emergência por estiagem (abr/2026); temporal com alagamentos em 29-30/09/2026 e ventos de ~140 km/h registrados no próprio dia da eleição, 04/10/2026 (Tribuna do Paraná), com 91,6 mil desligamentos de energia no Sudoeste; urnas funcionaram com bateria segundo o TRE-PR.",
+  "fontes": [
+   "https://www.parana.pr.gov.br/Audio/Governo-libera-R-24-milhoes-para-fortalecimento-da-saude-publica-em-cidades-do-Sudoeste",
+   "https://www.rinet.com.br/noticia.aspx?id=14861&t=obra-de-r-112-milhoes-vai-transformar-acesso-e-escoamento-agricola-em-nova-prata-do-iguacu",
+   "https://www.jornalnovotempo.com.br/~jornalno/noticias/regional/temporal-causa-alagamentos-e-deixa-dezenas-de-familias-afetadas-em-nova-prata-do-iguacu",
+   "https://www.bemparana.com.br/noticias/parana/seca-no-parana-cada-vez-mais-cidades-decretam-situacao-de-emergencia/",
+   "https://www.tribunapr.com.br/noticias/parana/tempestades-derrubam-energia-mais-308-mil-clientes-dia-eleicao-parana/"
+  ],
+  "confianca": "alta",
+  "obs": "Obra da Cândido Rizzotto atribuída na matéria ao dep. estadual Ademar Traiano (PSD). Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4117602",
+  "municipio": "Palmas",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Maior exportador do Sudoeste do PR (US$ 221,9 mi em 2025, ante US$ 245,8 mi em 2024), com base em madeira compensada (US$ 171 mi), além de carnes; cerca de 32,3 mil eleitores (RBJ).",
+  "pautas": [
+   "Emprego/indústria madeireira: queda das exportações de compensado em 2025 por tarifas de até 50% dos EUA, que não foram retiradas para o produto",
+   "Fechamento de empresa: a Bio Tee Sul América (heparina, grupo Bioiberica) suspendeu a unidade de Palmas a partir de 01/02/2026, com desligamento de funcionários",
+   "Desenvolvimento/renda: Palmas é o último do Sudoeste no IPDM/Ipardes (0,611; 295º de 399 no PR), com o pior índice em renda, emprego e produção agropecuária",
+   "Segurança viária na PRC-280 (acidente com 4 mortos no Dia dos Pais de 2026 e outros, segundo manchetes)",
+   "Educação: paralisação de professores municipais em mai/2026; reajuste de 2,5% proposto aos servidores (manchetes RBJ)"
+  ],
+  "eventos": "Tarifas dos EUA sobre o compensado (2025-26); suspensão da Bio Tee (fev/2026); paralisação de professores (mai/2026); frio recorde e geadas em jun-jul/2026.",
+  "fontes": [
+   "https://rbj.com.br/palmas-segue-como-maior-exportador-do-sudoeste-do-parana-apesar-de-queda-em-2025/",
+   "https://www.jornalafolha.com.br/noticia/bio-tee-sul-america-suspende-temporariamente-atividades-em-palmas-decisao-afeta-quadro-de-funcionarios",
+   "https://rbj.com.br/palmas-e-o-ultimo-do-sudoeste-em-ranking-de-desenvolvimento-municipal/",
+   "https://news.google.com/rss/search?q=%22Palmas%22%20Paran%C3%A1%20-Tocantins%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "alta",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4117800",
+  "municipio": "Palmital",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município agropecuário de pequeno porte do Centro-Oeste do PR (região de Laranjeiras do Sul/Pitanga), com Festa do Milho como evento local.",
+  "pautas": [
+   "Segurança viária nas rodovias PR-456 e PR-364, com acidentes fatais recorrentes em 2025-26 (várias manchetes: Jornal Paraná Centro, Banda B, Portal Cantu)",
+   "Temporal/vendaval em 29/04/2026 destelhou casas; a Assistência Social mobilizou atendimento às famílias",
+   "Pautas genéricas: não foram achadas matérias específicas sobre saúde ou estradas rurais do município"
+  ],
+  "eventos": "Vendaval em 29/04/2026. A manchete 'Disputa para governador é acirrada em Palmital' (Jornal Paraná Centro, 05/10/2026) não foi aberta.",
+  "fontes": [
+   "https://www.bandab.com.br/noticias-parana/temporal-vendaval-palmital-destelhamentos/",
+   "https://news.google.com/rss/search?q=%22Palmital%22%20Paran%C3%A1%20-SP%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas escassas; muitas buscas retornam Palmital-SP ou o bairro Palmital (Colombo/Paranaguá). Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4119608",
+  "municipio": "Pitanga",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: polo agropecuário (grãos, milho/soja) do Centro do PR; na região, silos e cerealistas aparecem em manchetes (acidente em silo, abr/2026).",
+  "pautas": [
+   "Saúde: a obra do Hospital Regional de Pitanga está parada há quase 3 anos; um laudo indica falhas estruturais que exigem projeto de restauro, e os pacientes viajam a outras cidades (G1/RPC, mai/2026). O prefeito comentou o projeto (Jornal Paraná Centro, jan/2026, manchete)",
+   "Rodovias: duplicação da PRC-466 entre Pitanga e Turvo, com detonação de rochas e bloqueios e previsão de conclusão em abr/2027; acidentes fatais na PR-466 (manchetes)",
+   "Segurança/facções: Operação Nêmesis contra 'tribunal do crime' (jul/2026), prisão de chefe do tráfico e debate de autoridades sobre segurança (ago/2026); operação policial com 4 mortos em 08/10/2026 (manchetes)",
+   "Abastecimento de água: interrupções no fornecimento em jan/2026 (Plural, manchete)",
+   "Pavimentação urbana: obras de R$ 21 mi (mai/2026) — agenda da prefeitura via Jornal Paraná Centro (manchete)"
+  ],
+  "eventos": "Hospital Regional parado; obras de duplicação da PRC-466; ação policial letal em 08/10/2026 (após o 1º turno).",
+  "fontes": [
+   "https://g1.globo.com/pr/parana/videos-boa-noite-parana/video/obra-do-hospital-regional-de-pitanga-esta-parada-ha-quase-3-anos-14603379.ghtml",
+   "https://news.google.com/rss/search?q=%22Pitanga%22%20Paran%C3%A1%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "média",
+  "obs": "A matéria do Jornal Paraná Centro sobre o hospital falhou (loop de redirecionamento). Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4119806",
+  "municipio": "Planalto",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município agrícola do extremo Sudoeste do PR (fronteira com a Argentina, vizinho de Capanema e Pérola d'Oeste), com agricultura familiar, leite e grãos.",
+  "pautas": [
+   "Estiagem 2025/26: entre os municípios com situação de emergência por seca (Bem Paraná, abr/2026); perdas de até 100% no Sudoeste (Jornal de Beltrão, manchete)",
+   "Granizo e temporais em set/2026 no Sudoeste (Jornal de Beltrão: 'granizo atinge quatro municípios da região', manchete; não foi confirmado se Planalto está entre eles)",
+   "Calor extremo: a vizinha Capanema registrou 39,9 °C em 27-28/09/2026 (manchete)",
+   "Pautas locais específicas não encontradas (as buscas confundem com Planalto-BA/RS e Planalto Santareno)"
+  ],
+  "eventos": "Decreto de emergência por estiagem (abr/2026); tempestades do dia da eleição no Sudoeste (91,6 mil desligamentos).",
+  "fontes": [
+   "https://www.bemparana.com.br/noticias/parana/seca-no-parana-cada-vez-mais-cidades-decretam-situacao-de-emergencia/",
+   "https://www.tribunapr.com.br/noticias/parana/tempestades-derrubam-energia-mais-308-mil-clientes-dia-eleicao-parana/",
+   "https://news.google.com/rss/search?q=%22Planalto%22%20%28Realeza%20OR%20Capanema%20OR%20%22Sudoeste%22%29%20-Santar%C3%A9m%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "baixa",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4121604",
+  "municipio": "Renascença",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município agrícola de pequeno porte do Sudoeste do PR, cortado pela PRC-280, com cooperativismo de crédito (Cresol) atuante.",
+  "pautas": [
+   "Rodovias: acidentes fatais recorrentes na PRC-280 e na PR-180 em 2026; o primeiro pedágio sem cancela (free flow) do PR chegou ao Sudoeste em jan/2026 (manchetes)",
+   "Infraestrutura regional: a Carta do Sudoeste 2026 (Amsop) mantém o Aeroporto Regional em Renascença e pede a estadualização da Estrada Municipal Dom Agostinho (Renascença–Bom Sucesso do Sul)",
+   "Granizo: reconstrução de casa após granizo em set/2026 (Jornal de Beltrão, manchete)",
+   "Educação: Ideb 6,8 nos anos iniciais e novos ônibus escolares (agenda da prefeitura via Jornal de Beltrão, manchetes)"
+  ],
+  "eventos": "Granizo em set/2026; implantação do pedágio free flow na PRC-280 (jan/2026); tempestades no Sudoeste no dia da eleição.",
+  "fontes": [
+   "https://rbj.com.br/carta-do-sudoeste-2026-reune-demandas-regionais-e-destaca-avancos-conquistados-em-24-anos/",
+   "https://www.tribunapr.com.br/noticias/parana/tempestades-derrubam-energia-mais-308-mil-clientes-dia-eleicao-parana/",
+   "https://news.google.com/rss/search?q=%22Renascen%C3%A7a%22%20Paran%C3%A1%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "média",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4122206",
+  "municipio": "Rio Branco do Sul",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município da Região Metropolitana de Curitiba ligado à mineração de calcário e à produção de cimento e cal; a imprensa cita o 2º maior rebanho de búfalos do PR (Bem Paraná, ago/2026, manchete).",
+  "pautas": [
+   "Energia: apagões recorrentes desde 2025 levaram a uma denúncia contra a Copel no MPPR (jul/2026), com relatos de idosos em respiradores numa casa de repouso",
+   "Abastecimento de água: faltas e vazamentos (Sanepar) em mar/2026 (manchetes Plural)",
+   "Enchentes/drenagem: 67 mm em 20 minutos em 05/04/2026 alagaram casas no bairro Santaria; alerta climático decretado em jul/2026",
+   "Conflito de divisa com Bocaiúva do Sul: o PL 306/2026 (Alep) redefine limites com base em mapas de 1953 e faz cerca de 500 pessoas trocarem de município (comunidades Macieira, Ribeirãozinho, São Felipe, Caeté); houve protestos em out/2025 pela perda de moradores",
+   "Saneamento: investimento de R$ 11,7 mi em tratamento de esgoto (abr/2026); hospital municipal ampliando especialidades (agenda da prefeitura via Bem Paraná, manchetes)"
+  ],
+  "eventos": "Denúncia contra a Copel no MPPR (jul/2026); alagamentos de Páscoa (abr/2026); redefinição da divisa aprovada na Alep (jul-ago/2026); ex-prefeita lançou pré-candidatura a deputada federal (jul/2026).",
+  "fontes": [
+   "https://www.gazetadopovo.com.br/parana/apagoes-rio-branco-do-sul-denuncia-mp/",
+   "https://g1.globo.com/pr/parana/noticia/2026/04/05/chuva-deixa-alagamentos-em-rio-branco-do-sul-e-moradores-passam-a-pascoa-calculando-estragos.ghtml",
+   "https://www.gazetadopovo.com.br/parana/nova-divisa-faz-500-pessoas-trocarem-de-cidade-no-parana/",
+   "https://news.google.com/rss/search?q=%22Rio%20Branco%20do%20Sul%22%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "alta",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4122800",
+  "municipio": "Salgado Filho",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município rural de pequeno porte do Sudoeste do PR, com agricultura familiar, suinocultura (dia de campo sobre biodigestão de dejetos suínos, ago/2026) e vitivinicultura/queijo (30ª Festa do Vinho e do Queijo, jul/2026, com ~50 mil visitantes).",
+  "pautas": [
+   "Estiagem 2025/26 no Sudoeste, com perdas de até 100% (regional; não consta da lista de emergências da Bem Paraná de abr/2026)",
+   "Rodovias: obras com pare-e-siga na PR-182/PR-471 (out/2026) e acidentes na PR-182 (manchetes)",
+   "Contrabando de cigarros apreendido pela PM (jul/2026, manchete)",
+   "Pautas comunitárias específicas não encontradas: só há agenda de eventos (festa) e notícias genéricas"
+  ],
+  "eventos": "Nenhum evento local relevante identificado além do clima regional (estiagem no 1º semestre, tempestades no dia da eleição no Sudoeste).",
+  "fontes": [
+   "https://www.tribunapr.com.br/noticias/parana/tempestades-derrubam-energia-mais-308-mil-clientes-dia-eleicao-parana/",
+   "https://news.google.com/rss/search?q=%22Salgado%20Filho%22%20Paran%C3%A1%20-Porto%20-aeroporto%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome homônimo (aeroporto de Porto Alegre, ruas, Senador Salgado Filho-RS) polui as buscas. Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4124400",
+  "municipio": "Santo Antônio do Sudoeste",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: cidade de fronteira seca com San Antonio/Misiones (Argentina) no extremo Sudoeste do PR, com comércio fronteiriço, indústria e agropecuária; a imprensa cita crescimento da indústria local (Jornal de Beltrão, jan/2026, manchete).",
+  "pautas": [
+   "Fronteira/segurança: contrabando de cigarros, apreensões de maconha e descaminho pelo BPFron na BR-163 e na área de fronteira (várias manchetes de 2026)",
+   "Porto Seco em Santo Antônio do Sudoeste, nova reivindicação da Carta do Sudoeste 2026 (Amsop); também se pedem Polícia Federal e Receita Federal na região",
+   "Enchentes: chuva de ~150 mm em 21-22/07/2026 atingiu cerca de 40 casas no bairro Vila Nova (Defesa Civil)",
+   "Abastecimento de água: falta de água em mar/2026 (Plural, manchete)",
+   "Rodovia BR-163: atropelamentos e acidentes fatais com caminhões (manchetes); temporal deixou árvores na BR-163 em 04/10/2026"
+  ],
+  "eventos": "O prefeito pediu licença em mar/2026 para avaliar pré-candidatura a deputado estadual (Rádio Clube de Realeza, manchete); alagamentos em jul/2026; temporal no dia da eleição.",
+  "fontes": [
+   "https://www.radiocluberza.com.br/noticia.aspx?t=santo-antonio-forte-chuva-provoca-alagamentos-e-atinge-cerca-de-40-residencias",
+   "https://rbj.com.br/carta-do-sudoeste-2026-reune-demandas-regionais-e-destaca-avancos-conquistados-em-24-anos/",
+   "https://www.tribunapr.com.br/noticias/parana/tempestades-derrubam-energia-mais-308-mil-clientes-dia-eleicao-parana/",
+   "https://news.google.com/rss/search?q=%22Santo%20Ant%C3%B4nio%20do%20Sudoeste%22%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "média",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4126603",
+  "municipio": "Siqueira Campos",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: cidade média do Norte Pioneiro do PR (polo comercial regional), com agropecuária (café, grãos, pecuária) e comércio às margens da PR-092.",
+  "pautas": [
+   "Rodovia PR-092 pedagiada: dois aumentos de tarifa, mas motoristas denunciam buracos e falta de melhorias perto de Siqueira Campos (Jornal JCN, 08/10/2026, manchete); reajuste de pedágio da EPR em set/2026",
+   "Saúde: R$ 3,3 mi do Estado (mar/2026) para clínica de fisioterapia (R$ 1,3 mi), ampliação da UBS Alemoa e veículos de transporte de pacientes (ônibus, micro-ônibus, van, utilitários)",
+   "Segurança: operação do Gaeco afastou 12 policiais em Wenceslau Braz, Siqueira Campos, Jaguariaíva e outras cidades (ago/2026, manchete); apreensão de 24 kg de maconha (set/2026)",
+   "Acidentes graves na PR-092 (ago/2026, manchetes)"
+  ],
+  "eventos": "Operação do Gaeco com afastamento de policiais na região (ago/2026); reajuste do pedágio na PR-092 (set/2026).",
+  "fontes": [
+   "https://pretonobranco.com.br/noticia/4572/governo-destina-r-24-4-milhoes-para-novas-estruturas-de-saude-no-norte-pioneiro",
+   "https://news.google.com/rss/search?q=%22Siqueira%20Campos%22%20%28%22Norte%20Pioneiro%22%20OR%20NPDi%C3%A1rio%20OR%20%22Folha%20Extra%22%20OR%20Tomazina%20OR%20Wenceslau%20OR%20Joaquim%20T%C3%A1vora%29%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "média",
+  "obs": "As matérias do JCN e da Folha Extra deram 403 (só manchete). Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4126652",
+  "municipio": "Sulina",
+  "uf": "PR",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Conhecimento geral, não verificado: município rural muito pequeno do Sudoeste do PR (região de Dois Vizinhos/São Jorge d'Oeste), com agricultura familiar, leite a pasto (dia de campo, jan/2026) e sementes (21ª Festa Regional das Sementes, jul/2026).",
+  "pautas": [
+   "Habitação: R$ 229 mil federais (PAC/MCMV FNHIS Sub 50) para 20 casas populares (dez/2025)",
+   "Estiagem regional 2025/26 no Sudoeste (não consta da lista de emergências da Bem Paraná de abr/2026)",
+   "Segurança viária (acidentes fatais na região, fev-mar/2026, manchetes)",
+   "Pautas comunitárias específicas não encontradas"
+  ],
+  "eventos": "Nenhum evento local de grande porte identificado; o tornado de nov/2025 na região (Rio Bonito do Iguaçu) aparece nas buscas; não verifiquei se houve danos em Sulina.",
+  "fontes": [
+   "https://zecadirceu.com.br/sulina-garante-recursos-do-governo-federal-para-construcao-de-casas-populares/",
+   "https://news.google.com/rss/search?q=%22Sulina%22%20Paran%C3%A1%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "baixa",
+  "obs": "A fonte da habitação é o site de um deputado do PT (fonte partidária). Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ },
+ {
+  "ibge": "4203501",
+  "municipio": "Campo Erê",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município do Oeste/Extremo-Oeste de SC com 9,6 mil habitantes (G1), de base agropecuária: pecuária de corte (1ª Festa do Novilho Precoce em 2026), grãos e olivicultura emergente (azeite premiado).",
+  "pautas": [
+   "Temporais: possível tornado em 30/08/2026, com telhados danificados e investigação da Defesa Civil de SC (sinal de rotação no radar)",
+   "Rodovias: acidentes na BR-282 e na SC-305, inclusive com van da saúde municipal (ago/2026, manchetes)",
+   "Saúde: transporte de pacientes para Xanxerê e outras cidades (manchetes de remoções e da van da saúde)",
+   "Segurança: julgamentos de homicídio e tentativa de homicídio no fórum local (set/2026, manchetes); pautas genéricas"
+  ],
+  "eventos": "Possível tornado em 30/08/2026; outros municípios do Oeste de SC decretaram emergência por granizo na mesma época. O portal local cita que 'em SC Lula fica à frente de Flávio somente em 5 cidades' (05/10/2026, manchete).",
+  "fontes": [
+   "https://g1.globo.com/sc/santa-catarina/noticia/2026/08/31/passagem-tornado-investigada-campo-ere.ghtml",
+   "https://news.google.com/rss/search?q=%22Campo%20Er%C3%AA%22%20when%3A1y&hl=pt-BR&gl=BR&ceid=BR:pt-419"
+  ],
+  "confianca": "média",
+  "obs": "Manchetes via Google News RSS (listagem aberta); itens marcados '(manchete)' não tiveram a matéria aberta (Jornal de Beltrão e outros bloqueiam acesso automatizado com 403)."
+ }
+]

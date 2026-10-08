@@ -1,0 +1,237 @@
+[
+ {
+  "ibge": "4204103",
+  "municipio": "Caxambu do Sul",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Região de Chapecó.",
+  "pautas": [
+   "Estiagem regional 2025 no Grande Oeste (contexto regional; Caxambu do Sul não aparece nas listas de decreto encontradas)",
+   "Só genéricos encontrados: nenhuma pauta local específica localizada na imprensa"
+  ],
+  "eventos": "Concurso público da prefeitura (FEPESE, 24 vagas, inscrições fev-mar/2026). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/noticias/tag/estiagem"
+  ],
+  "confianca": "baixa",
+  "obs": "Buscas só retornaram páginas de concurso; nenhuma matéria local aberta. Município não constou no resumo de lista de decretos de estiagem 2025. Fonte brasil61 (tag estiagem) serve só de contexto regional: não cita este município."
+ },
+ {
+  "ibge": "4205308",
+  "municipio": "Faxinal Dos Guedes",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Município de ~11 mil habitantes no Oeste de SC (região de Xanxerê); base agroindustrial/agropecuária — porte via resumo de busca, base econômica conhecimento geral, não verificado.",
+  "pautas": [
+   "Atenção primária à saúde: emenda parlamentar federal de R$ 300 mil para o PAP (deliberação CIB/SES-SC 215/2025, jun/2025)",
+   "Estiagem regional 2025 no Grande Oeste (contexto; município não confirmado em lista de decreto)",
+   "Fora isso, só genéricos"
+  ],
+  "eventos": "Nada específico encontrado para 2025-2026. Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://www.saude.sc.gov.br/edocman/legislacao/legislacao-geral/deliberacoes/deliberacoes-2025/delibera%c3%87%c3%83o%20cib-215-2025.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Fonte da emenda só vista em resumo de busca (PDF não aberto). Prefeito (web): Jader Danielli."
+ },
+ {
+  "ibge": "4207858",
+  "municipio": "Irati",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Região de Quilombo/Chapecó.",
+  "pautas": [
+   "Só genéricos encontrados; nenhuma pauta local específica (buscas misturam com Irati/PR)",
+   "Estiagem regional 2025 no Grande Oeste (contexto; município não confirmado em lista de decreto)"
+  ],
+  "eventos": "Concurso público da prefeitura (9 vagas). Nenhum evento local específico encontrado. Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/noticias/tag/estiagem"
+  ],
+  "confianca": "baixa",
+  "obs": "Homônimo Irati/PR domina os resultados; lacuna total de imprensa local. Fonte brasil61 (tag estiagem) serve só de contexto regional: não cita este município."
+ },
+ {
+  "ibge": "4211454",
+  "municipio": "Nova Itaberaba",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Região de Chapecó.",
+  "pautas": [
+   "Estiagem: reconhecimento federal de situação de emergência por estiagem em 14/04/2025 (MIDR, Portaria nº 1.148) — acesso a cestas, água, kits",
+   "Fora a estiagem, só genéricos"
+  ],
+  "eventos": "Situação de emergência por estiagem reconhecida pelo governo federal (abr/2025). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/n/nova-itaberaba-sc-obtem-o-reconhecimento-federal-de-situacao-de-emergencia-por-causa-da-estiagem-pmdr253393"
+  ],
+  "confianca": "média",
+  "obs": "Pauta de estiagem com fonte federal; demais pautas não encontradas."
+ },
+ {
+  "ibge": "4211876",
+  "municipio": "Paial",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Região de Chapecó/Seara.",
+  "pautas": [
+   "Estiagem: reconhecimento federal de situação de emergência por estiagem em 22/04/2025 (MIDR, Portaria nº 1.204, DOU 17/04/2025)",
+   "Fora a estiagem, só genéricos"
+  ],
+  "eventos": "Situação de emergência por estiagem reconhecida pelo governo federal (abr/2025). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/n/paial-sc-obtem-o-reconhecimento-federal-de-situacao-de-emergencia-por-causa-da-estiagem-pmdr253424"
+  ],
+  "confianca": "média",
+  "obs": "Pauta de estiagem com fonte federal; demais pautas não encontradas."
+ },
+ {
+  "ibge": "4212007",
+  "municipio": "Palma Sola",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Extremo Oeste, divisa com PR.",
+  "pautas": [
+   "Estiagem 2025: Palma Sola citada entre seis municípios de SC com situação de emergência por estiagem reconhecida pelo governo federal (com Barra Bonita, Campo Erê, São João do Oeste, Abelardo Luz e Saudades) — via resumo de busca brasil61",
+   "Temporais/vendaval: chuva e vento destelharam ao menos cinco imóveis e derrubaram árvores, com interdição de ruas (NSC Total; data exata não confirmada)",
+   "Fora isso, só genéricos"
+  ],
+  "eventos": "Estiagem com emergência reconhecida (2025, não aberto) e episódio de vendaval com destelhamentos (data não confirmada). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/noticias/tag/estiagem"
+  ],
+  "confianca": "baixa",
+  "obs": "Matérias brasil61 sobre os seis municípios e NSC Total sobre vendaval (https://www.nsctotal.com.br/?p=2484886) não puderam ser abertas (NSC retorna 403). Prefeito (web): Márcio Sansígolo. Fonte brasil61 (tag estiagem) serve só de contexto regional: não cita este município."
+ },
+ {
+  "ibge": "4213153",
+  "municipio": "Planalto Alegre",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Vizinho de Chapecó.",
+  "pautas": [
+   "Estiagem 2025: município consta na lista de decretos de situação de emergência por estiagem (Defesa Civil SC via ALESC/NSC Total, resumo de busca)",
+   "Pavimentação de estradas rurais e urbanas: licitações 2026 para asfalto na EMPA 005 Linha Melancia (R$ 3,8 mi), EMPA 005/006 Linha Cambucica, EMPA 108 Linha Tarumã e calçamento na EMPA 0010 Linha Progresso; asfalto nas ruas Sibila Geiger e Vanderleia Bet (agenda da prefeitura, via licitações)"
+  ],
+  "eventos": "Decreto de emergência por estiagem em 2025; pacote de obras de pavimentação rural licitado em 2026. Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://alertalicitacao.com.br/!licitacao/BNC-4213153-9c59-332026"
+  ],
+  "confianca": "média",
+  "obs": "Lista de decretos (ALESC 8GG7P e NSC) só vista em resumo de busca; páginas inacessíveis. Licitações vistas no índice de busca, não abertas individualmente. Prefeito (web): Evandro Cleber Bet."
+ },
+ {
+  "ibge": "4215752",
+  "municipio": "São Bernardino",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Extremo Oeste; cerca de 500 famílias de agricultura familiar segundo edital municipal.",
+  "pautas": [
+   "Estradas vicinais: licitação nº 102/2026 de horas-máquina para recuperação e manutenção de estradas vicinais e escoamento da produção, beneficiando ~500 famílias da agricultura familiar (agenda da prefeitura)",
+   "Estiagem 2025: município citado na lista de decretos de emergência por estiagem (Defesa Civil SC via ALESC/NSC, resumo de busca)"
+  ],
+  "eventos": "Decreto de emergência por estiagem em 2025 (não verificado em fonte aberta). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://alertalicitacao.com.br/!licitacao/DMSC-8669954"
+  ],
+  "confianca": "baixa",
+  "obs": "Fontes de estiagem não abertas (ALESC/NSC inacessíveis)."
+ },
+ {
+  "ibge": "4216800",
+  "municipio": "São José Do Cerrito",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pouco mais de 10 mil habitantes na Serra Catarinense (vizinho de Lages); um dos maiores produtores de feijão de SC, com turismo rural/cachoeiras em expansão (NSC Total, via resumo de busca).",
+  "pautas": [
+   "Agricultura/feijão como base econômica (dependência de safra e preço)",
+   "Infraestrutura rodoviária na Serra (SC-390 com acidentes; ponte do Passo dos Fernandes sobre o rio Caveiras na divisa com Lages) — contexto regional, não específico do município",
+   "Fora isso, só genéricos (processos seletivos para saúde: farmacêutico, agentes comunitários)"
+  ],
+  "eventos": "Nenhum evento local específico encontrado para 2025-2026.",
+  "fontes": [
+   "https://concursosnobrasil.com/concursos/sc/2025/05/07/processo-seletivo-prefeitura-de-sao-jose-do-cerrito-sc/"
+  ],
+  "confianca": "baixa",
+  "obs": "Município da Serra, fora do eixo da estiagem do Oeste. NSC Total (https://www.nsctotal.com.br/?p=7220833) retornou 403. Prefeita citada em busca: Tainara Barbosa Raitz (conferir TSE)."
+ },
+ {
+  "ibge": "4217154",
+  "municipio": "São Miguel Da Boa Vista",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Região de Maravilha.",
+  "pautas": [
+   "Só genéricos encontrados: concurso público 2025 (18 vagas, incluindo médico ESF, agentes de saúde, operador de ETA)",
+   "Estiagem regional 2025 no Grande Oeste (contexto; município não confirmado em lista de decreto)"
+  ],
+  "eventos": "Nada específico encontrado. Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://folha.qconcursos.com/n/sao-miguel-da-boa-vista-sc-concurso-2025"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito citado em busca: Vanderlei Bonaldo (conferir TSE). Lacuna de imprensa local."
+ },
+ {
+  "ibge": "4200507",
+  "municipio": "Águas De Chapecó",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Pequeno município rural do Oeste catarinense, base agropecuária (agricultura familiar, grãos, suínos/aves, leite) — conhecimento geral, não verificado. Às margens do rio Uruguai, região de Chapecó/São Carlos.",
+  "pautas": [
+   "Estiagem 2025: município consta na lista de decretos de situação de emergência por estiagem (Defesa Civil SC via ALESC/NSC, resumo de busca)",
+   "Infraestrutura viária regional: convênio estadual de R$ 25 mi para o Contorno Viário Extremo Oeste (SC-283 a BR-282) — contexto regional, ligação com o município não confirmada"
+  ],
+  "eventos": "Decreto de emergência por estiagem em 2025 (não verificado em fonte aberta). Estiagem 2024/25 no Grande Oeste de SC: em 2025 cerca de 48-49 municípios decretaram situação de emergência por estiagem, 46 deles no Grande Oeste (Defesa Civil SC, via NSC Total/ALESC).",
+  "fontes": [
+   "https://brasil61.com/noticias/tag/estiagem"
+  ],
+  "confianca": "baixa",
+  "obs": "Fontes ALESC/NSC inacessíveis. Prefeito (web): Oscar Barela. Fonte brasil61 (tag estiagem) serve só de contexto regional: não cita este município."
+ },
+ {
+  "ibge": "3513801",
+  "municipio": "Diadema",
+  "uf": "SP",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não pesquisado (ver TSE)",
+  "economia": "Cidade industrial da Grande SP (ABC), ~400 mil hab. (conhecimento geral, não verificado); dívida municipal de cerca de R$ 2,5 bilhões e déficit de R$ 411 mi na posse, segundo o prefeito (Diário do Grande ABC).",
+  "pautas": [
+   "Enchentes/drenagem: R$ 7 mi gastos em 2025 e R$ 35 mi previstos em 2026 para drenagem e canalização dos córregos Olaria, Grota Funda, Iguassú-Canhema, Casa Grande e Fortaleza; áreas de risco em Eldorado, Inamar, Jardim Gazuza, Canhema, Piraporinha, Centro (Diário do Grande ABC, 08/12/2025)",
+   "Saúde: Hospital Municipal em condições precárias, projeto de novo hospital parado; pedido ao governo estadual de AME (Ambulatório Médico de Especialidades); aprovação de 49,4% na área de saúde",
+   "Crise fiscal: dívida de R$ 2,5 bi (segunda maior do país, segundo o prefeito) e corte de gastos",
+   "Ordem pública: combate aos pancadões (bailes funk de rua) e estabelecimentos irregulares",
+   "Educação: fim da fila por vagas em creches (afirmação da gestão)"
+  ],
+  "eventos": "Troca de gestão em jan/2025 com transição problemática; plano anticheias e corte de gastos; aniversário de 66 anos com balanço da gestão (dez/2025).",
+  "fontes": [
+   "https://www.dgabc.com.br/Noticia/4273259/taka-do-nosso-plano-de-governo-cumprimos-56-5-em-11-meses",
+   "https://www.dgabc.com.br/Noticia/4273265/gestao-taka-vai-investir-r$-35-milhoes-em-2026-contra-chuvas-de-verao"
+  ],
+  "confianca": "média",
+  "obs": "Pautas baseadas sobretudo em entrevistas/balanços da própria gestão no Diário do Grande ABC; faltou fonte independente sobre segurança e transporte. Prefeito (web): Taka Yamauchi."
+ }
+]

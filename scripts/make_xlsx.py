@@ -30,8 +30,9 @@ def j(v):
 
 def status(p):
     if not p: return 'pendente (lote não pesquisado)'
-    t = j(p.get('pautas')).lower()
-    if not t or any(k in t for k in ('lacuna', 'não encontrado', 'não pesquis', 'interrompid', 'ver rodada 1', 'não verificado nesta rodada')): return 'pautas pendentes'
+    v = p.get('pautas'); v = v if isinstance(v, list) else [v]
+    lac = lambda t: (not str(t or '').strip()) or any(k in str(t).lower() for k in ('lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'ver rodada 1', 'não verificado nesta rodada'))
+    if all(lac(t) for t in v): return 'pautas pendentes'
     return f"ok ({p.get('confianca','?')})"
 
 # colunas: (cabeçalho, chave ou função, formato)

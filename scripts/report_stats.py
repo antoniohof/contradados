@@ -54,8 +54,9 @@ print('  Brasil vereadores PL % média', round(100 * st.mean(v), 1))
 print('suplementares entre selecionados', [f"{I[i]['municipio']}/{I[i]['uf']}" for i in sel if T.get(i, {}).get('prefeito_eleicao_suplementar') == 'True'])
 
 def empty(v):
-    s = (' '.join(map(str, v)) if isinstance(v, list) else str(v or '')).lower().strip()
-    return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrado', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))  # mesmo critério de merge.py
+    if isinstance(v, list): return all(empty(x) for x in v)
+    s = str(v or '').lower().strip()
+    return (not s) or any(k in s for k in ('ver rodada 1', 'lacuna', 'não encontrad', 'foram encontrad', 'sem pautas', 'nenhuma pauta', 'não pesquis', 'interrompid', 'não verificado nesta rodada'))  # mesmo critério de merge.py
 print('\n## cobertura: pesquisados', len(sel & set(P)), '/', len(sel), '| pautas', sum(1 for i in sel if i in P and not empty(P[i].get('pautas'))),
       '| prefeito TSE', len(sel & set(T)))
 print(Counter(P[i].get('confianca') for i in sel if i in P).most_common())
