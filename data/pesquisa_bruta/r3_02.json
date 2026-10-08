@@ -1,0 +1,260 @@
+[
+  {
+    "ibge": "2906501",
+    "municipio": "Candeias",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município industrial da RMS (~75 mil hab. em 2024), integrante do Centro Industrial de Aratu, vizinho ao Porto de Aratu e à Refinaria de Mataripe (ex-RLAM); um dos 10 maiores PIBs da Bahia (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Alagamentos e resposta da Defesa Civil: moradores do bairro Sarandi cobraram ação após chuvas de maio/2025 (bnews)",
+      "Segurança/violência: triplo homicídio no distrito de Caroba repercutiu na imprensa (Correio); relatos de tiroteios e medo em comunidades quilombolas (Agência Pública)",
+      "Instabilidade da Refinaria de Mataripe (Acelen): pelo menos 5 paradas não programadas em 2025, incluindo incêndio na unidade de craqueamento em setembro, com impacto no fornecimento de diesel S10 nos polos de São Francisco do Conde e Candeias (eixos)",
+      "Falta de emprego citada em relatos de comunidades locais (genérico)"
+    ],
+    "eventos": "Chuvas de maio/2025 com casas alagadas (Sarandi); paradas e incêndio na Refinaria de Mataripe ao longo de 2025, com debate sobre recompra pela Petrobras.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Candeias_(Bahia)",
+      "https://www.bnews.com.br/noticias/cidades/moradores-cobram-acao-da-defesa-civil-apos-alagamentos-em-candeias-prefeitura-diz-que-impactos-foram-amenizados.html",
+      "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/embed/",
+      "https://www.correio24horas.com.br/minha-bahia/todo-mundo-correu-para-casa-triplo-homicidio-em-candeias-aterrorizou-distrito-0724"
+    ],
+    "confianca": "média",
+    "obs": "bnews (403), eixos e Correio vistos apenas via resumo de busca, não abertos integralmente; data do triplo homicídio não confirmada. Nada específico sobre saúde/hospital encontrado."
+  },
+  {
+    "ibge": "2910057",
+    "municipio": "Dias D'Ávila",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Cidade da RMS (~75 mil hab. em 2024) ligada ao Polo Petroquímico de Camaçari, com perfil de cidade-dormitório; PIB 2021 de R$ 3,05 bi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Saúde: falta de medicamentos e demora para marcação de consultas e exames nos postos (A Tarde, out/2025)",
+      "Obras paradas: terminal rodoviário em construção parado há ao menos 5 anos (único município da RMS sem terminal); estação ferroviária histórica em ruínas (A Tarde)",
+      "Transporte coletivo: empresa Expresso Vitória operando em caráter emergencial, com ônibus sem horário e quebrando (A Tarde)",
+      "Saneamento/meio ambiente: esgoto lançado nos rios Imbassaí e Jacumirim; recuperação das bacias suspensa por decisão judicial em 2025; lixo acumulado e ruas intransitáveis na chuva (A Tarde)",
+      "Desemprego: poucas indústrias no município; Caraíba Metais em processo de falência (A Tarde)"
+    ],
+    "eventos": "Matéria de A Tarde (12/10/2025) 'Dias d'Ávila: a cidade esquecida na RMS'; suspensão judicial das obras de recuperação dos rios Imbassaí e Jacumirim em 2025; crise da Caraíba Metais (falência).",
+    "fontes": [
+      "https://atarde.com.br/municipios/dias-davila-a-cidade-esquecida-na-rms-crise-na-saude-e-obras-paradas-1363078",
+      "https://pt.wikipedia.org/wiki/Dias_d%27%C3%81vila"
+    ],
+    "confianca": "média",
+    "obs": "Pautas baseadas essencialmente em uma reportagem ampla de A Tarde."
+  },
+  {
+    "ibge": "2910503",
+    "municipio": "Entre Rios",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do Litoral Norte baiano (~40 mil hab. em 2024) com produção de mudas/silvicultura de eucalipto e turismo de praia (Massarandupió, Subaúma, Porto do Sauipe); PIB 2021 de R$ 682 mi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Danos por chuvas intensas: situação de emergência decretada em maio/2025 (Decreto Municipal 031/2025, homologado pelo Estado)",
+      "Lacuna: não foram encontradas pautas locais específicas (saúde, estradas) na imprensa"
+    ],
+    "eventos": "Situação de emergência por chuvas intensas declarada em 05/05/2025 (Decreto Municipal 031/2025), homologada pelo Governo da Bahia por 180 dias.",
+    "fontes": [
+      "https://www.ba.gov.br/sei/sites/site-sei/files/2025-06/DOE%20DECRETO%20S%C3%83O%20JO%C3%83O.pdf",
+      "https://pt.wikipedia.org/wiki/Entre_Rios_(Bahia)"
+    ],
+    "confianca": "baixa",
+    "obs": "Busca retornou muitos resultados da província argentina de Entre Ríos; só o decreto de emergência foi confirmado."
+  },
+  {
+    "ibge": "2922003",
+    "municipio": "Mucuri",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do extremo sul baiano (~40 mil hab. em 2025) cuja economia gira em torno da fábrica de celulose da Suzano; PIB 2021 de R$ 2,2 bi e PIB per capita de ~R$ 51,8 mil (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Lacuna: não foram encontradas pautas locais 2025–2026 com fonte",
+      "Contexto: dependência da indústria de celulose (Suzano) e efluentes no Rio Mucuri (estação de tratamento citada em material sobre ampliação da fábrica, data não confirmada)"
+    ],
+    "eventos": "Nenhum evento 2025–2026 confirmado.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Mucuri"
+    ],
+    "confianca": "baixa",
+    "obs": "Busca específica sem resultados locais; recomenda-se nova rodada com imprensa do extremo sul (ex.: Teixeira de Freitas)."
+  },
+  {
+    "ibge": "2925105",
+    "municipio": "Poções",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do Sudoeste baiano (~50,6 mil hab. em 2024), polo de comércio/serviços da região de Vitória da Conquista e maior produtor de fava da Bahia; PIB 2021 de R$ 573 mi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Lacuna: não foram encontradas pautas locais específicas com fonte",
+      "Contexto regional: estiagem no Sudoeste/semiárido baiano em 2025 (centenas de municípios em emergência, operação carro-pipa), sem confirmação de decreto para Poções"
+    ],
+    "eventos": "Não confirmado se Poções teve decreto de emergência por estiagem em 2025.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Po%C3%A7%C3%B5es",
+      "https://www.bnews.com.br/noticias/politica/prefeitos-baianos-vao-brasilia-pedir-apoio-no-enfrentamento-seca.html"
+    ],
+    "confianca": "baixa",
+    "obs": "Lista SEDEC (set/2025) aberta mas sem texto legível; segunda fonte só vista em busca."
+  },
+  {
+    "ibge": "2928604",
+    "municipio": "Santo Amaro",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do Recôncavo (~58 mil hab. em 2024), economia dominada por comércio e serviços após declínio da cana e fechamento de fábricas; PIB 2021 de ~R$ 1,14 bi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Contaminação por chumbo (antiga fundição COBRAC/Plumbum): sentença da 12ª Vara Federal (18/11/2025) condenou as empresas, com indenizações de R$ 100 mil a R$ 220 mil, fundo social de R$ 5 mi e remoção imediata da escória num raio de 5 km",
+      "Saúde das vítimas do chumbo: determinação judicial anterior para União/Funasa construírem centro de tratamento (data não confirmada)",
+      "Lacuna: sem pautas atuais de saneamento/hospital confirmadas"
+    ],
+    "eventos": "Sentença federal de 18/11/2025 no caso do chumbo, após mais de 30 anos de disputa.",
+    "fontes": [
+      "https://jornalgrandebahia.com.br/2025/11/justica-condena-empresas-por-contaminacao-de-chumbo-em-santo-amaro-apos-tres-decadas-e-deputado-robinson-almeida-cobra-fiscalizacao-rigorosa/",
+      "https://pt.wikipedia.org/wiki/Santo_Amaro_(Bahia)"
+    ],
+    "confianca": "média",
+    "obs": "Pauta principal com fonte sólida; demais pautas não pesquisadas a fundo por limite de buscas."
+  },
+  {
+    "ibge": "2933604",
+    "municipio": "Xique-Xique",
+    "uf": "BA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do semiárido às margens do Rio São Francisco (~47 mil hab. em 2025), PIB 2021 de R$ 461 mi e IDHM baixo (0,585); base econômica não detalhada na fonte (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Hospital municipal: necessidade de reforma, ampliação, equipamentos, pessoal e leitos de UTI, tema de compromisso de campanha estadual em set/2026 (A Tarde)",
+      "Água/Rio São Francisco: assoreamento e seca da Lagoa de Itaparica (Xique-Xique/Gentio do Ouro) afetando pesca e ~5 mil famílias — referência antiga (Correio, ~2017), não confirmada para 2025–2026",
+      "Abastecimento de água irregular e saneamento (estudos acadêmicos UNEB, genérico)"
+    ],
+    "eventos": "Saúde hospitalar entrou na agenda da campanha estadual em setembro/2026 (A Tarde, 14/09/2026).",
+    "fontes": [
+      "https://atarde.com.br/eleicoes/acm-neto-assume-compromisso-com-a-saude-em-xique-xique-1401950",
+      "https://www.correio24horas.com.br/bahia/seca-na-maior-lagoa-do-rio-sao-francisco-afeta-5-mil-familias-0917",
+      "https://pt.wikipedia.org/wiki/Xique-Xique"
+    ],
+    "confianca": "média",
+    "obs": "A matéria da Lagoa de Itaparica é de 2017 (dados de vazão de ago/2017); usar só como contexto estrutural."
+  },
+  {
+    "ibge": "5215504",
+    "municipio": "Ouvidor",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município pequeno (~7,2 mil hab. em 2022) do sudeste goiano com economia dominada por mineração e processamento de nióbio e fosfato (CMOC Brasil, Mosaic Fertilizantes), vizinho a Catalão (Wikipedia; bnamericas).",
+    "pautas": [
+      "Impactos da mineração (CMOC e Mosaic): poluição atmosférica, insegurança hídrica e pressão sobre agricultores familiares, objeto de inquérito civil do MPF e audiência pública MPF/MPGO/DPE/DPU em Catalão e Ouvidor (23/05/2024)",
+      "Morte de nascentes atribuída a mineradora na comunidade do Macaúba (Catalão, vizinho) (Jornal Opção)",
+      "Lacuna: sem pautas 2025–2026 específicas de Ouvidor confirmadas"
+    ],
+    "eventos": "Nenhum evento 2025–2026 confirmado; a audiência pública sobre mineração é de maio/2024.",
+    "fontes": [
+      "https://www.rotajuridica.com.br/?p=144893",
+      "https://pt.wikipedia.org/wiki/Ouvidor_(Goi%C3%A1s)",
+      "https://bnamericas.com/en/news/prosecutors-to-hold-public-hearing-on-impact-of-mining-in-brazils-goias-state"
+    ],
+    "confianca": "média",
+    "obs": "Wikipedia cita Anglo American/Vale como operadoras (desatualizado: ativos de nióbio/fosfato passaram para CMOC e Mosaic). bnamericas e Jornal Opção vistos só em busca."
+  },
+  {
+    "ibge": "5219308",
+    "municipio": "Santa Helena De Goiás",
+    "uf": "GO",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do sudoeste goiano (~38,5 mil hab. em 2022) com agroindústria: Usina Santa Helena (açúcar/etanol), Italac (laticínios), sementes e indústria farmacêutica; PIB per capita 2021 de ~R$ 41,6 mil (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Crise político-administrativa: Câmara abriu processo de impeachment contra o prefeito em 07/05/2026 (empate 6x6 decidido pelo presidente), por suspeitas em contratos de coleta de lixo, saúde, asfalto e publicidade (Jornal Opção)",
+      "Saúde: contratos da saúde entre os questionados no processo; Hospital Estadual de Santa Helena citado na região (genérico)",
+      "Lacuna: sem outras pautas comunitárias confirmadas"
+    ],
+    "eventos": "Primeiro processo de impeachment de prefeito em 78 anos do município, aberto em 07/05/2026; defesa alega viés político. Desfecho não verificado.",
+    "fontes": [
+      "https://www.jornalopcao.com.br/politica/camara-aprova-processo-historico-de-impeachment-contra-prefeito-de-santa-helena-de-goias-823669/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/processo-tem-evidente-vies-politico-diz-defesa-de-prefeito-de-santa-helena-alvo-de-processo-de-impeachment-824024/",
+      "https://pt.wikipedia.org/wiki/Santa_Helena_de_Goi%C3%A1s"
+    ],
+    "confianca": "média",
+    "obs": "Matérias do Jornal Opção retornaram 403 no WebFetch; dados do impeachment vêm do resumo da busca. Verificar desfecho (cassação/arquivamento)."
+  },
+  {
+    "ibge": "2103307",
+    "municipio": "Codó",
+    "uf": "MA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "7ª maior cidade do Maranhão (~118 mil hab. em 2024), polo comercial da Região dos Cocais com agricultura (arroz, mandioca, milho), fábrica de cimento (Nassau) e indústria de higiene/limpeza; PIB 2021 de R$ 1,65 bi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Hospital Geral Municipal (HGM): fachada e cobertura desabaram no temporal de 26/01/2026 (O Imparcial)",
+      "Drenagem urbana e cheias: bairro Barro Vermelho (zona rural) isolado pela cheia de rio; queda de árvores e placas (O Imparcial)",
+      "Estradas vicinais e isolamento de povoados no período chuvoso (O Imparcial, regional)",
+      "Cheias do Rio Itapecuru: Codó monitorado pelo Sistema de Alerta Hidrológico do SGB (contexto estrutural)"
+    ],
+    "eventos": "Temporal de 26–27/01/2026 (ventos de até 100 km/h, 68 mm em 4h) destruiu a cobertura do Hospital Geral Municipal; sem menção a decreto de emergência.",
+    "fontes": [
+      "https://oimparcial.com.br/noticias/2026/01/temporal-em-codo-fachada-de-hospital-desaba-e-povoados-ficam-isolados-apos-forte-tempestade/",
+      "https://pt.wikipedia.org/wiki/Cod%C3%B3",
+      "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf"
+    ],
+    "confianca": "média",
+    "obs": "Relatório SGB visto só em busca."
+  },
+  {
+    "ibge": "2103406",
+    "municipio": "Coelho Neto",
+    "uf": "MA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do leste maranhense às margens do Parnaíba (~41,7 mil hab. em 2022, queda de 10,9% desde 2010), economia de serviços com 91% das receitas vindas de transferências; PIB per capita 2021 de ~R$ 9,3 mil (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Lacuna: não foram encontradas pautas locais 2025–2026 com fonte",
+      "Contexto: cheias do Rio Parnaíba (município coberto pelo sistema de alerta hidrológico do SGB, boletim abr/2025)",
+      "MPMA emitiu recomendações à prefeitura em 2025–2026 (conteúdo não acessado)"
+    ],
+    "eventos": "Nenhum evento 2025–2026 confirmado.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Coelho_Neto_(Maranh%C3%A3o)",
+      "https://www.sgb.gov.br/sace/boletins/Parnaiba/20250425_15-20250425%20-%20150106.pdf"
+    ],
+    "confianca": "baixa",
+    "obs": "PDF do MPMA recusou conexão; boletim SGB visto só em busca."
+  },
+  {
+    "ibge": "2103604",
+    "municipio": "Coroatá",
+    "uf": "MA",
+    "prefeito_2024": "",
+    "partido_prefeito": "",
+    "pl_local": "não pesquisado (ver TSE)",
+    "economia": "Município do Vale do Itapecuru (~59,6 mil hab. em 2022, queda de 3,5% desde 2010), economia agrícola e comercial; PIB 2014 de R$ 351 mi (Wikipedia, dados IBGE).",
+    "pautas": [
+      "Lacuna: não foram encontradas pautas locais 2025–2026 com fonte",
+      "Contexto: cheias do Rio Itapecuru por ocupação desordenada de várzeas e retirada de mata ciliar (SGB/estudos acadêmicos; grandes cheias de 1986 e 2009)",
+      "Saúde: prefeitura licitou serviços laboratoriais para a rede pública em 2026 (Edital 019/2026) — agenda da prefeitura"
+    ],
+    "eventos": "Nenhum evento 2025–2026 confirmado.",
+    "fontes": [
+      "https://pt.wikipedia.org/wiki/Coroat%C3%A1",
+      "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf"
+    ],
+    "confianca": "baixa",
+    "obs": "Busca não trouxe imprensa local; recomenda-se nova rodada."
+  }
+]

@@ -810,16 +810,23 @@
   "pl_local": "2 vereadores do PL eleitos em 2024: Davi Moura (974 votos) e Joazi Maia (958 votos), segundo o ndmais. Não foi encontrado deputado do PL com base local.",
   "economia": "Região Metropolitana de Salvador, junto à refinaria de Mataripe (ex-RLAM, hoje Acelen) e à atividade petrolífera e industrial (conhecimento geral, não verificado).",
   "pautas": [
-   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+   "Alagamentos e resposta da Defesa Civil: moradores do bairro Sarandi cobraram ação após chuvas de maio/2025 (bnews)",
+   "Segurança/violência: triplo homicídio no distrito de Caroba repercutiu na imprensa (Correio); relatos de tiroteios e medo em comunidades quilombolas (Agência Pública)",
+   "Instabilidade da Refinaria de Mataripe (Acelen): pelo menos 5 paradas não programadas em 2025, incluindo incêndio na unidade de craqueamento em setembro, com impacto no fornecimento de diesel S10 nos polos de São Francisco do Conde e Candeias (eixos)",
+   "Falta de emprego citada em relatos de comunidades locais (genérico)"
   ],
-  "eventos": "Paradas e acidentes na Refinaria de Mataripe/Acelen em 2025, com alerta de abastecimento de diesel na Bahia (eixos, fev/2026). Também há queixas de municípios vizinhos sobre a queda de arrecadação ligada à refinaria.",
+  "eventos": "Paradas e acidentes na Refinaria de Mataripe/Acelen em 2025, com alerta de abastecimento de diesel na Bahia (eixos, fev/2026). Também há queixas de municípios vizinhos sobre a queda de arrecadação ligada à refinaria. / Chuvas de maio/2025 com casas alagadas (Sarandi); paradas e incêndio na Refinaria de Mataripe ao longo de 2025, com debate sobre recompra pela Petrobras.",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/candeias/",
-   "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/"
+   "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/",
+   "https://pt.wikipedia.org/wiki/Candeias_(Bahia)",
+   "https://www.bnews.com.br/noticias/cidades/moradores-cobram-acao-da-defesa-civil-apos-alagamentos-em-candeias-prefeitura-diz-que-impactos-foram-amenizados.html",
+   "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/embed/",
+   "https://www.correio24horas.com.br/minha-bahia/todo-mundo-correu-para-casa-triplo-homicidio-em-candeias-aterrorizou-distrito-0724"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito confirmado (58,57%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / O PL tem presença na câmara (2 cadeiras). Pautas locais próprias não foram encontradas com o orçamento de buscas disponível.",
+  "obs": "Prefeito confirmado (58,57%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / O PL tem presença na câmara (2 cadeiras). Pautas locais próprias não foram encontradas com o orçamento de buscas disponível. / bnews (403), eixos e Correio vistos apenas via resumo de busca, não abertos integralmente; data do triplo homicídio não confirmada. Nada específico sobre saúde/hospital encontrado.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Eriton Ramos"
@@ -833,15 +840,21 @@
   "pl_local": "não encontrado",
   "economia": "Região Metropolitana de Salvador, vizinha ao Polo Industrial de Camaçari, com indústria, comércio e serviços (conhecimento geral, não verificado).",
   "pautas": [
-   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+   "Saúde: falta de medicamentos e demora para marcação de consultas e exames nos postos (A Tarde, out/2025)",
+   "Obras paradas: terminal rodoviário em construção parado há ao menos 5 anos (único município da RMS sem terminal); estação ferroviária histórica em ruínas (A Tarde)",
+   "Transporte coletivo: empresa Expresso Vitória operando em caráter emergencial, com ônibus sem horário e quebrando (A Tarde)",
+   "Saneamento/meio ambiente: esgoto lançado nos rios Imbassaí e Jacumirim; recuperação das bacias suspensa por decisão judicial em 2025; lixo acumulado e ruas intransitáveis na chuva (A Tarde)",
+   "Desemprego: poucas indústrias no município; Caraíba Metais em processo de falência (A Tarde)"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Matéria de A Tarde (12/10/2025) 'Dias d'Ávila: a cidade esquecida na RMS'; suspensão judicial das obras de recuperação dos rios Imbassaí e Jacumirim em 2025; crise da Caraíba Metais (falência).",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
-   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/dias-davila/"
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/dias-davila/",
+   "https://atarde.com.br/municipios/dias-davila-a-cidade-esquecida-na-rms-crise-na-saude-e-obras-paradas-1363078",
+   "https://pt.wikipedia.org/wiki/Dias_d%27%C3%81vila"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito confirmado (57,16%). Pode ter havido troca de partido depois (o PSDB passou por fusões e debandadas), mas isso não foi verificado. Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / Nenhuma busca dedicada ao município foi feita (limite de 7 buscas para 12 municípios). O partido atual do prefeito não foi verificado.",
+  "obs": "Prefeito confirmado (57,16%). Pode ter havido troca de partido depois (o PSDB passou por fusões e debandadas), mas isso não foi verificado. Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / Nenhuma busca dedicada ao município foi feita (limite de 7 buscas para 12 municípios). O partido atual do prefeito não foi verificado. / Pautas baseadas essencialmente em uma reportagem ampla de A Tarde.",
   "partido_prefeito_sigla": "PSDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Alberto Castro"
@@ -857,13 +870,15 @@
   "pautas": [
    "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
   ],
-  "eventos": "não encontrado",
+  "eventos": "Situação de emergência por chuvas intensas declarada em 05/05/2025 (Decreto Municipal 031/2025), homologada pelo Governo da Bahia por 180 dias.",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
-   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/entre-rios/"
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/entre-rios/",
+   "https://www.ba.gov.br/sei/sites/site-sei/files/2025-06/DOE%20DECRETO%20S%C3%83O%20JO%C3%83O.pdf",
+   "https://pt.wikipedia.org/wiki/Entre_Rios_(Bahia)"
   ],
   "confianca": "baixa",
-  "obs": "Prefeito confirmado (54,35%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / Nenhuma busca dedicada ao município foi feita (limite de buscas). A câmara tem base governista ampla, com 4 vereadores do Solidariedade.",
+  "obs": "Prefeito confirmado (54,35%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas. / Nenhuma busca dedicada ao município foi feita (limite de buscas). A câmara tem base governista ampla, com 4 vereadores do Solidariedade. / Busca retornou muitos resultados da província argentina de Entre Ríos; só o decreto de emergência foi confirmado.",
   "partido_prefeito_sigla": "SOLIDARIEDADE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Manoelito Argolo Junior"
@@ -1011,17 +1026,18 @@
   "pautas": [
    "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
   ],
-  "eventos": "Em 2024, a Justiça Eleitoral de 1ª instância (35ª ZE) cassou o registro de Robertinho e o declarou inelegível por uso das redes para divulgar obras (08/09/2024); o TRE-BA reverteu a decisão em 23/09/2024 e ele foi reeleito. / A prefeitura cancelou o Réveillon 2026 alegando impacto financeiro (Correio, 27/12/2025). Em 2024 a candidatura de Robertinho foi cassada em 1ª instância e restabelecida pelo TRE-BA.",
+  "eventos": "Em 2024, a Justiça Eleitoral de 1ª instância (35ª ZE) cassou o registro de Robertinho e o declarou inelegível por uso das redes para divulgar obras (08/09/2024); o TRE-BA reverteu a decisão em 23/09/2024 e ele foi reeleito. / A prefeitura cancelou o Réveillon 2026 alegando impacto financeiro (Correio, 27/12/2025). Em 2024 a candidatura de Robertinho foi cassada em 1ª instância e restabelecida pelo TRE-BA. / Nenhum evento 2025–2026 confirmado.",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
    "https://atarde.com.br/eleicoes/justica-eleitoral-de-mucuri-cassa-candidatura-do-prefeito-robertinho-1286191",
    "https://www.bahianoticias.com.br/municipios/noticia/41524-treba-assegura-candidatura-de-prefeito-de-mucuri-a-reeleicao",
    "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-mucuri-ba-nas-eleicoes-2024-veja-a-lista/",
    "https://pt.wikipedia.org/wiki/Mucuri_(Bahia)",
-   "https://www.correio24horas.com.br/bahia/cidade-da-bahia-cancela-festa-de-reveillon-e-alega-forte-impacto-financeiro-1225"
+   "https://www.correio24horas.com.br/bahia/cidade-da-bahia-cancela-festa-de-reveillon-e-alega-forte-impacto-financeiro-1225",
+   "https://pt.wikipedia.org/wiki/Mucuri"
   ],
   "confianca": "baixa",
-  "obs": "O vice é Vanderlei Rezende. Em 2023, o deputado estadual Robinho (União) se declarou pré-candidato a prefeito de Mucuri, mas quem venceu foi Robertinho. Não confirmei pela Wikipédia o nome da empresa de celulose (Suzano). Pautas e eventos de 2025–2026 não foram pesquisados porque o limite de buscas acabou. / Município com perfil econômico ligado ao extremo sul (celulose), sem dados sobre a câmara além da rodada 1.",
+  "obs": "O vice é Vanderlei Rezende. Em 2023, o deputado estadual Robinho (União) se declarou pré-candidato a prefeito de Mucuri, mas quem venceu foi Robertinho. Não confirmei pela Wikipédia o nome da empresa de celulose (Suzano). Pautas e eventos de 2025–2026 não foram pesquisados porque o limite de buscas acabou. / Município com perfil econômico ligado ao extremo sul (celulose), sem dados sobre a câmara além da rodada 1. / Busca específica sem resultados locais; recomenda-se nova rodada com imprensa do extremo sul (ex.: Teixeira de Freitas).",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Robertinho"
@@ -1066,14 +1082,15 @@
   "pautas": [
    "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
   ],
-  "eventos": "Não encontrado.",
+  "eventos": "Não confirmado se Poções teve decreto de emergência por estiagem em 2025.",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
    "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-pocoes-ba-nas-eleicoes-2024-veja-a-lista/",
-   "https://pt.wikipedia.org/wiki/Po%C3%A7%C3%B5es"
+   "https://pt.wikipedia.org/wiki/Po%C3%A7%C3%B5es",
+   "https://www.bnews.com.br/noticias/politica/prefeitos-baianos-vao-brasilia-pedir-apoio-no-enfrentamento-seca.html"
   ],
   "confianca": "baixa",
-  "obs": "O limite de buscas acabou antes de pesquisar as pautas e os eventos locais. / A busca combinada (Ipiaú/Poções/Ipirá) não trouxe nada de Poções.",
+  "obs": "O limite de buscas acabou antes de pesquisar as pautas e os eventos locais. / A busca combinada (Ipiaú/Poções/Ipirá) não trouxe nada de Poções. / Lista SEDEC (set/2025) aberta mas sem texto legível; segunda fonte só vista em busca.",
   "partido_prefeito_sigla": "PC do B",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Dona Nilda"
@@ -1115,14 +1132,15 @@
    "Passivo ambiental histórico de contaminação por chumbo e cádmio da antiga COBRAC/Plumbum (escória usada até na pavimentação), segundo fonte enciclopédica, não pauta 2024–26 confirmada",
    "Não foram encontradas pautas locais recentes específicas (lacuna de pesquisa)"
   ],
-  "eventos": "Troca de gestão em 2025: Flaviano (União) sucedeu Alessandra Gomes (PSD). Não foram encontrados outros eventos.",
+  "eventos": "Troca de gestão em 2025: Flaviano (União) sucedeu Alessandra Gomes (PSD). Não foram encontrados outros eventos. / Sentença federal de 18/11/2025 no caso do chumbo, após mais de 30 anos de disputa.",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
    "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-santo-amaro-ba-nas-eleicoes-2024-veja-a-lista/",
-   "https://pt.wikipedia.org/wiki/Santo_Amaro_(Bahia)"
+   "https://pt.wikipedia.org/wiki/Santo_Amaro_(Bahia)",
+   "https://jornalgrandebahia.com.br/2025/11/justica-condena-empresas-por-contaminacao-de-chumbo-em-santo-amaro-apos-tres-decadas-e-deputado-robinson-almeida-cobra-fiscalizacao-rigorosa/"
   ],
   "confianca": "baixa",
-  "obs": "O limite de buscas acabou antes de pesquisar as pautas locais. / Nenhuma busca dedicada ao município foi feita nesta rodada.",
+  "obs": "O limite de buscas acabou antes de pesquisar as pautas locais. / Nenhuma busca dedicada ao município foi feita nesta rodada. / Pauta principal com fonte sólida; demais pautas não pesquisadas a fundo por limite de buscas.",
   "partido_prefeito_sigla": "UNIÃO",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Flaviano (Flaviano Rohrs da Silva Bonfim)"
@@ -1166,17 +1184,20 @@
   "pl_local": "não encontrado",
   "economia": "Município do médio São Francisco, com ~47 mil hab. (IBGE 2024) e porto fluvial relevante para a economia regional; a fonte consultada não detalha outras atividades.",
   "pautas": [
-   "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
+   "Hospital municipal: necessidade de reforma, ampliação, equipamentos, pessoal e leitos de UTI, tema de compromisso de campanha estadual em set/2026 (A Tarde)",
+   "Água/Rio São Francisco: assoreamento e seca da Lagoa de Itaparica (Xique-Xique/Gentio do Ouro) afetando pesca e ~5 mil famílias — referência antiga (Correio, ~2017), não confirmada para 2025–2026",
+   "Abastecimento de água irregular e saneamento (estudos acadêmicos UNEB, genérico)"
   ],
-  "eventos": "Não encontrado.",
+  "eventos": "Saúde hospitalar entrou na agenda da campanha estadual em setembro/2026 (A Tarde, 14/09/2026).",
   "fontes": [
    "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
    "https://pt.wikipedia.org/wiki/Xique-Xique",
    "https://www.correio24horas.com.br/bahia/seca-na-maior-lagoa-do-rio-sao-francisco-afeta-5-mil-familias-0917",
-   "https://www.bnews.com.br/noticias/cidades/91960-xique-xique-pode-ficar-sem-agua-em-40-dias.html"
+   "https://www.bnews.com.br/noticias/cidades/91960-xique-xique-pode-ficar-sem-agua-em-40-dias.html",
+   "https://atarde.com.br/eleicoes/acm-neto-assume-compromisso-com-a-saude-em-xique-xique-1401950"
   ],
   "confianca": "baixa",
-  "obs": "O vice é Osvaldo Barbosa (MDB). O limite de buscas acabou antes de pesquisar pautas, eventos e economia em detalhe. / As fontes sobre seca e lagoa são antigas (2017) e foram registradas apenas como contexto estrutural.",
+  "obs": "O vice é Osvaldo Barbosa (MDB). O limite de buscas acabou antes de pesquisar pautas, eventos e economia em detalhe. / As fontes sobre seca e lagoa são antigas (2017) e foram registradas apenas como contexto estrutural. / A matéria da Lagoa de Itaparica é de 2017 (dados de vazão de ago/2017); usar só como contexto estrutural.",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Renanzinho (Renan Pinto Dantas Braga)"
@@ -1488,17 +1509,19 @@
   "pautas": [
    "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
   ],
-  "eventos": "Novos investimentos anunciados pela CMOC em Goiás (cerca de R$ 3 bilhões, out/2023). Não foram encontrados eventos de 2025–26 específicos de Ouvidor.",
+  "eventos": "Novos investimentos anunciados pela CMOC em Goiás (cerca de R$ 3 bilhões, out/2023). Não foram encontrados eventos de 2025–26 específicos de Ouvidor. / Nenhum evento 2025–2026 confirmado; a audiência pública sobre mineração é de maio/2024.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/ouvidor/",
    "https://pt.wikipedia.org/wiki/Ouvidor_(Goi%C3%A1s)",
    "https://www.otempo.com.br/eleicoes/2024/prefeito/2024/10/9/cebinha-do-pode-e-eleito-prefeito-de-ouvidor-go-nas-eleicoes-202",
    "https://www.maisgoias.com.br/cidades/catalao-camponeses-impedem-acesso-a-mineradoras-em-ato-contra-impactos-na-regiao-e-familias-agricultoras/",
    "https://www.maisgoias.com.br/cidades/prefeitura-de-catalao-manifesta-para-cobrar-dividas-milionarias-de-mineradoras-do-municipio/",
-   "https://www.jornalopcao.com.br/articulacoes/na-china-caiado-reforca-aliancas-para-atrair-novos-investimentos-para-goias-550676/"
+   "https://www.jornalopcao.com.br/articulacoes/na-china-caiado-reforca-aliancas-para-atrair-novos-investimentos-para-goias-550676/",
+   "https://www.rotajuridica.com.br/?p=144893",
+   "https://bnamericas.com/en/news/prosecutors-to-hold-public-hearing-on-impact-of-mining-in-brazils-goias-state"
   ],
   "confianca": "média",
-  "obs": "Nome completo do prefeito não verificado. Wikipédia cita empresas mineradoras com nomes possivelmente desatualizados (mudanças de controle do complexo de Catalão/Ouvidor não verificadas). / As pautas são regionais (Catalão–Ouvidor) e de 2018/2023, sem fonte recente própria de Ouvidor. É o único município do lote com virada para Flávio (S1).",
+  "obs": "Nome completo do prefeito não verificado. Wikipédia cita empresas mineradoras com nomes possivelmente desatualizados (mudanças de controle do complexo de Catalão/Ouvidor não verificadas). / As pautas são regionais (Catalão–Ouvidor) e de 2018/2023, sem fonte recente própria de Ouvidor. É o único município do lote com virada para Flávio (S1). / Wikipedia cita Anglo American/Vale como operadoras (desatualizado: ativos de nióbio/fosfato passaram para CMOC e Mosaic). bnamericas e Jornal Opção vistos só em busca.",
   "partido_prefeito_sigla": "PODE",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Cebinha"
@@ -1581,7 +1604,7 @@
   "pautas": [
    "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
   ],
-  "eventos": "Eleição 2024 apertada: Iris Parreira (MDB) 52,49% x Agenor (PRD) 47,51%. / Processo de impeachment do prefeito aberto em maio/2026 (primeiro em 78 anos do município), com comissão processante de até 90 dias; câmara dividida entre bloco do MDB e oposição (PRD, Solidariedade, PP, Agir, PL). Resultado final não verificado.",
+  "eventos": "Eleição 2024 apertada: Iris Parreira (MDB) 52,49% x Agenor (PRD) 47,51%. / Processo de impeachment do prefeito aberto em maio/2026 (primeiro em 78 anos do município), com comissão processante de até 90 dias; câmara dividida entre bloco do MDB e oposição (PRD, Solidariedade, PP, Agir, PL). Resultado final não verificado. / Primeiro processo de impeachment de prefeito em 78 anos do município, aberto em 07/05/2026; defesa alega viés político. Desfecho não verificado.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/santa-helena-de-goias/",
    "https://pt.wikipedia.org/wiki/Santa_Helena_de_Goi%C3%A1s",
@@ -1591,7 +1614,7 @@
    "https://www.jornalopcao.com.br/ultimas-noticias/lucas-do-vale-anuncia-r-1-milhao-em-emendas-para-santa-helena-de-goias-664381/"
   ],
   "confianca": "média",
-  "obs": "Wikipédia cita ex-prefeito Alcides Rodrigues como deputado federal (informação não atualizada). / Desfecho do impeachment (cassação ou arquivamento) não verificado; checar se Iris Parreira segue no cargo. Deputado estadual Lucas do Vale (MDB) anunciou R$ 1 mi em emendas ao município (12/2024).",
+  "obs": "Wikipédia cita ex-prefeito Alcides Rodrigues como deputado federal (informação não atualizada). / Desfecho do impeachment (cassação ou arquivamento) não verificado; checar se Iris Parreira segue no cargo. Deputado estadual Lucas do Vale (MDB) anunciou R$ 1 mi em emendas ao município (12/2024). / Matérias do Jornal Opção retornaram 403 no WebFetch; dados do impeachment vêm do resumo da busca. Verificar desfecho (cassação/arquivamento).",
   "partido_prefeito_sigla": "MDB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Iris Parreira"
@@ -1687,19 +1710,24 @@
   "pl_local": "PL elegeu 1 vereador (Dedé do Zé Garimpeiro) de 19; não encontrado prefeito/deputado PL com base local.",
   "economia": "Cidade média (~118 mil hab., 11º PIB do MA) com comércio e serviços, agricultura (arroz, mandioca, milho, feijão), pecuária, fábrica de cimento e jazidas de gipsita/calcário.",
   "pautas": [
-   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+   "Hospital Geral Municipal (HGM): fachada e cobertura desabaram no temporal de 26/01/2026 (O Imparcial)",
+   "Drenagem urbana e cheias: bairro Barro Vermelho (zona rural) isolado pela cheia de rio; queda de árvores e placas (O Imparcial)",
+   "Estradas vicinais e isolamento de povoados no período chuvoso (O Imparcial, regional)",
+   "Cheias do Rio Itapecuru: Codó monitorado pelo Sistema de Alerta Hidrológico do SGB (contexto estrutural)"
   ],
-  "eventos": "Chiquinho FC (PT) eleito em 2024 com 48,29% contra Dr. Zé Francisco (PSDB, 45,52%); vice Cinthya Rolim. / Desabamento de ponte rural (06/2026); caso do jornalista x deputado (04-05/2026); instalação de sismógrafo da Rede Sismográfica do Nordeste (04/2026), sem registro de danos.",
+  "eventos": "Chiquinho FC (PT) eleito em 2024 com 48,29% contra Dr. Zé Francisco (PSDB, 45,52%); vice Cinthya Rolim. / Desabamento de ponte rural (06/2026); caso do jornalista x deputado (04-05/2026); instalação de sismógrafo da Rede Sismográfica do Nordeste (04/2026), sem registro de danos. / Temporal de 26–27/01/2026 (ventos de até 100 km/h, 68 mm em 4h) destruiu a cobertura do Hospital Geral Municipal; sem menção a decreto de emergência.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/codo/",
    "https://pt.wikipedia.org/wiki/Cod%C3%B3",
    "https://oimparcial.com.br/cidades/2026/06/ponte-desaba-durante-passagem-de-caminhao-e-isola-moradores-da-zona-rural-de-codo/",
    "https://oimparcial.com.br/noticias/2026/05/entidades-condenam-operacao-policial-contra-jornalista-em-codo/",
    "https://oimparcial.com.br/noticias/2026/04/maranhao-amplia-monitoramento-de-tremores-com-novo-sismografo-em-codo/",
-   "https://oimparcial.com.br/codo/cidades/2026/10/dois-homens-sao-mortos-e-um-fica-ferido-durante-ataque-a-tiros-em-codo/"
+   "https://oimparcial.com.br/codo/cidades/2026/10/dois-homens-sao-mortos-e-um-fica-ferido-durante-ataque-a-tiros-em-codo/",
+   "https://oimparcial.com.br/noticias/2026/01/temporal-em-codo-fachada-de-hospital-desaba-e-povoados-ficam-isolados-apos-forte-tempestade/",
+   "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf"
   ],
   "confianca": "média",
-  "obs": "Wikipédia registra declínio da agricultura local por falta de incentivos. / Pautas inferidas do noticiário recente do O Imparcial; sem pesquisa de opinião ou debate local específico.",
+  "obs": "Wikipédia registra declínio da agricultura local por falta de incentivos. / Pautas inferidas do noticiário recente do O Imparcial; sem pesquisa de opinião ou debate local específico. / Relatório SGB visto só em busca.",
   "partido_prefeito_sigla": "PT",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Chiquinho FC"
@@ -1715,17 +1743,18 @@
   "pautas": [
    "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
   ],
-  "eventos": "Bruno Silva (PP) eleito com 68,95%; município recebeu o Selo UNICEF em 2024 (6ª vez). / Nenhum evento de grande escala identificado; noticiário dominado por crimes violentos.",
+  "eventos": "Bruno Silva (PP) eleito com 68,95%; município recebeu o Selo UNICEF em 2024 (6ª vez). / Nenhum evento de grande escala identificado; noticiário dominado por crimes violentos. / Nenhum evento 2025–2026 confirmado.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/coelho-neto/",
    "https://pt.wikipedia.org/wiki/Coelho_Neto_(Maranh%C3%A3o)",
    "https://oimparcial.com.br/noticias/2026/05/influenciadora-de-21-anos-e-executada-a-tiros-em-coelho-neto/",
    "https://oimparcial.com.br/politica/2025/08/familias-de-timon-coelho-neto-e-buriti-recebem-cartoes-do-programa-maranhao-livre-da-fome/",
    "https://oimparcial.com.br/noticias/2025/04/policia-investiga-gincana-da-prefeitura-de-coelho-neto-com-show-de-gogo-boys/",
-   "https://oimparcial.com.br/noticias/2025/12/policia-busca-suspeitos-de-matar-cozinheira-em-coelho-neto-ma/"
+   "https://oimparcial.com.br/noticias/2025/12/policia-busca-suspeitos-de-matar-cozinheira-em-coelho-neto-ma/",
+   "https://www.sgb.gov.br/sace/boletins/Parnaiba/20250425_15-20250425%20-%20150106.pdf"
   ],
   "confianca": "baixa",
-  "obs": "Economia e pautas com lacunas. / Baseado só em manchetes da busca do O Imparcial (matérias não abertas).",
+  "obs": "Economia e pautas com lacunas. / Baseado só em manchetes da busca do O Imparcial (matérias não abertas). / PDF do MPMA recusou conexão; boletim SGB visto só em busca.",
   "partido_prefeito_sigla": "PP",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Bruno Silva"
@@ -1741,17 +1770,18 @@
   "pautas": [
    "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
   ],
-  "eventos": "Edimar Vaqueiro (PSB) eleito com 61,03% contra Aryanna Amovelar (PT). / Crise financeira herdada (01/2025); pacote de entregas do governador Carlos Brandão no aniversário de 106 anos (08/04/2026).",
+  "eventos": "Edimar Vaqueiro (PSB) eleito com 61,03% contra Aryanna Amovelar (PT). / Crise financeira herdada (01/2025); pacote de entregas do governador Carlos Brandão no aniversário de 106 anos (08/04/2026). / Nenhum evento 2025–2026 confirmado.",
   "fontes": [
    "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/coroata/",
    "https://pt.wikipedia.org/wiki/Coroat%C3%A1",
    "https://oimparcial.com.br/noticias/2025/01/mais-tres-municipios-do-maranhao-decretam-crise-financeira/",
    "https://oimparcial.com.br/noticias/2026/04/coroata-celebra-106-anos-com-entrega-de-obras-e-servicos-a-populacao/",
    "https://oimparcial.com.br/noticias/2026/04/grupo-suspeito-de-assalto-a-bancos-e-preso-em-coroata/",
-   "https://oimparcial.com.br/coroata/cidades/2026/08/homem-e-preso-suspeito-de-matar-motorista-de-aplicativo-em-coroata/"
+   "https://oimparcial.com.br/coroata/cidades/2026/08/homem-e-preso-suspeito-de-matar-motorista-de-aplicativo-em-coroata/",
+   "https://rigeo.sgb.gov.br/bitstream/doc/25220/1/relatorio_anual_2024_sah_itapecuru.pdf"
   ],
   "confianca": "baixa",
-  "obs": "Economia e pautas com lacunas. / Matéria do aniversário baseada em release do governo estadual.",
+  "obs": "Economia e pautas com lacunas. / Matéria do aniversário baseada em release do governo estadual. / Busca não trouxe imprensa local; recomenda-se nova rodada.",
   "partido_prefeito_sigla": "PSB",
   "partido_prefeito_incerto": false,
   "prefeito_2024_nome": "Edimar Vaqueiro"
