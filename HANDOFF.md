@@ -76,6 +76,9 @@ python3 scripts/segundo_turno.py   # -> data/segundo_turno/ (2nd-round view; aft
    - On 25/10, re-download `votacao_candidato_munzona_2026.zip` and `detalhe_votacao_munzona_2026.zip` into `TSE_RAW/tse_2026/` and rerun the script. It detects `NR_TURNO == "2"` and adds `*_t2` columns plus the deltas `d_abst_26`, `d_lula2p_26` and `d_gap_26`, at municipality, UF and scenario level.
    - `lula2p` = Lula / (Lula + PL) in p.p., so the 1T and 2T shares compare on the same basis.
    - In 2022, Lula's two-party share fell between rounds in 97.9% of municipalities, from 52.85 to 50.90 nationally. Read the 2026 deltas against that precedent.
+   - Local factors on 25/10 that can move turnout:
+     - Governor runoffs in AC, AM, DF, ES, RJ, RN and TO. In RJ, Garotinho's 274k votes are "anulado sub judice"; Ruas has 49.27% counting them and 50.88% of valid votes without them (see `data/tse/estados_2026.csv`, `pct_com_sub_judice`).
+     - A supplementary mayoral election in Narandiba/SP. Flag it before reading its d_abst_26.
 
 ## Gotchas
 

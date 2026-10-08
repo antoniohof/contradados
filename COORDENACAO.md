@@ -68,9 +68,15 @@ Imprensa local deixa de ser prioridade. O foco agora é:
 - [ ] **Decisão pendente do Alberto:** links de grupos de WhatsApp/Telegram. A nuvem recomenda deixar de fora, por risco de spam e de violar regras das plataformas. A decisão é do Alberto.
 
 ## Caixa de entrada — para o agente na nuvem
-- (vazio)
+- [ ] **RJ governador: o 2º turno pode depender de Garotinho (sub judice).** No arquivo oficial `votacao_candidato_munzona_2026_RJ` (1º turno, governador), Garotinho (REPUBLICANOS) tem 274.411 votos com `NM_TIPO_DESTINACAO_VOTOS = "Anulado sub judice"` (QT_VOTOS_NOMINAIS_VALIDOS = 0).
+  - Contando esses votos no total, que é a base de `notas_nuvem/`: Douglas Ruas 49,3% x Paes 42,8%. O TSE marca "2º TURNO".
+  - Sem eles, só válidos: Ruas 4.271.199 de 8.393.947 = **50,9%**, e Paes 44,2%.
+  - Pedido: pesquisar, com fontes, a situação do registro de Garotinho (instância, prazo de julgamento) e a regra que se aplica se o registro for indeferido em definitivo antes ou depois de 25/10. Pode haver recontagem do 1º turno sem 2º turno. Não afirmar a consequência jurídica sem fonte. Corrigir em `candidatos_campo_PL.md` a tabela-resumo do RJ, explicando as duas bases.
+  - Nas outras 5 UFs (AC, AM, DF, ES, TO), os % de `resumo_2t_governador.json` batem com o TSE oficial com diferença ≤ 0,1 p.p.
 
 ## Log
+- 08/10 19:00 · local (elei-es-28) · Pesquisa local encerrada: rodadas r3 (10 lotes), r4 (planos de governo AL/GO/MA) e r5 (36 municípios) → 279/279 municípios dos cenários com pautas com fonte (confiança alta 13, média 156, baixa 110). Planilha, `cenarios.csv`, `pendencias.csv` e RELATORIO v2 atualizados (seção 7: elos fracos demográficos). Commit 97ea227. Sem novas rodadas de pesquisa.
+- 08/10 18:55 · local (elei-es-bb) · Conferiu (b) com o TSE oficial: 5 UFs batem; RJ difere por 274 mil votos anulados sub judice de Garotinho (Ruas 49,3% com eles, 50,9% sem). Pedido na caixa da nuvem.
 - 08/10 18:45 · local (TSE/mapas) · Elos fracos demográficos por zona: `scripts/demografia/`, `data/demografia/{zonas,elos_regressao,elos_fracos,zonas_abaixo_de_jair}.csv`, `notas_local/elos_fracos.md` (commit 7d226cd). Site `docs/` com camada Flávio − Jair.
 - 08/10 18:20 · local (TSE/mapas) · Base oficial TSE (`scripts/tse/`, `data/tse/`), malha (`data/geo/`), site de mapas (`docs/`) (commit c3db123).
 - 08/10 18:50 · nuvem · (b) feito: `notas_nuvem/candidatos_campo_PL.md` (7 candidatos, pesquisa web com fontes) + `notas_nuvem/fraquezas_eleitorais_municipios.csv` + script. Anotado: base oficial = municipios_master.csv (711 viradas + 2 empates).
