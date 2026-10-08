@@ -67,6 +67,7 @@
     sw: { label: "Swing 2022→2026 (p.p.)", v: (d) => d.sw, scale: () => polit(-30, 30), fmt: pp, ends: ["→ PL", "→ Lula"] },
     m26: { label: "Margem 1T 2026: Lula − Flávio (p.p.)", v: (d) => d.m26, scale: () => polit(-60, 60), fmt: pp, ends: ["Flávio à frente", "Lula à frente"] },
     m22: { label: "Margem 1T 2022: Lula − Bolsonaro (p.p.)", v: (d) => d.m22, scale: () => polit(-60, 60), fmt: pp, ends: ["Bolsonaro à frente", "Lula à frente"] },
+    fj: { label: "Flávio 2026 − Bolsonaro 2022, 1º turno (p.p.)", v: (d) => (d.f26 == null || d.b22 == null ? null : d.f26 - d.b22), scale: () => divScale(-15, 15, [C.pt[2], C.pt[1], C.pt[0]], [C.pl[2], C.pl[1], C.pl[0]]), fmt: pp, ends: ["Flávio abaixo de Jair", "Flávio acima de Jair"] },
     l26: { label: "Lula 1T 2026 (% válidos)", v: (d) => d.l26, scale: () => seqScale([20, 80]), fmt: p1 },
     f26: { label: "Flávio 1T 2026 (% válidos)", v: (d) => d.f26, scale: () => seqScale([20, 80]), fmt: p1 },
     t26: { label: "Terceiros 1T 2026 (% válidos)", v: (d) => d.t26, scale: () => seqScale([2, 20]), fmt: p1 },
@@ -107,7 +108,7 @@
       uni: (d) => d.vir && d.apt >= 10000, uniLabel: "viraram, com 10 mil+ eleitores",
       layer: "sw", list: L.S1, mk: (d) => d.apt, mkLabel: "eleitores aptos",
       cols: [["Swing", (d) => pp(d.sw)], ["Flávio 26", (d) => p1(d.f26)], ["Lula 22", (d) => p1(d.l22)]],
-      layers: ["sw", "m26", "m22", "plp", "pb", "gplp", "dfpl"],
+      layers: ["sw", "fj", "m26", "m22", "plp", "pb", "gplp", "dfpl"],
       note: "Cor: swing de margem entre os 1os turnos (negativo = movimento para o PL). Pontos: os 100 da lista, com tamanho pelo número de eleitores. Fora do universo, em cinza.",
     },
     S2: {
