@@ -1,0 +1,264 @@
+[
+ {
+  "ibge": "4315305",
+  "municipio": "Quaraí",
+  "uf": "RS",
+  "prefeito_2024": "Jeferson da Silva Pires (Jeferson Pires)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "PL teve candidato próprio a prefeito em 2024 (Murillinho, nº 22), derrotado; PL lançou 12 candidatos a vereador. Nº de vereadores eleitos do PL não confirmado.",
+  "economia": "Município de fronteira com o Uruguai (~23,5 mil hab., Censo 2022; PIB per capita R$ 30,6 mil em 2023) com economia baseada em pecuária (bovinos e forte ovinocultura), arroz irrigado (>8,5 mil ha) e serviços.",
+  "pautas": [
+   "Cheias do Rio Quaraí/Rio Uruguai na Fronteira Oeste (histórico de milhares de desabrigados; nova elevação do Rio Uruguai até cota de inundação em jul/2026 e set/2026 na região)",
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado): saúde, emprego e renda rural não confirmados por fonte local"
+  ],
+  "eventos": "Cheias do Rio Uruguai na Fronteira Oeste em julho e setembro de 2026 (efeito específico em Quaraí não confirmado). Eleição 2024 com disputa Republicanos x PL x PT.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/quarai.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-quarai-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Quaraí",
+   "https://www.jornaldocomercio.com/jornal-cidades/2026/07/1258164-apos-oito-dias-seguidos-de-elevacao-ate-a-cota-de-inundacao-rio-uruguai-comeca-a-recuar-na-fronteira-oeste.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito confirmado pelo IBGE Cidades (2025) e partido pela lista de candidatos Itatiaia. Pautas fracas: matéria da Jornal do Comércio só vista pelo título (fetch bloqueado por rate limit)."
+ },
+ {
+  "ibge": "4315602",
+  "municipio": "Rio Grande",
+  "uf": "RS",
+  "prefeito_2024": "Darlene Torrada Pereira (Darlene Pereira)",
+  "partido_prefeito": "PT",
+  "pl_local": "não encontrado",
+  "economia": "Cidade portuária de porte médio (191,9 mil hab., Censo 2022; PIB per capita R$ 73,5 mil em 2023): Porto do Rio Grande, indústria química/fertilizantes, refinaria e polo naval (estaleiros), pesca e serviços.",
+  "pautas": [
+   "Recuperação e prevenção de cheias da Lagoa dos Patos após a enchente de maio/2024 (zonas em alerta, ilhas e bairros baixos)",
+   "Retomada do polo naval/estaleiros e empregos (retomada não prevista para 2025, segundo Jornal do Comércio)",
+   "Investimentos e operações do Porto do Rio Grande (aportes de mais de R$ 1 bilhão anunciados em 2025)",
+   "Energia elétrica/CEEE Equatorial (reunião de prefeitos da Zona Sul com a concessionária em set/2026)",
+   "Ordenamento do Porto Histórico (retirada de embarcações abandonadas, out/2026)"
+  ],
+  "eventos": "Enchente histórica de maio/2024 (Lagoa dos Patos); expectativa frustrada de retomada do polo naval em 2025; anúncios de investimentos portuários em 2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/rio-grande.html",
+   "https://pt.wikipedia.org/wiki/Rio_Grande_(Rio_Grande_do_Sul)",
+   "https://www.jornaldocomercio.com/jornal-cidades/2024/05/1153537-cidade-de-rio-grande-se-prepara-para-maior-cheia-da-historia.html",
+   "https://www.jornaldocomercio.com/economia/2025/10/1222390-retomada-do-polo-naval-em-rio-grande-nao-deve-sair-em-2025.html",
+   "https://www.jornaldocomercio.com/mapa-economico/regiao-sul/2025/06/1207898-operacoes-no-porto-de-rio-grande-terao-aportes-de-maisde-rs-1-bilhao.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeita (PT) confirmada por Wikipedia e IBGE; vice Paulo Renato Mattos Gomes. Matérias do JC sobre polo naval/porto vistas só por título (fetch bloqueado). Notícias CEEE e embarcações via feed Bing (jornaldocomercio.com/jornal-cidades/2026/10/1265307; jornaltradicao.com.br)."
+ },
+ {
+  "ibge": "4315958",
+  "municipio": "Rolador",
+  "uf": "RS",
+  "prefeito_2024": "João Alberto Aquino Gomes",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (candidato único a prefeito em 2024, do MDB)",
+  "economia": "Microcidade (2.291 hab., Censo 2022; PIB per capita R$ 39,9 mil em 2023) da região das Missões; base econômica agropecuária presumida, não confirmada em fonte.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "Eleição 2024 com candidato único a prefeito. Estiagens recorrentes no RS em 2025 (impacto local não confirmado).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/rolador.html",
+   "https://pt.wikipedia.org/wiki/Rolador",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-rolador-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito e partido confirmados (Wikipedia, IBGE, Itatiaia). Pautas não pesquisadas por falta de orçamento de busca."
+ },
+ {
+  "ibge": "4316105",
+  "municipio": "Ronda Alta",
+  "uf": "RS",
+  "prefeito_2024": "Marcos Miguel Beux (Marcos Beux)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado (disputa de prefeito em 2024 foi PDT x PT)",
+  "economia": "Pequeno município do norte gaúcho (9.777 hab., Censo 2022; PIB per capita R$ 41,2 mil em 2023); base agrícola de grãos presumida, não confirmada em fonte consultada.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/ronda-alta.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ronda-alta-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Ronda_Alta"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado pelo IBGE (2025) e partido pela Itatiaia. G1 de posse (31/12/2024) bloqueado para fetch."
+ },
+ {
+  "ibge": "4316428",
+  "municipio": "Sagrada Família",
+  "uf": "RS",
+  "prefeito_2024": "Mauro Rogerio Ferrari Galatto (Mauro Galatto)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado",
+  "economia": "Microcidade (2.480 hab., Censo 2022; PIB per capita R$ 27,1 mil em 2023) do norte do RS; base agropecuária familiar presumida, não confirmada em fonte.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sagrada-familia.html",
+   "https://pt.wikipedia.org/wiki/Sagrada_Família_(Rio_Grande_do_Sul)"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito/partido via Wikipedia ('Mauro Galatto (PDT, 2025–2028)') e IBGE."
+ },
+ {
+  "ibge": "4316451",
+  "municipio": "Salto do Jacuí",
+  "uf": "RS",
+  "prefeito_2024": "Ronaldo Olimpio Pereira de Moraes (Ronaldo)",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa de prefeito em 2024 foi PP x PDT)",
+  "economia": "Pequeno município (10,2 mil hab., Censo 2022; PIB per capita R$ 58,3 mil em 2023) com agropecuária (soja, milho, trigo, gado), mineração e geração hidrelétrica no Rio Jacuí.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/salto-do-jacui.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-salto-do-jacui-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Salto_do_Jacuí",
+   "https://www.otempo.com.br/eleicoes/2024/2024/10/28/raio-x-das-eleicoes-2024-de-salto-do-jacui-rs"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito/partido confirmados (IBGE + Itatiaia)."
+ },
+ {
+  "ibge": "4317301",
+  "municipio": "Santa Vitória do Palmar",
+  "uf": "RS",
+  "prefeito_2024": "André Selayaran Nicoletti",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (PL não teve candidato a prefeito em 2024; disputa entre MDB, PT, PSDB e PSOL)",
+  "economia": "Município do extremo sul na fronteira com o Uruguai (31 mil hab., Censo 2022; PIB per capita R$ 64,3 mil em 2023), grande produtor de arroz irrigado, com pecuária e turismo de veraneio (Hermenegildo).",
+  "pautas": [
+   "Saúde: hospital único (Santa Casa) sem especialistas, pacientes transportados a Rio Grande/Pelotas em ônibus precários (denúncia de nov/2024)",
+   "Crise financeira da Santa Casa de Misericórdia e risco ao pronto-atendimento (mediação do MP; 2021–2022)",
+   "Estiagem e riscos para a lavoura de arroz",
+   "Isolamento/distância de centros regionais (trajetos de até 500 km para atendimento)"
+  ],
+  "eventos": "Troca de gestão em 2025 (gestão anterior de Wellington Bacelo dos Santos criticada pelo transporte de pacientes). Nenhum evento de 2026 específico encontrado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/santa-vitoria-do-palmar.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-santa-vitoria-do-palmar-rs-da-eleicao-2024/",
+   "https://brasildefato.com.br/2024/11/05/santa-vitoria-do-palmar-rs-secretaria-de-saude-usa-onibus-precarios-para-transporte-de-pacientes-a-outras-cidades/",
+   "https://www.mprs.mp.br/noticias/dirhum/54099/",
+   "https://www.agrolink.com.br/noticias/estiagem-em-santa-vitoria--rs--poe-agricultor-em-alerta_50951.html"
+  ],
+  "confianca": "média",
+  "obs": "Matéria Agrolink sobre estiagem não lida (data incerta). Prefeito anterior (2021–2024): Wellington Bacelo dos Santos."
+ },
+ {
+  "ibge": "4317806",
+  "municipio": "Santo Augusto",
+  "uf": "RS",
+  "prefeito_2024": "Lilian Fontoura Depiere",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeita Lilian Fontoura Depiere eleita pelo PL em 2024 (venceu PT e MDB). Vereadores do PL não verificados.",
+  "economia": "Pequeno município do noroeste gaúcho (13,9 mil hab., Censo 2022; PIB per capita R$ 52,4 mil em 2023); base agropecuária de grãos presumida, não confirmada em fonte.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/santo-augusto.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-santo-augusto-rs-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Um dos poucos municípios do lote com prefeita do PL (confirmada IBGE + Itatiaia). Pautas não encontradas."
+ },
+ {
+  "ibge": "4320354",
+  "municipio": "Sentinela do Sul",
+  "uf": "RS",
+  "prefeito_2024": "Julio Cesar Carvalho",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa de prefeito em 2024 foi PP x MDB)",
+  "economia": "Microcidade da região Centro-Sul/Costa Doce (5.306 hab., Censo 2022; PIB per capita R$ 33,9 mil em 2023); base agropecuária presumida, não confirmada em fonte.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sentinela-do-sul.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sentinela-do-sul-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Sentinela_do_Sul"
+  ],
+  "confianca": "baixa",
+  "obs": "Município emancipado de Tapes em 1992. Prefeito/partido confirmados (IBGE + Itatiaia)."
+ },
+ {
+  "ibge": "4320800",
+  "municipio": "Soledade",
+  "uf": "RS",
+  "prefeito_2024": "Paulo Ricardo Cattaneo",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL teve candidato a prefeito em 2024 (Serginho – Sergio Portela da Silva, nº 22), derrotado pelo MDB. Vereadores do PL não verificados.",
+  "economia": "Cidade média do Alto da Serra do Botucaraí (~30 mil hab., Censo 2022; PIB per capita R$ 43,8 mil em 2023), polo de beneficiamento e comércio de pedras preciosas (ágata, ametista), com agropecuária e serviços.",
+  "pautas": [
+   "Setor de pedras preciosas/gemas (título de Capital Nacional das Pedras Preciosas aprovado pelo Congresso em 2025, Lei 15.217/2025)",
+   "Obras de acesso ao aeródromo municipal (verba ampliada em ago/2026)",
+   "Concurso público municipal (63 vagas, out/2025)",
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado) sobre saúde/segurança"
+  ],
+  "eventos": "Lei federal de 2025 dando a Soledade o título de Capital Nacional das Pedras Preciosas; obras no aeródromo em 2026.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/soledade.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-soledade-rs-da-eleicao-2024/",
+   "https://www12.senado.leg.br/radio/1/noticia/2025/09/10/congresso-da-a-soledade-o-titulo-de-capital-nacional-das-pedras-preciosas",
+   "https://planalto.gov.br/ccivil_03/_ato2023-2026/2025/Lei/L15217.htm",
+   "https://www.otempo.com.br/politica/2026/8/6/prefeitura-de-soledade-amplia-verba-para-obras-de-acesso-ao-aerodromo-municipal"
+  ],
+  "confianca": "média",
+  "obs": "Wikipedia ainda lista Marilda Borges Corbelini (MDB), gestão anterior; IBGE (2025) e Itatiaia confirmam Paulo Cattaneo (MDB). Algumas fontes vistas apenas por título/feed."
+ },
+ {
+  "ibge": "4318002",
+  "municipio": "São Borja",
+  "uf": "RS",
+  "prefeito_2024": "José Luiz Rodrigues Machado ('Boca')",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa de prefeito em 2024 foi PP x PDT)",
+  "economia": "Cidade média da Fronteira Oeste na divisa com a Argentina (59,7 mil hab., Censo 2022; PIB per capita R$ 42,7 mil em 2023), grande produtora de arroz, com pecuária, comércio e serviços.",
+  "pautas": [
+   "Cheias do Rio Uruguai (alerta de risco muito alto da Defesa Civil estadual; transbordamento e famílias retiradas na Fronteira Oeste em jul e set/2026)",
+   "Temporais e granizo (possível decreto de emergência em jun/2025; árvores e postes derrubados em jan/2025)",
+   "Concurso público municipal (2025)"
+  ],
+  "eventos": "Enchentes do Rio Uruguai em julho e setembro de 2026, às vésperas da eleição; temporais em 2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-borja.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-borja-rs-da-eleicao-2024/",
+   "https://www.estado.rs.gov.br/defesa-civil-estadual-alerta-para-risco-muito-alto-de-inundacao-do-rio-uruguai-para-sao-borja",
+   "https://www.jornaldocomercio.com/jornal-cidades/2026/07/1258164-apos-oito-dias-seguidos-de-elevacao-ate-a-cota-de-inundacao-rio-uruguai-comeca-a-recuar-na-fronteira-oeste.html",
+   "https://www.correiodopovo.com.br/notícias/cidades/prefeitura-de-são-borja-pode-decretar-situação-de-emergência-após-temporal-com-queda-de-granizo-1.1616291"
+  ],
+  "confianca": "média",
+  "obs": "Notícias de 2025/2026 vistas via títulos (feed Bing e resultados de busca); data do alerta da Defesa Civil não confirmada. Wikipedia aponta São Borja como grande produtor de arroz."
+ },
+ {
+  "ibge": "4318101",
+  "municipio": "São Francisco de Assis",
+  "uf": "RS",
+  "prefeito_2024": "Rubemar Paulinho Salbego (Paulinho Salbego)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado (disputa de prefeito em 2024 foi PDT x PSB)",
+  "economia": "Município do oeste gaúcho (17,6 mil hab., Censo 2022, queda de 8,5% desde 2010; PIB per capita R$ 33,6 mil em 2023) com economia no setor primário: soja (>17 mil ha), milho, arroz, fumo, trigo e pecuária.",
+  "pautas": [
+   "Perda populacional (-8,5% entre 2010 e 2022)",
+   "Não foram encontradas pautas locais específicas em fonte consultada (orçamento de busca esgotado / fetch limitado)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-francisco-de-assis.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-francisco-de-assis-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/São_Francisco_de_Assis_(Rio_Grande_do_Sul)"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito/partido confirmados (IBGE + Itatiaia)."
+ }
+]

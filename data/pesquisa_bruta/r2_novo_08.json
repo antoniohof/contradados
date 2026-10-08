@@ -1,0 +1,261 @@
+[
+ {
+  "ibge": "4310850",
+  "municipio": "Jaboticaba",
+  "uf": "RS",
+  "prefeito_2024": "Edvaldo Rosa Ribeiro",
+  "partido_prefeito": "PP",
+  "pl_local": "PL não lançou candidatos a vereador em 2024 (só PP, PDT e União); disputa a prefeito foi PP x União. Nenhum político do PL com reduto local encontrado.",
+  "economia": "Município rural pequeno (3.779 hab., Censo 2022; PIB per capita R$ 28,3 mil em 2023), na região de Frederico Westphalen/Palmeira das Missões; base agropecuária presumida, não verificada em fonte local.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/jaboticaba.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-jaboticaba-rs-da-eleicao-2024/",
+   "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/municipio-do-rs-decreta-emergencia-apos-estiagem-comprometer-safra-de-soja-25-26/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado pelo IBGE Cidades (2025) e lista de candidatos da Itatiaia (Edvaldo Ribeiro, PP 11, contra Oseias, União 44). Pautas não pesquisadas em profundidade: o orçamento de buscas acabou."
+ },
+ {
+  "ibge": "4310876",
+  "municipio": "Jacuizinho",
+  "uf": "RS",
+  "prefeito_2024": "José Diniz Fernandes (Diniz)",
+  "partido_prefeito": "PP",
+  "pl_local": "PL sem candidatos a vereador em 2024 (PDT, MDB, PP e PRD); disputa a prefeito PP x PDT. Não encontrado.",
+  "economia": "Microcidade (2.040 hab., Censo 2022) com PIB per capita alto (R$ 61,3 mil em 2023), o que sugere agricultura de grãos; a região central, perto de Salto do Jacuí, não foi verificada em fonte local.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/jacuizinho.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-jacuizinho-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O IBGE dá 'Diniz José Fernandes'; a URL da Itatiaia dá 'José Fernandes Diniz' (Diniz, PP 11, contra Gilson, PDT 12). A ordem do nome é incerta. A Wikipédia não pôde ser lida (limite de requisições)."
+ },
+ {
+  "ibge": "4311130",
+  "municipio": "Jari",
+  "uf": "RS",
+  "prefeito_2024": "Osnei dos Santos Azeredo (Nei)",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL sem candidatos a vereador em 2024 (PSDB, MDB, PP e PT). Não encontrado.",
+  "economia": "Pequeno município agrícola da região central (3.349 hab., Censo 2022; PIB per capita R$ 63,2 mil em 2023); agricultura de grãos (soja) presumida pelo PIB per capita.",
+  "pautas": [
+   "Estiagem: emergência reconhecida pela União em março de 2025 (lista de 34 cidades gaúchas)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal",
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "Estiagem 2024/25 com situação de emergência reconhecida pelo governo federal (mar/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/jari.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-jari-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html"
+  ],
+  "confianca": "média",
+  "obs": "Eleição a prefeito em 2024: Jocelir Mucha (PP), Nei (MDB) e Pedrolivio Prado (PSDB). O IBGE confirma Osnei Azeredo como prefeito."
+ },
+ {
+  "ibge": "4311205",
+  "municipio": "Júlio de Castilhos",
+  "uf": "RS",
+  "prefeito_2024": "Bernardo Quatrin Dalla Corte",
+  "partido_prefeito": "PSDB",
+  "pl_local": "PL lançou 11 candidatos a vereador em 2024 (número de eleitos não verificado); não teve candidato próprio a prefeito (PT, PSDB e PSB disputaram).",
+  "economia": "Polo de soja da região central (18.226 hab., Censo 2022; PIB per capita R$ 71,7 mil em 2023; cerca de 104 mil ha de soja segundo o IBGE, quase toda de sequeiro).",
+  "pautas": [
+   "Estiagem e quebra da safra de soja 2025/26: a prefeitura decretou situação de emergência em fevereiro de 2026, com perdas de 60–70% em algumas áreas",
+   "Estiagem 2024/25: emergência reconhecida pela União em março de 2025",
+   "Dependência da soja de sequeiro (só 1,8 mil ha irrigados)",
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "Duas estiagens seguidas com emergência: reconhecimento federal em março de 2025 e decreto municipal em fevereiro de 2026 pela safra 25/26.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/julio-de-castilhos.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-julio-de-castilhos-rs-da-eleicao-2024/",
+   "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/municipio-do-rs-decreta-emergencia-apos-estiagem-comprometer-safra-de-soja-25-26/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+   "https://www.canalrural.com.br/agricultura/plantio-da-soja-comeca-em-julio-de-castilhos-rs-confira-os-dados-da-semeadura/"
+  ],
+  "confianca": "média",
+  "obs": "Choques agrícolas recentes bem documentados. Não se verificou quantos vereadores do PL foram eleitos."
+ },
+ {
+  "ibge": "4311239",
+  "municipio": "Lagoa Bonita do Sul",
+  "uf": "RS",
+  "prefeito_2024": "Luiz Francisco Fagundes (Luizinho)",
+  "partido_prefeito": "PP",
+  "pl_local": "O PL lançou 3 candidatos a vereador em 2024 (Alexandre Lyra, Claudiomiro Severo e Sandra Palhano Ceschini); não se sabe se algum foi eleito. Luizinho (PP) parece ter sido candidato único.",
+  "economia": "Microcidade rural do Vale do Rio Pardo, emancipada de Sobradinho (2.251 hab., Censo 2022; PIB per capita R$ 37,4 mil em 2023). Há agricultura familiar e arroz; o fumo é provável na região, mas não foi verificado.",
+  "pautas": [
+   "Estiagem: emergência reconhecida pelo MIDR em abril de 2025 (Portaria 1.148)",
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida pelo governo federal (abr/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/lagoa-bonita-do-sul.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-lagoa-bonita-do-sul-rs-da-eleicao-2024/",
+   "https://brasil61.com/n/midr-reconhece-a-situacao-de-emergencia-em-13-cidades-gauchas-afetadas-pela-estiagem-pmdr253392",
+   "https://pt.wikipedia.org/wiki/Lagoa_Bonita_do_Sul"
+  ],
+  "confianca": "média",
+  "obs": "A Itatiaia lista só um candidato a prefeito (Luizinho, PP), e o IBGE confirma."
+ },
+ {
+  "ibge": "4311734",
+  "municipio": "Mampituba",
+  "uf": "RS",
+  "prefeito_2024": "Gilberto Lopes Roldão (Beto Roldão)",
+  "partido_prefeito": "PSDB",
+  "pl_local": "PL sem candidatos a vereador em 2024 (PSDB, MDB, PP, Republicanos e PT). Não encontrado.",
+  "economia": "Pequeno município do litoral norte, na divisa com SC (3.131 hab., Censo 2022; PIB per capita R$ 32,3 mil). Tem agricultura de banana, arroz e fumo, pecuária e turismo rural ('Cidade dos Vales e das Cascatas').",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/mampituba.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-mampituba-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Mampituba"
+  ],
+  "confianca": "baixa",
+  "obs": "Eleição a prefeito de 2024: Beto Roldão (PSDB) x Marta (MDB). O IBGE confirma Gilberto Lopes Roldão."
+ },
+ {
+  "ibge": "4311775",
+  "municipio": "Maquiné",
+  "uf": "RS",
+  "prefeito_2024": "Luciano de Almeida Alves",
+  "partido_prefeito": "PDT",
+  "pl_local": "PL sem candidatos a vereador em 2024 (Republicanos, PDT, PP, MDB e PT). Não encontrado.",
+  "economia": "Município do litoral norte, ao pé da Serra, cortado pela BR-101 (7.418 hab., Censo 2022; PIB per capita R$ 30,8 mil). Tem ecoturismo (cachoeiras, Mata Atlântica) e agricultura.",
+  "pautas": [
+   "Enchentes e cheias do rio Maquiné: no ciclone extratropical de junho de 2023 o centro ficou alagado e houve evacuações",
+   "Estiagem: emergência em março de 2023",
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "Ciclone e enchente de junho de 2023, que alagou o centro (prefeito anterior: João Marcos Bassani). Não há eventos verificados de 2025–2026.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/maquine.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-maquine-rs-da-eleicao-2024/",
+   "https://diariodonordeste.verdesmares.com.br/ultima-hora/pais/prefeito-de-maquine-no-rs-pede-que-pessoas-saiam-de-casa-apos-chegada-de-ciclone-1.3381887",
+   "https://pt.wikipedia.org/wiki/Maquiné"
+  ],
+  "confianca": "média",
+  "obs": "Eleição de 2024: Adilson Bopsin (Republicanos), Luciano Alves (PDT) e Silvano Bopsin (PP). Houve troca de grupo em relação ao prefeito anterior, Bassani, cujo partido não foi verificado."
+ },
+ {
+  "ibge": "4313490",
+  "municipio": "Novo Barreiro",
+  "uf": "RS",
+  "prefeito_2024": "Marcia Raquel Rodrigues Presotto",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "PL sem candidatos a vereador em 2024. Não encontrado.",
+  "economia": "Pequeno município rural perto de Palmeira das Missões (4.272 hab., Censo 2022; PIB per capita R$ 28,2 mil em 2023); base agropecuária presumida.",
+  "pautas": [
+   "Estiagem: emergência reconhecida pela Defesa Civil Nacional em maio de 2025",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal",
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)"
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida (7/5/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/novo-barreiro.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-novo-barreiro-rs-da-eleicao-2024/",
+   "https://brasil61.com/n/midr-reconhece-situacao-de-emergencia-em-oito-cidades-gauchas-afetadas-pela-estiagem-pmdr253489"
+  ],
+  "confianca": "média",
+  "obs": "Eleição de 2024: Cleomar Furini (PT), Marcia Rodrigues (União) e Tito (PP). O IBGE confirma Marcia Presotto."
+ },
+ {
+  "ibge": "4313441",
+  "municipio": "Novo Tiradentes",
+  "uf": "RS",
+  "prefeito_2024": "Luiz Carlos Benedette (Caio)",
+  "partido_prefeito": "PP",
+  "pl_local": "PL sem candidatos a vereador em 2024 (PSB, PP, MDB e PT). Não encontrado.",
+  "economia": "Microcidade rural do norte gaúcho (2.146 hab., Censo 2022; PIB per capita R$ 34,2 mil em 2023); base agropecuária presumida, não verificada.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/novo-tiradentes.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-novo-tiradentes-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Eleição de 2024: Caio (PP) x Claudio Molinari (MDB). O IBGE confirma Benedette."
+ },
+ {
+  "ibge": "4313706",
+  "municipio": "Palmeira das Missões",
+  "uf": "RS",
+  "prefeito_2024": "Evandro Luis Massing",
+  "partido_prefeito": "PT",
+  "pl_local": "PL lançou 13 candidatos a vereador em 2024 (número de eleitos não verificado) e não teve candidato a prefeito (PSB, PT e PP disputaram). Não se encontrou deputado do PL com reduto no município.",
+  "economia": "Polo regional do noroeste (33.216 hab., Censo 2022; PIB per capita R$ 51,4 mil em 2023). A economia combina agronegócio de grãos e serviços, com campus da UFSM.",
+  "pautas": [
+   "Curso de Medicina no campus da UFSM, citado como 'prioridade' da gestão Massing (jan/2025)",
+   "Fortes chuvas: emergência reconhecida pela Defesa Civil Nacional em 28/07/2026",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal",
+   "Pautas de saúde, segurança e outras não verificadas em imprensa local"
+  ],
+  "eventos": "Situação de emergência por fortes chuvas reconhecida em 28/07/2026, cerca de dois meses antes da eleição.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/palmeira-das-missoes.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-palmeira-das-missoes-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jornal-cidades/2025/01/1186634-palmeira-das-missoes-e-ufsm-pleiteiam-curso-de-medicina-na-cidade.html",
+   "https://www.extraclasse.org.br/ambiente/2026/07/governo-federal-reconhece-emergencia-em-dois-municipios-gauchos/"
+  ],
+  "confianca": "média",
+  "obs": "O prefeito é do PT, mas Flávio teve 57% em 2026. O resultado apareceu nas buscas por uma matéria sobre Palmeira dos Índios (AL), que foi descartada."
+ },
+ {
+  "ibge": "4313805",
+  "municipio": "Palmitinho",
+  "uf": "RS",
+  "prefeito_2024": "Benhur Dailor Barth",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL sem candidatos a vereador em 2024 (MDB, PSB, PRD, PDT, PT, PP e PODE). Não encontrado.",
+  "economia": "Pequeno município do Médio Alto Uruguai (7.839 hab., Censo 2022; PIB per capita R$ 33,8 mil em 2023). A agricultura familiar é presumida e não foi verificada (a Wikipédia não pôde ser lida).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/palmitinho.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-palmitinho-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Eleição de 2024: Benhur Barth (MDB), Elisandro da Silva (PT) e Gilmar dos Blocos (PODE). O IBGE confirma Barth."
+ },
+ {
+  "ibge": "4314498",
+  "municipio": "Pinheirinho do Vale",
+  "uf": "RS",
+  "prefeito_2024": "Elton Tatto",
+  "partido_prefeito": "PDT",
+  "pl_local": "O PL disputou a prefeitura em 2024 com Adriana Sirlei Mueller Costa (PL 22), derrotada, e lançou 9 candidatos a vereador; o número de eleitos não foi verificado.",
+  "economia": "Pequeno município do Médio Alto Uruguai (4.540 hab., Censo 2022; PIB per capita R$ 31,0 mil em 2023); base agropecuária presumida, não verificada.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas de 2024-2026 (busca limitada)",
+   "Estiagem na safra de soja 2025/26 no RS (Norte/Central/Fronteira Oeste; perdas médias estaduais ~20%), contexto regional — não há confirmação de decreto municipal"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/pinheirinho-do-vale.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pinheirinho-do-vale-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Eleição de 2024: Adriana (PL), Faccin (PSDB) e Tatto (PDT). O IBGE confirma Tatto. É o único município do lote com candidatura do PL a prefeito."
+ }
+]

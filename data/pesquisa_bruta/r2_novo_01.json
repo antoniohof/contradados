@@ -1,0 +1,240 @@
+[
+ {
+  "ibge": "1300904",
+  "municipio": "Canutama",
+  "uf": "AM",
+  "prefeito_2024": "José Roberto Torres de Pontes (Zé Roberto)",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "Não encontrado. Em 2024 não houve candidato do PL a prefeito (a disputa foi entre Zé Roberto, do União, e Ocivaldo Amorim, do PSDB). Senado 2026: Capitão Alberto Neto (PL) teve 11,3% local e não foi eleito (dado da base).",
+  "economia": "Município pequeno do rio Purus (cerca de 15,9 mil hab. em 2021). A economia depende principalmente do setor público (funcionalismo), do pequeno comércio e de agricultura de subsistência (mandioca, abacaxi, banana).",
+  "pautas": [
+   "Mobilidade fluvial: o Porto Hidroviário foi reinaugurado em 2/7/2026, com o senador Eduardo Braga citado como parceiro da obra",
+   "Prevenção de incêndios florestais: formação de brigadistas com o Corpo de Bombeiros em jul/2026",
+   "Saúde básica: ações na USF Chagas Pontes (Março Lilás 2026)",
+   "Pautas regionais como BR-319 e seca do Purus: não confirmadas em fonte local"
+  ],
+  "eventos": "Reinauguração do Porto Hidroviário em 02/07/2026. Visita do Castramóvel estadual em jul/2026.",
+  "fontes": [
+   "https://www.canutama.am.gov.br/pg.php?area=GABINETE",
+   "https://www.canutama.am.gov.br/noticias_ver.php?id_noticia=9",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-canutama-am-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Canutama"
+  ],
+  "confianca": "média",
+  "obs": "O prefeito e o vice (Carlos Menezes) foram confirmados no site da prefeitura. O partido foi deduzido da lista de candidatos de 2024 da Itatiaia (Zé Roberto, UNIÃO, 44). As pautas vêm só do site oficial."
+ },
+ {
+  "ibge": "5205109",
+  "municipio": "Catalão",
+  "uf": "GO",
+  "prefeito_2024": "Velomar Rios",
+  "partido_prefeito": "MDB",
+  "pl_local": "Em 2024, Renato Ribeiro (PL) foi candidato a prefeito e perdeu para Velomar Rios (MDB). Senado 2026: Gustavo Gayer (PL) eleito, votação local de 22,7% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Polo industrial e minerador de porte médio (114 mil hab., Censo 2022), com PIB de R$ 9,9 bi em 2021. Abriga as montadoras John Deere e HPE/Mitsubishi, o Distrito Mínero-Industrial (DIMIC) e a extração de nióbio, fosfato e terras raras. Tem também soja, milho e pecuária.",
+  "pautas": [
+   "Emprego e renda: o Sine anunciou 364 vagas (site da prefeitura)",
+   "Saúde: posse de novos profissionais, edital PET-Saúde 2026 e concurso FMS 03/2025 suspenso em out/2026",
+   "Demandas da imprensa local: não encontradas"
+  ],
+  "eventos": "Concurso da Fundação Municipal de Saúde (03/2025) teve vagas retificadas e foi suspenso em 02/10/2026. Outros eventos locais: não verificados.",
+  "fontes": [
+   "https://jornalopcao.com.br/eleicoes-2024/veja-a-lista-de-prefeitos-eleitos-nos-246-municipios-de-goias-644964/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-catalao-go-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Catal%C3%A3o_(Goi%C3%A1s)",
+   "https://www.catalao.go.gov.br/"
+  ],
+  "confianca": "média",
+  "obs": "A página de Catalão no Jornal Opção não pôde ser lida (rate limit)."
+ },
+ {
+  "ibge": "5210901",
+  "municipio": "Itapaci",
+  "uf": "GO",
+  "prefeito_2024": "Dr. Fábio",
+  "partido_prefeito": "MDB",
+  "pl_local": "Senado 2026: Gustavo Gayer (PL) eleito, votação local de 23,2% (dado da base). Vereadores do PL: não encontrado. Gayer foi o candidato ao Senado mais votado no município.",
+  "economia": "Município pequeno do Vale do São Patrício, com base agropecuária (pecuária e cana). [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://jornalopcao.com.br/eleicoes-2024/veja-a-lista-de-prefeitos-eleitos-nos-246-municipios-de-goias-644964/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-itapaci-go-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O nome completo do prefeito não foi verificado; a lista do Jornal Opção traz apenas 'Dr Fábio (MDB)'."
+ },
+ {
+  "ibge": "5218300",
+  "municipio": "Posse",
+  "uf": "GO",
+  "prefeito_2024": "Paulo Cezar Krauspenhar",
+  "partido_prefeito": "PL",
+  "pl_local": "O prefeito eleito em 2024, Paulo Cezar Krauspenhar, é do PL. Senado 2026: Gustavo Gayer (PL) eleito, votação local de 25,4% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Polo regional de comércio e serviços do Nordeste Goiano, com pecuária e agricultura. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://jornalopcao.com.br/eleicoes-2024/veja-a-lista-de-prefeitos-eleitos-nos-246-municipios-de-goias-644964/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito do PL confirmado pela lista do Jornal Opção. O site da prefeitura não respondeu (timeout)."
+ },
+ {
+  "ibge": "5220405",
+  "municipio": "São Simão",
+  "uf": "GO",
+  "prefeito_2024": "Dr. Wallisson",
+  "partido_prefeito": "Podemos",
+  "pl_local": "Senado 2026: Gustavo Gayer (PL) eleito, votação local de 18,8% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município pequeno do sudoeste goiano, às margens do rio Paranaíba, com a UHE São Simão, terminal da hidrovia Tietê-Paraná e agroindústria (cana e grãos). [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://jornalopcao.com.br/eleicoes-2024/veja-a-lista-de-prefeitos-eleitos-nos-246-municipios-de-goias-644964/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-simao-go-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O nome completo do prefeito não foi verificado. O site da prefeitura não respondeu."
+ },
+ {
+  "ibge": "3107109",
+  "municipio": "Boa Esperança",
+  "uf": "MG",
+  "prefeito_2024": "Aroldo Rosa de Medeiros Júnior (Aroldo Medeiros)",
+  "partido_prefeito": "Avante",
+  "pl_local": "Em 2024, Dilzon Melo (PL) foi candidato a prefeito e perdeu. Senado 2026: Domingos Sávio (PL) eleito, votação local de 28,2% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município médio do Sul de Minas, às margens do Lago de Furnas, com cafeicultura, agropecuária e comércio. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-boa-esperanca-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O partido foi cruzado pela lista de candidatos da Itatiaia (Aroldo Medeiros, Avante, 70)."
+ },
+ {
+  "ibge": "3107901",
+  "municipio": "Bom Repouso",
+  "uf": "MG",
+  "prefeito_2024": "Edmilson Andrade (Edmilson do Tião do Roque)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024. Senado 2026: Domingos Sávio (PL) eleito, votação local de 18,7% (dado da base). Vereadores do PL: não encontrado. Marcelo Aro (PP) foi o candidato ao Senado mais votado no município.",
+  "economia": "Município pequeno do Sul de Minas (Serra da Mantiqueira), com base agrícola em hortifrúti, como morango e batata. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-bom-repouso-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O partido foi cruzado pela lista de candidatos da Itatiaia (Edmilson do Tião do Roque, Republicanos, 10)."
+ },
+ {
+  "ibge": "3113206",
+  "municipio": "Carandaí",
+  "uf": "MG",
+  "prefeito_2024": "Clairton Dutra Costa Vieira",
+  "partido_prefeito": "PRD (provável, não confirmado)",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024. Senado 2026: Domingos Sávio (PL) eleito, votação local de 23,6% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município pequeno/médio do Campo das Vertentes, com olericultura (hortaliças), agropecuária e comércio, às margens da BR-040. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-carandai-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O nome civil eleito (lista da Itatiaia) não bate diretamente com nenhum nome de urna da lista de candidatos (Dr. Israel Lalau/Avante, Kiko/PRD, Luciano do Agostinho/PSD, Marizinha/PT). Supõe-se que seja 'Kiko' (PRD); é preciso verificar."
+ },
+ {
+  "ibge": "3117306",
+  "municipio": "Conceição das Alagoas",
+  "uf": "MG",
+  "prefeito_2024": "Celson Pires de Oliveira",
+  "partido_prefeito": "MDB",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024. Senado 2026: Domingos Sávio (PL) eleito, votação local de 25,4% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município pequeno do Triângulo Mineiro, com agronegócio (cana-de-açúcar, grãos, pecuária). [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-conceicao-das-alagoas-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O partido foi cruzado pela lista de candidatos da Itatiaia (Celson Pires, MDB, 15)."
+ },
+ {
+  "ibge": "3131901",
+  "municipio": "Itabirito",
+  "uf": "MG",
+  "prefeito_2024": "Elio da Mata Santos (Dr. Elio da Mata)",
+  "partido_prefeito": "Cidadania",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024. Senado 2026: Domingos Sávio (PL) eleito, votação local de 22,5% (dado da base). Vereadores do PL: não encontrado. Domingos Sávio foi o candidato ao Senado mais votado no município.",
+  "economia": "Município médio do Quadrilátero Ferrífero, perto de BH, com mineração de ferro, indústria e serviços. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Duplicação/melhorias da BR-356 (BH–Ouro Preto), com recursos do acordo de Mariana, segundo manchete do Diário do Comércio (matéria não lida por rate limit)",
+   "Outras pautas: não verificadas"
+  ],
+  "eventos": "Não verificado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-itabirito-mg-da-eleicao-2024/",
+   "https://diariodocomercio.com.br/itatiaia/acordo-mariana-tera-recursos-para-duplicacao-br-356/"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura retornou 403."
+ },
+ {
+  "ibge": "3134400",
+  "municipio": "Iturama",
+  "uf": "MG",
+  "prefeito_2024": "José Herculano Pereira dos Santos (Dr. Herculano)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024. Senado 2026: Domingos Sávio (PL) eleito, votação local de 28,1% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município médio do Pontal do Triângulo Mineiro, com agroindústria sucroenergética (usinas de cana), pecuária e grãos. [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-iturama-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura retornou 403."
+ },
+ {
+  "ibge": "3142809",
+  "municipio": "Monte Alegre de Minas",
+  "uf": "MG",
+  "prefeito_2024": "Rodrigo de Alvim Mendonça (Rodrigo Alvim)",
+  "partido_prefeito": "PSD",
+  "pl_local": "Não houve candidato do PL a prefeito em 2024 (a disputa foi PSD x PT). Senado 2026: Domingos Sávio (PL) eleito, votação local de 28,0% (dado da base). Vereadores do PL: não encontrado.",
+  "economia": "Município pequeno do Triângulo Mineiro, entre Uberlândia e Ituiutaba, com agropecuária (pecuária, grãos, abacaxi). [conhecimento geral, não verificado em fonte nesta pesquisa]",
+  "pautas": [
+   "Pautas locais específicas não verificadas: limite de buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) na fase de pautas."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/veja-quais-sao-os-prefeitos-eleitos-em-cada-uma-das-853-cidades-de-minas-gerais/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-monte-alegre-de-minas-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "O partido foi cruzado pela lista de candidatos da Itatiaia (Rodrigo Alvim, PSD, 55)."
+ }
+]

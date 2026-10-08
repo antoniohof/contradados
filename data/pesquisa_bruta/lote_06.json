@@ -1,0 +1,233 @@
+[
+ {
+  "ibge": "5215306",
+  "municipio": "Orizona",
+  "uf": "GO",
+  "prefeito_2024": "Felipe Dias (Felipe Antônio Dias)",
+  "partido_prefeito": "MDB",
+  "pl_local": "João Flávio (PL) foi 2º colocado para prefeito em 2024 com 49,76% (perdeu por 45 votos); PL elegeu 1 vereador (Flávio Dias) de 11.",
+  "economia": "Município pequeno (~15 mil hab.) de base agropecuária, uma das maiores bacias leiteiras de Goiás, além de agricultura, mel e cachaça.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Eleição municipal de 2024 decidida por 45 votos (50,24% x 49,76%) entre MDB e PL; Felipe Dias reeleito (vice Rui de Castro, MDB), coligação MDB/PODE/União/PRD/Solidariedade/PDT.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/orizona/",
+   "https://sdnews.com.br/noticia/10897/orizona-felipe-dias-do-mdb-e-eleito-prefeito-para-o-4%C2%BA-mandato.html",
+   "https://pt.wikipedia.org/wiki/Orizona"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito e PL local confirmados; pautas não pesquisadas."
+ },
+ {
+  "ibge": "5215504",
+  "municipio": "Ouvidor",
+  "uf": "GO",
+  "prefeito_2024": "Cebinha",
+  "partido_prefeito": "PODE",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024; câmara: PODE 5, PDT 3, MDB 1).",
+  "economia": "Município muito pequeno (~6 mil hab.) com economia fortemente industrial/mineral (complexo de fosfato/nióbio; Copebrás e Vale citadas na Wikipédia) e agropecuária complementar.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "não encontrado; Cebinha eleito com 84,35% contra Onofrim (MDB).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/ouvidor/",
+   "https://pt.wikipedia.org/wiki/Ouvidor_(Goi%C3%A1s)",
+   "https://www.otempo.com.br/eleicoes/2024/prefeito/2024/10/9/cebinha-do-pode-e-eleito-prefeito-de-ouvidor-go-nas-eleicoes-202"
+  ],
+  "confianca": "média",
+  "obs": "Nome completo do prefeito não verificado. Wikipédia cita empresas mineradoras com nomes possivelmente desatualizados (mudanças de controle do complexo de Catalão/Ouvidor não verificadas)."
+ },
+ {
+  "ibge": "5217708",
+  "municipio": "Pontalina",
+  "uf": "GO",
+  "prefeito_2024": "Edson Guimarães",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL elegeu 1 vereador (Edmar Joana, mais votado proporcionalmente entre os eleitos, 4,95%) de 11; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Município pequeno (~18,8 mil hab.) com agropecuária (~46% do PIB) e polo de confecção de roupas íntimas.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "não encontrado; Edson Guimarães (MDB) eleito com 43,83% em disputa multipartidária.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/pontalina/",
+   "https://pt.wikipedia.org/wiki/Pontalina",
+   "https://www.maisgoias.com.br/politica/ex-prefeitos-devem-polarizar-eleicao-em-pontalina/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas não pesquisadas."
+ },
+ {
+  "ibge": "5218508",
+  "municipio": "Quirinópolis",
+  "uf": "GO",
+  "prefeito_2024": "Anderson de Paula (Lorenção)",
+  "partido_prefeito": "PDT",
+  "pl_local": "Deputado estadual Paulo Cezar Martins (PL) tem base em Quirinópolis e articulou em 2024 a candidatura do irmão Ronne Cezar (PSD, coligação PSD/PL), que não venceu; PL elegeu 1 vereador (Lucas Cowboy) de 13.",
+  "economia": "Cidade média (~50 mil hab.) do sudoeste goiano com agronegócio (cana/etanol, grãos, pecuária) — base sucroenergética citada de conhecimento geral, não verificada nesta pesquisa.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Anderson de Paula reeleito em 2024 com 59,43% (vice Nicolina Nicola, União), com oposição dividida entre Novo (Marco Aurélio, 30,19%) e PSD/PL.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/quirinopolis/",
+   "https://www.jornalopcao.com.br/bastidores/quirinopolis-divididas-oposicoes-podem-conceder-segundo-mandato-ao-prefeito-anderson-de-paula-630189/",
+   "https://pt.wikipedia.org/wiki/Quirin%C3%B3polis"
+  ],
+  "confianca": "média",
+  "obs": "Coligação de Anderson incluía MDB, União, Podemos, PRD, Agir, PSB, Solidariedade (base do governo Caiado). Mandato atual do dep. Paulo Cezar (eleito 2022) não reconfirmado para 2026."
+ },
+ {
+  "ibge": "5218805",
+  "municipio": "Rio Verde",
+  "uf": "GO",
+  "prefeito_2024": "Wellington Carrijo",
+  "partido_prefeito": "MDB",
+  "pl_local": "Lissauer Vieira (PL), ex-presidente da Assembleia Legislativa de Goiás, foi 2º colocado para prefeito em 2024 (22,46%); PL elegeu 2 vereadores de 21.",
+  "economia": "Polo regional (~250 mil hab.) do agronegócio de grãos (soja/milho) e agroindústria de carnes e alimentos — descrição de conhecimento geral, não verificada nesta pesquisa.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Wellington Carrijo (MDB) eleito com 62,67% em 2024.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/rio-verde/"
+  ],
+  "confianca": "baixa",
+  "obs": "Wikipédia indisponível para fetch; economia e porte de conhecimento geral. Pautas não pesquisadas."
+ },
+ {
+  "ibge": "5219308",
+  "municipio": "Santa Helena De Goiás",
+  "uf": "GO",
+  "prefeito_2024": "Iris Parreira",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL elegeu 1 vereador (Jânio Bertoldo) de 12; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Município médio (~38,5 mil hab.) agropecuário e agroindustrial (laticínio Italac, Usina Santa Helena de açúcar/álcool, sementes), historicamente polo de algodão.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Eleição 2024 apertada: Iris Parreira (MDB) 52,49% x Agenor (PRD) 47,51%.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/santa-helena-de-goias/",
+   "https://pt.wikipedia.org/wiki/Santa_Helena_de_Goi%C3%A1s"
+  ],
+  "confianca": "média",
+  "obs": "Wikipédia cita ex-prefeito Alcides Rodrigues como deputado federal (informação não atualizada)."
+ },
+ {
+  "ibge": "5220603",
+  "municipio": "Silvânia",
+  "uf": "GO",
+  "prefeito_2024": "Carlão",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "PL elegeu 1 vereador (Pastor Genilton) de 11; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Município pequeno (~20 mil hab., estimativa) com PIB de ~R$ 1,4 bi (2023), base em pecuária, agricultura (grãos), produção de tijolos e forte cooperativismo rural.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Carlão (União) eleito com 56,08% contra Doutor Geraldo (PP).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/silvania/",
+   "https://pt.wikipedia.org/wiki/Silv%C3%A2nia"
+  ],
+  "confianca": "média",
+  "obs": "População não verificada (Wikipédia sem dado); nome completo do prefeito não verificado."
+ },
+ {
+  "ibge": "2101400",
+  "municipio": "Balsas",
+  "uf": "MA",
+  "prefeito_2024": "Alan da Marissol",
+  "partido_prefeito": "PRD",
+  "pl_local": "PL elegeu 2 vereadores (Priscila Caraça e Guilherme Leão Dall'Agnol) de 17; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Cidade média (>100 mil hab.), maior produtora de soja do Maranhão, polo do MATOPIBA com tradings (Bunge, Cargill, SLC) e comércio regional; 3º maior PIB do estado.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Eleição 2024 muito apertada: Alan da Marissol (PRD) 50,20% x Celso Henrique (PP) 48,98%.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/balsas/",
+   "https://pt.wikipedia.org/wiki/Balsas"
+  ],
+  "confianca": "média",
+  "obs": "Pautas não pesquisadas."
+ },
+ {
+  "ibge": "2102325",
+  "municipio": "Buriticupu",
+  "uf": "MA",
+  "prefeito_2024": "João Carlos",
+  "partido_prefeito": "PP",
+  "pl_local": "PL elegeu 3 vereadores (Peixoto, Alberth Sullyvan e Ceci) de 15, empatado como maior bancada com PP e PRD.",
+  "economia": "Município médio (~55 mil hab.) com pecuária bovina (corte e leite), lavouras de soja, milho, mandioca e arroz; PIB dependente de serviços públicos (~44%).",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "não verificado nesta pesquisa (as voçorocas/erosões urbanas de Buriticupu são tema conhecido nacionalmente, mas não foram confirmadas aqui para 2024-2026).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/buriticupu/",
+   "https://pt.wikipedia.org/wiki/Buriticupu"
+  ],
+  "confianca": "média",
+  "obs": "João Carlos (PP) eleito com 58,16% contra Arnoldo (PDT)."
+ },
+ {
+  "ibge": "2103307",
+  "municipio": "Codó",
+  "uf": "MA",
+  "prefeito_2024": "Chiquinho FC",
+  "partido_prefeito": "PT",
+  "pl_local": "PL elegeu 1 vereador (Dedé do Zé Garimpeiro) de 19; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Cidade média (~118 mil hab., 11º PIB do MA) com comércio e serviços, agricultura (arroz, mandioca, milho, feijão), pecuária, fábrica de cimento e jazidas de gipsita/calcário.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Chiquinho FC (PT) eleito em 2024 com 48,29% contra Dr. Zé Francisco (PSDB, 45,52%); vice Cinthya Rolim.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/codo/",
+   "https://pt.wikipedia.org/wiki/Cod%C3%B3"
+  ],
+  "confianca": "média",
+  "obs": "Wikipédia registra declínio da agricultura local por falta de incentivos."
+ },
+ {
+  "ibge": "2103406",
+  "municipio": "Coelho Neto",
+  "uf": "MA",
+  "prefeito_2024": "Bruno Silva",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024; câmara: PP 4, PSB 3, MDB 3, PV 2, PDT 1).",
+  "economia": "Município médio (~49 mil hab., 2019) no leste maranhense; Wikipédia só cita histórico canavieiro — base econômica atual não verificada.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Bruno Silva (PP) eleito com 68,95%; município recebeu o Selo UNICEF em 2024 (6ª vez).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/coelho-neto/",
+   "https://pt.wikipedia.org/wiki/Coelho_Neto_(Maranh%C3%A3o)"
+  ],
+  "confianca": "baixa",
+  "obs": "Economia e pautas com lacunas."
+ },
+ {
+  "ibge": "2103604",
+  "municipio": "Coroatá",
+  "uf": "MA",
+  "prefeito_2024": "Edimar Vaqueiro",
+  "partido_prefeito": "PSB",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024).",
+  "economia": "Município médio (~59,6 mil hab.) com comércio tradicional (imigração sírio-libanesa), sede do Hospital Macrorregional de Coroatá e campus da UEMA; base produtiva não detalhada nas fontes.",
+  "pautas": [
+   "Pautas não levantadas: o orçamento de buscas web da sessão (limite compartilhado) esgotou antes desta etapa; lacuna a preencher."
+  ],
+  "eventos": "Edimar Vaqueiro (PSB) eleito com 61,03% contra Aryanna Amovelar (PT).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ma/coroata/",
+   "https://pt.wikipedia.org/wiki/Coroat%C3%A1"
+  ],
+  "confianca": "baixa",
+  "obs": "Economia e pautas com lacunas."
+ }
+]

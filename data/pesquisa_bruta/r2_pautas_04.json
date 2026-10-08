@@ -1,0 +1,268 @@
+[
+ {
+  "ibge": "5219308",
+  "municipio": "Santa Helena de Goiás",
+  "uf": "GO",
+  "prefeito_2024": "Iris Parreira (ver rodada 1)",
+  "partido_prefeito": "MDB (ver rodada 1)",
+  "pl_local": "PL tem 1 vereador (Jânio Bertoldo Branquinho), que votou a favor da abertura do impeachment do prefeito em 05/2026; não encontrado prefeito/deputado PL com base local.",
+  "economia": "Município médio (~38,5 mil hab.) agropecuário e agroindustrial (laticínio Italac, usina de açúcar/etanol, grãos), sudoeste goiano.",
+  "pautas": [
+   "Crise política municipal: Câmara abriu em 07/05/2026 processo de impeachment/cassação do prefeito Iris Parreira (6x6, desempate pelo presidente Aduil Júnior, PRD); a defesa alega viés político",
+   "Suspeitas de irregularidade em contratos de coleta de lixo, saúde, malha asfáltica e mídia (objeto da denúncia)",
+   "Segurança/ilícitos regionais: operação policial contra falsificação de documentos de veículos de transporte (2025) e rota de contrabando de cigarros no sudoeste goiano",
+   "Lacuna: não foram achadas matérias sobre demandas de saúde, emprego ou infraestrutura além das citadas"
+  ],
+  "eventos": "Processo de impeachment do prefeito aberto em maio/2026 (primeiro em 78 anos do município), com comissão processante de até 90 dias; câmara dividida entre bloco do MDB e oposição (PRD, Solidariedade, PP, Agir, PL). Resultado final não verificado.",
+  "fontes": [
+   "https://www.jornalopcao.com.br/politica/camara-aprova-processo-historico-de-impeachment-contra-prefeito-de-santa-helena-de-goias-823669/",
+   "https://www.jornalopcao.com.br/ultimas-noticias/processo-tem-evidente-vies-politico-diz-defesa-de-prefeito-de-santa-helena-alvo-de-processo-de-impeachment-824024/",
+   "https://www.jornalopcao.com.br/assunto/santa-helena/",
+   "https://www.jornalopcao.com.br/ultimas-noticias/lucas-do-vale-anuncia-r-1-milhao-em-emendas-para-santa-helena-de-goias-664381/"
+  ],
+  "confianca": "média",
+  "obs": "Desfecho do impeachment (cassação ou arquivamento) não verificado; checar se Iris Parreira segue no cargo. Deputado estadual Lucas do Vale (MDB) anunciou R$ 1 mi em emendas ao município (12/2024)."
+ },
+ {
+  "ibge": "2101400",
+  "municipio": "Balsas",
+  "uf": "MA",
+  "prefeito_2024": "Alan da Marissol (ver rodada 1)",
+  "partido_prefeito": "PRD (ver rodada 1)",
+  "pl_local": "PL elegeu 2 vereadores em 2024 (rodada 1); nenhum deputado PL com reduto local encontrado nesta rodada.",
+  "economia": "Cidade média (>100 mil hab.), maior produtora de soja do MA e polo do MATOPIBA, com tradings, comércio e serviços regionais.",
+  "pautas": [
+   "Finanças municipais: prefeito decretou 'situação de calamidade financeira' em 01/2025, alegando dívidas >R$ 15 mi herdadas (previdência, salários atrasados, FPM bloqueado)",
+   "Segurança pública e violência: homicídios, feminicídio (07/2026), superlotação da Unidade Prisional de Balsas (MPMA pediu interdição em 06/2026), roubo de máquinas agrícolas",
+   "Infraestrutura/logística: BR-230 (acidentes), estradas vicinais e pontes; governo estadual entregou obras (Estrada da Maravilha, ponte D. Leontinha) e anunciou ponte sobre o Riacho Marcelino em 03/2026",
+   "Saúde: Balsas lidera casos de acidentes com escorpiões no MA em 2026"
+  ],
+  "eventos": "Calamidade financeira decretada em 01/2025; entregas de obras pelo governador Carlos Brandão no aniversário (22/03/2026); vereador Hélio Tiví (União Brasil) preso preventivamente em 08/2026 suspeito de mandar matar homem no Piauí.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2025/01/mais-tres-municipios-do-maranhao-decretam-crise-financeira/",
+   "https://oimparcial.com.br/noticias/2026/03/balsas-celebra-108-anos-com-entregas-de-obras-e-servicos-neste-domingo-22/",
+   "https://oimparcial.com.br/noticias/2026/08/vereador-de-balsas-e-assessor-sao-presos-suspeitos-de-mandar-matar-homem-no-piaui/",
+   "https://oimparcial.com.br/noticias/2026/06/mpma-pede-interdicao-e-transferencia-de-presos-por-superlotacao-na-unidade-prisional-de-balsas/",
+   "https://oimparcial.com.br/balsas/noticias/2026/07/acidentes-com-escorpioes-balsas-lidera-numero-de-casos-no-maranhao-em-2026/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas do agronegócio (crédito rural, preço da soja, armazenagem) não confirmadas para 2024-2026; matéria sobre estradas ruins é de 2014. Itens de 06-08/2026 vistos só pela manchete."
+ },
+ {
+  "ibge": "2102325",
+  "municipio": "Buriticupu",
+  "uf": "MA",
+  "prefeito_2024": "João Carlos (ver rodada 1) — afastado judicialmente em 2026",
+  "partido_prefeito": "PP (ver rodada 1)",
+  "pl_local": "PL elegeu 3 vereadores em 2024 (rodada 1), empatado como maior bancada; nenhum outro político PL com reduto local encontrado.",
+  "economia": "Município médio (~55 mil hab.) com pecuária, lavouras (soja, milho, mandioca, arroz) e forte dependência de serviços públicos.",
+  "pautas": [
+   "Voçorocas (crateras de erosão urbana): ~33 crateras, >360 famílias afetadas, ao menos 7 mortes associadas; calamidade pública decretada em 02/2025 (1.200 pessoas em 250 casas em risco) e carnaval cancelado",
+   "Moradia/realocação e obras de contenção: Justiça condenou o município (02/2025) a isolar áreas de risco, pagar aluguel social e apresentar plano de contenção; governo estadual e MIDR buscam soluções; reportagem de 03/2026 aponta demora",
+   "Gestão municipal/corrupção: prefeito afastado pela Justiça (STJ manteve em 06/2026; novo afastamento em 09/2026), suspensão de pagamentos a terceirizadas, ação do MPMA contra presidente da Câmara por desvio de R$ 238 mil",
+   "Segurança pública: homicídios e funcionamento da Delegacia da Mulher (Justiça determinou regularização em 08/2026)"
+  ],
+  "eventos": "Calamidade pública pelas voçorocas (02/2025); afastamento judicial do prefeito em 2026, mantido pelo STJ (06/2026) e renovado em 23/09/2026, às vésperas do 1º turno.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2025/02/buriticupu-decreta-estado-de-calamidade-publica-devido-ao-avanco-das-vocorocas/",
+   "https://oimparcial.com.br/noticias/2026/03/vocorocas-avancam-em-buriticupu-e-ampliam-risco-para-moradores/",
+   "https://www.tjma.jus.br/midia/portal/noticia/517053/justica-condena-municipio-de-buriticupu-a-implementar-medidas-de-contencao-de-vocorocas",
+   "https://oimparcial.com.br/noticias/2025/03/governo-do-maranhao-e-midr-buscam-solucoes-para-conter-vocorocas-em-buriticupu/",
+   "https://oimparcial.com.br/buriticupu/noticias/2026/09/justica-determina-novo-afastamento-do-prefeito-de-buriticupu/"
+  ],
+  "confianca": "média",
+  "obs": "Afastamento do prefeito visto apenas pelas manchetes (a matéria não pôde ser lida: limite de requisições, HTTP 429); nome do afastado (presumivelmente João Carlos), motivo e quem assumiu (vice) NÃO verificados — checar."
+ },
+ {
+  "ibge": "2103307",
+  "municipio": "Codó",
+  "uf": "MA",
+  "prefeito_2024": "Chiquinho FC (ver rodada 1)",
+  "partido_prefeito": "PT (ver rodada 1)",
+  "pl_local": "PL elegeu 1 vereador em 2024 (rodada 1); não encontrado outro político PL com reduto local.",
+  "economia": "Cidade média (~118 mil hab.) com comércio/serviços, agricultura familiar, pecuária, cimento e gipsita/calcário.",
+  "pautas": [
+   "Segurança pública/violência: ataques a tiros e homicídios recorrentes (05/2026; 01/10/2026, dois mortos)",
+   "Estradas e pontes rurais: ponte de madeira desabou em 17/06/2026 e isolou povoados, sem prazo de reconstrução",
+   "Conflito político-midiático: operação policial contra o jornalista Marco Silva após denúncia do deputado estadual Francisco Nagib (MDB), repudiada por Sindjor-MA/Fenaj (05/2026)",
+   "Lacuna: não encontradas matérias específicas sobre saúde, emprego ou enchentes em 2025-2026"
+  ],
+  "eventos": "Desabamento de ponte rural (06/2026); caso do jornalista x deputado (04-05/2026); instalação de sismógrafo da Rede Sismográfica do Nordeste (04/2026), sem registro de danos.",
+  "fontes": [
+   "https://oimparcial.com.br/cidades/2026/06/ponte-desaba-durante-passagem-de-caminhao-e-isola-moradores-da-zona-rural-de-codo/",
+   "https://oimparcial.com.br/noticias/2026/05/entidades-condenam-operacao-policial-contra-jornalista-em-codo/",
+   "https://oimparcial.com.br/noticias/2026/04/maranhao-amplia-monitoramento-de-tremores-com-novo-sismografo-em-codo/",
+   "https://oimparcial.com.br/codo/cidades/2026/10/dois-homens-sao-mortos-e-um-fica-ferido-durante-ataque-a-tiros-em-codo/"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas inferidas do noticiário recente do O Imparcial; sem pesquisa de opinião ou debate local específico."
+ },
+ {
+  "ibge": "2103406",
+  "municipio": "Coelho Neto",
+  "uf": "MA",
+  "prefeito_2024": "Bruno Silva (ver rodada 1)",
+  "partido_prefeito": "PP (ver rodada 1)",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024, rodada 1).",
+  "economia": "Município médio (~49 mil hab.) do leste maranhense, divisa com o Piauí; histórico canavieiro, base atual não verificada; campus do IFMA.",
+  "pautas": [
+   "Segurança pública/violência: execução de influenciadora (05/2026), morte de cozinheira da PM (12/2025), operações policiais (08/2025)",
+   "Violência sexual contra vulneráveis (prisões em 09/2025 e 07/2026)",
+   "Assistência social/fome: famílias recebem cartões do programa estadual Maranhão Livre da Fome (08/2025)",
+   "Polêmica de gestão: polícia investigou gincana da prefeitura com show de 'gogo boys' (04/2025)",
+   "Lacuna: sem fontes sobre saúde, emprego ou infraestrutura"
+  ],
+  "eventos": "Nenhum evento de grande escala identificado; noticiário dominado por crimes violentos.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2026/05/influenciadora-de-21-anos-e-executada-a-tiros-em-coelho-neto/",
+   "https://oimparcial.com.br/politica/2025/08/familias-de-timon-coelho-neto-e-buriti-recebem-cartoes-do-programa-maranhao-livre-da-fome/",
+   "https://oimparcial.com.br/noticias/2025/04/policia-investiga-gincana-da-prefeitura-de-coelho-neto-com-show-de-gogo-boys/",
+   "https://oimparcial.com.br/noticias/2025/12/policia-busca-suspeitos-de-matar-cozinheira-em-coelho-neto-ma/"
+  ],
+  "confianca": "baixa",
+  "obs": "Baseado só em manchetes da busca do O Imparcial (matérias não abertas)."
+ },
+ {
+  "ibge": "2103604",
+  "municipio": "Coroatá",
+  "uf": "MA",
+  "prefeito_2024": "Edimar Vaqueiro (Edimar Franco) (ver rodada 1)",
+  "partido_prefeito": "PSB (ver rodada 1)",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024, rodada 1).",
+  "economia": "Município médio (~60 mil hab.) com comércio tradicional, serviços (Hospital Macrorregional, campus da UEMA) e agropecuária.",
+  "pautas": [
+   "Finanças/herança administrativa: em 01/2025 a nova gestão relatou R$ 5 mi de FPM bloqueado, contratos irregulares e prédios públicos deteriorados",
+   "Infraestrutura urbana e educação: em 04/2026 o governo estadual entregou escola em tempo integral (Centro Educa+), reforma do Mercado Municipal, 2 km de asfalto e obra de abastecimento de água",
+   "Segurança pública: assalto a bancos (grupo preso em 04/2026), homicídios (motorista de aplicativo, 08/2026), feminicídio",
+   "Lacuna: hospital/saúde não aparece nas matérias encontradas"
+  ],
+  "eventos": "Crise financeira herdada (01/2025); pacote de entregas do governador Carlos Brandão no aniversário de 106 anos (08/04/2026).",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2025/01/mais-tres-municipios-do-maranhao-decretam-crise-financeira/",
+   "https://oimparcial.com.br/noticias/2026/04/coroata-celebra-106-anos-com-entrega-de-obras-e-servicos-a-populacao/",
+   "https://oimparcial.com.br/noticias/2026/04/grupo-suspeito-de-assalto-a-bancos-e-preso-em-coroata/",
+   "https://oimparcial.com.br/coroata/cidades/2026/08/homem-e-preso-suspeito-de-matar-motorista-de-aplicativo-em-coroata/"
+  ],
+  "confianca": "média",
+  "obs": "Matéria do aniversário baseada em release do governo estadual."
+ },
+ {
+  "ibge": "3100104",
+  "municipio": "Abadia dos Dourados",
+  "uf": "MG",
+  "prefeito_2024": "Ciro Luiz da Silva Junior (ver rodada 1)",
+  "partido_prefeito": "PSD (ver rodada 1)",
+  "pl_local": "não encontrado (PL sem candidatos locais em 2024, rodada 1).",
+  "economia": "Município pequeno (~6,3 mil hab.) do Alto Paranaíba: pecuária de corte, café, grãos; lago da represa de Emborcação.",
+  "pautas": [
+   "Lacuna: nenhuma matéria local sobre pautas 2024-2026 encontrada (busca sem resultados úteis; WebFetch bloqueado por limite de requisições)"
+  ],
+  "eventos": "Nenhum identificado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3100104.html",
+   "https://abadiadosdourados.mg.gov.br/administracao.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas não levantadas; precisa nova rodada."
+ },
+ {
+  "ibge": "3101706",
+  "municipio": "Almenara",
+  "uf": "MG",
+  "prefeito_2024": "Eduardo Brasileiro (ver rodada 1)",
+  "partido_prefeito": "PT (ver rodada 1)",
+  "pl_local": "não encontrado (PL sem candidatos locais em 2024, rodada 1).",
+  "economia": "Polo do Baixo Jequitinhonha (~40 mil hab.): pecuária, comércio e serviços regionais.",
+  "pautas": [
+   "Contexto regional: escassez hídrica no Vale do Jequitinhonha (rios intermitentes secos; Copasa Regional Almenara opera caminhões-pipa na região)",
+   "Lacuna: nenhuma matéria local específica de Almenara 2024-2026 encontrada"
+  ],
+  "eventos": "Nenhum identificado.",
+  "fontes": [
+   "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas só regionais/genéricas; g1 bloqueado e tag da Itatiaia desatualizada."
+ },
+ {
+  "ibge": "3103405",
+  "municipio": "Araçuaí",
+  "uf": "MG",
+  "prefeito_2024": "Tadeu Barbosa de Oliveira (ver rodada 1)",
+  "partido_prefeito": "PSD (ver rodada 1)",
+  "pl_local": "não encontrado (PL sem candidatos locais em 2024, rodada 1).",
+  "economia": "Centro comercial do Médio Jequitinhonha (~34 mil hab.), no 'Vale do Lítio': mineração de lítio (Sigma Lithium em Itinga/Araçuaí, CBL e novas empresas em pesquisa) além de comércio e agricultura familiar.",
+  "pautas": [
+   "Mineração de lítio: expectativa de emprego e renda x contaminação de solo e água por alumínio, poeira, rachaduras em casas atribuídas a explosões; MPF recomendou à ANM suspender/revisar autorizações (09/2025) e consulta prévia às comunidades",
+   "Água/seca: nascentes e córregos intermitentes secam na estiagem; zona rural abastecida por caminhão-pipa com água da Copasa",
+   "Calor extremo: recorde nacional de 44,8 °C em 11/2023",
+   "Lacuna: pautas de saúde, estradas e segurança não verificadas"
+  ],
+  "eventos": "Expansão da mineração de lítio e conflitos com comunidades (2023-2025); recomendação do MPF (09/2025).",
+  "fontes": [
+   "https://revistapesquisa.fapesp.br/exploracao-de-litio-amplia-contaminacao-do-solo-e-da-agua-em-minas-gerais/",
+   "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/onda-de-calor-aracuai-mg-registra-o-dia-mais-quente-da-historia-do-brasil/"
+  ],
+  "confianca": "média",
+  "obs": "Reportagem FAPESP (12/2025) informa que prefeitura de Araçuaí e Sigma não responderam."
+ },
+ {
+  "ibge": "3107307",
+  "municipio": "Bocaiúva",
+  "uf": "MG",
+  "prefeito_2024": "Roberto Jairo Torres (Robertão) (ver rodada 1)",
+  "partido_prefeito": "Avante (ver rodada 1)",
+  "pl_local": "não encontrado (PL sem candidatos locais em 2024, rodada 1).",
+  "economia": "Município médio do Norte de Minas (~47 mil hab.) às margens da BR-135, com comércio, serviços, agropecuária e logística.",
+  "pautas": [
+   "Mobilidade/rodovia: duplicação do Anel Viário de Bocaiúva (15 km da BR-135 concedida à Ecovias Norte Minas, >R$ 300 mi), entregue em 14/12/2025; segurança viária era demanda",
+   "Lacuna: não encontradas matérias sobre saúde, seca ou emprego específicas do município"
+  ],
+  "eventos": "Entrega do Anel Viário duplicado pelo governo de Minas (12/2025).",
+  "fontes": [
+   "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-entrega-obras-do-anel-viario-de-bocaiuva-e-inaugura-novo-marco-de-mobilidade-e-desenvolvimento-no-norte-do-estado/",
+   "https://en.wikipedia.org/wiki/Bocai%C3%BAva"
+  ],
+  "confianca": "baixa",
+  "obs": "Fonte principal é release do governo estadual."
+ },
+ {
+  "ibge": "3108602",
+  "municipio": "Brasília de Minas",
+  "uf": "MG",
+  "prefeito_2024": "Dr. Marcus Vinicius (ver rodada 1)",
+  "partido_prefeito": "União Brasil (ver rodada 1)",
+  "pl_local": "não encontrado (PL lançou 5 candidatos a vereador em 2024; eleitos não verificados).",
+  "economia": "Município do Norte de Minas (~32 mil hab.), semiárido; base econômica não verificada.",
+  "pautas": [
+   "Lacuna: nenhuma matéria local 2024-2026 encontrada; pautas típicas do semiárido norte-mineiro (seca, água) não confirmadas para o município"
+  ],
+  "eventos": "Nenhum identificado.",
+  "fontes": [
+   "https://www.acessa.com/colunistas/sindijori/2025/07/268778-50-municipios-ficam-no-semiarido.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Fonte citada trata da revisão do semiárido pela Sudene (07/2025), sem nomear o município."
+ },
+ {
+  "ibge": "3112307",
+  "municipio": "Capelinha",
+  "uf": "MG",
+  "prefeito_2024": "Jonas Barreiros (ver rodada 1)",
+  "partido_prefeito": "União Brasil (ver rodada 1)",
+  "pl_local": "não encontrado (PL lançou 8 candidatos a vereador em 2024; eleitos não verificados).",
+  "economia": "Município do Alto Jequitinhonha (~40 mil hab.): café de exportação e eucalipto (Aperam), comércio regional.",
+  "pautas": [
+   "Abastecimento de água: obras da Copasa para ampliar o sistema de abastecimento (noticiado em 07/2025)",
+   "Lacuna: demais pautas (saúde, estradas, emprego) não encontradas"
+  ],
+  "eventos": "Nenhum evento relevante identificado.",
+  "fontes": [
+   "https://www.acessa.com/colunistas/sindijori/2025/07/268778-50-municipios-ficam-no-semiarido.html",
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3112307.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas muito incompletas."
+ }
+]

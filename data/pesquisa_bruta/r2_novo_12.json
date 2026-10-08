@@ -1,0 +1,237 @@
+[
+ {
+  "ibge": "3513801",
+  "municipio": "Diadema",
+  "uf": "SP",
+  "prefeito_2024": "Taka Yamauchi",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado",
+  "economia": "Município industrial do ABC paulista (~430 mil hab.); serviços são a principal fonte de renda, com indústria de autopeças, cosméticos, borracha, metalurgia e química.",
+  "pautas": [
+   "Pautas locais específicas não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "Troca de comando em 2024: Taka Yamauchi (MDB) venceu o 2º turno com 52,59% contra o então prefeito José de Filippi (PT), 47,41%.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Elei%C3%A7%C3%A3o_municipal_de_Diadema_em_2024",
+   "https://pt.wikipedia.org/wiki/Diadema"
+  ],
+  "confianca": "média",
+  "obs": "O prefeito está confirmado; as pautas ficaram sem levantamento."
+ },
+ {
+  "ibge": "3516309",
+  "municipio": "Francisco Morato",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Cidade-dormitório da Grande SP (~165 mil hab., Censo 2022), com economia de comércio local e sem empresas de grande porte; boa parte dos moradores trabalha na capital ou em municípios vizinhos. É considerada uma das cidades mais carentes da RMSP.",
+  "pautas": [
+   "Falta de empregos locais e deslocamento diário para a capital (Wikipedia)",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Francisco_Morato"
+  ],
+  "confianca": "baixa",
+  "obs": "Pela memória do pesquisador, a prefeita seria Renata Sene (Republicanos), reeleita em 2024; o dado não foi verificado e não foi registrado como fato."
+ },
+ {
+  "ibge": "3517703",
+  "municipio": "Guará",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (18,6 mil hab., Censo 2022, população em queda de 6,3%) às margens da Rodovia Anhanguera (SP-330), entre Ribeirão Preto e Franca; base provavelmente agrícola/sucroenergética (não verificado).",
+  "pautas": [
+   "Instabilidade no comando da prefeitura em 2025 (ver obs)",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "Segundo a Wikipedia, o presidente da Câmara assumiu como prefeito em 01/01/2025, o que indica que o eleito em 2024 não tomou posse (possível indeferimento ou cassação). Pode ter havido eleição suplementar depois; não verificado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Guar%C3%A1_(S%C3%A3o_Paulo)",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-guara-sp-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Os candidatos a prefeito em 2024 foram Dr. Tulio (PODE), Fernando Joaquim (PT) e Vinicius Engenheiro (PSD), segundo a Itatiaia. Não se confirmou quem venceu nem quem governa hoje. A posse do presidente da Câmara em 2025 merece checagem."
+ },
+ {
+  "ibge": "3520103",
+  "municipio": "Igarapava",
+  "uf": "SP",
+  "prefeito_2024": "Dr. José Humberto",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~28 mil hab. na divisa com MG, com base sucroalcooleira (canaviais); serviços respondem por 79,8% do valor adicionado e a indústria por 15,1% (SEADE).",
+  "pautas": [
+   "População em queda contínua (Wikipedia)",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Igarapava"
+  ],
+  "confianca": "média",
+  "obs": "Mandato 2025-2028, com vice Plininho (União), segundo a Wikipedia."
+ },
+ {
+  "ibge": "3521309",
+  "municipio": "Ipuã",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~14,5 mil hab.) na região de Ribeirão Preto/Franca; economia agrícola, com cana e grãos provável (não verificado).",
+  "pautas": [
+   "Disputa judicial sobre as 'áreas de lazer' do município, com decisão do STF e nota de esclarecimento da prefeitura",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "Decisão do STF sobre as 'áreas de lazer' (provavelmente loteamentos/ranchos às margens de represa; detalhes não lidos).",
+  "fontes": [
+   "https://www.ipua.sp.gov.br/",
+   "https://pt.wikipedia.org/wiki/Ipu%C3%A3"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura não mostrou o nome do prefeito."
+ },
+ {
+  "ibge": "3521804",
+  "municipio": "Itaí",
+  "uf": "SP",
+  "prefeito_2024": "José Ramiro Antunes do Prado (a confirmar se é o eleito em 2024)",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~25 mil hab. (Censo 2022) no sudoeste paulista; turismo na represa de Jurumirim (prainhas, condomínios de veraneio) e agropecuária regional (não detalhada).",
+  "pautas": [
+   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Ita%C3%AD"
+  ],
+  "confianca": "baixa",
+  "obs": "A Wikipedia indica como prefeito José Ramiro Antunes do Prado, com vice Marcos Domingos Correa, sem partido nem mandato. O site da prefeitura bloqueou acesso (robots)."
+ },
+ {
+  "ibge": "3526605",
+  "municipio": "Lavrinhas",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município muito pequeno (~7 mil hab.) no Vale Histórico/Fundo do Vale do Paraíba; base agropecuária, com fontes de água mineral e título de Município de Interesse Turístico.",
+  "pautas": [
+   "Emprego/renda: o programa municipal Frente de Trabalho teve seleção em 2026",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://www.lavrinhas.sp.gov.br/",
+   "https://pt.wikipedia.org/wiki/Lavrinhas"
+  ],
+  "confianca": "baixa",
+  "obs": "A Wikipedia traz apenas José Benedito da Silva (mandato 2021-2024). Não se confirmou quem foi eleito em 2024."
+ },
+ {
+  "ibge": "3529708",
+  "municipio": "Miguelópolis",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~20 mil hab. na região de Franca, às margens do rio Grande; agricultura (soja, cana, milho, feijão, sorgo) com usinas Colorado e Caeté nas proximidades, mais turismo no rio Grande.",
+  "pautas": [
+   "Habitação: sorteio de casas da CDHU em 24/09/2026",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "Sorteio de moradias CDHU em setembro de 2026, pouco antes do 1º turno. Concurso público municipal 001/2026.",
+  "fontes": [
+   "https://www.miguelopolis.sp.gov.br/",
+   "https://pt.wikipedia.org/wiki/Miguel%C3%B3polis"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura não exibiu o nome do prefeito."
+ },
+ {
+  "ibge": "3532207",
+  "municipio": "Narandiba",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município muito pequeno (~5 mil hab.) no Oeste Paulista, região de Presidente Prudente/Pontal do Paranapanema; economia provavelmente de cana e pecuária (não verificado).",
+  "pautas": [
+   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Narandiba"
+  ],
+  "confianca": "baixa",
+  "obs": "A Wikipedia traz apenas Itamar dos Santos Silva (PSDB, 2021-2024). Não se confirmou quem foi eleito em 2024. O site da prefeitura caiu."
+ },
+ {
+  "ibge": "3537008",
+  "municipio": "Pedregulho",
+  "uf": "SP",
+  "prefeito_2024": "Caca Advogado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~15,7 mil hab. na região de Franca; agropecuária com café de alta qualidade premiado, produção de calçados masculinos ligada ao polo de Franca e ecoturismo.",
+  "pautas": [
+   "Pautas locais não levantadas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "Na eleição de 2024, Caca Advogado venceu com 5.088 votos (53,10%); Roberto Abrão ficou com 3.312 (34,56%).",
+  "fontes": [
+   "https://sampi.net.br/franca/noticias/2860620/franca-e-regiao/2024/10/veja-os-prefeitos-eleitos-de-cristais-rifaina-e-pedregulho",
+   "https://pt.wikipedia.org/wiki/Pedregulho"
+  ],
+  "confianca": "média",
+  "obs": "O partido do prefeito não foi informado na fonte."
+ },
+ {
+  "ibge": "3543006",
+  "municipio": "Ribeirão Branco",
+  "uf": "SP",
+  "prefeito_2024": "Antônio Carlos Camargo Ribas",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~18,6 mil hab. (Censo 2022) no sudoeste paulista, região de Itapeva/Itapetininga; economia agrícola, com hortifrúti (tomate) provável, não verificado.",
+  "pautas": [
+   "Educação: a prefeitura destaca o resultado no IDEB 2025",
+   "Qualificação profissional (curso de eletricista residencial e rural em 2026)",
+   "Demais pautas: não verificado nesta rodada (limite de buscas e proxy WebFetch com rate limit 429)"
+  ],
+  "eventos": "não levantado",
+  "fontes": [
+   "https://www.ribeiraobranco.sp.gov.br/",
+   "https://pt.wikipedia.org/wiki/Ribeir%C3%A3o_Branco"
+  ],
+  "confianca": "média",
+  "obs": "O nome do prefeito e do vice (Alessandro Luís Teixeira) vem do site da prefeitura em 2026; o partido não foi confirmado."
+ },
+ {
+  "ibge": "3552007",
+  "municipio": "Silveiras",
+  "uf": "SP",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município muito pequeno (~6 mil hab.) no Vale Histórico do Paraíba; perdeu população com o fim do ciclo do café e hoje vive de agropecuária e de turismo/artesanato ligados à cultura tropeira.",
+  "pautas": [
+   "Estradas rurais (melhorias na Estrada dos Pimentas)",
+   "Creche/educação infantil (ampliação da Creche Profª Tânia Maria S. Sodero)",
+   "Crédito para pequenos empreendedores (chegada do Banco do Povo Paulista)",
+   "Saúde (6ª Plenária Municipal de Saúde)"
+  ],
+  "eventos": "Obras em estradas rurais e na creche; chegada do Banco do Povo Paulista.",
+  "fontes": [
+   "https://www.silveiras.sp.gov.br/",
+   "https://pt.wikipedia.org/wiki/Silveiras_(S%C3%A3o_Paulo)"
+  ],
+  "confianca": "baixa",
+  "obs": "O site da prefeitura não exibiu o nome do prefeito. As pautas vêm só do noticiário da própria prefeitura."
+ }
+]

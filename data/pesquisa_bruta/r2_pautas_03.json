@@ -1,0 +1,256 @@
+[
+ {
+  "ibge": "2906303",
+  "municipio": "Canavieiras",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Paulo Carvalho)",
+  "partido_prefeito": "ver rodada 1 (Avante)",
+  "pl_local": "Nenhum vereador do PL entre os 11 eleitos em 2024 (Avante tem 5). Nenhum outro político do PL com base local encontrado.",
+  "economia": "Município do litoral sul baiano, de porte pequeno-médio, com pesca e mariscagem (caranguejo, Resex de Canavieiras), cacau e turismo. Só a pesca/caranguejo foi confirmada na fonte; o resto não foi verificado.",
+  "pautas": [
+   "Insatisfação com a gestão municipal: moradores falam em 'abandono administrativo', problemas de infraestrutura urbana e falta de investimentos (Bahia Notícias, mai/2026)",
+   "Falta de diálogo da prefeitura com a comunidade (mesma fonte)",
+   "Fora isso, não foram encontradas pautas setoriais específicas, como saúde ou estradas"
+  ],
+  "eventos": "Em 25/05/2026, nos 135 anos de emancipação, houve um protesto silencioso: pela primeira vez não houve desfile cívico e a população se ausentou dos atos oficiais da gestão Paulo Carvalho (Avante). Em jan/2026 a prefeitura abriu seletivo com mais de 400 vagas. Em 2024 o prefeito foi eleito com apenas 36,88% dos votos.",
+  "fontes": [
+   "https://www.bahianoticias.com.br/municipios/noticia/50961-canavieiras-completa-135-anos-sem-desfile-civico-e-com-ausencia-da-populacao-em-atos-oficiais",
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/canavieiras/",
+   "https://concursosnobrasil.com/concursos/ba/2026/01/20/prefeitura-de-canavieiras-ba-lanca-edital-com-mais-400-vagas-em-seletivo/",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "média",
+  "obs": "As pautas vêm de uma única matéria, que mostra descontentamento difuso com a gestão local."
+ },
+ {
+  "ibge": "2906501",
+  "municipio": "Candeias",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Eriton Ramos)",
+  "partido_prefeito": "ver rodada 1 (PP)",
+  "pl_local": "2 vereadores do PL eleitos em 2024: Davi Moura (974 votos) e Joazi Maia (958 votos), segundo o ndmais. Não foi encontrado deputado do PL com base local.",
+  "economia": "Município médio da RMS, ligado à Refinaria de Mataripe (Acelen, ex-RLAM) e à cadeia de petróleo e indústria.",
+  "pautas": [
+   "Instabilidade da Refinaria de Mataripe: em 2025 houve pelo menos cinco paradas não programadas, um incêndio (set/2025) e um acidente com três terceirizados feridos (dez/2025), e a entrega de diesel em Candeias foi afetada",
+   "Pautas municipais específicas, como saúde, segurança ou saneamento, não foram encontradas (lacuna)"
+  ],
+  "eventos": "Paradas e acidentes na Refinaria de Mataripe/Acelen em 2025, com alerta de abastecimento de diesel na Bahia (eixos, fev/2026). Também há queixas de municípios vizinhos sobre a queda de arrecadação ligada à refinaria.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/candeias/",
+   "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "O PL tem presença na câmara (2 cadeiras). Pautas locais próprias não foram encontradas com o orçamento de buscas disponível."
+ },
+ {
+  "ibge": "2910057",
+  "municipio": "Dias D'Ávila",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Alberto Castro)",
+  "partido_prefeito": "ver rodada 1 (PSDB)",
+  "pl_local": "não encontrado (a página de resultados de 2024 consultada não exibiu os vereadores)",
+  "economia": "Município médio da RMS, vizinho ao Polo Industrial de Camaçari, com indústria, comércio e serviços (não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/dias-davila/",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Nenhuma busca dedicada ao município foi feita (limite de 7 buscas para 12 municípios). O partido atual do prefeito não foi verificado."
+ },
+ {
+  "ibge": "2910503",
+  "municipio": "Entre Rios",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Manoelito Argolo Junior)",
+  "partido_prefeito": "ver rodada 1 (Solidariedade)",
+  "pl_local": "Nenhum vereador do PL entre os 13 eleitos em 2024 (Solidariedade 4; PSD, MDB, PV e Republicanos 2 cada; União 1).",
+  "economia": "Município pequeno-médio do Litoral Norte baiano, com agropecuária (citros, eucalipto) e turismo litorâneo (não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/entre-rios/",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Nenhuma busca dedicada ao município foi feita (limite de buscas). A câmara tem base governista ampla, com 4 vereadores do Solidariedade."
+ },
+ {
+  "ibge": "2913903",
+  "municipio": "Ipiaú",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Laryssa Dias)",
+  "partido_prefeito": "ver rodada 1 (PP)",
+  "pl_local": "Nenhum vereador do PL entre os 13 eleitos em 2024 (PP 4, Avante 3, PT 2, PSD 2, União 2).",
+  "economia": "Polo comercial do Médio Rio de Contas, no sul baiano, ligado historicamente ao cacau (não verificado).",
+  "pautas": [
+   "Saúde: falta de especialistas (pediatra, oftalmologista, fonoaudiólogo) no Hospital Geral de Ipiaú (HGI), segundo A Tarde (jan/2025)",
+   "Precariedade do ônibus do Tratamento Fora do Domicílio (TFD) que leva pacientes a Salvador, Itabuna e Jequié (A Tarde, jan/2025)",
+   "Dependência da Policlínica Regional de Jequié para especialidades"
+  ],
+  "eventos": "A prefeitura abriu concurso público com 406 vagas na gestão Laryssa Dias, mas a data não foi verificada. Não foram encontrados desastres ou escândalos.",
+  "fontes": [
+   "https://atarde.com.br/municipios/populacao-denuncia-descaso-em-servicos-da-saude-de-ipiau-1304754",
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/ipiau/",
+   "https://www.correio24horas.com.br/minha-bahia/prefeitura-de-ipiau-abre-concurso-publico-com-406-vagas-e-salarios-de-ate-r-10-mil-0624"
+  ],
+  "confianca": "média",
+  "obs": "As pautas se concentram em saúde, a partir de uma única reportagem."
+ },
+ {
+  "ibge": "2914000",
+  "municipio": "Ipirá",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Thiago do Vale)",
+  "partido_prefeito": "ver rodada 1 (PSD)",
+  "pl_local": "Nenhum vereador do PL entre os 15 eleitos em 2024 (PSD 6, PDT 2, MDB 2, Avante 2, União, PCdoB e PV com 1 cada).",
+  "economia": "Município médio do semiárido (Bacia do Jacuípe), com pecuária de leite e corte, agricultura familiar e comércio (não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas de 2024–2026. Notícias antigas (2016) citam pavimentação, poços artesianos na zona rural e a reforma do Hospital Municipal de Ipirá, demandas estruturais típicas do semiárido, mas sem confirmação recente"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/ipira/",
+   "https://jornalgrandebahia.com.br/?p=368779",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "A única fonte de demandas é de 2016 e não foi tratada como pauta atual. O PSD domina a câmara."
+ },
+ {
+  "ibge": "2922003",
+  "municipio": "Mucuri",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Robertinho)",
+  "partido_prefeito": "ver rodada 1 (União Brasil)",
+  "pl_local": "Nenhum vereador do PL entre os 13 eleitos em 2024 (rodada 1).",
+  "economia": "Município do extremo sul baiano com PIB de cerca de R$ 2,2 bilhões, puxado pela fábrica de celulose da Suzano, além de litoral turístico.",
+  "pautas": [
+   "Crise fiscal municipal: em 2025 houve bloqueios e pagamentos judiciais de dívidas antigas acima de R$ 40 milhões, o equivalente a dois meses de arrecadação",
+   "Temor de perda de receita com a Reforma Tributária (ICMS/ISS), segundo a prefeitura",
+   "Não foram encontradas pautas setoriais como saúde ou estradas (lacuna)"
+  ],
+  "eventos": "A prefeitura cancelou o Réveillon 2026 alegando impacto financeiro (Correio, 27/12/2025). Em 2024 a candidatura de Robertinho foi cassada em 1ª instância e restabelecida pelo TRE-BA.",
+  "fontes": [
+   "https://www.correio24horas.com.br/bahia/cidade-da-bahia-cancela-festa-de-reveillon-e-alega-forte-impacto-financeiro-1225",
+   "https://atarde.com.br/eleicoes/justica-eleitoral-de-mucuri-cassa-candidatura-do-prefeito-robertinho-1286191",
+   "https://www.bahianoticias.com.br/municipios/noticia/41524-treba-assegura-candidatura-de-prefeito-de-mucuri-a-reeleicao"
+  ],
+  "confianca": "média",
+  "obs": "Município com perfil econômico ligado ao extremo sul (celulose), sem dados sobre a câmara além da rodada 1."
+ },
+ {
+  "ibge": "2925105",
+  "municipio": "Poções",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Dona Nilda)",
+  "partido_prefeito": "ver rodada 1 (PCdoB)",
+  "pl_local": "Nenhum vereador do PL entre os 13 eleitos em 2024 (rodada 1).",
+  "economia": "Município do Sudoeste baiano com cerca de 50 mil habitantes, baseado em serviços e hortifrúti (fava, tomate), café e pecuária (rodada 1).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas (lacuna de pesquisa)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-pocoes-ba-nas-eleicoes-2024-veja-a-lista/",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "A busca combinada (Ipiaú/Poções/Ipirá) não trouxe nada de Poções."
+ },
+ {
+  "ibge": "2928604",
+  "municipio": "Santo Amaro",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Flaviano)",
+  "partido_prefeito": "ver rodada 1 (União Brasil)",
+  "pl_local": "Nenhum vereador do PL entre os 15 eleitos em 2024 (rodada 1).",
+  "economia": "Município do Recôncavo com cerca de 58 mil habitantes, baseado em serviços e comércio após o declínio da cana; tem o passivo de chumbo da antiga COBRAC.",
+  "pautas": [
+   "Passivo ambiental de chumbo e cádmio da antiga COBRAC/Plumbum (questão histórica; não foi confirmado como pauta de 2024–26)",
+   "Não foram encontradas pautas recentes específicas (lacuna)"
+  ],
+  "eventos": "Troca de gestão em 2025: Flaviano (União) sucedeu Alessandra Gomes (PSD). Não foram encontrados outros eventos.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Santo_Amaro_(Bahia)",
+   "https://www.tribunapr.com.br/eleicoes/2024/vereadores-eleitos-em-santo-amaro-ba-nas-eleicoes-2024-veja-a-lista/"
+  ],
+  "confianca": "baixa",
+  "obs": "Nenhuma busca dedicada ao município foi feita nesta rodada."
+ },
+ {
+  "ibge": "2929206",
+  "municipio": "São Francisco do Conde",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Antônio Calmon)",
+  "partido_prefeito": "ver rodada 1 (PP)",
+  "pl_local": "Nenhum vereador do PL entre os 13 eleitos em 2024 (PSDB 5, PP 4, PSB 2, Republicanos 2).",
+  "economia": "Município de cerca de 41 mil habitantes na RMS, cuja arrecadação depende quase só da Refinaria de Mataripe (Acelen/Mubadala, ex-RLAM).",
+  "pautas": [
+   "Crise financeira da prefeitura pela queda do ICMS: cerca de R$ 564 milhões em 2023 contra R$ 312 milhões em 2024, perda de quase R$ 20 milhões por mês, atribuída ao registro de atividades da Acelen fora do município",
+   "Disputa tributária com a Acelen: ITIV estimado em cerca de R$ 150 milhões que a prefeitura cogita cobrar",
+   "Corte de festas e eventos tradicionais (São João suspenso em 2025 e 2026) e redução de repasses",
+   "Instabilidade operacional da refinaria (paradas, incêndio e acidente em 2025)"
+  ],
+  "eventos": "A prefeitura relatou crise financeira e cobrança à Acelen (abr/2025) e suspendeu o São João pelo 2º ano seguido (04/06/2026). A refinaria teve pelo menos cinco paradas não programadas, um incêndio (set/2025) e um acidente (dez/2025).",
+  "fontes": [
+   "https://www.bahianoticias.com.br/municipios/noticia/45019-prefeitura-baiana-relata-crise-financeira-e-cobra-imposto-nao-pago-por-dona-de-refinaria",
+   "https://www.bahianoticias.com.br/municipios/noticia/51055-prefeitura-de-sao-francisco-do-conde-anuncia-suspensao-de-festas-juninas-2026-entenda",
+   "https://eixos.com.br/noticias/problemas-em-serie-na-refinaria-de-mataripe-acendem-alerta-para-abastecimento-na-bahia/",
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ba/sao-francisco-do-conde/"
+  ],
+  "confianca": "alta",
+  "obs": "A crise fiscal ligada à privatização da refinaria (venda da RLAM à Mubadala/Acelen em 2021) é o tema dominante."
+ },
+ {
+  "ibge": "2933604",
+  "municipio": "Xique-Xique",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Renanzinho)",
+  "partido_prefeito": "ver rodada 1 (MDB)",
+  "pl_local": "não encontrado (a página de vereadores eleitos não pôde ser lida: limite de acesso)",
+  "economia": "Município do médio São Francisco com cerca de 47 mil habitantes, com porto fluvial, pesca, agropecuária ribeirinha e serviços (pesca e porto confirmados nas fontes; o resto é geral).",
+  "pautas": [
+   "Questão estrutural: vazão baixa do Rio São Francisco e assoreamento da Lagoa de Itaparica (maior lagoa da bacia), com efeito sobre a pesca e o abastecimento de comunidades ribeirinhas. As fontes são de 2017, sem confirmação para 2024–26",
+   "Não foram encontradas pautas recentes específicas (lacuna)"
+  ],
+  "eventos": "não encontrado para 2024–2026",
+  "fontes": [
+   "https://www.correio24horas.com.br/bahia/seca-na-maior-lagoa-do-rio-sao-francisco-afeta-5-mil-familias-0917",
+   "https://www.bnews.com.br/noticias/cidades/91960-xique-xique-pode-ficar-sem-agua-em-40-dias.html",
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "As fontes sobre seca e lagoa são antigas (2017) e foram registradas apenas como contexto estrutural."
+ },
+ {
+  "ibge": "5215504",
+  "municipio": "Ouvidor",
+  "uf": "GO",
+  "prefeito_2024": "ver rodada 1 (Cebinha)",
+  "partido_prefeito": "ver rodada 1 (PODE)",
+  "pl_local": "O PL não elegeu vereadores em 2024 (câmara: PODE 5, PDT 3, MDB 1; rodada 1). Não foi encontrado político do PL com reduto local.",
+  "economia": "Município muito pequeno (cerca de 6 mil habitantes) do Sudeste goiano, com economia fortemente mineral e industrial (fosfato e nióbio da CMOC Brasil, junto com Catalão) e agropecuária complementar.",
+  "pautas": [
+   "Conflitos da mineração (CMOC e Mosaic) na região Catalão–Ouvidor: impactos ambientais (secagem de nascentes, barragens de rejeito, poeira e queixas respiratórias) e pressão sobre camponeses por terras (protesto de 2023 na GO-504, que cita Ouvidor)",
+   "Cobrança de tributos e CFEM das mineradoras pelos municípios (na região de Catalão, dívidas de ISS e CFEM foram denunciadas em 2018 e 2023)",
+   "Empregos locais na mineração: reivindicação de vagas de nível superior para moradores",
+   "Não foram encontradas pautas municipais de 2024–26 específicas de Ouvidor (lacuna)"
+  ],
+  "eventos": "Novos investimentos anunciados pela CMOC em Goiás (cerca de R$ 3 bilhões, out/2023). Não foram encontrados eventos de 2025–26 específicos de Ouvidor.",
+  "fontes": [
+   "https://www.maisgoias.com.br/cidades/catalao-camponeses-impedem-acesso-a-mineradoras-em-ato-contra-impactos-na-regiao-e-familias-agricultoras/",
+   "https://www.maisgoias.com.br/cidades/prefeitura-de-catalao-manifesta-para-cobrar-dividas-milionarias-de-mineradoras-do-municipio/",
+   "https://www.jornalopcao.com.br/articulacoes/na-china-caiado-reforca-aliancas-para-atrair-novos-investimentos-para-goias-550676/",
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/go/ouvidor/"
+  ],
+  "confianca": "baixa",
+  "obs": "As pautas são regionais (Catalão–Ouvidor) e de 2018/2023, sem fonte recente própria de Ouvidor. É o único município do lote com virada para Flávio (S1)."
+ }
+]

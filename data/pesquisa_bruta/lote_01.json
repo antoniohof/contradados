@@ -1,0 +1,210 @@
+[
+ {
+  "ibge": "1200302",
+  "municipio": "Feijó",
+  "uf": "AC",
+  "prefeito_2024": "Delegado Railson",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "PL lançou candidata a prefeita em 2024 (Terezinha, PL 22), que não venceu; nenhum vereador do PL eleito em 2024 (13 cadeiras: PP 3, PDT 2, Republicanos 2, PSD 2, Pode 1, MDB 1, União 1, Solidariedade 1). Não encontrado deputado do PL com reduto no município.",
+  "economia": "Município amazônico de ~35 mil hab. (IBGE 2020; metade rural, muitos ribeirinhos), com economia baseada na administração pública, pecuária bovina em expansão ao longo das rodovias e pequenas indústrias (móveis, cerâmica); conhecido pelo Festival do Açaí.",
+  "pautas": [
+   "Cheias dos rios e assistência a desabrigados (situação de emergência reconhecida pelo governo federal em março de 2025)",
+   "Trafegabilidade da BR-364 (rompimento em Tarauacá em fev/2025 isolou Feijó, Tarauacá e Cruzeiro do Sul)",
+   "Desmatamento: Feijó incluído em nov/2023 na lista federal de municípios prioritários para combate ao desmatamento na Amazônia",
+   "Lacuna: demais pautas (saúde, segurança, emprego) não confirmadas em imprensa local"
+  ],
+  "eventos": "Eleição de 2024 apertada (Railson eleito com 49,99%). Fev/2025: BR-364 rompe em Tarauacá (km 532) e isola Feijó; mar/2025: emergência por cheias reconhecida no DOU. Inclusão na lista prioritária de desmatamento (2023) implica restrições/fiscalização sobre pecuária e crédito rural.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/ac/feijo/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-feijo-ac-da-eleicao-2024/",
+   "https://www.portaltela.com/noticias/ultimas-noticias/2025/02/23/rodovia-br-364-se-rompe-no-acre-e-isola-cidades-apos-fortes-chuvas/",
+   "https://acionista.com.br/governo-reconhece-situacao-de-emergencia-em-8-cidades-do-acre/",
+   "https://pt.wikipedia.org/wiki/Feij%C3%B3_(Acre)"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito e câmara confirmados (ND+ resultados). Pautas inferidas de notícias estaduais/nacionais sobre cheias e BR-364, não de imprensa local de Feijó."
+ },
+ {
+  "ibge": "2700409",
+  "municipio": "Atalaia",
+  "uf": "AL",
+  "prefeito_2024": "Ceci",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Município da Zona da Mata de ~47,5 mil hab. (IBGE 2021), economia agrícola centrada na cana-de-açúcar (sediou a Usina Brasileiro, primeira usina de Alagoas).",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "Ceci reeleita em 2024 com 79,95%; segundo a Wikipédia, sua coligação levou as 13 cadeiras da câmara. Disputa local após rompimento da prefeita com a dep. Fátima Canuto (informação da Wikipédia, não verificada de forma independente).",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Atalaia_(Alagoas)",
+   "https://www.tribunadosertao.com.br/blogs/kleverson-levy/2024/04/08/146310-depois-da-rasteira-vice-prefeita-de-atalaia-encontra-partido-para-disputar-eleicao-de-2024"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeita/partido confirmados; pautas não pesquisadas."
+ },
+ {
+  "ibge": "2701407",
+  "municipio": "Campo Alegre",
+  "uf": "AL",
+  "prefeito_2024": "Pauline Pereira",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Município canavieiro da região de São Miguel dos Campos (sede da Usina Porto Rico, ligada à família Tenório); porte e dados atualizados não confirmados.",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)",
+   "Coluna da Tribuna do Sertão (jan/2024) aponta como tema da campanha o desejo de mudança após ~12 anos de governo da família Pereira (PP)"
+  ],
+  "eventos": "Eleição 2024: Pauline Pereira (PP) volta à prefeitura com 59,17%, sucedendo o primo Nicolas Pereira (PP); adversário Henrique Tenório tinha apoio do MDB/governador Paulo Dantas e dos Renans.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://www.tribunadosertao.com.br/blogs/kleverson-levy/2024/01/11/146121-o-nome-que-ameaca-o-reinado-da-familia-pereira-em-campo-alegre-no-pleito-de-2024"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeita/partido confirmados. Economia (cana) inferida da menção à Usina Porto Rico; sem dados de porte."
+ },
+ {
+  "ibge": "2702405",
+  "municipio": "Delmiro Gouveia",
+  "uf": "AL",
+  "prefeito_2024": "Ziane Costa",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Maior cidade do Alto Sertão alagoano (>50 mil hab.), polo regional de comércio e serviços às margens do São Francisco; histórico de pecuária e da fábrica de linhas de Delmiro Gouveia.",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Ziane Costa (MDB) reeleita com 83,31%, em disputa praticamente sem oposição (TNH1 noticiou que poderia ser candidata única após desistência de José Cazuza/PDT e inelegibilidade de Eraldo Cordeiro/PT).",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/delmiro-gouveia-pode-ser-mais-um-municipio-alagoano-com-apenas-um-candidato-a-prefeitura-este-ano/",
+   "https://pt.wikipedia.org/wiki/Delmiro_Gouveia_(Alagoas)"
+  ],
+  "confianca": "baixa",
+  "obs": "TNH1 grafa 'Zine Costa' na lista de eleitos; Movimento Econômico e outra matéria do TNH1 usam 'Ziane Costa'. Pautas não pesquisadas."
+ },
+ {
+  "ibge": "2706307",
+  "municipio": "Palmeira dos Índios",
+  "uf": "AL",
+  "prefeito_2024": "Tia Júlia",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Quarto maior município de Alagoas (~73 mil hab., IBGE 2019), polo do Agreste; base econômica atual não confirmada nas fontes consultadas (comércio/serviços regionais e agropecuária, não verificado).",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Tia Júlia (MDB) eleita no 1º turno com 57,43%; em 2023 o governador havia declarado apoio à candidatura de Adeilson Bezerra (fonte Tribuna do Sertão) — composição final do apoio não verificada.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Palmeira_dos_%C3%8Dndios",
+   "https://www.tribunadosertao.com.br/cidades/2023/05/04/498752-governador-reafirma-apoio-a-candidatura-de-adeilson-bezerra-a-prefeito-de-palmeira-dos-indios"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeita/partido confirmados; economia e pautas com lacunas."
+ },
+ {
+  "ibge": "2706703",
+  "municipio": "Penedo",
+  "uf": "AL",
+  "prefeito_2024": "Ronaldo Lopes",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Cidade histórica do Baixo São Francisco (~64 mil hab., IBGE 2021), com economia baseada no setor primário (coco, arroz, pesca, cana) e turismo histórico.",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Ronaldo Lopes (MDB) reeleito com 71,33%. Nenhum evento recente encontrado.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Penedo_(Alagoas)"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas não pesquisadas."
+ },
+ {
+  "ibge": "2707404",
+  "municipio": "Porto de Pedras",
+  "uf": "AL",
+  "prefeito_2024": "Allan de Jesus",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Pequeno município litorâneo do norte de Alagoas (~10 mil hab.), na Rota Ecológica dos Milagres; base econômica não confirmada nas fontes (turismo, pesca e coco prováveis, não verificado).",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Allan de Jesus (MDB) eleito com 51,25%, disputa apertada. Nenhum evento recente encontrado.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Porto_de_Pedras"
+  ],
+  "confianca": "baixa",
+  "obs": "População da Wikipédia é estimativa antiga (2004: 10.558). Pautas e economia com lacunas."
+ },
+ {
+  "ibge": "2708709",
+  "municipio": "São Miguel dos Milagres",
+  "uf": "AL",
+  "prefeito_2024": "Jadson Lessa",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Pequeno município litorâneo (~8 mil hab.), historicamente produtor de coco e hoje com turismo em expansão (Rota Ecológica dos Milagres, pousadas de alto padrão, observação de peixe-boi no rio Tatuamunha).",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Jadson Lessa (MDB) eleito com 58,36%. Nenhum evento recente encontrado.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_dos_Milagres"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas não pesquisadas."
+ },
+ {
+  "ibge": "2709152",
+  "municipio": "Teotônio Vilela",
+  "uf": "AL",
+  "prefeito_2024": "Peu Pereira",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Município canavieiro de ~38 mil hab. (Censo 2022, queda de 7,5% desde 2010), com economia dependente da Usina Seresta e da cana; IDH 0,564, um dos mais baixos de AL.",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Peu Pereira (PP) eleito com 77,19%. Política local dominada pela família Pereira (ligada a Arthur Lira e Benedito de Lira, PP); Fernando Soares Pereira tornou-se deputado estadual em 2023. Observatório De Olho nos Ruralistas (nov/2023) publicou denúncia sobre a família Lira e destruição de mata sagrada Kariri-Xocó (alegação de fonte ativista).",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Teot%C3%B4nio_Vilela_(Alagoas)"
+  ],
+  "confianca": "baixa",
+  "obs": "Wikipédia indica que Peu Pereira já foi eleito em 2020; 2024 seria reeleição (não verificado em outra fonte). Pautas não pesquisadas."
+ },
+ {
+  "ibge": "2709301",
+  "municipio": "União dos Palmares",
+  "uf": "AL",
+  "prefeito_2024": "Júnior Menezes",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado no município; segundo o Movimento Econômico (07/10/2024), o PL venceu em Alagoas apenas na capital em 2024 (nenhuma prefeitura do interior)",
+  "economia": "Sexto maior município de AL (59,3 mil hab., Censo 2022), polo da Zona da Mata com comércio/serviços (feira livre), grande produção de cana-de-açúcar e banana; abriga a Serra da Barriga (Parque Memorial Quilombo dos Palmares).",
+  "pautas": [
+   "lacuna: pautas locais não pesquisadas (limite de buscas web esgotado antes desta etapa)"
+  ],
+  "eventos": "2024: Júnior Menezes (MDB) eleito com 63,83%. Nenhum evento recente encontrado.",
+  "fontes": [
+   "https://movimentoeconomico.com.br/estados/alagoas/2024/10/07/mdb-conquista-maioria-das-prefeituras-de-alagoas-pl-so-vence-na-capital/",
+   "https://www.tnh1.com.br/noticia/nid/eleicoes-2024-conheca-os-prefeitos-eleitos-nas-cidades-do-interior-de-alagoas/",
+   "https://pt.wikipedia.org/wiki/Uni%C3%A3o_dos_Palmares"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas não pesquisadas."
+ }
+]

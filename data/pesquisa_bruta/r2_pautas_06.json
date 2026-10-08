@@ -1,0 +1,264 @@
+[
+ {
+  "ibge": "3138401",
+  "municipio": "Leopoldina",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (Pedro Augusto Junqueira Ferraz)",
+  "partido_prefeito": "ver rodada 1 (PL)",
+  "pl_local": "Prefeito Pedro Augusto Junqueira Ferraz eleito pelo PL em 2024 (rodada 1); bancada de vereadores do PL não verificada",
+  "economia": "Cidade-polo da Zona da Mata (~51 mil hab.), comércio/serviços regionais e pecuária leiteira; setorial não verificado.",
+  "pautas": [
+   "Chuvas/temporais: granizo e ventos >80 km/h em 04/11/2025 levaram a decreto de situação de emergência (180 dias), com alagamentos, deslizamentos e bloqueio de estradas rurais",
+   "Saúde: setor de hemodiálise da Casa de Caridade Leopoldinense destelhado no temporal de nov/2025",
+   "Infraestrutura escolar e esportiva danificada (escolas municipais e quadras) no mesmo evento",
+   "Chuvas de fev/2026 na Zona da Mata: Leopoldina novamente em situação de emergência e recebeu ajuda humanitária estadual (cestas, colchões, kits de limpeza)",
+   "Demais pautas (segurança, emprego, custo de vida) não encontradas — lacuna"
+  ],
+  "eventos": "Temporal com granizo em 04/11/2025 (emergência decretada 06/11/2025); enchentes de fevereiro de 2026 na Zona da Mata (calamidade em Ubá e Juiz de Fora, dezenas de mortos na região), com Leopoldina em situação de emergência.",
+  "fontes": [
+   "https://tribunademinas.com.br/?p=793733",
+   "https://www.agenciaminas.mg.gov.br/news/pdf/129194.pdf",
+   "https://www.leopoldina.mg.gov.br/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas centradas em eventos climáticos; outras demandas não levantadas por limite de buscas e bloqueio (HTTP 429) do WebFetch."
+ },
+ {
+  "ibge": "3140001",
+  "municipio": "Mariana",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (Juliano Duarte)",
+  "partido_prefeito": "ver rodada 1 (PSB)",
+  "pl_local": "Roberto Rodrigues foi candidato do PL a prefeito em 2024 (derrotado, rodada 1); eleitos do PL não encontrados",
+  "economia": "Cidade histórica do Quadrilátero Ferrífero (~61 mil hab.), dependente da mineração de ferro (Vale/Samarco) e do turismo histórico.",
+  "pautas": [
+   "Reparação do rompimento de Fundão (2015): prefeitura recusou aderir à repactuação de R$ 170 bi homologada no STF (nov/2024), criticando que só ~4% (R$ 6,1 bi) iria aos 49 municípios, pagos em 20 anos, sem participação dos prefeitos",
+   "Ação judicial em Londres contra BHP como alternativa ao acordo (municípios que recusaram)",
+   "Perdas de receita municipal (prefeito cita queda de quase 70%) e retomada de obras/programas paralisados",
+   "Desemprego e problemas sociais associados ao desastre e à dependência da mineração"
+  ],
+  "eventos": "Repactuação do caso Samarco/Vale/BHP (assinada 25/10/2024, homologada nov/2024); prazo de adesão dos municípios encerrado em 6/03/2025 sem adesão de Mariana; prefeito declarou o baixo índice de adesão uma derrota de União e Estado (mar/2025). Mariana reclamou de exclusão das negociações.",
+  "fontes": [
+   "https://agenciabrasil.ebc.com.br/justica/noticia/2025-03/caso-samarco-prefeito-de-mariana-ve-derrota-de-estado-e-da-uniao",
+   "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/mariana-15-das-49-cidades-afetadas-optaram-pela-repactuacao-no-brasil/",
+   "https://jornaldebrasilia.com.br/noticias/brasil/mariana-mg-reclama-de-exclusao-nas-negociacoes-entre-vale-e-uniao-por-tragedia/",
+   "https://www.itatiaia.com.br/politica/cidades-mineiras-assinam-manifesto-contra-novo-acordo-de-reparacao-pela-tragedia-de-mariana/"
+  ],
+  "confianca": "média",
+  "obs": "Conflito sobre o acordo de reparação opõe prefeitura e governos federal/estadual; pautas de saúde/segurança não levantadas."
+ },
+ {
+  "ibge": "3141801",
+  "municipio": "Minas Novas",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (Alessandro Mota Barbosa)",
+  "partido_prefeito": "ver rodada 1 (Republicanos)",
+  "pl_local": "não encontrado",
+  "economia": "Município do Alto Jequitinhonha (~24 mil hab., PIB per capita baixo), agricultura familiar, eucalipto e serviços públicos; integra a lista de 14 cidades do 'Vale do Lítio'.",
+  "pautas": [
+   "Saúde regional: Hospital Doutor Badaró Júnior com hemodiálise (62 pacientes/dia de 13 municípios; R$ 1,7 mi estaduais em 2024) — antes pacientes viajavam até Diamantina",
+   "Pavimentação/infraestrutura rural (programa municipal 'Tapete Preto' em comunidades como Ribeirão dos Santos, set/2026)",
+   "Atenção básica em comunidades rurais (novo ponto de apoio de saúde em Cabeceiras, out/2026) e dengue (mutirões)",
+   "Expectativa/insegurança em torno da mineração de lítio no Jequitinhonha (contexto regional; sem dado específico do município)",
+   "Pautas genéricas: só achadas via site da prefeitura e agência estadual — imprensa local não consultada"
+  ],
+  "eventos": "Nenhum evento específico encontrado; contexto regional de paralisação temporária da Sigma Lithium (set/2025–fev/2026) afetou Araçuaí/Itinga, não Minas Novas diretamente.",
+  "fontes": [
+   "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-apresenta-melhorias-para-a-saude-em-minas-novas-e-berilo/",
+   "https://www.minasnovas.mg.gov.br/",
+   "https://diariodocomercio.com.br/?p=599146",
+   "https://tribunademinas.com.br/noticias/minas/21-07-2023/estado-parceria-investimento-de-r-750-milhoes.html?amp=1"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas inferidas de notícias institucionais (prefeitura/governo); sem fonte de imprensa independente local."
+ },
+ {
+  "ibge": "3145000",
+  "municipio": "Nova Ponte",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (José Divino da Silva, 'Zé Divino')",
+  "partido_prefeito": "ver rodada 1 (PP)",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno do Triângulo Mineiro (~14,6 mil hab., PIB per capita alto ~R$ 108 mil), agronegócio (grãos, café) e UHE Nova Ponte.",
+  "pautas": [
+   "não encontrado — busca e WebFetch não retornaram material local (site da prefeitura inacessível)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3145000.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna total de pautas; site da prefeitura com timeout; WebFetch bloqueado (HTTP 429)."
+ },
+ {
+  "ibge": "3145307",
+  "municipio": "Novo Cruzeiro",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (Viviane Barbosa Pena)",
+  "partido_prefeito": "ver rodada 1 (PSD)",
+  "pl_local": "não encontrado",
+  "economia": "Município do Vale do Jequitinhonha/Mucuri (~27 mil hab., PIB per capita baixo), agricultura familiar e serviços públicos; produz cachaça (Festival da Cachaça).",
+  "pautas": [
+   "Agricultura familiar e compras públicas (Chamada Pública PAA 01/2026)",
+   "Acesso ao ensino superior (programa municipal EducaSuperior, 2026)",
+   "Participação social fraca: eleição do Conselho Municipal de Assistência Social prorrogada por falta de candidatos (ago/2026)",
+   "Pautas genéricas — só material institucional da prefeitura; imprensa local não encontrada"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.novocruzeiro.mg.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3145307.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca específica retornou resultados irrelevantes; pautas são indícios institucionais, não demandas comprovadas da população."
+ },
+ {
+  "ibge": "3152006",
+  "municipio": "Pompéu",
+  "uf": "MG",
+  "prefeito_2024": "Kenedy Wallafy Souza de Oliveira ('Kenedy Wállafy')",
+  "partido_prefeito": "NOVO",
+  "pl_local": "não encontrado (PL não lançou candidato a prefeito em 2024; candidatos foram PRD, PSD, NOVO, PSB, PT e PODE)",
+  "economia": "Município do centro-oeste mineiro (~31 mil hab.), serviços, usina de etanol/cana, ardósia e pecuária leiteira/eucalipto; às margens do Paraopeba e do lago de Três Marias/Retiro Baixo.",
+  "pautas": [
+   "Reparação do rompimento da barragem da Vale em Brumadinho (2019): Pompéu está na área atingida do Paraopeba com projetos de demandas comunitárias assessorados pela Guaicuy (documento 'Projetos Pompéu', 2024)",
+   "Demais pautas (saúde, estradas) não verificadas — lacuna"
+  ],
+  "eventos": "não encontrado além do processo de reparação do Paraopeba",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3152006.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pompeu-mg-da-eleicao-2024/",
+   "https://guaicuy.org.br/wp-content/uploads/2023/08/20240807_ANEXO-1.3_Projetos_POMPEU.pdf",
+   "https://renovabr.org/en/?p=5276"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito pelo IBGE Cidades (2025) cruzado com lista de candidatos da Itatiaia (Kenedy Wállafy, NOVO). Pauta da reparação inferida do título do documento da Guaicuy (não lido: HTTP 429). Página da RenovaBR possivelmente sobre o prefeito, não lida."
+ },
+ {
+  "ibge": "3152105",
+  "municipio": "Ponte Nova",
+  "uf": "MG",
+  "prefeito_2024": "Milton Teodoro Irias Junior ('Dr Milton')",
+  "partido_prefeito": "Avante",
+  "pl_local": "não encontrado (PL lançou 14 candidatos a vereador em 2024; eleitos não verificados; sem candidato a prefeito)",
+  "economia": "Cidade-polo da Zona da Mata (~58 mil hab.), serviços regionais, comércio e agroindústria (cana/açúcar); às margens do rio Piranga (bacia do Doce).",
+  "pautas": [
+   "Reparação do desastre de Mariana (bacia do Rio Doce): Ponte Nova aderiu à repactuação no Brasil, recebendo a 1ª parcela em 6/03/2025",
+   "Desenvolvimento econômico/emprego (projeto Coopera+ Rio Doce e plataforma Empreende Ponte Nova, 2026)",
+   "Demais pautas (saúde, segurança, enchentes do Piranga) não verificadas — lacuna"
+  ],
+  "eventos": "Adesão ao acordo de repactuação Samarco (pagamento antecipado em mar/2025); Coopera+ Rio Doce (jul/2026).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3152105.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ponte-nova-mg-da-eleicao-2024/",
+   "https://www.itatiaia.com.br/colunas/edilene-lopes/politica/mariana-15-das-49-cidades-afetadas-optaram-pela-repactuacao-no-brasil/",
+   "https://www.pontenova.mg.gov.br/"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito via IBGE Cidades (2025) = 'Dr Milton' (Avante) na lista Itatiaia; correspondência por nome. Concorrentes 2024: Guto Malta (PT), Valéria Alvarenga (PP), André Luiz (PMB)."
+ },
+ {
+  "ibge": "3152204",
+  "municipio": "Porteirinha",
+  "uf": "MG",
+  "prefeito_2024": "Silvanei Batista Santos ('Silvanei Batista')",
+  "partido_prefeito": "PSB",
+  "pl_local": "não encontrado (PL sem candidato a prefeito em 2024)",
+  "economia": "Município do Norte de Minas (~37 mil hab.), semiárido da Serra Geral/Gorutuba, agropecuária (fruticultura irrigada, pecuária) e serviços.",
+  "pautas": [
+   "Segurança de barragem: risco/rompimento parcial de barragem com deslocamento de mais de cem pessoas e situação de emergência reconhecida pelo governo federal (início de 2026)",
+   "Água/irrigação no semiárido (bacia do Gorutuba) — contexto, não verificado em notícia 2025-26",
+   "Demais pautas não verificadas — lacuna"
+  ],
+  "eventos": "Emergência por risco de rompimento de barragem em Porteirinha, com >100 pessoas deslocadas e reconhecimento federal de situação de emergência; EM (mar/2026) relata 'rompimento parcial' e governo de MG dizendo que a situação estava controlada.",
+  "fontes": [
+   "https://www.em.com.br/gerais/2026/03/7365778-governo-de-mg-diz-que-situacao-na-barragem-de-porteirinha-esta-controlada.html",
+   "https://jornaldebrasilia.com.br/noticias/brasil/risco-de-rompimento-em-barragem-leva-ao-deslocamento-de-mais-de-cem-pessoas-em-mg/",
+   "https://www.itatiaia.com.br/brasil/sudeste/mg/governo-reconhece-emergencia-em-porteirinha-apos-alerta-de-rompimento-de-barragem/",
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3152204.html"
+  ],
+  "confianca": "média",
+  "obs": "Detalhes do evento da barragem extraídos apenas de títulos/URLs dos resultados (matérias não lidas por HTTP 429); nome da barragem e data exata não confirmados. Prefeito via IBGE Cidades cruzado com lista Itatiaia (outros candidatos: Branquinha-União, Juracy Freire-PSD, Wilson Marcos-SD)."
+ },
+ {
+  "ibge": "3152808",
+  "municipio": "Prata",
+  "uf": "MG",
+  "prefeito_2024": "Marcel Vieira Rodrigues da Cunha (provável nome de urna 'Xexéu')",
+  "partido_prefeito": "PP (provável)",
+  "pl_local": "não encontrado (disputa de 2024 só entre Xexéu-PP e Gil Carteiro-PT)",
+  "economia": "Maior município do Triângulo Mineiro em área (~28 mil hab.), às margens da BR-153; pecuária de corte, avicultura/suinocultura, silvicultura e grãos.",
+  "pautas": [
+   "Acesso ao ensino superior (Programa Bolsa Faculdade municipal, rodada 1)",
+   "Demais pautas não encontradas — lacuna"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3152808.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-prata-mg-da-eleicao-2024/",
+   "https://www.prata.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "IBGE Cidades dá o prefeito 2025 Marcel Vieira Rodrigues da Cunha; a associação ao candidato 'Xexéu' (PP) é inferência (o outro candidato, 'Gil Carteiro', PT, não parece corresponder) — confirmar."
+ },
+ {
+  "ibge": "3153400",
+  "municipio": "Presidente Olegário",
+  "uf": "MG",
+  "prefeito_2024": "ver rodada 1 (Rhenys Cambraia)",
+  "partido_prefeito": "ver rodada 1 (Republicanos)",
+  "pl_local": "não encontrado",
+  "economia": "Município do Noroeste/Alto Paranaíba (~19 mil hab.), agropecuária com chapadões de grãos (Ponte Firme).",
+  "pautas": [
+   "não encontrado — busca regional não retornou material local"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://presidenteolegario.mg.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna total de pautas."
+ },
+ {
+  "ibge": "3155504",
+  "municipio": "Rio Paranaíba",
+  "uf": "MG",
+  "prefeito_2024": "Alvimar Adriano Alves ('Adriano')",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeito Alvimar Adriano Alves eleito pelo PL em 2024 (disputa contra Liemar do Central, PP); vereadores do PL não verificados",
+  "economia": "Município agrícola do Alto Paranaíba (~14,5 mil hab., PIB per capita ~R$ 79 mil em 2023), agricultura irrigada (hortaliças, grãos, café).",
+  "pautas": [
+   "Agronegócio/exposição agropecuária (evento com deputado Elmiro Nascimento) — matéria não lida",
+   "Demais pautas não encontradas — lacuna"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3155504.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-rio-paranaiba-mg-da-eleicao-2024/",
+   "https://www.revistacultivar.com.br/noticias/elmiro-nascimento-prestigia-exposicao-em-rio-paranaiba"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito: IBGE Cidades (Alvimar Adriano Alves, 2025) coincide com o candidato 'Adriano' (PL, nº 22) da lista Itatiaia — confiança alta no prefeito/partido; pautas sem dados."
+ },
+ {
+  "ibge": "3156304",
+  "municipio": "Rodeiro",
+  "uf": "MG",
+  "prefeito_2024": "José Carlos Ferreira (provável nome de urna 'José Carlos Benjamim')",
+  "partido_prefeito": "PSD (provável)",
+  "pl_local": "não encontrado (disputa de 2024 entre José Carlos Benjamim-PSD e Luiz Medeiros-Cidadania)",
+  "economia": "Município pequeno da Zona da Mata (8,7 mil hab.), vizinho de Ubá, ligado ao polo moveleiro de Ubá e à agropecuária.",
+  "pautas": [
+   "Possível impacto das chuvas históricas de fevereiro de 2026 na região de Ubá (calamidade em Ubá; dezenas de mortos na Zona da Mata) — não confirmado para Rodeiro",
+   "Demais pautas não encontradas — lacuna"
+  ],
+  "eventos": "Enchentes de fev/2026 na microrregião de Ubá (vizinha); efeito direto em Rodeiro não verificado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3156304.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-rodeiro-mg-da-eleicao-2024/",
+   "https://www.agenciaminas.mg.gov.br/news/pdf/129194.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito via IBGE (José Carlos Ferreira) associado por prenome ao candidato José Carlos Benjamim (PSD) — inferência a confirmar."
+ }
+]

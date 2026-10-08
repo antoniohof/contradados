@@ -1,0 +1,245 @@
+[
+ {
+  "ibge": "3552908",
+  "municipio": "Taciba",
+  "uf": "SP",
+  "prefeito_2024": "Izidoro Arcesti Ricci (Izidoro Ricci)",
+  "partido_prefeito": "PP",
+  "pl_local": "PL lançou 6 candidatos a vereador em 2024 (ex.: Gilmar do Óleo, Marcelinho da Saúde); eleitos e bancada não verificados. Nenhum eleito do PL com reduto local encontrado.",
+  "economia": "Município pequeno (6,3 mil hab., Censo 2022; PIB per capita R$ 38,7 mil em 2023) no oeste paulista; base agropecuária (cana/pecuária, setor por conhecimento geral, não verificado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/sp/3552908.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-taciba-sp-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito via IBGE Cidades (2025) cruzado com lista de candidatos 2024 da Itatiaia (adversários: Damião Ferreira-PODE, Fúlvia-União). Partido é o da candidatura de 2024."
+ },
+ {
+  "ibge": "3553609",
+  "municipio": "Tapiratiba",
+  "uf": "SP",
+  "prefeito_2024": "Ramon Jesus Vieira (Ramon)",
+  "partido_prefeito": "Cidadania",
+  "pl_local": "não encontrado (PL não lançou candidatos a vereador em 2024 segundo a Itatiaia)",
+  "economia": "Município pequeno (11,8 mil hab.; PIB per capita R$ 30,4 mil em 2023) na região de Mococa/divisa com MG; agropecuária (café, cana, leite — por conhecimento geral, não verificado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/sp/3553609.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tapiratiba-sp-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito via IBGE Cidades (2025) + Itatiaia (adversários: Domingão-PT, João Carlos-PSB). Site da prefeitura não pôde ser lido (rate limit)."
+ },
+ {
+  "ibge": "1700251",
+  "municipio": "Abreulândia",
+  "uf": "TO",
+  "prefeito_2024": "Manoel Francisco de Moura (Manoel Moura)",
+  "partido_prefeito": "PT",
+  "pl_local": "não encontrado (PL sem candidatos a vereador em 2024; chapas só de PT, PV e União)",
+  "economia": "Município muito pequeno (2,6 mil hab.; 1.906 km²; PIB per capita R$ 55,1 mil em 2023), base agropecuária (pecuária de corte provável — não verificado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1700251.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-abreulandia-to-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Candidato único a prefeito em 2024 (PT). Pautas não pesquisadas com sucesso."
+ },
+ {
+  "ibge": "1700350",
+  "municipio": "Aliança do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "Elves Moreira Guimarães (Elves Guimarães)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "PL lançou 7 candidatos a vereador em 2024 (ex.: Tenente Francilvan, Levi Tavares); eleitos não verificados.",
+  "economia": "Pequeno município (5,1 mil hab.; 1.581 km²) às margens da BR-153 no sul do TO, PIB per capita alto (R$ 82,2 mil, 2023) sugerindo agronegócio (soja/pecuária — não verificado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1700350.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-alianca-do-tocantins-to-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito via IBGE + Itatiaia (adversário: Zé Carlos-PP)."
+ },
+ {
+  "ibge": "1701101",
+  "municipio": "Aparecida do Rio Negro",
+  "uf": "TO",
+  "prefeito_2024": "Deusimar Pereira de Amorim (Deusimar Amorim)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "PL lançou 9 candidatos a vereador em 2024; eleitos não verificados.",
+  "economia": "Pequeno município (4,9 mil hab.; PIB per capita R$ 58,3 mil em 2023) na região de Palmas/leste; agropecuária (não detalhado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1701101.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-aparecida-do-rio-negro-to-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito via IBGE + Itatiaia (adversário: Suzano-União)."
+ },
+ {
+  "ibge": "1703107",
+  "municipio": "Barrolândia",
+  "uf": "TO",
+  "prefeito_2024": "João Machado Alves (provavelmente 'João do Supergiro')",
+  "partido_prefeito": "União Brasil (provável)",
+  "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
+  "economia": "Pequeno município (4,8 mil hab.; PIB per capita R$ 28,9 mil em 2023) na região central do TO, base agropecuária/serviços (não detalhado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1703107.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-barrolandia-to-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "IBGE dá João Machado Alves como prefeito 2025; candidatos 2024 eram Douglas Carvalho Rosa (PSDB), João do Supergiro (União) e Leila Rocha (PV). Correspondência João Machado Alves = João do Supergiro é inferida, não confirmada."
+ },
+ {
+  "ibge": "1703867",
+  "municipio": "Cariri do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "Elton Moreira Alves (Tetin / 'Tetim do Açougue'); vice Ivonete Pereira",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "PL lançou 9 candidatos a vereador em 2024; Júnior Chaveiro (candidato do PL, nº 22000) liderou a chapa eleita para a presidência da Câmara 2025/2026 — indica vereador do PL eleito, partido atual não reconfirmado.",
+  "economia": "Pequeno município (4,0 mil hab.) vizinho a Gurupi, com PIB per capita muito alto (R$ 249 mil, 2023), compatível com agronegócio de grande escala (soja/grãos — setor não verificado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "Posse em 01/01/2025; prefeito declarou foco em 'cuidar das pessoas' e desenvolvimento acelerado (genérico).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1703867.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-cariri-do-tocantins-to-da-eleicao-2024/",
+   "https://conexaoto.com.br/2025/01/01/tetin-e-ivonete-tomam-posse-como-prefeito-e-vice-prefeita-de-cariri"
+  ],
+  "confianca": "média",
+  "obs": "Partido do prefeito confirmado pela candidatura (Tetin-União, nº 44; adversário Valdônio Rodrigues-PDT) e por notícia de pré-candidatura pelo União Brasil (Conexão TO, mar/2024)."
+ },
+ {
+  "ibge": "1706100",
+  "municipio": "Cristalândia",
+  "uf": "TO",
+  "prefeito_2024": "Wilson Júnior Carvalho de Oliveira (Big Jow)",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
+  "economia": "Município pequeno (6,4 mil hab.; 1.851 km²; PIB per capita R$ 33,6 mil em 2023), sede de diocese, na região do Araguaia/Formoso; agropecuária e serviços (não detalhado).",
+  "pautas": [
+   "Dependência de repasses: prefeito, presidente da ATM (Associação Tocantinense de Municípios) 2025-2026, enfatiza que municípios 'não sobrevivem' sem parceria do Estado, União e bancada federal",
+   "Concurso público municipal (96 vagas) suspenso em jul/2025, motivo não informado",
+   "Pautas locais específicas não encontradas"
+  ],
+  "eventos": "Big Jow eleito/empossado presidente da ATM (mar–mai/2025), projeção estadual do prefeito. Concurso suspenso (jul/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1706100.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-cristalandia-to-da-eleicao-2024/",
+   "https://www.conexaoto.com.br/2025/03/27/prefeito-big-jow-e-confirmado-presidente-da-atm-para-o-bienio-2025-2026",
+   "https://www.pciconcursos.com.br/noticias/prefeitura-de-cristalandia-to-abre-concurso-publico-com-96-vagas"
+  ],
+  "confianca": "média",
+  "obs": "Big Jow concorreu pelo União (nº 44) vs. Marcelo Carajás (PRD); partido não reconfirmado em 2025."
+ },
+ {
+  "ibge": "1708304",
+  "municipio": "Goianorte",
+  "uf": "TO",
+  "prefeito_2024": "Maria de Jesus Amaro de Oliveira Parente (Nega)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
+  "economia": "Pequeno município (4,7 mil hab.; PIB per capita R$ 37,6 mil em 2023) no centro-norte do TO; agropecuária (não detalhado).",
+  "pautas": [
+   "LACUNA: pautas locais específicas não encontradas (orçamento de buscas esgotado e WebFetch bloqueado por rate limit)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1708304.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-goianorte-to-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Candidata única a prefeita em 2024."
+ },
+ {
+  "ibge": "1711902",
+  "municipio": "Lagoa da Confusão",
+  "uf": "TO",
+  "prefeito_2024": "Thiago Soares Carlos (Thiago Lagoense)",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "PL lançou 12 candidatos a vereador em 2024 (maior lista do lote); eleitos não verificados.",
+  "economia": "Município médio-pequeno (15,3 mil hab., estimativa 16,9 mil; 10.563 km²; PIB per capita R$ 71,3 mil em 2023), polo de agricultura irrigada na várzea do Rio Formoso (arroz/soja — por conhecimento geral) e porta de entrada da Ilha do Bananal.",
+  "pautas": [
+   "Segurança hídrica para irrigação na bacia do Rio Formoso (projeto federal/Codevasf de 14 barragens móveis/elevatórias, R$ 34 mi, anunciado em 2022)",
+   "Conflito pelo uso da água do Rio Formoso entre irrigantes e outros usos (judicializado — só título de matéria visto)",
+   "Enchentes do Rio Formoso com situação de emergência, isolando a Aldeia Takaywra (31 famílias/104 pessoas) e afetando áreas urbanas e rurais",
+   "Atendimento a comunidades indígenas/tradicionais isoladas"
+  ],
+  "eventos": "Decreto de situação de emergência por cheia do Rio Formoso (90 dias; data exata não informada na matéria do O Popular, provavelmente 2025-26).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1711902.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-lagoa-da-confusao-to-da-eleicao-2024/",
+   "https://opopular.com.br/cidades/jacares-em-casas-e-familias-isoladas-levam-cidade-do-tocantins-a-decretar-estado-de-emergencia-1.3399772",
+   "https://brasil61.com/n/tocantins-mdr-vai-investir-r-34-milhoes-para-construir-14-elevatorias-na-lagoa-da-confusao-pmdr221114"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito eleito sobre Ecivaldo Santos (PT) e Nelsinho Moreira (MDB). Data do decreto de emergência não confirmada."
+ },
+ {
+  "ibge": "1712504",
+  "municipio": "Marianópolis do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "Saulo Costa Moreira (Saulo Barbosa)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado (PL sem candidatos a vereador em 2024)",
+  "economia": "Pequeno município (4,6 mil hab.; 2.090 km²; PIB per capita R$ 80,9 mil em 2023), agropecuária no vale do Araguaia (não detalhado).",
+  "pautas": [
+   "Conflito fundiário/reforma agrária em terras públicas federais (Gleba 2)",
+   "Pautas municipais específicas não encontradas"
+  ],
+  "eventos": "18/08/2025: PM retirou ~100 famílias do Acampamento Beatriz Bandeira (MST) do lote 24 da Gleba 2 (1.003 ha, terra pública federal segundo Incra), com prisões relatadas pelo MST; Diocese de Cristalândia e CDH repudiaram; Incra disse não ter sido notificado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1712504.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-marianopolis-do-tocantins-to-da-eleicao-2024/",
+   "https://conexaoto.com.br/2025/08/20/diocese-e-centro-de-direitos-humanos-repudiam-atuacao-da-pm-contra-familias-do-mst-em-marianopolis"
+  ],
+  "confianca": "média",
+  "obs": "Nome de urna 'Saulo Barbosa' (PDT) vs. nome civil no IBGE 'Saulo Costa Moreira' — correspondência assumida (único Saulo entre Gelson Moura-PP e Ilton Coutinho-União)."
+ },
+ {
+  "ibge": "1713304",
+  "municipio": "Miranorte",
+  "uf": "TO",
+  "prefeito_2024": "Leandro Mota Barbosa Teles (Leandro Barbosa)",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeito eleito em 2024 pelo PL (Leandro Barbosa, nº 22); PL lançou 10 candidatos a vereador (incl. 'Bolsonaro de Miranorte'); bancada eleita não verificada. Dep. estadual Léo Barbosa atua pelo município (partido não verificado).",
+  "economia": "Cidade pequena (12,7 mil hab.; PIB per capita R$ 38,1 mil em 2023) às margens da BR-153 no centro do TO, polo regional de comércio/serviços e agropecuária.",
+  "pautas": [
+   "Falta de unidade do Corpo de Bombeiros: resgates, incêndios urbanos/florestais e acidentes de trânsito (BR-153) dependem de cidades vizinhas — requerimento na ALETO em nov/2025",
+   "Crescimento como polo regional do centro do TO e malha viária extensa",
+   "Pautas adicionais não encontradas"
+  ],
+  "eventos": "Prefeitura comandada pelo PL desde 2025. Sede de Promotoria do MPTO que em abr/2026 tratou de uso de perfis oficiais para promoção pessoal (município não identificado).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/1713304.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-miranorte-to-da-eleicao-2024/",
+   "https://sapl.al.to.leg.br/media/sapl/public/materialegislativa/2025/13467/requerimento_83_solicitando_implantacao_ubm_em_miranorte.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Adversários 2024: Flávio Corrêa (MDB), Stalin Bucar (PP). Único prefeito do PL no lote."
+ }
+]

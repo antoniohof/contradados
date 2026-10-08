@@ -1,0 +1,260 @@
+[
+ {
+  "ibge": "4125100",
+  "municipio": "São João do Triunfo",
+  "uf": "PR",
+  "prefeito_2024": "Mário Cezar da Silva",
+  "partido_prefeito": "PT",
+  "pl_local": "PL lançou 10 candidatos a vereador em 2024 e não teve candidato a prefeito (disputa PT x PSD - Juliano Zakzewski Maier); número de vereadores eleitos do PL não encontrado.",
+  "economia": "Município rural de ~13,7 mil hab. (Censo 2022); agropecuária com fumo (principal lavoura), soja, milho e erva-mate; PIB per capita R$ 63,8 mil (2023).",
+  "pautas": [
+   "Saúde: Estado liberou R$ 2,55 milhões para a saúde de Antônio Olinto e São João do Triunfo (AEN/Governo do PR)",
+   "Demais pautas locais não verificadas; esperáveis em município fumicultor: estradas rurais e renda do fumo (não confirmado)"
+  ],
+  "eventos": "Nenhum evento local específico encontrado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/São_João_do_Triunfo",
+   "https://www.ibge.gov.br/cidades-e-estados/pr/sao-joao-do-triunfo.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-joao-do-triunfo-pr-da-eleicao-2024/",
+   "https://www.parana.pr.gov.br/Audio/Estado-libera-R-255-milhoes-para-saude-de-Antonio-Olinto-e-Sao-Joao-do-Triunfo"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito eleito em 2024 com 5.621 votos (60,63%), vice Cristian Borges (Wikipedia). Pautas específicas não verificadas (busca web limitada e WebFetch bloqueado por rate limit)"
+ },
+ {
+  "ibge": "4127502",
+  "municipio": "Tibagi",
+  "uf": "PR",
+  "prefeito_2024": "Rildo Emanoel Leonardi",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL teve candidato próprio a prefeito em 2024 (Paolo Pavesi, derrotado) e 8 candidatos a vereador (incl. Cila Pavesi); número de vereadores eleitos não encontrado.",
+  "economia": "~20 mil hab.; agricultura (soja), silvicultura, pecuária (suínos/bovinos) e extração mineral; PIB per capita R$ 72,6 mil (2023); indústria pouco desenvolvida.",
+  "pautas": [
+   "Estradas rurais: obras de melhoria em estrada entre comunidades rurais (Bem Paraná)",
+   "Trânsito/transporte: atas do conselho municipal de trânsito (COMUTTI) em 2026",
+   "Outras pautas não verificadas"
+  ],
+  "eventos": "Nenhum evento de grande porte encontrado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Tibagi",
+   "https://www.ibge.gov.br/cidades-e-estados/pr/tibagi.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tibagi-pr-da-eleicao-2024/",
+   "https://www.bemparana.com.br/noticias/parana/cidadesdoparana/estrada-entre-comunidades-rurais-de-tibagi-passa-por-melhorias/"
+  ],
+  "confianca": "média",
+  "obs": "Eleição 2024 com 5 candidatos (Republicanos, PSD, PL, MDB, PT). Matéria de estradas vista só pelo título."
+ },
+ {
+  "ibge": "4127965",
+  "municipio": "Turvo",
+  "uf": "PR",
+  "prefeito_2024": "Antonio Marcos Seguro",
+  "partido_prefeito": "PSD",
+  "pl_local": "PL sem candidato a prefeito em 2024 (disputa PP, PSD, PT, MDB); não encontrado.",
+  "economia": "~14 mil hab., maioria rural; milho, soja, erva-mate, madeira e indústria de papel/papelão e madeira (indústria ~40% do PIB); PIB per capita R$ 49 mil (2023).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas; site da prefeitura destaca só educação (curso UAB/IFPR), causa animal e conselho tutelar (set-out/2026)"
+  ],
+  "eventos": "Nenhum encontrado.",
+  "fontes": [
+   "https://www.turvo.pr.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/pr/turvo.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-turvo-pr-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Turvo_(Paraná)"
+  ],
+  "confianca": "média",
+  "obs": "Partido inferido: 'Marcos Seguro' é o candidato do PSD (nº 55) na lista Itatiaia 2024; site da prefeitura cita 'Prefeito Marcos e Vice Carlinhos'."
+ },
+ {
+  "ibge": "4128534",
+  "municipio": "Ventania",
+  "uf": "PR",
+  "prefeito_2024": "José Luiz Bittencourt (segundo IBGE, dado 2025) - não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "PL teve candidato a prefeito em 2024 (Zelio) e 10 candidatos a vereador; resultado não encontrado.",
+  "economia": "~9,7 mil hab.; agricultura e pecuária, com produção de azeite de oliva e turismo rural como tendências; PIB per capita R$ 39,1 mil (2023).",
+  "pautas": [
+   "Não verificadas; site da prefeitura cita Conferência Municipal de Saúde (jun/2026), Patrulha Rural (jan/2026) e castração animal"
+  ],
+  "eventos": "Site da prefeitura publicou notícia sobre decisão/alteração da Justiça Eleitoral em 12/12/2025 (conteúdo não lido).",
+  "fontes": [
+   "https://www.ventania.pr.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/pr/ventania.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ventania-pr-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Ventania_(Paraná)"
+  ],
+  "confianca": "baixa",
+  "obs": "INCONSISTÊNCIA: IBGE lista José Luiz Bittencourt (prefeito 2021-2024) como prefeito em 2025, mas ele não consta entre os candidatos de 2024 (Antoniela/PT, Arnaldo da Agrocenter/PP, Luciano/Cidadania, Zelio/PL). Pode ser dado desatualizado do IBGE ou troca (indeferimento/eleição suplementar). Verificar no TSE."
+ },
+ {
+  "ibge": "4128609",
+  "municipio": "Verê",
+  "uf": "PR",
+  "prefeito_2024": "Paulo Roberto Weissheimer",
+  "partido_prefeito": "PRD",
+  "pl_local": "PL sem candidato a prefeito (candidatura única de Paulo/PRD); 5 candidatos a vereador do PL; eleitos não encontrados.",
+  "economia": "~8 mil hab. no Sudoeste do PR; agropecuária (grãos, suínos/leite tradicionalmente); PIB per capita R$ 76,5 mil (2023).",
+  "pautas": [
+   "Pavimentação de estradas rurais (asfalto Bananal-Milho Verde; projetos de pavimentação 2025)",
+   "Ponte Verê x São Jorge d'Oeste (convênio assinado)",
+   "Abastecimento de água na comunidade Barra do Marrecas",
+   "Saúde: veículos recebidos; emenda de R$ 150 mil (dep. Gleisi Hoffmann, jun/2025)"
+  ],
+  "eventos": "Convênios estaduais/federais para ponte e asfalto (> R$ 140 milhões em convênios regionais, segundo prefeitura).",
+  "fontes": [
+   "https://www.vere.pr.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/pr/vere.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-vere-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Candidato único em 2024 segundo a lista Itatiaia ('PAULO', PRD 25)."
+ },
+ {
+  "ibge": "3301603",
+  "municipio": "Duas Barras",
+  "uf": "RJ",
+  "prefeito_2024": "Armando Rosemberto Mattos Teixeira (Bebeto)",
+  "partido_prefeito": "Solidariedade",
+  "pl_local": "PL teve candidato a prefeito em 2024 (Tavinho Lutterbach, derrotado) e 10 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~11 mil hab. na Região Serrana; base agropecuária e pequeno comércio/serviços; PIB per capita R$ 26 mil (2023), baixo para o RJ.",
+  "pautas": [
+   "Não verificadas; site da prefeitura destaca Defesa Civil/alertas de chuva (jun/2026), festas (Bacalhau, Peão) e programa antitabagismo"
+  ],
+  "eventos": "Nenhum encontrado.",
+  "fontes": [
+   "https://www.duasbarras.rj.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/rj/duas-barras.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-duas-barras-rj-da-eleicao-2024/",
+   "https://diariodorio.com/confira-todos-os-prefeitos-eleitos-em-primeiro-turno-no-rio-de-janeiro/"
+  ],
+  "confianca": "média",
+  "obs": "Partido inferido: 'Bebeto' é o candidato do Solidariedade (77) na lista Itatiaia; Diário do Rio lista 'Bebeto' como eleito. Prefeito anterior: Dr. Fabrício Luiz (MDB)."
+ },
+ {
+  "ibge": "3304151",
+  "municipio": "Quissamã",
+  "uf": "RJ",
+  "prefeito_2024": "Marcelo de Souza Batista",
+  "partido_prefeito": "PP",
+  "pl_local": "PL teve candidato a prefeito (Armando Carneiro, derrotado) e 12 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~22,4 mil hab. no Norte Fluminense; dependente de royalties do petróleo (PIB per capita R$ 253 mil em 2023), cana-de-açúcar histórica, coco (maior produtor do RJ), abacaxi e turismo.",
+  "pautas": [
+   "Defesa dos royalties do petróleo (mobilização 'Quissamã em defesa dos royalties', abr/2026)",
+   "Dependência de royalties / diversificação econômica além da cana",
+   "Outras pautas não verificadas"
+  ],
+  "eventos": "Debate sobre redistribuição de royalties do petróleo em 2026 (Correio da Manhã, só título lido).",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Quissamã",
+   "https://www.ibge.gov.br/cidades-e-estados/rj/quissama.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-quissama-rj-da-eleicao-2024/",
+   "https://www.correiodamanha.com.br/estado-do-rio/norte-noroeste/2026/04/281970-quissama-em-defesa-dos-royalties.html"
+  ],
+  "confianca": "média",
+  "obs": "Eleito em 2024 com 51,02%, vice Sabrine Pereira (PDT) (Wikipedia)."
+ },
+ {
+  "ibge": "3306107",
+  "municipio": "Valença",
+  "uf": "RJ",
+  "prefeito_2024": "Saulo de Tarso Pereira Correa da Silva (Saulo Correa)",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL sem candidato a prefeito em 2024; 13 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~68-71 mil hab. no Vale do Paraíba fluminense; agropecuária (leite) e polo universitário/serviços; PIB per capita R$ 45,6 mil (2023).",
+  "pautas": [
+   "Saúde: Hospital Escola de Valença (entrega do 5º andar, jul/2025)",
+   "Outras pautas não verificadas"
+  ],
+  "eventos": "Entrega de ampliação do Hospital Escola em 2025 (só título lido).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rj/valenca.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-valenca-rj-da-eleicao-2024/",
+   "https://diariodorio.com/confira-todos-os-prefeitos-eleitos-em-primeiro-turno-no-rio-de-janeiro/",
+   "https://www.correiodamanha.com.br/sul-fluminense/regiao-do-vale/2025/07/209669-quinto-andar-do-hospital-escola-de-valenca-e-entregue.html"
+  ],
+  "confianca": "média",
+  "obs": "Saulo Correa = candidato MDB (15) na lista Itatiaia com 8 candidatos."
+ },
+ {
+  "ibge": "4300505",
+  "municipio": "Alpestre",
+  "uf": "RS",
+  "prefeito_2024": "Rudimar Argenton (Rudi)",
+  "partido_prefeito": "PP",
+  "pl_local": "PL sem candidato a prefeito (disputa PP x MDB); 5 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~7,1 mil hab. no Alto Uruguai; agricultura familiar com fumo como principal cultura; sede da UHE Foz do Chapecó (855 MW); PIB per capita R$ 42,6 mil (2023).",
+  "pautas": [
+   "Não verificadas (site da prefeitura bloqueado)"
+  ],
+  "eventos": "Nenhum encontrado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Alpestre",
+   "https://www.ibge.gov.br/cidades-e-estados/rs/alpestre.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-alpestre-rs-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas específicas não verificadas (busca web limitada e WebFetch bloqueado por rate limit); prefeito via IBGE; partido via lista Itatiaia."
+ },
+ {
+  "ibge": "4301909",
+  "municipio": "Barra do Ribeiro",
+  "uf": "RS",
+  "prefeito_2024": "João Francisco Silva Feijó",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL sem candidato a prefeito (PSDB, MDB, PT); 7 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~12,2 mil hab. na margem do Guaíba (Região Metropolitana/Centro-Sul); agropecuária (arroz irrigado, pecuária) e serviços; PIB per capita R$ 47,5 mil (2023).",
+  "pautas": [
+   "Reconstrução e prevenção pós-enchente de maio/2024 (município às margens do Guaíba; prefeitura mantém Plano de Contingência PLANCON) - não verificado em matéria local",
+   "Saúde: compra de medicamentos e insumos para Pronto Atendimento; veículos para saúde (2026)"
+  ],
+  "eventos": "Enchente de maio de 2024 no RS atingiu a região do Guaíba (conhecimento geral; matéria local específica não lida).",
+  "fontes": [
+   "https://www.barradoribeiro.rs.gov.br/",
+   "https://www.barradoribeiro.rs.gov.br/gabinete/",
+   "https://www.ibge.gov.br/cidades-e-estados/rs/barra-do-ribeiro.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-barra-do-ribeiro-rs-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Impacto local da enchente de 2024 não quantificado nesta pesquisa."
+ },
+ {
+  "ibge": "4302154",
+  "municipio": "Boa Vista das Missões",
+  "uf": "RS",
+  "prefeito_2024": "Rudilberto Soares Landesfeldt (Beto)",
+  "partido_prefeito": "PDT",
+  "pl_local": "Não encontrado; PL não lançou nenhum candidato no município em 2024 (só PP, PDT, PSB).",
+  "economia": "Microcomunidade de ~1,9 mil hab. no noroeste do RS; base agrícola (grãos); PIB per capita alto, R$ 89,6 mil (2023).",
+  "pautas": [
+   "Não verificadas; site da prefeitura sem notícias recentes (só habitação via Caixa, dez/2024)"
+  ],
+  "eventos": "Nenhum encontrado.",
+  "fontes": [
+   "https://www.boavistadasmissoes.rs.gov.br/",
+   "https://www.ibge.gov.br/cidades-e-estados/rs/boa-vista-das-missoes.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-boa-vista-das-missoes-rs-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas específicas não verificadas (busca web limitada e WebFetch bloqueado por rate limit); economia inferida pelo PIB per capita/região (não detalhada em fonte)."
+ },
+ {
+  "ibge": "4303301",
+  "municipio": "Caibaté",
+  "uf": "RS",
+  "prefeito_2024": "Daniel Seffrin Herther",
+  "partido_prefeito": "PP",
+  "pl_local": "PL sem candidato a prefeito (PP x MDB); 3 candidatos a vereador; eleitos não encontrados.",
+  "economia": "~4,7 mil hab. na região das Missões; agropecuária (soja/grãos e pecuária, colonização com policultura); PIB per capita R$ 38,4 mil (2023).",
+  "pautas": [
+   "Não verificadas (site da prefeitura inacessível)"
+  ],
+  "eventos": "Nenhum encontrado.",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Caibaté",
+   "https://www.ibge.gov.br/cidades-e-estados/rs/caibate.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-caibate-rs-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas específicas não verificadas (busca web limitada e WebFetch bloqueado por rate limit); prefeito via IBGE; partido via lista Itatiaia."
+ }
+]

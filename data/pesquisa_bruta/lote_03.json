@@ -1,0 +1,236 @@
+[
+ {
+  "ibge": "1304062",
+  "municipio": "Tabatinga",
+  "uf": "AM",
+  "prefeito_2024": "Plínio Souza da Cruz (Plínio Cruz)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado",
+  "economia": "Município de tríplice fronteira (Brasil-Colômbia-Peru), ~67 mil hab. (Censo 2022), economia de serviços públicos (prefeitura e Exército são os maiores empregadores) e comércio fronteiriço com Letícia; sem ligação rodoviária com Manaus.",
+  "pautas": [
+   "Segurança/tráfico de drogas e armas na tríplice fronteira (pauta recorrente; fonte localizada é de 2017, não de 2024-2026)",
+   "Saneamento e ruas sem pavimentação (fonte de 2017)",
+   "Capacidade da rede de saúde (fonte de 2017)",
+   "Não foram encontradas fontes específicas de 2024-2026"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/am/tabatinga.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tabatinga-am-da-eleicao-2024/",
+   "https://portalamazonia.com/cidades/prefeito-de-tabatinga-defende-presenca-militar-na-triplice-fronteira/",
+   "https://pt.wikipedia.org/wiki/Tabatinga_(Amazonas)"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito confirmado pelo IBGE Cidades (2025) cruzado com a lista de candidatos 2024 (Republicanos, nº 10); percentual de votos não verificado. As pautas vêm de uma matéria de 2017 e da Wikipédia; não houve como verificar pautas de 2024-2026."
+ },
+ {
+  "ibge": "1600279",
+  "municipio": "Laranjal do Jari",
+  "uf": "AP",
+  "prefeito_2024": "Marcel Jandson Menezes (Teddy)",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "não encontrado",
+  "economia": "Sul do Amapá, ~35 mil hab. (Censo 2022), 3ª maior economia do estado; serviços/comércio e emprego público, extrativismo (castanha, açaí/palmito), pecuária bovina e bubalina, olarias e movelaria.",
+  "pautas": [
+   "Cheias do rio Jari, que atingem casas e exigem evacuações (registro de 2017; recorrência em 2024-2026 não verificada)",
+   "Não foram encontradas fontes específicas de 2024-2026"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/ap/laranjal-do-jari.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-laranjal-do-jari-ap-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Laranjal_do_Jari",
+   "https://portalamazonia.com/cidades/apos-alerta-de-cheia-defesa-civil-envia-equipe-para-laranjal-do-jari/"
+  ],
+  "confianca": "média",
+  "obs": "O IBGE Cidades (2025) lista Marcel Jandson Menezes como prefeito; o slug da Itatiaia confirma que é o candidato 'Teddy' (União, 44), que disputou só contra Tenente Aurivam (PSD). Percentual não verificado. A Wikipédia está desatualizada (cita Márcio Serrão, 2017-2024)."
+ },
+ {
+  "ibge": "1600501",
+  "municipio": "Oiapoque",
+  "uf": "AP",
+  "prefeito_2024": "Inácio Maciel (atual, eleito em eleição suplementar em 12/04/2026); eleito em 2024: Breno Lima de Almeida (cassado)",
+  "partido_prefeito": "PDT (Inácio Maciel); partido de Breno Almeida não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município de fronteira com a Guiana Francesa, ~27 mil hab. (Censo 2022); comércio fronteiriço, serviços públicos, pesca e garimpo na região, com terras indígenas no território (dado setorial não confirmado nas fontes consultadas).",
+  "pautas": [
+   "Instabilidade política: cassação do prefeito e do vice por compra de votos e eleição suplementar em 2026",
+   "Não foram encontradas pautas comunitárias específicas de 2024-2026"
+  ],
+  "eventos": "O TSE manteve em 26/03/2026 a cassação do prefeito Breno Lima de Almeida e do vice Artur Lima de Sousa por compra de votos e abuso de poder em 2024. Na eleição suplementar de 12/04/2026, Inácio Maciel (PDT) teve 49,46% (7.036 votos) contra 45,88% de Guido (PP); o mandato vai até 2028.",
+  "fontes": [
+   "https://www.jornalopcao.com.br/ultimas-noticias/veja-os-3-prefeitos-eleitos-em-eleicoes-suplementares-no-domingo-12-815028/",
+   "https://www.mpf.mp.br/o-mpf/unidades/procuradoria-geral-da-republica-pgr/noticias/a-pedido-do-mp-eleitoral-tse-mantem-cassacao-de-prefeito-de-oiapoque-ap-por-compra-de-votos",
+   "https://www.ibge.gov.br/cidades-e-estados/ap/oiapoque.html",
+   "https://www.tse.jus.br/eleicoes/eleicoes-suplementares/arquivos/tre-ap-resolucao-no-629-2026-eleicao-suplementar-oiapoque"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado. O partido de Breno Almeida (eleito em 2024) não foi confirmado, e Guido (PP) foi o 2º colocado na eleição suplementar. A economia foi descrita com conhecimento geral, sem fonte verificada."
+ },
+ {
+  "ibge": "2900702",
+  "municipio": "Alagoinhas",
+  "uf": "BA",
+  "prefeito_2024": "Gustavo Carmo",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado",
+  "economia": "Polo regional do Agreste/Litoral Norte baiano (~150 mil hab.), com indústria (bebidas, ligada à água mineral do aquífero), comércio e serviços regionais (descrição de conhecimento geral, não verificada nesta pesquisa).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "Eleição de 2024 apertada: Gustavo Carmo, sucessor indicado do ex-prefeito Joaquim Neto (PSD) na aliança PSD-PT, teve 50,09%. A oposição tinha Paulo Cezar Simões, ex-prefeito.",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
+   "https://atarde.com.br/politica/bahia/paulo-cezar-e-luma-menezes-conversam-por-composicao-em-alagoinhas-1240504"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito confirmado (50,09%). A matéria de A Tarde (2023) não menciona o PL. Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2902104",
+  "municipio": "Araci",
+  "uf": "BA",
+  "prefeito_2024": "Keinha (prefeita reeleita)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado",
+  "economia": "Sertão/semiárido baiano (território do Sisal), economia de agricultura familiar, sisal, caprinocultura e serviços públicos (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "Prefeita reeleita com 61,51%; o governador Jerônimo (PT) apoiou a reeleição. Adversários: Zelito Maia (MDB) e Arthur Barbosa (União).",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
+   "https://www.bahianoticias.com.br/municipios/noticia/41626-bnseculus-pesquisa-indica-quase-40-pontos-de-vantagem-de-atual-prefeita-em-eleicao-de-araci",
+   "https://atarde.com.br/politica/eleicoes-2024/jeronimo-reforca-apoio-a-reeleicao-de-prefeita-em-araci-1277300"
+  ],
+  "confianca": "média",
+  "obs": "Nome civil completo da prefeita não verificado. Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2902708",
+  "municipio": "Barra",
+  "uf": "BA",
+  "prefeito_2024": "Romeu Junior",
+  "partido_prefeito": "PT",
+  "pl_local": "não encontrado",
+  "economia": "Município do médio São Francisco, oeste baiano, com agropecuária, pesca ribeirinha e serviços (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-barra-ba-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (57,21%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2906303",
+  "municipio": "Canavieiras",
+  "uf": "BA",
+  "prefeito_2024": "Paulo Carvalho",
+  "partido_prefeito": "Avante",
+  "pl_local": "não encontrado",
+  "economia": "Litoral sul baiano, com pesca e mariscagem (Resex de Canavieiras), cacau e turismo (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "Eleição de 2024 fragmentada: o vencedor teve apenas 36,88%.",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (36,88%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2906501",
+  "municipio": "Candeias",
+  "uf": "BA",
+  "prefeito_2024": "Eriton Ramos",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Região Metropolitana de Salvador, junto à refinaria de Mataripe (ex-RLAM, hoje Acelen) e à atividade petrolífera e industrial (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (58,57%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2910057",
+  "municipio": "Dias D'Ávila",
+  "uf": "BA",
+  "prefeito_2024": "Alberto Castro",
+  "partido_prefeito": "PSDB",
+  "pl_local": "não encontrado",
+  "economia": "Região Metropolitana de Salvador, vizinha ao Polo Industrial de Camaçari, com indústria, comércio e serviços (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (57,16%). Pode ter havido troca de partido depois (o PSDB passou por fusões e debandadas), mas isso não foi verificado. Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2910503",
+  "municipio": "Entre Rios",
+  "uf": "BA",
+  "prefeito_2024": "Manoelito Argolo Junior",
+  "partido_prefeito": "Solidariedade",
+  "pl_local": "não encontrado",
+  "economia": "Litoral Norte baiano, com agropecuária (citros, silvicultura/eucalipto) e turismo litorâneo (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (54,35%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2913903",
+  "municipio": "Ipiaú",
+  "uf": "BA",
+  "prefeito_2024": "Laryssa Dias",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Médio Rio de Contas/sul baiano, polo comercial regional ligado à lavoura cacaueira (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeita confirmada (57,40%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ },
+ {
+  "ibge": "2914000",
+  "municipio": "Ipirá",
+  "uf": "BA",
+  "prefeito_2024": "Thiago do Vale",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado",
+  "economia": "Semiárido baiano (Bacia do Jacuípe), com pecuária de corte e leiteira, agricultura familiar e comércio (conhecimento geral, não verificado).",
+  "pautas": [
+   "não encontrado (pautas locais não pesquisadas por falta de buscas disponíveis)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/noticia/296975-eleicoes-2024-veja-lista-completa-de-prefeitos-eleitos-na-bahia"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado (65,41%). Pautas locais 2024-2026 não verificadas: orçamento de buscas esgotado antes da etapa de pautas."
+ }
+]

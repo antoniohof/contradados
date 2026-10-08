@@ -1,0 +1,227 @@
+[
+ {
+  "ibge": "2105401",
+  "municipio": "Itapecuru Mirim",
+  "uf": "MA",
+  "prefeito_2024": "Fillipe Marreca (Luís Fillipe Torres Filgueira)",
+  "partido_prefeito": "PRD",
+  "pl_local": "não encontrado (o grupo político dominante é a família Marreca, do PRD: o ex-prefeito Júnior Marreca, o dep. federal Marreca Filho e o dep. estadual Jucelino Marreca)",
+  "economia": "Município médio (~68 mil hab.) com PIB concentrado em serviços e administração pública; há cerâmica, beneficiamento de arroz e milho e derivados de babaçu.",
+  "pautas": [
+   "Falta de água nas casas: sistema da CAEMA dos anos 1980 insuficiente, moradores compram carro-pipa",
+   "Zona rural isolada: pontes danificadas, uma desabou com veículos, e estradas intransitáveis no inverno",
+   "Saúde: TFD, hemodiálise, consultas especializadas, ressonância e tomografia; mamógrafo parado desde 2021"
+  ],
+  "eventos": "Em ago/2025 o MP-MA abriu inquérito civil sobre contratações sem seleção na saúde e na administração da gestão Marreca. Entregas em jul/2026: ponte no povoado Campo do Meio e UBS Vilarindo. Marreca venceu em 2024 com 29,98% dos votos, numa disputa de 4 candidatos.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://www.itapecurunoticias.com/noticia/7604/desafios-da-gestao-filipe-marreca-a-partir-de-2025-em-itapecuru-mirim",
+   "https://www.itapecurunoticias.com/noticia/8282/mp-instaura-inquerito-civil-para-investigar-gestao-fillipe-marreca-em-itapecuru-mirim",
+   "https://www.blogdocristianodias.com.br/2026/07/prefeito-fellipe-marreca-e-o-deputado_0459095232.html",
+   "https://pt.wikipedia.org/wiki/Itapecuru-Mirim"
+  ],
+  "confianca": "média",
+  "obs": "Os dados de economia vêm da Wikipédia (PIB 2019 e população estimada em 2019). Não foi verificada a bancada do PL na câmara."
+ },
+ {
+  "ibge": "2105427",
+  "municipio": "Itinga do Maranhão",
+  "uf": "MA",
+  "prefeito_2024": "Paula do Quininha (Paula Aguiar)",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~26 mil hab.) na fronteira com o Pará, colado à Vila Bela Vista (Dom Eliseu-PA) e surgido da Belém-Brasília; vive de pecuária bovina, serviços e uma indústria madeireira em declínio.",
+  "pautas": [
+   "Saúde: atraso na obra do novo hospital municipal",
+   "Saneamento: esgoto a céu aberto (ex.: Vila Emanuela) e rios assoreados e poluídos",
+   "Reforma de escolas",
+   "Finanças municipais desorganizadas herdadas da gestão anterior (Lúcio)"
+  ],
+  "eventos": "Troca de grupo político em 2025, com a prefeita apresentando-se como oposição à gestão anterior. Em 2026 ela declarou apoio a Orleans Brandão na disputa estadual.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://www.gazetacarajas.com/noticia/prefeita-paula-revoluciona-itinga-do-maranhao-e-exorciza-incompetencia-de-lucio",
+   "https://www.itinga.ma.gov.br/noticia/prefeita-vice-prefeito-e-vereadores-de-itinga-do-maranhao-tomam-posse-para-mandato-2025-2028",
+   "https://pt.wikipedia.org/wiki/Itinga_do_Maranh%C3%A3o"
+  ],
+  "confianca": "média",
+  "obs": "O vice-prefeito é Edinho do Posto. As pautas vêm sobretudo de matéria de tom promocional (Gazeta Carajás). Único município do lote em que o candidato do PL venceu em 2026; perfil de fronteira agropecuária amazônica. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2108306",
+  "municipio": "Penalva",
+  "uf": "MA",
+  "prefeito_2024": "Henrique Guerra",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno e médio da Baixada Maranhense, com agricultura de subsistência, pesca nos campos inundáveis e serviços públicos (economia inferida da região, sem fonte específica).",
+  "pautas": [
+   "Acesso rodoviário: pavimentação da Estrada do Jacaré (sede ao povoado Jacaré), descrita como obra esperada há 109 anos",
+   "Segurança: prédio da delegacia (1º DP) com risco de desabamento até a reforma",
+   "Acesso a serviços e documentos sem precisar viajar a outros municípios (Viva/Procon)"
+  ],
+  "eventos": "Em mai/2025 o governador Carlos Brandão iniciou a obra da Estrada do Jacaré e a 2ª etapa da Beira Rio, e entregou a delegacia reformada e uma unidade Viva/Procon. Em abr/2026 o município aparecia 100% regular no CAUC.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://carlosbrandao.com.br/brandao-inicia-obra-da-estrada-do-jacare-e-da-beira-rio-entrega-unidade-do-viva-procon-delegacia-e-ambulancia-para-populacao-de-penalva/",
+   "http://jailsonmendes.com.br/2026/04/30/penalva-lidera-ranking-da-famem-com-100-de-regularidade-no-cauc-na-baixada-maranhense/"
+  ],
+  "confianca": "baixa",
+  "obs": "As pautas vêm de fontes governistas e promocionais, sem imprensa crítica local. A economia não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2108603",
+  "municipio": "Pinheiro",
+  "uf": "MA",
+  "prefeito_2024": "André da Ralpnet",
+  "partido_prefeito": "Podemos",
+  "pl_local": "não encontrado",
+  "economia": "Cidade-polo da Baixada Ocidental Maranhense (inferência regional, sem fonte), com comércio, serviços regionais, saúde e educação, além de pesca e pecuária na planície inundável.",
+  "pautas": [
+   "Saúde regional: reparos no Hospital Materno Infantil, no CEMP e no Hospital Regional Antenor Abreu; novo hospital regional anunciado com R$ 35 milhões",
+   "Situação difícil herdada no início de 2025, segundo a imprensa local"
+  ],
+  "eventos": "Em mar/2026 o instituto EPO mediu 63,7% de aprovação do prefeito. Em mai/2026 a prefeitura anunciou investimentos na rede de saúde e recursos para um novo hospital regional.",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://blogdojorgearagao.com/2026/03/31/prefeito-de-pinheiro-ma-atinge-637-de-aprovacao/",
+   "https://g7ma.com/prefeitura-de-pinheiro-segue-investindo-forte-na-rede-municipal-de-saude/"
+  ],
+  "confianca": "baixa",
+  "obs": "O partido (Podemos) consta apenas da lista de O Imparcial. Pautas além da saúde não foram encontradas. A senadora Ana Paula Lobato tem base em Pinheiro e buscou disputar a prefeitura em 2024, mas sua relação com o resultado não foi verificada. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2110005",
+  "municipio": "Santa Luzia",
+  "uf": "MA",
+  "prefeito_2024": "Juscelino Marreca",
+  "partido_prefeito": "PRD",
+  "pl_local": "não encontrado",
+  "economia": "Município médio e grande (~75 mil hab., majoritariamente rural), com agropecuária (historicamente arroz, hoje pecuária) e serviços; o perfil atual não foi verificado em fonte.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "O MPF obteve a condenação de um ex-prefeito e de um empresário por desvio de verbas habitacionais (data e nomes não verificados).",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://www.cnnbrasil.com.br/eleicoes/juscelino-marreca-e-eleito-prefeito-de-santa-luzia-ma/",
+   "https://pt.wikipedia.org/wiki/Santa_Luzia_(Maranh%C3%A3o)",
+   "https://www.mpf.mp.br/o-mpf/unidades/pr-ma/noticias/mpf-obtem-condenacao-de-ex-prefeito-e-empresario-por-desvio-de-verbas-habitacionais-em-santa-luzia-ma"
+  ],
+  "confianca": "baixa",
+  "obs": "O prefeito integra a família Marreca (PRD), a mesma de Itapecuru Mirim. Teve a maior queda de Lula no lote (-9,9 p.p.). Lacuna: pautas e eventos. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2110500",
+  "municipio": "São Bento",
+  "uf": "MA",
+  "prefeito_2024": "Dino Penha",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno e médio da Baixada (~45 mil hab.), com agricultura de subsistência (arroz, milho, feijão, mandioca), extração de babaçu, pecuária (inclusive bubalina) e pesca artesanal nos campos inundáveis.",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_(Maranh%C3%A3o)"
+  ],
+  "confianca": "baixa",
+  "obs": "O prefeito vem apenas da lista de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2111508",
+  "municipio": "São Mateus do Maranhão",
+  "uf": "MA",
+  "prefeito_2024": "Miltinho Aragão",
+  "partido_prefeito": "PSB",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno e médio (~39 mil hab.) no Médio Mearim; a base econômica não foi verificada (provavelmente agropecuária e serviços).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Mateus_do_Maranh%C3%A3o"
+  ],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2112506",
+  "municipio": "Tutóia",
+  "uf": "MA",
+  "prefeito_2024": "Diringa Viriato Cardoso",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeito eleito em 2024 pelo PL (Diringa); a bancada do PL na câmara não foi verificada.",
+  "economia": "Município médio (~53 mil hab., 65% rural) no litoral leste, no polo Delta das Américas e na Rota das Emoções; vive de serviços e administração pública, coco (2º produtor do MA), caju, mandioca, pesca e turismo (Pequenos Lençóis).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://pt.wikipedia.org/wiki/Tut%C3%B3ia"
+  ],
+  "confianca": "baixa",
+  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2112704",
+  "municipio": "Vargem Grande",
+  "uf": "MA",
+  "prefeito_2024": "Preto",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Município médio (~50 mil hab.) no Leste/Itapecuru; a base econômica não foi verificada (provavelmente agricultura familiar, babaçu e serviços).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/"
+  ],
+  "confianca": "baixa",
+  "obs": "Só se obteve o apelido do prefeito ('Preto'); o nome completo não foi verificado. A página da Wikipédia estava inacessível. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2112803",
+  "municipio": "Viana",
+  "uf": "MA",
+  "prefeito_2024": "Carrinho Cidreira",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeito eleito em 2024 pelo PL (Carrinho Cidreira); a bancada do PL na câmara não foi verificada.",
+  "economia": "Município médio (~52 mil hab.), polo histórico da Baixada Maranhense; agricultura, pesca nos lagos e campos, comércio e serviços (perfil atual não verificado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://pt.wikipedia.org/wiki/Viana_(Maranh%C3%A3o)"
+  ],
+  "confianca": "baixa",
+  "obs": "O prefeito do PL vem apenas de O Imparcial e não foi confirmado em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ },
+ {
+  "ibge": "2114007",
+  "municipio": "Zé Doca",
+  "uf": "MA",
+  "prefeito_2024": "Flavinha Cunha",
+  "partido_prefeito": "PL",
+  "pl_local": "Prefeita eleita em 2024 pelo PL (Flavinha Cunha); a bancada do PL na câmara não foi verificada.",
+  "economia": "Município médio (~50 mil hab.), principal centro comercial do Alto Turi; comércio de insumos agropecuários e pecuária. Empresas de biocombustível chegaram a sondar instalação (não confirmado).",
+  "pautas": [
+   "Não foram encontradas pautas locais específicas: as buscas acabaram antes desta etapa"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://oimparcial.com.br/noticias/2024/10/confira-a-relacao-dos-prefeitos-eleitos-no-maranhao/",
+   "https://pt.wikipedia.org/wiki/Z%C3%A9_Doca"
+  ],
+  "confianca": "baixa",
+  "obs": "A prefeita do PL vem apenas de O Imparcial e não foi confirmada em segunda fonte. Orçamento de buscas web esgotado durante o lote; pesquisa de pautas incompleta."
+ }
+]

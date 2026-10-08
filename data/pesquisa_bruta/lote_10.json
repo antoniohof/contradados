@@ -1,0 +1,230 @@
+[
+ {
+  "ibge": "3146107",
+  "municipio": "Ouro Preto",
+  "uf": "MG",
+  "prefeito_2024": "Angelo Oswaldo (reeleito; vice Regina Braga)",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Cidade histórica (Patrimônio Mundial) de porte médio (~74 mil hab.), com economia baseada em mineração de ferro/bauxita e turismo; membro da AMIG (municípios mineradores).",
+  "pautas": [
+   "Infraestrutura urbana e pavimentação de vias",
+   "Saúde (abertura de unidades de saúde)",
+   "Educação (construção de escolas)",
+   "Geração de emprego e renda",
+   "Transparência na gestão e participação popular"
+  ],
+  "eventos": "Reeleição apertada em 2024 contra oposição unida em candidatura única; abertura do Hotel Vila Galé citada pela prefeitura como resultado inicial do novo mandato; retorno à AMIG.",
+  "fontes": [
+   "https://www.itatiaia.com.br/ouropreto/angelo-oswaldo-e-regina-braga-celebram-reeleicao-em-coletiva-de-imprensa/",
+   "https://www.itatiaia.com.br/politica/eleicoes/prefeito-de-ouro-preto-defende-candidatura-de-pacheco-e-diz-que-direita-radical-e-doenca/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ouro-preto-mg-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Partido do prefeito não confirmado nas fontes lidas (matéria da Itatiaia o mostra apoiando candidatura de Pacheco). Pautas vêm de declarações da própria prefeitura na coletiva pós-eleição, não de imprensa independente. Economia: conhecimento geral, não verificado com fonte nesta pesquisa. PL local não pesquisado."
+ },
+ {
+  "ibge": "3149804",
+  "municipio": "Perdizes",
+  "uf": "MG",
+  "prefeito_2024": "não confirmado (candidatos 2024: Alexandre Perdigueira, PP; Fernandinho, PSD)",
+  "partido_prefeito": "não confirmado (PP ou PSD)",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~14 mil eleitores) do Alto Paranaíba, de base agropecuária; turismo ligado ao lago da UHE Nova Ponte e ao circuito da Canastra.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-perdizes-mg-da-eleicao-2024/",
+   "https://fiibrasil.com/eleicao/vereadores-eleitos-perdizes-mg-2024",
+   "https://pt.wikipedia.org/wiki/Perdizes_(Minas_Gerais)"
+  ],
+  "confianca": "baixa",
+  "obs": "Eleição de 2024 teve 2 candidatos a prefeito e 11 vagas de vereador; vencedor não confirmado (site da prefeitura e fontes consultadas não citam o nome). Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; pautas e eventos não levantados. Base 'agropecuária' é inferência geral, não verificada."
+ },
+ {
+  "ibge": "3152006",
+  "municipio": "Pompéu",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~32 mil hab. no centro-oeste mineiro; PIB ~60% serviços, ~21% indústria (usina de etanol de cana, ardósia, móveis) e ~19% agropecuária (leite, eucalipto) — dados de 2017.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Pompéu",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pompeu-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura inacessível (robots/503). Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, PL local, pautas e eventos não levantados."
+ },
+ {
+  "ibge": "3152105",
+  "municipio": "Ponte Nova",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Cidade-polo da Zona da Mata (~60 mil hab., IBGE 2024), com economia de serviços regionais, comércio e agroindústria; participa do projeto Coopera+ Rio Doce.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "Prefeitura anunciou em jul/2026 inclusão no Projeto Coopera+ Rio Doce e lançou a plataforma Empreende Ponte Nova (sem indicação de impacto eleitoral).",
+  "fontes": [
+   "https://www.pontenova.mg.gov.br/",
+   "https://pt.wikipedia.org/wiki/Ponte_Nova",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ponte-nova-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual tem vice-prefeita (mulher), mas os nomes não aparecem no site lido. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; pautas não levantadas. Descrição econômica parcialmente de conhecimento geral."
+ },
+ {
+  "ibge": "3152204",
+  "municipio": "Porteirinha",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município do Norte de Minas (~38 mil hab., estimativa 2018), região semiárida da Serra Geral/Gorutuba, de base agropecuária e serviços.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Porteirinha",
+   "https://www.ibge.gov.br/cidades-e-estados/mg/3152204.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-porteirinha-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura bloqueado por robots.txt. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados. Caracterização semiárida é conhecimento geral, não verificada aqui."
+ },
+ {
+  "ibge": "3152808",
+  "municipio": "Prata",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Maior município do Triângulo Mineiro em área (~29,6 mil hab., IBGE 2024), às margens da BR-153; pecuária de corte extensiva, granjas de aves e suínos, silvicultura e grãos.",
+  "pautas": [
+   "Acesso ao ensino superior (Programa Bolsa Faculdade, 186 vagas remanescentes em 2026)",
+   "Demais pautas não encontradas — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.prata.mg.gov.br/",
+   "https://pt.wikipedia.org/wiki/Prata_(Minas_Gerais)",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-prata-mg-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Site da prefeitura não traz o nome do prefeito na página inicial. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; pautas restantes e eventos não levantados."
+ },
+ {
+  "ibge": "3153400",
+  "municipio": "Presidente Olegário",
+  "uf": "MG",
+  "prefeito_2024": "Rhenys Cambraia",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~18,8 mil hab. no Noroeste/Alto Paranaíba; economia agropecuária, com chapadões de grãos (região de Ponte Firme) entre os maiores produtores de MG.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Presidente_Olegário"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito eleito no 1º turno de 2024 segundo a Wikipédia (citando g1); não confirmado em fonte primária. Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; PL local, pautas e eventos não levantados."
+ },
+ {
+  "ibge": "3155504",
+  "municipio": "Rio Paranaíba",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município agrícola do Alto Paranaíba, região de agricultura irrigada (hortaliças, grãos, café) — conhecimento geral, não verificado.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; nenhum dado verificado; a página da Wikipédia buscada referia-se ao rio, não ao município."
+ },
+ {
+  "ibge": "3156304",
+  "municipio": "Rodeiro",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno da Zona da Mata (8.664 hab., Censo 2022), próximo a Ubá; base em indústria moveleira do polo de Ubá e agropecuária — conhecimento geral, não verificado.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Rodeiro"
+  ],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados."
+ },
+ {
+  "ibge": "3157005",
+  "municipio": "Salinas",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Cidade-polo do Norte de Minas (40.178 hab., Censo 2022), conhecida pela cachaça (com turismo associado), além de requeijão, carne de sol, agropecuária, depósitos minerais e artesanato.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Salinas_(Minas_Gerais)"
+  ],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados."
+ },
+ {
+  "ibge": "3157708",
+  "municipio": "Santa Juliana",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno do Alto Paranaíba/Triângulo, de base agrícola (grãos e hortifrúti irrigados) — conhecimento geral, não verificado.",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; nenhum dado verificado (página da Wikipédia era de desambiguação)."
+ },
+ {
+  "ibge": "3160702",
+  "municipio": "Santos Dumont",
+  "uf": "MG",
+  "prefeito_2024": "não encontrado",
+  "partido_prefeito": "não encontrado",
+  "pl_local": "não encontrado",
+  "economia": "Município da Zona da Mata (~47 mil hab. no Censo 2000), próximo a Juiz de Fora; indústria (CBCC — ferro-silício e silício metálico para exportação), distrito industrial, agricultura diversificada (milho, morango, frutas) e turismo (Museu de Cabangu, Estrada Real).",
+  "pautas": [
+   "não encontrado — pesquisa interrompida"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Santos_Dumont_(Minas_Gerais)"
+  ],
+  "confianca": "baixa",
+  "obs": "Orçamento de buscas web esgotado (limite global da sessão) antes de pesquisar este município; prefeito, pautas e eventos não levantados. Dados demográficos da Wikipédia são antigos (2000)."
+ }
+]

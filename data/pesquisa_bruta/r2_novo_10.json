@@ -1,0 +1,254 @@
+[
+ {
+  "ibge": "4318200",
+  "municipio": "São Francisco de Paula",
+  "uf": "RS",
+  "prefeito_2024": "Thiago Carniel Teixeira",
+  "partido_prefeito": "PDT",
+  "pl_local": "PL lançou candidato a prefeito em 2024 (Ademir Hartmann, PL-22), derrotado; 8 candidatos a vereador do PL. Número de eleitos do PL não encontrado.",
+  "economia": "Município serrano dos Campos de Cima da Serra, ~21,9 mil hab. (Censo 2022), PIB per capita R$ 54,9 mil (2023); base em pecuária, silvicultura/pinus, batata e turismo de serra (Cambará/Gramado na vizinhança) — base econômica descrita por conhecimento geral, não verificada nesta pesquisa.",
+  "pautas": [
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-francisco-de-paula.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-francisco-de-paula-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Disputa de 2024 com 4 candidatos (PDT, PL, PSD, União)."
+ },
+ {
+  "ibge": "4318309",
+  "municipio": "São Gabriel",
+  "uf": "RS",
+  "prefeito_2024": "Lucas Gonçalves Menezes",
+  "partido_prefeito": "UNIÃO",
+  "pl_local": "não encontrado (disputa de 2024 foi Lucas/União x Malu Bragança/PDT, sem candidato do PL a prefeito).",
+  "economia": "Município da Campanha/Fronteira Oeste, ~58,5 mil hab. (Censo 2022), PIB per capita R$ 45,9 mil (2023); base em pecuária de corte, arroz irrigado e soja, além de serviços (conhecimento geral; não verificado aqui).",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (portaria de 17/02/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida em fev/2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-gabriel.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-gabriel-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ },
+ {
+  "ibge": "4318408",
+  "municipio": "São Jerônimo",
+  "uf": "RS",
+  "prefeito_2024": "Júlio Cesar Prates Cunha (Julião)",
+  "partido_prefeito": "PSDB",
+  "pl_local": "PL lançou candidato a prefeito em 2024 (Urbano Knorst, PL-22), derrotado. Vereadores do PL não encontrados.",
+  "economia": "Município do Baixo Jacuí, ~21 mil hab. (Censo 2022), PIB per capita R$ 33,9 mil (2023); histórico de mineração de carvão (região carbonífera), agropecuária (arroz) e serviços — conhecimento geral, não verificado aqui.",
+  "pautas": [
+   "Recuperação pós-enchente de maio/2024 no Rio Jacuí (conhecimento geral; matéria específica não pôde ser lida)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Enchente de maio de 2024 atingiu a região do Baixo Jacuí (não verificado com fonte local nesta pesquisa).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-jeronimo.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-jeronimo-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Disputa 2024: PSDB x PT x PL. Pode haver mudança de filiação do prefeito após 2024 (não verificado)."
+ },
+ {
+  "ibge": "4318507",
+  "municipio": "São José do Norte",
+  "uf": "RS",
+  "prefeito_2024": "Neromar de Araujo Guimarães (Nero)",
+  "partido_prefeito": "UNIÃO",
+  "pl_local": "não encontrado (disputa de 2024 foi Nero/União x Luiz Gauterio/PT).",
+  "economia": "Município litorâneo do sul do RS, ~25,4 mil hab. (Censo 2022), PIB per capita R$ 50,1 mil (2023); agricultura, pecuária, pesca e extrativismo vegetal (Wikipedia), com cebola e silvicultura de pinus citadas regionalmente (não verificado).",
+  "pautas": [
+   "Ligação seca com Rio Grande: projeto executivo da ponte Rio Grande–São José do Norte (licitação/contratação em 2025)",
+   "Acesso a atendimento hospitalar em Rio Grande dependente da travessia (pauta associada à ponte, segundo títulos do Jornal do Comércio jan/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Em 2025 avançou o projeto da ponte Rio Grande–São José do Norte: empresa de SC contratada para o projeto executivo (JC, mai/2025); havia ceticismo de empresas e usuários (JC, jan/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-jose-do-norte.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-jose-do-norte-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/05/1202471-empresa-de-sc-fara-projeto-executivo-de-ponte-rio-grande-sao-jose-do-norte.html",
+   "https://www.jornaldocomercio.com/jcsul/2025/01/1188206-ponte-rio-grande-sao-jose-do-norte-facilitara-cuidado-a-pacientes-hospitalares.html",
+   "https://www.jornaldocomercio.com/jcsul/2025/01/1186959-projeto-de-ponte-em-rio-grande-gera-ceticismo-entre-empresas-e-usuarios.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Matérias do JC sobre a ponte identificadas por título/URL; corpo não lido (limite de requisições)."
+ },
+ {
+  "ibge": "4318903",
+  "municipio": "São Luiz Gonzaga",
+  "uf": "RS",
+  "prefeito_2024": "José Antônio Flach Werle",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (disputa 2024: MDB x PT x Republicanos, sem PL na cabeça de chapa).",
+  "economia": "Polo regional das Missões, ~34,8 mil hab. (Censo 2022), PIB per capita R$ 49,3 mil (2023); soja, milho, trigo, pecuária e comércio/serviços regionais (conhecimento geral; não verificado aqui).",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (portaria de 19/03/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida em mar/2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-luiz-gonzaga.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-luiz-gonzaga-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ },
+ {
+  "ibge": "4319158",
+  "municipio": "São Miguel das Missões",
+  "uf": "RS",
+  "prefeito_2024": "Luiz Rodrigo Ribas",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa 2024: PP x PDT).",
+  "economia": "Pequeno município das Missões, ~7,1 mil hab. (Censo 2022), PIB per capita R$ 73,3 mil (2023); agricultura de grãos (soja/trigo/milho) e turismo histórico no Sítio Arqueológico de São Miguel Arcanjo (Patrimônio Mundial da UNESCO).",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (portaria de 17/02/2025)",
+   "Turismo ligado às Ruínas de São Miguel Arcanjo e às comemorações dos 400 anos das Missões (programa estadual 2025-2026)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25; governo do RS lançou em 2025 programação dos 400 anos das Missões (documento SEDAC).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-miguel-das-missoes.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-miguel-das-missoes-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+   "https://www.estado.rs.gov.br/upload/arquivos/202506/2025-06-18-govrs-sedac-400-anos-missoes-v5.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Documento SEDAC identificado por título; conteúdo não lido."
+ },
+ {
+  "ibge": "4319604",
+  "municipio": "São Sepé",
+  "uf": "RS",
+  "prefeito_2024": "Marcelo Faria Ellwanger",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa 2024: PP x PDT).",
+  "economia": "Município da região central, ~21,2 mil hab. (Censo 2022), PIB per capita R$ 49,9 mil (2023); agropastoril: arroz e soja, depois milho; pecuária de corte e leite; serviços (Wikipedia).",
+  "pautas": [
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Não encontrado (não consta na lista de emergências por estiagem reconhecidas até mar/2025 do JC).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/sao-sepe.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-sao-sepe-rs-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/São_Sepé"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ },
+ {
+  "ibge": "4321402",
+  "municipio": "Tenente Portela",
+  "uf": "RS",
+  "prefeito_2024": "Rosemar Antonio Sala",
+  "partido_prefeito": "PSDB",
+  "pl_local": "PL lançou candidata a prefeita em 2024 (Enfermeira Indaiara, PL-22), derrotada. Vereadores do PL não encontrados.",
+  "economia": "Município do noroeste (Região Celeiro), ~14,5 mil hab. (Censo 2022), PIB per capita R$ 42,4 mil (2023); agricultura familiar (soja, milho, leite) e serviços; abriga parte da Terra Indígena Guarita (kaingang/guarani) — conhecimento geral, não verificado aqui.",
+  "pautas": [
+   "Conflitos e violência internos na Terra Indígena Guarita (tema recorrente na imprensa; PF investigou disputas — matéria não lida, data não confirmada)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Não encontrado fato recente confirmado para 2024–2026.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/tenente-portela.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tenente-portela-rs-da-eleicao-2024/",
+   "https://istoe.com.br/pf-investiga-crimes-por-disputa-em-terra-indigena-no-rio-grande-do-sul"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Disputa 2024: PSDB x PP x PL."
+ },
+ {
+  "ibge": "4321956",
+  "municipio": "Trindade do Sul",
+  "uf": "RS",
+  "prefeito_2024": "Odair Adilio Pelicioli (Oda)",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado (disputa 2024: PDT x PT).",
+  "economia": "Pequeno município do norte do RS, ~7,6 mil hab. (Censo 2022), PIB per capita R$ 53,4 mil (2023); agricultura familiar (grãos, leite, suínos/aves) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (decreto municipal nº 014/2025 em fev; reconhecimento federal em 18/03/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25 com decreto de emergência municipal (fev/2025).",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/trindade-do-sul.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-trindade-do-sul-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+   "https://www.trindadedosul.rs.gov.br/wp-content/uploads/2025/02/Decreto-Municipal-no-014-2025-Situracao-de-Emergencia.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos). Decreto municipal identificado por URL; conteúdo não lido."
+ },
+ {
+  "ibge": "4322202",
+  "municipio": "Tupanciretã",
+  "uf": "RS",
+  "prefeito_2024": "Gustavo Herter Terra",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (disputa 2024: PP x PT).",
+  "economia": "Município do Planalto Médio/região central, ~20 mil hab. (Censo 2022), PIB per capita R$ 63,7 mil (2023); grande produtor de soja, além de milho, trigo e pecuária (conhecimento geral; não verificado aqui).",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (portaria de 10/02/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida em fev/2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/tupancireta.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-tupancireta-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ },
+ {
+  "ibge": "4323507",
+  "municipio": "Vista Alegre",
+  "uf": "RS",
+  "prefeito_2024": "Rudinei Bridi (Rudi)",
+  "partido_prefeito": "PSDB",
+  "pl_local": "não encontrado (disputa 2024: PSDB x PT).",
+  "economia": "Microcomunidade do norte do RS, ~2,7 mil hab. (Censo 2022), PIB per capita R$ 51,6 mil (2023); agricultura familiar (grãos, leite) — conhecimento geral, não verificado.",
+  "pautas": [
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Não encontrado.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/vista-alegre.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-vista-alegre-rs-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ },
+ {
+  "ibge": "4323754",
+  "municipio": "Vitória das Missões",
+  "uf": "RS",
+  "prefeito_2024": "Cornélio Luis Grimm",
+  "partido_prefeito": "PDT",
+  "pl_local": "não encontrado (disputa 2024: PDT x PT).",
+  "economia": "Pequeno município das Missões, ~3,3 mil hab. (Censo 2022), PIB per capita R$ 27,4 mil (2023, baixo para a região); agricultura familiar de grãos e leite (conhecimento geral; não verificado).",
+  "pautas": [
+   "Estiagem do verão 2025: situação de emergência reconhecida pela União (Jornal do Comércio, mar/2025) (portaria de 25/02/2025)",
+   "Pautas locais específicas não verificadas (busca limitada e bloqueio de acesso às páginas por limite de requisições); apenas pautas genéricas/regionais."
+  ],
+  "eventos": "Estiagem 2024/25 com emergência reconhecida em fev/2025.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/rs/vitoria-das-missoes.html",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-vitoria-das-missoes-rs-da-eleicao-2024/",
+   "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito atual confirmado no IBGE Cidades (mandato 2025); partido = legenda pela qual concorreu em 2024 (Itatiaia/TSE). Vitória não confirmada por fonte de apuração (inferida do cruzamento IBGE x lista de candidatos)."
+ }
+]

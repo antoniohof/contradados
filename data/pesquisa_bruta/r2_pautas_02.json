@@ -1,0 +1,280 @@
+[
+ {
+  "ibge": "1301209",
+  "municipio": "Coari",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Adail Pinheiro)",
+  "partido_prefeito": "ver rodada 1 (Republicanos)",
+  "pl_local": "não encontrado (rodada 1: nenhum vereador do PL eleito em 2024). Grupo dominante é o de Adail Pinheiro (Republicanos), pai do dep. federal Adail Filho (MDB).",
+  "economia": "Município médio do Médio Solimões que depende de royalties do petróleo e gás do Polo Urucu (Petrobras; novo poço licenciado pelo Ipaam em set/2025), além de pesca e serviços públicos.",
+  "pautas": [
+   "Segurança pública e violência ligada ao tráfico: rota de drogas vindas de Tabatinga (70 kg apreendidos em fev/2026, 100 kg de cocaína em pista clandestina em jun/2025), tiroteios com mortes (criança de 3 anos em jan/2026) e envio da Força Nacional a Coari e Barcelos em fev/2026",
+   "Corrupção e nepotismo na prefeitura: MPAM recomendou exonerar parentes (fev/2025) e a PF deflagrou a Operação Dinastia do Lago (set/2026)",
+   "Receitas do gás e do petróleo: disputa judicial pelo ICMS, em que a decisão de ago/2026 aumentou a cota de Coari e reduziu repasses a 61 municípios, e licenciamento de novo poço em Urucu",
+   "Pesca ilegal: apreensão de 27 t de pirarucu em set/2026"
+  ],
+  "eventos": "Em 16/09/2026, o ministro Alexandre de Moraes (STF) afastou o prefeito Adail Pinheiro na Operação Dinastia do Lago (PF; 29 mandados por suspeita de fraude em licitações, desvio, corrupção e lavagem). A apuração começou com a apreensão de R$ 1,25 mi em espécie num voo Manaus-Brasília em mai/2025. A irmã dele, Jeany Pinheiro, presidente da Câmara, assumiu interinamente. A Câmara recebeu pedido de cassação. Moraes revogou o afastamento em 25/09/2026, citando cautela com o processo eleitoral, e Adail voltou ao cargo. Na véspera da eleição, a Justiça mandou a prefeitura retirar santinhos de locais de votação (04/10/2026) e já havia consultado a prefeitura sobre transporte de eleitores na zona rural.",
+  "fontes": [
+   "https://amazonasatual.com.br/ministro-do-stf-afasta-adail-pinheiro-da-prefeitura-de-coari/",
+   "https://amazonasatual.com.br/moraes-revoga-afastamento-e-adail-anuncia-retorno-a-prefeitura-de-coari/",
+   "https://amazonasatual.com.br/forca-nacional-de-seguranca-combatera-crime-em-coari-e-barcelos/",
+   "https://amazonasatual.com.br/prefeito-de-coari-obtem-mais-icms-em-decisao-judicial-que-reduz-repasses-a-61-municipios/",
+   "https://amazonasatual.com.br/justica-manda-prefeitura-de-coari-retirar-santinhos-de-locais-de-votacao/"
+  ],
+  "confianca": "alta",
+  "obs": "Prefeito afastado e reconduzido em set/2026. Na data do 1º turno, Adail estava no cargo. Pautas tiradas de títulos e matérias do Amazonas Atual."
+ },
+ {
+  "ibge": "1301407",
+  "municipio": "Eirunepé",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Professora Áurea)",
+  "partido_prefeito": "ver rodada 1 (MDB)",
+  "pl_local": "não encontrado (rodada 1: nenhum vereador do PL eleito em 2024)",
+  "economia": "Município isolado do Vale do Juruá, de porte pequeno-médio, que vive de serviços públicos, agricultura familiar, pesca e extrativismo, com acesso fluvial e aéreo.",
+  "pautas": [
+   "Estiagem e isolamento fluvial: está entre os 16 municípios que já tinham decretado emergência pela seca, citados no decreto estadual de emergência de 21/09/2026",
+   "Abastecimento de medicamentos e insumos de saúde na seca: o plano de contingência da SES-AM reforçou o envio à calha do Juruá (jul/2024)",
+   "Segurança e sistema prisional: fuga de 9 presos da delegacia (mai/2026) e transferência de presos para Manaus autorizada pela Justiça",
+   "Instabilidade na Câmara: o TRE-AM reverteu cassação de vereadores (mar/2026)"
+  ],
+  "eventos": "Seca de 2026 com emergência decretada no município (set/2026). Fuga em massa da delegacia em mai/2026.",
+  "fontes": [
+   "https://amazonasatual.com.br/governo-alega-efeitos-da-estiagem-e-decreta-emergencia-no-amazonas/",
+   "https://amazonasatual.com.br/nove-presos-fogem-da-delegacia-de-eirunepe-am-um-foi-recapturado-pela-policia/",
+   "https://amazonasatual.com.br/tre-am-reverte-cassacao-e-mantem-vereadores-de-eirunepe-nos-cargos/",
+   "https://redeondadigital.com.br/amazonas/estiagem-calhas-do-purus-e-jurua-recebem-45-toneladas-de-medicamentos-e-insumos"
+  ],
+  "confianca": "média",
+  "obs": "Pouca cobertura local acessível. Não achei por que a vantagem de Lula caiu tanto em relação a 2022."
+ },
+ {
+  "ibge": "1301704",
+  "municipio": "Humaitá",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Dedei Lobo)",
+  "partido_prefeito": "ver rodada 1 (União Brasil)",
+  "pl_local": "Rodada 1: o PL elegeu 1 vereador em 2024 (Sargento de Macêdo). Não confirmei deputados do PL com reduto no município.",
+  "economia": "Polo do sul do AM no entroncamento da BR-319 com a BR-230, com pecuária, avanço de grãos, garimpo de ouro no rio Madeira e serviços.",
+  "pautas": [
+   "Garimpo no rio Madeira e repressão federal: a PF e a Força Nacional destruíram 71 dragas na orla em 15/09/2025, houve protesto de garimpeiros e tiroteio nas ruas, e a PF instalou delegacia em Humaitá (dez/2025). O histórico inclui garimpeiros incendiando a sede do Ibama e do ICMBio em 2017",
+   "BR-319 (pavimentação do trecho do meio) e BR-230: rodovia é bandeira regional, e o senador Eduardo Braga fez viagem Manaus-Humaitá pela BR-319 em set/2026",
+   "Cheias e alagações: emergência reconhecida pela Defesa Civil Nacional em abr/2025, com a BR-230 interrompida no km 17. O Dnit fechou o porto após balsas destruírem a plataforma (mar/2025)",
+   "Saúde regional: novas UTIs no hospital de Humaitá para atender 4 municípios (mai/2025)",
+   "Queimadas e desmatamento: o eixo da BR-319 concentra focos de calor (contexto 2021-2023)"
+  ],
+  "eventos": "A operação da PF contra dragas de garimpo em set/2025, com confronto na cidade, é o fato local mais provável de ter mexido no voto, ao lado da pauta da BR-319 na campanha de 2026. Foi o único dos 12 municípios deste lote em que Flávio venceu (54,92%).",
+  "fontes": [
+   "https://amazonasatual.com.br/reacao-de-garimpeiros-contra-pf-gera-tiroteio-em-ruas-de-humaita-veja-video/",
+   "https://amazonasatual.com.br/pf-instala-duas-novas-delegacias-no-amazonas-em-humaita-e-tefe/",
+   "https://amazonasatual.com.br/defesa-civil-reconhece-emergencia-em-humaita-devido-a-alagacoes/",
+   "https://amazonasatual.com.br/eduardo-braga-faz-viagem-de-manaus-a-humaita-para-mostrar-a-br-319/",
+   "https://www.folhape.com.br/noticias/sul-do-amazonas-tem-capitais-das-queimadas-e-garimpo-e-ausencia-do/208917/"
+  ],
+  "confianca": "alta",
+  "obs": "Matérias das UTIs e do porto identificadas pelo título, sem leitura do texto completo."
+ },
+ {
+  "ibge": "1301902",
+  "municipio": "Itacoatiara",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Mário Abrahim)",
+  "partido_prefeito": "ver rodada 1 (Republicanos)",
+  "pl_local": "Rodada 1: Cabo Maciel (PL) ficou em 2º lugar para prefeito em 2024, com 31,96%. O vereador do PL mais votado foi Richardson do Mutirão. Bancada do PL não confirmada.",
+  "economia": "Terceira maior cidade do AM, com porto graneleiro e portos privados (a Antaq autorizou o 'Porto Verde' a receber carga internacional em jun/2026), madeira, agropecuária e serviços, e ligação a Manaus pela AM-010.",
+  "pautas": [
+   "Infraestrutura viária: entrega de 142 km reconstruídos da AM-010 (Rio Preto-Itacoatiara) pelo governo estadual em nov/2025",
+   "Orla e erosão: solo de praça rachou e cedeu, e a orla foi interditada (dez/2025)",
+   "Receitas municipais: Amazonas Energia condenada a repassar R$ 32 mi à prefeitura (dez/2025) e decisão sobre diferença de royalties do Estado (jan/2026)",
+   "Violência: homicídios e emboscadas em 2025-2026",
+   "Queimadas: incêndio florestal de uma semana exigiu envio de bombeiros (set/2026)"
+  ],
+  "eventos": "Incêndio florestal no fim de set/2026, às vésperas do pleito. Vereador cassado por fraude à cota de gênero (jul-ago/2026). Gastos com shows na Expofest (R$ 1,2 mi, out/2025) noticiados.",
+  "fontes": [
+   "https://amazonasatual.com.br/bombeiros-sao-enviados-a-itacoatiara-para-combater-incendio-florestal-de-1-semana/",
+   "https://amazonasatual.com.br/wilson-lima-entrega-trecho-de-142-km-da-am-010-de-rio-preto-a-itacoatiara/",
+   "https://amazonasatual.com.br/solo-de-praca-em-itacoatiara-racha-cede-e-orla-do-municipio-e-interditada/",
+   "https://amazonasatual.com.br/antaq-autoriza-porto-verde-a-receber-cargas-internacionais-em-itacoatiara/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas tiradas de títulos de matérias. Não achei pesquisa local de opinião."
+ },
+ {
+  "ibge": "1302405",
+  "municipio": "Lábrea",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Gerlando Lopes)",
+  "partido_prefeito": "ver rodada 1 (PL)",
+  "pl_local": "Rodada 1: o prefeito Gerlando Lopes é do PL, eleito com 51,27%, e o PL elegeu 2 vereadores (Adalfrank Negão e Francisco Madrugada).",
+  "economia": "Município extenso do sul do AM (rio Purus/BR-230), com pecuária em expansão e frente de desmatamento, extrativismo (castanha) em reservas, pesca e serviços públicos.",
+  "pautas": [
+   "Desmatamento e fiscalização ambiental: Lábrea concentra o bloqueio de bens por desmatamento no AM (R$ 14,5 mi, dez/2025) e lidera historicamente o 'cinturão do fogo' de queimadas",
+   "Saúde nas reservas extrativistas do Ituxi e do Médio Purus: a Justiça Federal, em ação do MPF (jun/2026), mandou União e prefeitura garantir visitas de equipes a cada 60 dias e 4 barcos de emergência",
+   "Saneamento e vulnerabilidade a alagamentos e deslizamentos (Portal Amazônia; texto não acessado)",
+   "Seca no Purus e abastecimento de medicamentos e insumos (SES-AM, 2024)",
+   "Infraestrutura portuária: investimentos no porto anunciados em jun/2026"
+  ],
+  "eventos": "Pressão de fiscalização ambiental (bloqueios de bens em 2025) e decisão judicial sobre saúde em reservas (2026). Prefeitura do PL desde 2025, e ainda assim Lula venceu com 56,64%.",
+  "fontes": [
+   "https://amazonasatual.com.br/labrea-concentra-bloqueio-de-bens-por-desmatamento-no-am-r-145-milhoes/",
+   "https://amazonasatual.com.br/justica-determina-a-uniao-e-prefeitura-de-labrea-que-melhore-assistencia-na-saude/",
+   "https://amazonasatual.com.br/braga-viabiliza-investimentos-em-portos-de-labrea-e-sp-de-olivenca/",
+   "https://portalamazonia.com/meio-ambiente/labrea-saneamento-vulneravel/"
+  ],
+  "confianca": "média",
+  "obs": "Não consegui abrir a matéria do Portal Amazônia sobre saneamento (timeout de robots.txt). A pauta de saneamento vem só do título."
+ },
+ {
+  "ibge": "1302504",
+  "municipio": "Manacapuru",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Valcileia Maciel)",
+  "partido_prefeito": "ver rodada 1 (MDB)",
+  "pl_local": "Rodada 1: o PL elegeu 1 vereador em 2024 (Dr. Adonay Monteiro).",
+  "economia": "Cidade média da região metropolitana de Manaus (AM-070), com pesca, agricultura, comércio, serviços e turismo cultural (Festival de Cirandas).",
+  "pautas": [
+   "Segurança pública: latrocínio de empresário (set/2025), ataque a tiros em festa (abr/2026), assaltos a mototaxistas",
+   "Violência sexual contra crianças e adolescentes: vários casos noticiados em 2025-2026",
+   "Trânsito e acidentes com motos",
+   "Festival de Cirandas (R$ 3,9 mi do governo estadual em 2026) e morte de trabalhador em alegoria (ago/2026)"
+  ],
+  "eventos": "Nada de grande porte encontrado. A cobertura acessível é sobretudo policial.",
+  "fontes": [
+   "https://amazonasatual.com.br/empresario-e-morto-em-assalto-a-residencia-em-manacapuru/",
+   "https://amazonasatual.com.br/irmaos-sao-baleados-e-ataque-provoca-panico-durante-festa-em-manacapuru/",
+   "https://amazonasatual.com.br/festival-de-cirandas-de-manacapuru-milhoes/"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas genéricas, centradas em segurança e tiradas de títulos. Não achei debate sobre saúde ou infraestrutura."
+ },
+ {
+  "ibge": "1302900",
+  "municipio": "Maués",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Macelly Veras)",
+  "partido_prefeito": "ver rodada 1 (PDT)",
+  "pl_local": "não encontrado (rodada 1: nenhum vereador do PL eleito em 2024)",
+  "economia": "Município médio do Baixo Amazonas, reconhecido oficialmente como Capital Nacional do Guaraná (set/2025), com agricultura familiar, pesca, turismo e garimpo ilegal em expansão.",
+  "pautas": [
+   "Garimpo ilegal: a PF desarticulou garimpo com trabalho análogo à escravidão (fev/2025), o Ipaam multou em R$ 3,5 mi (out/2025) e o MPF cobra R$ 1,5 bi de grupo garimpeiro (jul/2026)",
+   "Estiagem: está entre os municípios já em emergência citados no decreto estadual de set/2026",
+   "Infraestrutura urbana: recapeamento de 10 km pelo Asfalta Amazonas (nov/2025), asfaltamento como pauta de campanha em 2026",
+   "Segurança e narcotráfico: 500 kg de cocaína e avião apreendidos (jan/2026) e fuga em massa do presídio (dez/2025)",
+   "Regularização fundiária e ambiental: mutirão do Cadastro Rural e ampliação de floresta estadual (2025)"
+  ],
+  "eventos": "Seca de 2026 com emergência. Ações federais contra garimpo em 2025-2026.",
+  "fontes": [
+   "https://amazonasatual.com.br/mpf-cobra-r-15-bilhao-de-grupo-por-garimpo-ilegal-em-maues-am/",
+   "https://amazonasatual.com.br/ipaam-identifica-garimpo-ilegal-em-maues-e-aplica-multa-de-r-35-milhoes/",
+   "https://amazonasatual.com.br/governo-alega-efeitos-da-estiagem-e-decreta-emergencia-no-amazonas/",
+   "https://amazonasatual.com.br/maues-e-oficialmente-reconhecida-como-capital-nacional-do-guarana/"
+  ],
+  "confianca": "média",
+  "obs": "Pautas tiradas de títulos. A matéria do decreto de emergência foi lida."
+ },
+ {
+  "ibge": "1303403",
+  "municipio": "Parintins",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Mateus Assayag)",
+  "partido_prefeito": "ver rodada 1 (PSD)",
+  "pl_local": "Rodada 1: o PL elegeu 2 vereadores em 2024 (Cabo Linhares e Adson Principe).",
+  "economia": "Segunda maior cidade do AM, com economia de serviços, turismo e cultura (Festival Folclórico), pecuária e pesca.",
+  "pautas": [
+   "Acesso e transporte: passagens aéreas caras (a Anac admitiu aumento, jun/2026), pista do aeroporto precisa de restauração de 1,2 km para receber turbojatos (set/2026) e transporte fluvial inseguro (lancha à deriva, fiscalização da Marinha)",
+   "Segurança: apreensão de celulares, drogas e armas no presídio (jun/2026) e golpes contra aposentados",
+   "Saúde: decisão judicial envolvendo o hospital (jun/2026)",
+   "Custos e uso político do Festival de Parintins (críticas a viagens de parlamentares)"
+  ],
+  "eventos": "Nada de grande porte encontrado. Propaganda eleitoral irregular com triciclos foi removida por ordem judicial (set/2026).",
+  "fontes": [
+   "https://amazonasatual.com.br/amom-cobra-anac-sobre-passagens-para-parintins-agencia-admite-aumento/",
+   "https://amazonasatual.com.br/turbojatos-em-parintins-so-apos-restauracao-de-12-km-de-pista/",
+   "https://amazonasatual.com.br/operacao-em-parintins-apreende-19-celulares-drogas-e-armas-em-presidio/"
+  ],
+  "confianca": "baixa",
+  "obs": "Só achei títulos de 2026. Não identifiquei pautas de 2025."
+ },
+ {
+  "ibge": "1303809",
+  "municipio": "São Gabriel da Cachoeira",
+  "uf": "AM",
+  "prefeito_2024": "ver rodada 1 (Egmar Curubinha)",
+  "partido_prefeito": "ver rodada 1 (PT)",
+  "pl_local": "não encontrado",
+  "economia": "Município de maioria indígena no Alto Rio Negro, na tríplice fronteira, com economia de serviços públicos, presença militar e agricultura indígena.",
+  "pautas": [
+   "Energia elétrica: apagões e 'racionamento' desde jan/2026 por falhas na usina da VPower (produtor independente), com cerca de 46 localidades atingidas e cobrança da Aleam à Amazonas Energia (mar/2026)",
+   "Saúde indígena: decisão judicial mandando melhorar a assistência médica a indígenas no AM (set/2026; vínculo com o município pela foto da matéria)",
+   "Vazante severa do Rio Negro em 2026, prevista como a 3ª mais severa da história (contexto estadual)"
+  ],
+  "eventos": "Crise de energia em 2026.",
+  "fontes": [
+   "https://amazonasatual.com.br/cidade-denuncia-falta-de-energia-eletrica-em-sao-gabriel-da-cachoeira/",
+   "https://amazonasatual.com.br/justica-manda-melhorar-assistencia-medica-a-indigenas-no-amazonas/",
+   "https://amazonasatual.com.br/vazante-do-rio-negro-em-2026-tende-a-ser-a-terceira-mais-severa-da-historia/"
+  ],
+  "confianca": "baixa",
+  "obs": "Pouca cobertura acessível. As pautas 2 e 3 são estaduais e não foram confirmadas como específicas do município."
+ },
+ {
+  "ibge": "2900702",
+  "municipio": "Alagoinhas",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Gustavo Carmo)",
+  "partido_prefeito": "ver rodada 1 (PSD)",
+  "pl_local": "não encontrado",
+  "economia": "Polo regional do Agreste/Litoral Norte baiano (~150 mil hab.), com indústria de bebidas, comércio e serviços.",
+  "pautas": [
+   "Chuvas fortes com alagamentos e crateras em vias (Bahia Notícias; data não verificada)",
+   "Saúde: possível novo hospital (matéria da A Tarde sobre 'novo hospital em cidade baiana', vínculo com Alagoinhas não confirmado)",
+   "Parcerias com o governo estadual (reunião do prefeito com Jerônimo Rodrigues; conteúdo não lido)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.bahianoticias.com.br/municipios/noticia/49608-fortes-chuvas-causam-alagamentos-e-crateras-em-alagoinhas",
+   "https://www.bahianoticias.com.br/municipios/noticia/43600-gustavo-carmo-e-jeronimo-rodrigues-discutem-parcerias-para-o-desenvolvimento-de-alagoinhas",
+   "https://transparencia.alagoinhas.ba.gov.br/docs/planejamento/PPA_2026-2029.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "WebFetch bloqueado por limite de taxa (HTTP 429), então só tive os títulos dos resultados de busca e nenhuma matéria foi lida."
+ },
+ {
+  "ibge": "2902104",
+  "municipio": "Araci",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Keinha)",
+  "partido_prefeito": "ver rodada 1 (PDT)",
+  "pl_local": "não encontrado",
+  "economia": "Semiárido baiano (Território do Sisal), com agricultura familiar, sisal, caprinocultura e serviços públicos.",
+  "pautas": [
+   "Chuvas intensas que alagaram bairros e deixaram moradores ilhados (A Tarde; data não verificada). Houve apelo de prefeita baiana a Jerônimo após fortes chuvas, sem confirmar se era Araci",
+   "Estiagem e abastecimento de água no semiárido (pauta recorrente na região; nada específico de 2025-2026 encontrado)"
+  ],
+  "eventos": "Possível episódio de chuva intensa com alagamentos (data e porte não verificados).",
+  "fontes": [
+   "https://atarde.com.br/bahia/chuva-intensa-alaga-bairros-e-deixa-moradores-ilhados-em-araci-1380392",
+   "https://www.correio24horas.com.br/minha-bahia/prefeita-de-cidade-baiana-faz-apelo-a-jeronimo-apos-fortes-chuvas-situacao-terrivel-1125"
+  ],
+  "confianca": "baixa",
+  "obs": "WebFetch bloqueado por limite de taxa (HTTP 429), então tenho só os títulos das matérias."
+ },
+ {
+  "ibge": "2902708",
+  "municipio": "Barra",
+  "uf": "BA",
+  "prefeito_2024": "ver rodada 1 (Romeu Junior)",
+  "partido_prefeito": "ver rodada 1 (PT)",
+  "pl_local": "não encontrado",
+  "economia": "Município do médio São Francisco, no oeste baiano, com agropecuária, pesca ribeirinha e serviços.",
+  "pautas": [
+   "não encontrado: a busca só trouxe documentos genéricos, como os boletins hidrometeorológicos do Inema de 2025"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.ba.gov.br/inema/sites/site-inema/files/2025-10/202_Boletim_de_Monitoramento_Hidrometereol%C3%B3gico_29-10-2025.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Lacuna total de pautas. As buscas acabaram e o WebFetch estava bloqueado (429)."
+ }
+]

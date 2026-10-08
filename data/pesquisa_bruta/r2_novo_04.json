@@ -1,0 +1,247 @@
+[
+ {
+  "ibge": "2208403",
+  "municipio": "Piripiri",
+  "uf": "PI",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Polo regional de comércio e serviços do norte do Piauí, médio porte (~60 mil hab.), com agricultura familiar e pecuária; fica perto do Parque Nacional de Sete Cidades.",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-piripiri-pi-da-eleicao-2024/",
+   "https://www.piripiri.pi.gov.br/_files/ugd/a3b4a2_8b2800469a204a99b0e8005c9586f56d.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Candidatos a prefeito em 2024 (Itatiaia/TSE): Jôve Oliveira (PT), Luiz Menezes (PSD) e Paulo Limeira (Avante). O vencedor não foi confirmado. Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4101002",
+  "municipio": "Ampére",
+  "uf": "PR",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "O PL lançou candidatos a vereador em 2024; número de eleitos não encontrado.",
+  "economia": "Município pequeno (~19 mil hab.) do Sudoeste do Paraná, com agropecuária familiar (leite, aves, grãos) e indústria de confecções e agroindústria.",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-ampere-pr-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Em 2024 só houve 2 candidatos: Douglas Potrich (PP) e Jeferson Lourenssi (PDT). O vencedor não foi confirmado (o site da prefeitura não abriu). Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4102901",
+  "municipio": "Bituruna",
+  "uf": "PR",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "O PL lançou candidatos a vereador em 2024; eleitos não encontrados.",
+  "economia": "Município pequeno (~16 mil hab.) do Sul/Centro-Sul do Paraná, com base em madeira e reflorestamento, erva-mate, agricultura e vitivinicultura (Festa do Vinho).",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-bituruna-pr-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Candidatos em 2024: Marcos Bertoletti (PDT), Nelson Liber (PT) e Rodrigo Rossoni (PSDB). O vencedor não foi confirmado (o site da prefeitura deu erro de redirecionamento). Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4104428",
+  "municipio": "Candói",
+  "uf": "PR",
+  "prefeito_2024": "Aldoino Goldoni Filho (Dino)",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~16 mil hab.) da região de Guarapuava, com agronegócio de grãos (soja, milho), pecuária e usinas hidrelétricas no rio Iguaçu.",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Candói",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-candoi-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Na Wikipedia, Dino (PSD) aparece como prefeito em 2025-2028. Os adversários de 2024 foram Giovane Ivatiuk (PDT) e Sergio Vargas (PT). Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4104501",
+  "municipio": "Capanema",
+  "uf": "PR",
+  "prefeito_2024": "Neivor Kessler (Professor Neivor)",
+  "partido_prefeito": "MDB",
+  "pl_local": "O PL lançou candidatos a vereador em 2024; eleitos não encontrados.",
+  "economia": "Município pequeno (~20 mil hab.) do Sudoeste, na fronteira com a Argentina e junto ao Parque Nacional do Iguaçu, com agricultura familiar e agroindústria. É conhecido pelo melado com indicação geográfica (INPI, 2019; ~400 t/ano) e pela Feira do Melado.",
+  "pautas": [
+   "Estradas rurais: o trecho até Santo Antônio do Siemes recebeu melhorias depois de mais de 10 anos sem obra (mar/2025)",
+   "Polêmica tributária: a taxa de coleta de lixo passou para a conta de água da Sanepar (dez/2025), com prazo para pedir retirada (fev/2026)",
+   "Busca de investimentos estaduais (agendas em Curitiba)",
+   "Pautas de saúde e segurança não encontradas"
+  ],
+  "eventos": "Mudança na cobrança da taxa de lixo pela conta da Sanepar (dez/2025 a fev/2026).",
+  "fontes": [
+   "https://www.capanema.pr.gov.br/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-capanema-pr-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Capanema_(Paraná)"
+  ],
+  "confianca": "média",
+  "obs": "Em 2024 a disputa foi Jonas Welter (PSD) x Professor Neivor (MDB). O site da prefeitura cita o prefeito Neivor Kessler em 2025."
+ },
+ {
+  "ibge": "4105706",
+  "municipio": "Clevelândia",
+  "uf": "PR",
+  "prefeito_2024": "Rafaela Losi (inferido)",
+  "partido_prefeito": "PSD",
+  "pl_local": "O PL lançou candidatos a vereador em 2024; eleitos não encontrados.",
+  "economia": "Município pequeno (~17 mil hab.) do Sudoeste/Centro-Sul, com pecuária, grãos e madeira.",
+  "pautas": [
+   "Melhorias em estradas rurais (obras municipais)",
+   "Saúde: estrutura das UBS e campanha sobre cigarro eletrônico",
+   "Emprego (agência SINE)",
+   "Reforma e ampliação do ginásio da Vila Operária"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.clevelandia.pr.gov.br/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-clevelandia-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "O site da prefeitura tem a página 'Gabinete da Prefeita', e a única mulher candidata em 2024 era Rafaela Losi (PSD), contra Batista Bugno (MDB). O nome não foi confirmado diretamente. As pautas vêm de manchetes do site oficial e não da imprensa independente. Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4106571",
+  "municipio": "Cruzeiro Do Iguaçu",
+  "uf": "PR",
+  "prefeito_2024": "Jean Carlos Cardoso (eleito em eleição suplementar de 05/10/2025)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado",
+  "economia": "Município muito pequeno (~4 mil hab.) do Sudoeste, junto ao lago da usina de Salto Caxias, com agricultura familiar (leite, grãos, aves).",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "O TRE-PR cassou o prefeito eleito em 2024, Reni Kovalski (PP), e a vice Sandra Ghedin Turmina (PDT) por compra de votos (IPVA pago a uma eleitora e promessa de emprego). Na eleição suplementar de 05/10/2025, Jean Cardoso (Republicanos, vice Alvir Guyss, Podemos) teve 55,45%, contra 44,55% de Dilmar Turmina (PDT).",
+  "fontes": [
+   "https://www.bemparana.com.br/noticias/parana/eleicao-fora-de-epoca-parana/",
+   "https://revistaoeste.com/politica/direita-vence-esquerda-em-dia-de-eleicoes-suplementares/",
+   "https://www.gazetadopovo.com.br/brasil/eleitores-urnas-eleicoes-suplementares-2025/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-cruzeiro-do-iguacu-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Em 2024 Reni Kovalski (PP) venceu Jean Cardoso (então PSD), Nestor Zuck (PT) e Professor Leonir (União). Kovalski foi cassado depois. Pautas não pesquisadas por falta de orçamento. Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4107207",
+  "municipio": "Dois Vizinhos",
+  "uf": "PR",
+  "prefeito_2024": "Luís Carlos (Carlinhos) Turatto",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Polo regional do Sudoeste (~50 mil hab.), autodenominado 'Capital Nacional do Frango' (~574 mil aves abatidas por dia), com agroindústria avícola, grãos, suínos, metalmecânica e confecções.",
+  "pautas": [
+   "Resposta a temporal com mais de 700 famílias atingidas (Defesa Civil, decreto de situação de emergência)",
+   "Saúde escolar (programa Bons Olhos Paraná)",
+   "Outras pautas locais não encontradas"
+  ],
+  "eventos": "Temporal atingiu a cidade: mais de 700 famílias identificadas e prefeitura em processo de decretar situação de emergência. A data não está clara no site da prefeitura e pode ser recente (2026).",
+  "fontes": [
+   "https://www.doisvizinhos.pr.gov.br/",
+   "https://pt.wikipedia.org/wiki/Dois_Vizinhos",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-dois-vizinhos-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Disputa de 2024: Carlinhos Turatto (PP) x Silvana Guzzo (PT). O site oficial cita o prefeito Turatto. A data do temporal precisa ser verificada."
+ },
+ {
+  "ibge": "4107850",
+  "municipio": "Flor Da Serra Do Sul",
+  "uf": "PR",
+  "prefeito_2024": "Valmor Felipe Junior (Junior Veterinário)",
+  "partido_prefeito": "PSD",
+  "pl_local": "O PL fazia parte da coligação vencedora de 2024 (PP, MDB, PL, União, PSD).",
+  "economia": "Município muito pequeno (~4,5 mil hab.) do Sudoeste, com agricultura familiar (leite, grãos, aves, suínos).",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://jornaldafronteira.com.br/wp-content/uploads/2024/10/CADERNO-COMPLETO-2.pdf",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-flor-da-serra-do-sul-pr-da-eleicao-2024/"
+  ],
+  "confianca": "média",
+  "obs": "Venceu Paulinho (PODE). Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4111209",
+  "municipio": "Itapejara D'Oeste",
+  "uf": "PR",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~12 mil hab.) do Sudoeste, com avicultura integrada, grãos e leite.",
+  "pautas": [
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "Nada de relevante no site oficial (Feican, consulta da LOA 2027, processos seletivos).",
+  "fontes": [
+   "https://www.itapejaradoeste.pr.gov.br/"
+  ],
+  "confianca": "baixa",
+  "obs": "A página da Itatiaia deu 404 e o site da prefeitura não mostrou o nome do prefeito. Candidatos e vencedor de 2024 não encontrados. Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ },
+ {
+  "ibge": "4113304",
+  "municipio": "Laranjeiras Do Sul",
+  "uf": "PR",
+  "prefeito_2024": "Jaison Mendes",
+  "partido_prefeito": "União Brasil",
+  "pl_local": "não encontrado",
+  "economia": "Polo regional da Cantuquiriguaçu (~30 mil hab.), com comércio, serviços e ensino superior (campus da UFFS) e agropecuária no entorno.",
+  "pautas": [
+   "Obras de pavimentação urbana e novas creches",
+   "Habitação e regularização fundiária urbana",
+   "Polo universitário e emprego para jovens",
+   "Segurança: posto avançado da Polícia Científica",
+   "Saúde e estradas não aparecem nas fontes consultadas"
+  ],
+  "eventos": "Balanço de obras do prefeito em 28/09/2026 (creches, pavimentação, Polícia Científica).",
+  "fontes": [
+   "https://www.laranjeirasdosul.pr.gov.br/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-laranjeiras-do-sul-pr-da-eleicao-2024/",
+   "https://pt.wikipedia.org/wiki/Laranjeiras_do_Sul"
+  ],
+  "confianca": "média",
+  "obs": "Disputa de 2024: Jaison Mendes (União) x Scarpari (PSD). O site oficial cita o prefeito Jaison Mendes em set/2026. As pautas vêm do site da prefeitura (fonte oficial)."
+ },
+ {
+  "ibge": "4114401",
+  "municipio": "Mangueirinha",
+  "uf": "PR",
+  "prefeito_2024": "não confirmado",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "O PL lançou candidatos a vereador em 2024; eleitos não encontrados.",
+  "economia": "Município pequeno (~17 mil hab.) do Sudoeste/Centro-Sul, com grãos, pecuária e madeira; abriga a Terra Indígena Mangueirinha (Kaingang/Guarani) e hidrelétricas no rio Iguaçu.",
+  "pautas": [
+   "Segurança alimentar (1º Plano Municipal, jul/2025)",
+   "Audiências públicas de saúde e metas fiscais",
+   "Conferência das Cidades (abr/2025)",
+   "Pautas específicas não encontradas: o orçamento de buscas acabou e houve bloqueio por rate limit (HTTP 429) nas consultas."
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.mangueirinha.pr.gov.br/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-mangueirinha-pr-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Candidatos em 2024: Augusto Diavão (União), Ivo da Saúde (PSDB), Leandro Dorini (PSD) e Mussum (PT). O vencedor não foi confirmado. Descrição econômica baseada em conhecimento geral, não verificada em fonte nesta rodada."
+ }
+]

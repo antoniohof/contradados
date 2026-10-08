@@ -1,0 +1,247 @@
+[
+ {
+  "ibge": "5000203",
+  "municipio": "Água Clara",
+  "uf": "MS",
+  "prefeito_2024": "Gerolina da Silva Alves (reeleita, 74,82%)",
+  "partido_prefeito": "PSDB",
+  "pl_local": "não encontrado (nenhum vereador do PL entre os 10 mais votados de 2024; vários prefeitos do PSDB-MS migraram ao PL em 2025, mas a filiação atual de Gerolina não foi verificada)",
+  "economia": "Município pequeno (~16 mil hab.) apresentado pelo governo de MS como 'base florestal' (eucalipto/celulose): fábrica de MDF Greenplac, unidade de genética avícola e fábrica de celulose projetada pela Bracell (R$ 25 bi).",
+  "pautas": [
+   "Infraestrutura pressionada pelo crescimento ligado à indústria florestal/celulose (habitação, escolas)",
+   "Saúde: construção do Hospital Municipal no bairro Novo Horizonte (R$ 23,3 mi do Estado)",
+   "Pavimentação e drenagem (Jardim Primavera, Santos Dumont, Mangaba)",
+   "Aeródromo (R$ 24,3 mi)"
+  ],
+  "eventos": "Fev/2025: pacote estadual de ~R$ 61-63 mi (hospital, aeródromo, asfalto) no aniversário do município; anúncio de fábrica de celulose da Bracell (R$ 25 bi). Mar/2024: prefeita registrou ocorrência contra servidora que a ameaçou e alegou falta de remédios nas UBS.",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/mato-grosso-do-sul/agua-clara",
+   "https://www.campograndenews.com.br/politica/ms-dobra-numero-de-mulheres-prefeitas-com-12-cidades-administradas-por-elas",
+   "https://www.semadesc.ms.gov.br/municipio-estrategico-da-base-florestal-de-ms-agua-clara-recebe-r-609-milhoes-em-investimentos-do-governo-do-estado-com-hospital-e-aerodromo",
+   "https://www.campograndenews.com.br/cidades/interior/prefeita-procura-policia-apos-ameaca-de-servidora-quero-a-cabeca-dela"
+  ],
+  "confianca": "média",
+  "obs": "Pautas derivadas de anúncio do governo estadual, não de pesquisa local. Verificar possível troca de partido da prefeita (PSDB->PL) em 2025."
+ },
+ {
+  "ibge": "5106422",
+  "municipio": "Peixoto de Azevedo",
+  "uf": "MT",
+  "prefeito_2024": "Paulistinha (37,91%)",
+  "partido_prefeito": "UNIÃO",
+  "pl_local": "não encontrado (nenhum PL entre os 10 vereadores mais votados; disputa de 2024 sem candidato do PL a prefeito: PSD, MDB, UNIÃO, PT)",
+  "economia": "Município do norte de MT às margens da BR-163, historicamente estruturado pelo garimpo de ouro (província aurífera de Peixoto de Azevedo), com pecuária e agricultura em expansão [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Garimpo de ouro e sua regularização/fiscalização (lideranças locais ligadas ao setor; lei municipal do 'dia do garimpeiro')",
+   "Demais pautas locais 2024-2026 não verificadas"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/mato-grosso/peixoto-de-azevedo",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-peixoto-de-azevedo-mt-da-eleicao-2024/",
+   "https://jornaldebrasilia.com.br/noticias/politica-e-poder/garimpo-e-mineracao-de-ouro-lancam-mais-de-70-candidatos/"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome civil do prefeito não confirmado (só nome de urna). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1500404",
+  "municipio": "Alenquer",
+  "uf": "PA",
+  "prefeito_2024": "Tom Silva (nome civil aparentemente Heverton dos Santos Silva; 41,90%)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (PL não lançou candidato a prefeito em 2024; nenhum PL entre os 10 vereadores mais votados)",
+  "economia": "Município médio do Baixo Amazonas (margem norte do Amazonas, região de Santarém), base em pecuária, agricultura familiar e pesca [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado nesta rodada. Eleição 2024 fragmentada (5 candidatos; PT com Aurea Nina).",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/para/alenquer",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-alenquer-pa-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1500859",
+  "municipio": "Anapu",
+  "uf": "PA",
+  "prefeito_2024": "Luiz Carlos do Posto (40,77%)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado; nenhum vereador do PL eleito em 2024 (câmara de 13: PSDB 2, MDB 2, Republicanos 2, PRD 2, União 2, PSB 1, PODE 1, PT 1)",
+  "economia": "Município da Transamazônica (BR-230) próximo a Altamira, com pecuária, extração madeireira e cacau; área de fronteira agrícola [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Conflitos fundiários históricos (região do PDS Esperança/assassinato de Dorothy Stang em 2005) [conhecimento geral, sem fonte web verificada nesta rodada]",
+   "Demais pautas 2024-2026 não verificadas"
+  ],
+  "eventos": "Não verificado nesta rodada. 2024: disputa apertada (Republicanos 40,8% x MDB 34,5%).",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/luiz-carlos-do-posto-e-eleito-prefeito-de-anapu-pa-nas-eleicoes-2024-1.870972",
+   "https://www.oliberal.com/eleicoes/confira-a-lista-dos-vereadores-eleitos-em-anapu-pa-nas-eleicoes-2024-1.870958"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1501451",
+  "municipio": "Belterra",
+  "uf": "PA",
+  "prefeito_2024": "Prof Ulisses (67,55%)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (disputa 2024 só MDB x PP)",
+  "economia": "Pequeno município vizinho a Santarém, no planalto santareno, com expansão de soja/milho, agricultura familiar e turismo ligado à Flona Tapajós e à vila histórica da Ford [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/para/belterra",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-belterra-pa-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome civil do prefeito não confirmado. Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1501782",
+  "municipio": "Breu Branco",
+  "uf": "PA",
+  "prefeito_2024": "Flavio Mezzomo (86,64%)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado",
+  "economia": "Município do sudeste paraense vizinho a Tucuruí (região do lago da UHE Tucuruí), com indústria de silício metálico, pecuária e pesca [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado para 2024-2026. (Histórico: prefeito Diego do Alemão, PSD, assassinado na PA-263 em 2017.)",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/flavio-mezzomo-e-eleito-prefeito-de-breu-branco-pa-nas-eleicoes-2024-1.870321",
+   "https://dol.com.br/noticias/para/noticia-414956-prefeito-de-breu-branco-e-assassinado-em-rodovia.html"
+  ],
+  "confianca": "baixa",
+  "obs": "Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1502939",
+  "municipio": "Dom Eliseu",
+  "uf": "PA",
+  "prefeito_2024": "Silon (63,11%)",
+  "partido_prefeito": "UNIÃO",
+  "pl_local": "1 vereador do PL (Luis Lima) entre 15 eleitos em 2024; nenhum outro político do PL identificado",
+  "economia": "Município do nordeste/sudeste paraense no entroncamento BR-010/BR-222, base em grãos (soja/milho), pecuária e setor madeireiro [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/silon-e-eleito-prefeito-de-dom-eliseu-pa-nas-eleicoes-2024-1.870532",
+   "https://www.oliberal.com/eleicoes/confira-a-lista-dos-vereadores-eleitos-em-dom-eliseu-pa-nas-eleicoes-2024-1.870534"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome civil do prefeito não confirmado (possivelmente Silon Gama, pelo perfil citado). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1503606",
+  "municipio": "Itaituba",
+  "uf": "PA",
+  "prefeito_2024": "Nicodemos Aguiar (48,26%)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado PL formal; vice-campeão 2024 Wescley Tomaz (Avante, 41,62%), ex-'vereador dos garimpeiros', candidato a dep. federal em 2022 com material de campanha associado a Bolsonaro e Zequinha Marinho",
+  "economia": "Polo regional do Tapajós (~100 mil hab.), economia ligada ao garimpo de ouro, comércio/serviços, portos graneleiros de Miritituba (BR-163/BR-230) [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Garimpo de ouro: legalização x fiscalização (pauta central da política local)",
+   "Demais pautas 2024-2026 não verificadas"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/nicodemos-aguiar-e-eleito-prefeito-de-itaituba-pa-nas-eleicoes-2024-1.870544",
+   "https://jornaldebrasilia.com.br/noticias/politica-e-poder/garimpo-e-mineracao-de-ouro-lancam-mais-de-70-candidatos/"
+  ],
+  "confianca": "média",
+  "obs": "Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1503705",
+  "municipio": "Itupiranga",
+  "uf": "PA",
+  "prefeito_2024": "Wagno Godoy (44,13%, 11.585 votos)",
+  "partido_prefeito": "PP",
+  "pl_local": "Vice-prefeito Samuel Nunes (PL); nenhum vereador do PL na câmara de 13 (MDB, PP, Republicanos, Solidariedade, PSD, PDT 2 cada; PRD 1)",
+  "economia": "Município rural extenso (~7.880 km², ~53 mil hab.) vizinho a Marabá, com vilas a até 200 km da sede; agropecuária e alta dependência de programas sociais (~8 mil famílias no Bolsa Família).",
+  "pautas": [
+   "Novo Hospital Municipal (atual funciona dentro da UPA)",
+   "Estradas vicinais e pontes destruídas no inverno amazônico; descentralizar a Secretaria de Infraestrutura para vilas (Cruzeiro do Sul, São Sebastião)",
+   "Vulnerabilidade social: ~8 mil famílias no Bolsa Família",
+   "Valorização de professores"
+  ],
+  "eventos": "Não verificado após a posse (jan/2025).",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/wagno-godoy-e-eleito-prefeito-de-itupiranga-pa-nas-eleicoes-2024-1.871009",
+   "https://dol.com.br/carajas/cidades/itupiranga/888828/itupiranga-empossa-prefeito-vice-e-vereadores-nesta-quarta?d=1",
+   "https://dol.com.br/carajas/cidades/itupiranga/882598/prefeito-eleito-wagno-godoy-participa-de-entrevista-na-clube"
+  ],
+  "confianca": "média",
+  "obs": "Disputa 2024 entre dois candidatos do PP (Benjamin Tasca 2º, 38,97%). Pautas vêm de entrevista do prefeito eleito (nov/2024), não de pesquisa de opinião."
+ },
+ {
+  "ibge": "1505486",
+  "municipio": "Pacajá",
+  "uf": "PA",
+  "prefeito_2024": "André Rezende (83,60%, 19.683 votos)",
+  "partido_prefeito": "MDB",
+  "pl_local": "Dalton Gomes Scherr Junior foi candidato do PL a prefeito em 2024 (derrotado); nenhum vereador do PL entre os 10 mais votados",
+  "economia": "Município da Transamazônica (BR-230) com pecuária, cacau e agricultura familiar de colonos em travessões; áreas embargadas por desmatamento (segundo plano de governo 2024).",
+  "pautas": [
+   "Estradas vicinais/travessões e pavimentação (adesão ao 'Estradas Por Todo o Pará')",
+   "Regularização fundiária e áreas embargadas pelo IBAMA (TAC, CAR, títulos do INCRA)",
+   "Saúde: falta de especialistas, consórcio com Anapu/Altamira, TFD",
+   "Segurança pública (câmeras, policiamento)",
+   "Agregação de valor rural: beneficiamento de cacau, laticínio, frigorífico municipal"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/para/pacaja",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pacaja-pa-da-eleicao-2024/",
+   "https://reporterbrasil.org.br/wp-content/uploads/2024/09/pje-PLANO-DE-GOVERNO-PACAJA-1.pdf"
+  ],
+  "confianca": "média",
+  "obs": "Pautas extraídas do plano de governo do candidato derrotado do PL (2024), não de imprensa/pesquisa local; refletem demandas declaradas, não medidas."
+ },
+ {
+  "ibge": "1505650",
+  "municipio": "Placas",
+  "uf": "PA",
+  "prefeito_2024": "Arthur (53,43%, 6.756 votos)",
+  "partido_prefeito": "MDB",
+  "pl_local": "Erlo do Posto foi candidato do PL a prefeito em 2024 (4,19%, não eleito); nenhum vereador PL entre os 10 mais votados",
+  "economia": "Pequeno município (~15 mil eleitores) da Transamazônica (BR-230) entre Rurópolis e Uruará, base em cacau, pecuária e agricultura familiar [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.otempo.com.br/eleicoes/2024/apuracao/para/placas",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-placas-pa-da-eleicao-2024/"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome civil do prefeito não confirmado. Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ },
+ {
+  "ibge": "1505809",
+  "municipio": "Portel",
+  "uf": "PA",
+  "prefeito_2024": "Paulo Ferreira (68,04%)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (disputa 2024 entre dois candidatos do MDB)",
+  "economia": "Município do Marajó (porção ocidental), população majoritariamente ribeirinha, base em extrativismo (açaí, madeira), pesca e serviços públicos; baixos indicadores sociais [conhecimento geral, sem fonte web verificada nesta rodada].",
+  "pautas": [
+   "Não verificadas (lacuna)"
+  ],
+  "eventos": "Não verificado nesta rodada.",
+  "fontes": [
+   "https://www.oliberal.com/eleicoes/paulo-ferreira-e-eleito-prefeito-de-portel-pa-nas-eleicoes-2024-1.870915"
+  ],
+  "confianca": "baixa",
+  "obs": "Vice-colocado Alex Aquino também era do MDB (30,22%). Busca web esgotada (limite de buscas da sessão) antes de pesquisar pautas locais; pautas específicas não verificadas."
+ }
+]

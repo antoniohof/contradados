@@ -1,0 +1,99 @@
+[
+ {
+  "ibge": "1716505",
+  "municipio": "Pedro Afonso",
+  "uf": "TO",
+  "prefeito_2024": "Joaquim Martins Pinheiro Filho (Joaquim Pinheiro)",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Polo agroindustrial do centro-norte do TO (~14 mil hab., Censo 2022; PIB per capita R$ 77,6 mil em 2023): soja, milho safrinha, cana/etanol (usina historicamente ligada à Bunge, servida pela TO-010) e biodiesel.",
+  "pautas": [
+   "Ponte sobre o Rio Tocantins na BR-235 (Pedro Afonso–Tupirama, km 164) interditada pelo DNIT em maio/2026 por danos estruturais irreversíveis; desvio de mais de 120 km por estradas de terra e pontes de madeira",
+   "Escoamento da safra: requerimento na ALETO diz que a interdição afeta cerca de 60% do transporte da soja, o início da colheita do milho safrinha e cargas de biodiesel, e encarece frete e insumos (fertilizantes)",
+   "Pavimentação de cerca de 45 km da TO-010 entre Tocantínia e Pedro Afonso (requerimentos na Assembleia Legislativa em 2025 e 2026)",
+   "Travessia por balsa emergencial (autorizada pela ATR em 22/05/2026), com críticas a capacidade de carga, dependência do nível do rio e transporte de estudantes"
+  ],
+  "eventos": "Maio/2026: interdição total da ponte da BR-235 sobre o Rio Tocantins; balsa emergencial entre Pedro Afonso e Tupirama autorizada pelo governo estadual (DOE de 22/05/2026). Em julho, laudos (prova de carga, IPT) indicaram reação química no concreto das fundações e o DNIT anunciou que a ponte terá de ser reconstruída. Em 25/08/2026 a ponte foi parcialmente reaberta só para carros e motos; veículos pesados continuam proibidos. Prefeito reeleito em 2024 com 71,35%.",
+  "fontes": [
+   "https://www.conexaoto.com.br/2024/10/07/mais-de-70-prefeitos-do-tocantins-conseguiram-reeleicao-muitos-com-mais-de-70-de-aprovacao",
+   "https://sapl.al.to.leg.br/media/sapl/public/materialegislativa/2026/14510/requerimento.pdf",
+   "https://www.conexaoto.com.br/2026/05/23/governo-do-tocantins-autoriza-balsa-entre-pedro-afonso-e-tupirama-apos-interdicao-de-ponte",
+   "https://brasil61.com/n/dnit-interdita-ponte-sobre-o-rio-tocantins-apos-laudos-apontarem-danos-irreversiveis-na-estrutura-bras2616767",
+   "https://agenciainfra.com/blog/?p=46424"
+  ],
+  "confianca": "alta",
+  "obs": "Prefeito confirmado também pelo IBGE Cidades (https://www.ibge.gov.br/cidades-e-estados/to/pedro-afonso.html). O requerimento de maio/2026 é do dep. estadual Gutierres Torquato; o partido dele não aparece no documento. Não encontrei a composição partidária da câmara nem pautas de saúde ou segurança: a ponte domina o noticiário local."
+ },
+ {
+  "ibge": "1717909",
+  "municipio": "Ponte Alta do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "Kedson Machado Alves",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Município pequeno (~7,6 mil hab.; PIB de R$ 141,5 mi e per capita de R$ 18,7 mil em 2023) e muito extenso (6.542 km²): pecuária extensiva em grandes fazendas e turismo como 'Portal do Jalapão' (Pedra Furada, Cânion Sussuapara); parte do território fica na Estação Ecológica Serra Geral do Tocantins.",
+  "pautas": [
+   "Turismo do Jalapão e eventos como o Rally Jalapão (apoio da prefeitura em 2025) para movimentar o comércio local",
+   "Estradas: conservação e recuperação da TO-255 (acesso ao Jalapão e ligação com Monte do Carmo/Porto Nacional), tema recorrente de requerimentos na Assembleia Legislativa",
+   "Regularização fundiária, licenciamento ambiental e conflitos de posse ligados à unidade de conservação federal (ICMBio)",
+   "Só achei pautas genéricas: não encontrei imprensa local sobre saúde, segurança ou seca em 2024–2026"
+  ],
+  "eventos": "Não encontrei eventos locais relevantes em 2024–2026.",
+  "fontes": [
+   "https://www.ibge.gov.br/cidades-e-estados/to/ponte-alta-do-tocantins.html",
+   "https://www.conexaoto.com.br/2025/06/11/ponte-alta-do-tocantins-anuncia-apoio-ao-rally-jalapao",
+   "https://smargiassi.com.br/to/ponte-alta-do-tocantins/",
+   "https://www.conexaoto.com.br/2017/06/22/governo-repara-erosao-na-to-255-entre-monte-do-carmo-e-ponte-alta"
+  ],
+  "confianca": "baixa",
+  "obs": "Nome do prefeito (mandato 2025) tirado do IBGE Cidades. Partido e percentual de 2024 não confirmados: g1 bloqueado e site da prefeitura sem conteúdo legível. Também existe um documento na ALETO de 2026 sobre recuperação da TO-255, mas não consegui ler o arquivo (.docx)."
+ },
+ {
+  "ibge": "1718204",
+  "municipio": "Porto Nacional",
+  "uf": "TO",
+  "prefeito_2024": "Ronivon Maciel Gama (Ronivon Maciel)",
+  "partido_prefeito": "não confirmado",
+  "pl_local": "não encontrado",
+  "economia": "Cidade média (~64 mil hab. no Censo 2022, estimativa de 70,5 mil em 2026; PIB per capita R$ 49,6 mil em 2023), vizinha de Palmas: agronegócio exportador (soja, segundo o prefeito o maior exportador do TO e 3º PIB do estado) e serviços. O distrito de Luzimangues funciona como área de expansão urbana de Palmas.",
+  "pautas": [
+   "Asfalto e infraestrutura urbana: na posse em 2025 o prefeito prometeu asfaltar 100% da cidade e construir mais de 20 pontes de concreto na sede e nos distritos",
+   "Duplicação da ponte que liga Palmas a Luzimangues (empréstimo autorizado em 2024); mobilidade do distrito",
+   "Saúde: ampliação das equipes de Saúde da Família e demanda histórica por leitos de UTI no hospital regional da cidade",
+   "Assistência social e custo de vida: ampliação do cartão alimentação, CRAS no Setor Imperial, Casa da Mulher"
+  ],
+  "eventos": "Prefeito reeleito em 2024 com 65,34% (~24 mil votos), com Joaquim do Luzimangues como vice. Em outubro/2026 o prefeito reuniu 11 vereadores em apoio à Professora Dorinha no 2º turno para o governo estadual (só vi a manchete). Morte do ex-prefeito Jurimar Macedo em nov/2024.",
+  "fontes": [
+   "https://www.conexaoto.com.br/2024/10/07/mais-de-70-prefeitos-do-tocantins-conseguiram-reeleicao-muitos-com-mais-de-70-de-aprovacao",
+   "https://conexaoto.com.br/2025/01/02/em-posse-ronivon-se-compromete-a-asfaltar-100-a-cidade-e-ampliar-cartao-alimentacao",
+   "https://conexaoto.com.br/2024/06/26/prefeito-ronivon-comemora-autorizacao-de-emprestimo-para-duplicacao-da-ponte-que-liga-palmas-a-luzimangues",
+   "https://www.ibge.gov.br/cidades-e-estados/to/porto-nacional.html",
+   "https://www.jornalopcao.com.br/tocantins/deputado-estadual-valdemar-junior-pede-implantacao-de-10-novos-leitos-de-uti-em-porto-nacional-314172/"
+  ],
+  "confianca": "média",
+  "obs": "O partido de Ronivon não aparece nas fontes que consultei. A matéria de 07/10/2026 (conexaoto, apoio à Dorinha) não pôde ser lida: o proxy limitou as requisições (HTTP 429). A matéria sobre UTI é antiga; uso como indício de demanda recorrente."
+ },
+ {
+  "ibge": "1718881",
+  "municipio": "Santa Maria do Tocantins",
+  "uf": "TO",
+  "prefeito_2024": "Leonardo Noleto Moreira (Leonardo Noleto)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado",
+  "economia": "Município muito pequeno (~2,7 mil hab.; PIB per capita R$ 44,2 mil em 2023) na região de Pedro Afonso, com base agropecuária (pecuária e grãos) e dependente das ligações rodoviárias da BR-235 e da TO-010.",
+  "pautas": [
+   "Isolamento logístico com a interdição da ponte da BR-235 sobre o Rio Tocantins (Pedro Afonso–Tupirama) em maio/2026: o município aparece entre os diretamente afetados no requerimento da ALETO e na rota alternativa do DNIT",
+   "Pavimentação e conservação da TO-010 e das estradas vicinais da região",
+   "Só achei pautas genéricas: não encontrei imprensa local específica sobre saúde, educação ou segurança"
+  ],
+  "eventos": "2024: eleição com candidato único a prefeito (1.623 votos). 2026: interdição da ponte da BR-235 (maio), balsa emergencial e reabertura parcial só para veículos leves (agosto).",
+  "fontes": [
+   "https://www.conexaoto.com.br/2024/10/07/mais-de-70-prefeitos-do-tocantins-conseguiram-reeleicao-muitos-com-mais-de-70-de-aprovacao",
+   "https://www.ibge.gov.br/cidades-e-estados/to/santa-maria-do-tocantins.html",
+   "https://sapl.al.to.leg.br/media/sapl/public/materialegislativa/2026/14510/requerimento.pdf",
+   "https://brasil61.com/n/dnit-interdita-ponte-sobre-o-rio-tocantins-apos-laudos-apontarem-danos-irreversiveis-na-estrutura-bras2616767"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito e partido vêm do conexaoto (lista de 2024) e foram confirmados pelo IBGE Cidades. A descrição da economia é inferida do perfil regional; não achei fonte específica do município."
+ }
+]

@@ -1,0 +1,219 @@
+[
+ {
+  "ibge": "4203501",
+  "municipio": "Campo Erê",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Município de ~9,6 mil hab. (Censo 2022); agricultura e pecuária (milho e soja principais), fabricação de implementos agrícolas e turismo rural (Wikipedia).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Campo_Er%C3%AA"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4204103",
+  "municipio": "Caxambu Do Sul",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado (existe página de vereadores eleitos em fiibrasil.com, não lida por bloqueio)",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica. Wikipedia: ~4,9 mil hab. (estim. 2004).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Caxambu_do_Sul",
+   "https://fiibrasil.com/eleicao/vereadores-eleitos-caxambu-do-sul-sc-2024"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4205308",
+  "municipio": "Faxinal Dos Guedes",
+  "uf": "SC",
+  "prefeito_2024": "Jader Danielli",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.nsctotal.com.br/?p=7305619"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado via NSC Total (lista de eleitos 2024). Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4207858",
+  "municipio": "Irati",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica. Wikipedia: ~2,1 mil hab. (estim. 2011).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Irati_(Santa_Catarina)"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4211454",
+  "municipio": "Nova Itaberaba",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Agropecuária; arrecadação vinda sobretudo da agricultura (milho, feijão, fumo), laranja em desenvolvimento e gado de corte (Wikipedia); ~4,3 mil hab. (estim. 2004).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Nova_Itaberaba",
+   "https://novaitaberaba.sc.gov.br/uploads/sites/466/2024/02/PLANO-MUNICIPAL-DE-SAUDE-2022-2025.pdf"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado; Plano Municipal de Saúde 2022-2025 localizado mas não lido. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4211876",
+  "municipio": "Paial",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica. Wikipedia: ~1,7 mil hab. (estim. 2011); historicamente extração de madeira.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/Paial"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4212007",
+  "municipio": "Palma Sola",
+  "uf": "SC",
+  "prefeito_2024": "Márcio Sansígolo",
+  "partido_prefeito": "não confirmado (coligação PL/PP/PSD)",
+  "pl_local": "Prefeito eleito em 2024 por coligação PL/PP/PSD; PL elegeu 2 de 9 vereadores (Ivan Luchese, Moacir Sansigolo). Câmara: PP 3, PT/PCdoB/PV 2, PL 2, MDB 2 (Jornal da Fronteira).",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica. Wikipedia: ~7,7 mil hab. (estim. 2011).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://jornaldafronteira.com.br/wp-content/uploads/2024/10/CADERNO-COMPLETO-2.pdf",
+   "https://pt.wikipedia.org/wiki/Palma_Sola"
+  ],
+  "confianca": "baixa",
+  "obs": "Partido do prefeito não indicado na fonte (apenas coligação PL/PP/PSD). Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4213153",
+  "municipio": "Planalto Alegre",
+  "uf": "SC",
+  "prefeito_2024": "Evandro Cleber Bet",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.nsctotal.com.br/?p=7305619"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado via NSC Total. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4215752",
+  "municipio": "São Bernardino",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [],
+  "confianca": "baixa",
+  "obs": "Nenhum dado verificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4216800",
+  "municipio": "São José Do Cerrito",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município rural da Serra catarinense (região de Lages); agropecuária (Wikipedia cita Festa do Feijão e feira de gado) — sem dados quantitativos verificados.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Jos%C3%A9_do_Cerrito"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4217154",
+  "municipio": "São Miguel Da Boa Vista",
+  "uf": "SC",
+  "prefeito_2024": "",
+  "partido_prefeito": "",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica. Área 71,9 km² (Wikipedia).",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Miguel_da_Boa_Vista"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito 2024 não identificado. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ },
+ {
+  "ibge": "4200507",
+  "municipio": "Águas De Chapecó",
+  "uf": "SC",
+  "prefeito_2024": "Oscar Barela",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado",
+  "economia": "Pequeno município agropecuário do Oeste catarinense (agricultura familiar; grãos, leite, suínos/aves, típicos da região) — caracterização genérica regional, não verificada em fonte específica.",
+  "pautas": [
+   "não encontradas (busca/fetch esgotados; pautas locais não pesquisadas com sucesso)"
+  ],
+  "eventos": "não encontrado",
+  "fontes": [
+   "https://www.nsctotal.com.br/?p=7305619"
+  ],
+  "confianca": "baixa",
+  "obs": "Prefeito confirmado via NSC Total. Orçamento de 7 buscas esgotado e WebFetch bloqueado por rate limit (HTTP 429) durante a pesquisa; campos não verificados ficaram em branco/não encontrado."
+ }
+]

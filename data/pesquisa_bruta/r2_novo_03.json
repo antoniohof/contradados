@@ -1,0 +1,277 @@
+[
+ {
+  "ibge": "2601409",
+  "municipio": "Barreiros",
+  "uf": "PE",
+  "prefeito_2024": "Carlinhos da Pedreira (Carlos Artur Soares de Avellar Junior)",
+  "partido_prefeito": "PP",
+  "pl_local": "PL elegeu 3 dos 13 vereadores em 2024 (Elimário, Lucas Lafaiete, Henrique do Hospital), segunda maior bancada junto com PSD; nenhum deputado do PL com reduto identificado.",
+  "economia": "Município da Mata Sul (~40 mil hab., Censo 2022; PIB per capita R$ 16,1 mil em 2023) com base em cana-de-açúcar, comércio/serviços e turismo litorâneo.",
+  "pautas": [
+   "Alagamentos/chuvas intensas na Mata Sul (ruas alagadas em 04/08/2025, >128 mm em 12h)",
+   "Contenção de encostas/taludes (ordem de serviço estadual 2025)",
+   "Pavimentação/recapeamento asfáltico urbano (licitação autorizada pelo Estado em 2025)",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Chuva forte de 03-04/08/2025 alagou várias ruas; pacote estadual de R$ 200 mi para a Mata Sul (ago/2025) incluiu recapeamento e contenção de taludes em Barreiros. Prefeito eleito com 70,4%.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/barreiros/",
+   "https://www.diariodepernambuco.com.br/amp/vida-urbana/2025/08/7796024-chuva-na-zona-da-mata-sul-deixa-barreiros-debaixo-d-agua-nesta-segunda-4.html",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/11693886-governo-anuncia-mais-de-rs-200-milhoes-em-seguranca-mobilidade-e-infraestrutura-para-mata-sul.html",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/barreiros.html"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito confirmado no IBGE (2025). Base econômica descrita por conhecimento geral da região; pautas parciais."
+ },
+ {
+  "ibge": "2602100",
+  "municipio": "Bom Conselho",
+  "uf": "PE",
+  "prefeito_2024": "Doutor Edézio (Edezio Ferreira dos Santos Filho)",
+  "partido_prefeito": "PV",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
+  "economia": "Município do Agreste Meridional (~44 mil hab.; PIB per capita R$ 18,2 mil em 2023), base agropecuária (pecuária leiteira, agricultura familiar) e comércio/serviços.",
+  "pautas": [
+   "Escassez hídrica no Agreste Meridional (contexto regional 2024-2025)",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Eleição apertada em 2024 (prefeito com 50,8%). Não consta nos decretos de emergência por seca de jan/2025 consultados. Nenhum evento local específico encontrado.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/bom-conselho/",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/bom-conselho.html",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "baixa",
+  "obs": "Pautas e economia sem fonte local específica."
+ },
+ {
+  "ibge": "2602605",
+  "municipio": "Brejo da Madre de Deus",
+  "uf": "PE",
+  "prefeito_2024": "Roberto Asfora",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
+  "economia": "Agreste Central (~52 mil hab.), economia baseada no polo de confecções 'sulanca' (distrito de São Domingos, vizinho a Santa Cruz do Capibaribe), agricultura/serviços na sede e turismo religioso em Fazenda Nova (Nova Jerusalém).",
+  "pautas": [
+   "Abastecimento de água/rodízio e obras da Adutora do Agreste (chegada aos distritos Fazenda Nova, Barra de Farias e Mandaçaia em 2024)",
+   "Seca: zona rural em situação de emergência (decreto estadual jan/2025)",
+   "Turismo da Paixão de Cristo de Nova Jerusalém",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Ampliação da Adutora do Agreste em mar/2024 passou três distritos do rodízio 15x15 para abastecimento diário; nova etapa autorizada em mai/2024 (R$ 27 mi, junto com São Bento do Una).",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/brejo-da-madre-de-deus/",
+   "https://portaldeprefeitura.com.br/pernambuco/pernambuco-anuncia-ampliacao-da-adutora-do-agreste-em-municipio/540885/",
+   "https://portaldeprefeitura.com.br/noticia/detalhe/governadora-raquel-lyra-anuncia-implantacao-da-adutora-do-agreste-em/553392/",
+   "https://pt.wikipedia.org/wiki/Brejo_da_Madre_de_Deus",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "média",
+  "obs": "Prefeito Roberto Asfora (PP) eleito com 55,9%; IBGE não consultado para este município."
+ },
+ {
+  "ibge": "2602803",
+  "municipio": "Buíque",
+  "uf": "PE",
+  "prefeito_2024": "Túlio Monteiro",
+  "partido_prefeito": "MDB",
+  "pl_local": "PL elegeu 1 vereador em 2024 (Salomão Dentista, por média); nenhum outro nome do PL encontrado.",
+  "economia": "Agreste/Sertão do Moxotó (~52 mil hab.), agropecuária de subsistência (feijão, milho, mandioca, pecuária semi-extensiva), comércio e turismo no Parque Nacional do Catimbau; Terra Indígena Kapinawá.",
+  "pautas": [
+   "Seca: zona rural em emergência (decreto estadual jan/2025); falta de água e forragem para rebanhos",
+   "Turismo e preservação do Vale do Catimbau",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Disputa municipal 2024 polarizada entre MDB (55,1%) e Republicanos (44,9%). Nenhum evento local recente específico encontrado.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/buique/",
+   "https://pt.wikipedia.org/wiki/Bu%C3%ADque",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "baixa",
+  "obs": "Vereador eleito pelo MDB 'Preto Kapinawá' indica representação indígena local."
+ },
+ {
+  "ibge": "2605103",
+  "municipio": "Custódia",
+  "uf": "PE",
+  "prefeito_2024": "Manoel Messias (Manoel Messias de Souza)",
+  "partido_prefeito": "PSD",
+  "pl_local": "não encontrado (nenhum vereador do PL entre os eleitos exibidos em 2024)",
+  "economia": "Sertão do Moxotó (~38 mil hab.; PIB per capita R$ 20,4 mil em 2023), agropecuária do semiárido (caprino/ovinocultura, pecuária) e comércio/serviços às margens da BR-232.",
+  "pautas": [
+   "Seca: zona rural em situação de emergência (decreto estadual 58.012, jan/2025)",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Nenhum evento local específico encontrado.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/custodia/",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/custodia.html",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "baixa",
+  "obs": "Economia descrita por conhecimento geral da região, sem fonte específica."
+ },
+ {
+  "ibge": "2610004",
+  "municipio": "Palmares",
+  "uf": "PE",
+  "prefeito_2024": "Junior de Beto (José Bartolomeu de Almeida Melo Junior)",
+  "partido_prefeito": "PP",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
+  "economia": "Polo regional de comércio e serviços da Mata Sul (~55 mil hab.; PIB per capita R$ 21,2 mil em 2023), com entorno canavieiro.",
+  "pautas": [
+   "Saúde regional: Hospital Regional de Palmares (tomógrafo entregue em abr/2026)",
+   "Pavimentação urbana (licitação estadual >R$ 6 mi para 19 vias)",
+   "Regularização fundiária (221 títulos em 2026)",
+   "Contenção de encostas/taludes (ordem de serviço 2025)",
+   "Abastecimento de água (citado entre novos sistemas estaduais, dez/2024)"
+  ],
+  "eventos": "Visita da governadora em 17/04/2026 com entrega de tomógrafo do HRP, títulos de propriedade e ônibus escolares; prefeito reeleito/eleito com 83,4% em 2024.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/palmares/",
+   "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-entrega-tomografo-palmares-titulos-regularizacao/619355/",
+   "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/11693886-governo-anuncia-mais-de-rs-200-milhoes-em-seguranca-mobilidade-e-infraestrutura-para-mata-sul.html",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/palmares.html"
+  ],
+  "confianca": "média",
+  "obs": "Pautas inferidas de entregas/obras governamentais, não de pesquisa de opinião local."
+ },
+ {
+  "ibge": "2610905",
+  "municipio": "Pesqueira",
+  "uf": "PE",
+  "prefeito_2024": "Cacique Marcos Xukuru (Marcos Luidson de Araújo)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "PL elegeu 1 vereador em 2024 (Gel Napoleão, 1.023 votos, por quociente partidário).",
+  "economia": "Agreste (~63 mil hab.; PIB per capita R$ 17,3 mil em 2023), histórico industrial de doces/tomate, agricultura e bordado renascença; maior território indígena do Nordeste (Xukuru do Ororubá).",
+  "pautas": [
+   "Seca: zona rural em situação de emergência (decreto estadual jan/2025)",
+   "Questões indígenas/território Xukuru (prefeito é liderança Xukuru)",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Eleição 2024 muito apertada: Cacique Marcos (Republicanos) 51,2% x Rossine (Podemos) 48,9%; vários vereadores Xukuru eleitos.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/pesqueira/",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/pesqueira.html",
+   "https://pt.wikipedia.org/wiki/Pesqueira",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "média",
+  "obs": "IBGE confirma Marcos Luidson de Araújo como prefeito em 2025; não foram verificadas eventuais ações judiciais posteriores."
+ },
+ {
+  "ibge": "2613008",
+  "municipio": "São Bento do Una",
+  "uf": "PE",
+  "prefeito_2024": "Alexandre Batité",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (PL teve candidatos a vereador em 2024, nenhum eleito)",
+  "economia": "Agreste (~51 mil hab.), 'Capital do Ovo': maior produtor de ovos do Nordeste (avicultura de postura e corte) e pecuária leiteira.",
+  "pautas": [
+   "Colapso no abastecimento de água: rodízio de 2 dias com água a cada 28 sem (mai/2026); 1 dia a cada 25 em 2024",
+   "Obras da Adutora do Agreste - Lote 5C (R$ 79 mi, 22,4 km Belo Jardim-São Bento, nova ETA), conclusão prevista ~jun/2026",
+   "Seca: zona rural em emergência (jan/2025)",
+   "Água para a cadeia avícola/leiteira (inferência; sem fonte direta)"
+  ],
+  "eventos": "Obra da Adutora do Agreste em reta final em mai/2026 (prevista para beneficiar ~50 mil pessoas); açougue público inaugurado em mai/2024.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/sao-bento-do-una/",
+   "https://portaldeprefeitura.com.br/pernambuco/compesa/adutora-do-agreste-obras-sao-bento-reta-final-revela-compesa/622651/",
+   "https://portaldeprefeitura.com.br/noticia/detalhe/governadora-raquel-lyra-anuncia-implantacao-da-adutora-do-agreste-em/553392/",
+   "https://pt.wikipedia.org/wiki/S%C3%A3o_Bento_do_Una",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "alta",
+  "obs": "Não confirmado se a adutora foi concluída antes da eleição."
+ },
+ {
+  "ibge": "2613503",
+  "municipio": "São José do Belmonte",
+  "uf": "PE",
+  "prefeito_2024": "Vinicius Marques (Vinicius Marques Alves)",
+  "partido_prefeito": "PSB",
+  "pl_local": "não encontrado (PL não lançou/elegeu vereadores em 2024 segundo a página de resultados)",
+  "economia": "Sertão do Pajeú (~35 mil hab.; PIB per capita R$ 15,2 mil em 2023), agropecuária do semiárido, comércio e serviços.",
+  "pautas": [
+   "Seca: zona rural em situação de emergência (decreto jan/2025)",
+   "Segurança pública: município atendido pelo novo Complexo de Polícia Científica de Serra Talhada (entrega prevista out/2026)",
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Prefeito eleito com 75% e PSB com 8 de 13 vereadores. Nenhum evento local específico encontrado.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/sao-jose-do-belmonte/",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/sao-jose-do-belmonte.html",
+   "https://portaldeprefeitura.com.br/pernambuco/governo-de-pernambuco-obras-de-creches-complexos-policia/627966/",
+   "https://movimentoeconomico.com.br/?p=83155"
+  ],
+  "confianca": "baixa",
+  "obs": "Economia por conhecimento geral."
+ },
+ {
+  "ibge": "2600500",
+  "municipio": "Águas Belas",
+  "uf": "PE",
+  "prefeito_2024": "Dr. Elton Martins (José Elton Martins de Souza)",
+  "partido_prefeito": "Republicanos",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
+  "economia": "Agreste Meridional (~42 mil hab.; PIB per capita R$ 11,8 mil em 2023, baixo), agropecuária familiar e serviços; abriga o povo Fulni-ô.",
+  "pautas": [
+   "Colapso hídrico: barragem Lamarão secou; abastecimento por poços de Tupanatinga e carros-pipa (jan/2025)",
+   "Furto de água/quebra da adutora Itaíba-Tupanatinga por pipeiros",
+   "Retomada da Adutora do Agreste (edital de R$ 30 mi)",
+   "Seca: emergência em zonas rural e urbana (decreto jan/2025)"
+  ],
+  "eventos": "Crise de abastecimento em dez/2024-jan/2025 com barragem completamente seca; eleição 2024 apertada (51,1%); vereador Fulni-ô eleito.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pe/aguas-belas/",
+   "https://portaldeprefeitura.com.br/pernambuco/compesa/furto-de-agua-compromete-abastecimento-no-agreste-de-pernambuco-diz/586754/",
+   "https://movimentoeconomico.com.br/geral/2024/12/30/crise-hidrica-impoe-racionamento-e-afeta-polo-turistico-em-pernambuco/",
+   "https://movimentoeconomico.com.br/?p=83155",
+   "https://www.ibge.gov.br/cidades-e-estados/pe/aguas-belas.html"
+  ],
+  "confianca": "alta",
+  "obs": ""
+ },
+ {
+  "ibge": "2203701",
+  "municipio": "Esperantina",
+  "uf": "PI",
+  "prefeito_2024": "Ivanária Sampaio (Ivanaria do Nascimento Alves Sampaio)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (PL não elegeu vereadores em 2024)",
+  "economia": "Norte do Piauí (~41 mil hab.; PIB per capita R$ 15,4 mil em 2023), região dos Cocais, agricultura familiar, extrativismo e serviços.",
+  "pautas": [
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Prefeita eleita com 86,35% sobre candidato do PT; MDB com 7 de 13 vereadores. Nenhum evento local encontrado.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pi/esperantina/",
+   "https://www.ibge.gov.br/cidades-e-estados/pi/esperantina.html",
+   "https://pt.wikipedia.org/wiki/Esperantina_(Piau%C3%AD)"
+  ],
+  "confianca": "baixa",
+  "obs": "Buscas não retornaram imprensa local; economia por conhecimento geral."
+ },
+ {
+  "ibge": "2207900",
+  "municipio": "Pedro II",
+  "uf": "PI",
+  "prefeito_2024": "Betinha Brandão (Elisabete Rodrigues de Oliveira Nunes Brandão)",
+  "partido_prefeito": "MDB",
+  "pl_local": "não encontrado (PL sem candidatos a prefeito/vereador em 2024 segundo Itatiaia)",
+  "economia": "Norte do Piauí (~38 mil hab.; PIB per capita R$ 13,2 mil em 2023), 'Terra da Opala' (única mineração de opala do Brasil), turismo serrano (Festival de Inverno, Morro do Gritador), artesanato/tecelagem e agricultura.",
+  "pautas": [
+   "Lacuna: não foram encontradas matérias locais específicas sobre pautas da comunidade 2024-2026 dentro do orçamento de busca."
+  ],
+  "eventos": "Concurso público da prefeitura (2025-2026). Prefeita eleita com 60,5% sobre candidata do PT.",
+  "fontes": [
+   "https://ndmais.com.br/eleicoes-2024/resultados/1turno/pi/pedro-ii/",
+   "https://www.itatiaia.com.br/politica/eleicoes-2024/todos-os-candidatos-a-prefeito-e-vereador-de-pedro-ii-pi-da-eleicao-2024/",
+   "https://www.ibge.gov.br/cidades-e-estados/pi/pedro-ii.html",
+   "https://pt.wikipedia.org/wiki/Pedro_II_(Piau%C3%AD)"
+  ],
+  "confianca": "baixa",
+  "obs": "Sem fontes locais sobre pautas."
+ }
+]

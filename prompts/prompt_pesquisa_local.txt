@@ -1,0 +1,22 @@
+Você vai pesquisar municípios brasileiros para um estudo descritivo e politicamente neutro sobre o comportamento eleitoral no 1º turno presidencial de 04/10/2026 (Flávio Bolsonaro, PL x Lula, PT). Hoje é 08/10/2026.
+
+Leia a lista do seu lote em: /home/claude/analysis/batches/LOTE.txt
+Cada linha traz: código IBGE | município/UF | cenário(s) | votos 2022 → 2026 | abstenção 2026. Os números eleitorais já estão confirmados; NÃO pesquise votos.
+
+Para CADA município da lista, pesquise na web (WebSearch; WebFetch quando útil) e registre:
+1. prefeito_2024: nome e partido do prefeito eleito em 2024 (mandato 2025-2028). Se houve troca depois (cassação, morte, eleição suplementar), registre o atual e explique em "obs".
+2. pl_local: políticos do PL com base/votação forte no município que venceram eleições recentes (prefeito, vice, deputado estadual/federal eleito em 2026 ou 2022 com reduto ali, número de vereadores do PL na câmara se achar). Se não achar, escreva "não encontrado".
+3. economia: 1 frase sobre a base econômica (ex.: soja/milho, pecuária, fumo, mineração, serviços, indústria, turismo, pesca, garimpo) e porte.
+4. pautas: as 3 a 5 maiores preocupações/demandas da comunidade em 2024–2026, segundo imprensa local/regional, pesquisas locais, debates de prefeitura, câmara ou notícias (ex.: saúde/hospital, segurança/facções, seca, enchentes, estradas, preço de insumos/crédito rural, desemprego, transporte, saneamento, educação, conflitos fundiários, garimpo, custo de vida). Seja específico ao local (nomes de hospital, rodovia, evento). Não invente: se só achar genéricos, diga isso.
+5. eventos: fatos recentes que podem ter mexido no voto (desastres, crises, obras, escândalos locais, chegada de empresa, conflito agrário), se houver.
+6. fontes: URLs reais que você consultou (2 a 5 por município).
+7. confianca: alta/média/baixa.
+
+Regras:
+- Neutralidade: descreva, não opine sobre candidatos ou partidos.
+- Não invente nomes, números ou URLs. Prefira fontes locais (jornais, rádios, portais regionais, site da prefeitura/câmara, G1 regional, TREs).
+- Gaste no máximo ~3 buscas por município; se não achar, registre a lacuna e siga em frente. Termine TODOS os municípios do lote.
+
+Saída: grave um arquivo JSON (lista de objetos, UTF-8) em /home/claude/analysis/pautas/LOTE.json com as chaves exatas:
+ibge, municipio, uf, prefeito_2024, partido_prefeito, pl_local, economia, pautas (lista de strings), eventos, fontes (lista de URLs), confianca, obs
+Valide o JSON (python3 -c "import json;json.load(open(...))") antes de terminar. Sua resposta final deve ser curta: quantos municípios cobertos e as principais lacunas.
