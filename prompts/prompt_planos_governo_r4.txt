@@ -1,0 +1,17 @@
+Rodada 4 (sem web): extrair pautas dos planos de governo 2024 dos prefeitos ELEITOS, para municípios cuja pesquisa de imprensa ficou fraca. Estudo descritivo e politicamente neutro sobre o 1º turno presidencial de 04/10/2026.
+
+Leia a lista de arquivos de texto em: LISTA (um caminho por linha). Cada arquivo começa com um cabeçalho "# Município/UF | IBGE | prefeito eleito 2024 | arquivo TSE ..." seguido do texto extraído do PDF da proposta de governo registrada no TSE (pode ter ruído de extração).
+
+Para CADA arquivo, registre:
+- pautas: 3 a 5 itens com as prioridades CONCRETAS e locais que o plano declara (obra, hospital, estrada, bairro, programa, problema citado como diagnóstico). Comece cada item com "[plano de governo 2024] ". Evite genéricos ("melhorar a saúde") a menos que não haja nada específico; se o plano for só genérico, diga isso num único item.
+- eventos: "" (vazio; plano não é fonte de eventos).
+- economia: se o plano trouxer diagnóstico econômico do município (base produtiva, porte), resuma em 1 frase com "(segundo o plano de governo 2024)"; senão "".
+- fontes: lista com UM item: "TSE, dados abertos, proposta_governo_2024_UF.zip, arquivo <nome do pdf do cabeçalho> (plano de governo de <prefeito>, <partido>)". NÃO invente URLs.
+- confianca: "média" se o plano tiver diagnóstico local específico; "baixa" se for genérico ou o texto estiver ilegível.
+- obs: "Pautas declaradas no plano de governo do prefeito eleito em 2024 (fonte institucional/programática, não imprensa nem pesquisa de opinião)." + qualquer ressalva (texto ilegível, plano genérico, copiado de outro município etc.).
+- prefeito_2024, partido_prefeito, pl_local: "" (vazios).
+- ibge, municipio, uf: do cabeçalho.
+
+Neutralidade: descreva o que o plano diz, sem avaliar o prefeito ou o partido. Não invente nada que não esteja no texto.
+
+Saída: lista JSON (UTF-8) em SAIDA com as chaves exatas ibge, municipio, uf, prefeito_2024, partido_prefeito, pl_local, economia, pautas (lista), eventos, fontes (lista), confianca, obs. Valide com python3 -c "import json;json.load(open('SAIDA'))". Resposta final curta: quantos com pautas específicas e quais ficaram genéricos/ilegíveis. Não edite outros arquivos.
