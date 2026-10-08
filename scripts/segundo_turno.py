@@ -34,6 +34,12 @@ KEEP = ["IBGE", "municipio", "uf", "regiao", "capital", "hist", "pendulo_score",
 TERCEIROS = ["caiado", "renan", "cury", "zema", "outros"]
 # UFs com 2º turno para governador em 2022 (detalhe_votacao_munzona_2022: NR_TURNO 2, CD_CARGO 3)
 GOV_2T_2022 = {"AL", "AM", "BA", "ES", "MS", "PB", "PE", "RO", "RS", "SC", "SE", "SP"}
+# Situação do 2º turno de governador que os arquivos do TSE ainda não refletem. Revisar até 25/10.
+GOV_2T_STATUS = {
+    "RJ": "provavelmente cancelado: o TSE formou maioria para anular os 274.411 votos de Garotinho "
+          "(RO 0602359-26.2026.6.19.0000, 08/10); com isso, Ruas teria 50,9% dos válidos. "
+          "Falta a retotalização e proclamação pelo TRE-RJ.",
+}
 PORTE = ([0, 10e3, 50e3, 200e3, 1e6, 1e9], ["<10 mil", "10–50 mil", "50–200 mil", "200 mil–1 mi", ">1 mi"])
 
 
@@ -69,6 +75,8 @@ def municipios(m, limiar, listas):
 
     gov2t = set(pd.read_csv(REPO / "data/tse/estados_2026.csv").query("cargo == 'Governador' and situacao == '2º TURNO'").UF)
     d["gov_2t_uf"] = d.uf.isin(gov2t)
+    d["gov_2t_status"] = d.uf.map(GOV_2T_STATUS).str.split(":").str[0].where(d.gov_2t_uf, None)
+    d.loc[d.gov_2t_uf & d.gov_2t_status.isna(), "gov_2t_status"] = "confirmado"
     d["gov_2t_uf_2022"] = d.uf.isin(GOV_2T_2022)
     d["porte"] = pd.cut(d.aptos26, PORTE[0], labels=PORTE[1])
 
@@ -191,6 +199,7 @@ def main():
         "lula2p_1t26": float(b.lula2p26),
         "lula2p_2022": {"t1": float(lula2p(tmp.l1.sum(), tmp.b1.sum())), "t2": float(lula2p(tmp.l2.sum(), tmp.b2.sum()))},
         "uf_com_2t_governador": sorted(uf.index[uf.gov_2t_uf]),
+        "status_2t_governador": {u: GOV_2T_STATUS.get(u, "confirmado") for u in sorted(uf.index[uf.gov_2t_uf])},
         "cenarios": cen[["municipios", "gap26", "ausentes26", "ausentes_excesso", "votos_terceiros26",
                          "reserva_sobre_gap_nacional"]].astype(float).to_dict(orient="index"),
         "porte": porte[["municipios", "gap26", "reserva26", "pct_reserva"]].astype(float).to_dict(orient="index"),

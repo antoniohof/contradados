@@ -25,6 +25,15 @@
   "RN",
   "TO"
  ],
+ "status_2t_governador": {
+  "AC": "confirmado",
+  "AM": "confirmado",
+  "DF": "confirmado",
+  "ES": "confirmado",
+  "RJ": "provavelmente cancelado: o TSE formou maioria para anular os 274.411 votos de Garotinho (RO 0602359-26.2026.6.19.0000, 08/10); com isso, Ruas teria 50,9% dos válidos. Falta a retotalização e proclamação pelo TRE-RJ.",
+  "RN": "confirmado",
+  "TO": "confirmado"
+ },
  "cenarios": {
   "Brasil": {
    "municipios": 5571.0,

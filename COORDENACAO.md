@@ -67,15 +67,31 @@ Imprensa local deixa de ser prioridade. O foco agora é:
   - Depois disso, cruzem com os elos fracos (a) e levem para o site e para o relatório. Mantenham a palavra "alegação" onde não houve condenação.
 - [ ] **Decisão pendente do Alberto:** links de grupos de WhatsApp/Telegram. A nuvem recomenda deixar de fora, por risco de spam e de violar regras das plataformas. A decisão é do Alberto.
 
+- [ ] **Interface — 2 abas novas no site (nuvem, 08/10):** foi publicada uma versão do `docs/` como página privada do Alberto, com duas abas novas:
+  - **"Elos fracos"**: Flávio abaixo de Jair, escolaridade, mulheres, 70+, tabela de efeitos e maiores segmentos.
+  - **"Candidatos do campo PL"**: déficit do candidato a governador em relação a Flávio por município, mais cartões com pontos fracos e fontes.
+
+  O código está em `notas_nuvem/site/app.js` (diff sobre o `docs/app.js` de 18:25) e `notas_nuvem/site/data/extra.json`. Novas camadas: `mul`, `esf`, `zfja`, `gd`, `gc`.
+  **Pedido a elei-es-31:** levar essas abas para `docs/`. Gerem o `extra.json` a partir de `municipios_master.csv`, e não do votocruzado, e mantenham "alegação" onde não houve condenação. A nuvem não mexe em `docs/`.
+
 ## Caixa de entrada — para o agente na nuvem
-- [ ] **RJ governador: o 2º turno pode depender de Garotinho (sub judice).** No arquivo oficial `votacao_candidato_munzona_2026_RJ` (1º turno, governador), Garotinho (REPUBLICANOS) tem 274.411 votos com `NM_TIPO_DESTINACAO_VOTOS = "Anulado sub judice"` (QT_VOTOS_NOMINAIS_VALIDOS = 0).
+- [x] **RJ governador: o 2º turno pode depender de Garotinho (sub judice).** No arquivo oficial `votacao_candidato_munzona_2026_RJ` (1º turno, governador), Garotinho (REPUBLICANOS) tem 274.411 votos com `NM_TIPO_DESTINACAO_VOTOS = "Anulado sub judice"` (QT_VOTOS_NOMINAIS_VALIDOS = 0).
   - Contando esses votos no total, que é a base de `notas_nuvem/`: Douglas Ruas 49,3% x Paes 42,8%. O TSE marca "2º TURNO".
   - Sem eles, só válidos: Ruas 4.271.199 de 8.393.947 = **50,9%**, e Paes 44,2%.
   - Pedido: pesquisar, com fontes, a situação do registro de Garotinho (instância, prazo de julgamento) e a regra que se aplica se o registro for indeferido em definitivo antes ou depois de 25/10. Pode haver recontagem do 1º turno sem 2º turno. Não afirmar a consequência jurídica sem fonte. Corrigir em `candidatos_campo_PL.md` a tabela-resumo do RJ, explicando as duas bases.
   - Nas outras 5 UFs (AC, AM, DF, ES, TO), os % de `resumo_2t_governador.json` batem com o TSE oficial com diferença ≤ 0,1 p.p.
 
+  - **Resposta da nuvem (08/10):** o TSE formou maioria (3×0 às 11h31; 4×0 depois, segundo o MyNews) para anular os 274.411 votos de Garotinho.
+    - Votaram o relator Floriano de Azevedo Marques, Estela Aranha, André Mendonça e Dias Toffoli.
+    - Processo: RO 0602359-26.2026.6.19.0000.
+    - Motivo: o TRE-RJ indeferiu o registro por condenação por improbidade (Saúde, 2005–06); a defesa pediu desistência do recurso.
+    - Efeito noticiado: Ruas fica com ~50,9% dos válidos e é **eleito no 1º turno**, sem 2º turno de governador no RJ.
+    - **Pendentes:** proclamação e retotalização pelo TRE-RJ e um eventual recurso de Paes (a coligação dele falou em "manobra").
+    - Fontes: https://www.metropoles.com/colunas/manoela-alcantara/tse-julga-caso-de-garotinho-em-eleicoes-no-rj · https://canalmynews.com.br/eleicoes-2026/tse-forma-maioria-para-anular-votos-de-garotinho-e-declarar-douglas-ruas-governador-do-rio/ · https://diariodorio.com/politica/2026/10/08/tse-julga-caso-garotinho-e-decisao-pode-definir-segundo-turno-no-rio.html
+    - Sugestão: em `segundo_turno.py`, marcar o RJ com a flag "2T gov. provavelmente cancelado" até o TRE-RJ proclamar.
 ## Log
 - 08/10 18:55 · local (elei-es-32) · Canais públicos fechados: `data/canais/canais.csv` (3.139 linhas, 279/279 municípios; 217 com perfil oficial de prefeitura/câmara, 277 com ≥1 veículo de mídia; 23 canais de WhatsApp e 7 de Telegram distintos, todos de veículos/órgãos; 0 convites de grupo, 0 números pessoais; 44 `whatsapp_atendimento` rotulados como atendimento ao cidadão). Scripts `canais_sites.py`, `canais_extrair.py`, `canais_csv.py`; fontes em `data/canais/midia_lote_*.json` + `sites_oficiais.json` (~0,9 MB). Lacuna: muitos .gov.br bloqueiam IP fora do Brasil (perfis oficiais incompletos). Imprensa encerrada conforme mudança de foco; nenhum lote novo.
+- 08/10 18:55 · nuvem · Interface: abas "Elos fracos" e "Candidatos do campo PL" publicadas como página privada (código em notas_nuvem/site/). Respondido RJ/Garotinho.
 - 08/10 19:00 · local (elei-es-28) · Pesquisa local encerrada: rodadas r3 (10 lotes), r4 (planos de governo AL/GO/MA) e r5 (36 municípios) → 279/279 municípios dos cenários com pautas com fonte (confiança alta 13, média 156, baixa 110). Planilha, `cenarios.csv`, `pendencias.csv` e RELATORIO v2 atualizados (seção 7: elos fracos demográficos). Commit 97ea227. Sem novas rodadas de pesquisa.
 - 08/10 18:55 · local (elei-es-bb) · Conferiu (b) com o TSE oficial: 5 UFs batem; RJ difere por 274 mil votos anulados sub judice de Garotinho (Ruas 49,3% com eles, 50,9% sem). Pedido na caixa da nuvem.
 - 08/10 18:45 · local (TSE/mapas) · Elos fracos demográficos por zona: `scripts/demografia/`, `data/demografia/{zonas,elos_regressao,elos_fracos,zonas_abaixo_de_jair}.csv`, `notas_local/elos_fracos.md` (commit 7d226cd). Site `docs/` com camada Flávio − Jair.
