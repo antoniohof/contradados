@@ -1,12 +1,12 @@
 // Na prática: filtros por frente, porte e estado; lista de cidades; roteiros por região imediata.
 import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, baixarArquivo, RAIZ } from "./ui.js";
 import { aplicar, transferencia, completarQuaest, PORTES, UFNOME, PESQUISAS, PESQUISA_PADRAO } from "./frentes.js";
-import { MapaPontos, CORES } from "./dotmap.js";
+import { Mapa, COR, COR_F as RGB_F, trajeto } from "./dotmap.js";
 
-montarTopo({ pagina: "na-pratica/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["mapa/", "Mapa"]] });
+montarTopo({ pagina: "na-pratica/" });
 rodape();
 
-const [rows, regioes, divisas] = await Promise.all([municipios(), json("data/regioes.json"), json("data/divisas.json")]);
+const [rows, regioes, divisas, DEN0] = await Promise.all([municipios(), json("data/regioes.json"), json("data/divisas.json"), json("data/densidade.json")]);
 completarQuaest(rows);
 const D = aplicar(rows, transferencia()).filter((d) => d.lon != null);
 const NOME_F = ["Todas", "Reconquistar", "Mobilizar", "Terceiros"];
@@ -52,11 +52,11 @@ const ufs = [...new Set(D.map((d) => d.uf))].sort((a, b) => UFNOME[a].localeComp
 const selUF = document.getElementById("uf");
 selUF.insertAdjacentHTML("beforeend", ufs.map((u) => `<option value="${u}">${UFNOME[u]}</option>`).join(""));
 const campoQ = document.getElementById("q");
-document.querySelectorAll("[data-f]").forEach((b) => b.addEventListener("click", () => { S.f = +b.dataset.f; S.n = 48; S.nRot = 12; render(); }));
-document.querySelectorAll("[data-p]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.p; S.n = 48; S.nRot = 12; render(); }));
-selUF.addEventListener("change", () => { S.uf = selUF.value; S.n = 48; S.nRot = 12; render(true); });
+document.querySelectorAll("[data-f]").forEach((b) => b.addEventListener("click", () => { S.f = +b.dataset.f; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); }));
+document.querySelectorAll("[data-p]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.p; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); }));
+selUF.addEventListener("change", () => { S.uf = selUF.value; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); });
 let tq;
-campoQ.addEventListener("input", () => { clearTimeout(tq); tq = setTimeout(() => { S.q = campoQ.value; S.n = 48; render(); }, 180); });
+campoQ.addEventListener("input", () => { clearTimeout(tq); tq = setTimeout(() => { S.q = campoQ.value; S.n = 48; S.roteiro = ""; render(); }, 180); });
 document.getElementById("mais").addEventListener("click", () => { S.n += 48; desenharLista(); });
 document.getElementById("mais-rot").addEventListener("click", () => { S.nRot += 12; desenharRoteiros(); });
 const bOrdem = document.getElementById("ordem");
@@ -64,27 +64,62 @@ bOrdem.addEventListener("click", () => { S.ordem = S.ordem === "votos" ? "pct" :
 document.getElementById("csv").addEventListener("click", baixarCSV);
 
 // ---------------------------------------------------------------- mapa
-const P = { ibge: [], lon: [], lat: [], porte: [], lula: [], area: [], f1: [], f2: [], f3: [] };
-D.forEach((d) => { P.ibge.push(+d.ibge); P.lon.push(d.lon); P.lat.push(d.lat); P.porte.push(d.porte || 0); P.lula.push(d.parcela26 > 0.5 ? 1 : 0); P.area.push(d.areaLula ? 1 : 0); P.f1.push(d.f1); P.f2.push(d.f2); P.f3.push(d.f3); });
-const mapa = new MapaPontos(document.getElementById("mapa"), P, { area: (w, h) => [[10, 10], [w - 10, h - 10]], divisas });
+// No Brasil inteiro, com muitas cidades, 1 ponto = 1.000 votos (como no caminho): a densidade mostra onde está a seleção.
+// Num estado, num roteiro ou numa seleção curta, cada cidade vira um espinho com altura proporcional aos votos em jogo,
+// na cor da frente (ou da frente que mais pesa). Passe o mouse para ver a cidade; clique para abrir a ficha.
+const P = { lon: D.map((d) => d.lon), lat: D.map((d) => d.lat) };
+const indice = new Map(D.map((d, i) => [d.ibge, i]));
+const posD = DEN0.cidades.map((c) => indice.get(String(c)) ?? -1);
+const fica = [];
+for (let j = 0; j < DEN0.m.length; j++) if (posD[DEN0.m[j]] >= 0) fica.push(j);
+const DEN = { lon: fica.map((j) => DEN0.lon[j]), lat: fica.map((j) => DEN0.lat[j]), f: fica.map((j) => DEN0.f[j]), m: fica.map((j) => posD[DEN0.m[j]]) };
+const ROT_V = ["votos em jogo, somando as três frentes", "na diferença, se os eleitores perdidos voltarem", "de saldo, se os ausentes votarem como os vizinhos", "votos de eleitores de terceiros em disputa"];
+const CLS_F = ["", "f1t", "f2t", "f3t"];
+function dicaCidade(i) {
+  const d = D[i], f = S.f || d.principal;
+  return `<b>${esc(d.municipio)}</b> · ${d.uf}<span class="v ${CLS_F[f]}">+${grande(valor(d))}</span><small>${ROT_V[S.f]}${S.f ? "" : ` · ${NOME_F[f].toLowerCase()} pesa mais`}</small><small>${d.pop ? grande(d.pop) + " hab. · " : ""}Lula ${pct(d.parcela26 * 100, 0)} no 1º turno</small><a href="${RAIZ}cidade/?ibge=${d.ibge}">Abrir a ficha →</a>`;
+}
+const mapa = new Mapa(document.getElementById("mapa"), {
+  pontos: P, divisas, densidade: DEN,
+  area: (w, h) => [[10, Math.min(84, h * 0.13)], [w - 10, h - 10]],
+  dica: dicaCidade,
+  aoClicar: (i) => { location.href = `${RAIZ}cidade/?ibge=${D[i].ibge}`; },
+});
 mapa.aoRedimensionar = () => desenharMapa(true);
+const voltar = document.createElement("button");
+voltar.type = "button"; voltar.className = "pill pill--branco mapa-voltar"; voltar.hidden = true;
+voltar.textContent = "← Voltar à seleção";
+voltar.addEventListener("click", () => { S.roteiro = ""; desenharMapa(); desenharRoteiros(); });
+document.querySelector(".mapa-caixa").append(voltar);
 let selecaoAtual = [];
 function desenharMapa(inst = false) {
-  const sel = new Set(selecaoAtual.map((d) => d.ibge));
-  const vals = D.map((d) => (sel.has(d.ibge) ? valor(d) : 0));
-  const s = mapa.escala(vals, { piso: sel.size > 600 ? 0.4 : 0, fator: S.uf ? 1.4 : 1 });
-  const alvo = S.roteiro ? new Set((roteiroPorCodigo(S.roteiro)?.cidades || []).map((d) => d.ibge)) : null;
-  mapa.estado((i) => {
-    const d = D[i];
-    if (!sel.has(d.ibge)) return { cor: CORES.apagado, r: mapa.base * 0.8 };
-    const hc = S.f || d.principal;
-    const destaque = alvo && alvo.has(d.ibge);
-    return { cor: destaque ? CORES.f2 : CORES.tinta, r: mapa.base * (destaque ? 2 : 1.15), halo: s(vals[i]), hc };
-  }, { instantaneo: inst, rotulos: rotulosMapa() });
+  const sel = new Set(selecaoAtual.map((d) => indice.get(d.ibge)));
+  const rot = S.roteiro ? roteiroPorCodigo(S.roteiro) : null;
+  const naRota = rot ? new Set(rot.cidades.map((c) => indice.get(c.ibge))) : null;
+  const ordem = rot ? trajeto(rot.cidades, (c) => valor(c)).ordem.map((c) => indice.get(c.ibge)) : [];
+  const uf = S.uf ? D.map((d, i) => (d.uf === S.uf ? i : -1)).filter((i) => i >= 0) : null;
+  const espinhos = !!(rot || S.uf || sel.size <= 150);
+  voltar.hidden = !rot;
+  const c = { base: () => ({ cor: COR.claro, r: 0.8 }), enquadre: rot ? ordem : uf };
+  if (espinhos) {
+    const vals = D.map((d, i) => (sel.has(i) ? valor(d) : 0));
+    const e = mapa.escala(vals);
+    c.espinhos = {
+      altura: (i) => (rot && !naRota.has(i) ? e.altura(vals[i]) * 0.6 : e.altura(vals[i])),
+      cor: (i) => (rot && !naRota.has(i) ? COR.apagado : RGB_F[S.f || D[i].principal]),
+      corte: (i) => e.corte(vals[i]),
+    };
+    c.regua = e.regua && { altura: e.regua.altura, texto: `${grande(e.regua.valor)} votos` };
+  } else {
+    c.densidade = (j) => (sel.has(DEN.m[j]) && (!S.f || DEN.f[j] === S.f) ? { cor: RGB_F[DEN.f[j]] } : null);
+    c.regua = { ponto: true, cor: S.f ? `rgb(${RGB_F[S.f]})` : "#555", texto: S.f === 1 ? "1 ponto = 1.000 eleitores a reconquistar" : "1 ponto = 1.000 votos" };
+  }
+  c.rotas = rot ? [{ cidades: ordem }] : [];
+  c.rotulos = rot ? ordem.map((i, k) => ({ i, texto: `${k + 1}. ${D[i].municipio}` })) : rotulosMapa();
+  mapa.cena(c, { instantaneo: inst });
 }
 function rotulosMapa() {
-  const lista = ordenar(selecaoAtual).slice(0, S.uf ? 10 : 6);
-  return lista.map((d) => ({ lon: d.lon, lat: d.lat, texto: d.municipio, cor: COR_F[S.f || d.principal] }));
+  return ordenar(selecaoAtual).slice(0, S.uf ? 10 : 7).map((d) => ({ i: indice.get(d.ibge), texto: d.municipio }));
 }
 
 // ---------------------------------------------------------------- resumo
@@ -112,14 +147,14 @@ function desenharResumo(sel) {
     <button class="barra-porte${S.p === g.p ? " ativa" : ""}" type="button" data-pp="${g.p}">
       <span class="r">${g.nome}</span><span class="b"><i style="width:${(100 * g.v / m).toFixed(1)}%;background:${S.p === g.p ? COR_F[S.f] === "#000" ? "#7533ff" : COR_F[S.f] : "#bdbdbd"}"></i></span><span class="v">+${grande(g.v, true)}</span>
     </button>`).join("");
-  document.querySelectorAll("[data-pp]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.pp; S.n = 48; render(); }));
+  document.querySelectorAll("[data-pp]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.pp; S.n = 48; S.roteiro = ""; render(); }));
 
   // estados
   const porUF = new Map();
   for (const d of filtrar({ uf: "" })) porUF.set(d.uf, (porUF.get(d.uf) || 0) + valor(d));
   const top = [...porUF].sort((a, b) => b[1] - a[1]).slice(0, 12);
   document.getElementById("estados").innerHTML = `<p class="nota">Estados com mais potencial nesta seleção</p><ul>${top.map(([u, v]) => `<li><button type="button" data-uf="${u}">${UFNOME[u]}</button><span class="num">+${grande(v, true)}</span></li>`).join("")}</ul>`;
-  document.querySelectorAll("[data-uf]").forEach((b) => b.addEventListener("click", () => { S.uf = b.dataset.uf; selUF.value = S.uf; S.n = 48; render(true); }));
+  document.querySelectorAll("[data-uf]").forEach((b) => b.addEventListener("click", () => { S.uf = b.dataset.uf; selUF.value = S.uf; S.n = 48; S.roteiro = ""; render(); }));
 }
 
 // ---------------------------------------------------------------- lista de cidades
@@ -148,25 +183,6 @@ function desenharLista() {
 }
 
 // ---------------------------------------------------------------- roteiros
-const km = (a, b) => {
-  const R = 6371, rad = Math.PI / 180;
-  const dLa = (b.lat - a.lat) * rad, dLo = (b.lon - a.lon) * rad;
-  const x = Math.sin(dLa / 2) ** 2 + Math.cos(a.lat * rad) * Math.cos(b.lat * rad) * Math.sin(dLo / 2) ** 2;
-  return 2 * R * Math.asin(Math.sqrt(x));
-};
-function trajeto(cidades) {
-  const resto = cidades.slice().sort((a, b) => valor(b) - valor(a));
-  const ordem = [resto.shift()];
-  const passos = [0];
-  while (resto.length) {
-    const atual = ordem[ordem.length - 1];
-    let k = 0, dmin = Infinity;
-    resto.forEach((c, i) => { const dd = km(atual, c); if (dd < dmin) { dmin = dd; k = i; } });
-    ordem.push(resto.splice(k, 1)[0]);
-    passos.push(dmin);
-  }
-  return { ordem, passos, total: passos.reduce((a, b) => a + b, 0) };
-}
 let roteirosAtuais = [];
 function calcularRoteiros(sel) {
   const g = new Map();
@@ -182,7 +198,7 @@ function roteiroPorCodigo(cod) {
 function desenharRoteiros() {
   const lista = roteirosAtuais.slice(0, S.nRot);
   document.getElementById("lista-roteiros").innerHTML = lista.map((r) => {
-    const t = trajeto(r.cidades);
+    const t = trajeto(r.cidades, (c) => valor(c));
     const f = S.f || 1 + r.g.indexOf(Math.max(...r.g));
     return `<article class="roteiro${S.roteiro === r.cod ? " alvo" : ""}" id="roteiro-${r.cod}">
       <h3>${esc(r.nome)} (${r.uf})</h3>
@@ -195,10 +211,10 @@ function desenharRoteiros() {
   document.getElementById("mais-rot").hidden = roteirosAtuais.length <= S.nRot;
   document.querySelectorAll("[data-ver]").forEach((b) => b.addEventListener("click", () => {
     S.roteiro = b.dataset.ver;
-    const r = roteiroPorCodigo(S.roteiro);
-    mapa.enquadrar(r.cidades.map((c) => D.indexOf(c)));
-    desenharMapa();
+    document.querySelectorAll(".roteiro.alvo").forEach((x) => x.classList.remove("alvo"));
+    b.closest(".roteiro")?.classList.add("alvo");
     document.querySelector(".mapa-caixa").scrollIntoView({ behavior: "smooth", block: "center" });
+    setTimeout(() => desenharMapa(), 350);
   }));
 }
 
@@ -211,21 +227,20 @@ function baixarCSV() {
 }
 
 // ---------------------------------------------------------------- tudo
-function render(reenquadrar = false) {
+function render() {
   document.querySelectorAll("[data-f]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.f === S.f)));
   document.querySelectorAll("[data-p]").forEach((b) => b.setAttribute("aria-pressed", String(+b.dataset.p === S.p)));
   selUF.value = S.uf;
   if (campoQ.value !== S.q) campoQ.value = S.q;
   selecaoAtual = filtrar();
   roteirosAtuais = calcularRoteiros(selecaoAtual);
-  if (reenquadrar || S.uf || mapa.enquadre) mapa.enquadrar(S.uf ? D.map((d, i) => (d.uf === S.uf ? i : -1)).filter((i) => i >= 0) : null);
   desenharResumo(selecaoAtual);
   desenharLista();
   desenharRoteiros();
   desenharMapa();
   gravarHash();
 }
-render(true);
+render();
 
 // vindo de um link para um roteiro ou para a lista de roteiros
 if (S.roteiro) {
@@ -233,7 +248,6 @@ if (S.roteiro) {
   if (r) {
     if (!roteirosAtuais.some((x) => x.cod === S.roteiro)) { roteirosAtuais.unshift(r); desenharRoteiros(); }
     setTimeout(() => document.getElementById("roteiro-" + S.roteiro)?.scrollIntoView({ block: "start" }), 300);
-    mapa.enquadrar(r.cidades.map((c) => D.indexOf(c)));
     desenharMapa(true);
   }
 } else if (h0.has("rot")) setTimeout(() => document.getElementById("roteiros").scrollIntoView({ block: "start" }), 300);

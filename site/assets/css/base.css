@@ -150,8 +150,12 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .contagem { font-variant-numeric: tabular-nums; }
 .abas {
   position: fixed; z-index: 55; top: 46px; left: var(--gutter);
+  max-width: calc(100vw - 2 * var(--gutter));
   display: flex; gap: 4px;
+  overflow-x: auto; scrollbar-width: none;
 }
+.abas::-webkit-scrollbar { display: none; }
+.abas > * { flex: none; }
 .busca {
   position: fixed; z-index: 70; top: 46px; left: var(--gutter);
   width: min(420px, calc(100vw - 2 * var(--gutter)));
@@ -194,7 +198,6 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .painel li .num { font-variant-numeric: tabular-nums; color: var(--cinza); font-weight: 400; }
 .painel .chave { display: inline-flex; align-items: center; gap: 6px; }
 .painel .chave i { width: 10px; height: 10px; border-radius: 50%; display: inline-block; flex: none; }
-.painel .chave i.halo { width: 14px; height: 14px; }
 .painel small { display: block; margin-top: 6px; font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #444; }
 
 /* ---------------------------------------------------------------- faixas e cabeçalhos de seção */
@@ -282,3 +285,19 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 @media print {
   .topo, .abas, .menu, .painel, .busca { display: none !important; }
 }
+
+/* ---------------------------------------------------------------- dica dos mapas */
+.mapa-dica {
+  position: absolute; z-index: 5; pointer-events: none;
+  background: var(--papel); border-radius: var(--r); padding: 6px 9px 7px;
+  box-shadow: 0 1px 6px rgba(0, 0, 0, 0.18);
+  font: 400 14px/18px var(--ui); max-width: 250px;
+}
+.mapa-dica[hidden] { display: none; }
+.mapa-dica.fixa { pointer-events: auto; }
+.mapa-dica b { font-weight: 600; }
+.mapa-dica .v { display: block; font: 500 19px/23px var(--ui); margin: 2px 0 1px; font-variant-numeric: tabular-nums; }
+.mapa-dica small { display: block; color: #555; }
+.mapa-dica a { display: none; margin-top: 5px; color: var(--f2-txt); font-weight: 500; }
+.mapa-dica.fixa a { display: inline-block; }
+.mapa-voltar { position: absolute; z-index: 4; top: 10px; left: 10px; }

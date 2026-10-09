@@ -2,7 +2,7 @@
 import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, reais, linkWhats, copiar, baixarArquivo, RAIZ, semAcento } from "./ui.js";
 import { aplicar, transferencia, completarQuaest, UFNOME } from "./frentes.js";
 
-montarTopo({ pagina: "reels/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["reels/", "Reels"]] });
+montarTopo({ pagina: "reels/" });
 rodape();
 
 const [rows, radar, P] = await Promise.all([municipios(), json("data/radar.json"), json("data/pontos.json")]);

@@ -79,10 +79,12 @@ const PAGINAS = [
   ["mapa/", "Mapa das frentes", "As três frentes no país inteiro, com a conta e as pesquisas à vista."],
   ["reels/", "Kit de reels", "Roteiro e cartões verticais para cada cidade, com vídeos do Radar da Virada."],
   ["metodo/", "Método e fontes", "De onde vêm os números, como a conta é feita e o que ela não diz."],
-  ["arquivo/", "Arquivo", "A versão anterior do site, com fichas e relatórios por município."],
 ];
 
-export function montarTopo({ pagina = "", abas = null, painel = null } = {}) {
+// as mesmas abas em todas as páginas; a ficha da cidade fica sob "Na prática"
+const ABAS = [["", "O caminho"], ["na-pratica/", "Na prática"], ["mapa/", "Mapa"], ["reels/", "Reels"], ["metodo/", "Método"]];
+
+export function montarTopo({ pagina = "", painel = null } = {}) {
   const dias = diasAte2T();
   const topo = document.createElement("header");
   topo.className = "topo";
@@ -107,8 +109,8 @@ export function montarTopo({ pagina = "", abas = null, painel = null } = {}) {
   const barra = document.createElement("nav");
   barra.className = "abas";
   barra.setAttribute("aria-label", "Seções");
-  const itens = abas || [["", "O caminho"], ["mapa/", "Mapa"]];
-  barra.innerHTML = itens.map(([h, t]) => `<a class="pill${h === pagina ? " pill--lilas" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
+  const ativa = pagina === "cidade/" ? "na-pratica/" : pagina;
+  barra.innerHTML = ABAS.map(([h, t]) => `<a class="pill${h === ativa ? " pill--lilas" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
     (dias >= 0 ? `<span class="pill pill--branco contagem oculto-movel" title="Segundo turno em 25 de outubro de 2026">25/10 · ${dias === 0 ? "é hoje" : dias === 1 ? "falta 1 dia" : `faltam ${dias} dias`}</span>` : "");
   topo.after(barra);
 

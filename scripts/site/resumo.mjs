@@ -4,6 +4,7 @@
 // Entrada: site/data/municipios.csv (gerado por scripts/site/build_dados.py)
 // Saídas:  site/data/resumo.json  (totais, portes, regiões, listas, roteiros)
 //          site/data/pontos.json  (mapa de pontos da página inicial)
+//          site/data/densidade.json (1 ponto = 1.000 votos, por frente)
 import { readFileSync, writeFileSync } from "node:fs";
 import { fileURLToPath } from "node:url";
 import { dirname, join } from "node:path";
@@ -139,6 +140,61 @@ for (const d of D) {
   P.f1.push(r0(d.f1)); P.f2.push(r0(d.f2)); P.f3.push(r0(d.f3));
 }
 writeFileSync(join(DATA, "pontos.json"), JSON.stringify(P));
+
+// ---------- mapa de densidade: 1 ponto = 1.000 votos, sorteado dentro do território do município
+// Cada frente vira pontos (reconquistar = eleitores, mobilizar = saldo, terceiros = votos em disputa).
+// Arredondamento sorteado: um município com 1.400 votos tem 1 ponto e 40% de chance de um 2º.
+// Sorteio com semente fixa: o arquivo sai igual a cada build.
+const UNIDADE = 1000;
+const topo = JSON.parse(readFileSync(join(DATA, "municipios.topo.json"), "utf8"));
+const [sx, sy] = topo.transform.scale, [tx0, ty0] = topo.transform.translate;
+const arcos = topo.arcs.map((arc) => { let x = 0, y = 0; return arc.map(([dx, dy]) => { x += dx; y += dy; return [x * sx + tx0, y * sy + ty0]; }); });
+const anel = (idx) => { const pts = []; for (const i of idx) { const a = i >= 0 ? arcos[i] : arcos[~i].slice().reverse(); pts.push(...(pts.length ? a.slice(1) : a)); } return pts; };
+const geom = new Map();
+for (const g of topo.objects.municipios.geometries) {
+  const polis = g.type === "Polygon" ? [g.arcs] : g.arcs;
+  const aneis = polis.flatMap((p) => p.map(anel));
+  let x0 = 180, x1 = -180, y0 = 90, y1 = -90;
+  for (const r of aneis) for (const [x, y] of r) { x0 = Math.min(x0, x); x1 = Math.max(x1, x); y0 = Math.min(y0, y); y1 = Math.max(y1, y); }
+  geom.set(String(g.properties.id), { aneis, caixa: [x0, y0, x1, y1] });
+}
+const dentro = (x, y, aneis) => {
+  let c = false;
+  for (const r of aneis) for (let i = 0, j = r.length - 1; i < r.length; j = i++) {
+    const [xi, yi] = r[i], [xj, yj] = r[j];
+    if ((yi > y) !== (yj > y) && x < ((xj - xi) * (y - yi)) / (yj - yi) + xi) c = !c;
+  }
+  return c;
+};
+const sorteio = (semente) => { let a = semente >>> 0; return () => { a = (a + 0x6d2b79f5) | 0; let t = Math.imul(a ^ (a >>> 15), 1 | a); t = (t + Math.imul(t ^ (t >>> 7), 61 | t)) ^ t; return ((t ^ (t >>> 14)) >>> 0) / 4294967296; }; };
+const DEN = [];
+let im = -1;
+for (const d of D) {
+  if (d.lon == null) continue;
+  im++;
+  const g = geom.get(d.ibge);
+  for (const k of [1, 2, 3]) {
+    const v = d["f" + k];
+    if (!(v > 0)) continue;
+    const r = sorteio(+d.ibge * 10 + k);
+    const n = Math.floor(v / UNIDADE) + (r() < (v % UNIDADE) / UNIDADE ? 1 : 0);
+    for (let q = 0; q < n; q++) {
+      let x = d.lon, y = d.lat;
+      if (g) {
+        const [x0, y0, x1, y1] = g.caixa;
+        for (let t = 0; t < 400; t++) { const px = x0 + r() * (x1 - x0), py = y0 + r() * (y1 - y0); if (dentro(px, py, g.aneis)) { x = px; y = py; break; } }
+      }
+      DEN.push([+x.toFixed(3), +y.toFixed(3), k, im]);
+    }
+  }
+}
+const embaralha = sorteio(2026);
+for (let i = DEN.length - 1; i > 0; i--) { const j = Math.floor(embaralha() * (i + 1)); [DEN[i], DEN[j]] = [DEN[j], DEN[i]]; }
+writeFileSync(join(DATA, "densidade.json"), JSON.stringify({
+  // m aponta para a cidade em "cidades" (mesma ordem de pontos.json)
+  unidade: UNIDADE, cidades: P.ibge, lon: DEN.map((p) => p[0]), lat: DEN.map((p) => p[1]), f: DEN.map((p) => p[2]), m: DEN.map((p) => p[3]),
+}));
+console.log("densidade:", DEN.length, "pontos;", [1, 2, 3].map((k) => DEN.filter((p) => p[2] === k).length).join(" / "));
 
 console.log(JSON.stringify({ totais, porPesquisa, porPorte }, null, 1));
 console.log("roteiros:", roteiros.length, "| top:", roteiros.slice(0, 5).map((r) => `${r.nome}/${r.uf} ${r.cidades} ${r.gTot}`).join("; "));

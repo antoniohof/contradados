@@ -1,6 +1,6 @@
 // Página inicial: o feed em 10 posts e o mapa de pontos que muda a cada passo.
 import { montarTopo, rodape, json, grande, n0, pct, esc, linkWhats, copiar, RAIZ } from "./ui.js";
-import { MapaPontos, CORES } from "./dotmap.js";
+import { Mapa, COR, COR_F, HEX, HEX_F, TXT_F, trajeto, ufDoCodigo } from "./dotmap.js";
 import { barras, cascata, caminhos, empilhadas, pessoas, checklist, ranking } from "./esboco.js";
 import { PESQUISAS, UFNOME } from "./frentes.js";
 import { annotate } from "../vendor/rough-notation-0.5.1.esm.js";
@@ -9,7 +9,7 @@ const { painel } = montarTopo({ pagina: "", painel: '<div class="painel__titulo"
 painel.classList.add("painel--legenda");
 rodape();
 
-const [P, R, divisas] = await Promise.all([json("data/pontos.json"), json("data/resumo.json"), json("data/divisas.json")]);
+const [P, R, divisas, DEN] = await Promise.all([json("data/pontos.json"), json("data/resumo.json"), json("data/divisas.json"), json("data/densidade.json")]);
 const T = R.totais;
 
 // ---------------------------------------------------------------- números no texto
@@ -29,9 +29,20 @@ document.querySelectorAll("[data-n]").forEach((el) => {
 });
 
 // ---------------------------------------------------------------- mapa
+// Primeiro, um ponto por cidade (quem venceu). Depois, 1 ponto = 1.000 votos em jogo, sorteado dentro
+// do território de cada cidade e pintado pela frente: a densidade mostra onde estão os votos, a cor mostra o caminho.
 const canvas = document.getElementById("mapa");
 const area = (w, h) => (w >= 900 ? [[Math.min(640, w * 0.46), 96], [w - 28, h - 28]] : [[10, 92], [w - 10, Math.max(260, h * 0.58)]]);
-const mapa = new MapaPontos(canvas, P, { area, divisas });
+// rótulos e notas não vão para baixo do topo nem da legenda
+const reservado = () => {
+  const caixas = [[0, 0, innerWidth, 84]];
+  const r = painel.getBoundingClientRect();
+  if (r.width && !painel.classList.contains("fora")) caixas.push([r.left - 6, r.top - 6, r.right + 6, r.bottom + 6]);
+  return caixas;
+};
+// num recorte (os roteiros), o enquadramento deixa livre o canto da legenda
+const areaZoom = (w, h) => (w >= 900 ? [[Math.min(640, w * 0.46), 110], [w - 340, h - 40]] : area(w, h));
+const mapa = new Mapa(canvas, { pontos: P, area, areaZoom, divisas, densidade: DEN, reservado });
 const N = P.lon.length;
 const gT = new Float64Array(N), princ = new Uint8Array(N);
 for (let i = 0; i < N; i++) {
@@ -40,49 +51,57 @@ for (let i = 0; i < N; i++) {
   princ[i] = 1 + g.indexOf(Math.max(...g));
 }
 const idx = new Map(Array.from(P.ibge, (c, i) => [String(c), i]));
-const rotas = R.roteiros.slice(0, 6);
-const naRota = new Set(rotas.flatMap((r) => r.lista.map((c) => c.ibge)));
-const centroRota = (r) => {
-  const is = r.lista.map((c) => idx.get(c.ibge)).filter((i) => i != null);
-  return { lon: is.reduce((s, i) => s + P.lon[i], 0) / is.length, lat: is.reduce((s, i) => s + P.lat[i], 0) / is.length };
-};
+// os seis roteiros com mais votos em jogo, na ordem de visita
+const rotas = R.roteiros.slice(0, 6).map((r) => {
+  const cid = r.lista.map((c) => idx.get(String(c.ibge))).filter((i) => i != null).map((i) => ({ i, lon: P.lon[i], lat: P.lat[i], g: gT[i] }));
+  const t = trajeto(cid, (c) => c.g);
+  return { ...r, ordem: t.ordem.map((c) => c.i), km: t.total };
+});
+const naRota = rotas.flatMap((r) => r.ordem);
+const gRota = Math.max(...naRota.map((i) => gT[i]));
+// âncoras das notas: o centro dos pontos de cada frente na região citada no post
+const NE = new Set(["MA", "PI", "CE", "RN", "PB", "PE", "AL", "SE", "BA"]);
+const ufPonto = (j) => ufDoCodigo(P.ibge[DEN.m[j]]);
+const meio = (ok) => { let x = 0, y = 0, n = 0; for (let j = 0; j < DEN.lon.length; j++) if (ok(j)) { x += DEN.lon[j]; y += DEN.lat[j]; n++; } return { lon: x / n, lat: y / n }; };
+const ne = R.porRegiao.find((r) => r.id === "Nordeste"), sp = R.porUF.find((u) => u.id === "SP");
+const notaNE = { ...meio((j) => DEN.f[j] === 2 && NE.has(ufPonto(j))), texto: `Nordeste: ${grande(ne.f2, true)} · ${Math.round((ne.f2 / T.f2) * 100)}%`, cor: TXT_F[2], dx: 30, dy: -105 };
+const notaSP = { ...meio((j) => DEN.f[j] === 3 && ufPonto(j) === "SP"), texto: `São Paulo: ${grande(sp.f3, true)} · ${Math.round((sp.f3 / T.f3) * 100)}%`, cor: TXT_F[3], dx: -120, dy: -70 };
 
+const claro = () => ({ cor: COR.claro, r: 0.85 });
+const so = (k) => (j) => (DEN.f[j] === k ? { cor: COR_F[k] } : null);
 const PASSOS = {
-  inicio: () => () => ({ cor: CORES.tinta }),
-  vencedor: () => (i) => ({ cor: P.lula[i] ? CORES.lula : CORES.flavio, r: mapa.base * 1.12 }),
-  tres: () => { const s = mapa.escala(gT, { piso: 0.6 }); return (i) => ({ cor: CORES.tinta, halo: s(gT[i]), hc: princ[i] }); },
-  f1: () => { const s = mapa.escala(P.f1, { piso: 0.55 }); return (i) => ({ cor: P.f1[i] > 0 ? CORES.tinta : CORES.apagado, halo: s(P.f1[i]), hc: 1 }); },
-  f2: () => { const s = mapa.escala(P.f2, { piso: 0.35 }); return (i) => ({ cor: P.area[i] ? CORES.tinta : CORES.apagado, halo: s(P.f2[i]), hc: 2 }); },
-  f3: () => { const s = mapa.escala(P.f3, { piso: 0.55 }); return (i) => ({ cor: CORES.tinta, halo: s(P.f3[i]), hc: 3 }); },
-  pequenas: () => {
-    const v = gT.map((x, i) => (P.porte[i] === 2 ? x : 0)), s = mapa.escala(v, { piso: 0.45 });
-    return (i) => (P.porte[i] === 2 ? { cor: CORES.tinta, r: mapa.base * 1.15, halo: s(v[i]), hc: princ[i] } : { cor: CORES.apagado, r: mapa.base * 0.85 });
-  },
-  roteiros: () => {
-    const v = gT.map((x, i) => (naRota.has(String(P.ibge[i])) ? x : 0)), s = mapa.escala(gT.map((x, i) => (P.porte[i] === 2 ? x : 0)));
-    return (i) => (v[i] > 0 ? { cor: CORES.tinta, r: mapa.base * 1.3, halo: s(v[i]), hc: princ[i] } : { cor: CORES.apagado, r: mapa.base * 0.85 });
-  },
-  lei: () => () => ({ cor: CORES.meio }),
-};
-const EXTRAS = {
-  f2: { anotacoes: [{ ufs: ["MA", "PI", "CE", "RN", "PB", "PE", "AL", "SE", "BA"], texto: "Nordeste: " + grande(R.porRegiao.find((r) => r.id === "Nordeste").f2, true), cor: "#6526e8", lado: "dir" }] },
-  f3: { anotacoes: [{ ufs: ["SP"], texto: "São Paulo: " + Math.round((R.porUF.find((u) => u.id === "SP").f3 / T.f3) * 100) + "%", cor: "#a85a00", lado: "dir" }] },
-  roteiros: { rotulos: rotas.map((r) => ({ ...centroRota(r), texto: `${r.nome} (${r.uf})`, cor: "#000" })) },
+  inicio: () => ({ base: () => ({ cor: COR.tinta }) }),
+  vencedor: () => ({ base: (i) => ({ cor: P.lula[i] ? COR.lula : COR.flavio, r: 1.1 }) }),
+  tres: () => ({ base: claro, densidade: (j) => ({ cor: COR_F[DEN.f[j]] }) }),
+  f1: () => ({ base: claro, densidade: so(1) }),
+  f2: () => ({ base: claro, densidade: so(2), notas: [notaNE] }),
+  f3: () => ({ base: claro, densidade: so(3), notas: [notaSP] }),
+  pequenas: () => ({ base: claro, densidade: (j) => (P.porte[DEN.m[j]] === 2 ? { cor: COR_F[DEN.f[j]] } : { cor: COR.apagado }) }),
+  roteiros: () => ({
+    base: (i) => (P.porte[i] === 2 ? { cor: COR.apagado, r: 0.62 } : { cor: COR.claro, r: 0.5 }),
+    densidade: null, espalhar: 1,
+    rotas: rotas.map((r) => ({ cidades: r.ordem })),
+    nos: naRota.map((i) => ({ i, r: 1.5 + 2.7 * Math.sqrt(gT[i] / gRota), cor: HEX_F[princ[i]] })),
+    rotulos: rotas.map((r, k) => ({ grupo: r.ordem, texto: `${k + 1}. ${r.nome}` })),
+    enquadre: naRota,
+  }),
+  lei: () => ({ base: () => ({ cor: COR.meio }) }),
 };
 
 // ---------------------------------------------------------------- legenda (painel)
-const chip = (cor, txt, halo = false) => `<span class="chave"><i class="${halo ? "halo" : ""}" style="background:${cor}"></i>${txt}</span>`;
-const topUF = (campo, fmt = (v) => grande(v, true)) => R.porUF.slice().sort((a, b) => b[campo] - a[campo]).slice(0, 5).map((u) => `<li><span>${UFNOME[u.id]}</span><span class="num">${fmt(u[campo])}</span></li>`).join("");
+const curto = (v) => grande(v, true);
+const chip = (cor, txt) => `<span class="chave"><i style="background:${cor}"></i>${txt}</span>`;
+const topUF = (campo) => R.porUF.slice().sort((a, b) => b[campo] - a[campo]).slice(0, 5).map((u) => `<li><span>${UFNOME[u.id]}</span><span class="num">${curto(u[campo])}</span></li>`).join("");
 const LEGENDA = {
-  inicio: ["", `${chip("#000", "cada ponto é uma cidade")}`],
-  vencedor: ["1º turno", `<ul><li>${chip("#ff1a1a", "Lula venceu")}<span class="num">${n0(T.vencidosLula)}</span></li><li>${chip("#6b6b6b", "Flávio venceu")}<span class="num">${n0(T.municipiosNaConta - T.vencidosLula)}</span></li></ul>`],
-  tres: ["frente que mais pesa", `<ul><li>${chip("#ff7f7f", "Reconquistar", true)}</li><li>${chip("#ba99ff", "Mobilizar", true)}</li><li>${chip("#ffcc7f", "Terceiros", true)}</li></ul><small>Tamanho do halo: potencial somado das três frentes.</small>`],
-  f1: ["onde mais pesa", `<ul>${topUF("f1")}</ul><small>${chip("#ff7f7f", "votos a reconquistar", true)}</small>`],
-  f2: ["onde mais pesa", `<ul>${topUF("f2")}</ul><small>${chip("#ba99ff", "saldo se os ausentes votassem", true)}</small>`],
-  f3: ["onde mais pesa", `<ul>${topUF("f3")}</ul><small>${chip("#ffcc7f", "votos em disputa", true)}</small>`],
-  pequenas: ["10 a 50 mil hab.", `<ul>${R.porUF.slice().sort((a, b) => b.pequenasGTot - a.pequenasGTot).slice(0, 5).map((u) => `<li><span>${UFNOME[u.id]} <span class="num">· ${u.pequenas} cidades</span></span><span class="num">${grande(u.pequenasGTot, true)}</span></li>`).join("")}</ul>`],
-  roteiros: ["regiões imediatas", `<ul>${rotas.map((r) => `<li><span>${esc(r.nome)} (${r.uf})</span><span class="num">${r.cidades} cid.</span></li>`).join("")}</ul>`],
-  lei: ["", `${chip("#7533ff", "pode")} ${chip("#ff1a1a", "não pode")}`],
+  inicio: ["", chip("#000", "cada ponto é uma cidade")],
+  vencedor: ["1º turno", `<ul><li>${chip(HEX.f1, "Lula venceu")}<span class="num">${n0(T.vencidosLula)}</span></li><li>${chip(HEX.flavio, "Flávio venceu")}<span class="num">${n0(T.municipiosNaConta - T.vencidosLula)}</span></li></ul><small>Cada ponto é uma cidade.</small>`],
+  tres: ["1 ponto = 1.000 votos", `<ul><li>${chip(HEX.f1, "Reconquistar")}<span class="num">${curto(T.f1)}</span></li><li>${chip(HEX.f2, "Mobilizar")}<span class="num">${curto(T.f2)}</span></li><li>${chip(HEX.f3, "Terceiros")}<span class="num">${curto(T.f3)}</span></li></ul><small>Cada ponto cai num lugar sorteado dentro do território da cidade.</small>`],
+  f1: ["onde mais pesa", `<ul>${topUF("f1")}</ul><small>${chip(HEX.f1, "1 ponto = 1.000 eleitores a reconquistar")}</small>`],
+  f2: ["onde mais pesa", `<ul>${topUF("f2")}</ul><small>${chip(HEX.f2, "1 ponto = 1.000 votos de saldo")}</small>`],
+  f3: ["onde mais pesa", `<ul>${topUF("f3")}</ul><small>${chip(HEX.f3, "1 ponto = 1.000 votos em disputa")}</small>`],
+  pequenas: ["10 a 50 mil hab.", `<ul>${R.porUF.slice().sort((a, b) => b.pequenasGTot - a.pequenasGTot).slice(0, 5).map((u) => `<li><span>${UFNOME[u.id]} <span class="num">· ${u.pequenas} cidades</span></span><span class="num">${curto(u.pequenasGTot)}</span></li>`).join("")}</ul><small>Em cor, os votos dessas cidades; em cinza, os das outras.</small>`],
+  roteiros: ["ordem de visita", `<ul>${rotas.map((r) => `<li><span>${esc(r.nome)} (${r.uf})</span><span class="num">${r.cidades} cid. · ${n0(r.km)} km</span></li>`).join("")}</ul><small>Círculo: votos em jogo na cidade, na cor da frente que mais pesa.</small>`],
+  lei: ["", chip(HEX.meio, "cada ponto é uma cidade")],
 };
 function legenda(passo) {
   const [t, corpo] = LEGENDA[passo] || LEGENDA.inicio;
@@ -92,14 +111,13 @@ function legenda(passo) {
 
 let atual = null;
 function aplicar(passo, instantaneo = false) {
-  mapa.estado(PASSOS[passo](), { ...(EXTRAS[passo] || {}), instantaneo });
+  mapa.cena(PASSOS[passo](), { instantaneo });
   legenda(passo);
 }
 mapa.aoRedimensionar = () => aplicar(atual || "inicio", true);
 aplicar("inicio", true);
 
 // ---------------------------------------------------------------- gráficos dos posts
-const curto = (v) => grande(v, true);
 const VIZ = {
   placar: (el) => barras(el, [
     { rotulo: "Flávio", valor: T.flavio, cor: "#8a8a8a", texto: curto(T.flavio) },

@@ -9,13 +9,13 @@ territórios, não pessoas, e mostram tetos, não previsões.
 
 | Endereço | O que tem |
 | --- | --- |
-| `/` | **O caminho**: 10 posts em formato de feed, com o mapa de pontos mudando a cada passo (scrollytelling). |
-| `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. |
+| `/` | **O caminho**: 10 posts em formato de feed, com o mapa mudando a cada passo (scrollytelling): primeiro um ponto por cidade, depois 1 ponto = 1.000 votos, na cor de cada frente. |
+| `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. No Brasil, mapa de densidade; num estado ou roteiro, um espinho por cidade (altura = votos em jogo). |
 | `/cidade/?ibge=…` | **Ficha**: as três frentes, o que fazer, políticas federais que chegam lá, contexto local e cidades vizinhas. |
 | `/reels/?ibge=…` | **Kit de reels**: roteiro de 30 s, 4 cartões 1080×1920 em PNG, mensagem de WhatsApp e vídeos do Radar da Virada. |
 | `/mapa/` | **Mapa das frentes**: mapa interativo, pesquisa editável, agrupamentos e método completo com o código. |
 | `/metodo/` | Fontes, a conta, limites e regras eleitorais. |
-| `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`). |
+| `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`), fora do menu. |
 
 As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio), **mobilizar**
 (quem não votou, nas cidades de Lula) e **terceiros** (eleitores de Caiado, Renan, Cury e Zema
@@ -50,7 +50,7 @@ Publicar à mão: `bash scripts/site/publicar.sh` (refaz os dados e roda `npx wr
 
 ```bash
 python3 scripts/site/build_dados.py       # junta TSE, IBGE, Portal da Transparência e Radar (Python padrão)
-node scripts/site/resumo.mjs              # aplica a conta e gera site/data/resumo.json e pontos.json
+node scripts/site/resumo.mjs              # aplica a conta e gera resumo.json, pontos.json e densidade.json (1 ponto = 1.000 votos)
 node scripts/site/montar_arquivo.mjs      # copia a versão anterior para site/arquivo/
 python3 scripts/frentes/lista_frente2.py  # planilha da Frente 2, cidades de 10 a 50 mil habitantes (openpyxl)
 ```

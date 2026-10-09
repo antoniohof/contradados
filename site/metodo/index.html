@@ -137,7 +137,7 @@ python3 scripts/frentes/lista_frente2.py  # planilha da Frente 2 (requer openpyx
 <script type="module">
 import { montarTopo, rodape, esc } from "../assets/js/ui.js";
 import { calcular, PESQUISAS, CANDS } from "../assets/js/frentes.js";
-montarTopo({ pagina: "metodo/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["metodo/", "Método"]] });
+montarTopo({ pagina: "metodo/" });
 rodape();
 document.getElementById("codigo").textContent = calcular.toString();
 const ks = Object.keys(PESQUISAS);

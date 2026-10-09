@@ -1,9 +1,9 @@
 // Ficha da cidade: as três frentes, o que fazer, políticas federais, contexto e vizinhas.
 import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, reais, linkWhats, copiar, RAIZ } from "./ui.js";
 import { aplicar, transferencia, completarQuaest, PORTES, UFNOME, PESQUISAS, PESQUISA_PADRAO } from "./frentes.js";
-import { MapaPontos, CORES } from "./dotmap.js";
+import { Mapa, COR, COR_F as RGB_F, km } from "./dotmap.js";
 
-montarTopo({ pagina: "cidade/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["mapa/", "Mapa"]] });
+montarTopo({ pagina: "cidade/" });
 
 const alvo = new URLSearchParams(location.search).get("ibge");
 const [rows, regioes, divisas, radar] = await Promise.all([municipios(), json("data/regioes.json"), json("data/divisas.json"), json("data/radar.json")]);
@@ -114,8 +114,10 @@ function ficha(d, local, cn) {
 
     <section class="faixa faixa--solida vizinhas" aria-labelledby="viz-t">
       <div class="faixa__topo"><h2 class="rotulo" id="viz-t">Cidades vizinhas${imNome ? ` · região de ${esc(imNome)}` : ""}</h2>${d.imediata ? `<a class="pill pill--lilas" href="${RAIZ}na-pratica/#roteiro=${d.imediata}">Ver roteiro da região</a>` : ""}</div>
-      <div class="mapa-mini"><canvas id="mapa-mini" aria-label="Mapa das cidades da região"></canvas></div>
-      <ol id="vizinhas"></ol>
+      <div class="viz-grade">
+        <div class="mapa-mini"><canvas id="mapa-mini" aria-label="Mapa das cidades da região: altura do espinho = votos em jogo"></canvas></div>
+        <ol id="vizinhas"></ol>
+      </div>
       <p class="nota">Distâncias em linha reta. Região geográfica imediata do IBGE (2017)${imInter ? `, dentro da região intermediária de ${esc(regioes.intermediarias[imInter] || "")}` : ""}.</p>
     </section>`;
   document.getElementById("copia").addEventListener("click", (e) => copiar(urlFicha, e.currentTarget));
@@ -156,31 +158,37 @@ function politicas(d) {
 }
 
 // ---------------------------------------------------------------- vizinhas + mapa
+// Mapa da região imediata: um espinho por cidade, altura = votos em jogo, cor = frente que mais pesa.
+const CLS = ["", "f1t", "f2t", "f3t"];
 function vizinhas(d) {
-  const km = (a, b) => { const R = 6371, r = Math.PI / 180, dLa = (b.lat - a.lat) * r, dLo = (b.lon - a.lon) * r; const x = Math.sin(dLa / 2) ** 2 + Math.cos(a.lat * r) * Math.cos(b.lat * r) * Math.sin(dLo / 2) ** 2; return 2 * R * Math.asin(Math.sqrt(x)); };
   const regiao = D.filter((x) => x.imediata && x.imediata === d.imediata && x.lon != null);
   const outras = regiao.filter((x) => x !== d && x.gTot > 0).map((x) => ({ x, dist: km(d, x) })).sort((a, b) => a.dist - b.dist).slice(0, 18);
   document.getElementById("vizinhas").innerHTML = outras.map(({ x, dist }) => `<li><a href="?ibge=${x.ibge}"><span>${esc(x.municipio)}</span><span class="km">${n0(dist)} km</span><small>+${grande(x.gTot)} votos em jogo · ${NOMES[x.principal]} pesa mais${x.pop ? ` · ${grande(x.pop)} hab.` : ""}</small></a></li>`).join("");
-  // mapa da região
   const cx = document.getElementById("mapa-mini");
-  const caixa = cx.parentElement;
-  caixa.style.height = "340px";
-  cx.style.width = "100%"; cx.style.height = "100%";
   const base = D.filter((x) => x.lon != null);
-  const P = { ibge: [], lon: [], lat: [], porte: [], lula: [], area: [], f1: [], f2: [], f3: [] };
-  base.forEach((x) => { P.ibge.push(+x.ibge); P.lon.push(x.lon); P.lat.push(x.lat); P.porte.push(x.porte || 0); P.lula.push(0); P.area.push(0); P.f1.push(x.f1); P.f2.push(x.f2); P.f3.push(x.f3); });
-  const mapa = new MapaPontos(cx, P, { area: (w, h) => [[12, 12], [w - 12, h - 12]], divisas, raioPonto: () => 2.2 });
+  const P = { lon: base.map((x) => x.lon), lat: base.map((x) => x.lat) };
   const naRegiao = new Set(regiao.map((x) => x.ibge));
   const ids = base.map((x, i) => (naRegiao.has(x.ibge) ? i : -1)).filter((i) => i >= 0);
-  mapa.enquadrar(ids.length ? ids : null);
-  const desenhar = (inst) => {
-    const s = mapa.escala(base.map((x) => (naRegiao.has(x.ibge) ? x.gTot : 0)), { piso: 0, fator: 1.6 });
-    mapa.estado((i) => {
+  const eu = base.indexOf(d);
+  const mapa = new Mapa(cx, {
+    pontos: P, divisas,
+    area: (w, h) => [[12, Math.min(64, h * 0.18)], [w - 12, h - 12]],
+    dica: (i) => {
       const x = base[i];
-      if (x === d) return { cor: CORES.f2, r: 5, halo: s(x.gTot), hc: x.principal };
-      if (naRegiao.has(x.ibge)) return { cor: CORES.tinta, r: 2.6, halo: s(x.gTot), hc: x.principal };
-      return { cor: CORES.apagado, r: 1.8 };
-    }, { instantaneo: inst, rotulos: [{ lon: d.lon, lat: d.lat, texto: d.municipio, cor: "#7533ff" }, ...outras.slice(0, 6).map(({ x }) => ({ lon: x.lon, lat: x.lat, texto: x.municipio }))] });
+      return `<b>${esc(x.municipio)}</b> · ${x.uf}<span class="v ${CLS[x.principal] || ""}">+${grande(x.gTot)}</span><small>votos em jogo · ${NOMES[x.principal]} pesa mais</small><small>${x === d ? "esta cidade" : `${n0(km(d, x))} km daqui`}${x.pop ? ` · ${grande(x.pop)} hab.` : ""}</small>${x === d ? "" : `<a href="?ibge=${x.ibge}">Abrir a ficha →</a>`}`;
+    },
+    aoClicar: (i) => { if (base[i] !== d) location.href = `?ibge=${base[i].ibge}`; },
+  });
+  const desenhar = (inst) => {
+    const vals = base.map((x) => (naRegiao.has(x.ibge) ? x.gTot : 0));
+    const e = mapa.escala(vals, { fator: 1.9 });
+    mapa.cena({
+      base: (i) => ({ cor: naRegiao.has(base[i].ibge) ? COR.apagado : COR.claro, r: 0.7 }),
+      espinhos: { altura: (i) => e.altura(vals[i]), cor: (i) => RGB_F[base[i].principal] || COR.apagado, corte: (i) => e.corte(vals[i]), destaque: (i) => i === eu },
+      rotulos: [{ i: eu, texto: d.municipio, forte: true }, ...outras.slice(0, 7).map(({ x }) => ({ i: base.indexOf(x), texto: x.municipio }))],
+      regua: e.regua && { altura: e.regua.altura, texto: `${grande(e.regua.valor)} votos` },
+      enquadre: ids.length ? ids : null,
+    }, { instantaneo: inst });
   };
   mapa.aoRedimensionar = () => desenhar(true);
   desenhar(true);
