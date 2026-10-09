@@ -1,0 +1,42 @@
+/* Kit de reels */
+.reels { padding-top: 84px; }
+.abre .texto { margin-top: 16px; }
+.escolha { margin-top: 20px; display: grid; gap: 8px; }
+.escolha .campo { width: min(420px, 100%); background: var(--papel); cursor: text; }
+.escolha .linha .pill { font-size: 14px; min-height: 22px; padding: 3px 7px; }
+
+.kit { padding: var(--gutter); display: grid; gap: var(--gutter); }
+.kit__cab { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; }
+.kit__cab .medio { max-width: 900px; }
+.kit__cab .medio em { font-style: normal; }
+.kit__grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: var(--gutter); align-items: start; }
+
+.roteiro-reel { background: var(--cinza-3); padding: 12px; }
+.roteiro-reel ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
+.roteiro-reel li { display: grid; grid-template-columns: 74px 1fr; gap: 10px; }
+.roteiro-reel .tempo { font: 600 14px/18px var(--ui); font-variant-numeric: tabular-nums; }
+.roteiro-reel .tempo small { display: block; font-weight: 400; color: #555; font-size: 12px; }
+.roteiro-reel .tela { font: 500 15px/19px var(--ui); background: var(--papel); padding: 6px 8px; }
+.roteiro-reel .fala { font: italic 400 17px/22px var(--texto); margin: 6px 0 0; }
+.roteiro-reel .fonte { font: 400 11px/14px var(--ui); color: #555; margin: 4px 0 0; }
+.roteiro-reel .fonte a { color: inherit; }
+.dica { font: 400 15px/20px var(--texto); margin: 12px 0 0; }
+.acoes-kit { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 12px; }
+
+.cartoes-reel { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
+.cartoes-reel figure { margin: 0; display: grid; gap: 6px; }
+.cartoes-reel canvas { width: 100%; height: auto; aspect-ratio: 9 / 16; background: var(--cinza-3); box-shadow: 0 0 0 1px var(--cinza-2); }
+.cartoes-reel figcaption { display: flex; justify-content: space-between; align-items: center; gap: 4px; font: 500 12px/14px var(--ui); }
+.cartoes-reel figcaption .pill { font-size: 13px; min-height: 22px; padding: 3px 7px; }
+
+.videos .grade { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
+.videos .cartao { min-height: 120px; }
+.videos .cartao__sub { font-size: 15px; line-height: 19px; }
+
+.mensagem textarea { width: 100%; min-height: 150px; border: 0; padding: 10px; font: 400 16px/21px var(--texto); background: var(--papel); resize: vertical; }
+
+.lista-regras { margin: 0; padding-left: 18px; display: grid; gap: 8px; max-width: 900px; font: 400 17px/22px var(--texto); }
+.lista-regras b { font-weight: 650; }
+
+@media (max-width: 1000px) { .kit__grade { grid-template-columns: 1fr; } }
+@media (max-width: 560px) { .cartoes-reel { grid-template-columns: repeat(2, minmax(0, 1fr)); } .reels { padding-top: 76px; } }

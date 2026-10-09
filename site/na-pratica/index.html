@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="pt-BR" data-raiz="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Na prática · Onde buscar votos</title>
+<meta name="description" content="Cidade por cidade, onde buscar votos para Lula no 2º turno: por frente, por tamanho de cidade, por estado e por roteiro.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/pratica.css">
+</head>
+<body>
+<main class="pratica">
+  <section class="faixa faixa--solida abre">
+    <div class="faixa__topo"><p class="rotulo">Na prática</p><a class="pill pill--lilas" href="#roteiros">Roteiros por região</a></div>
+    <h1 class="grande">Cidade por cidade: onde ir até 25 de outubro.</h1>
+    <p class="texto">Escolha a frente, o tamanho da cidade e o estado. A lista mostra onde cada esforço rende mais votos. Os roteiros juntam cidades vizinhas para visitar em sequência.</p>
+  </section>
+
+  <form class="controles" id="controles" aria-label="Filtros" onsubmit="return false">
+    <div class="linha" role="group" aria-label="Frente">
+      <button class="pill" type="button" data-f="0">Todas as frentes</button>
+      <button class="pill pill--f1" type="button" data-f="1"><span class="ponto f1t"></span>Reconquistar</button>
+      <button class="pill" type="button" data-f="2"><span class="ponto f2t"></span>Mobilizar</button>
+      <button class="pill pill--f3" type="button" data-f="3"><span class="ponto f3t"></span>Terceiros</button>
+    </div>
+    <div class="linha" role="group" aria-label="Tamanho da cidade (população, Censo 2022)">
+      <button class="pill" type="button" data-p="1">até 10 mil</button>
+      <button class="pill" type="button" data-p="2">10 a 50 mil</button>
+      <button class="pill" type="button" data-p="3">50 a 200 mil</button>
+      <button class="pill" type="button" data-p="45">mais de 200 mil</button>
+      <button class="pill" type="button" data-p="0">todas</button>
+    </div>
+    <div class="linha">
+      <label class="sr" for="uf">Estado</label>
+      <select class="pill" id="uf"><option value="">Brasil</option></select>
+      <label class="sr" for="q">Filtrar por nome</label>
+      <input class="pill campo" id="q" type="search" placeholder="Filtrar por nome" autocomplete="off">
+    </div>
+  </form>
+
+  <section class="painel-dados" aria-label="Resumo da seleção">
+    <div class="mapa-caixa"><canvas id="mapa" aria-label="Mapa das cidades selecionadas"></canvas></div>
+    <div class="resumo">
+      <div class="numeros" id="numeros"></div>
+      <figure class="por-porte"><figcaption class="nota" id="porte-tit"></figcaption><div id="porte"></div></figure>
+      <div class="estados" id="estados"></div>
+    </div>
+  </section>
+
+  <section class="faixa lista" aria-labelledby="lista-tit">
+    <div class="faixa__topo">
+      <h2 class="rotulo" id="lista-tit">Cidades</h2>
+      <div class="linha">
+        <span class="nota" id="lista-sub"></span>
+        <button class="pill pill--branco" type="button" id="ordem" aria-pressed="false">Ordenar por %</button>
+        <button class="pill pill--branco" type="button" id="csv">Baixar lista (CSV)</button>
+      </div>
+    </div>
+    <div class="grade" id="cartoes"></div>
+    <p class="linha mais-linha"><button class="pill" type="button" id="mais">Mostrar mais</button></p>
+  </section>
+
+  <section class="faixa faixa--solida roteiros" id="roteiros" aria-labelledby="rot-tit">
+    <div class="faixa__topo">
+      <h2 class="rotulo" id="rot-tit">Roteiros</h2>
+      <span class="nota">Regiões geográficas imediatas do IBGE (2017)</span>
+    </div>
+    <p class="texto">Cada roteiro junta as cidades da seleção que ficam na mesma região imediata do IBGE: cidades vizinhas, ligadas ao mesmo polo. A ordem sugerida começa pela cidade com mais votos em jogo e segue sempre para a mais próxima. Distâncias em linha reta.</p>
+    <div class="lista-roteiros" id="lista-roteiros"></div>
+    <p class="linha mais-linha"><button class="pill" type="button" id="mais-rot">Mostrar mais roteiros</button></p>
+  </section>
+
+  <section class="faixa como" aria-labelledby="como-tit">
+    <div class="faixa__topo"><h2 class="rotulo" id="como-tit">Como agir em cada frente</h2><a class="pill pill--laranja" href="../reels/">Kit de reels</a></div>
+    <div class="grade grade--3">
+      <article class="cartao cartao--f1">
+        <p class="cartao__titulo">Reconquistar</p>
+        <p class="cartao__sub">Quem votou em Lula em 2022 e foi de Flávio.</p>
+        <ul class="acoes">
+          <li>Conversa sem julgamento, com quem já confia em você.</li>
+          <li>Comece pelo bolso: salário mínimo, aposentadoria e BPC, escala 6x1.</li>
+          <li>Use só fatos com fonte. Os temas do Radar da Virada têm efeito medido em pesquisa.</li>
+          <li>Cada eleitor que volta vale 2 na diferença.</li>
+        </ul>
+      </article>
+      <article class="cartao">
+        <p class="cartao__titulo">Mobilizar</p>
+        <p class="cartao__sub">Quem não votou, onde Lula ganha.</p>
+        <ul class="acoes">
+          <li>Lembre a data: domingo, 25/10, das 8h às 17h (horário de Brasília).</li>
+          <li>Ajude a achar o local de votação no app e-Título.</li>
+          <li>Cobre da prefeitura ônibus gratuito e na frequência de dia útil.</li>
+          <li>Combine de ir votar junto, a pé ou de ônibus. Transportar eleitor é crime.</li>
+        </ul>
+      </article>
+      <article class="cartao cartao--f3">
+        <p class="cartao__titulo">Terceiros</p>
+        <p class="cartao__sub">Quem votou em Caiado, Renan, Cury ou Zema e não decidiu.</p>
+        <ul class="acoes">
+          <li>Respeite o voto do 1º turno: a conversa é sobre o 2º.</li>
+          <li>Democracia e Constituição: até entre eleitores de Flávio, 74% dizem que a democracia é sempre a melhor forma de governo (Datafolha, out/2026).</li>
+          <li>Propostas concretas, comparadas lado a lado.</li>
+          <li>Cada indeciso que escolhe Lula vale 1 na diferença.</li>
+        </ul>
+      </article>
+    </div>
+    <p class="nota">Fontes dos temas: <a href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada</a> (critério: só temas com efeito comprovado em pesquisa). Regras eleitorais em <a href="../metodo/#regras">Método</a>.</p>
+  </section>
+</main>
+
+<script src="../assets/vendor/d3-7.9.0.min.js"></script>
+<script type="module" src="../assets/js/pratica.js"></script>
+</body>
+</html>

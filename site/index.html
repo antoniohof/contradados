@@ -1,0 +1,174 @@
+<!doctype html>
+<html lang="pt-BR" data-raiz="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Onde buscar votos · 2º turno</title>
+<meta name="description" content="Onde e por que buscar os votos que faltam para Lula no 2º turno de 2026: três frentes, cidade por cidade, com dados do TSE e do IBGE.">
+<meta property="og:title" content="Onde buscar votos · 2º turno">
+<meta property="og:description" content="Três caminhos para virar: reconquistar, mobilizar e convencer eleitores de terceiros. Cidade por cidade.">
+<meta property="og:type" content="website">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
+<link rel="preload" href="assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="assets/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="assets/css/base.css">
+<link rel="stylesheet" href="assets/css/home.css">
+</head>
+<body>
+<div class="fundo-mapa" aria-hidden="true"><canvas id="mapa"></canvas></div>
+
+<main class="feed">
+  <section class="abertura">
+    <div class="faixa">
+      <div class="faixa__topo"><p class="rotulo">2º turno · 25 de outubro de 2026</p></div>
+      <h1 class="grande">Onde estão os votos que faltam para Lula virar.</h1>
+      <p class="texto">Um guia em 10 posts para quem está organizando a campanha agora. Cada ponto no mapa é uma cidade. Role a página: o mapa muda a cada passo.</p>
+      <a class="pill pill--lilas desce" href="#p1">Começar ↓</a>
+    </div>
+  </section>
+
+  <div class="posts">
+    <!-- 1 -->
+    <article class="post" id="p1" data-passo="vencedor">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 1 de 10</small></span></div>
+        <span class="rotulo">O placar</span>
+      </header>
+      <h2 class="post__titulo">Flávio saiu do 1º turno com <em data-n="totais.diferenca">2,2 milhões</em> de votos a mais.</h2>
+      <figure class="post__viz" data-viz="placar" aria-label="Votos de Lula e de Flávio no 1º turno"></figure>
+      <p class="texto">No mapa, cada ponto é uma cidade: <b class="f1t">vermelho onde Lula venceu</b>, cinza onde Flávio venceu. Lula ganhou em <span data-n="totais.vencidosLula" data-f="n0">2.663</span> das 5.570 cidades. A distância é pequena: <span data-n="calc.difAptos" data-f="pct">1,4%</span> do eleitorado.</p>
+      <p class="post__fonte">TSE, 1º turno de 4/10/2026, sem o exterior.</p>
+      <footer class="post__acoes"></footer>
+    </article>
+
+    <!-- 2 -->
+    <article class="post" id="p2" data-passo="vencedor">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 2 de 10</small></span></div>
+        <span class="rotulo">A conta real</span>
+      </header>
+      <h2 class="post__titulo">Contando os eleitores de terceiros que já escolheram, a distância vai a <em data-n="totais.diferencaEfetiva">3,3 milhões</em>.</h2>
+      <figure class="post__viz" data-viz="cascata" aria-label="Diferença do 1º turno somada ao saldo dos eleitores de terceiros já decididos"></figure>
+      <p class="texto">Pela AtlasIntel, a maioria de quem votou em Caiado e em Renan prefere Flávio. Quem votou em Cury pende para Lula. Os que ainda não decidiram ficam fora desta conta: eles são a terceira frente.</p>
+      <p class="post__fonte">AtlasIntel/Bloomberg, 3 a 8/10/2026, 5.026 entrevistas, registro BR-03663/2026. Comparação com Datafolha e Quaest em <a href="metodo/#pesquisas">Método</a>.</p>
+      <footer class="post__acoes"></footer>
+    </article>
+
+    <!-- 3 -->
+    <article class="post" id="p3" data-passo="tres">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 3 de 10</small></span></div>
+        <span class="rotulo">Três caminhos</span>
+      </header>
+      <h2 class="post__titulo">Há três jeitos de buscar esses votos. Cada um mora num Brasil diferente.</h2>
+      <figure class="post__viz" data-viz="caminhos" aria-label="Tamanho de cada frente"></figure>
+      <p class="texto">No mapa, o halo mostra o tamanho do potencial em cada cidade; a cor mostra o caminho que mais pesa ali: <b class="f1t">reconquistar</b>, <b class="f2t">mobilizar</b> ou <b class="f3t">convencer eleitores de terceiros</b>.</p>
+      <footer class="post__acoes"></footer>
+    </article>
+
+    <!-- 4 -->
+    <article class="post" id="p4" data-passo="f1">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 4 de 10</small></span></div>
+        <span class="rotulo">Reconquistar</span>
+      </header>
+      <h2 class="post__titulo">Desde 2022, Lula perdeu para Flávio o equivalente a <em class="f1t" data-n="totais.f1">4,5 milhões</em> de votos.</h2>
+      <figure class="post__viz" data-viz="regiao-f1" aria-label="Votos a reconquistar por região"></figure>
+      <p class="texto">É a frente mais espalhada pelo país, e a que mais rende: cada eleitor que volta vale <b>2 na diferença</b>, um a menos para Flávio e um a mais para Lula.</p>
+      <p class="post__fonte">Queda da parcela de Lula entre os votos dos dois (Lula ÷ Lula + adversário), do 1º turno de 2022 ao de 2026, vezes os votos dos dois em 2026.</p>
+      <footer class="post__acoes" data-filtro="f=1"></footer>
+    </article>
+
+    <!-- 5 -->
+    <article class="post" id="p5" data-passo="f2">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 5 de 10</small></span></div>
+        <span class="rotulo">Mobilizar</span>
+      </header>
+      <h2 class="post__titulo">Nas <span data-n="totais.municipiosAreaLula" data-f="n0">2.662</span> cidades onde Lula ganha, <em class="f2t" data-n="totais.ausentesAreaLula">13,6 milhões</em> de pessoas não votaram.</h2>
+      <figure class="post__viz" data-viz="regiao-f2" aria-label="Saldo da mobilização por região"></figure>
+      <p class="texto">Se votassem como os vizinhos, Lula abriria <b class="f2t" data-n="totais.f2">3,7 milhões</b> de votos sobre Flávio. <b>Oito em cada dez</b> desses votos estão no Nordeste.</p>
+      <p class="post__fonte">Cidades onde Lula vence em 2026 e venceu o 2º turno de 2022. Saldo = ausentes × (parcela de Lula − parcela de Flávio).</p>
+      <footer class="post__acoes" data-filtro="f=2"></footer>
+    </article>
+
+    <!-- 6 -->
+    <article class="post" id="p6" data-passo="f3">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 6 de 10</small></span></div>
+        <span class="rotulo">Terceiros</span>
+      </header>
+      <h2 class="post__titulo"><em class="f3t" data-n="totais.f3">1,7 milhão</em> de eleitores de Caiado, Renan, Cury e Zema ainda não escolheram lado.</h2>
+      <figure class="post__viz" data-viz="terceiros" aria-label="Para onde vão os eleitores de cada terceiro, segundo a AtlasIntel"></figure>
+      <p class="texto">Os eleitores de Renan são os mais indecisos: um terço em aberto. Os de Cury já pendem para Lula. São Paulo concentra mais de um quarto dessa disputa.</p>
+      <p class="post__fonte">AtlasIntel/Bloomberg, 3 a 8/10/2026. "Em disputa" = branco, nulo ou indeciso.</p>
+      <footer class="post__acoes" data-filtro="f=3"></footer>
+    </article>
+
+    <!-- 7 -->
+    <article class="post" id="p7" data-passo="tres">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 7 de 10</small></span></div>
+        <span class="rotulo">Quanto vale</span>
+      </header>
+      <h2 class="post__titulo">Nem toda conversa vale o mesmo voto.</h2>
+      <figure class="post__viz" data-viz="pessoas" aria-label="Quanto cada pessoa convencida muda a diferença"></figure>
+      <p class="texto">Quem volta de Flávio para Lula muda a diferença em 2. Um indeciso que escolhe Lula, em 1. Quem não votou e vai votar numa cidade onde Lula tem 70%, em 0,4: dos novos votos, 30% podem ir para Flávio.</p>
+      <footer class="post__acoes"></footer>
+    </article>
+
+    <!-- 8 -->
+    <article class="post" id="p8" data-passo="pequenas">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 8 de 10</small></span></div>
+        <span class="rotulo">Cidades pequenas</span>
+      </header>
+      <h2 class="post__titulo">As cidades de 10 a 50 mil habitantes guardam <em data-n="calc.partePequenas" data-f="pct0">38%</em> do potencial.</h2>
+      <figure class="post__viz" data-viz="portes" aria-label="Potencial por tamanho de cidade"></figure>
+      <p class="texto">São <span data-n="calc.pequenas" data-f="n0">2.419</span> cidades e <span data-n="calc.aptosPequenas">41 milhões</span> de eleitores. Somadas, valem mais que todas as cidades com mais de 200 mil habitantes. <b>Metade</b> do potencial de mobilização está nelas.</p>
+      <p class="post__fonte">Potencial = soma das três frentes, em diferença de votos. Tamanho pela população do Censo 2022 (IBGE). É um teto, não uma previsão.</p>
+      <footer class="post__acoes" data-filtro="p=2"></footer>
+    </article>
+
+    <!-- 9 -->
+    <article class="post" id="p9" data-passo="roteiros">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 9 de 10</small></span></div>
+        <span class="rotulo">Por onde começar</span>
+      </header>
+      <h2 class="post__titulo">Os roteiros com mais votos em jogo.</h2>
+      <figure class="post__viz" data-viz="roteiros" aria-label="Regiões com mais potencial em cidades de 10 a 50 mil habitantes"></figure>
+      <p class="texto">Cada roteiro junta as cidades de 10 a 50 mil habitantes de uma mesma região imediata do IBGE: lugares vizinhos, que dá para percorrer em um ou dois dias.</p>
+      <footer class="post__acoes" data-filtro="roteiros"></footer>
+    </article>
+
+    <!-- 10 -->
+    <article class="post" id="p10" data-passo="lei">
+      <header class="post__topo">
+        <div class="post__autor"><span class="avatar" aria-hidden="true"></span><span>Onde buscar votos <small>· 10 de 10</small></span></div>
+        <span class="rotulo">Dentro da lei</span>
+      </header>
+      <h2 class="post__titulo">O que fazer até 25 de outubro.</h2>
+      <figure class="post__viz" data-viz="lei" aria-label="O que pode e o que não pode"></figure>
+      <p class="texto">Na próxima página, cada cidade tem seus números, as políticas federais que chegam lá e um kit de reels pronto para adaptar.</p>
+      <p class="post__fonte">STF, ADPF 1.013 (transporte coletivo gratuito no dia da eleição); Res. TSE 23.751/2026; Lei 6.091/1974 (transporte de eleitores); Res. TSE 23.610/2019 (propaganda na internet e uso de IA). Detalhes em <a href="metodo/#regras">Método</a>.</p>
+      <footer class="post__acoes" data-filtro="cidade"></footer>
+    </article>
+  </div>
+</main>
+
+<div class="fim">
+  <div class="letreiro" aria-label="Cidades de 10 a 50 mil habitantes com mais potencial"><div class="letreiro__trilho" id="letreiro"></div></div>
+  <section class="chamada">
+    <p class="chamada__texto">As <span data-n="calc.pequenas" data-f="n0">2.419</span> cidades de 10 a 50 mil habitantes, por frente, por estado e por roteiro. Para cada uma, o que fazer e um kit de reels.</p>
+    <a class="cta" href="na-pratica/">Cidade por cidade</a>
+    <a class="cta cta--laranja" href="reels/">Kit de reels</a>
+  </section>
+</div>
+
+<script src="assets/vendor/d3-7.9.0.min.js"></script>
+<script src="assets/vendor/rough-4.6.6.js"></script>
+<script type="module" src="assets/js/home.js"></script>
+</body>
+</html>

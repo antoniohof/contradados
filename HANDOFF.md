@@ -1,6 +1,8 @@
 # Para continuar — Antonio
 
-Interface principal: `site_simples/`. Comece pelo [README](README.md).
+Site atual: `site/` (Cloudflare, publica a cada push na `main`). Comece pelo [README](README.md).
+Versão anterior: `site_simples/` e `docs/`, publicadas em `/arquivo/` (copiadas por `scripts/site/montar_arquivo.mjs`).
+As notas abaixo descrevem a versão anterior e o pipeline de análise.
 
 - Visual: fundo branco, Georgia nos títulos, vermelho `#c4001a`, azul `#0050c8`.
 - Texto: rótulos curtos; contexto longo em seções expansíveis.

@@ -1,0 +1,46 @@
+<!doctype html>
+<html lang="pt-BR" data-raiz="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Kit de reels · Onde buscar votos</title>
+<meta name="description" content="Roteiro de 30 segundos, cartões verticais e vídeos do Radar da Virada para cada cidade, com políticas federais que chegam lá.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/base.css">
+<link rel="stylesheet" href="../assets/css/reels.css">
+</head>
+<body>
+<main class="reels">
+  <section class="faixa faixa--solida abre">
+    <div class="faixa__topo"><p class="rotulo">Kit de reels</p><a class="pill pill--lilas" href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada ↗</a></div>
+    <h1 class="grande">Um reel para cada cidade.</h1>
+    <p class="texto">Escolha a cidade. O kit traz um roteiro de 30 segundos, quatro cartões verticais prontos para o Instagram, o TikTok e o status do WhatsApp, e vídeos do Radar da Virada para remixar. Cada número tem fonte.</p>
+    <div class="escolha">
+      <label class="sr" for="cidade">Cidade</label>
+      <input class="pill campo" id="cidade" type="search" placeholder="Digite o nome da cidade" autocomplete="off" list="lista-cidades">
+      <datalist id="lista-cidades"></datalist>
+      <div class="linha" id="atalhos" aria-label="Sugestões"></div>
+    </div>
+  </section>
+
+  <section class="kit" id="kit" aria-live="polite"></section>
+
+  <section class="faixa regras" aria-labelledby="regras-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="regras-t">Antes de postar</h2><a class="pill" href="../metodo/#regras">Regras completas</a></div>
+    <ul class="lista-regras">
+      <li><b>Feito com IA? Avise.</b> Conteúdo feito ou alterado com inteligência artificial precisa de aviso visível. Deepfake é proibido (Res. TSE 23.610/2019, com as mudanças de 2024).</li>
+      <li><b>Nada de impulsionamento pago.</b> Só candidatos, partidos, federações e coligações podem pagar para impulsionar conteúdo eleitoral.</li>
+      <li><b>Nada de disparo em massa</b> em grupos e listas.</li>
+      <li><b>Só fatos com fonte.</b> Os números deste kit vêm do TSE, do IBGE e do Portal da Transparência; os temas, do Radar da Virada, que só publica fatos com fonte.</li>
+      <li><b>Na reta final:</b> nas 72 horas antes e nas 24 horas depois da votação, não publique conteúdo sintético novo com imagem ou voz de candidatos. No dia 25, nada de boca de urna.</li>
+      <li><b>Não ofereça transporte</b> a eleitores: é crime. Ônibus gratuito no dia é obrigação do poder público.</li>
+    </ul>
+  </section>
+</main>
+
+<script type="module" src="../assets/js/reels.js"></script>
+</body>
+</html>

@@ -1,4 +1,6 @@
-name: Publish GitHub Pages
+name: Publish GitHub Pages (reserva)
+# O site oficial é publicado pelo Cloudflare a cada push na main (Workers Builds).
+# Este workflow manual publica a mesma pasta site/ no GitHub Pages, como reserva.
 on:
   workflow_dispatch:
 permissions:
@@ -11,22 +13,11 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v6
-      - uses: actions/setup-python@v6
-        with:
-          python-version: '3.12'
-      - run: python site_simples/build/build.py
-      - run: python scripts/validate.py
-      - name: Prepare public files
-        run: |
-          mkdir -p _site/data _site/mapas
-          cp site_simples/index.html site_simples/app.js site_simples/relatorio.js site_simples/style.css _site/
-          cp site_simples/data/*.json _site/data/
-          cp -R docs/. _site/mapas/
-          touch _site/.nojekyll
+      - run: touch site/.nojekyll
       - uses: actions/configure-pages@v5
       - uses: actions/upload-pages-artifact@v4
         with:
-          path: _site
+          path: site
   deploy:
     runs-on: ubuntu-latest
     needs: build

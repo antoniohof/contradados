@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Votos em jogo 2026</title>
+<meta name="description" content="Onde o voto ainda pode mudar no 2º turno de 2026, município a município.">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div style="position:sticky;top:0;z-index:9999;display:flex;gap:8px;align-items:center;justify-content:center;flex-wrap:wrap;padding:6px 10px;background:#dccdfb;color:#000;font:500 15px/18px Helvetica,Arial,sans-serif">Versão anterior (arquivo, 08/10/2026). <a href="../" style="color:#000;font-weight:700">Ir para o site atual →</a></div>
+
+<header class="top">
+  <p class="kicker">Brasil · Eleições 2026</p>
+  <h1>Votos em jogo</h1>
+  <p class="intro">O voto presidencial, município a município.</p>
+  <p class="edicao">TSE · 08/10/2026 · 2º turno: 25/10</p>
+  <label class="busca" for="busca">
+    <span>Buscar município</span>
+    <input id="busca" type="search" list="lista-municipios" placeholder="Ex.: Herveiras/RS" autocomplete="off">
+  </label>
+  <datalist id="lista-municipios"></datalist>
+  <button id="local" class="local" type="button" hidden>Usar minha localização</button>
+  <p id="local-msg" class="local-msg" hidden></p>
+</header>
+
+<main>
+  <section class="mapa">
+    <div class="linha">
+      <h2>Mapa</h2>
+      <select id="camada" aria-label="O que o mapa mostra">
+        <optgroup label="Votos">
+          <option value="q_jogo" selected>Votos em jogo</option>
+          <option value="q_volL">Queda de Lula (estimativa)</option>
+          <option value="q_ter">Votos em terceiros</option>
+          <option value="q_bn">Brancos e nulos</option>
+          <option value="q_abs">Ausentes extras</option>
+          <option value="q_saldo">Saldo estimado</option>
+        </optgroup>
+        <optgroup label="Percentuais">
+          <option value="pct">Votos em jogo (% dos eleitores)</option>
+          <option value="saldo">Saldo potencial (% dos eleitores)</option>
+          <option value="sw">Mudança 2022 → 2026</option>
+          <option value="a26">Abstenção 2026</option>
+        </optgroup>
+      </select>
+    </div>
+    <div class="mapa-janela">
+      <svg id="mapa" role="img" tabindex="0" aria-label="Mapa dos municípios. Use mais e menos para zoom, setas para mover e Home para ver o Brasil." aria-describedby="mapa-ajuda"></svg>
+      <div class="zoom-controles" role="group" aria-label="Navegação do mapa">
+        <button id="zoom-in" type="button" aria-label="Aproximar" title="Aproximar (+)">+</button>
+        <button id="zoom-out" type="button" aria-label="Afastar" title="Afastar (−)">−</button>
+        <button id="zoom-reset" type="button" aria-label="Ver o Brasil inteiro" title="Ver Brasil">Brasil</button>
+        <button id="zoom-municipio" type="button" title="Centralizar município selecionado" disabled>Município</button>
+        <button id="mapa-ampliar" type="button" aria-pressed="false" title="Ampliar mapa">Ampliar</button>
+      </div>
+      <p id="mapa-info" class="mapa-info" hidden></p>
+    </div>
+    <p id="mapa-ajuda" class="mapa-ajuda">Arraste para mover · Role ou use +/− para zoom</p>
+    <div id="legenda" class="legenda"></div>
+  </section>
+
+  <aside id="painel" class="painel" aria-label="Dados e relatórios">
+  <section id="ficha" class="ficha" aria-live="polite">
+    <p class="vazio">Carregando…</p>
+  </section>
+
+  <article id="relatorio" class="relatorio" hidden aria-live="polite"></article>
+
+  <div id="explorar" class="explorar">
+  <section class="ranking">
+    <div class="linha">
+      <h2>Ranking</h2>
+    </div>
+    <div class="chips" id="portes" role="group" aria-label="Tamanho do município">
+      <button data-p="0,10000" aria-pressed="true">até 10 mil</button>
+      <button data-p="10000,50000">10–50 mil</button>
+      <button data-p="50000,200000">50–200 mil</button>
+      <button data-p="200000,1e9">200 mil+</button>
+    </div>
+    <ol id="ranking"></ol>
+    <button id="mais" class="mais">Mostrar mais</button>
+  </section>
+
+  <section class="perto">
+    <h2 id="perto-titulo">Perto daqui</h2>
+    <p class="sub">Até 100 km.</p>
+    <ol id="perto"></ol>
+  </section>
+
+  <section class="brasil">
+    <h2>Brasil</h2>
+    <div id="brasil"></div>
+  </section>
+
+  <section class="metodo">
+    <details>
+    <summary>Como contamos</summary>
+    <p>Mudança do voto desde 2022 + terceiros + brancos/nulos + abstenção excedente.</p>
+    <p>Saldo: repasse Quaest (02–03/10), comparecimento e parcela de voto de 2022. É cenário, não previsão.</p>
+    <p>Dados de lugares, não de pessoas. Fontes: TSE, IBGE e Quaest.</p>
+    <p>Localização opcional, usada só no navegador.</p>
+    </details>
+  </section>
+  </div>
+  </aside>
+</main>
+
+<script src="app.js" charset="utf-8"></script>
+<script src="relatorio.js" charset="utf-8"></script>
+
+</body>
+</html>

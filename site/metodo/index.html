@@ -1,0 +1,145 @@
+<!doctype html>
+<html lang="pt-BR" data-raiz="../">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Método e fontes · Onde buscar votos</title>
+<meta name="description" content="De onde vêm os números, como a conta das três frentes é feita, as pesquisas usadas, os limites e as regras eleitorais.">
+<meta name="theme-color" content="#ffffff">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/base.css">
+<style>
+  .metodo { padding-top: 84px; }
+  .metodo section + section { margin-top: 0; }
+  .metodo h2.rotulo { margin: 0; }
+  .contas .cartao { min-height: 0; }
+  .contas .formula { font: 500 15px/20px var(--ui); background: var(--papel); padding: 6px 8px; margin: 4px 0 0; }
+  .contas .exp { font: 400 16px/21px var(--texto); margin: 0; }
+  pre.codigo { margin: 0; padding: 12px; background: var(--papel); overflow-x: auto; font: 400 13px/19px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; white-space: pre; }
+  .lista-limites, .lista-regras { margin: 0; padding-left: 18px; display: grid; gap: 8px; max-width: 900px; font: 400 18px/24px var(--texto); }
+  .lista-regras a, .lista-limites a { color: inherit; }
+  .tabela a { color: inherit; }
+  .rolagem { overflow-x: auto; }
+  code { font: 400 13px/1 ui-monospace, Menlo, Consolas, monospace; background: var(--papel); padding: 1px 4px; }
+</style>
+</head>
+<body>
+<main class="metodo">
+  <section class="faixa faixa--solida">
+    <div class="faixa__topo"><p class="rotulo">Método e fontes</p><a class="pill pill--lilas" href="../mapa/#metodo">Método completo, com gráficos</a></div>
+    <h1 class="grande">De onde vêm os números, e o que eles não dizem.</h1>
+    <p class="texto" style="margin-top:16px">Todos os números do site saem de uma mesma conta, feita no seu navegador a partir de dados públicos. O código está abaixo e no GitHub. Os resultados descrevem cidades, não pessoas, e mostram tetos, não previsões.</p>
+  </section>
+
+  <section class="faixa contas" aria-labelledby="contas-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="contas-t">As três contas</h2></div>
+    <div class="grade grade--3" style="grid-template-columns:repeat(auto-fit,minmax(260px,1fr))">
+      <article class="cartao cartao--f1">
+        <p class="cartao__titulo">1 · Reconquistar</p>
+        <p class="exp">Quanto Lula perdeu para Flávio desde 2022, em cada cidade, contando só os votos dos dois.</p>
+        <p class="formula">parcela = Lula ÷ (Lula + adversário)<br>perda = parcela 1º turno 2022 − parcela 1º turno 2026<br>eleitores = perda × (votos de Lula + Flávio em 2026)</p>
+        <p class="exp">Na diferença vale 2 por eleitor: um voto a menos para Flávio, um a mais para Lula.</p>
+      </article>
+      <article class="cartao">
+        <p class="cartao__titulo">2 · Mobilizar</p>
+        <p class="exp">Só nas cidades de Lula: onde ele vence em 2026 e venceu o 2º turno de 2022.</p>
+        <p class="formula">vantagem = parcela de Lula − parcela de Flávio<br>saldo = ausentes no 1º turno × vantagem</p>
+        <p class="exp">É o que Lula ganharia se os ausentes votassem como os vizinhos. Numa cidade 70 a 30, cada novo eleitor rende 0,4.</p>
+      </article>
+      <article class="cartao cartao--f3">
+        <p class="cartao__titulo">3 · Terceiros</p>
+        <p class="exp">Votos de Caiado, Renan, Cury e Zema que ainda não escolheram lado, segundo a pesquisa.</p>
+        <p class="formula">em disputa = Σ votos do candidato × (100 − % Lula − % Flávio)</p>
+        <p class="exp">Os que já escolheram entram no saldo: pela AtlasIntel, dão a Flávio cerca de 1,1 milhão a mais que a Lula.</p>
+      </article>
+    </div>
+    <p class="nota">Potencial total de uma cidade = 2 × reconquistar + mobilizar + terceiros, em diferença de votos. A frente principal é a maior das três parcelas. Tamanho da cidade pela população do Censo 2022.</p>
+  </section>
+
+  <section class="faixa faixa--solida" aria-labelledby="codigo-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="codigo-t">O código que faz a conta</h2><a class="pill" href="https://github.com/mneunomne/contradados/blob/main/site/assets/js/frentes.js" target="_blank" rel="noopener">frentes.js no GitHub</a></div>
+    <pre class="codigo"><code id="codigo">carregando…</code></pre>
+    <p class="nota">O mesmo arquivo roda nas páginas e no build (<code>scripts/site/resumo.mjs</code>). <code>m</code> é uma linha de <a href="../data/municipios.csv">municipios.csv</a>; <code>T</code> é a transferência da pesquisa escolhida.</p>
+  </section>
+
+  <section class="faixa" aria-labelledby="pesq-t" id="pesquisas">
+    <div class="faixa__topo"><h2 class="rotulo" id="pesq-t">Pesquisas usadas na Frente 3</h2></div>
+    <div class="rolagem"><table class="tabela" id="pesquisas-tab"></table></div>
+    <p class="nota">% para Lula / % para Flávio entre os eleitores de cada candidato no 1º turno. O resto até 100 é branco, nulo ou indeciso. O site usa a AtlasIntel por padrão; o <a href="../mapa/">Mapa</a> deixa trocar a pesquisa e editar os valores.</p>
+  </section>
+
+  <section class="faixa faixa--solida" aria-labelledby="dados-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="dados-t">Dados</h2></div>
+    <div class="rolagem"><table class="tabela">
+      <thead><tr><th>Dado</th><th>Fonte</th><th>Onde entra</th><th>Arquivo no repositório</th></tr></thead>
+      <tbody>
+        <tr><td>Votos por município, 1º turno de 2026; comparecimento</td><td><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE, Portal de Dados Abertos</a> (arquivos de 08/10/2026)</td><td>as três frentes</td><td><code>data/tse/</code>, <code>docs/data/municipios.json</code></td></tr>
+        <tr><td>Resultados e abstenção de 2022 (1º e 2º turno)</td><td>compilações conferidas com o TSE</td><td>Frentes 1 e 2</td><td><code>docs/data/municipios.json</code></td></tr>
+        <tr><td>População por município</td><td><a href="https://sidra.ibge.gov.br/tabela/4709" target="_blank" rel="noopener">IBGE, Censo 2022, tabela 4709</a></td><td>tamanho das cidades</td><td><code>data/ibge/populacao_censo2022.csv</code></td></tr>
+        <tr><td>Regiões geográficas imediatas e intermediárias</td><td><a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/15778-divisoes-regionais-do-brasil.html" target="_blank" rel="noopener">IBGE, 2017</a> (API de localidades)</td><td>roteiros e cidades vizinhas</td><td><code>data/ibge/regioes_geograficas.csv</code></td></tr>
+        <tr><td>Malha municipal e divisas</td><td>IBGE</td><td>mapas</td><td><code>site/data/municipios.topo.json</code></td></tr>
+        <tr><td>Bolsa Família e BPC (ago/2026), Pé-de-Meia (jan–ago/2026), Garantia-Safra (2025)</td><td><a href="https://portaldatransparencia.gov.br/beneficios" target="_blank" rel="noopener">Portal da Transparência (CGU)</a>, consulta de benefícios ao cidadão por município</td><td>fichas e reels</td><td><code>data/beneficios/beneficios_municipio.csv</code></td></tr>
+        <tr><td>Urbanização e religião</td><td>IBGE, Censo 2022</td><td>fichas</td><td><code>data/socio/ibge_censo2022.csv</code></td></tr>
+        <tr><td>Idade do eleitorado; prefeitos e câmaras eleitos em 2024</td><td>TSE (perfil do eleitorado 2026; candidaturas 2024)</td><td>fichas</td><td><code>data/tse/</code></td></tr>
+        <tr><td>Economia e pautas locais (~300 cidades); canais públicos</td><td>pesquisa em imprensa local e sites oficiais, com links</td><td>fichas</td><td><code>data/pesquisa_local.json</code>, <code>data/canais/canais.csv</code></td></tr>
+        <tr><td>Temas com efeito comprovado e vídeos para compartilhar</td><td><a href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada</a> (recorte de 09/10/2026)</td><td>reels e ações</td><td><code>data/radar/radar_2026-10-09.json</code></td></tr>
+      </tbody>
+    </table></div>
+  </section>
+
+  <section class="faixa" aria-labelledby="lim-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="lim-t">Limites</h2></div>
+    <ul class="lista-limites">
+      <li>São contas sobre cidades, não sobre pessoas. Uma queda na parcela de Lula não identifica quem mudou de voto.</li>
+      <li>Os potenciais são tetos: supõem que todos os eleitores perdidos voltam, que todos os ausentes votam e que todos os indecisos escolhem Lula. Servem para comparar lugares, não para prever o resultado.</li>
+      <li>A Frente 2 supõe que os ausentes votariam como os vizinhos. Na AtlasIntel, quem não votou no 1º turno declara 63% Lula e 22% Flávio; a conta pode subestimar o ganho.</li>
+      <li>As pesquisas têm margem de erro e foram feitas em datas diferentes. A Quaest é anterior ao 1º turno.</li>
+      <li>Boa Esperança do Norte (MT), criada depois de 2022 e sem Censo, fica fora das frentes.</li>
+      <li>Os valores de benefícios são o total pago a moradores do município no período, não o número de famílias.</li>
+    </ul>
+  </section>
+
+  <section class="faixa faixa--solida" aria-labelledby="regras-t" id="regras">
+    <div class="faixa__topo"><h2 class="rotulo" id="regras-t">Regras eleitorais</h2></div>
+    <ul class="lista-regras">
+      <li><b>Transporte coletivo gratuito no dia da votação é dever do poder público</b>, com frequência de dia útil, em ônibus municipais, intermunicipais e metropolitanos. Reduzir o serviço pode ser crime eleitoral. STF, ADPF 1.013 (2023), e Resolução TSE 23.751/2026. <a href="https://www.lex.com.br/poder-publico-tem-de-fornecer-transporte-coletivo-gratuito-em-dia-de-eleicoes-decide-stf/" target="_blank" rel="noopener">STF</a> · <a href="https://www.tre-sp.jus.br/comunicacao/noticias/2026/Outubro/eleicoes-2026-eleitores-e-eleitoras-terao-transporte-gratuito-no-dia-da-votacao-em-sao-paulo" target="_blank" rel="noopener">TRE-SP</a></li>
+      <li><b>Transportar eleitores é crime</b> para candidatos, partidos e apoiadores, da véspera ao dia seguinte à eleição (reclusão de 4 a 6 anos e multa). Quem tem carro pode levar a própria família. <a href="https://www.planalto.gov.br/ccivil_03/leis/l6091.htm" target="_blank" rel="noopener">Lei 6.091/1974</a> · <a href="https://www.lex.com.br/transporte-de-eleitores-saiba-o-que-e-permitido-e-o-que-e-proibido/" target="_blank" rel="noopener">o que pode e o que não pode</a></li>
+      <li><b>Impulsionamento pago</b> de conteúdo eleitoral só pode ser contratado por candidatos, partidos, federações e coligações. <b>Disparo em massa</b> é proibido. <a href="https://jornaldebrasilia.com.br/noticias/politica-e-poder/tse-define-regras-para-campanha-eleitoral-nas-redes-em-2026/" target="_blank" rel="noopener">Regras do TSE para 2026</a></li>
+      <li><b>Inteligência artificial:</b> conteúdo feito com IA precisa de aviso visível; deepfake é proibido. Nas 72 horas antes e nas 24 horas depois da votação, não se pode publicar conteúdo sintético novo com imagem, voz ou falas de candidatos. Resolução TSE 23.610/2019, com as mudanças para 2026.</li>
+      <li><b>No dia da eleição</b>, é proibido fazer boca de urna. A manifestação individual e silenciosa é permitida. <a href="https://www.planalto.gov.br/ccivil_03/leis/l9504.htm" target="_blank" rel="noopener">Lei 9.504/1997, art. 39</a></li>
+    </ul>
+    <p class="nota">Resumo para orientar a ação, não é parecer jurídico. Em caso de dúvida, consulte a assessoria jurídica da campanha.</p>
+  </section>
+
+  <section class="faixa" aria-labelledby="baixar-t">
+    <div class="faixa__topo"><h2 class="rotulo" id="baixar-t">Baixar e atualizar</h2></div>
+    <p class="linha">
+      <a class="pill pill--lilas" href="../data/municipios.csv" download>municipios.csv</a>
+      <a class="pill pill--lilas" href="../data/frente2_cidades_10a50mil_habitantes.xlsx" download>Planilha: mobilizar, 10 a 50 mil hab.</a>
+      <a class="pill" href="../data/resumo.json" download>resumo.json</a>
+      <a class="pill" href="../data/radar.json" download>radar.json</a>
+      <a class="pill" href="https://github.com/mneunomne/contradados" target="_blank" rel="noopener">Repositório</a>
+    </p>
+    <p class="texto" style="margin-top:14px">Para refazer os dados, na raiz do repositório:</p>
+    <pre class="codigo">python3 scripts/site/build_dados.py   # junta TSE, IBGE, Portal da Transparência e Radar
+node scripts/site/resumo.mjs          # aplica a conta e gera os resumos
+node scripts/site/montar_arquivo.mjs  # copia a versão anterior para /arquivo
+python3 scripts/frentes/lista_frente2.py  # planilha da Frente 2 (requer openpyxl)</pre>
+    <p class="nota">Cada push na branch main publica o site no Cloudflare. A pasta publicada é <code>site/</code>.</p>
+  </section>
+</main>
+<script type="module">
+import { montarTopo, rodape, esc } from "../assets/js/ui.js";
+import { calcular, PESQUISAS, CANDS } from "../assets/js/frentes.js";
+montarTopo({ pagina: "metodo/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["metodo/", "Método"]] });
+rodape();
+document.getElementById("codigo").textContent = calcular.toString();
+const ks = Object.keys(PESQUISAS);
+const fmt = (v) => (v == null ? "média dos três" : v.toLocaleString("pt-BR"));
+document.getElementById("pesquisas-tab").innerHTML =
+  `<thead><tr><th>Eleitores de</th>${ks.map((k) => `<th><a href="${PESQUISAS[k].url}" target="_blank" rel="noopener">${esc(PESQUISAS[k].nome)}</a><br><span style="font-weight:400">${esc(PESQUISAS[k].campo)} · ${esc(PESQUISAS[k].amostra)} entrevistas · ${esc(PESQUISAS[k].reg)}</span></th>`).join("")}</tr></thead><tbody>` +
+  CANDS.map(([c, n]) => `<tr><td>${esc(n)}</td>${ks.map((k) => { const t = PESQUISAS[k].t[c]; return `<td>${t ? `${fmt(t[0])} / ${fmt(t[1])}` : "média dos três"}</td>`; }).join("")}</tr>`).join("") + "</tbody>";
+</script>
+</body>
+</html>

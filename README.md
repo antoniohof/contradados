@@ -1,77 +1,91 @@
-# Votos em jogo · Brasil 2026
+# Onde buscar votos · 2º turno de 2026
 
-Mapa e dados do voto presidencial por município. Retrato de 08/10/2026,
-antes do segundo turno. Análise territorial; os cenários não são previsões.
+Site para quem organiza a campanha de Lula no 2º turno (25/10/2026): onde e por que buscar
+os votos que faltam, em três frentes, cidade por cidade. Dados do TSE (1º turno de 2026,
+arquivos de 08/10/2026), do IBGE e do Portal da Transparência. Os números descrevem
+territórios, não pessoas, e mostram tetos, não previsões.
 
-## Abrir o site
+## O site (`site/`)
+
+| Endereço | O que tem |
+| --- | --- |
+| `/` | **O caminho**: 10 posts em formato de feed, com o mapa de pontos mudando a cada passo (scrollytelling). |
+| `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. |
+| `/cidade/?ibge=…` | **Ficha**: as três frentes, o que fazer, políticas federais que chegam lá, contexto local e cidades vizinhas. |
+| `/reels/?ibge=…` | **Kit de reels**: roteiro de 30 s, 4 cartões 1080×1920 em PNG, mensagem de WhatsApp e vídeos do Radar da Virada. |
+| `/mapa/` | **Mapa das frentes**: mapa interativo, pesquisa editável, agrupamentos e método completo com o código. |
+| `/metodo/` | Fontes, a conta, limites e regras eleitorais. |
+| `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`). |
+
+As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio), **mobilizar**
+(quem não votou, nas cidades de Lula) e **terceiros** (eleitores de Caiado, Renan, Cury e Zema
+que não escolheram lado). A conta fica em `site/assets/js/frentes.js`, usada pelas páginas e
+pelo build.
+
+Visual: botões, menus e faixas no estilo de othernetwork.io; Newsreader (texto e manchetes) e
+Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js. Sem
+dependências externas em tempo de execução.
+
+## Ver localmente
 
 ```bash
-cd eleitor-pendular-2026  # se você estiver na pasta externa
-python3 -m http.server 8000 --directory site_simples
+python3 -m http.server 8000 --directory site
 ```
 
-Abra http://localhost:8000. Sem instalação de dependências.
+Abra http://localhost:8000.
 
-Mapa: zoom por botões, roda do mouse ou pinça; arraste para mover.
-**Brasil** restaura a vista; **Município** centraliza a seleção; **Ampliar**
-ocupa a tela. Fichas e relatórios abrem no painel à direita; o mapa permanece
-visível enquanto o painel rola. Teclado: +/−, setas, Home e Esc.
+## Publicar (Cloudflare)
 
-## Desenvolver
+O site é a pasta `site/`, servida pelo Cloudflare Workers no Worker `onde-buscar-votos`
+(`wrangler.jsonc`). Com o repositório ligado ao Cloudflare, **cada push na `main` publica**.
 
-- `site_simples/index.html` — página principal.
-- `site_simples/style.css` — branco, títulos Georgia, vermelho e azul.
-- `site_simples/app.js` — mapa, zoom, arraste, busca, ranking e fichas.
-- `site_simples/relatorio.js` — relatórios e fontes.
-- `site_simples/build/` — geração dos JSONs.
-- `docs/` — interface analítica adicional.
+Ligar o deploy automático (uma vez): painel do Cloudflare → **Workers & Pages** →
+`onde-buscar-votos` → **Settings → Builds → Connect** → GitHub `mneunomne/contradados`, branch
+`main`, *Build command* vazio, *Deploy command* `npx wrangler deploy`, *Root directory* `/`.
+Se ativar *builds for non-production branches*, pushes em outras branches (como `dev`) geram links de prévia.
 
-Após alterar os dados:
+Publicar à mão: `bash scripts/site/publicar.sh` (refaz os dados e roda `npx wrangler deploy`).
+
+## Atualizar os dados
 
 ```bash
-python3 site_simples/build/build.py
-python3 scripts/validate.py
-node --check site_simples/app.js
-node --check site_simples/relatorio.js
+python3 scripts/site/build_dados.py       # junta TSE, IBGE, Portal da Transparência e Radar (Python padrão)
+node scripts/site/resumo.mjs              # aplica a conta e gera site/data/resumo.json e pontos.json
+node scripts/site/montar_arquivo.mjs      # copia a versão anterior para site/arquivo/
+python3 scripts/frentes/lista_frente2.py  # planilha da Frente 2, cidades de 10 a 50 mil habitantes (openpyxl)
 ```
 
-O build é offline e usa apenas Python padrão. O pipeline de análise exige
-Python 3.10+ e os pacotes de `requirements.txt`.
+Entradas novas desta versão:
 
-## Publicar
+- `data/ibge/populacao_censo2022.csv`: população do Censo 2022 (IBGE, tabela 4709).
+- `data/ibge/regioes_geograficas.csv`: regiões geográficas imediatas e intermediárias (IBGE, 2017).
+- `data/beneficios/beneficios_municipio.csv`: Bolsa Família e BPC (ago/2026), Pé-de-Meia
+  (jan–ago/2026) e Garantia-Safra (2025), em R$ mil, pelo Portal da Transparência.
+- `data/radar/radar_2026-10-09.json`: temas com fonte e vídeos do
+  [Radar da Virada](https://radardavirada.pages.dev/), com marcação de frente.
 
-Envie `main` ao GitHub. Em **Settings → Pages**, escolha **GitHub Actions**.
-Execute **Actions → Publish GitHub Pages → Run workflow**.
+A planilha da Frente 2 (1.310 cidades pró-Lula de 10 a 50 mil habitantes) fica em
+`outputs/frente2_cidades_10a50mil_habitantes.xlsx` e para download em `/data/`.
 
-A página principal publica `site_simples/`; a interface adicional fica em
-`/mapas/`. **Validate** verifica cada push e pull request. Publicação manual.
-
-## Mapa das três frentes
-
-`mapa_frentes/` é uma página separada com três frentes para o 2º turno (reconquistar,
-mobilizar e eleitores de terceiros), em total e percentual, por município, aglomerado
-urbano, estado ou região, com método e código à vista. Veja o
-[README da pasta](mapa_frentes/README.md). A lista da Frente 2 para cidades pró-Lula de
-10 a 50 mil eleitores está em
-[outputs/frente2_cidades_10a50mil_eleitores.xlsx](outputs/frente2_cidades_10a50mil_eleitores.xlsx).
+**Validate** (GitHub Actions) confere a sintaxe e se `site/data` e `site/arquivo` saem iguais
+das bases do repositório.
 
 ## Dados e método
 
-Fontes: TSE, IBGE/Censo 2022 e pesquisas citadas nos dados.
-A base oficial tem 5.571 registros; o site compara 5.570 municípios.
-Boa Esperança do Norte/MT não tem histórico de 2022. Exterior excluído.
+A base oficial tem 5.571 registros; o site compara 5.570 municípios. Boa Esperança do
+Norte/MT não tem histórico de 2022 nem Censo. Exterior excluído. Pesquisas da Frente 3:
+AtlasIntel/Bloomberg (padrão), Datafolha e Quaest, com registro no TSE. Detalhes em
+`/metodo/` e em `/mapa/#metodo`.
 
-“Votos em jogo” combina mudança da parcela de voto, terceiros, brancos/nulos
-e abstenção excedente. Não identifica pessoas que trocaram de voto.
+- [Relatório](RELATORIO.md) · [Planilha geral](outputs/eleitor_pendular_2026.xlsx) ·
+  [Base oficial](data/tse/municipios_master.csv) · [Guia para continuar](HANDOFF.md)
 
-- [Relatório](RELATORIO.md)
-- [Planilha](outputs/eleitor_pendular_2026.xlsx)
-- [Base oficial](data/tse/municipios_master.csv)
-- [Guia para continuar](HANDOFF.md)
+## Versão anterior e pipeline de análise
 
-`notas_nuvem/` e `estrategias_2t/` preservam pesquisa exploratória;
-não alimentam a publicação automaticamente. ZIPs brutos do TSE ficam fora
-do Git; configure `TSE_RAW` para reproduzir o pipeline completo.
+`site_simples/` e `docs/` são a versão anterior, publicada em `/arquivo/`. O pipeline que gera
+`docs/data/` está descrito no [HANDOFF](HANDOFF.md) (`scripts/tse/`, Python 3.10+ e
+`requirements.txt`; ZIPs brutos do TSE fora do Git, em `TSE_RAW`). `notas_nuvem/` e
+`estrategias_2t/` guardam pesquisa exploratória.
 
-Sem licença definida para o código. Materiais de terceiros mantêm suas
-condições de uso.
+Sem licença definida para o código. Fontes: SIL Open Font License (Newsreader, Bricolage
+Grotesque). Materiais de terceiros mantêm suas condições de uso.

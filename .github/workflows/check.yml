@@ -15,8 +15,15 @@ jobs:
       - uses: actions/setup-node@v6
         with:
           node-version: '22'
+      # base de dados e versão anterior do site (arquivo)
       - run: python scripts/validate.py
       - run: node --check site_simples/app.js && node --check site_simples/relatorio.js && node --check docs/app.js
       - run: python site_simples/build/build.py
       - run: python scripts/validate.py
       - run: git diff --exit-code -- site_simples/data
+      # site atual (site/): sintaxe e dados reproduzíveis a partir das bases do repositório
+      - run: for f in site/assets/js/*.js scripts/site/*.mjs; do node --check "$f"; done
+      - run: python scripts/site/build_dados.py
+      - run: node scripts/site/resumo.mjs > /dev/null
+      - run: node scripts/site/montar_arquivo.mjs
+      - run: git diff --exit-code -- site/data site/arquivo

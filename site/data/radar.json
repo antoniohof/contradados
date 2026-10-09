@@ -1,0 +1,536 @@
+{
+ "_sobre": "Recorte do Radar da Virada (https://radardavirada.pages.dev/), monitor voluntário de narrativas da eleição. Coletado em 09/10/2026 pelos arquivos públicos do site (contra.json e videos.json). Os temas trazem só fatos com fonte, como o Radar publica. Os vídeos são links para conteúdo de terceiros; as marcações de frente (r = reconquistar, m = mobilizar, t = terceiros) e de tema são deste projeto. Vídeos que o próprio Radar marcou como não úteis ficaram de fora.",
+ "coletado_em": "2026-10-09",
+ "fonte": "https://radardavirada.pages.dev/",
+ "temas_criterio": "Só entram temas com efeito comprovado em pesquisa (mudança de voto, maioria que inclui eleitor do adversário ou maior peso declarado na decisão do voto).",
+ "temas": [
+  {
+   "dor": "6x1",
+   "fato": "Questionado sobre o fim da 6x1, Flávio respondeu que mais folga “não adianta” com trabalhador endividado. A PEC em votação dá dois dias de descanso sem cortar salário.",
+   "fontes": [
+    {
+     "f": "O GLOBO",
+     "id": "a0ab2b",
+     "t": "Escala 6x1: Lula cobra posição de Flávio, e candidato do PL diz que mais folga 'não adianta' com trabalhador endividado",
+     "u": "https://news.google.com/rss/articles/CBMi9wFBVV95cUxNRjhwUVVnRFYyMGxLRjNLbF95VnJEby1WU2VlMk12R3hkank0OFZpZm1ZNVFuY2VpdkRLRkpwSDdkdk5MdzBFVjJvUm9teDEyWHI0T1Rxd3Fvc0o0ZnctWTUtdDN6WFlaTVFqcF83aEw2bkplTjltMWtsblU2VUhsSkYtWjVvdXh6Tjk2OVMxaUdwbEh5NUhiM1NfaFFnNnFNb2NYWGtzaklFTXdSVmd3cGFMS21jdmV2OWh4Y3FWWi1YMWRzUmdTY3FGOVdnVHBsN0tHR2Z4QmlleTlkSllxclUtcVBKT0ZUOWZOSW9RWEJoZkszSV9J0gGGAkFVX3lxTFBURGVhNWdoeXBCTjlSMV9PSkVkNVNvdDY5eVVBS2x6SThqWEpnWmN5MEZNNmJ5WEQ1V2xGTFRjeEx3eElNcEdFcEpGN0FlRzZtblVMdEZrbkZ5SVlVM285NnQzRjhteEZOdThsbGxjdTFYc054OGltMkNST2p6SW1GX01qaFAySnlpYWJGMmNuWENiVm1pZXAwVV92M0FKU1JSeGFqOHd0MTMtNnpqbjBOMTViSGg1Z2c0UXozSlRfVFNGb040M3p4d1NFeGJDajNEV1dZckVwWTBvSk5nc0hOQXd6dGFVZnc0dVZGTnhMNDQzM0xMUXJKMENqWXVncVVacVVmc0E?oc=5"
+    },
+    {
+     "f": "g1 (vídeo)",
+     "id": "9261a3",
+     "t": "Senado começa a discutir a PEC do fim da escala 6x1",
+     "u": "https://www.tiktok.com/@g1/video/7693722127727414549"
+    }
+   ],
+   "gancho": "Flávio diz que mais folga “não adianta”",
+   "id": "6x1",
+   "pergunta": "Você trabalha seis dias por semana? Ele acha que folga não adianta.",
+   "prova": {
+    "f": "Quaest, maio/2026",
+    "id": "cd7be2",
+    "num": "68%",
+    "txt": "querem o fim da 6x1. Entre eleitores de centro e direita não bolsonaristas, 55%.",
+    "u": "https://www.moneytimes.com.br/68-sao-a-favor-do-fim-da-escala-6x1-e-22-contra-mostra-pesquisa-genial-quaest-gaep/"
+   },
+   "titulo": "Escala 6x1",
+   "videos_rx": "6\\s?x\\s?1|fim da escala|escala de trabalho",
+   "zap": "*Escala 6x1*\n68% dos brasileiros querem o fim da 6x1 (Quaest).\nPerguntaram ao Flávio. Resposta dele: mais folga \"não adianta\" com trabalhador endividado (O Globo).\nQuem trabalha 6 por 1 sabe de que lado ficar."
+  },
+  {
+   "dor": "democracia",
+   "fato": "Em Goiânia (6/10), Flávio falou em usar a maioria da direita no Congresso para mudar a Constituição e “redemocratizar” o país. No dia seguinte disse que o Brasil não vive uma democracia plena e deixou em aberto aumentar o mandato de presidente para 5 anos.",
+   "fontes": [
+    {
+     "f": "Jornal de Brasília",
+     "id": "753fc6",
+     "t": "Flávio diz que Brasil não vive democracia plena e que Lula é incompatível com Congresso eleito",
+     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-que-brasil-nao-vive-democracia-plena-e-que-lula-e-incompativel-com-congresso-eleito"
+    },
+    {
+     "f": "Jornal de Brasília",
+     "id": "016734",
+     "t": "Flávio diz querer mudar Constituição para reformar lei penal e Judiciário e deixa em aberto ampliar mandato",
+     "u": "https://jornaldebrasilia.com.br/noticias/politica-e-poder/flavio-diz-querer-mudar-constituicao-para-reformar-lei-penal-e-judiciario-e-deixa-em-aberto-ampliar-mandato/"
+    },
+    {
+     "f": "Poder360",
+     "id": "09b7a9",
+     "t": "73% dos brasileiros dizem preferir a democracia, diz Datafolha",
+     "u": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/"
+    }
+   ],
+   "gancho": "Flávio diz que o Brasil não vive uma democracia plena",
+   "id": "constituicao",
+   "pergunta": "Ele diz que o Brasil não vive uma democracia plena e quer mudar a Constituição, até o tamanho do mandato. Você entrega isso a ele?",
+   "prova": {
+    "f": "Datafolha, out/2026",
+    "id": "09b7a9",
+    "num": "73%",
+    "txt": "dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, 74%.",
+    "u": "https://www.poder360.com.br/poder-pesquisas/73-dos-brasileiros-dizem-preferir-a-democracia-diz-datafolha/"
+   },
+   "titulo": "Constituição e democracia",
+   "videos_rx": "constitui|redemocratiz",
+   "zap": "*Constituição*\n73% dos brasileiros dizem que a democracia é sempre a melhor forma de governo. Entre os eleitores de Flávio, 74% (Datafolha).\nFlávio diz que o Brasil não vive uma democracia plena, quer usar a maioria no Congresso para mudar a Constituição e deixou em aberto mandato de 5 anos para presidente (Jornal de Brasília)."
+  },
+  {
+   "dor": "economia",
+   "fato": "Em 8/10, perguntado se reajusta a aposentadoria acima da inflação, Flávio disse “sim”. Mas a Folha revelou plano da equipe dele para desligar o reajuste de aposentadoria e BPC do ganho real do salário mínimo, e ele não diz se mantém essa ligação. A campanha nega o plano.",
+   "fontes": [
+    {
+     "f": "Poder360",
+     "id": "140578",
+     "t": "Flávio nega corte em aposentadoria e cita reajuste acima da inflação",
+     "u": "https://www.poder360.com.br/poder-eleicoes-2026/flavio-nega-corte-em-aposentadoria-e-cita-reajuste-acima-da-inflacao/"
+    },
+    {
+     "f": "Jornal do Comércio",
+     "id": "fbccaa",
+     "t": "Publicamente, Flávio Bolsonaro defende reajuste de aposentadorias acima da inflação",
+     "u": "https://www.jornaldocomercio.com/politica/2026/10/1266272-publicamente-flavio-bolsonaro-defende-reajuste-de-aposentadorias-acima-da-inflacao.html"
+    },
+    {
+     "f": "Gazeta do Povo",
+     "id": "d3cc21",
+     "t": "Daniella Marques diz que plano de Flávio Bolsonaro prevê corte de R$ 190 bi em gastos",
+     "u": "https://www.gazetadopovo.com.br/eleicoes/2026/daniella-marques-diz-que-plano-de-flavio-bolsonaro-preve-corte-de-r-190-bi-em-gastos/"
+    }
+   ],
+   "gancho": "Promete aumento ao aposentado, mas não diz se mantém a regra",
+   "id": "bolso",
+   "pergunta": "Ele promete aumento ao aposentado. Mantém o reajuste ligado ao salário mínimo? Isso ele não diz.",
+   "prova": {
+    "f": "Indexa/Broadcast, set/2026",
+    "id": "126569",
+    "num": "29% · 28%",
+    "txt": "dizem que imposto e emprego são o que mais pesa no voto. É o tema número 1 do eleitor.",
+    "u": "https://viva.com.br/politica/impostos-e-empregos-pesam-mais-para-o-eleitor-mostra-indexabroadcast.html"
+   },
+   "titulo": "Salário, imposto e custo de vida",
+   "videos_rx": "sal[áa]rio m[íi]nimo|aposentad|\\bbpc\\b|custo de vida|pre[çc]o d[ao]s? (comida|alimento)",
+   "zap": "*Aposentadoria e salário mínimo*\nFlávio prometeu reajustar a aposentadoria acima da inflação (Poder360).\nMas não diz se mantém o reajuste ligado ao salário mínimo, que é o que a equipe dele planejava desligar, segundo a Folha (Jornal do Comércio).\nE a campanha fala em cortar R$ 190 bilhões sem dizer de onde (Gazeta do Povo)."
+  }
+ ],
+ "videos": [
+  {
+   "titulo": "Lula: bora pra rua, tá na hora",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7693927911417564437",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "lula",
+   "views": 7500000,
+   "postado": "2026-10-07",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Lula: o corte de R$ 250 bi de Flávio atinge Pé-de-Meia e salário",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7694319006316055815",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "pautas",
+   "views": 3100000,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "bolso"
+  },
+  {
+   "titulo": "Tenho amigos que votaram no Flávio e sigo time Lula",
+   "url": "https://www.instagram.com/reel/DeKSISIPS91/",
+   "fonte": "Instagram @cortesph",
+   "categoria_radar": "famosos",
+   "views": 3360761,
+   "postado": "2026-10-06",
+   "frentes": [
+    "r"
+   ],
+   "tema": "conversa"
+  },
+  {
+   "titulo": "Repense seu voto: Bolsonaro e a fala sobre a tortura",
+   "url": "https://www.tiktok.com/@czfws/video/7693662608540388626",
+   "fonte": "TikTok @czfws",
+   "categoria_radar": "bolsonaro",
+   "views": 5900000,
+   "postado": "2026-10-06",
+   "frentes": [
+    "t"
+   ],
+   "tema": "democracia"
+  },
+  {
+   "titulo": "Lula a Flávio: coloque a bancada para votar o fim da 6x1",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7694420487555845394",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "pautas",
+   "views": 1100000,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "6x1"
+  },
+  {
+   "titulo": "Lula: 33 milhões não votaram, venha votar no 2º turno",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7694017755149880597",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "lula",
+   "views": 2500000,
+   "postado": "2026-10-07",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Paula Teponti: poder continuar exercendo a nossa cidadania",
+   "url": "https://www.instagram.com/reel/DeKaqT3JY5L/",
+   "fonte": "Instagram @paulateponti",
+   "categoria_radar": "famosos",
+   "views": 1164926,
+   "postado": "2026-10-06",
+   "frentes": [
+    "m"
+   ],
+   "tema": "cidadania"
+  },
+  {
+   "titulo": "Advogado compara as propostas para o trabalhador",
+   "url": "https://www.tiktok.com/@danielmoreno.adv/video/7694037039213284626",
+   "fonte": "TikTok @danielmoreno.adv",
+   "categoria_radar": "pautas",
+   "views": 1900000,
+   "postado": "2026-10-07",
+   "frentes": [
+    "r"
+   ],
+   "tema": "trabalho"
+  },
+  {
+   "titulo": "Ana Elisa fala ao eleitor de direita que rejeita o bolsonarismo",
+   "url": "https://www.tiktok.com/@poptimebra/video/7694298668236688660",
+   "fonte": "TikTok @poptimebra",
+   "categoria_radar": "lula",
+   "views": 702000,
+   "postado": "2026-10-08",
+   "frentes": [
+    "t"
+   ],
+   "tema": "direita"
+  },
+  {
+   "titulo": "Por que Lula? Eleitor explica o voto na rua",
+   "url": "https://www.tiktok.com/@reporterdemilhoes/video/7693671243823762689",
+   "fonte": "TikTok @reporterdemilhoes",
+   "categoria_radar": "lula",
+   "views": 1600000,
+   "postado": "2026-10-06",
+   "frentes": [
+    "r"
+   ],
+   "tema": "conversa"
+  },
+  {
+   "titulo": "Se você pode votar, não deixe outros decidirem por você",
+   "url": "https://www.tiktok.com/@doarda/video/7693629608524008712",
+   "fonte": "TikTok @doarda",
+   "categoria_radar": "famosos",
+   "views": 1500000,
+   "postado": "2026-10-06",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Igão (Podpah): no dia 25, na urna é 13",
+   "url": "https://www.tiktok.com/@detudoumpouco.oficial._/video/7694382897448455445",
+   "fonte": "TikTok @detudoumpouco.oficial._",
+   "categoria_radar": "famosos",
+   "views": 297900,
+   "postado": "2026-10-08",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Lula desafia o adversário a votar o fim da escala 6x1",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7693716456311229704",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "pautas",
+   "views": 926100,
+   "postado": "2026-10-07",
+   "frentes": [
+    "r"
+   ],
+   "tema": "6x1"
+  },
+  {
+   "titulo": "Bora levar a juventude do Pé-de-Meia para votar",
+   "url": "https://www.tiktok.com/@ptsaopaulo/video/7694041020845100295",
+   "fonte": "TikTok @ptsaopaulo",
+   "categoria_radar": "lula",
+   "views": 570700,
+   "postado": "2026-10-07",
+   "frentes": [
+    "m"
+   ],
+   "tema": "jovens"
+  },
+  {
+   "titulo": "Neto convence o avô a votar após 15 anos com recado de Lula",
+   "url": "https://www.tiktok.com/@drinascmento/video/7694083598286146837",
+   "fonte": "TikTok @drinascmento",
+   "categoria_radar": "lula",
+   "views": 514700,
+   "postado": "2026-10-08",
+   "frentes": [
+    "m"
+   ],
+   "tema": "idosos"
+  },
+  {
+   "titulo": "Lembrar para não repetir: defendam o Brasil dos Bolsonaro",
+   "url": "https://www.tiktok.com/@ptbrasil/video/7693622502240668935",
+   "fonte": "TikTok @ptbrasil",
+   "categoria_radar": "bolsonaro",
+   "views": 899400,
+   "postado": "2026-10-06",
+   "frentes": [
+    "t"
+   ],
+   "tema": "democracia"
+  },
+  {
+   "titulo": "Lula x Flávio: o que os planos de governo propõem",
+   "url": "https://www.tiktok.com/@najuscaa/video/7693589986116898055",
+   "fonte": "TikTok @najuscaa",
+   "categoria_radar": "pautas",
+   "views": 802100,
+   "postado": "2026-10-06",
+   "frentes": [
+    "r",
+    "t"
+   ],
+   "tema": "propostas"
+  },
+  {
+   "titulo": "Boulos: com Flávio, a 6x1 não acaba; acabam direitos",
+   "url": "https://www.tiktok.com/@guilhermeboulos/video/7694268448130026772",
+   "fonte": "TikTok @guilhermeboulos",
+   "categoria_radar": "pautas",
+   "views": 269200,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "6x1"
+  },
+  {
+   "titulo": "Rafael Santos: cada voto faz diferença, eu voto 13",
+   "url": "https://www.tiktok.com/@rafaelsantos/video/7693676038940888341",
+   "fonte": "TikTok @rafaelsantos",
+   "categoria_radar": "famosos",
+   "views": 588000,
+   "postado": "2026-10-06",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Ana Elisa rebate a pergunta sobre salário mínimo",
+   "url": "https://www.tiktok.com/@thiagofagundesbr/video/7694079698149575957",
+   "fonte": "TikTok @thiagofagundesbr",
+   "categoria_radar": "pautas",
+   "views": 335400,
+   "postado": "2026-10-07",
+   "frentes": [
+    "r"
+   ],
+   "tema": "bolso"
+  },
+  {
+   "titulo": "Flávio quer maioria para mudar a Constituição: vote 13",
+   "url": "https://www.tiktok.com/@digaoroque/video/7693682561343622421",
+   "fonte": "TikTok @digaoroque",
+   "categoria_radar": "bolsonaro",
+   "views": 560500,
+   "postado": "2026-10-06",
+   "frentes": [
+    "t"
+   ],
+   "tema": "constituicao"
+  },
+  {
+   "titulo": "Carlinhos Maia chama os seguidores para votar no 2º turno",
+   "url": "https://www.tiktok.com/@metropolesoficial/video/7693629974326054164",
+   "fonte": "TikTok @metropolesoficial",
+   "categoria_radar": "famosos",
+   "views": 574500,
+   "postado": "2026-10-06",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  },
+  {
+   "titulo": "Estudantes da UFPA nas ruas: Pé-de-Meia e verbas em risco",
+   "url": "https://www.tiktok.com/@25outubro2026/video/7694134321094970645",
+   "fonte": "TikTok @25outubro2026",
+   "categoria_radar": "ruas",
+   "views": 269500,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "jovens"
+  },
+  {
+   "titulo": "Seus direitos estão em perigo, sim",
+   "url": "https://www.tiktok.com/@larissadeolima/video/7693681056817401109",
+   "fonte": "TikTok @larissadeolima",
+   "categoria_radar": "bolsonaro",
+   "views": 486700,
+   "postado": "2026-10-06",
+   "frentes": [
+    "r"
+   ],
+   "tema": "direitos"
+  },
+  {
+   "titulo": "Tentaram mudar meu voto para Flávio: é 13 no 2º turno",
+   "url": "https://www.tiktok.com/@ea_irma_01/video/7694143137328958740",
+   "fonte": "TikTok @ea_irma_01",
+   "categoria_radar": "lula",
+   "views": 247000,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "conversa"
+  },
+  {
+   "titulo": "Maria de Fátima, 71 anos, explica o voto em Lula",
+   "url": "https://www.tiktok.com/@25outubro2026/video/7693932444201946388",
+   "fonte": "TikTok @25outubro2026",
+   "categoria_radar": "lula",
+   "views": 339800,
+   "postado": "2026-10-07",
+   "frentes": [
+    "m"
+   ],
+   "tema": "idosos"
+  },
+  {
+   "titulo": "Padilha: rede de tratamento do câncer na mira do “tesouraço”",
+   "url": "https://www.tiktok.com/@padilhando13/video/7694469324425186567",
+   "fonte": "TikTok @padilhando13",
+   "categoria_radar": "pautas",
+   "views": 72800,
+   "postado": "2026-10-09",
+   "frentes": [
+    "r"
+   ],
+   "tema": "saude"
+  },
+  {
+   "titulo": "Ao eleitor de Renan Santos: romper com o bolsonarismo",
+   "url": "https://www.tiktok.com/@edicao_brasil/video/7694286846934732050",
+   "fonte": "TikTok @edicao_brasil",
+   "categoria_radar": "bolsonaro",
+   "views": 148400,
+   "postado": "2026-10-08",
+   "frentes": [
+    "t"
+   ],
+   "tema": "renan"
+  },
+  {
+   "titulo": "Ana Paula Renault a quem votou em Cury ou Renan: vote Lula",
+   "url": "https://www.tiktok.com/@saiufofoca/video/7694433534378790151",
+   "fonte": "TikTok @saiufofoca",
+   "categoria_radar": "famosos",
+   "views": 81500,
+   "postado": "2026-10-08",
+   "frentes": [
+    "t"
+   ],
+   "tema": "cury_renan"
+  },
+  {
+   "titulo": "Alckmin: mal terminou o 1º turno e querem mudar a Constituição",
+   "url": "https://www.tiktok.com/@25outubro2026/video/7694136268464114965",
+   "fonte": "TikTok @25outubro2026",
+   "categoria_radar": "bolsonaro",
+   "views": 187500,
+   "postado": "2026-10-08",
+   "frentes": [
+    "t"
+   ],
+   "tema": "constituicao"
+  },
+  {
+   "titulo": "Lula critica o plano de cortes de Flávio: “fiquem preocupados”",
+   "url": "https://www.tiktok.com/@metropolesoficial/video/7694445714385947925",
+   "fonte": "TikTok @metropolesoficial",
+   "categoria_radar": "lula",
+   "views": 66900,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "bolso"
+  },
+  {
+   "titulo": "Não vamos deixar o Farmácia Popular acabar",
+   "url": "https://www.tiktok.com/@padilhando13/video/7693710099050679604",
+   "fonte": "TikTok @padilhando13",
+   "categoria_radar": "lula",
+   "views": 306800,
+   "postado": "2026-10-07",
+   "frentes": [
+    "r"
+   ],
+   "tema": "saude"
+  },
+  {
+   "titulo": "Votou em Cury ou Renan? No 2º turno, vote 13",
+   "url": "https://www.tiktok.com/@emydaily24/video/7693982183312117010",
+   "fonte": "TikTok @emydaily24",
+   "categoria_radar": "lula",
+   "views": 137800,
+   "postado": "2026-10-07",
+   "frentes": [
+    "t"
+   ],
+   "tema": "cury_renan"
+  },
+  {
+   "titulo": "Plano de Flávio não cita o Farmácia Popular",
+   "url": "https://www.tiktok.com/@brasildefato_/video/7694418791635193140",
+   "fonte": "TikTok @brasildefato_",
+   "categoria_radar": "pautas",
+   "views": 35100,
+   "postado": "2026-10-08",
+   "frentes": [
+    "r"
+   ],
+   "tema": "saude"
+  },
+  {
+   "titulo": "Boulos: 3 orientações para a virada no 2º turno",
+   "url": "https://www.tiktok.com/@guilhermeboulos/video/7694015988089556245",
+   "fonte": "TikTok @guilhermeboulos",
+   "categoria_radar": "lula",
+   "views": 59700,
+   "postado": "2026-10-07",
+   "frentes": [
+    "m"
+   ],
+   "tema": "convite"
+  }
+ ]
+}

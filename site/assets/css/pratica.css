@@ -1,0 +1,76 @@
+/* Na prática */
+.pratica { padding-top: 84px; }
+.abre .grande { max-width: 1000px; }
+.abre .texto { margin-top: 16px; }
+
+.controles {
+  position: sticky; top: 78px; z-index: 40;
+  display: flex; flex-wrap: wrap; gap: 6px 14px; align-items: center;
+  padding: 8px var(--gutter);
+  background: rgba(255, 255, 255, 0.9);
+  -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px);
+  border-bottom: 1px solid var(--cinza-2);
+}
+.controles select.pill { appearance: none; -webkit-appearance: none; padding-right: 26px; background-image: linear-gradient(45deg, transparent 50%, #000 50%), linear-gradient(135deg, #000 50%, transparent 50%); background-position: calc(100% - 13px) 11px, calc(100% - 8px) 11px; background-size: 5px 5px; background-repeat: no-repeat; }
+.controles .campo { width: 190px; cursor: text; background: var(--cinza-3); }
+.controles .campo:focus { background: var(--papel); outline: 1px solid var(--roxo-2); }
+
+.painel-dados { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, 1fr); gap: var(--gutter); padding: var(--gutter); align-items: start; }
+.mapa-caixa { position: relative; height: min(68vh, 640px); min-height: 360px; background: var(--papel); }
+.mapa-caixa canvas { width: 100%; height: 100%; }
+.resumo { display: grid; gap: var(--gutter); }
+.numeros { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 8px; }
+.numero { background: var(--cinza-3); padding: 8px; }
+.numero b { display: block; font: 600 34px/36px var(--ui); font-stretch: 85%; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; }
+.numero span { font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #333; }
+.estados ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 16px; }
+.estados li { display: flex; justify-content: space-between; gap: 6px; padding: 3px 0; font: 500 14px/17px var(--ui); break-inside: avoid; border-bottom: 1px solid var(--cinza-2); }
+.estados li button { all: unset; cursor: pointer; }
+.estados li button:hover { color: var(--roxo); }
+.estados li .num { color: #555; font-weight: 400; }
+
+.lista .faixa__topo { position: relative; }
+.cidade { min-height: 196px; }
+.cidade .valor { font: 600 30px/32px var(--ui); font-stretch: 85%; letter-spacing: -0.02em; font-variant-numeric: tabular-nums; margin: 2px 0 0; }
+.cidade .valor small { font: 400 12px/14px var(--ui); letter-spacing: 0; display: block; color: #333; }
+.mini { display: grid; gap: 3px; margin-top: 2px; }
+.mini div { display: grid; grid-template-columns: 88px 1fr 54px; align-items: center; gap: 6px; font: 400 12px/14px var(--ui); }
+.mini i { display: block; height: 7px; background: currentColor; min-width: 1px; }
+.mini .t { text-align: right; font-variant-numeric: tabular-nums; }
+.mais-linha { margin: var(--gutter) 0 0; }
+.grade--3 { grid-template-columns: repeat(auto-fit, minmax(260px, 1fr)); }
+.acoes { margin: 6px 0 0; padding-left: 18px; font: 400 16px/21px var(--texto); }
+.acoes li + li { margin-top: 5px; }
+
+.lista-roteiros { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--gutter); margin-top: var(--gutter); }
+.roteiro { background: var(--papel); padding: 8px; display: grid; gap: 6px; scroll-margin-top: 140px; }
+.roteiro.alvo { outline: 2px solid var(--roxo); }
+.roteiro h3 { margin: 0; font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); color: var(--roxo); }
+.roteiro .meta { font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #333; }
+.roteiro .valor { font: 600 26px/28px var(--ui); font-stretch: 85%; font-variant-numeric: tabular-nums; }
+.roteiro ol { margin: 0; padding-left: 22px; font: 400 15px/20px var(--texto); }
+.roteiro ol a { text-decoration: none; }
+.roteiro ol a:hover { text-decoration: underline; }
+.roteiro ol small { font: 400 11px/14px var(--ui); color: var(--cinza); }
+.roteiro .linha .pill { font-size: 14px; min-height: 22px; padding: 3px 7px; }
+
+@media (max-width: 899px) {
+  .painel-dados { grid-template-columns: 1fr; }
+  .mapa-caixa { height: 58vh; }
+  .controles { top: 76px; }
+}
+@media (max-width: 700px) {
+  .pratica { padding-top: 76px; }
+  .controles { position: static; }
+  .controles .linha { flex-wrap: nowrap; overflow-x: auto; max-width: 100%; padding-bottom: 2px; }
+  .numero b { font-size: 28px; line-height: 30px; }
+}
+
+.por-porte { margin: 0; }
+#porte { display: grid; gap: 4px; margin-top: 6px; }
+.barra-porte { all: unset; box-sizing: border-box; display: grid; grid-template-columns: 116px 1fr 64px; gap: 8px; align-items: center; cursor: pointer; font: 500 14px/18px var(--ui); padding: 2px 0; }
+.barra-porte .b { height: 14px; background: var(--cinza-3); }
+.barra-porte .b i { display: block; height: 100%; }
+.barra-porte .v { text-align: right; font-variant-numeric: tabular-nums; }
+.barra-porte.ativa .r { text-decoration: underline; text-underline-offset: 3px; }
+.barra-porte:focus-visible { outline: 2px solid var(--roxo); }

@@ -1,7 +1,12 @@
 {
-  // Publica o mapa das três frentes (mapa_frentes/) como site estático no Cloudflare Workers.
-  // Na raiz do repositório: npx wrangler deploy
+  // Site "Onde buscar votos": arquivos estáticos em site/, servidos pelo Cloudflare Workers.
+  // Deploy automático: Workers Builds ligado ao GitHub (branch main), comando de deploy `npx wrangler deploy`.
+  // Deploy manual, na raiz do repositório: npx wrangler deploy
   "name": "onde-buscar-votos",
   "compatibility_date": "2025-09-01",
-  "assets": { "directory": "./mapa_frentes" }
+  "assets": {
+    "directory": "./site",
+    "not_found_handling": "404-page",
+    "html_handling": "auto-trailing-slash"
+  }
 }

@@ -1,13 +1,14 @@
 <!doctype html>
-<html lang="pt-BR">
+<html lang="pt-BR" data-raiz="../">
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
-<title>Onde buscar votos para Lula</title>
+<title>Mapa das frentes · Onde buscar votos</title>
 <meta name="description" content="Mapa do 2º turno de 2026: onde reconquistar eleitores de Lula, mobilizar ausentes e disputar eleitores de terceiros, por município, aglomerado urbano, estado e região, com método, fórmulas e código à vista.">
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Archivo:wdth,wght@62..125,300..900&family=JetBrains+Mono:wght@400;600&display=swap">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
+<link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="stylesheet" href="../assets/css/base.css">
 <style>
 /* Layout: método no topo · mapa e "boletim" do lugar lado a lado · achados · método completo com gráficos e código */
 :root {
@@ -34,26 +35,6 @@
   --font-mono: "JetBrains Mono", ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace;
   --t-xs: 12px; --t-s: 13.5px; --t-m: 15.5px; --t-l: 19px; --t-xl: 26px; --t-xxl: clamp(34px, 6vw, 58px);
   --radius: 10px;
-}
-@media (prefers-color-scheme: dark) {
-  :root:not([data-theme="light"]) {
-    color-scheme: dark;
-    --bg: #0f1110; --surface: #181b19; --ink: #edefeb; --ink-2: #bec3bd; --muted: #868c86;
-    --line: #2d312e; --land: #252926; --off: #1d201e; --zero: #3b403c;
-    --lula: #de4d5c; --mob: #2ea88f; --ter: #b49012; --flavio: #5b92e3; --on-ter: #0f1110; --f2-area: #1e4a42;
-    --f1-0: #4a2320; --f1-1: #6f2c26; --f1-2: #9b382f; --f1-3: #c94c3f; --f1-4: #ec7a6b; --f1-5: #fbb0a3;
-    --f2-0: #163630; --f2-1: #1b5047; --f2-2: #216b5e; --f2-3: #2a8b79; --f2-4: #44ad97; --f2-5: #82d4c1;
-    --f3-0: #3a2e10; --f3-1: #57431a; --f3-2: #7a5e1c; --f3-3: #a27c18; --f3-4: #c9a033; --f3-5: #e8c870;
-  }
-}
-:root[data-theme="dark"] {
-  color-scheme: dark;
-  --bg: #0f1110; --surface: #181b19; --ink: #edefeb; --ink-2: #bec3bd; --muted: #868c86;
-  --line: #2d312e; --land: #252926; --off: #1d201e; --zero: #3b403c;
-  --lula: #de4d5c; --mob: #2ea88f; --ter: #b49012; --flavio: #5b92e3; --on-ter: #0f1110; --f2-area: #1e4a42;
-  --f1-0: #4a2320; --f1-1: #6f2c26; --f1-2: #9b382f; --f1-3: #c94c3f; --f1-4: #ec7a6b; --f1-5: #fbb0a3;
-  --f2-0: #163630; --f2-1: #1b5047; --f2-2: #216b5e; --f2-3: #2a8b79; --f2-4: #44ad97; --f2-5: #82d4c1;
-  --f3-0: #3a2e10; --f3-1: #57431a; --f3-2: #7a5e1c; --f3-3: #a27c18; --f3-4: #c9a033; --f3-5: #e8c870;
 }
 * { box-sizing: border-box; }
 [hidden] { display: none !important; }
@@ -265,6 +246,38 @@ pre.code { margin: 0; font: 12.5px/1.6 var(--font-mono); background: var(--bg); 
 footer { margin-top: 48px; padding-block: 18px 40px; border-top: 1px solid var(--line); font-size: var(--t-xs); color: var(--muted); display: flex; flex-direction: column; gap: 8px; }
 footer p { max-width: 110ch; }
 @media (prefers-reduced-motion: reduce) { * { transition: none !important; } }
+
+/* ---- novo desenho (othernetwork.io + Newsreader/Bricolage) ---- */
+:root {
+  color-scheme: light;
+  --bg: #fff; --surface: #f5f5f5; --ink: #000; --ink-2: #333; --muted: #818181;
+  --line: #dfdede; --land: #ececec; --off: #f2f2f2; --zero: #d9d9d9;
+  --lula: #ff1a1a; --mob: #7533ff; --ter: #ff9900; --flavio: #5d5d5d; --on-ter: #000; --f2-area: #efe8fd;
+  --f1-0: #ffe6e6; --f1-1: #ffbdbd; --f1-2: #ff8a8a; --f1-3: #ff4d4d; --f1-4: #e00000; --f1-5: #8f0000;
+  --f2-0: #f1ebfe; --f2-1: #dccdfb; --f2-2: #ba99ff; --f2-3: #9466ff; --f2-4: #7533ff; --f2-5: #4210b8;
+  --f3-0: #fff3e0; --f3-1: #ffe5bf; --f3-2: #ffcc7f; --f3-3: #ffb03b; --f3-4: #ff9900; --f3-5: #a85a00;
+  --font-display: "Newsreader", Georgia, serif;
+  --font-body: "Bricolage Grotesque", Helvetica, Arial, sans-serif;
+  --font-mono: "Bricolage Grotesque", Helvetica, Arial, sans-serif;
+  --radius: 0px;
+}
+html, body { background: #fff; }
+.wrap { padding-top: 92px; }
+header.top h1 { font: 500 58px/58px var(--font-display); letter-spacing: -0.02em; }
+header.top .eyebrow { display: inline-flex; align-items: center; min-height: 26px; padding: 4px 8px; border-radius: 5px; background: #f5f5f5; color: #000; font: 500 17px/18px var(--font-body); text-transform: none; letter-spacing: 0; }
+header.top .lede { font: 400 19px/25px var(--font-display); color: #000; }
+.bar { top: 78px; background: rgba(255, 255, 255, 0.92); -webkit-backdrop-filter: blur(6px); backdrop-filter: blur(6px); z-index: 40; }
+.seg { background: transparent !important; border: 0 !important; padding: 0 !important; gap: 4px; display: inline-flex; flex-wrap: wrap; }
+.seg button { min-height: 26px; padding: 4px 8px; border-radius: 5px; background: rgba(245, 245, 245, 0.9); color: #000; font: 500 17px/18px var(--font-body); }
+.seg button:hover { background: #dfdede; }
+.seg button[aria-pressed="true"] { background: #dccdfb; color: #000; font-weight: 500; }
+.seg.frente button[data-f="1"][aria-pressed="true"] { background: #ffe6e6; color: #000; }
+.seg.frente button[data-f="2"][aria-pressed="true"] { background: #dccdfb; color: #000; }
+.seg.frente button[data-f="3"][aria-pressed="true"] { background: #ffe5bf; color: #000; }
+.bar input[type="search"], .transf select { border-radius: 5px; border: 0; background: #f5f5f5; font: 500 15px/18px var(--font-body); min-height: 26px; }
+.mapcard, .panel, .block, .method { border-radius: 0 !important; box-shadow: none !important; }
+.keynums .v { font-family: var(--font-body); font-stretch: 85%; }
+@media (max-width: 700px) { header.top h1 { font-size: 40px; line-height: 41px; } .bar { position: static; } }
 </style>
 
 </head>
@@ -505,69 +518,17 @@ em disputa = Σ votos de c × (100 − Lula − Flávio)%
 </div>
 <div id="tip" role="tooltip"></div>
 
-<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
-<script>
+<script src="../assets/vendor/d3-7.9.0.min.js"></script>
+<script src="../assets/vendor/topojson-client-3.1.0.min.js"></script>
+<script type="module">
 /* =====================================================================
-   1. A CONTA. Esta função é mostrada na seção "O código que faz a conta".
-   m = uma linha de data/municipios.csv
-   T = transferência da pesquisa: T[candidato] = [% para Lula, % para Flávio]
+   1. A CONTA e 2. AS PESQUISAS vêm de ../assets/js/frentes.js,
+   o mesmo arquivo usado por todas as páginas do site e pelo build.
+   A seção "O código que faz a conta" mostra a função calcular abaixo.
    ===================================================================== */
-function calcular(m, T) {
-  // ---- Frente 1 · Reconquistar ----
-  // "Parcela" de Lula = Lula ÷ (Lula + adversário). Ignora terceiros, brancos e nulos.
-  const votosDois = m.votos_lula_26 + m.votos_flavio_26;          // votos em Lula + Flávio, 1º turno 2026
-  const parcela26 = m.votos_lula_26 / votosDois;                    // parcela de Lula em 2026
-  const parcela22 = m.lula_22_pct / (m.lula_22_pct + m.bolsonaro_22_pct); // parcela de Lula no 1º turno de 2022
-  const perda = parcela22 - parcela26;                              // > 0: Lula perdeu terreno para Flávio
-  const f1Pct = Math.max(0, perda) * 100;                           // em pontos percentuais
-  const f1Votos = Math.max(0, perda) * votosDois;                   // eleitores estimados a reconquistar (saldo)
-
-  // ---- Frente 2 · Mobilizar ----
-  const areaLula = parcela26 > 0.5 && m.lula_2t22_pct > 50;         // Lula vence aqui em 2026 e venceu o 2º turno de 2022
-  const abstencao = m.ausentes_26 / m.aptos_26;                     // fração dos aptos que não votou
-  const vantagem = parcela26 - (1 - parcela26);                     // voto líquido para Lula por eleitor dos dois
-  const f2Pct = areaLula ? abstencao * 100 : null;                  // abstenção, só nas áreas de Lula
-  const f2Votos = areaLula ? m.ausentes_26 * vantagem : 0;          // saldo se os ausentes votassem como os vizinhos
-
-  // ---- Frente 3 · Terceiros ----
-  const validos = votosDois + m.votos_terceiros_26;                 // votos válidos, 1º turno 2026
-  // votos de cada terceiro = total exato de votos em terceiros × participação dele (% com 1 casa decimal)
-  const parte = (pct) => (m.terceiros_26_pct > 0 ? m.votos_terceiros_26 * pct / m.terceiros_26_pct : 0);
-  const votos3 = { caiado: parte(m.caiado_26_pct), renan: parte(m.renan_26_pct), cury: parte(m.cury_26_pct) };
-  votos3.outros = Math.max(0, m.votos_terceiros_26 - votos3.caiado - votos3.renan - votos3.cury); // Zema e nanicos
-  let paraLula = 0, paraFlavio = 0, emDisputa = 0;
-  for (const c in votos3) {
-    paraLula   += votos3[c] * T[c][0] / 100;
-    paraFlavio += votos3[c] * T[c][1] / 100;
-    emDisputa  += votos3[c] * (100 - T[c][0] - T[c][1]) / 100;      // branco, nulo ou indeciso
-  }
-  const f3Pct = validos > 0 ? emDisputa / validos * 100 : null;     // em disputa, % dos votos válidos
-  const f3Votos = emDisputa;
-
-  return { votosDois, parcela22, parcela26, perda, f1Pct, f1Votos,
-           areaLula, abstencao, vantagem, f2Pct, f2Votos,
-           validos, votos3, paraLula, paraFlavio, f3Pct, f3Votos };
-}
-
-/* =====================================================================
-   2. PESQUISAS (Frente 3). [% para Lula, % para Flávio] entre os eleitores
-   de cada candidato no 1º turno. Em disputa = o que sobra até 100.
-   ===================================================================== */
-const PESQUISAS = {
-  atlas: { nome: "AtlasIntel/Bloomberg", campo: "3 a 8/10/2026", amostra: "5.026", reg: "BR-03663/2026", quando: "divulgada depois do 1º turno",
-    url: "https://em.com.br/politica/2026/10/7517802-pesquisa-atlas-flavio-bolsonaro-tem-511-e-lula-457-no-2-turno.html", veiculo: "Estado de Minas",
-    t: { caiado: [26.9, 54.9], renan: [28.1, 40.3], cury: [50.4, 38.9], outros: [14.8, 83.4] },
-    nota: "Única pesquisa divulgada após o 1º turno com o cruzamento por candidato (campo de 3 a 8/10, em torno do dia da eleição). Zema e nanicos usam a linha 'outros candidatos'." },
-  datafolha: { nome: "Datafolha", campo: "6 a 8/10/2026", amostra: "2.520", reg: "BR-02949/2026", quando: "depois do 1º turno",
-    url: "https://www.opovo.com.br/noticias/politica/eleicoes/2026/10/08/datafolha-quem-ganha-os-votos-de-cury-renan-caiado-e-zema.html", veiculo: "O Povo",
-    t: { caiado: [32, 46], renan: [32, 46], cury: [32, 46], outros: [32, 46] },
-    nota: "Divulgou só o total dos eleitores de Cury, Renan, Caiado e Zema (46% Flávio, 32% Lula, 15% branco ou nulo); o mesmo valor vale para todos." },
-  quaest: { nome: "Genial/Quaest", campo: "2 e 3/10/2026", amostra: "3.702", reg: "BR-02197/2026", quando: "antes do 1º turno",
-    url: "https://www.band.com.br/politica/eleicoes/2026/quaest-para-onde-vao-os-votos-de-caiado-renan-e-cury-em-um-2o-turno-entre-lula-e-flavio-bolsonaro", veiculo: "Band",
-    t: { caiado: [19, 43], renan: [11, 60], cury: [23, 34], outros: null },
-    nota: "Feita na véspera do 1º turno: mede intenção, não voto declarado. Zema e nanicos: média dos três, ponderada pelos votos." },
-};
+import { calcular, PESQUISAS } from "../assets/js/frentes.js";
+import { montarTopo } from "../assets/js/ui.js";
+montarTopo({ pagina: "mapa/", abas: [["", "O caminho"], ["na-pratica/", "Na prática"], ["mapa/", "Mapa"]] });
 const CANDS = [["caiado", "Caiado", "Caiado"], ["renan", "Renan Santos", "Renan"], ["cury", "Augusto Cury", "Cury"], ["outros", "Zema e outros", "Zema e outros"]];
 
 /* =====================================================================
@@ -606,8 +567,8 @@ const BRANCOS_NULOS_26 = 5964163; // brancos + nulos no 1º turno de 2026 (TSE),
 
   /* ---------- dados ---------- */
   const [topo, rows] = await Promise.all([
-    d3.json("data/municipios.topo.json"),
-    d3.csv("data/municipios.csv", (r) => ({
+    d3.json("../data/municipios.topo.json"),
+    d3.csv("../data/municipios.csv", (r) => ({
       ibge: r.ibge, municipio: tidy(r.municipio), uf: r.uf, capital: r.capital === "1",
       aptos_26: +r.aptos_26, ausentes_26: +r.ausentes_26, votos_lula_26: +r.votos_lula_26, votos_flavio_26: +r.votos_flavio_26,
       votos_terceiros_26: +r.votos_terceiros_26, terceiros_26_pct: +r.terceiros_26_pct,

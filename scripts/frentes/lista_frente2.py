@@ -1,12 +1,13 @@
-"""Lista da Frente 2 (mobilizar): cidades pró-Lula com 10 a 50 mil eleitores aptos.
+"""Lista da Frente 2 (mobilizar): cidades pró-Lula com 10 a 50 mil habitantes.
 
-Entra: município com 10.000 a 49.999 eleitores aptos em 2026, onde Lula teve mais de 50%
-dos votos entre ele e Flávio no 1º turno de 2026 e venceu o 2º turno de 2022.
+Entra: município com 10.000 a 49.999 habitantes no Censo 2022 (IBGE), onde Lula teve mais
+de 50% dos votos entre ele e Flávio no 1º turno de 2026 e venceu o 2º turno de 2022.
 Ordem: saldo potencial = ausentes × vantagem de Lula (fórmula na planilha).
 
-Entradas: docs/data/municipios.json e mapa_frentes/data/municipios.csv
-(rode antes scripts/frentes/build_dados.py).
-Saída: outputs/frente2_cidades_10a50mil_eleitores.xlsx, com fórmulas.
+Entradas: docs/data/municipios.json, site/data/municipios.csv e site/data/regioes.json
+(rode antes scripts/site/build_dados.py).
+Saída: outputs/frente2_cidades_10a50mil_habitantes.xlsx (com fórmulas), copiada para
+site/data/ para download no site.
 Depois de gerar, recalcule as fórmulas em Excel ou LibreOffice.
 
 Uso, na raiz do repositório: python3 scripts/frentes/lista_frente2.py   (requer openpyxl)
@@ -20,20 +21,22 @@ from openpyxl.utils import get_column_letter
 from openpyxl.comments import Comment
 
 REPO = Path(__file__).resolve().parents[2]
-OUT = REPO / "outputs/frente2_cidades_10a50mil_eleitores.xlsx"
+OUT = REPO / "outputs/frente2_cidades_10a50mil_habitantes.xlsx"
 D = json.load(open(REPO / 'docs/data/municipios.json', encoding='utf-8'))
-C = {r['ibge']: r for r in csv.DictReader(open(REPO / 'mapa_frentes/data/municipios.csv', encoding='utf-8'))}
+C = {r['ibge']: r for r in csv.DictReader(open(REPO / 'site/data/municipios.csv', encoding='utf-8'))}
+REG = json.load(open(REPO / 'site/data/regioes.json', encoding='utf-8'))['imediatas']
 tidy = lambda s: ' '.join(w.lower() if w in ('De','Da','Do','Das','Dos','E') else w for w in s.split(' '))
 
 rows = []
 for k, d in D.items():
-    if d.get('l22t2') is None or not (10000 <= d['apt'] < 50000): continue
+    pop = int(C[k]['pop_2022']) if C.get(k, {}).get('pop_2022') else 0
+    if d.get('l22t2') is None or not (10000 <= pop < 50000): continue
     L = d['vl'] / (d['vl'] + d['vf'])
     if not (L > 0.5 and d['l22t2'] > 50): continue
     gov = ''
     if d.get('g2t'):
         gov = 'sim' if d.get('g2ts') == 'confirmado' else 'incerto (TSE pode anular votos de candidato)'
-    rows.append(dict(ibge=k, n=tidy(d['n']), uf=d['uf'], rg=d['rg'], arr=C[k]['arranjo_nome'], apt=d['apt'], aus=d['aus'],
+    rows.append(dict(ibge=k, n=tidy(d['n']), uf=d['uf'], rg=d['rg'], arr=REG.get(C[k]['regiao_imediata'], [''])[0], pop=pop, apt=d['apt'], aus=d['aus'],
                      a22=d['a22'] / 100, dab=d.get('dab22'), vl=d['vl'], vf=d['vf'], l2t=d['l22t2'] / 100,
                      i70=d.get('i70'), pp=d.get('pp') or '', pb=d.get('pb') or '', gov=gov or 'não',
                      saldo=d['aus'] * (2 * L - 1)))
@@ -50,7 +53,7 @@ thin = Border(bottom=Side(style='thin', color='BBBBBB'))
 ws = wb.active; ws.title = 'Cidades'
 cols = [
  ('Posição', 8, '0'), ('Prioridade', 10, '@'), ('Município', 26, '@'), ('UF', 5, '@'), ('Região', 12, '@'),
- ('Aglomerado urbano (IBGE 2015)', 26, '@'),
+ ('Região imediata (IBGE 2017)', 26, '@'),
  ('Saldo potencial para Lula (votos)', 14, '#,##0'), ('Saldo com +1 p.p. de comparecimento (votos)', 15, '#,##0'),
  ('Eleitores aptos 2026', 12, '#,##0'), ('Ausentes 1º turno 2026', 12, '#,##0'), ('Abstenção 1º turno 2026', 11, '0.0%'),
  ('Abstenção 1º turno 2022', 11, '0.0%'), ('Abstenção subiu desde 2022?', 11, '@'),
@@ -58,6 +61,7 @@ cols = [
  ('Votos Lula 1º turno 2026', 12, '#,##0'), ('Votos Flávio 1º turno 2026', 12, '#,##0'), ('Lula entre os dois 2026', 11, '0.0%'),
  ('Lula no 2º turno 2022', 11, '0.0%'), ('Vantagem de Lula (Lula − Flávio)', 12, '+0.0%;-0.0%'), ('Eleitores com 70 anos ou mais', 11, '0.0%'),
  ('Partido do prefeito (2024)', 13, '@'), ('Campo do prefeito (2024)', 11, '@'), ('2º turno para governador no estado', 14, '@'), ('Código IBGE', 10, '@'),
+ ('População (Censo 2022)', 12, '#,##0'),
 ]
 for j, (h, w, _) in enumerate(cols, 1):
     c = ws.cell(row=1, column=j, value=h); c.font = hdr_font; c.fill = hdr_fill
@@ -71,11 +75,11 @@ for i, r in enumerate(rows, 2):
       7: f'=J{i}*S{i}', 8: f'=I{i}*Parâmetros!$B$6/100*S{i}',
       9: r['apt'], 10: r['aus'], 11: f'=J{i}/I{i}', 12: r['a22'], 13: f'=IF(K{i}>L{i},"sim","não")',
       14: r['dab'], 15: r['vl'], 16: r['vf'], 17: f'=O{i}/(O{i}+P{i})', 18: r['l2t'], 19: f'=2*Q{i}-1',
-      20: r['i70'], 21: r['pp'], 22: r['pb'], 23: r['gov'], 24: r['ibge'],
+      20: r['i70'], 21: r['pp'], 22: r['pb'], 23: r['gov'], 24: r['ibge'], 25: r['pop'],
     }
     for j, val in v.items():
         c = ws.cell(row=i, column=j, value=val); c.number_format = cols[j - 1][2]
-        c.font = blue if (j in (9, 10, 12, 14, 15, 16, 18, 20) ) else body
+        c.font = blue if (j in (9, 10, 12, 14, 15, 16, 18, 20, 25) ) else body
 ws.freeze_panes = 'D2'
 ws.auto_filter.ref = f'A1:{get_column_letter(len(cols))}{last}'
 ws['G1'].comment = Comment('Ausentes × vantagem de Lula. Votos líquidos se todos os ausentes votassem como os vizinhos. É um teto, não uma meta.', 'Método')
@@ -124,9 +128,9 @@ we.freeze_panes = 'B2'
 # ---------------- Como ler ----------------
 wl = wb.create_sheet('Como ler')
 lines = [
- ('Frente 2 · Mobilizar: cidades pró-Lula de 10 a 50 mil eleitores', 'title'),
+ ('Frente 2 · Mobilizar: cidades pró-Lula de 10 a 50 mil habitantes', 'title'),
  ('Quem entra', 'h'),
- (f'{N} municípios com 10.000 a 49.999 eleitores aptos em 2026 (eleitores, não habitantes) que são "área de Lula": Lula teve mais de 50% dos votos entre ele e Flávio no 1º turno de 2026 e venceu o 2º turno de 2022 no município.', ''),
+ (f'{N} municípios com 10.000 a 49.999 habitantes no Censo 2022 (IBGE) que são "área de Lula": Lula teve mais de 50% dos votos entre ele e Flávio no 1º turno de 2026 e venceu o 2º turno de 2022 no município.', ''),
  ('Ordem: do maior para o menor saldo potencial. A coluna Posição e a Prioridade se recalculam se você reordenar ou mudar os parâmetros.', ''),
  ('Colunas calculadas (fórmulas)', 'h'),
  ('Saldo potencial = ausentes × vantagem de Lula. Votos líquidos para Lula se todos os ausentes votassem como os vizinhos que votaram. É um teto.', ''),
@@ -140,7 +144,7 @@ lines = [
  ('2º turno para governador no estado: mais um motivo para o eleitor ir votar em 25/10.', ''),
  ('Fontes', 'h'),
  ('TSE, Portal de Dados Abertos: votação por município e comparecimento, 1º turno de 2026 (arquivos de 08/10/2026); perfil do eleitorado 2026; candidatos eleitos em 2024.', ''),
- ('Resultados de 2022 (1º e 2º turno, abstenção): compilações conferidas com o TSE. Aglomerados urbanos: arranjos populacionais do IBGE (2015).', ''),
+ ('Resultados de 2022 (1º e 2º turno, abstenção): compilações conferidas com o TSE. População: Censo 2022 (IBGE, tabela 4709). Regiões geográficas imediatas: IBGE (2017).', ''),
  ('Números em azul são dados de entrada; em preto, fórmulas. Votos do exterior ficam de fora.', ''),
  ('Limites', 'h'),
  ('A conta supõe que os ausentes votariam como os vizinhos. Parte da abstenção é difícil de reverter (título numa cidade onde a pessoa já não mora, cadastro desatualizado).', ''),
@@ -160,4 +164,6 @@ wl.column_dimensions['A'].width = 120
 wb.move_sheet('Como ler', offset=-3)
 wb.active = 1
 wb.save(OUT)
+import shutil
+shutil.copyfile(OUT, REPO / 'site/data' / OUT.name)
 print(N, 'cidades; saldo', round(sum(r['saldo'] for r in rows)))
