@@ -1,0 +1,340 @@
+{
+ "_sobre": "Fatos documentados sobre a gestão de prefeitos eleitos pelo PL (partido de Flávio Bolsonaro) em 2024, levantados em 09/10/2026 em imprensa e sites oficiais (MP, TCE, Câmara, MPF). Só a gestão atual; investigação não é condenação. 'tela' é a frase do vídeo; 'estagio' diz em que pé está e a resposta da prefeitura. Pesquisadas 80 cidades com mais votos em jogo; sem fato útil nas demais.",
+ "coletado_em": "2026-10-09",
+ "cidades": {
+  "3303401": {
+   "municipio": "Nova Friburgo",
+   "uf": "RJ",
+   "prefeito": "Johnny Maycon",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-08",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "Segundo o Correio da Manhã, o MPRJ acompanha o caso e identifica indícios de fraude em licitações do evento 'Um Encanto de Natal' (2023 e 2024) da Prefeitura de Nova Friburgo.",
+     "tela": "O MP do Rio vê indícios de fraude nas licitações do Natal da prefeitura.",
+     "estagio": "Apuração do MP. A prefeitura exonerou os servidores citados.",
+     "veiculo": "Correio da Manhã",
+     "url": "https://www.correiodamanha.com.br/serrano/2025/08/214586-camara-de-friburgo-debate-verbas-usadas-pelo-municipio.html",
+     "resposta": "A prefeitura exonerou os ex-agentes públicos citados no caso; a matéria não traz resposta dela sobre as suspeitas de fraude.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-10",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "O MPRJ instaurou inquérito civil em 10/06/2026 para apurar possíveis irregularidades nos repasses da Prefeitura de Nova Friburgo à previdência própria dos servidores (RPPS).",
+     "tela": "O MP do Rio investiga os repasses da prefeitura à previdência dos servidores.",
+     "estagio": "Inquérito civil aberto em junho de 2026. A prefeitura nega.",
+     "veiculo": "Correio da Manhã",
+     "url": "https://www.correiodamanha.com.br/serrano/2026/06/294309-inquerito-civil-para-apurar-repasses-previdenciarios.html",
+     "resposta": "A prefeitura nega irregularidades: diz que não falta repasse das contribuições descontadas dos servidores, que não há 'rombo previdenciário', e sim déficit atuarial desde 2004, e que os parcelamentos têm previsão legal.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-02",
+     "tipo": "gestao",
+     "status": "documentado na imprensa",
+     "fato": "A Câmara de Nova Friburgo aprovou requerimento cobrando da prefeitura explicações sobre falta de remédios no Hospital Raul Sertã e em postos, problema que vereadora diz vir desde o fim de 2025.",
+     "tela": "A Câmara cobrou da prefeitura explicações sobre a falta de remédios no hospital.",
+     "estagio": "Pedido aprovado em abril de 2026. A prefeitura não respondeu ao jornal.",
+     "veiculo": "Correio da Manhã (edição digital)",
+     "url": "https://digital.correiodamanha.com.br/jornalcorreiodamanha/2026/04/02/2126a3/pdf/0204cmanha25.pdf",
+     "resposta": "Procurada pelo jornal, a prefeitura não respondeu até o fechamento da edição.",
+     "confirmado": true
+    }
+   ]
+  },
+  "3303203": {
+   "municipio": "Nilópolis",
+   "uf": "RJ",
+   "prefeito": "Abraão David Neto",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-02-13",
+     "tipo": "policia",
+     "status": "investigação",
+     "fato": "Na Operação Astreia, a PF fez buscas contra o prefeito Abraãozinho (PL), investigado por compra de votos e lavagem de dinheiro na eleição de 2024, e encontrou R$ 172 mil na casa dele.",
+     "tela": "Em 2025, a PF fez buscas na casa do prefeito, investigado por compra de votos.",
+     "estagio": "Investigação, sem condenação. Ele nega.",
+     "veiculo": "Correio da Manhã",
+     "url": "https://www.correiodamanha.com.br/estado-do-rio/2026/09/316479-pf-mira-deputado-ricardo-abrao-em-investigacao-sobre-compra-de-votos.html",
+     "resposta": "Abraãozinho negou as acusações e disse estar à disposição da Justiça. Ao Portal Tela, disse que sua eleição foi 'transparente'. A prefeitura informou em nota que não se manifestaria sobre o caso.",
+     "confirmado": true
+    }
+   ]
+  },
+  "3538006": {
+   "municipio": "Pindamonhangaba",
+   "uf": "SP",
+   "prefeito": "Ricardo Piorino",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2026-03",
+     "tipo": "tce",
+     "status": "documentado na imprensa",
+     "fato": "O TCE-SP mandou anular pregão de R$ 12,9 milhões para playgrounds escolares de Pindamonhangaba, citando exigências excessivas e falta de planejamento, e multou o prefeito Ricardo Piorino e um diretor por descumprirem determinações.",
+     "tela": "O Tribunal de Contas multou o prefeito e mandou anular licitação de R$ 12,9 milhões.",
+     "estagio": "Decisão do TCE-SP de março de 2026. A prefeitura vai recorrer.",
+     "veiculo": "Vale 360 News",
+     "url": "https://www.vale360news.com.br/tce-anula-licitacao-de-r-129-mi-para-playgrounds-em-pinda-e-multa-prefeito-ricardo-piorino-pl/",
+     "resposta": "A prefeitura disse que vai recorrer das multas, que agiu conforme a Lei 14.133/2021 e que a licitação já havia sido revogada pelo município.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03",
+     "tipo": "tce",
+     "status": "documentado na imprensa",
+     "fato": "O TCE-SP anulou chamamento da Prefeitura de Pindamonhangaba para uma OSC gerir escola municipal rural, por ver tentativa de transferir a terceiros a educação infantil e o fundamental até o 5º ano.",
+     "tela": "O Tribunal de Contas barrou a terceirização da gestão de uma escola municipal.",
+     "estagio": "Decisão do TCE-SP de março de 2026. A prefeitura vai recorrer.",
+     "veiculo": "Vale 360 News",
+     "url": "https://www.vale360news.com.br/tce-anula-chamamento-da-educacao-integral-em-pindamonhangaba-e-barra-terceirizacao-integral-de-escola/",
+     "resposta": "A prefeitura disse que vai recorrer porque os atos do processo estão corretos e que a parceria contrata só cinco professores, de 1.146 efetivos da rede.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2114007": {
+   "municipio": "Zé Doca",
+   "uf": "MA",
+   "prefeito": "Flavinha Cunha (Flaviana Vilar Rodrigues)",
+   "genero": "a",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-12-23",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "O MP-MA recomendou à prefeita de Zé Doca anular em 90 dias contratos temporários da Educação feitos sem processo seletivo, após inquérito civil apontar contratações 'sem qualquer critério objetivo'.",
+     "tela": "O MP recomendou anular contratos da Educação feitos sem seleção.",
+     "estagio": "Recomendação do MP-MA de dezembro de 2025.",
+     "veiculo": "Ministério Público do Maranhão (Diário Eletrônico do MPMA)",
+     "url": "https://cdn-0.mpma.mp.br/publicacoes/19999/e1b6cb3c676dbd147b49f2300c057a47.pdf",
+     "resposta": "",
+     "confirmado": true
+    },
+    {
+     "data": "2025-02-05",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "Segundo o Portal Tela, o MP-MA instaurou procedimento e pediu valores e documentos do festival gospel de R$ 605 mil em cachês que substituiu o Carnaval de 2025 em Zé Doca.",
+     "tela": "O MP apura gasto de R$ 605 mil em cachês de um festival da prefeitura.",
+     "estagio": "Procedimento do MP-MA de fevereiro de 2025. A prefeita defendeu o evento.",
+     "veiculo": "Portal Tela",
+     "url": "https://www.portaltela.com/noticias/politica/2025/02/05/ministerio-publico-investiga-substituicao-do-carnaval-por-festival-gospel-em-ze-doca/",
+     "resposta": "A prefeita defendeu o festival nas redes sociais como forma de 'agradecer a Deus pelas conquistas'.",
+     "confirmado": true
+    }
+   ]
+  },
+  "1302405": {
+   "municipio": "Lábrea",
+   "uf": "AM",
+   "prefeito": "Gerlando Lopes do Nascimento",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-07-25",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "O MPF recomendou à Prefeitura de Lábrea pagar em 15 dias os salários atrasados de 2025, além de terço de férias e 13º de 2024 e 2025, a professores indígenas e tradicionais.",
+     "tela": "O MPF cobrou da prefeitura salários atrasados de professores indígenas.",
+     "estagio": "Recomendação do MPF de julho de 2025.",
+     "veiculo": "Ministério Público Federal (MPF)",
+     "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-am/noticias/mpf-recomenda-pagamento-de-salarios-atrasados-a-professores-indigenas-e-adequacoes-na-educacao-em-labrea-am",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "3504503": {
+   "municipio": "Avaré",
+   "uf": "SP",
+   "prefeito": "Roberto Araujo",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": false,
+   "itens": [
+    {
+     "data": "2025-08-18",
+     "tipo": "gestao",
+     "status": "investigação",
+     "fato": "A Câmara de Avaré criou em agosto de 2025 a CPI 001/2025 para apurar possíveis irregularidades na interrupção da merenda escolar e na contratação emergencial de nova empresa.",
+     "tela": "A Câmara abriu CPI sobre a interrupção da merenda escolar.",
+     "estagio": "CPI criada em agosto de 2025.",
+     "veiculo": "Câmara Municipal de Avaré (Semanário Oficial)",
+     "url": "https://www.camaraavare.sp.gov.br/semanarios/2025/891039aa831ad8f9c3418fbd6ab783f9.pdf",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "3305505": {
+   "municipio": "Saquarema",
+   "uf": "RJ",
+   "prefeito": "Lucimar Vidal",
+   "genero": "a",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-01-13",
+     "tipo": "gestao",
+     "status": "documentado na imprensa",
+     "fato": "Segundo o Poder360, a prefeitura de Saquarema nomeou em janeiro de 2025 Fabrício Queiroz, ex-assessor de Flávio Bolsonaro preso em 2020 no caso das 'rachadinhas' da Alerj, subsecretário de Segurança.",
+     "tela": "A prefeitura nomeou Fabrício Queiroz, ex-assessor de Flávio, para a Segurança.",
+     "estagio": "Nomeação de janeiro de 2025. A prefeitura diz que seguiu a lei.",
+     "veiculo": "Poder360",
+     "url": "https://www.poder360.com.br/poder-brasil/queiroz-tem-experiencia-para-cargo-diz-prefeitura-de-saquarema/",
+     "resposta": "A prefeitura disse que a nomeação 'foi realizada em conformidade com as legislações vigentes' e que Queiroz é PM reformado com 30 anos no setor de segurança e experiência para o cargo.",
+     "confirmado": true
+    }
+   ]
+  },
+  "3138401": {
+   "municipio": "Leopoldina",
+   "uf": "MG",
+   "prefeito": "Pedro Augusto Junqueira Ferraz",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-10-17",
+     "tipo": "gestao",
+     "status": "documentado na imprensa",
+     "fato": "Onze dos 15 vereadores de Leopoldina, três do PL, protocolaram em 14/10/2025 pedido de CPI sobre compras de flores exóticas pela prefeitura desde 2021, citando 'fortes sinais de sobrepreço'.",
+     "tela": "Vereadores pedem CPI por suspeita de sobrepreço na compra de flores.",
+     "estagio": "Pedido de outubro de 2025. A prefeitura abriu apuração interna.",
+     "veiculo": "Tribuna de Minas",
+     "url": "https://tribunademinas.com.br/noticias/regiao/17-10-2025/camara-zona-da-mata-pedido-cpi-para-apurar-compra-de-flores-exoticas.html?amp=1",
+     "resposta": "A prefeitura disse ter interesse na apuração dos fatos, que instaurou processo administrativo interno sobre a contratação e que não comentará até concluir os trabalhos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2100303": {
+   "municipio": "Aldeias Altas",
+   "uf": "MA",
+   "prefeito": "Kedson Araújo",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-10-08",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "O MPMA instaurou inquérito civil para apurar possível nepotismo na nomeação de parente de primeiro grau do prefeito Kedson Araújo como secretário adjunto de Administração e Finanças; outras nomeações também são apuradas.",
+     "tela": "O MP investiga possível nepotismo na nomeação de um parente do prefeito.",
+     "estagio": "Inquérito civil do MP-MA de outubro de 2025.",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2025/10/prefeito-e-investigado-por-nepotismo-apos-nomear-parente-como-secretario-adjunto/",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "3170404": {
+   "municipio": "Unaí",
+   "uf": "MG",
+   "prefeito": "Thiago Martins",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": false,
+   "itens": [
+    {
+     "data": "2026-06-27",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "Segundo o Portal Tela, o MPMG abriu Notícia de Fato (fase preliminar) sobre supostas irregularidades no contrato de R$ 14,29 milhões de iluminação pública assinado pela prefeitura de Unaí em março de 2025.",
+     "tela": "O MP de Minas apura um contrato de R$ 14 milhões de iluminação da prefeitura.",
+     "estagio": "Apuração preliminar aberta em junho de 2026. A prefeitura não respondeu.",
+     "veiculo": "Portal Tela",
+     "url": "https://www.portaltela.com/noticias/politica/2026/06/27/mp-investiga-contrato-de-iluminacao-publica-de-r-142-milhoes-em-unai/",
+     "resposta": "A prefeitura não respondeu aos contatos da reportagem.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4118501": {
+   "municipio": "Pato Branco",
+   "uf": "PR",
+   "prefeito": "Géri Dutra",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-02-24",
+     "tipo": "mp",
+     "status": "documentado na imprensa",
+     "fato": "O MPPR recomendou à Prefeitura de Pato Branco anular decreto que suspendeu pagamentos por 120 dias, chamando-o de ilegal; disse que a dívida real era R$ 38 milhões, não R$ 89 milhões.",
+     "tela": "O MP do Paraná chamou de ilegal o decreto do prefeito que suspendeu pagamentos.",
+     "estagio": "Recomendação do MPPR de fevereiro de 2025. A prefeitura alegou déficit.",
+     "veiculo": "Bem Paraná",
+     "url": "https://www.bemparana.com.br/noticias/parana/cidadesdoparana/mppr-pede-anulacao-de-decreto-que-suspende-pagamentos-em-pato-branco/",
+     "resposta": "A prefeitura justificou o decreto com um déficit alegado de R$ 89 milhões; o jornal tentava contato e não publicou resposta à recomendação.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2925303": {
+   "municipio": "Porto Seguro",
+   "uf": "BA",
+   "prefeito": "Jânio Natal",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2026-02-03",
+     "tipo": "tce",
+     "status": "investigação",
+     "fato": "O TCM-BA notificou Jânio Natal a apresentar defesa, em 15 dias, sobre indícios de irregularidades apontados pela 26ª Inspetoria Regional nas contas de maio a agosto de 2025.",
+     "tela": "O Tribunal de Contas cobrou do prefeito explicações sobre falhas nas contas de 2025.",
+     "estagio": "Notificação do TCM-BA de fevereiro de 2026.",
+     "veiculo": "A Tarde",
+     "url": "https://atarde.com.br/bahia/janio-natal-e-obrigado-a-explicar-falhas-contabeis-em-porto-seguro-1378438",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "3509007": {
+   "municipio": "Caieiras",
+   "uf": "SP",
+   "prefeito": "Gilmar Lagoinha",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2026-03-30",
+     "tipo": "tce",
+     "status": "investigação",
+     "fato": "Conselheiro substituto do TCE-SP apontou, em 30/03/2026, indícios de irregularidades que teriam reduzido a competitividade em licitação de software de saúde da Prefeitura de Caieiras e abriu prazo para defesa.",
+     "tela": "O Tribunal de Contas vê indícios de irregularidade num contrato da saúde.",
+     "estagio": "Análise do TCE-SP de março de 2026, ainda sem decisão final.",
+     "veiculo": "Portal Dois Pontos",
+     "url": "https://www.portaldoispontos.com.br/noticia/tribunal-de-contas-aponta-irregularidades-em-contratos-de-tecnologia-em-caieiras-e-apura-pedido-de-devolucao-de-mais-de-r-12-milhoes-aos-cofres-publicos",
+     "resposta": "A prefeitura não havia se manifestado até a publicação.",
+     "confirmado": true
+    }
+   ]
+  }
+ }
+}

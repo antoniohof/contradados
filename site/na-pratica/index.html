@@ -3,10 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Na prática · Onde buscar votos</title>
+<title>Na prática · Contra Dados – Onde buscar votos</title>
 <meta name="description" content="Cidade por cidade, onde buscar votos para Lula no 2º turno: por frente, por tamanho de cidade, por estado e por roteiro.">
-<meta property="og:title" content="Na prática · Onde buscar votos">
-<meta property="og:image" content="/assets/og.png">
+<meta property="og:title" content="Na prática · Contra Dados – Onde buscar votos">
+<meta property="og:site_name" content="Contra Dados – Onde buscar votos">
+<meta property="og:url" content="https://contradados.online/na-pratica/">
+<link rel="canonical" href="https://contradados.online/na-pratica/">
+<meta property="og:image" content="https://contradados.online/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -20,12 +23,16 @@
 <body>
 <main class="pratica">
   <section class="faixa faixa--solida abre">
-    <div class="faixa__topo"><p class="rotulo">Na prática</p><a class="pill pill--tinta" href="#roteiros">Roteiros por região</a></div>
+    <div class="faixa__topo"><p class="rotulo">Na prática</p><a class="pill pill--acento" href="#v=rot" data-vista="roteiros">Roteiros por região</a></div>
     <h1 class="grande">Cidade por cidade: onde ir até 25 de outubro.</h1>
-    <p class="texto">Escolha a frente, o tamanho da cidade e o estado. A lista mostra onde cada esforço rende mais votos. Os roteiros juntam cidades vizinhas para visitar em sequência.</p>
+    <p class="texto">Escolha a frente, o tamanho da cidade e o estado. A lista mostra onde cada esforço rende mais votos. Em <b>Roteiros</b>, as cidades vizinhas viram um caminho para visitar em sequência: escolha um e ande para o próximo com as setas.</p>
   </section>
 
   <form class="controles" id="controles" aria-label="Filtros" onsubmit="return false">
+    <div class="linha vista" role="group" aria-label="Ver">
+      <button class="pill" type="button" data-vista="cidades">Cidades</button>
+      <button class="pill" type="button" data-vista="roteiros">Roteiros</button>
+    </div>
     <div class="linha" role="group" aria-label="Frente">
       <button class="pill" type="button" data-f="0">Todas as frentes</button>
       <button class="pill pill--f1" type="button" data-f="1"><span class="ponto f1t"></span>Reconquistar</button>
@@ -50,13 +57,14 @@
   <section class="painel-dados" aria-label="Resumo da seleção">
     <div class="mapa-caixa"><canvas id="mapa" aria-label="Mapa das cidades selecionadas"></canvas></div>
     <div class="resumo">
+      <div class="rot-detalhe" id="rot-detalhe" hidden></div>
       <div class="numeros" id="numeros"></div>
       <figure class="por-porte"><figcaption class="nota" id="porte-tit"></figcaption><div id="porte"></div></figure>
       <div class="estados" id="estados"></div>
     </div>
   </section>
 
-  <section class="faixa lista" aria-labelledby="lista-tit">
+  <section class="faixa lista" id="cidades" aria-labelledby="lista-tit">
     <div class="faixa__topo">
       <h2 class="rotulo" id="lista-tit">Cidades</h2>
       <div class="linha">
@@ -75,7 +83,7 @@
       <span class="nota">Regiões geográficas imediatas do IBGE (2017)</span>
     </div>
     <p class="texto">Cada roteiro junta as cidades da seleção que ficam na mesma região imediata do IBGE: cidades vizinhas, ligadas ao mesmo polo. A ordem sugerida começa pela cidade com mais votos em jogo e segue sempre para a mais próxima. Distâncias em linha reta.</p>
-    <div class="lista-roteiros" id="lista-roteiros"></div>
+    <ol class="lista-rot" id="lista-roteiros"></ol>
     <p class="linha mais-linha"><button class="pill" type="button" id="mais-rot">Mostrar mais roteiros</button></p>
   </section>
 

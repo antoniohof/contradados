@@ -91,10 +91,10 @@ export function montarTopo({ pagina = "", painel = null } = {}) {
     <div class="topo__esq">
       <button class="pill pill--ico" type="button" data-menu aria-label="Abrir menu" aria-expanded="false">${ICO.menu}</button>
       <button class="pill pill--ico" type="button" data-busca aria-label="Buscar cidade" aria-expanded="false">${ICO.busca}</button>
-      <a class="pill marca" href="${RAIZ}">Onde buscar votos</a>
+      <a class="pill marca" href="${RAIZ}"><b>Contra Dados</b><span class="oculto-movel">– Onde buscar votos</span></a>
     </div>
     <div class="topo__dir">
-      <a class="mais mais--tinta" href="${RAIZ}na-pratica/"><span class="mais__txt"><span class="oculto-movel">Cidade por cidade</span><span class="so-movel">Cidades</span></span><span class="mais__ico" aria-hidden="true">+</span></a>
+      <a class="mais mais--acento" href="${RAIZ}na-pratica/"><span class="mais__txt"><span class="oculto-movel">Cidade por cidade</span><span class="so-movel">Cidades</span></span><span class="mais__ico" aria-hidden="true">+</span></a>
       <a class="mais mais--branco oculto-movel" href="${RAIZ}reels/"><span class="mais__txt">Kit de reels</span><span class="mais__ico" aria-hidden="true">+</span></a>
     </div>`;
   document.body.prepend(topo);
@@ -109,7 +109,7 @@ export function montarTopo({ pagina = "", painel = null } = {}) {
   barra.className = "abas";
   barra.setAttribute("aria-label", "Seções");
   const ativa = pagina === "cidade/" ? "na-pratica/" : pagina;
-  barra.innerHTML = ABAS.map(([h, t]) => `<a class="pill${h === ativa ? " pill--tinta" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
+  barra.innerHTML = ABAS.map(([h, t]) => `<a class="pill${h === ativa ? " ativa" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
     (dias >= 0 ? `<span class="pill pill--branco contagem oculto-movel" title="Segundo turno em 25 de outubro de 2026">25/10 · ${dias === 0 ? "é hoje" : dias === 1 ? "falta 1 dia" : `faltam ${dias} dias`}</span>` : "");
   topo.after(barra);
 

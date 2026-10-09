@@ -1,4 +1,6 @@
-# Onde buscar votos · 2º turno de 2026
+# Contra Dados – Onde buscar votos · 2º turno de 2026
+
+Endereço: [contradados.online](https://contradados.online)
 
 Site para quem organiza a campanha de Lula no 2º turno (25/10/2026): onde e por que buscar
 os votos que faltam, em três frentes, cidade por cidade. Dados do TSE (1º turno de 2026,
@@ -10,9 +12,9 @@ territórios, não pessoas, e mostram tetos, não previsões.
 | Endereço | O que tem |
 | --- | --- |
 | `/` | **O caminho**: 10 posts em formato de feed, com o mapa mudando a cada passo (scrollytelling): primeiro um ponto por cidade, depois 1 ponto = 1.000 votos, na cor de cada frente. |
-| `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. No Brasil, mapa de densidade; num estado ou roteiro, um espinho por cidade (altura = votos em jogo). |
+| `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado e lista para baixar. Em **Roteiros**, as regiões imediatas do IBGE viram caminhos por cidades vizinhas: ao abrir um, o mapa mostra o trajeto e o painel ao lado as paradas, com anterior/próximo (setas do teclado), cópia e envio por WhatsApp. No Brasil, mapa de densidade; num estado ou roteiro, um espinho por cidade (altura = votos em jogo). |
 | `/cidade/?ibge=…` | **Ficha**: as três frentes, o que fazer, políticas federais que chegam lá, contexto local e cidades vizinhas. |
-| `/reels/?ibge=…` | **Kit de reels**: um vídeo de 23 s por cidade (1080×1920) que abre com uma notícia local, liga o assunto a uma política de Lula, mostra o que Flávio disse (com fonte) e chama para o dia 25. Toca na página e baixa em MP4 (H.264 no Chrome e no Safari; VP9 ou WebM nos demais), com capa em PNG, roteiro para gravar, legenda, mensagem de WhatsApp e vídeos do Radar da Virada. |
+| `/reels/?ibge=…` | **Kit de reels**: lista de todas as cidades por votos em jogo (filtros de frente, tamanho, estado, notícia local e prefeitura do PL). Para cada uma, um vídeo vertical em que cada tela fica o tempo de ler (40–50 s): notícia local sobre uma foto da cidade (Wikimedia Commons, com crédito; dá para trocar), o que Lula fez e o dinheiro federal que chega lá (Portal da Transparência), o que Flávio disse (com fonte), um fato documentado da prefeitura do PL onde houver, e a chamada. Partes ligam e desligam; textos variam de cidade para cidade. Toca na página e baixa em MP4, com capa, roteiro, legenda, mensagem de WhatsApp e vídeos do Radar da Virada. |
 | `/mapa/` | Redireciona para `/metodo/#graficos` (o antigo mapa das frentes saiu; os gráficos e o método foram para Método). |
 | `/metodo/` | A conta, cada frente em um gráfico, como os mapas foram desenhados, fontes, limites e regras eleitorais. |
 | `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`), fora do menu. |
@@ -25,8 +27,9 @@ pelo build.
 Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (preto,
 branco e cinza na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
 Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js; MP4 dos reels
-gravado no navegador (WebCodecs + mp4-muxer, copiado em `site/assets/vendor/`). Sem
-dependências externas em tempo de execução.
+gravado no navegador (WebCodecs + mp4-muxer, copiado em `site/assets/vendor/`). A única chamada externa
+é a foto de fundo dos reels, que o navegador busca na Wikidata e no Wikimedia Commons; sem rede, o vídeo
+usa o mapa de pontos.
 
 ## Ver localmente
 
@@ -40,6 +43,10 @@ Abra http://localhost:8000.
 
 O site é a pasta `site/`, servida pelo Cloudflare Workers no Worker `onde-buscar-votos`
 (`wrangler.jsonc`). Com o repositório ligado ao Cloudflare, **cada push na `main` publica**.
+
+Domínio: `contradados.online`. Com o domínio no Cloudflare, ligue-o ao Worker em **Workers & Pages** →
+`onde-buscar-votos` → **Settings → Domains & Routes → Add → Custom domain**. As páginas já apontam
+`og:url`, `canonical` e a imagem de compartilhamento para `https://contradados.online`.
 
 Ligar o deploy automático (uma vez): painel do Cloudflare → **Workers & Pages** →
 `onde-buscar-votos` → **Settings → Builds → Connect** → GitHub `mneunomne/contradados`, branch
@@ -68,6 +75,9 @@ Entradas novas desta versão:
 - `data/noticias/noticias_locais.json`: notícias locais de 2026 de cidades pequenas, com veículo,
   data, link, assunto, tom e a frase de gancho do reel (`confirmado` = matéria aberta e conferida).
   O build guarda até 3 por cidade em `site/data/noticias.json`.
+- `data/prefeitos/prefeitos_pl.json`: fatos documentados (MP, TCE, PF, Câmara, imprensa) sobre a gestão de
+  prefeitos eleitos pelo PL em 2024, nas 80 cidades do PL com mais votos em jogo; frase do vídeo, estágio do
+  caso e resposta da prefeitura. Vai para `site/data/prefeitos.json`.
 
 A planilha da Frente 2 (1.310 cidades pró-Lula de 10 a 50 mil habitantes) fica em
 `outputs/frente2_cidades_10a50mil_habitantes.xlsx` e para download em `/data/`.

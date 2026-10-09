@@ -1,5 +1,5 @@
 // Na prática: filtros por frente, porte e estado; lista de cidades; roteiros por região imediata.
-import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, baixarArquivo, RAIZ } from "./ui.js";
+import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, baixarArquivo, copiar, linkWhats, RAIZ } from "./ui.js";
 import { aplicar, transferencia, completarQuaest, PORTES, UFNOME, PESQUISAS, PESQUISA_PADRAO } from "./frentes.js";
 import { Mapa, COR, COR_F as RGB_F, trajeto } from "./dotmap.js";
 
@@ -14,7 +14,7 @@ const COR_F = ["#000", "#e0201b", "#12a088", "#3056c8"];
 const TXT_F = ["", "f1t", "f2t", "f3t"];
 
 // ---------------------------------------------------------------- estado (vai para o endereço)
-const S = { f: 0, p: 2, uf: "", q: "", ordem: "votos", n: 48, nRot: 12, roteiro: "" };
+const S = { f: 0, p: 2, uf: "", q: "", ordem: "votos", n: 48, nRot: 30, roteiro: "", vista: "cidades" };
 function lerHash() {
   const h = new URLSearchParams(location.hash.slice(1).replace(/^roteiros$/, "rot=1"));
   if (h.has("f")) S.f = +h.get("f") || 0;
@@ -22,6 +22,7 @@ function lerHash() {
   if (h.has("uf")) S.uf = (h.get("uf") || "").toUpperCase();
   if (h.has("q")) S.q = h.get("q");
   if (h.has("roteiro")) S.roteiro = h.get("roteiro");
+  if (h.has("rot") || h.get("v") === "rot" || S.roteiro) S.vista = "roteiros";
   return h;
 }
 const h0 = lerHash();
@@ -31,6 +32,8 @@ function gravarHash() {
   if (S.p !== 2) h.set("p", S.p);
   if (S.uf) h.set("uf", S.uf);
   if (S.q) h.set("q", S.q);
+  if (S.vista === "roteiros") h.set("v", "rot");
+  if (S.roteiro) h.set("roteiro", S.roteiro);
   const t = h.toString();
   history.replaceState(null, "", t ? "#" + t : location.pathname);
 }
@@ -52,13 +55,13 @@ const ufs = [...new Set(D.map((d) => d.uf))].sort((a, b) => UFNOME[a].localeComp
 const selUF = document.getElementById("uf");
 selUF.insertAdjacentHTML("beforeend", ufs.map((u) => `<option value="${u}">${UFNOME[u]}</option>`).join(""));
 const campoQ = document.getElementById("q");
-document.querySelectorAll("[data-f]").forEach((b) => b.addEventListener("click", () => { S.f = +b.dataset.f; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); }));
-document.querySelectorAll("[data-p]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.p; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); }));
-selUF.addEventListener("change", () => { S.uf = selUF.value; S.n = 48; S.nRot = 12; S.roteiro = ""; render(); });
+document.querySelectorAll("[data-f]").forEach((b) => b.addEventListener("click", () => { S.f = +b.dataset.f; S.n = 48; S.nRot = 30; S.roteiro = ""; render(); }));
+document.querySelectorAll("[data-p]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.p; S.n = 48; S.nRot = 30; S.roteiro = ""; render(); }));
+selUF.addEventListener("change", () => { S.uf = selUF.value; S.n = 48; S.nRot = 30; S.roteiro = ""; render(); });
 let tq;
 campoQ.addEventListener("input", () => { clearTimeout(tq); tq = setTimeout(() => { S.q = campoQ.value; S.n = 48; S.roteiro = ""; render(); }, 180); });
 document.getElementById("mais").addEventListener("click", () => { S.n += 48; desenharLista(); });
-document.getElementById("mais-rot").addEventListener("click", () => { S.nRot += 12; desenharRoteiros(); });
+document.getElementById("mais-rot").addEventListener("click", () => { S.nRot += 30; desenharRoteiros(); });
 const bOrdem = document.getElementById("ordem");
 bOrdem.addEventListener("click", () => { S.ordem = S.ordem === "votos" ? "pct" : "votos"; S.n = 48; desenharLista(); });
 document.getElementById("csv").addEventListener("click", baixarCSV);
@@ -89,7 +92,7 @@ mapa.aoRedimensionar = () => desenharMapa(true);
 const voltar = document.createElement("button");
 voltar.type = "button"; voltar.className = "pill pill--branco mapa-voltar"; voltar.hidden = true;
 voltar.textContent = "← Voltar à seleção";
-voltar.addEventListener("click", () => { S.roteiro = ""; desenharMapa(); desenharRoteiros(); });
+voltar.addEventListener("click", () => fecharRoteiro());
 document.querySelector(".mapa-caixa").append(voltar);
 let selecaoAtual = [];
 function desenharMapa(inst = false) {
@@ -197,26 +200,100 @@ function roteiroPorCodigo(cod) {
 }
 function desenharRoteiros() {
   const lista = roteirosAtuais.slice(0, S.nRot);
-  document.getElementById("lista-roteiros").innerHTML = lista.map((r) => {
+  document.getElementById("lista-roteiros").innerHTML = lista.map((r, i) => {
     const t = trajeto(r.cidades, (c) => valor(c));
     const f = S.f || 1 + r.g.indexOf(Math.max(...r.g));
-    return `<article class="roteiro${S.roteiro === r.cod ? " alvo" : ""}" id="roteiro-${r.cod}">
-      <h3>${esc(r.nome)} (${r.uf})</h3>
-      <p class="meta">${r.cidades.length} cidades · região intermediária de ${esc(r.inter)} · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais</p>
-      <p class="valor ${TXT_F[f]}">+${grande(r.v)} <span class="nota">votos em jogo · ~${n0(t.total)} km em linha reta</span></p>
-      <ol>${t.ordem.map((c, i) => `<li><a href="${RAIZ}cidade/?ibge=${c.ibge}">${esc(c.municipio)}</a> <small>+${grande(valor(c))}${i ? ` · ${n0(t.passos[i])} km` : ""}</small></li>`).join("")}</ol>
-      <p class="linha"><button class="pill pill--tinta" type="button" data-ver="${r.cod}">Ver no mapa</button><a class="pill pill--branco" href="${RAIZ}reels/?ibge=${t.ordem[0].ibge}">Reels para ${esc(t.ordem[0].municipio)}</a></p>
-    </article>`;
-  }).join("") || `<p class="texto">Sem roteiros com duas ou mais cidades nesta seleção.</p>`;
+    const nomes = t.ordem.slice(0, 3).map((c) => esc(c.municipio)).join(", ") + (t.ordem.length > 3 ? "…" : "");
+    return `<li><button type="button" class="rot${S.roteiro === r.cod ? " sel" : ""}" data-rot="${r.cod}" id="roteiro-${r.cod}">
+      <span class="rot__pos">${i + 1}</span>
+      <span class="rot__nome"><b>${esc(r.nome)}</b> ${r.uf}</span>
+      <span class="rot__v ${TXT_F[f]}">+${grande(r.v)}</span>
+      <span class="rot__info"><i class="ponto f${f}"></i>${r.cidades.length} cidades · ~${n0(t.total)} km · ${nomes}</span>
+    </button></li>`;
+  }).join("") || `<li class="texto">Sem roteiros com duas ou mais cidades nesta seleção.</li>`;
   document.getElementById("mais-rot").hidden = roteirosAtuais.length <= S.nRot;
-  document.querySelectorAll("[data-ver]").forEach((b) => b.addEventListener("click", () => {
-    S.roteiro = b.dataset.ver;
-    document.querySelectorAll(".roteiro.alvo").forEach((x) => x.classList.remove("alvo"));
-    b.closest(".roteiro")?.classList.add("alvo");
-    document.querySelector(".mapa-caixa").scrollIntoView({ behavior: "smooth", block: "center" });
-    setTimeout(() => desenharMapa(), 350);
-  }));
 }
+document.getElementById("lista-roteiros").addEventListener("click", (e) => {
+  const b = e.target.closest("[data-rot]");
+  if (b) abrirRoteiro(b.dataset.rot, true);
+});
+// abre um roteiro: o mapa mostra o caminho e o painel ao lado mostra as paradas, com anterior e próximo
+function abrirRoteiro(cod, rolar = false) {
+  S.roteiro = cod;
+  const i = roteirosAtuais.findIndex((r) => r.cod === cod);
+  if (i >= S.nRot) S.nRot = i + 1;
+  desenharRoteiros();
+  desenharDetalhe();
+  desenharMapa();
+  gravarHash();
+  if (rolar) document.querySelector(".painel-dados").scrollIntoView({ behavior: "smooth", block: "start" });
+}
+function fecharRoteiro() {
+  S.roteiro = "";
+  desenharRoteiros();
+  desenharDetalhe();
+  desenharMapa();
+  gravarHash();
+}
+function textoRoteiro(r, t) {
+  const link = `${location.origin}${location.pathname}#v=rot&roteiro=${r.cod}`;
+  return [`Roteiro ${r.nome} (${r.uf}): ${r.cidades.length} cidades, +${grande(r.v)} votos em jogo, ~${n0(t.total)} km em linha reta`,
+    ...t.ordem.map((c, i) => `${i + 1}. ${c.municipio} (+${grande(valor(c))})${i ? ` · ${n0(t.passos[i])} km` : ""}`), link].join("\n");
+}
+function desenharDetalhe() {
+  const caixa = document.getElementById("rot-detalhe");
+  const r = S.roteiro ? roteiroPorCodigo(S.roteiro) : null;
+  document.querySelectorAll(".resumo > :not(#rot-detalhe)").forEach((x) => (x.hidden = !!r));
+  caixa.hidden = !r;
+  if (!r) { caixa.innerHTML = ""; return; }
+  const i = roteirosAtuais.findIndex((x) => x.cod === r.cod);
+  const t = trajeto(r.cidades, (c) => valor(c));
+  const f = S.f || 1 + r.g.indexOf(Math.max(...r.g));
+  const txt = textoRoteiro(r, t);
+  caixa.innerHTML = `
+    <div class="rot-det__nav">
+      <button class="pill" type="button" data-nav="-1"${i <= 0 ? " disabled" : ""}>← Anterior</button>
+      <span class="nota">${i >= 0 ? `Roteiro ${i + 1} de ${n0(roteirosAtuais.length)}` : "Roteiro"}</span>
+      <button class="pill" type="button" data-nav="1"${i < 0 || i >= roteirosAtuais.length - 1 ? " disabled" : ""}>Próximo →</button>
+    </div>
+    <h3 class="rot-det__nome">${esc(r.nome)} (${r.uf})</h3>
+    <p class="meta">${r.cidades.length} cidades · região intermediária de ${esc(r.inter)} · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais</p>
+    <p class="valor ${TXT_F[f]}">+${grande(r.v)} <span class="nota">votos em jogo · ~${n0(t.total)} km em linha reta</span></p>
+    <ol class="paradas">${t.ordem.map((c, k) => `<li><a href="${RAIZ}cidade/?ibge=${c.ibge}">${esc(c.municipio)}</a> <small>+${grande(valor(c))}${k ? ` · ${n0(t.passos[k])} km da anterior` : " · comece aqui"}</small> <a class="reel-link" href="${RAIZ}reels/?ibge=${c.ibge}">reel</a></li>`).join("")}</ol>
+    <p class="linha">
+      <button class="pill pill--acento" type="button" id="rot-copiar">Copiar roteiro</button>
+      <a class="pill pill--branco" target="_blank" rel="noopener" href="${linkWhats(txt)}">Mandar no WhatsApp</a>
+      <button class="pill" type="button" id="rot-fechar">Voltar à seleção</button>
+    </p>
+    <p class="nota">Setas do teclado ← → trocam de roteiro.</p>`;
+  caixa.querySelectorAll("[data-nav]").forEach((b) => b.addEventListener("click", () => {
+    const j = i + +b.dataset.nav;
+    if (roteirosAtuais[j]) abrirRoteiro(roteirosAtuais[j].cod);
+  }));
+  caixa.querySelector("#rot-copiar").addEventListener("click", (e) => copiar(txt, e.currentTarget));
+  caixa.querySelector("#rot-fechar").addEventListener("click", fecharRoteiro);
+}
+document.addEventListener("keydown", (e) => {
+  if (!S.roteiro || e.target.closest("input, select, textarea") || e.altKey || e.metaKey || e.ctrlKey) return;
+  if (e.key !== "ArrowLeft" && e.key !== "ArrowRight") return;
+  const i = roteirosAtuais.findIndex((r) => r.cod === S.roteiro);
+  const j = i + (e.key === "ArrowRight" ? 1 : -1);
+  if (roteirosAtuais[j]) { e.preventDefault(); abrirRoteiro(roteirosAtuais[j].cod); }
+});
+// cidades ou roteiros
+function mostrarVista() {
+  document.querySelectorAll(".controles [data-vista]").forEach((b) => b.setAttribute("aria-pressed", String(b.dataset.vista === S.vista)));
+  document.getElementById("cidades").hidden = S.vista !== "cidades";
+  document.getElementById("roteiros").hidden = S.vista !== "roteiros";
+}
+document.querySelectorAll("[data-vista]").forEach((b) => b.addEventListener("click", (e) => {
+  e.preventDefault();
+  S.vista = b.dataset.vista;
+  if (S.vista === "cidades" && S.roteiro) fecharRoteiro();
+  mostrarVista();
+  gravarHash();
+  if (b.closest(".abre")) document.getElementById("controles").scrollIntoView({ behavior: "smooth", block: "start" });
+}));
 
 // ---------------------------------------------------------------- CSV
 function baixarCSV() {
@@ -236,21 +313,21 @@ function render() {
   roteirosAtuais = calcularRoteiros(selecaoAtual);
   desenharResumo(selecaoAtual);
   desenharLista();
+  if (S.roteiro && !roteirosAtuais.some((r) => r.cod === S.roteiro)) S.roteiro = "";
   desenharRoteiros();
+  desenharDetalhe();
   desenharMapa();
+  mostrarVista();
   gravarHash();
 }
 render();
 
-// vindo de um link para um roteiro ou para a lista de roteiros
-if (S.roteiro) {
-  const r = roteiroPorCodigo(S.roteiro);
-  if (r) {
-    if (!roteirosAtuais.some((x) => x.cod === S.roteiro)) { roteirosAtuais.unshift(r); desenharRoteiros(); }
-    setTimeout(() => document.getElementById("roteiro-" + S.roteiro)?.scrollIntoView({ block: "start" }), 300);
-    desenharMapa(true);
-  }
-} else if (h0.has("rot")) setTimeout(() => document.getElementById("roteiros").scrollIntoView({ block: "start" }), 300);
+// vindo de um link para um roteiro (pode estar fora da seleção atual: entra no topo da lista)
+if (h0.has("roteiro") && !S.roteiro) {
+  const r = calcularRoteiros(D.filter((d) => d.imediata === h0.get("roteiro") && valor(d, 0) > 0))[0];
+  if (r) { roteirosAtuais.unshift(r); abrirRoteiro(r.cod); }
+}
+if (S.vista === "roteiros") setTimeout(() => document.getElementById(S.roteiro ? "controles" : "roteiros").scrollIntoView({ block: "start" }), 300);
 
 document.querySelector(".abre .nota")?.remove();
 document.querySelector(".abre").insertAdjacentHTML("beforeend", `<p class="nota">Terceiros calculados com a ${PESQUISAS[PESQUISA_PADRAO].nome} (${PESQUISAS[PESQUISA_PADRAO].campo}). Os números são tetos: mostram onde há mais votos possíveis, não quantos serão conquistados.</p>`);

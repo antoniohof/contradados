@@ -15,6 +15,7 @@ Entradas
   data/canais/canais.csv                    canais públicos (prefeitura, câmara, imprensa local)
   data/radar/radar_2026-10-09.json          recorte do Radar da Virada (temas com fonte e vídeos)
   data/noticias/noticias_locais.json        notícias e pautas locais das cidades pequenas (ganchos dos reels)
+  data/prefeitos/prefeitos_pl.json          fatos documentados da gestão de prefeitos eleitos pelo PL (reels)
 
 Saídas em site/data/
   municipios.csv        uma linha por município; as contas das frentes ficam no navegador
@@ -25,6 +26,7 @@ Saídas em site/data/
   canais.json           canais públicos por município
   radar.json            temas e vídeos do Radar da Virada
   noticias.json         ganchos locais por município, do melhor para o pior
+  prefeitos.json        prefeitos do PL com fato documentado: frase do vídeo, estágio, fonte
 """
 import csv
 import json
@@ -247,9 +249,20 @@ def main():
             noticias[k] = [{"d": x["data"], "v": x["veiculo"], "u": x["url"], "r": x["resumo"], "te": x["tema"], "to": x["tom"], "g": x["gancho"], "c": int(x["confirmado"])} for x in itens]
     (OUT / "noticias.json").write_text(json.dumps(noticias, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
 
+    # prefeitos do PL com fato documentado (o mais recente primeiro)
+    fonte_pref = json.loads((REPO / "data/prefeitos/prefeitos_pl.json").read_text(encoding="utf-8"))
+    prefeitos = {}
+    for k, c in fonte_pref["cidades"].items():
+        itens = sorted(c["itens"], key=lambda x: x["data"], reverse=True)
+        prefeitos[k] = {"p": c["prefeito"], "g": c["genero"], "pc": int(c["partido_confirmado"]),
+                        "i": [{"d": x["data"], "t": x["tela"], "e": x["estagio"], "f": x["fato"], "v": x["veiculo"], "u": x["url"],
+                               "r": x["resposta"], "c": int(x["confirmado"])} for x in itens]}
+    (OUT / "prefeitos.json").write_text(json.dumps(prefeitos, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
     sem_pop = [k for k in base if k not in pop]
     print(f"{len(base)} municípios -> {OUT.relative_to(REPO)}/municipios.csv; sem Censo: {sem_pop}; "
-          f"{len(locais)} com pesquisa local; {len(canais)} com canais; {len(noticias)} com notícia local")
+          f"{len(locais)} com pesquisa local; {len(canais)} com canais; {len(noticias)} com notícia local; "
+          f"{len(prefeitos)} com fato sobre prefeito do PL")
 
 
 if __name__ == "__main__":

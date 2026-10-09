@@ -3,10 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Kit de reels · Onde buscar votos</title>
-<meta name="description" content="Roteiro de 30 segundos, cartões verticais e vídeos do Radar da Virada para cada cidade, com políticas federais que chegam lá.">
-<meta property="og:title" content="Kit de reels · Onde buscar votos">
-<meta property="og:image" content="/assets/og.png">
+<title>Kit de reels · Contra Dados – Onde buscar votos</title>
+<meta name="description" content="Um reel para cada cidade: notícia local, o que Lula fez e o dinheiro federal que chega lá, o que Flávio disse, com fonte. Toca no site e baixa em MP4.">
+<meta property="og:title" content="Kit de reels · Contra Dados – Onde buscar votos">
+<meta property="og:site_name" content="Contra Dados – Onde buscar votos">
+<meta property="og:url" content="https://contradados.online/reels/">
+<link rel="canonical" href="https://contradados.online/reels/">
+<meta property="og:image" content="https://contradados.online/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -19,16 +22,36 @@
 </head>
 <body>
 <main class="reels">
-  <section class="faixa faixa--solida abre">
-    <div class="faixa__topo"><p class="rotulo">Kit de reels</p><a class="pill pill--tinta" href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada ↗</a></div>
+  <section class="faixa faixa--solida abre" id="escolha">
+    <div class="faixa__topo"><p class="rotulo">Kit de reels</p><a class="pill pill--acento" href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada ↗</a></div>
     <h1 class="grande">Um reel para cada cidade.</h1>
-    <p class="texto">Escolha a cidade. O vídeo abre com uma notícia da própria cidade, liga o assunto ao que Lula fez, mostra o que o adversário disse e chama para o dia 25. Dá para assistir aqui e baixar em MP4. Junto vêm o roteiro para gravar o seu, a legenda, a mensagem de WhatsApp e vídeos do Radar da Virada para mandar na cidade.</p>
-    <div class="escolha">
-      <label class="sr" for="cidade">Cidade</label>
-      <input class="pill campo" id="cidade" type="search" placeholder="Digite o nome da cidade" autocomplete="off" list="lista-cidades">
-      <datalist id="lista-cidades"></datalist>
-      <div class="linha" id="atalhos" aria-label="Sugestões"></div>
-    </div>
+    <p class="texto">Escolha a cidade na lista: ela vem da que tem mais votos em jogo para a que tem menos. O vídeo abre com uma notícia da cidade sobre uma foto dela, mostra o que Lula fez e o dinheiro federal que chega lá, o que Flávio disse e, onde houver, um fato documentado da prefeitura do PL. Dá para assistir aqui e baixar em MP4. Junto vêm o roteiro para gravar o seu, a legenda, a mensagem de WhatsApp e vídeos do Radar da Virada.</p>
+    <form class="escolha" role="search" onsubmit="return false">
+      <div class="linha" role="group" aria-label="Frente">
+        <button class="pill" type="button" data-rf="0">Todas as frentes</button>
+        <button class="pill pill--f1" type="button" data-rf="1"><span class="ponto f1t"></span>Reconquistar</button>
+        <button class="pill pill--f2" type="button" data-rf="2"><span class="ponto f2t"></span>Mobilizar</button>
+        <button class="pill pill--f3" type="button" data-rf="3"><span class="ponto f3t"></span>Terceiros</button>
+      </div>
+      <div class="linha" role="group" aria-label="Tamanho da cidade">
+        <button class="pill" type="button" data-rp="0">todas</button>
+        <button class="pill" type="button" data-rp="1">até 10 mil</button>
+        <button class="pill" type="button" data-rp="2">10 a 50 mil</button>
+        <button class="pill" type="button" data-rp="3">50 a 200 mil</button>
+        <button class="pill" type="button" data-rp="45">mais de 200 mil</button>
+      </div>
+      <div class="linha">
+        <label class="sr" for="uf-reels">Estado</label>
+        <select class="pill" id="uf-reels"></select>
+        <label class="sr" for="cidade">Procurar cidade</label>
+        <input class="pill campo" id="cidade" type="search" placeholder="Procurar cidade" autocomplete="off">
+        <button class="pill" type="button" id="so-noticia" aria-pressed="false">Com notícia local</button>
+        <button class="pill" type="button" id="so-pl" aria-pressed="false">Prefeitura do PL com fato</button>
+      </div>
+    </form>
+    <p class="nota" id="conta-reels"></p>
+    <ol class="lista-reels" id="lista-reels"></ol>
+    <p class="linha mais-linha"><button class="pill" type="button" id="mais-reels">Mostrar mais cidades</button></p>
   </section>
 
   <section class="kit" id="kit" aria-live="polite"></section>
@@ -37,6 +60,8 @@
     <div class="faixa__topo"><h2 class="rotulo" id="regras-t">Antes de postar</h2><a class="pill" href="../metodo/#regras">Regras completas</a></div>
     <ul class="lista-regras">
       <li><b>Feito com IA? Avise.</b> Conteúdo feito ou alterado com inteligência artificial precisa de aviso visível; o vídeo daqui já traz o aviso no fim. Deepfake é proibido (Res. TSE 23.610/2019, com as mudanças de 2024).</li>
+      <li><b>Foto com crédito, sem montagem.</b> A foto da cidade vem do Wikimedia Commons, com autor e licença no vídeo. Se trocar por outra, use foto sua ou com permissão e ponha o crédito. Foto de prefeito: oficial ou de imprensa, com crédito, sem alterar o rosto.</li>
+      <li><b>Investigação não é condenação.</b> Nos fatos sobre prefeituras do PL, o vídeo diz em que pé está o caso e a resposta da prefeitura. Não corte essa parte.</li>
       <li><b>Crítica, sim; mentira, não.</b> Cada contraste do vídeo tem fonte. Informação falsa ou fora de contexto dá direito de resposta ao adversário e pode tirar o vídeo do ar.</li>
       <li><b>Nada de impulsionamento pago.</b> Só candidatos, partidos, federações e coligações podem pagar para impulsionar conteúdo eleitoral.</li>
       <li><b>Nada de disparo em massa</b> em grupos e listas.</li>

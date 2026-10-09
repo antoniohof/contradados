@@ -120,7 +120,7 @@ export function prepararMapa(P) {
   }
   return { n, u, v, caixa: [u0, v0, u1, v1] };
 }
-// do Brasil inteiro até a região da cidade
+// do Brasil inteiro até a região da cidade (num quadro menor, os pontos encolhem junto)
 function mapa(ctx, M, alvo, cor, t, area) {
   const [ax, ay, aw, ah] = area;
   const [u0, v0, u1, v1] = M.caixa;
@@ -131,82 +131,221 @@ function mapa(ctx, M, alvo, cor, t, area) {
   const cuBR = (u0 + u1) / 2, cvBR = (v0 + v1) / 2;
   const cu = cuBR + (alvo[0] - cuBR) * z, cv = cvBR + (alvo[1] - cvBR) * z;
   const ox = ax + aw / 2 - cu * k, oy = ay + ah / 2 - cv * k;
-  const r = 2.2 + 2.4 * z;
+  const esc = clamp(aw / 900, 0.4, 1);
+  const r = (2.2 + 2.4 * z) * esc;
   ctx.fillStyle = "#4a4a4a";
   ctx.beginPath();
   for (let i = 0; i < M.n; i++) {
     const x = M.u[i] * k + ox, y = M.v[i] * k + oy;
-    if (x < ax - 10 || x > ax + aw + 10 || y < ay - 10 || y > ay + ah + 10) continue;
+    if (x < ax - 4 || x > ax + aw + 4 || y < ay - 4 || y > ay + ah + 4) continue;
     ctx.moveTo(x + r, y); ctx.arc(x, y, r, 0, 6.2832);
   }
   ctx.fill();
   const cx = alvo[0] * k + ox, cy = alvo[1] * k + oy;
   const pulso = (t * 1.3) % 1;
-  ctx.strokeStyle = cor; ctx.lineWidth = 6;
+  ctx.strokeStyle = cor; ctx.lineWidth = 6 * esc;
   ctx.globalAlpha = 1 - pulso;
-  ctx.beginPath(); ctx.arc(cx, cy, 18 + pulso * 70, 0, 6.2832); ctx.stroke();
+  ctx.beginPath(); ctx.arc(cx, cy, (18 + pulso * 70) * esc, 0, 6.2832); ctx.stroke();
   ctx.globalAlpha = 1;
   ctx.fillStyle = cor;
-  ctx.beginPath(); ctx.arc(cx, cy, 18, 0, 6.2832); ctx.fill();
-  ctx.lineWidth = 6; ctx.strokeStyle = "#fff"; ctx.stroke();
+  ctx.beginPath(); ctx.arc(cx, cy, 18 * esc, 0, 6.2832); ctx.fill();
+  ctx.lineWidth = 6 * esc; ctx.strokeStyle = "#fff"; ctx.stroke();
 }
 
-// ---------------------------------------------------------------- cenas
-// k: conteúdo do kit (ver reels.js). Cada cena desenha a partir do seu próprio tempo local.
-export function montarReel(k, M) {
-  const cor = k.cor, claro = k.corClara, txtCor = k.corTexto;
-  const cenas = [
-    { dur: 4.6, fundo: "#0d0d0d", desenhar: (ctx, t) => {
-      mapa(ctx, M, k.alvo, cor, t, [X0, 330, LARG, 700]);
+// ---------------------------------------------------------------- fotos
+const pronta = (img) => !!(img && img.complete && img.naturalWidth);
+// foto cobrindo a área, com zoom lento ao longo da cena
+function foto(ctx, img, t, dur, { x = 0, y = 0, w = W, h = H, zoom = 0.1, foco = [0.5, 0.45] } = {}) {
+  if (!pronta(img)) return false;
+  const iw = img.naturalWidth, ih = img.naturalHeight;
+  const s = Math.max(w / iw, h / ih) * (1 + zoom * clamp(t / dur, 0, 1));
+  const dw = iw * s, dh = ih * s;
+  ctx.save();
+  ctx.beginPath(); ctx.rect(x, y, w, h); ctx.clip();
+  ctx.drawImage(img, x + (w - dw) * foco[0], y + (h - dh) * foco[1], dw, dh);
+  ctx.restore();
+  return true;
+}
+function veu(ctx, y0, y1, a0, a1) {
+  const g = ctx.createLinearGradient(0, y0, 0, y1);
+  g.addColorStop(0, `rgba(0,0,0,${a0})`); g.addColorStop(1, `rgba(0,0,0,${a1})`);
+  ctx.fillStyle = g; ctx.fillRect(0, y0, W, y1 - y0);
+}
+function caixa(ctx, x, y, w, h, cor, r = 16) {
+  ctx.fillStyle = cor;
+  ctx.beginPath(); ctx.roundRect ? ctx.roundRect(x, y, w, h, r) : ctx.rect(x, y, w, h); ctx.fill();
+}
+// fundo na cor da frente com a foto em tom único por cima
+function duotom(ctx, img, cor, t, dur) {
+  ctx.fillStyle = cor; ctx.fillRect(0, 0, W, H);
+  if (!pronta(img)) return;
+  ctx.save();
+  ctx.globalCompositeOperation = "multiply";
+  ctx.globalAlpha = 0.5;
+  if ("filter" in ctx) ctx.filter = "grayscale(1) contrast(1.15) brightness(1.15)";
+  foto(ctx, img, t, dur, { zoom: 0.06 });
+  ctx.restore();
+}
+
+// ---------------------------------------------------------------- tempo de leitura
+// Cada tela fica o tempo de ler com calma: 3,4 palavras por segundo, mais uma pausa.
+const LEITURA = 3.4;
+export const palavras = (...txts) => txts.filter(Boolean).join(" ").replace(/\*/g, "").split(/\s+/).filter(Boolean).length;
+const tempo = (n, min = 4, max = 11, extra = 0) => clamp(1.1 + n / LEITURA + extra, min, max);
+// quando entra cada bloco de texto (para não começar o seguinte antes de o anterior terminar)
+const fimDe = (entra, txt, passo = 0.06) => entra + tokens(txt).length * passo + 0.35;
+
+// ---------------------------------------------------------------- telas
+// k: conteúdo do kit (ver reels.js). k.telas = lista de telas na ordem do vídeo; cada tipo sabe se desenhar
+// a partir do próprio tempo local e diz quanto tempo precisa.
+const TELAS = {
+  gancho(k, s, M) {
+    const dur = tempo(palavras(s.texto, s.status), 5.5, 11, 0.8);
+    const entraSt = fimDe(0.6, s.texto) + 0.2;
+    return { dur, fundo: "#0d0d0d", desenhar: (ctx, t) => {
+      // o bloco de texto termina logo acima das fontes e cresce para cima o quanto precisar
+      const hT = texto(ctx, s.texto, { tam: 88, medir: true });
+      const hS = s.status ? 40 + texto(ctx, s.status, { tam: 50, peso: 500, estreito: false, medir: true }) : 0;
+      const topo = 1420 - hT - hS;
+      const mapaH = clamp(topo - 400, 360, 700);
+      const comFoto = foto(ctx, k.foto, t, dur, { zoom: 0.12 });
+      if (comFoto) {
+        ctx.fillStyle = "rgba(0,0,0,0.22)"; ctx.fillRect(0, 0, W, H);
+        veu(ctx, Math.min(820, topo - 200), H, 0, 0.9);
+        // o mapa vira um quadro no canto: mostra onde fica a cidade
+        const q = 300, qx = W - X0 - q, qy = 200;
+        ctx.globalAlpha = clamp(t / 0.4, 0, 1);
+        caixa(ctx, qx, qy, q, q, "rgba(13,13,13,0.78)", 18);
+        mapa(ctx, M, k.alvo, k.cor, t, [qx + 12, qy + 12, q - 24, q - 24]);
+        ctx.globalAlpha = 1;
+      } else mapa(ctx, M, k.alvo, k.cor, t, [X0, 330, LARG, mapaH]);
       pilula(ctx, `${k.cidade} · ${k.uf}`, X0, 230, "#fff", "#000", 40, clamp(t / 0.3, 0, 1));
-      texto(ctx, k.gancho, { y: 1150, tam: 88, t, entra: 0.6, corDestaque: cor });
-      linhaFonte(ctx, k.ganchoFonte, 1470, "#9a9a9a", t, 1.4);
-    } },
-    { dur: 4.6, fundo: "#ffffff", desenhar: (ctx, t) => {
+      const y0 = Math.max(comFoto ? 640 : 330 + mapaH + 80, topo + 88 * 0.86);
+      const y = texto(ctx, s.texto, { y: y0, tam: 88, t, entra: 0.6, corDestaque: k.cor });
+      if (s.status) texto(ctx, s.status, { y: y + 40 + 50 * 0.86 + 88 * 0.2, tam: 50, peso: 500, cor: "#e6e6e6", t, entra: entraSt, estreito: false });
+      linhaFonte(ctx, s.fonte, 1470, "#c8c8c8", t, 1.4);
+      if (comFoto && k.fotoCredito) linhaFonte(ctx, k.fotoCredito, 1548, "rgba(255,255,255,0.72)", t, 1.4);
+    } };
+  },
+  frase(k, s) {
+    const dur = tempo(palavras(s.texto), 3.6, 6);
+    return { dur, fundo: "#ffffff", desenhar: (ctx, t) => {
       pilula(ctx, k.cidade, X0, 230, "#0d0d0d", "#fff", 38, clamp(t / 0.3, 0, 1));
-      const y = texto(ctx, k.virada, { y: 600, tam: 92, cor: "#0d0d0d", t, entra: 0.15, corDestaque: cor });
-      texto(ctx, k.proposta, { y: y + 170, tam: 70, peso: 700, cor: "#0d0d0d", t, entra: 0.15 + tokens(k.virada).length * 0.05 + 0.3, corDestaque: cor });
-      linhaFonte(ctx, k.propostaFonte, 1470, "#6b6b6b", t, 2);
-    } },
-    { dur: 5.4, fundo: "#0d0d0d", desenhar: (ctx, t) => {
-      texto(ctx, "E o Flávio?", { y: 330, tam: 64, peso: 700, cor, t, entra: 0.1, estreito: false });
-      const y = texto(ctx, k.ataque, { y: 520, tam: 84, cor: "#fff", t, entra: 0.45, corDestaque: cor });
-      const y2 = k.ataqueSub ? texto(ctx, k.ataqueSub, { y: y + 120, tam: 56, peso: 500, cor: "#d9d9d9", t, entra: 1.6, estreito: false }) : y;
-      texto(ctx, k.soco, { y: Math.max(y2 + 160, 1180), tam: 76, cor: "#fff", t, entra: 2.6, corDestaque: cor });
-      linhaFonte(ctx, k.ataqueFonte, 1470, "#9a9a9a", t, 1.6);
-    } },
-    { dur: 4.2, fundo: claro, desenhar: (ctx, t) => {
+      texto(ctx, s.texto, { y: 760, tam: 104, cor: "#0d0d0d", t, entra: 0.15, corDestaque: k.cor });
+    } };
+  },
+  proposta(k, s) {
+    const n = palavras(s.texto) + 0.6 * palavras(s.numeroTexto);
+    const dur = tempo(n, 5, 10, s.numero ? 0.6 : 0);
+    const entraN = fimDe(0.15, s.texto) + 0.2;
+    return { dur, fundo: "#ffffff", desenhar: (ctx, t) => {
+      pilula(ctx, "O que Lula fez", X0, 230, k.cor, "#fff", 38, clamp(t / 0.3, 0, 1));
+      const y = texto(ctx, s.texto, { y: 500, tam: 80, peso: 800, cor: "#0d0d0d", t, entra: 0.15, corDestaque: k.cor });
+      if (s.numero) {
+        const p = clamp((t - entraN) / 0.5, 0, 1);
+        fonte(ctx, s.numero.length > 10 ? 150 : 190, 800, true);
+        ctx.globalAlpha = p; ctx.fillStyle = k.corTexto;
+        ctx.fillText(s.numero, X0 - 6, y + 270 + (1 - saida(p)) * 40);
+        ctx.globalAlpha = 1;
+        texto(ctx, s.numeroTexto, { y: y + 370, tam: 58, peso: 600, cor: "#0d0d0d", t, entra: entraN + 0.3, estreito: false });
+      }
+      linhaFonte(ctx, s.fonte, 1470, "#6b6b6b", t, 1.2);
+    } };
+  },
+  ataque(k, s) {
+    const dur = tempo(palavras(s.texto), 5, 9);
+    return { dur, fundo: "#0d0d0d", desenhar: (ctx, t) => {
+      texto(ctx, s.titulo || "E o Flávio?", { y: 330, tam: 64, peso: 700, cor: k.cor, t, entra: 0.1, estreito: false });
+      texto(ctx, s.texto, { y: 560, tam: 90, cor: "#fff", t, entra: 0.5, corDestaque: k.cor });
+      linhaFonte(ctx, s.fonte, 1470, "#9a9a9a", t, 1.2);
+    } };
+  },
+  ataque2(k, s) {
+    const dur = tempo(palavras(s.texto, s.soco), 5, 9);
+    const entraS = fimDe(0.15, s.texto) + 0.4;
+    return { dur, fundo: "#0d0d0d", desenhar: (ctx, t) => {
+      const y = texto(ctx, s.texto, { y: 520, tam: 70, peso: 600, cor: "#e6e6e6", t, entra: 0.15, estreito: false });
+      texto(ctx, s.soco, { y: Math.max(y + 230, 1000), tam: 92, cor: "#fff", t, entra: entraS, corDestaque: k.cor });
+      linhaFonte(ctx, s.fonte, 1470, "#9a9a9a", t, 1);
+    } };
+  },
+  // a gestão do PL na cidade, com o fato documentado e a resposta da prefeitura
+  local(k, s) {
+    const dur = tempo(palavras(s.quem, s.soco), 4.5, 8, pronta(k.fotoPrefeito) ? 0.8 : 0);
+    const entraS = fimDe(0.6, s.quem) + 0.4;
+    return { dur, fundo: "#0d0d0d", desenhar: (ctx, t) => {
+      const yt = texto(ctx, s.titulo, { y: 330, tam: 64, peso: 700, cor: k.cor, t, entra: 0.1, estreito: false });
+      let y0 = Math.max(600, yt + 200);
+      if (pronta(k.fotoPrefeito)) {
+        const p = clamp((t - 0.3) / 0.5, 0, 1);
+        ctx.globalAlpha = p;
+        const fw = 460, fh = 560, fx = X0, fy = yt + 60;
+        ctx.save(); ctx.beginPath(); ctx.roundRect ? ctx.roundRect(fx, fy, fw, fh, 18) : ctx.rect(fx, fy, fw, fh); ctx.clip();
+        foto(ctx, k.fotoPrefeito, 0, 1, { x: fx, y: fy, w: fw, h: fh, zoom: 0, foco: [0.5, 0.3] });
+        ctx.restore();
+        if (s.legendaFoto) linhaFonte(ctx, s.legendaFoto, fy + fh + 44, "#bdbdbd", t, 0.5);
+        ctx.globalAlpha = 1;
+        y0 = fy + fh + 170;
+      }
+      const y = texto(ctx, s.quem, { y: y0, tam: 84, cor: "#fff", t, entra: 0.6, corDestaque: k.cor });
+      if (s.soco) texto(ctx, s.soco, { y: y + 200, tam: 88, cor: "#fff", t, entra: entraS, corDestaque: k.cor });
+    } };
+  },
+  local2(k, s) {
+    const dur = tempo(palavras(s.texto, s.status, s.soco), 6, 11);
+    const entraSt = fimDe(0.15, s.texto) + 0.2, entraS = entraSt + 0.9;
+    return { dur, fundo: "#0d0d0d", desenhar: (ctx, t) => {
+      const y = texto(ctx, s.texto, { y: 520, tam: 80, cor: "#fff", t, entra: 0.15, corDestaque: k.cor });
+      const y2 = s.status ? texto(ctx, s.status, { y: y + 130, tam: 52, peso: 500, cor: "#cfcfcf", t, entra: entraSt, estreito: false }) : y;
+      texto(ctx, s.soco, { y: Math.max(y2 + 200, 1120), tam: 88, cor: "#fff", t, entra: entraS, corDestaque: k.cor });
+      linhaFonte(ctx, s.fonte, 1470, "#9a9a9a", t, 1);
+    } };
+  },
+  numero(k, s) {
+    const dur = tempo(palavras(s.texto, s.emocao), 5, 9);
+    const entraE = fimDe(0.6, s.texto) + 0.3;
+    return { dur, fundo: k.corClara, desenhar: (ctx, t) => {
       pilula(ctx, k.cidade, X0, 230, "#0d0d0d", "#fff", 38, clamp(t / 0.3, 0, 1));
       const p = clamp((t - 0.2) / 0.5, 0, 1);
-      fonte(ctx, k.numero.length > 9 ? 170 : 220, 800, true);
-      ctx.globalAlpha = p; ctx.fillStyle = txtCor;
-      ctx.fillText(k.numero, X0 - 6, 720 + (1 - saida(p)) * 40);
+      fonte(ctx, s.numero.length > 9 ? 170 : 220, 800, true);
+      ctx.globalAlpha = p; ctx.fillStyle = k.corTexto;
+      ctx.fillText(s.numero, X0 - 6, 720 + (1 - saida(p)) * 40);
       ctx.globalAlpha = 1;
-      const y = texto(ctx, k.numeroTexto, { y: 860, tam: 68, peso: 700, cor: "#0d0d0d", t, entra: 0.6, corDestaque: cor });
-      texto(ctx, k.numeroEmocao, { y: y + 150, tam: 76, cor: "#0d0d0d", t, entra: 1.5, corDestaque: cor });
-      linhaFonte(ctx, k.numeroFonte, 1470, "#4d4d4d", t, 1.2);
-    } },
-    { dur: 4.6, fundo: cor, desenhar: (ctx, t) => {
-      texto(ctx, k.chamadaTopo, { y: 420, tam: 84, peso: 700, cor: "#fff", t, entra: 0.1, estreito: false });
-      const p = clamp((t - 0.5) / 0.5, 0, 1);
+      const y = texto(ctx, s.texto, { y: 860, tam: 70, peso: 700, cor: "#0d0d0d", t, entra: 0.6, corDestaque: k.cor });
+      texto(ctx, s.emocao, { y: y + 160, tam: 80, cor: "#0d0d0d", t, entra: entraE, corDestaque: k.cor });
+      linhaFonte(ctx, s.fonte, 1470, "#4d4d4d", t, 1.2);
+    } };
+  },
+  chamada(k, s) {
+    const dur = tempo(palavras(s.topo, "Dia 25, é 13.", s.acao), 6, 10, 0.6);
+    return { dur, fundo: k.cor, desenhar: (ctx, t) => {
+      duotom(ctx, k.foto, k.cor, t, dur);
+      texto(ctx, s.topo, { y: 420, tam: 84, peso: 700, cor: "#fff", t, entra: 0.1, estreito: false });
+      const p = clamp((t - 0.6) / 0.5, 0, 1);
       fonte(ctx, 300, 800, true);
       ctx.globalAlpha = p; ctx.fillStyle = "#fff";
       ctx.fillText("25/10", X0 - 10, 800 + (1 - saida(p)) * 50);
       ctx.globalAlpha = 1;
-      texto(ctx, "Dia 25, é *13.*", { y: 980, tam: 110, cor: "#fff", t, entra: 0.9, corDestaque: "#0d0d0d" });
-      texto(ctx, k.chamadaAcao, { y: 1170, tam: 62, peso: 600, cor: "#fff", t, entra: 1.6, estreito: false });
-      linhaFonte(ctx, "Domingo, 25 de outubro, das 8h às 17h. Feito com auxílio de IA.", 1470, "rgba(255,255,255,0.85)", t, 2);
-    } },
-  ];
+      texto(ctx, "Dia 25, é *13.*", { y: 980, tam: 110, cor: "#fff", t, entra: 1.1, corDestaque: "#0d0d0d" });
+      texto(ctx, s.acao, { y: 1170, tam: 64, peso: 600, cor: "#fff", t, entra: 2, estreito: false });
+      linhaFonte(ctx, "Domingo, 25 de outubro, das 8h às 17h. Feito com auxílio de IA.", 1470, "rgba(255,255,255,0.9)", t, 2.4);
+    } };
+  },
+};
+
+export function montarReel(k, M) {
+  const cenas = k.telas.map((s) => ({ tipo: s.tipo, ...TELAS[s.tipo](k, s, M) }));
   let ini = 0;
   for (const c of cenas) { c.ini = ini; ini += c.dur; }
   const duracao = ini;
+  // quadro da capa: fim da primeira tela, com o texto todo na tela
+  const capaT = Math.max(0.5, cenas[0].dur - 0.4);
   function desenhar(ctx, t) {
     t = clamp(t, 0, duracao - 1e-3);
     let i = cenas.findIndex((c) => t < c.ini + c.dur);
     if (i < 0) i = cenas.length - 1;
     const c = cenas[i], tl = t - c.ini;
-    // transição: a cena nova sobe por cima da anterior
+    // transição: a tela nova sobe por cima da anterior
     const p = i > 0 ? saida(clamp(tl / ENTRADA, 0, 1)) : 1;
     if (p < 1) {
       const a = cenas[i - 1];
@@ -221,7 +360,7 @@ export function montarReel(k, M) {
     c.desenhar(ctx, tl);
     ctx.restore();
   }
-  return { duracao, cenas, desenhar };
+  return { duracao, cenas, desenhar, capaT };
 }
 
 // ---------------------------------------------------------------- player na página
@@ -326,7 +465,7 @@ export async function gravar(reel, { aoProgresso = () => {} } = {}) {
   return { blob: new Blob(partes, { type: tipo.split(";")[0] }), ext, codec: tipo };
 }
 // capa: um quadro em PNG
-export function capa(reel, t = 2.6) {
+export function capa(reel, t = reel.capaT ?? 2.6) {
   const cv = document.createElement("canvas");
   cv.width = W; cv.height = H;
   reel.desenhar(cv.getContext("2d"), t);

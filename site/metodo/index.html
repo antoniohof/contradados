@@ -3,10 +3,13 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
-<title>Método e fontes · Onde buscar votos</title>
+<title>Método e fontes · Contra Dados – Onde buscar votos</title>
 <meta name="description" content="De onde vêm os números, a conta de cada frente em gráficos, como os mapas foram desenhados, as pesquisas usadas, os limites e as regras eleitorais.">
-<meta property="og:title" content="Método e fontes · Onde buscar votos">
-<meta property="og:image" content="/assets/og.png">
+<meta property="og:title" content="Método e fontes · Contra Dados – Onde buscar votos">
+<meta property="og:site_name" content="Contra Dados – Onde buscar votos">
+<meta property="og:url" content="https://contradados.online/metodo/">
+<link rel="canonical" href="https://contradados.online/metodo/">
+<meta property="og:image" content="https://contradados.online/assets/og.png">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
 <meta name="twitter:card" content="summary_large_image">
@@ -134,6 +137,8 @@
         <tr><td>Economia e pautas locais (~300 cidades); canais públicos</td><td>pesquisa em imprensa local e sites oficiais, com links</td><td>fichas</td><td><code>data/pesquisa_local.json</code>, <code>data/canais/canais.csv</code></td></tr>
         <tr><td>Temas com efeito comprovado e vídeos para compartilhar</td><td><a href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada</a> (recorte de 09/10/2026)</td><td>reels e ações</td><td><code>data/radar/radar_2026-10-09.json</code></td></tr>
         <tr><td>Notícias locais de 2026 (cidades pequenas)</td><td>imprensa local e sites oficiais, com veículo, data e link; as não conferidas na íntegra levam o aviso “confira a matéria antes de postar”</td><td>gancho dos reels</td><td><code>data/noticias/noticias_locais.json</code>, <code>site/data/noticias.json</code></td></tr>
+        <tr><td>Prefeituras do PL: fatos documentados da gestão atual (13 cidades)</td><td>Ministério Público, Tribunais de Contas, Polícia Federal, câmaras municipais e imprensa, com data, estágio do caso e resposta da prefeitura; pesquisa nas 80 cidades do PL com mais votos em jogo</td><td>reels (parte “Prefeitura do PL”)</td><td><code>data/prefeitos/prefeitos_pl.json</code>, <code>site/data/prefeitos.json</code></td></tr>
+        <tr><td>Fotos das cidades</td><td><a href="https://commons.wikimedia.org/" target="_blank" rel="noopener">Wikimedia Commons</a> (imagem principal do município na Wikidata), buscada pelo navegador na hora, com autor e licença no vídeo</td><td>fundo dos reels</td><td>não fica no repositório</td></tr>
       </tbody>
     </table></div>
     <p class="texto" style="margin-top:14px">Cada fonte vira uma coluna da mesma tabela, uma linha por município, ligada pelo código IBGE de 7 dígitos. Não há correlação, regressão nem peso estimado: reconquistar e mobilizar saem de somas, divisões e subtrações sobre resultados oficiais; terceiros multiplica os votos de cada candidato pelos percentuais da pesquisa. Votos do exterior ficam de fora.</p>
@@ -171,8 +176,8 @@
   <section class="faixa" aria-labelledby="baixar-t">
     <div class="faixa__topo"><h2 class="rotulo" id="baixar-t">Baixar e atualizar</h2></div>
     <p class="linha">
-      <a class="pill pill--tinta" href="../data/municipios.csv" download>municipios.csv</a>
-      <a class="pill pill--tinta" href="../data/frente2_cidades_10a50mil_habitantes.xlsx" download>Planilha: mobilizar, 10 a 50 mil hab.</a>
+      <a class="pill pill--acento" href="../data/municipios.csv" download>municipios.csv</a>
+      <a class="pill pill--acento" href="../data/frente2_cidades_10a50mil_habitantes.xlsx" download>Planilha: mobilizar, 10 a 50 mil hab.</a>
       <a class="pill" href="../data/resumo.json" download>resumo.json</a>
       <a class="pill" href="../data/radar.json" download>radar.json</a>
       <a class="pill" href="https://github.com/mneunomne/contradados" target="_blank" rel="noopener">Repositório</a>
