@@ -79,6 +79,11 @@ def main():
         m = m.merge(t2[["IBGE"] + [c[0] for c in t2cols]].rename(columns={c[0]: "t2_" + c[0] for c in t2cols}),
                     on="IBGE", how="left")
         KEYS.update({k: ("t2_" + c, d) for k, (c, d) in T2KEYS.items() if c in t2.columns})
+    df = REPO / "data/pesquisas/datafolha_municipios.csv"
+    if df.exists():  # cenários da sessão elei-es-bf (scripts/pesquisas/datafolha.py): cenário, não previsão
+        p = pd.read_csv(df, dtype={"IBGE": str}, usecols=["IBGE", "lula2p_1t", "lula2p_A", "lula2p_B"])
+        m = m.merge(p.rename(columns={c: "df_" + c for c in p.columns if c != "IBGE"}), on="IBGE", how="left")
+        KEYS.update({"dfa": ("df_lula2p_A", 1), "dfb": ("df_lula2p_B", 1), "l2p1": ("df_lula2p_1t", 1)})
     rows = {}
     for r in m.to_dict("records"):
         o = {}
@@ -115,6 +120,8 @@ def main():
     if (st / "resumo.json").exists():
         meta["segundo_turno"] = json.load(open(st / "resumo.json"))
         meta["segundo_turno"]["uf"] = pd.read_csv(st / "uf_2t.csv").to_dict("records")
+    if (REPO / "data/pesquisas/datafolha_regioes.csv").exists():
+        meta["datafolha_regioes"] = pd.read_csv(REPO / "data/pesquisas/datafolha_regioes.csv").to_dict("records")
     json.dump(meta, open(WEB / "meta.json", "w"), ensure_ascii=False, separators=(",", ":"))
     shutil.copy(REPO / "data/geo/municipios.topo.json", WEB / "municipios.topo.json")
     print(len(rows), "municípios;", (WEB / "municipios.json").stat().st_size // 1024, "KB;", nat)

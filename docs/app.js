@@ -98,6 +98,8 @@
     gd: { label: "Candidato do campo PL a governador abaixo de Flávio (p.p.)", v: (d) => d.gd ?? null, scale: () => neutro(-20, 30), fmt: pp, ends: ["acima de Flávio", "abaixo de Flávio"] },
     gc: { label: "Candidato do campo PL a governador, 1º turno (% válidos)", v: (d) => d.gc ?? null, scale: () => seqScale([20, 70]), fmt: p1 },
     rsp: { label: "Reserva (ausentes + terceiros + brancos/nulos) em % dos aptos", v: (d) => (d.rsv == null || !d.apt ? null : (d.rsv / d.apt) * 100), scale: () => seqScale([20, 45]), fmt: p1 },
+    dfa: { label: "Cenário A (Datafolha 08/10, swing regional uniforme): Lula, voto bipartidário", v: (d) => (d.dfa == null ? null : d.dfa - 50), scale: () => polit(-30, 30), fmt: (v) => (v == null ? "–" : p1(v + 50)), ends: ["Flávio à frente", "Lula à frente"], mid: "50%" },
+    dfb: { label: "Cenário B (votos de terceiros 46% Flávio / 32% Lula): Lula, voto bipartidário", v: (d) => (d.dfb == null ? null : d.dfb - 50), scale: () => polit(-30, 30), fmt: (v) => (v == null ? "–" : p1(v + 50)), ends: ["Flávio à frente", "Lula à frente"], mid: "50%" },
     asm: { label: "Ausentes ÷ diferença local Lula−Flávio", v: (d) => d.asm, scale: () => seqScale([0.1, 10], true), fmt: (v) => (v == null ? "–" : f1(v) + "×") },
     dl2p22: { label: "Lula, voto bipartidário: 1T → 2T de 2022 (p.p.)", v: (d) => d.dl2p22, scale: () => polit(-8, 8), fmt: pp, ends: ["→ Bolsonaro", "→ Lula"] },
     dab22: { label: "Δ abstenção 1T → 2T de 2022 (p.p.)", v: (d) => d.dab22, scale: () => neutro(-5, 5), fmt: pp, ends: ["caiu", "subiu"] },
@@ -146,7 +148,8 @@
       uni: () => true, uniLabel: "todos",
       layer: tem2t ? "dl2p26" : "rsp", list: null, mk: (d) => d.rsv, mkLabel: "reserva de votos",
       cols: [["Reserva", (d) => n0(d.rsv)], ["Dif. local", (d) => n0(Math.abs(d.mg))], ["Lula 2p", (d) => p1(d.l2p)]],
-      layers: (tem2t ? ["dl2p26", "da26"] : []).concat(["rsp", "asm", "dl2p22", "dab22", "rsg", "tp", "t26"]),
+      layers: (tem2t ? ["dl2p26", "da26"] : []).concat(["rsp", "asm", "dl2p22", "dab22", "rsg", "tp", "t26"])
+        .concat(Object.values(D).some((d) => d.dfa != null) ? ["dfa", "dfb"] : []),
       note: "Cor: reserva em % dos eleitores aptos do município. Pontos: os 100 municípios com mais votos na reserva (tamanho = reserva em votos). Reserva = ausentes + votos em terceiros + brancos e nulos no 1º turno. Em 2022, a parcela bipartidária de Lula caiu de 52,9% no 1º turno para 50,9% no 2º: o 2º turno não repete o 1º.",
     },
     EX: {
@@ -321,7 +324,7 @@
       if (scale.kind === "div") {
         const [lo, , hi] = scale.domain;
         stops = d3.range(0, 1.0001, 0.05).map((t) => (t < 0.5 ? scale(lo * (1 - t * 2)) : scale(hi * (t * 2 - 1))));
-        ticks = [Ly.fmt(lo).replace(" p.p.", ""), "0", Ly.fmt(hi).replace(" p.p.", "")];
+        ticks = [Ly.fmt(lo).replace(" p.p.", ""), Ly.mid || "0", Ly.fmt(hi).replace(" p.p.", "")];
       } else {
         const [a, b] = scale.domain;
         const vals = d3.range(0, 1.0001, 0.05).map((t) => (scale.log ? a * Math.pow(b / a, t) : a + (b - a) * t));
@@ -332,6 +335,7 @@
       box.append("div").attr("class", "ticks").selectAll("span").data(ticks).join("span").text((t) => t);
       if (scale.kind === "div" && Ly.ends) box.append("div").attr("class", "ticks").selectAll("span").data([`← ${Ly.ends[0]}`, `${Ly.ends[1]} →`]).join("span").text((t) => t);
     }
+    if (state.layer === "dfa" || state.layer === "dfb") el.append("span").attr("class", "sw").html(`<b>Cenário, não previsão.</b>&nbsp;Aplica ao 1º turno de cada município a variação regional da pesquisa Datafolha de 08/10 (A) ou a divisão dos votos de terceiros que a pesquisa indica (B). Nenhuma variação regional da pesquisa supera a margem de erro da subamostra.`);
     if (state.onlyUni && state.view !== "EX" && state.view !== "T2") el.append("span").attr("class", "sw").html(`<i style="background:${C.off}"></i>fora do universo (${esc(V.uniLabel)} não se aplica)`);
     if (V.mk || state.view === "EX") el.append("span").attr("class", "sw mkkey").html(`<i></i>os 100 da lista${V.mk ? ` (tamanho = ${esc(V.mkLabel)})` : ""}`);
   }

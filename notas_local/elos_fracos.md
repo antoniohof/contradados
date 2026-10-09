@@ -27,6 +27,9 @@ Onde o PL avançou menos entre 2022 e 2026, o eleitorado é mais escolarizado, m
   - erro-padrão agrupado por município.
 
   Efeitos em **pontos percentuais por +1 desvio-padrão** da parcela do grupo na zona. Grupos de referência: 35–44 anos e ensino médio. Script: `scripts/demografia/02_elos.py`.
+- **Escolaridade: comparar, não ler o nível.** A escolaridade do cadastro do TSE é autodeclarada e desatualizada: 55% dos eleitores aparecem "até o fundamental".
+  - Ao ponderar a pesquisa Datafolha de 08/10 pelo perfil do TSE, sexo e idade reproduzem o resultado geral com diferença de 0,5 a 0,8 p.p. A escolaridade erra por 3,6 p.p. a favor de Lula (sessão elei-es-bf, `notas_local/datafolha.md`).
+  - Por isso, as variáveis `escol_*` servem para comparar zonas entre si (correlações e regressões), mas não como medida do nível de escolaridade do eleitorado.
 - **O que não funcionou.** A inferência ecológica de Goodman (taxas de voto por faixa etária) deu resultados impossíveis: taxas negativas ou acima de 100%, mesmo com efeitos fixos de UF. Também falhou no teste de sanidade, que é a abstenção alta dos 70+. Por isso não publicamos "x% dos jovens votaram em Flávio": a composição etária das zonas está misturada demais com o tipo de lugar.
 
 ## Resultados (zonas eleitorais, dentro de cada UF)
