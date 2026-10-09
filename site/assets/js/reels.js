@@ -150,7 +150,7 @@ const ATAQUES = {
   bolso: {
     nome: "Aposentadoria e BPC", verbo: "planeja",
     ataque: "A equipe dele planejou *desligar a aposentadoria e o BPC* do aumento real do salário mínimo.",
-    sub: "Em público, ele promete aumento. Mas não diz se mantém a regra.",
+    sub: "Sem essa regra, quem recebe um salário mínimo de aposentadoria ou BPC fica só com a inflação.",
     // se o valor do BPC já apareceu na tela de Lula, o soco não repete o número
     soco: (d, jaMostrou) => (d.bpc > 0 && !jaMostrou ? `Em ${d.municipio}, o BPC soma *${curto(d.bpc)} por mês.*` : `Quem perde é quem mora em *${d.municipio}.*`),
     fonte: "Folha de S.Paulo, Gazeta do Povo e Poder360. A campanha de Flávio nega o plano.",
@@ -438,7 +438,8 @@ function fotoDaCidade(d) {
 }
 
 // ---------------------------------------------------------------- lista de cidades por importância
-const S = { f: 0, p: 0, uf: "", q: "", noticia: false, pl: false, n: 30 };
+// a página abre nas cidades de 10 a 50 mil habitantes com notícia local
+const S = { f: 0, p: 2, uf: "", q: "", noticia: true, pl: false, n: 30 };
 const valor = (d) => (S.f === 0 ? d.gTot : S.f === 1 ? d.g1 : S.f === 2 ? d.g2 : d.g3);
 const porteOk = (d) => (S.p === 0 ? true : S.p === 45 ? d.porte === 4 || d.porte === 5 : d.porte === S.p);
 const NOME_F = ["", "reconquistar", "mobilizar", "terceiros"];
@@ -495,11 +496,13 @@ const mediana = (f) => { const v = D.map(f).filter((x) => x > 0 && isFinite(x)).
 const MED = { idosos: mediana((x) => x.idosos), urbana: mediana((x) => x.urbana), terceiros: mediana((x) => x.terceiros_26_pct), bpc: mediana((x) => (x.pop ? x.bpc / x.pop : 0)) };
 const CARTOES = [
   { id: "bolso", ataques: ["bolso", "corte"], tags: ["bolso", "idosos", "direitos", "saude", "propostas"],
+    gancho: "A equipe dele planejou desligar a aposentadoria e o BPC do aumento do salário mínimo",
+    pergunta: "Quem recebe um salário mínimo de aposentadoria ou BPC aceita ficar só com a inflação?",
     peso: (d) => ((d.idosos || 0) / MED.idosos + (d.pop ? d.bpc / d.pop / MED.bpc : 0)) / 2,
     aqui: (d) => `${pct(d.idosos, 0)} do eleitorado tem 60 anos ou mais${d.bpc > 0 ? `, e o BPC soma ${reais(d.bpc)} por mês` : ""}.`,
     fonteAqui: "TSE, perfil do eleitorado 2026; Portal da Transparência (CGU), agosto de 2026.",
     extra: "O plano de Flávio também prevê cortar R$ 190 bilhões em gastos do governo, segundo Daniella Marques, da campanha (Gazeta do Povo).",
-    zap: (t, d, aqui) => `*${t.titulo}*\n${t.prova.num} ${t.prova.txt} (${t.prova.f})\nFlávio promete aumento ao aposentado, mas a equipe dele planejou desligar a aposentadoria e o BPC do aumento real do salário mínimo (Folha; a campanha nega). O plano dele também prevê cortar R$ 190 bilhões em gastos do governo (Gazeta do Povo).\nEm ${d.municipio}, ${aqui}\nDia 25, é 13.` },
+    zap: (t, d, aqui) => `*${t.titulo}*\n${t.prova.num} ${t.prova.txt} (${t.prova.f})\nA equipe de Flávio planejou desligar a aposentadoria e o BPC do aumento real do salário mínimo (Folha; a campanha nega). Sem essa regra, quem recebe um salário mínimo fica só com a inflação. O plano dele também prevê cortar R$ 190 bilhões em gastos do governo (Gazeta do Povo).\nEm ${d.municipio}, ${aqui}\nDia 25, é 13.` },
   { id: "6x1", ataques: ["6x1"], tags: ["6x1", "trabalho"],
     peso: (d) => (d.urbana || 0) / MED.urbana,
     aqui: (d) => `${pct(d.urbana, 0)} da população vive na área urbana${d.jovens ? `, e ${pct(d.jovens, 0)} do eleitorado tem de 16 a 24 anos` : ""}.`,
@@ -526,10 +529,10 @@ function painelTemas(d, kit) {
     const fontes = t.fontes.map((f) => `<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.f)}</a>`).join(", ");
     return `<article class="tema${usa ? " tema--usado" : ""}">
       <div class="tema__cab"><p class="tema__titulo">${esc(t.titulo)}</p>${usa ? `<span class="selo">no vídeo</span>` : ""}</div>
-      <p class="tema__gancho">${esc(t.gancho)}</p>
+      <p class="tema__gancho">${esc(c.gancho || t.gancho)}</p>
       <div class="tema__prova"><b>${esc(t.prova.num)}</b><p>${esc(t.prova.txt)} <a href="${esc(t.prova.u)}" target="_blank" rel="noopener">Pesquisa: ${esc(t.prova.f)} ↗</a></p></div>
       <p class="tema__aqui"><b>Em ${esc(d.municipio)}:</b> ${esc(aqui)} <small>${esc(c.fonteAqui)}</small></p>
-      <p class="tema__pergunta"><b>Pergunte:</b> ${esc(t.pergunta)}</p>
+      <p class="tema__pergunta"><b>Pergunte:</b> ${esc(c.pergunta || t.pergunta)}</p>
       ${videos.length ? `<ul class="tema__videos">${videos.map((v) => `<li><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.titulo)}</a><small>${esc(v.fonte)} · ${grande(v.views)} visualizações · <a href="${linkWhats(`Pra quem é de ${d.municipio}: ${v.titulo}`, v.url)}" target="_blank" rel="noopener">mandar no zap</a></small></li>`).join("")}</ul>` : ""}
       <details><summary>Fato e fontes</summary><p>${esc(t.fato)}${c.extra ? ` ${esc(c.extra)}` : ""}</p><p class="nota">${fontes}</p></details>
       <div class="linha tema__acoes">${!usa ? `<button class="pill pill--acento" type="button" data-usar="${c.ataques[0]}">Usar no vídeo</button>` : kit.atqId !== c.ataques[0] ? `<button class="pill" type="button" data-usar="${c.ataques[0]}">Trocar para ${esc(ATAQUES[c.ataques[0]].nome.toLowerCase())}</button>` : ""}<a class="pill" href="${linkWhats(zap)}" target="_blank" rel="noopener">Mandar no zap</a><button class="pill" type="button" data-copiar-tema="${c.id}">Copiar</button></div>
