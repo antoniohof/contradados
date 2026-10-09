@@ -2,6 +2,59 @@
  "_sobre": "Notícias e pautas locais de cidades de 10 a 50 mil habitantes, para o gancho dos reels. 'pesquisa': levantadas em 09/10/2026 em imprensa local e sites oficiais (confirmado = matéria aberta e conferida). 'pautas': reaproveitadas da pesquisa local anterior (data/pesquisa_local.json), sem nova conferência. Cidades com lista vazia foram pesquisadas sem resultado útil.",
  "coletado_em": "2026-10-09",
  "cidades": {
+  "1200302": {
+   "municipio": "Feijó",
+   "uf": "AC",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "Conass",
+     "url": "https://www.conass.org.br/governo-do-acre-avanca-na-reforma-e-ampliacao-do-hospital-geral-de-feijo-e-confirma-entrega-para-abril/",
+     "resumo": "Reforma e ampliação do Hospital Geral de Feijó, de mais de R$ 5 milhões, é a primeira modernização desde os anos 1980; entrega do 1º bloco prevista para abril/2026.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Hospital Geral de Feijó ganha a primeira modernização desde os anos 1980.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-03",
+     "titulo": "",
+     "veiculo": "Acionista",
+     "url": "https://acionista.com.br/governo-reconhece-situacao-de-emergencia-em-8-cidades-do-acre/",
+     "resumo": "Feijó teve cheias dos rios, assistência a desabrigados e situação de emergência reconhecida pelo governo federal em março de 2025.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Por causa das cheias, Feijó teve emergência reconhecida pelo governo federal.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1300144": {
+   "municipio": "Apuí",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1300300": {
+   "municipio": "Autazes",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-06",
+     "titulo": "",
+     "veiculo": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2025/06/18/fortes-chuvas-deixam-mais-da-metade-dos-municipios-do-amazonas-em-estado-de-emergencia/",
+     "resumo": "Autazes ficou em estado de alerta na cheia de 2025, segundo a Defesa Civil do Amazonas, em junho de 2025.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Autazes ficou em estado de alerta na cheia de 2025.",
+     "confirmado": false
+    }
+   ]
+  },
   "1300607": {
    "municipio": "Benjamin Constant",
    "uf": "AM",
@@ -42,10 +95,200 @@
     }
    ]
   },
+  "1300904": {
+   "municipio": "Canutama",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1301100": {
+   "municipio": "Careiro",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-06",
+     "titulo": "",
+     "veiculo": "Brasil de Fato",
+     "url": "https://www.brasildefato.com.br/2025/06/18/fortes-chuvas-deixam-mais-da-metade-dos-municipios-do-amazonas-em-estado-de-emergencia/",
+     "resumo": "Na cheia de 2025, Careiro (Careiro Castanho) estava em situação de emergência, segundo boletim da Defesa Civil do Amazonas de junho de 2025.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Careiro ficou em situação de emergência na cheia de 2025.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1301407": {
+   "municipio": "Eirunepé",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Amazonas Atual",
+     "url": "https://amazonasatual.com.br/governo-alega-efeitos-da-estiagem-e-decreta-emergencia-no-amazonas/",
+     "resumo": "Com estiagem e isolamento fluvial, Eirunepé está entre os 16 municípios que já tinham decretado emergência pela seca, citados no decreto estadual de emergência de 21/09/2026.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Eirunepé está entre os municípios do Amazonas em emergência pela seca.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1302405": {
+   "municipio": "Lábrea",
+   "uf": "AM",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Amazonas Atual",
+     "url": "https://amazonasatual.com.br/braga-viabiliza-investimentos-em-portos-de-labrea-e-sp-de-olivenca/",
+     "resumo": "Investimentos no porto de Lábrea foram anunciados em junho de 2026.",
+     "tema": "transporte",
+     "tom": "conquista",
+     "gancho": "Lábrea teve investimentos no porto anunciados em junho de 2026.",
+     "confirmado": false
+    }
+   ]
+  },
   "1303106": {
    "municipio": "Nova Olinda do Norte",
    "uf": "AM",
    "origem": "pesquisa",
+   "noticias": []
+  },
+  "1500347": {
+   "municipio": "Água Azul do Norte",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1500859": {
+   "municipio": "Anapu",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1501451": {
+   "municipio": "Belterra",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Belterra",
+     "url": "https://www.belterra.pa.gov.br/",
+     "resumo": "O hospital municipal de Belterra ganhou sala de raio-X revitalizada em setembro de 2026, segundo a prefeitura.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Hospital municipal de Belterra ganhou sala de raio-X revitalizada.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Belterra",
+     "url": "https://www.belterra.pa.gov.br/",
+     "resumo": "A recuperação de estradas vicinais em Belterra teve licitação em setembro de 2026; a prefeitura também cita pavimentação urbana na Rua Tapajós.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Belterra teve licitação para recuperar estradas vicinais em setembro de 2026.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1501782": {
+   "municipio": "Breu Branco",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-05",
+     "titulo": "",
+     "veiculo": "DOL",
+     "url": "https://dol.com.br/carajas/cidades/tucurui/906605/obras-do-novo-hospital-de-tucurui-avancam-no-sudeste-do-para",
+     "resumo": "O novo Hospital Regional de Tucuruí, de 215 leitos, tinha mais de 30% das obras executadas em maio de 2025 e atenderá Breu Branco.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Novo Hospital Regional de Tucuruí, com 215 leitos, vai atender Breu Branco.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1503705": {
+   "municipio": "Itupiranga",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "DOL",
+     "url": "https://dol.com.br/carajas/cidades/itupiranga/882598/prefeito-eleito-wagno-godoy-participa-de-entrevista-na-clube",
+     "resumo": "Em Itupiranga, o hospital municipal atual funciona dentro da UPA, e um novo hospital municipal aparece entre as pautas locais.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em Itupiranga, o hospital municipal funciona dentro da UPA.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "DOL",
+     "url": "https://dol.com.br/carajas/cidades/itupiranga/882598/prefeito-eleito-wagno-godoy-participa-de-entrevista-na-clube",
+     "resumo": "Em Itupiranga, estradas vicinais e pontes são destruídas no inverno amazônico; há proposta de descentralizar a Secretaria de Infraestrutura para vilas como Cruzeiro do Sul e São Sebastião.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Em Itupiranga, o inverno amazônico destrói estradas vicinais e pontes.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1503804": {
+   "municipio": "Jacundá",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1504950": {
+   "municipio": "Nova Esperança do Piriá",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1505486": {
+   "municipio": "Pacajá",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Repórter Brasil",
+     "url": "https://reporterbrasil.org.br/wp-content/uploads/2024/09/pje-PLANO-DE-GOVERNO-PACAJA-1.pdf",
+     "resumo": "Na saúde de Pacajá, faltam especialistas; consórcio com Anapu e Altamira e tratamento fora de domicílio (TFD) aparecem como pautas.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em Pacajá, faltam especialistas na saúde, e pacientes viajam para se tratar.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1505650": {
+   "municipio": "Placas",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1506195": {
+   "municipio": "Rurópolis",
+   "uf": "PA",
+   "origem": "pautas",
    "noticias": []
   },
   "1506203": {
@@ -65,6 +308,78 @@
      "confirmado": true
     }
    ]
+  },
+  "1506583": {
+   "municipio": "Santa Maria das Barreiras",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1507805": {
+   "municipio": "Senador José Porfírio",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1508050": {
+   "municipio": "Trairão",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1508126": {
+   "municipio": "Ulianópolis",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "DOL",
+     "url": "https://dol.com.br/noticias/para/noticia-452672-ministro-helder-libera-r-3-milhoes-para-pavimentacao-de-vias-em-dom-eliseu-e-ulianopolis.html",
+     "resumo": "Pavimentação de vias urbanas é pauta em Ulianópolis, que recebeu um repasse federal anterior para isso, assim como Dom Eliseu.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Ulianópolis já recebeu verba federal para pavimentar ruas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1508357": {
+   "municipio": "Vitória do Xingu",
+   "uf": "PA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1600279": {
+   "municipio": "Laranjal do Jari",
+   "uf": "AP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1600501": {
+   "municipio": "Oiapoque",
+   "uf": "AP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1711902": {
+   "municipio": "Lagoa da Confusão",
+   "uf": "TO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1713304": {
+   "municipio": "Miranorte",
+   "uf": "TO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "1716505": {
+   "municipio": "Pedro Afonso",
+   "uf": "TO",
+   "origem": "pautas",
+   "noticias": []
   },
   "2100477": {
    "municipio": "Alto Alegre do Pindaré",
@@ -131,6 +446,53 @@
     }
    ]
   },
+  "2103406": {
+   "municipio": "Coelho Neto",
+   "uf": "MA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-08",
+     "titulo": "",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/politica/2025/08/familias-de-timon-coelho-neto-e-buriti-recebem-cartoes-do-programa-maranhao-livre-da-fome/",
+     "resumo": "Em agosto de 2025, famílias de Coelho Neto receberam cartões do programa estadual Maranhão Livre da Fome.",
+     "tema": "outro",
+     "tom": "conquista",
+     "gancho": "Em Coelho Neto, famílias receberam cartões do Maranhão Livre da Fome.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2105427": {
+   "municipio": "Itinga do Maranhão",
+   "uf": "MA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Gazeta Carajás",
+     "url": "https://www.gazetacarajas.com/noticia/prefeita-paula-revoluciona-itinga-do-maranhao-e-exorciza-incompetencia-de-lucio",
+     "resumo": "A obra do novo hospital municipal de Itinga do Maranhão registra atraso.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em Itinga do Maranhão, a obra do novo hospital municipal atrasou.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Gazeta Carajás",
+     "url": "https://www.gazetacarajas.com/noticia/prefeita-paula-revoluciona-itinga-do-maranhao-e-exorciza-incompetencia-de-lucio",
+     "resumo": "Itinga do Maranhão tem esgoto a céu aberto, como na Vila Emanuela, e rios assoreados e poluídos.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Em Itinga do Maranhão, há esgoto a céu aberto e rios poluídos.",
+     "confirmado": false
+    }
+   ]
+  },
   "2106607": {
    "municipio": "Matões",
    "uf": "MA",
@@ -178,10 +540,34 @@
     }
    ]
   },
+  "2108306": {
+   "municipio": "Penalva",
+   "uf": "MA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Site de Carlos Brandão",
+     "url": "https://carlosbrandao.com.br/brandao-inicia-obra-da-estrada-do-jacare-e-da-beira-rio-entrega-unidade-do-viva-procon-delegacia-e-ambulancia-para-populacao-de-penalva/",
+     "resumo": "A pavimentação da Estrada do Jacaré, da sede ao povoado Jacaré, em Penalva, é descrita como obra esperada há 109 anos.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Em Penalva, a Estrada do Jacaré é obra esperada há 109 anos.",
+     "confirmado": false
+    }
+   ]
+  },
   "2109809": {
    "municipio": "Santa Helena",
    "uf": "MA",
    "origem": "pesquisa",
+   "noticias": []
+  },
+  "2110500": {
+   "municipio": "São Bento",
+   "uf": "MA",
+   "origem": "pautas",
    "noticias": []
   },
   "2110708": {
@@ -213,6 +599,12 @@
     }
    ]
   },
+  "2111508": {
+   "municipio": "São Mateus do Maranhão",
+   "uf": "MA",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2112308": {
    "municipio": "Tuntum",
    "uf": "MA",
@@ -235,6 +627,18 @@
    "municipio": "Turiaçu",
    "uf": "MA",
    "origem": "pesquisa",
+   "noticias": []
+  },
+  "2112704": {
+   "municipio": "Vargem Grande",
+   "uf": "MA",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "2114007": {
+   "municipio": "Zé Doca",
+   "uf": "MA",
+   "origem": "pautas",
    "noticias": []
   },
   "2202703": {
@@ -266,6 +670,12 @@
     }
    ]
   },
+  "2203701": {
+   "municipio": "Esperantina",
+   "uf": "PI",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2205508": {
    "municipio": "José de Freitas",
    "uf": "PI",
@@ -294,6 +704,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2207900": {
+   "municipio": "Pedro Ii",
+   "uf": "PI",
+   "origem": "pautas",
+   "noticias": []
   },
   "2208304": {
    "municipio": "Piracuruca",
@@ -504,6 +920,12 @@
     }
    ]
   },
+  "2305902": {
+   "municipio": "Ipueiras",
+   "uf": "CE",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2306900": {
    "municipio": "Jaguaribe",
    "uf": "CE",
@@ -591,6 +1013,12 @@
     }
    ]
   },
+  "2308500": {
+   "municipio": "Mombaça",
+   "uf": "CE",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2308906": {
    "municipio": "Morrinhos",
    "uf": "CE",
@@ -614,6 +1042,30 @@
    "uf": "CE",
    "origem": "pesquisa",
    "noticias": []
+  },
+  "2310308": {
+   "municipio": "Parambu",
+   "uf": "CE",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "2310506": {
+   "municipio": "Pedra Branca",
+   "uf": "CE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-05",
+     "titulo": "",
+     "veiculo": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/empresas/2026/05/11/maila-cosmeticos-e-prospectada-para-instalar-unidade-no-sertao-cearense/",
+     "resumo": "Em maio de 2026, a prefeitura de Pedra Branca buscou junto à SDE-CE a instalação de uma fábrica da Maila Cosméticos, para atrair indústria e emprego.",
+     "tema": "emprego",
+     "tom": "neutro",
+     "gancho": "Em maio, Pedra Branca buscou uma fábrica de cosméticos para gerar empregos.",
+     "confirmado": false
+    }
+   ]
   },
   "2310951": {
    "municipio": "Pires Ferreira",
@@ -661,17 +1113,6 @@
    "uf": "CE",
    "origem": "pesquisa",
    "noticias": [
-    {
-     "data": "2026-07-25",
-     "titulo": "Justiça determina suspensão de obras em Ubajara após derrubada de 46 árvores",
-     "veiculo": "O POVO",
-     "url": "https://www.opovo.com.br/noticias/ceara/ubajara/2026/07/25/justica-determina-suspensao-de-obras-em-ubajara-apos-derrubada-de-46-arvores.html",
-     "resumo": "A pedido do Ministério Público, a Justiça suspendeu obras da prefeitura na Av. Monsenhor Gonçalo Eufrásio, no centro, após corte de cerca de 46 árvores.",
-     "tema": "obra",
-     "tom": "problema",
-     "gancho": "Obra no centro de Ubajara foi suspensa após corte de 46 árvores.",
-     "confirmado": true
-    },
     {
      "data": "2026-05-12",
      "titulo": "Icnofósseis de 430 milhões de anos reforçam evidências de que Ibiapaba era mar",
@@ -783,6 +1224,24 @@
     }
    ]
   },
+  "2600500": {
+   "municipio": "Águas Belas",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/geral/2024/12/30/crise-hidrica-impoe-racionamento-e-afeta-polo-turistico-em-pernambuco/",
+     "resumo": "Em janeiro de 2025, Águas Belas vivia colapso hídrico: a barragem Lamarão secou e o abastecimento era feito por poços de Tupanatinga e carros-pipa.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Em Águas Belas, a barragem Lamarão secou e faltou água.",
+     "confirmado": false
+    }
+   ]
+  },
   "2600807": {
    "municipio": "Altinho",
    "uf": "PE",
@@ -818,11 +1277,98 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2601409": {
+   "municipio": "Barreiros",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-08",
+     "titulo": "",
+     "veiculo": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2025/08/7796024-chuva-na-zona-da-mata-sul-deixa-barreiros-debaixo-d-agua-nesta-segunda-4.html",
+     "resumo": "Em 4 de agosto de 2025, Barreiros ficou alagada com mais de 128 mm de chuva em 12 horas, medidos na estação do Hospital Municipal.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em agosto de 2025, a chuva deixou Barreiros debaixo d'água.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/estados/pernambuco/2025/01/01/aguas-de-pe-governo-lanca-edital-para-conclusao-da-barragem-igarapeba/",
+     "resumo": "A Mata Sul tem risco recorrente de inundação; a barragem de Igarapeba, para controle de cheias, teve edital de conclusão lançado em janeiro de 2025.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Barreiros sofre com cheias; barragem de Igarapeba teve edital de conclusão.",
+     "confirmado": false
+    }
+   ]
+  },
   "2602001": {
    "municipio": "Bodocó",
    "uf": "PE",
    "origem": "pesquisa",
    "noticias": []
+  },
+  "2602100": {
+   "municipio": "Bom Conselho",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+     "resumo": "Em junho de 2026, Bom Conselho foi incluído no decreto estadual de situação de emergência por seca hidrológica.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em junho, Bom Conselho entrou em emergência por causa da seca.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-10",
+     "titulo": "",
+     "veiculo": "Prefeitura de Bom Conselho",
+     "url": "https://www.bomconselho.pe.gov.br/",
+     "resumo": "Em outubro de 2026, a prefeitura de Bom Conselho informou que a Adutora da Barra do Brejo levará água tratada a comunidades rurais.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Em Bom Conselho, adutora vai levar água tratada a comunidades rurais.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2602605": {
+   "municipio": "Brejo da Madre de Deus",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+     "resumo": "Em junho de 2026, Brejo da Madre de Deus foi incluído no decreto estadual de emergência pela estiagem; o abastecimento depende da Adutora do Agreste.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Brejo da Madre de Deus entrou em emergência pela seca em junho.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/pernambuco-anuncia-ampliacao-da-adutora-do-agreste-em-municipio/540885/",
+     "resumo": "Em 2024, a Adutora do Agreste chegou aos distritos de Fazenda Nova, Barra de Farias e Mandaçaia, em Brejo da Madre de Deus, onde havia rodízio de água.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Adutora do Agreste chegou a distritos de Brejo da Madre de Deus.",
+     "confirmado": false
+    }
+   ]
   },
   "2603009": {
    "municipio": "Cabrobó",
@@ -966,6 +1512,35 @@
      "tom": "neutro",
      "gancho": "A PE-071, que liga Chã Grande a Gravatá, teve obra autorizada.",
      "confirmado": true
+    }
+   ]
+  },
+  "2605103": {
+   "municipio": "Custódia",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+     "resumo": "Em junho de 2026, Custódia foi incluída no decreto estadual de emergência por seca hidrológica, por causa da estiagem.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em junho, Custódia foi declarada em emergência pela seca.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/raquel-lyra-novos-onibus-escolares-em-custodia/614070/",
+     "resumo": "Custódia recebeu ônibus escolares para o transporte de alunos, e foi anunciada uma Escola Técnica Estadual no município.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Custódia recebeu ônibus escolares para levar os estudantes.",
+     "confirmado": false
     }
    ]
   },
@@ -1132,6 +1707,35 @@
     }
    ]
   },
+  "2613008": {
+   "municipio": "São Bento do Una",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-05",
+     "titulo": "",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/compesa/adutora-do-agreste-obras-sao-bento-reta-final-revela-compesa/622651/",
+     "resumo": "O abastecimento de água em São Bento do Una entrou em colapso: em maio de 2026, o rodízio previa 2 dias com água a cada 28 sem.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Em maio, São Bento do Una ficava 28 dias sem água.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/compesa/adutora-do-agreste-obras-sao-bento-reta-final-revela-compesa/622651/",
+     "resumo": "A conclusão do trecho da Adutora do Agreste entre Belo Jardim e São Bento do Una, de 22,4 km e R$ 79 milhões, estava prevista para junho de 2026.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "São Bento do Una ganha adutora de R$ 79 milhões.",
+     "confirmado": false
+    }
+   ]
+  },
   "2613107": {
    "municipio": "São Caitano",
    "uf": "PE",
@@ -1153,6 +1757,35 @@
      "tom": "neutro",
      "gancho": "Escolas estaduais de São João entraram em projeto de requalificação.",
      "confirmado": true
+    }
+   ]
+  },
+  "2613503": {
+   "municipio": "São José do Belmonte",
+   "uf": "PE",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-08",
+     "titulo": "",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/caixa-economica-federal-repassa-rs-1-2-milhao-ao-municipio-79963",
+     "resumo": "Em agosto de 2026, o Ministério do Turismo destinou R$ 1,2 milhão para pavimentar o acesso à Pedra do Reino, em São José do Belmonte.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "São José do Belmonte vai pavimentar o acesso à Pedra do Reino.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Diario de Pernambuco",
+     "url": "https://www.diariodepernambuco.com.br/vida-urbana/2026/06/11717740-pernambuco-decreta-situacao-de-emergencia-para-75-municipios-afetados-pela-estiagem.html",
+     "resumo": "Em junho de 2026, São José do Belmonte foi incluído no decreto estadual de emergência por seca hidrológica, por causa da estiagem.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em junho, São José do Belmonte foi declarado em emergência pela seca.",
+     "confirmado": false
     }
    ]
   },
@@ -1218,6 +1851,30 @@
    "municipio": "Trindade",
    "uf": "PE",
    "origem": "pesquisa",
+   "noticias": []
+  },
+  "2700409": {
+   "municipio": "Atalaia",
+   "uf": "AL",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-05",
+     "titulo": "",
+     "veiculo": "TNH1",
+     "url": "https://www.tnh1.com.br/noticia/nid/chuvas-afetam-centenas-de-pessoas-e-provocam-alagamentos-em-atalaia-interior-de-alagoas/",
+     "resumo": "Em 10 de maio de 2026, chuvas fortes afetaram 110 famílias (279 pessoas) em Atalaia, sobretudo no bairro Girador; a Defesa Civil monitorava o rio Paraíba.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em maio, chuvas fortes afetaram 110 famílias em Atalaia.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2701407": {
+   "municipio": "Campo Alegre",
+   "uf": "AL",
+   "origem": "pautas",
    "noticias": []
   },
   "2702009": {
@@ -1354,6 +2011,12 @@
     }
    ]
   },
+  "2709152": {
+   "municipio": "Teotônio Vilela",
+   "uf": "AL",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2804508": {
    "municipio": "Nossa Senhora da Glória",
    "uf": "SE",
@@ -1411,6 +2074,12 @@
      "confirmado": false
     }
    ]
+  },
+  "2902104": {
+   "municipio": "Araci",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
   },
   "2902609": {
    "municipio": "Baixa Grande",
@@ -1518,6 +2187,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2906303": {
+   "municipio": "Canavieiras",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
   },
   "2906709": {
    "municipio": "Cândido Sales",
@@ -1722,6 +2397,24 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2910503": {
+   "municipio": "Entre Rios",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-05",
+     "titulo": "",
+     "veiculo": "Governo da Bahia",
+     "url": "https://www.ba.gov.br/sei/sites/site-sei/files/2025-06/DOE%20DECRETO%20S%C3%83O%20JO%C3%83O.pdf",
+     "resumo": "Entre Rios decretou situação de emergência por danos de chuvas intensas em maio de 2025, pelo Decreto Municipal 031/2025, homologado pelo Estado.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em maio de 2025, Entre Rios decretou emergência por causa das chuvas.",
+     "confirmado": false
+    }
+   ]
+  },
   "2912004": {
    "municipio": "Ibiassucê",
    "uf": "BA",
@@ -1800,6 +2493,35 @@
     }
    ]
   },
+  "2913903": {
+   "municipio": "Ipiaú",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "A Tarde",
+     "url": "https://atarde.com.br/municipios/populacao-denuncia-descaso-em-servicos-da-saude-de-ipiau-1304754",
+     "resumo": "Em janeiro de 2025, o jornal A Tarde relatou falta de pediatra, oftalmologista e fonoaudiólogo no Hospital Geral de Ipiaú (HGI).",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em janeiro de 2025, faltavam pediatra e oftalmologista no hospital de Ipiaú.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "A Tarde",
+     "url": "https://atarde.com.br/municipios/populacao-denuncia-descaso-em-servicos-da-saude-de-ipiau-1304754",
+     "resumo": "Em janeiro de 2025, A Tarde relatou a precariedade do ônibus do Tratamento Fora do Domicílio (TFD), que leva pacientes de Ipiaú a Salvador, Itabuna e Jequié.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Moradores de Ipiaú denunciaram o ônibus precário que leva pacientes a tratamento.",
+     "confirmado": false
+    }
+   ]
+  },
   "2914307": {
    "municipio": "Iramaia",
    "uf": "BA",
@@ -1867,6 +2589,24 @@
      "tom": "conquista",
      "gancho": "Pindorama, em Iuiu, vai ganhar novo sistema de abastecimento de água.",
      "confirmado": true
+    }
+   ]
+  },
+  "2917607": {
+   "municipio": "Jaguaquara",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "A Tarde",
+     "url": "https://atarde.com.br/portalmunicipios/portalmunicipioscentrosul/jaguaquara-estadualizacao-de-hospital-e-aprovada-na-camara-1202367",
+     "resumo": "O Hospital Municipal de Jaguaquara teve a estadualização aprovada em 2022, e os casos graves vão para o Hospital Geral Prado Valadares, em Jequié.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Casos graves de saúde em Jaguaquara são levados para Jequié.",
+     "confirmado": false
     }
    ]
   },
@@ -2072,6 +2812,12 @@
     }
    ]
   },
+  "2921005": {
+   "municipio": "Mata de São João",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2921500": {
    "municipio": "Monte Santo",
    "uf": "BA",
@@ -2119,6 +2865,12 @@
     }
    ]
   },
+  "2922003": {
+   "municipio": "Mucuri",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
+  },
   "2922052": {
    "municipio": "Mulungu do Morro",
    "uf": "BA",
@@ -2145,17 +2897,6 @@
      "tom": "conquista",
      "gancho": "Mulungu do Morro fez feira de saúde com mais de 400 exames.",
      "confirmado": true
-    },
-    {
-     "data": "2026-09",
-     "titulo": "EX PREFEITO DE MULUNGU DO MORRO COMEMORA CHEGA DE TUBULAÇÕES PARA ALAGADIÇO",
-     "veiculo": "noticiasdagente.com.br",
-     "url": "http://www.noticiasdagente.com.br/2026/09/ex-prefeito-de-mulungu-do-morro.html",
-     "resumo": "Segundo o título, um ex-prefeito comemorou a chegada de tubulações para o Alagadiço; a matéria não pôde ser aberta para confirmar detalhes.",
-     "tema": "obra",
-     "tom": "neutro",
-     "gancho": "Tubulações chegaram ao Alagadiço, em Mulungu do Morro.",
-     "confirmado": false
     }
    ]
   },
@@ -2198,6 +2939,12 @@
    "municipio": "Planalto",
    "uf": "BA",
    "origem": "pesquisa",
+   "noticias": []
+  },
+  "2925105": {
+   "municipio": "Poções",
+   "uf": "BA",
+   "origem": "pautas",
    "noticias": []
   },
   "2925600": {
@@ -2259,6 +3006,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2927705": {
+   "municipio": "Santa Cruz Cabrália",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
   },
   "2928000": {
    "municipio": "Santaluz",
@@ -2357,6 +3110,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2929206": {
+   "municipio": "São Francisco do Conde",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": []
   },
   "2929305": {
    "municipio": "São Gonçalo dos Campos",
@@ -2485,6 +3244,291 @@
      "confirmado": true
     }
    ]
+  },
+  "2933604": {
+   "municipio": "Xique-Xique",
+   "uf": "BA",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "A Tarde",
+     "url": "https://atarde.com.br/eleicoes/acm-neto-assume-compromisso-com-a-saude-em-xique-xique-1401950",
+     "resumo": "O hospital municipal precisa de reforma, ampliação, equipamentos, pessoal e leitos de UTI, tema de compromisso de campanha estadual em setembro de 2026.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "O hospital de Xique-Xique precisa de reforma e leitos de UTI.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3101706": {
+   "municipio": "Almenara",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "MPMG",
+     "url": "https://www.mpmg.mp.br/portal/menu/comunicacao/noticias/mpmgalertaque-greve-de-medicosnaopodeimpactar-atendimentos-de-urgencia-eemergenciaemalmenara-e-municipiosvizinhos-2C9F8A9B9E653947019E88D4F7613746-00.shtml",
+     "resumo": "Em crise financeira, o Hospital Deraldo Guimarães teve atraso prolongado no pagamento a médicos e greve anunciada a partir de 08/06/2026; MPMG recomendou manter urgência e emergência.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em Almenara, o hospital atrasou o pagamento dos médicos, que anunciaram greve.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/",
+     "resumo": "No Vale do Jequitinhonha há escassez hídrica, com rios intermitentes secos; a Copasa Regional Almenara opera caminhões-pipa na região.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Na região de Almenara, rios secam e a Copasa usa caminhões-pipa.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3103405": {
+   "municipio": "Araçuaí",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/especiais/o-deserto-como-driblar-os-rios-secos/",
+     "resumo": "Na estiagem, nascentes e córregos intermitentes secam, e a zona rural é abastecida por caminhão-pipa com água da Copasa.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Na seca, a zona rural de Araçuaí depende de caminhão-pipa.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3107109": {
+   "municipio": "Boa Esperança",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3107307": {
+   "municipio": "Bocaiúva",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-12",
+     "titulo": "",
+     "veiculo": "Agência Minas",
+     "url": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-entrega-obras-do-anel-viario-de-bocaiuva-e-inaugura-novo-marco-de-mobilidade-e-desenvolvimento-no-norte-do-estado/",
+     "resumo": "A duplicação do Anel Viário de Bocaiúva, 15 km da BR-135 e mais de R$ 300 milhões, foi entregue em 14/12/2025 para tirar o tráfego pesado do perímetro urbano.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Bocaiúva recebeu anel viário duplicado para tirar caminhões de dentro da cidade.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3107901": {
+   "municipio": "Bom Repouso",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3108602": {
+   "municipio": "Brasília de Minas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3112307": {
+   "municipio": "Capelinha",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3112604": {
+   "municipio": "Capinópolis",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3113206": {
+   "municipio": "Carandaí",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3114204": {
+   "municipio": "Carmo do Cajuru",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3114501": {
+   "municipio": "Carmópolis de Minas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3117306": {
+   "municipio": "Conceição das Alagoas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3121605": {
+   "municipio": "Diamantina",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3123007": {
+   "municipio": "Dores de Campos",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3129509": {
+   "municipio": "Ibiá",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3133501": {
+   "municipio": "Itapecerica",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3134400": {
+   "municipio": "Iturama",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3135050": {
+   "municipio": "Jaíba",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-03",
+     "titulo": "",
+     "veiculo": "Agência Minas",
+     "url": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-destina-r-23-1-milhoes-para-a-reparacao-da-infraestrutura-e-abastecimento-do-projeto-jaiba/",
+     "resumo": "Canal CP3 do Projeto Jaíba, que irriga 8,2 mil hectares, precisava de reparo urgente; um produtor disse que, sem a obra, seria o 'colapso'.",
+     "tema": "agricultura",
+     "tom": "problema",
+     "gancho": "Projeto Jaíba: canal que irriga 8,2 mil hectares precisava de reparo urgente.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Agência Minas",
+     "url": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-destina-r-23-1-milhoes-para-a-reparacao-da-infraestrutura-e-abastecimento-do-projeto-jaiba/",
+     "resumo": "Núcleos habitacionais do Projeto Jaíba, com cerca de 20 mil moradores, têm R$ 15 milhões via Copasa para abastecimento de água potável e esgoto.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "No Projeto Jaíba, R$ 15 milhões para água e esgoto dos moradores.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3136306": {
+   "municipio": "João Pinheiro",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3137403": {
+   "municipio": "Lagoa Dourada",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3141801": {
+   "municipio": "Minas Novas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Agência Minas",
+     "url": "https://www.agenciaminas.mg.gov.br/noticia/governo-de-minas-apresenta-melhorias-para-a-saude-em-minas-novas-e-berilo/",
+     "resumo": "Hospital Doutor Badaró Júnior faz hemodiálise para 62 pacientes por dia de 13 municípios, com R$ 1,7 milhão do estado em 2024; antes, pacientes viajavam até Diamantina.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Minas Novas, hospital faz hemodiálise; antes, pacientes viajavam até Diamantina.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Minas Novas",
+     "url": "https://www.minasnovas.mg.gov.br/",
+     "resumo": "Programa municipal Tapete Preto leva pavimentação a comunidades rurais de Minas Novas, como Ribeirão dos Santos, em setembro de 2026.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Em Minas Novas, comunidades rurais como Ribeirão dos Santos recebem pavimentação.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3142809": {
+   "municipio": "Monte Alegre de Minas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3143005": {
+   "municipio": "Monte Belo",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3143104": {
+   "municipio": "Monte Carmelo",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3145000": {
+   "municipio": "Nova Ponte",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3145307": {
+   "municipio": "Novo Cruzeiro",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Novo Cruzeiro",
+     "url": "https://www.novocruzeiro.mg.gov.br/",
+     "resumo": "Chamada Pública PAA 01/2026, da prefeitura de Novo Cruzeiro, trata de compras públicas da agricultura familiar.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Em Novo Cruzeiro, o PAA compra alimentos da agricultura familiar em 2026.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3146909": {
+   "municipio": "Papagaios",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
   },
   "3149804": {
    "municipio": "Perdizes",
@@ -2659,17 +3703,6 @@
      "tom": "neutro",
      "gancho": "Salinas faz mutirão de limpeza contra a dengue em outubro.",
      "confirmado": false
-    },
-    {
-     "data": "",
-     "titulo": "",
-     "veiculo": "Itatiaia",
-     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/",
-     "resumo": "Salinas foi listada em situação de emergência por seca em 2023; a estiagem é recorrente no Norte de Minas.",
-     "tema": "clima",
-     "tom": "problema",
-     "gancho": "Salinas já entrou em emergência por causa da seca.",
-     "confirmado": false
     }
    ]
   },
@@ -2717,17 +3750,6 @@
      "tom": "neutro",
      "gancho": "Santos Dumont intensificou ações para pessoas em situação de rua.",
      "confirmado": false
-    },
-    {
-     "data": "2023-02",
-     "titulo": "",
-     "veiculo": "Itatiaia",
-     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/apos-forte-chuva-distrito-de-santos-dumont-esta-sem-luz-eletrica-ha-24h-e-produtores-de-leite-temem-prejuizo/",
-     "resumo": "Em fevereiro de 2023, forte chuva deixou distritos rurais de Santos Dumont sem energia, com estradas bloqueadas e perdas de leite.",
-     "tema": "clima",
-     "tom": "problema",
-     "gancho": "Em Santos Dumont, a chuva já deixou a zona rural sem luz.",
-     "confirmado": false
     }
    ]
   },
@@ -2759,19 +3781,7 @@
    "municipio": "São João da Ponte",
    "uf": "MG",
    "origem": "pautas",
-   "noticias": [
-    {
-     "data": "",
-     "titulo": "",
-     "veiculo": "Itatiaia",
-     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/",
-     "resumo": "São João da Ponte, no semiárido mineiro, foi listado em situação de emergência por seca em 2023.",
-     "tema": "clima",
-     "tom": "problema",
-     "gancho": "São João da Ponte já entrou em emergência por causa da seca.",
-     "confirmado": false
-    }
-   ]
+   "noticias": []
   },
   "3169604": {
    "municipio": "Tupaciguara",
@@ -2872,19 +3882,7 @@
    "municipio": "Ipuã",
    "uf": "SP",
    "origem": "pautas",
-   "noticias": [
-    {
-     "data": "",
-     "titulo": "",
-     "veiculo": "Prefeitura de Ipuã",
-     "url": "https://www.ipua.sp.gov.br/",
-     "resumo": "As 'áreas de lazer' de Ipuã são alvo de disputa judicial com decisão do STF, e a prefeitura publicou nota de esclarecimento.",
-     "tema": "outro",
-     "tom": "neutro",
-     "gancho": "As áreas de lazer de Ipuã viraram disputa na Justiça.",
-     "confirmado": false
-    }
-   ]
+   "noticias": []
   },
   "3521804": {
    "municipio": "Itaí",
@@ -2906,17 +3904,6 @@
      "tema": "moradia",
      "tom": "neutro",
      "gancho": "Em Miguelópolis, casas da CDHU foram sorteadas em setembro.",
-     "confirmado": false
-    },
-    {
-     "data": "2024-04",
-     "titulo": "",
-     "veiculo": "Alesp",
-     "url": "https://www.al.sp.gov.br/noticia/?id=474243",
-     "resumo": "Em audiência da Alesp em Ituverava, em abril de 2024, foi reservado R$ 1,5 milhão para as Santas Casas de Ituverava e Franca e para a APAE de Miguelópolis.",
-     "tema": "saude",
-     "tom": "neutro",
-     "gancho": "A reforma da APAE de Miguelópolis entrou na pauta da Alesp.",
      "confirmado": false
     }
    ]
@@ -3547,17 +4534,6 @@
      "tema": "clima",
      "tom": "problema",
      "gancho": "Palmeira das Missões teve emergência reconhecida por causa das chuvas.",
-     "confirmado": false
-    },
-    {
-     "data": "2025-01",
-     "titulo": "",
-     "veiculo": "Jornal do Comércio",
-     "url": "https://www.jornaldocomercio.com/jornal-cidades/2025/01/1186634-palmeira-das-missoes-e-ufsm-pleiteiam-curso-de-medicina-na-cidade.html",
-     "resumo": "Um curso de Medicina no campus da UFSM em Palmeira das Missões foi citado como prioridade da gestão municipal em janeiro de 2025.",
-     "tema": "educacao",
-     "tom": "neutro",
-     "gancho": "Palmeira das Missões quer um curso de Medicina na UFSM.",
      "confirmado": false
     }
    ]

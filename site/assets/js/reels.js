@@ -41,34 +41,40 @@ const PROGRAMAS = {
   renda: { nome: "Bolsa Família", frase: "Com Lula, o Bolsa Família voltou: *R$ 600 por família* e mais R$ 150 por criança pequena.", fonte: "Ministério do Desenvolvimento Social, Bolsa Família." },
   salario: { nome: "Salário mínimo", frase: "Com Lula, o salário mínimo voltou a *subir acima da inflação.*", fonte: "Política de valorização do salário mínimo." },
 };
-// semiárido: Nordeste e norte de Minas
-const NORDESTE = new Set(["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"]);
-const sertao = (d) => NORDESTE.has(d.uf) || (d.uf === "MG" && d.lat > -17.5);
+// semiárido: o Garantia-Safra só paga na área da Sudene, então quem recebeu em 2025 está no sertão
+const sertao = (d) => d.safra > 0;
+const NORTE = new Set(["AC", "AM", "AP", "PA", "RO", "RR", "TO"]);
+const CHUVA = /chuva|enchente|alag|enxurr|cheia|inunda/;
+const DESASTRE = /temporal|granizo|vendaval|tempestade|ventania|ciclone|tornado|desliza|desabrig|desalojad|deixaram suas casas|estragos?\b|tempo extremo|destelha|barragem/;
+const AGUA = /adutora|abastecimento|po[cç]os? artesian|cisterna|[aá]gua tratada|(carro|caminh[aã]o|caminh[oõ]es)-pipa/;
+const ROCA = /\bleit(e|eiro|eira)\b|queijo|\bsafra|lavoura|\bro[cç]a\b|rebanho|\bgado\b|produtor(es)? rura|agricultor|agricultura familiar|feira livre|\bpaa\b|aquisi[cç][aã]o de alimentos/;
 function programaPara(n, k, d) {
   const te = n?.te, txt = n ? `${n.r} ${n.g}`.toLowerCase() : "";
-  const agua = sertao(d) ? "agua_sertao" : "agua";
+  const agua = /esgoto|saneamento/.test(txt) || !sertao(d) ? "agua" : "agua_sertao";
   if (/farm[aá]cia|rem[eé]dio/.test(txt)) return "farmacia";
   if (te === "saude") return "saude";
   if (/creche|educa[cç][aã]o infantil/.test(txt)) return "creche";
   if (te === "agua") return agua;
   if (te === "clima") {
-    if (/temporal|granizo|vendaval|tempestade|ventania|ciclone|tornado|desliza|desabrig|desalojad|deixaram suas casas|estragos?\b|tempo extremo|destelha|barragem/.test(txt)) return "desastre";
-    if (/chuva|enchente|alag|enxurr|cheia|inunda/.test(txt)) return "chuva";
+    // na Amazônia, cheia e seca isolam a cidade: o que chega é socorro da Defesa Civil
+    if (DESASTRE.test(txt) || NORTE.has(d.uf)) return "desastre";
+    if (CHUVA.test(txt)) return "chuva";
     if (/\bseca\b|estiagem/.test(txt) && !sertao(d)) return "agricultura";
     return agua;
   }
-  if (te === "estrada" || te === "obra" || te === "transporte") return "obra";
+  if (te === "estrada" || te === "obra" || te === "transporte") return CHUVA.test(txt) ? "chuva" : AGUA.test(txt) ? agua : "obra";
   if (["educacao", "moradia", "energia", "agricultura"].includes(te)) return te;
-  if (te === "emprego" || te === "economia") return "emprego";
+  if (te === "emprego" || te === "economia") return ROCA.test(txt) ? "agricultura" : "emprego";
   if (te === "programa_federal") {
+    if (ROCA.test(txt)) return "agricultura";
     if (/p[eé]-de-meia/.test(txt)) return "educacao";
     if (/minha casa/.test(txt)) return "moradia";
     if (/luz para todos/.test(txt)) return "energia";
     if (/aldir/.test(txt)) return "cultura";
     if (/m[eé]dic|sa[uú]de/.test(txt)) return "saude";
-    return "obra";
+    return AGUA.test(txt) ? agua : "obra";
   }
-  if (/\bleit(e|eiro|eira)\b|queijo|\bsafra|lavoura|\bro[cç]a\b|rebanho|\bgado\b|produtor(es)? rura|agricultor|feira livre/.test(txt)) return "agricultura";
+  if (ROCA.test(txt)) return "agricultura";
   if (te === "cultura" && /aldir|cultura/.test(txt)) return "cultura";
   return k === 2 ? "renda" : d.urbana >= 75 ? "emprego" : "salario";
 }
@@ -106,7 +112,7 @@ function ataquePara(d, k, n) {
   if (k === 1) return d.urbana >= 75 ? "6x1" : "bolso";
   return d.idosos >= 22 || d.bpc > 0 ? "bolso" : "6x1";
 }
-const FEDERAL = /federal|novo pac|\bpac\b|codevasf|bndes|minist[eé]rio|\buni[aã]o\b|mais m[eé]dicos|p[eé]-de-meia|farm[aá]cia popular|minha casa|luz para todos|aldir blanc|defesa civil nacional/i;
+const FEDERAL = /federal|novo pac|\bpac\b|codevasf|bndes|\bdnit\b|\bpaa\b|aquisi[cç][aã]o de alimentos|minist[eé]rio|\buni[aã]o\b|mais m[eé]dicos|p[eé]-de-meia|farm[aá]cia popular|minha casa|luz para todos|aldir blanc|defesa civil nacional/i;
 // "Polícia Federal", "Justiça Federal" e "Ministério Público" não são dinheiro do governo federal
 const temFederal = (s) => FEDERAL.test(String(s).replace(/pol[ií]cia federal|justi[cç]a federal|tribunal regional federal|minist[eé]rio p[uú]blico( federal)?/gi, ""));
 
