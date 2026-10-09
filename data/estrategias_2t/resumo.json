@@ -1,0 +1,67 @@
+{
+ "nota": "Associações entre territórios; ganhos em votos líquidos de Lula sobre Flávio. Diferença no Datafolha 08/10 ~4,7 mi; no 1T 2,24 mi.",
+ "E1": {
+  "municipios_lula2p_ge_60": 2051,
+  "aptos": 37160251,
+  "ausentes": 7247944,
+  "ausentes_recuperaveis": 318381,
+  "ganho_se_voltar_ao_minimo_historico": 121646,
+  "ganho_por_1pp_comparecimento": 160578,
+  "perda_se_abstencao_subir_como_2022": -116424,
+  "idosos_70mais": 3671430,
+  "zonas_grandes_cidades_lula2p_ge_55": 125,
+  "zonas_ganho_por_1pp": 32921,
+  "top_uf_ganho": {
+   "BA": 60547,
+   "PE": 19752,
+   "MG": 8914,
+   "CE": 7099,
+   "RN": 6868,
+   "PB": 5545,
+   "MA": 4484,
+   "PI": 3643,
+   "RS": 1278,
+   "PA": 998
+  }
+ },
+ "E2": {
+  "municipios_lula2p_le_45": 2474,
+  "votos_flavio": 31931043,
+  "terceiros_direita_renan_caiado_zema": 2963079,
+  "esperado_para_flavio_dos_terceiros": 2056560,
+  "bolsonaristas_2022_fora_do_flavio": 27263,
+  "municipios_flavio_abaixo_jair": 46,
+  "top_uf_estoque": {
+   "SP": 546919,
+   "GO": 252785,
+   "PR": 245676,
+   "MG": 186765,
+   "RS": 153836,
+   "SC": 153167,
+   "RJ": 152770,
+   "DF": 89220,
+   "ES": 47488,
+   "MT": 46772
+  },
+  "nacional_esperado_flavio_terceiros": 4081672,
+  "nacional_esperado_lula_terceiros": 1610735
+ },
+ "E3": {
+  "municipios_com_queda": 5520,
+  "votos_a_reconverter": 4516461,
+  "municipios_virados_vs_2t22": 458,
+  "votos_a_reconverter_nos_virados": 311387,
+  "top_uf": {
+   "SP": 832583,
+   "MG": 579861,
+   "RS": 414221,
+   "BA": 352716,
+   "PR": 309568,
+   "CE": 282383,
+   "GO": 209825,
+   "SC": 198235,
+   "MA": 196200,
+   "PA": 177001
+  }
+ }
+}

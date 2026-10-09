@@ -1,0 +1,2655 @@
+{
+ "lote": "01_GO_municipal",
+ "gerado_em": "2026-10-09",
+ "pessoas": [
+  {
+   "ano": "2024",
+   "sq": "90001971838",
+   "nome_urna": "Wander Saraiva",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Prefeito reeleito (PP) segundo lista da AGM 2025-2028; nenhuma notícia relevante encontrada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059096",
+   "nome_urna": "Dr Itamar",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Abadiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "processo",
+     "data": "2024",
+     "texto": "Reportagem sobre sua pré-candidatura em 2024 informou que o ex-prefeito (mandatos 2005–2012) respondia a ações de improbidade administrativa por nepotismo referentes àquele período. Não há condenação informada na fonte; a defesa não foi publicada na fonte consultada.",
+     "urls": [
+      "https://www.jornalopcao.com.br/bastidores/com-apoio-de-joao-de-deus-ex-prefeito-de-abadiania-itamar-vieira-tenta-ser-candidato-587825/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-prefeito de 2005 a 2012; voltou ao cargo em 2025. Mês da reportagem não confirmado."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002104719",
+   "nome_urna": "Edinho Do Laticínio",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Adelândia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "processo",
+     "data": "2022",
+     "texto": "O MP-GO pediu à Justiça a extinção do mandato e a posse do vice, alegando condenação criminal transitada em julgado em março de 2021 por sonegação de cerca de R$ 100 mil em ICMS. A Câmara Municipal havia votado contra a cassação após a defesa técnica do prefeito; o desfecho judicial não aparece nas fontes consultadas.",
+     "urls": [
+      "https://opopular.com.br/politica/mp-pede-extinc-o-do-mandato-de-prefeito-de-adelandia-condenado-por-sonegac-o-e-nomeac-o-do-vice-1.2573304",
+      "https://www.maisgoias.com.br/politica/mp-pede-extincao-de-mandato-do-prefeito-de-adelandia/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Data da ação do MP estimada (mandato 2021-2024, já pelo UB); mês não confirmado. Foi reeleito em 2024."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002137769",
+   "nome_urna": "Warley Gouveia",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Alexânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "posição",
+     "data": "2026-09",
+     "texto": "Participou em Goiânia de reunião em que lideranças de Alexânia declararam apoio à candidatura de Gracinha Caiado (União Brasil) ao Senado.",
+     "urls": [
+      "https://ohoje.com/2026/09/25/gracinha-caiado-recebe-apoio-de-liderancas-de-alexania/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225262",
+   "nome_urna": "Marcus Rinco",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "decisão",
+     "data": "2024-10",
+     "texto": "A juíza eleitoral Simone Pedra Reis cassou o mandato do prefeito reeleito e da vice Helena Gomes (PRD), com inelegibilidade de oito anos e multa de R$ 25 mil, por abuso de poder em carreata de 05/07/2024 com veículos da prefeitura, em ação do PL local. A defesa disse que o evento apenas apresentava veículos adquiridos e que recorreria; não há decisão definitiva nas fontes e o resultado do recurso não foi localizado.",
+     "urls": [
+      "https://ohoje.com/2024/10/21/justica-cassa-prefeito-de-alto-paraiso/",
+      "https://www.maisgoias.com.br/politica/justica-cassa-prefeito-reeleito-de-alto-paraiso-de-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Desfecho do recurso no TRE-GO/TSE não localizado; o TSE ainda o lista como eleito. Conferir se segue no cargo."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225933",
+   "nome_urna": "Paulinho Do Barreirão",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Anicuns",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-11",
+     "texto": "Após a reeleição, pediu aval de Ronaldo Caiado para disputar a presidência da Associação Goiana dos Municípios (AGM). A presidência ficou com Zé Délio (Hidrolândia), eleito em janeiro de 2025.",
+     "urls": [
+      "https://www.maisgoias.com.br/politica/prefeito-de-anicuns-pede-bencao-a-caiado-para-lancar-candidatura-a-presidencia-da-agm/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/ze-delio-e-eleito-presidente-da-agm-marden-assume-a-vice-e-pellozo-a-diretoria-do-entorno-de-goiania-672340/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Mês da articulação estimado (pós-eleição 2024)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001991831",
+   "nome_urna": "Leandro Vilela",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Eleito no 2º turno de 2024 com 63,60% dos votos válidos contra o deputado federal Professor Alcides (PL).",
+     "urls": [
+      "https://diariodonordeste.verdesmares.com.br/pontopoder/veja-o-resultado-das-eleicoes-para-prefeito-de-aparecida-de-goiania-em-2024-1.3575534",
+      "https://tribunadoplanalto.com.br/leandro-vilela-e-um-dos-prefeitos-mais-bem-votados-do-pais-no-segundo-turno/"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025-01",
+     "texto": "Assumiu em janeiro de 2025 relatando déficit herdado e salários de servidores em atraso, e contratou um diagnóstico administrativo (Instituto Àquila) nos primeiros 40 dias.",
+     "urls": [
+      "https://aparecida.go.gov.br/vilela-assume-prefeitura-de-aparecida-com-deficit-de-r-300-milhoes-e-salario-de-servidores-em-atraso",
+      "https://jornalopcao.com.br/ultimas-noticias/em-meio-a-desafios-posse-de-nova-gestao-de-aparecida-de-goiania-tem-clima-de-esperanca-668075/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada; o governador Daniel Vilela (MDB), do mesmo partido e grupo, declarou apoio a Flávio em 06/10/2026."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002015923",
+   "nome_urna": "Waldir Da Fokus",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024",
+     "texto": "Empresário fundador do Grupo Fokus e pai do deputado federal Glaustin da Fokus (Podemos), disputou em 2024 seu primeiro cargo público e prometeu renunciar ao salário de prefeito.",
+     "urls": [
+      "https://jornalopcao.com.br/eleicoes-2024/waldir-da-fokus-diz-que-se-eleito-em-aragoiania-vai-renunciar-ao-salario-e-priorizar-saude-da-cidade-572840/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001926826",
+   "nome_urna": "Marcio Tuca",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Brazabrantes",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002155834",
+   "nome_urna": "Dra. Átila",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Buriti De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002005960",
+   "nome_urna": "Graciele Da Arte Trigo",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-04",
+     "texto": "Renunciou ao mandato de prefeita cerca de um ano e três meses após o início do segundo mandato, para disputar vaga de deputada estadual pelo Agir.",
+     "urls": [
+      "https://www.jornalopcao.com.br/bastidores/a-verdadeira-arte-de-graciele-marta-e-o-jogo-pouco-limpo-da-traicao-politica-873853/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Candidata a deputada estadual pelo Agir, obteve 37.252 votos (1,02% dos válidos) e não foi eleita.",
+     "urls": [
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não é mais prefeita (renunciou em 2026; mês estimado pelo prazo de desincompatibilização). Não verificado quem assumiu (o vice eleito é Alzemar, PL)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002244866",
+   "nome_urna": "Lulinha",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024",
+     "texto": "Vice-prefeito na gestão de Fábio Correa, foi o candidato de continuidade do grupo e eleito prefeito pelo PP em 2024.",
+     "urls": [
+      "https://www.jornalopcao.com.br/bastidores/antonio-lima-e-alex-batista-devem-duelar-com-lulinha-em-cidade-ocidental-459716/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "O vice eleito na chapa (Professor Luciano) aparece com situação #NULO no TSE."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225574",
+   "nome_urna": "Alessandro Barcelos",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-03",
+     "texto": "Deixou o PL e filiou-se ao União Brasil em março de 2024, em ato conduzido pelo então governador Ronaldo Caiado.",
+     "urls": [
+      "https://jornalopcao.com.br/politica/caiado-filia-7-prefeitos-ao-uniao-brasil-nesta-segunda-feira-588335/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002024518",
+   "nome_urna": "Chico Vaca",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Corumbá De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002024134",
+   "nome_urna": "Juliana Da Farmácia",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cristianópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Reeleita com 85,60% dos votos em coligação de União Brasil, PL, PSD, PP e PDT, com Wander Prudente (PL) como vice; em 2020 foi a primeira mulher eleita prefeita de Cristianópolis.",
+     "urls": [
+      "https://tribunadoplanalto.com.br/?p=52775"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002105558",
+   "nome_urna": "Danilo Contador",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Córrego Do Ouro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Eleito em 2024 com 53,80% (PP); nenhuma notícia de atuação encontrada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002091647",
+   "nome_urna": "Altran Avelar",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Flores De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Achado apenas decreto de situação de emergência por chuvas (O Popular), com data não confirmada; não incluído."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002312633",
+   "nome_urna": "Jeovazinho",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Goianápolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "gestão",
+     "data": "2026-01",
+     "texto": "Em entrevista, o prefeito, em seu quarto mandato, disse que 2025 foi o ano fiscal mais difícil de sua gestão e citou a construção de um novo hospital e gastos de cerca de 30% do orçamento em saúde.",
+     "urls": [
+      "https://ohoje.com/2026/01/16/jeovazinho-aperto-goianapolis-alianca-mdb-pl/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-01",
+     "texto": "Declarou apoio a Gracinha Caiado para o Senado e à reeleição do senador Vanderlan Cardoso, e defendeu aliança entre União Brasil, MDB e PL no estado.",
+     "urls": [
+      "https://ohoje.com/2026/01/16/jeovazinho-aperto-goianapolis-alianca-mdb-pl/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002002544",
+   "nome_urna": "Mabel",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Declarou apoio a Flávio Bolsonaro (PL) no 2º turno, acompanhando o governador Daniel Vilela e Ronaldo Caiado, e defendeu alternância no governo federal e as propostas econômicas do candidato.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://www.maisgoias.com.br/politica/mabel-declara-apoio-a-flavio-bolsonaro/",
+     "https://www.jornalopcao.com.br/politica/prefeitos-de-goias-reforcam-apoio-a-flavio-bolsonaro-e-defendem-uniao-para-salvar-o-brasil-876232/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2025-08",
+     "texto": "A Câmara de Goiânia aprovou em 1ª votação, contra a posição do prefeito, projeto que revoga a Taxa de Limpeza Pública ('taxa do lixo'), no mesmo período em que vereadores instalavam uma CEI sobre supostas irregularidades no consórcio Limpa Gyn. A prefeitura alegou que a cobrança é exigida pelo marco do saneamento.",
+     "urls": [
+      "https://ohoje.com/2025/09/20/projeto-que-revoga-taxa-do-lixo-segue-parado-na-comissao-de-financas-da-camara/",
+      "https://www.maisgoias.com.br/politica/projeto-que-revoga-a-taxa-do-lixo-avanca-na-ccj-em-novo-reves-para-mabel/"
+     ]
+    },
+    {
+     "tipo": "decisão",
+     "data": "2026-01",
+     "texto": "Vetou integralmente em 15/01/2026 a lei que revogava a taxa do lixo, alegando falta de estimativa de impacto orçamentário. Em junho de 2026 a base aliada adiou na CCJ a análise do veto, mantendo a cobrança.",
+     "urls": [
+      "https://ohoje.com/2026/06/03/base-volta-atras-e-endossa-veto-de-mabel-a-revogacao-da-taxa-do-lixo/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/mabel-veta-revogacao-da-taxa-do-lixo-784045/"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025",
+     "texto": "Iniciou a gestão priorizando a crise da limpeza urbana e da coleta de lixo herdada, com mutirões e pontos provisórios de descarte, e a falta de leitos de UTI.",
+     "urls": [
+      "https://www.maisgoias.com.br/politica/gestao-mabel-acelera-limpeza-da-cidade-com-instalacao-de-pontos-provisorios-de-descarte/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002184139",
+   "nome_urna": "Janezio",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Guarani De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002027177",
+   "nome_urna": "Zé Délio Jr",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Hidrolândia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Reeleito como candidato único, com 100% dos votos válidos.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/ze-delio-jr-em-hidrolandia-e-o-prefeito-eleito-com-maior-porcentagem-de-voto-645090/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2025-01",
+     "texto": "Eleito presidente da Associação Goiana dos Municípios (AGM) em 17/01/2025, com Marden Júnior (Trindade) como vice.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/ze-delio-e-eleito-presidente-da-agm-marden-assume-a-vice-e-pellozo-a-diretoria-do-entorno-de-goiania-672340/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2025-08",
+     "texto": "Defendeu Ronaldo Caiado como candidato da direita à Presidência e disse que a direita não venceria sem união; apontou Daniel Vilela como sucessor no governo.",
+     "urls": [
+      "https://ohoje.com/2025/08/06/ze-delio-fala-sobre-prefeituras-em-crise-e-por-que-caiado-pode-ser-esperanca-da-direita-em-2026/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada; como presidente da AGM, é aliado de Caiado e Daniel Vilela, que apoiam Flávio."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002312070",
+   "nome_urna": "Adriano Peixoto",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Jesúpolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002353719",
+   "nome_urna": "Adivair",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Lagoa Santa",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "processo",
+     "data": "2020-12",
+     "texto": "Foi afastado do cargo com sete servidores na Operação Andarilhos da Polícia Civil, que apurava fraudes em licitações e pagamento de diárias de viagem sem comprovação. Não há condenação informada nas fontes; a defesa não foi publicada na fonte consultada.",
+     "urls": [
+      "https://www.maisgoias.com.br/cidades/prefeito-de-lagoa-santa-e-suspeito-de-receber-diarias-de-forma-ilegal-e-fraudar-licitacoes/",
+      "https://www.rotajuridica.com.br/?p=90964"
+     ]
+    },
+    {
+     "tipo": "decisão",
+     "data": "2024",
+     "texto": "O TJ-GO indeferiu recurso do então ex-prefeito contra a rejeição de suas contas.",
+     "urls": [
+      "https://jornalopcao.com.br/justica/tj-go-indefere-recurso-sobre-contas-de-ex-prefeito-de-lagoa-santa-605146/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Fatos referem-se a mandato anterior; voltou a ser eleito em 2024. Mês da decisão do TJ-GO não confirmado."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002020990",
+   "nome_urna": "Diego Sorgatto",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Luziânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "gestão",
+     "data": "2025-06",
+     "texto": "Em entrevista, citou redução de dívida herdada de R$ 40 milhões, o programa Opera Luziânia (mais de 25 mil cirurgias) e investimento de R$ 4 milhões em patrulhamento policial.",
+     "urls": [
+      "https://ohoje.com/2025/06/13/diego-sorgatto-defende-uniao-do-entorno-por-protagonismo-politico-em-2026/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2025-06",
+     "texto": "Disse que seu foco era fortalecer o projeto nacional de Ronaldo Caiado e apoiar Daniel Vilela ao governo em 2026, defendendo união dos municípios do Entorno.",
+     "urls": [
+      "https://ohoje.com/2025/06/13/diego-sorgatto-defende-uniao-do-entorno-por-protagonismo-politico-em-2026/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002078050",
+   "nome_urna": "Zé Wilson",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Moiporá",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2020",
+     "texto": "Eleito prefeito pelo PMN por diferença de dois votos sobre o então prefeito Wolnei Moreira (PSB).",
+     "urls": [
+      "https://opopular.com.br/politica/prefeito-de-moipora-tem-uma-vitoria-e-duas-derrotas-por-um-triz-1.2155090"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Data da eleição citada estimada (reportagem antiga do O Popular); reeleito em 2024 pelo PL."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002298624",
+   "nome_urna": "Felipi Campos",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Monte Alegre De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002311409",
+   "nome_urna": "Deny Leles",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Morro Agudo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2025-09",
+     "texto": "Foi baleado em 08/09/2025 ao chegar à sua residência, na zona rural do município; recebeu alta e a polícia investigava autoria e motivação.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/prefeito-de-morro-agudo-de-goias-e-baleado-ao-chegar-em-casa-com-a-primeira-dama-743516/",
+      "https://www.band.com.br/nacional/brasil/prefeito-de-cidade-de-goias-e-baleado-ao-chegar-em-casa"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002141827",
+   "nome_urna": "Luizinho",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Mutunópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Notícias de afastamento e condenação em Mutunópolis referem-se a gestores anteriores (Júnior do Jonas e outros), não a ele."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001930999",
+   "nome_urna": "Cléber Junio",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Reeleito em 2024 pelo União Brasil; só há notícias antigas (2021)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001967572",
+   "nome_urna": "Costa",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001958456",
+   "nome_urna": "Carlinhos Do Mangão",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "posição",
+     "data": "2025-11",
+     "texto": "Mesmo filiado ao PL, declarou em 11/11/2025 apoio a Daniel Vilela (MDB) para governador e a Gracinha Caiado (União Brasil) para o Senado, contra o grupo do senador Wilder Morais (PL).",
+     "urls": [
+      "https://tribunadoplanalto.com.br/prefeito-do-pl-declara-apoio-a-daniel-vilela-e-gracinha-caiado/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/prefeito-do-pl-carlinhos-do-mangao-declara-apoio-a-daniel-vilela-e-gracinha-caiado-764928/"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025-04",
+     "texto": "Nos primeiros cem dias do segundo mandato, a gestão destacou a construção do Hospital Municipal (R$ 36 milhões em emendas, 60 leitos) e reformas de escolas.",
+     "urls": [
+      "https://ohoje.com/2025/04/19/cem-dias-de-progresso-em-novo-gama-formosa-e-santo-antonio-do-descoberto/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada. Reeleito em 2024 pelo PL."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002114653",
+   "nome_urna": "Gilber Miranda",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Rianápolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002276264",
+   "nome_urna": "Padre Weber",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Rubiataba",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "gestão",
+     "data": "2023",
+     "texto": "Como prefeito, encaminhou à Câmara Municipal pedido de apuração sobre suspeita de que um vereador furava a fila do SUS; o vereador negou.",
+     "urls": [
+      "https://www.jornalopcao.com.br/saude/vereador-e-suspeito-de-furar-fila-do-sus-em-rubiataba-ele-nega-492904/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Mandato anterior; data aproximada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001957026",
+   "nome_urna": "Jessica Do Premium",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Santo Antônio Do Descoberto",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Eleita com 53,28% dos votos válidos, a primeira mulher eleita prefeita de Santo Antônio do Descoberto.",
+     "urls": [
+      "https://www.correiobraziliense.com.br/cidades-df/2024/10/amp/6958936-santo-antonio-do-descoberto-go-elege-primeira-mulher-para-a-prefeitura.html"
+     ]
+    },
+    {
+     "tipo": "alegação",
+     "data": "2025-11",
+     "texto": "O Ministério Público recomendou que a prefeita e o município removessem publicações institucionais que associavam ações da gestão à imagem da prefeita, por possível promoção pessoal. Não há condenação; a defesa não foi publicada na fonte consultada.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/mp-recomenda-que-prefeita-de-santo-antonio-do-descoberto-remova-postagens-com-possivel-promocao-pessoal-766795/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002256583",
+   "nome_urna": "Fernando Pellozo",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Reeleito com 41,97% dos votos.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/fernando-pellozo-e-reeleito-prefeito-de-senador-canedo-644887/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-05",
+     "texto": "Declarou primeiro voto ao Senado em Gracinha Caiado (UB) e segundo em Vanderlan Cardoso (PSD), que anunciou apoio à candidatura de Simone Pellozo à Assembleia Legislativa.",
+     "urls": [
+      "https://tribunadoplanalto.com.br/pellozo-declara-voto-a-vanderlan-que-apoia-simone-para-a-alego/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2025-01",
+     "texto": "Assumiu a diretoria do Entorno de Goiânia na AGM.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/ze-delio-e-eleito-presidente-da-agm-marden-assume-a-vice-e-pellozo-a-diretoria-do-entorno-de-goiania-672340/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002197337",
+   "nome_urna": "Gilvanir Cardoso",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Domingos",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Eleito com 68,79% dos votos, contra Jonas Cardoso (PL) e Nesimário Ramos (PT).",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/confira-os-primeiros-prefeitos-eleitos-em-goias-644792/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002189768",
+   "nome_urna": "Elieudes Moraes",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Luiz Do Norte",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001930985",
+   "nome_urna": "Danilo Max",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001951342",
+   "nome_urna": "Mano",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002229723",
+   "nome_urna": "Fhelipe Do Bill",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002072540",
+   "nome_urna": "Marden",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "No ato de 06/10/2026 em Goiânia, afirmou que o apoio a Flávio Bolsonaro representa a continuidade do caminho político construído por Caiado e Daniel Vilela em Goiás e a defesa dos princípios da direita.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://www.jornalopcao.com.br/politica/prefeitos-de-goias-reforcam-apoio-a-flavio-bolsonaro-e-defendem-uniao-para-salvar-o-brasil-876232/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2025-01",
+     "texto": "Eleito vice-presidente da AGM na chapa de Zé Délio.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/ze-delio-e-eleito-presidente-da-agm-marden-assume-a-vice-e-pellozo-a-diretoria-do-entorno-de-goiania-672340/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-09",
+     "texto": "Fez comício em Trindade em apoio à reeleição do deputado estadual Cristiano Galindo (Solidariedade).",
+     "urls": [
+      "https://www.maisgoias.com.br/politica/marden-reune-mais-de-4-mil-pessoas-em-comicio-em-apoio-a-galindo-em-trindade/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Uma fonte de 2026 o cita como PSD; o Jornal Opção (out/2026) o cita como União Brasil. Conferir filiação atual."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002217052",
+   "nome_urna": "Marcus Vinicius",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Eleito com apoio do ex-prefeito Pábio Mossoró e do então governador Ronaldo Caiado.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/governador-ronaldo-caiado-declara-apoio-ao-pre-candidato-marcus-vinicius-em-valparaiso-622378/",
+      "https://www.correiobraziliense.com.br/cidades-df/2024/10/6958880-eleito-em-valparaiso-marcus-vinicius-ira-priorizar-o-transporte-publico.html"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025-07",
+     "texto": "Citou investimento de cerca de R$ 80 milhões em esgoto no bairro Anhanguera, conclusão de viaduto na BR-040 e inauguração de UPA.",
+     "urls": [
+      "https://ohoje.com/2025/07/10/prefeito-de-valparaiso-projeta-protagonismo-do-entorno-em-2026/"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2025-07",
+     "texto": "Comprometeu-se a coordenar a campanha de Daniel Vilela (MDB) ao governo no Entorno do DF.",
+     "urls": [
+      "https://ohoje.com/2025/07/10/prefeito-de-valparaiso-projeta-protagonismo-do-entorno-em-2026/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição individual no 2º turno não localizada."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002016519",
+   "nome_urna": "Diogo Guimarães",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90002073692",
+   "nome_urna": "Waldilei Lemos",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001933650",
+   "nome_urna": "Virginia Castro",
+   "papel": "prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2024",
+   "sq": "90001971837",
+   "nome_urna": "André Da Farmácia",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059097",
+   "nome_urna": "André Do Dão",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Abadiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002287887",
+   "nome_urna": "Renato Da Autoescola",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Abadiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002104718",
+   "nome_urna": "David",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Adelândia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002137770",
+   "nome_urna": "Naldim Magalhaes",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Alexânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225263",
+   "nome_urna": "Helena",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "decisão",
+     "data": "2024-10",
+     "texto": "Teve o mandato de vice cassado em 1ª instância, com o prefeito Marcus Rinco, e inelegibilidade de oito anos por abuso de poder em carreata com veículos da prefeitura antes do período eleitoral. A defesa recorreria; não há decisão definitiva nas fontes e o resultado do recurso não foi localizado.",
+     "urls": [
+      "https://ohoje.com/2024/10/21/justica-cassa-prefeito-de-alto-paraiso/",
+      "https://www.maisgoias.com.br/politica/justica-cassa-prefeito-reeleito-de-alto-paraiso-de-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Vem da pesquisa sobre o prefeito; não houve busca individual."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225934",
+   "nome_urna": "Junior Valadão",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Anicuns",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001991832",
+   "nome_urna": "João Campos",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059353",
+   "nome_urna": "Gleison Flávio",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059356",
+   "nome_urna": "Felipe Cortez",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059367",
+   "nome_urna": "Dieyme Vasconcelos",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002059371",
+   "nome_urna": "André Fortaleza",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002263952",
+   "nome_urna": "Mazinho Madre Germana",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002015922",
+   "nome_urna": "Wendel",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002140835",
+   "nome_urna": "Junior Doutor",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002140844",
+   "nome_urna": "Eudes",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001926827",
+   "nome_urna": "Lacir Do Alaor",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Brazabrantes",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002155835",
+   "nome_urna": "Pastor João Pinto",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Buriti De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002005961",
+   "nome_urna": "Alzemar",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Vice da prefeita Graciele, que renunciou em 2026 para disputar a Assembleia; não verificado se assumiu a prefeitura. Não houve busca individual."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002106551",
+   "nome_urna": "Fernando Iphone",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002106553",
+   "nome_urna": "Rafael Victor Da Rádio",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002244865",
+   "nome_urna": "Professor Luciano",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002245585",
+   "nome_urna": "Del",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002245592",
+   "nome_urna": "Frank Denis",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002222880",
+   "nome_urna": "Hudes Ferraz",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002222886",
+   "nome_urna": "Wemerson",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002225575",
+   "nome_urna": "Gilmar Meneses",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002024517",
+   "nome_urna": "Celio Fleury",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Corumbá De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002054211",
+   "nome_urna": "Reinaldo Potência",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Corumbá De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002024135",
+   "nome_urna": "Wander Prudente",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Cristianópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002105557",
+   "nome_urna": "Urailto Tavares",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Córrego Do Ouro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002091646",
+   "nome_urna": "Mauro Do Aviao",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Flores De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002091706",
+   "nome_urna": "Camila Marciel",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Flores De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002091709",
+   "nome_urna": "Magela",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Flores De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002231779",
+   "nome_urna": "Roberto Amorim",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Goianápolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002312634",
+   "nome_urna": "Paulinho Badiania",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Goianápolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002002545",
+   "nome_urna": "Coronel Claudia",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002064974",
+   "nome_urna": "Oséias Varão",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002064982",
+   "nome_urna": "Major Vitor Hugo",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002064983",
+   "nome_urna": "Coronel Urzêda",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002064984",
+   "nome_urna": "Willian Veloso",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002106318",
+   "nome_urna": "Professor Edward",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002106319",
+   "nome_urna": "Fabrício Rosa",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002106330",
+   "nome_urna": "Kátia",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "posição",
+     "data": "2026",
+     "texto": "Relatora na CCJ do veto do prefeito Sandro Mabel à revogação da taxa do lixo, anunciou parecer pela derrubada do veto; também moveu ações judiciais contra a taxa com a vereadora Aava Santiago (PSDB).",
+     "urls": [
+      "https://www.jornalopcao.com.br/camara-municipal/katia-maria-sera-relatora-de-veto-a-revogacao-da-taxa-do-lixo-ccj-deve-votar-materia-na-proxima-semana-802968/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Vem da pesquisa sobre o prefeito de Goiânia; mês não confirmado (após o veto de 15/01/2026). Não houve busca individual."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002184140",
+   "nome_urna": "Tonim De Zim",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Guarani De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002027178",
+   "nome_urna": "Welington Leandro",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Hidrolândia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002312071",
+   "nome_urna": "Jeso Vidal",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Jesúpolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002308066",
+   "nome_urna": "Elson Motorista",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Lagoa Santa",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002353720",
+   "nome_urna": "Vera",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Lagoa Santa",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002020989",
+   "nome_urna": "Télio Rodrigues",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Luziânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002078051",
+   "nome_urna": "Paulo Vitor",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Moiporá",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002384323",
+   "nome_urna": "Rubão",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Monte Alegre De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002028879",
+   "nome_urna": "Gralha",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Morro Agudo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002028880",
+   "nome_urna": "Adriano Teixeira",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Morro Agudo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002311410",
+   "nome_urna": "Leitão",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Morro Agudo De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002141828",
+   "nome_urna": "Gustavo Do Rui",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Mutunópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001931000",
+   "nome_urna": "Weuler John",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001997207",
+   "nome_urna": "Ildelmar Serralheiro",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001997209",
+   "nome_urna": "Carlos Daniel",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Uma busca sobre Nova América trouxe títulos sobre a morte de um vereador do município em 2026 ('vereador Carlos Daniel morre aos 24 anos', Mais Goiás; 'vereador de Nova América morre aos 26 anos', Jornal Opção), mas não deu para abrir as páginas nem confirmar que se trata dele. Conferir se o mandato está vago."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001997212",
+   "nome_urna": "Jermisson Jeimim",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001967573",
+   "nome_urna": "Reginaldo",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001983251",
+   "nome_urna": "Weber Balduino",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001983255",
+   "nome_urna": "Serginho Do Souza",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001958455",
+   "nome_urna": "Akalanto",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001973327",
+   "nome_urna": "Vereador Pacífico",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001973337",
+   "nome_urna": "Marcos Oliveira",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001973338",
+   "nome_urna": "Paulo Jordão",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001973341",
+   "nome_urna": "Zé Lopes",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001973342",
+   "nome_urna": "André Logos",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002114654",
+   "nome_urna": "Cristiano Fernandes",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Rianápolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002276265",
+   "nome_urna": "Professora Maria Rufino",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Rubiataba",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001957025",
+   "nome_urna": "Alexandre De Jesus",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Santo Antônio Do Descoberto",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002256582",
+   "nome_urna": "Salma Bahia",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002197336",
+   "nome_urna": "Gilson Serracena",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Domingos",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002189767",
+   "nome_urna": "Magno Do Abacaxi",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Luiz Do Norte",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002067945",
+   "nome_urna": "Wendel Antonio",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002152362",
+   "nome_urna": "Claudia Parreira",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002152364",
+   "nome_urna": "Rosane Do Vaka Loka",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001951341",
+   "nome_urna": "Martinho",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001951471",
+   "nome_urna": "Tchola",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001951476",
+   "nome_urna": "Zinha",
+   "papel": "vereador(a) PT 2024",
+   "uf": "GO",
+   "municipios": "Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002229724",
+   "nome_urna": "Dr Antônio",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002072541",
+   "nome_urna": "Juan Carlos Freire",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002357312",
+   "nome_urna": "Pastor Alex Nepomoceno",
+   "papel": "vereador(a) PL 2024",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002217051",
+   "nome_urna": "Waguinho Do Céu Azul",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002016520",
+   "nome_urna": "Cristiane Nico",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90002073691",
+   "nome_urna": "Joao Tatico",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  },
+  {
+   "ano": "2024",
+   "sq": "90001933649",
+   "nome_urna": "Wendel",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "GO",
+   "municipios": "Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas da sessão acabou antes desta pessoa (prioridade 3)."
+  }
+ ]
+}

@@ -4,6 +4,28 @@ You are continuing a data project about **swing voters ("eleitor pendular") in B
 
 Read `RELATORIO.md` first, then this file.
 
+## Estado para publicação (09/10/2026)
+
+O pipeline oficial, a pesquisa dos 279 municípios, as comparações demográficas e
+as abas analíticas já foram integrados. A lista “Open tasks” abaixo é histórica:
+não descreve o estado atual. A abstenção nacional sem exterior é **20,84%**, e não
+20,75%; o relatório v2 e os dados oficiais prevalecem sobre os parâmetros antigos.
+
+O site principal é `site_simples/`. Gere com
+`python3 site_simples/build/build.py` e valide com `python3 scripts/validate.py`.
+Os insumos processados estão versionados. Esse build não baixa nada e incorpora
+Censo, aptos históricos oficiais e comparações de governador.
+
+A publicação GitHub Pages usa `.github/workflows/pages.yml` (execução manual).
+O README descreve a configuração. `docs/` continua disponível em `/mapas/`.
+As pastas `notas_nuvem/` e `estrategias_2t/` são material exploratório arquivado;
+sua preservação não significa que todos os itens foram verificados ou integrados.
+
+Pendências de pesquisa (Bolsa Família/CadÚnico, ampliação de pautas locais e
+novos resultados de 2º turno) permanecem explícitas e não impedem publicar o
+retrato atual. A atualização eleitoral requer rerodar os pipelines e revisar
+textos, parâmetros, cobertura e datas; não basta substituir os JSONs.
+
 ## Repo layout
 
 ```

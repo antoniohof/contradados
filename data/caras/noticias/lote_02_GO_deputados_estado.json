@@ -1,0 +1,2161 @@
+{
+ "lote": "02_GO_deputados_estado",
+ "gerado_em": "2026-10-09",
+ "pessoas": [
+  {
+   "ano": "2026",
+   "sq": "90002540993",
+   "nome_urna": "Daniel Vilela",
+   "papel": "governador(a) 2026",
+   "uf": "GO",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Sinalizou apoio a Flávio Bolsonaro em 05/10 (\"acho que se exauriu essa era do PT\") e participou, em 06/10/2026, do ato em Goiânia em que Ronaldo Caiado oficializou apoio a Flávio no 2º turno.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://ohoje.com/2026/10/05/daniel-vilela-sinaliza-apoio-a-flavio-bolsonaro/",
+     "https://ohoje.com/2026/10/06/ronaldo-caiado-oficializa-apoio-a-flavio-bolsonaro-em-goiania/",
+     "https://muitainformacao.com.br/eleicoes/ronaldo-caiado-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-e-promete-mobilizacao-em-tempo-integral-em-goias/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito governador de Goiás no 1º turno em 04/10/2026, com 58,82% dos votos válidos (1.947.517 votos, segundo o TSE), à frente de Wilder Morais (PL).",
+     "urls": [
+      "https://www.tnh1.com.br/noticia/nid/daniel-vilela-do-mdb-e-reeleito-governador-de-goias-no-primeiro-turno/",
+      "https://timesbrasil.com.br/eleicoes-2026/daniel-vilela-mdb-e-reeleito-governador-de-goias-no-1o-turno/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-03",
+     "texto": "Assumiu o governo de Goiás em março de 2026, como vice, após a renúncia de Ronaldo Caiado para disputar a Presidência.",
+     "urls": [
+      "https://www.tnh1.com.br/noticia/nid/daniel-vilela-do-mdb-e-reeleito-governador-de-goias-no-primeiro-turno/"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2026-08",
+     "texto": "Ao oficializar a candidatura à reeleição em 05/08/2026, prometeu ampliar a regionalização da saúde, implantar o novo Hugo (Hospital de Urgências de Goiás) e construir um Hospital da Mulher.",
+     "urls": [
+      "https://ohoje.com/2026/08/05/goias-nao-vai-andar-para-tras-diz-daniel-vilela-ao-oficializar-candidatura-a-reeleicao/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Assumiu como governador em mar/2026 (era vice de Caiado); reeleito em 2026."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540997",
+   "nome_urna": "Gracinha Caiado",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "GO",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Senadora eleita participou, em 06/10/2026, do ato em Goiânia em que Ronaldo Caiado anunciou apoio a Flávio Bolsonaro; disse que no 2º turno \"nossas diferenças são bem menores\".",
+    "data": "2026-10-06",
+    "urls": [
+     "https://muitainformacao.com.br/eleicoes/ronaldo-caiado-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-e-promete-mobilizacao-em-tempo-integral-em-goias/",
+     "https://ohoje.com/2026/10/06/ronaldo-caiado-oficializa-apoio-a-flavio-bolsonaro-em-goiania/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleita senadora por Goiás em 04/10/2026 em sua primeira eleição, na segunda vaga, atrás de Gustavo Gayer (PL); mandato de 2027 a 2035.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/gracinha-caiado-e-eleita-senadora-por-goias-com-2158-dos-votos/",
+      "https://muitainformacao.com.br/politica/baiana-de-feira-de-santana-gracinha-caiado-e-eleita-senadora-por-goias-com-14-milhao-de-votos/"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2026-09",
+     "texto": "Como primeira-dama, presidiu de honra a OVG e coordenou o Gabinete de Políticas Sociais; participou da criação, em 2021, do programa Goiás Social e conduz o Goiás Social Mulher.",
+     "urls": [
+      "https://www.cnnbrasil.com.br/eleicoes/quem-e-gracinha-caiado-candidata-ao-senado-por-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Esposa de Ronaldo Caiado (candidato à Presidência no 1º turno). Fontes divergem no total de votos (1,31 mi parcial em O Hoje; 1,39 mi a 1,46 mi em outras); número omitido."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543556",
+   "nome_urna": "Gustavo Gayer",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "GO",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Senador eleito pelo PL, foi o primeiro orador no ato de 06/10/2026 em Goiânia e declarou apoio a Flávio Bolsonaro no 2º turno.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://muitainformacao.com.br/eleicoes/ronaldo-caiado-declara-apoio-a-flavio-bolsonaro-no-segundo-turno-e-promete-mobilizacao-em-tempo-integral-em-goias/",
+     "https://ohoje.com/2026/10/06/ronaldo-caiado-oficializa-apoio-a-flavio-bolsonaro-em-goiania/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito senador por Goiás em 04/10/2026 como o mais votado, com 24,77% dos votos válidos (1.508.337 votos); deixa a Câmara, onde está desde 2023.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/gustavo-gayer-e-eleito-senador-por-goias-875566/",
+      "https://ohoje.com/2026/10/04/gustavo-gayer-e-o-primeiro-senador-eleito-por-goias/"
+     ]
+    },
+    {
+     "tipo": "processo",
+     "data": "2026-04",
+     "texto": "Em 28/04/2026 a Primeira Turma do STF recebeu por unanimidade denúncia da PGR e tornou Gayer réu por injúria contra Lula, por imagem manipulada com IA que associava o presidente ao nazismo e ao Hamas. Não há condenação; a defesa não foi publicada na fonte consultada.",
+     "urls": [
+      "https://acritica.net/justica/stf-torna-gustavo-gayer-reu-por-injuria-contra-lula/",
+      "https://www.cnnbrasil.com.br/eleicoes/quem-e-gustavo-gayer-candidato-ao-senado-por-goias/"
+     ]
+    },
+    {
+     "tipo": "alegação",
+     "data": "2025",
+     "texto": "Em 2025 foi indiciado pela Polícia Federal em investigação sobre suposta associação criminosa para desvio de recursos de emendas parlamentares (associação criminosa, falsidade ideológica, falsificação de documento e peculato). Não há condenação; a defesa não foi publicada na fonte consultada.",
+     "urls": [
+      "https://www.cnnbrasil.com.br/eleicoes/quem-e-gustavo-gayer-candidato-ao-senado-por-goias/"
+     ]
+    },
+    {
+     "tipo": "decisão",
+     "data": "2026-05",
+     "texto": "Em maio de 2026 foi condenado pela Justiça a pagar R$ 20 mil aos deputados Gleisi Hoffmann e Lindbergh Farias por declarações consideradas misóginas.",
+     "urls": [
+      "https://www.cnnbrasil.com.br/eleicoes/quem-e-gustavo-gayer-candidato-ao-senado-por-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Deputado federal (PL-GO) desde 2023; senador eleito 2026."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543239",
+   "nome_urna": "Adriano Do Baldy",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Abadiânia; Cidade Ocidental; Córrego Do Ouro; Goianápolis; Hidrolândia; Jesúpolis; Lagoa Santa; Moiporá; Morro Agudo De Goiás; Nova América; Rianápolis; São Domingos; São Patrício; Varjão; Vila Propício; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 123.011 votos (3,41%), 7º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Presidente do PP em Goiânia segundo imprensa local; buscas sobre 2º turno não feitas (limite)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546224",
+   "nome_urna": "Lineu Olimpio",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Abadiânia; Corumbá De Goiás; Guarani De Goiás; Jesúpolis; Mutunópolis; Rianápolis; São Luiz Do Norte; Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 53.569 votos, 8º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-prefeito de Jaraguá e ex-presidente da Ceasa-GO segundo imprensa local. 2º turno não pesquisado individualmente (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547013",
+   "nome_urna": "Lincoln Tejota",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Anicuns; Buriti De Goiás; Lagoa Santa; Nova América",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543807",
+   "nome_urna": "Lissauer Vieira",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Cristianópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 46.056 votos, 16º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-presidente da Alego; base em Rio Verde. 2º turno não pesquisado individualmente (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543243",
+   "nome_urna": "Silvye Alves",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Goianápolis; Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 78.332 votos (2,17%), 16º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Filiação: UNIÃO segundo TSE; houve notícias em 2026 de negociação com Republicanos/PRD/PDT, não confirmadas. 2º turno não pesquisado (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002542618",
+   "nome_urna": "Fred Rodrigues",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadia De Goiás; Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) federal por Goiás em 04/10/2026 com 152.380 votos (4,22%), 3º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    },
+    {
+     "tipo": "decisão",
+     "data": "",
+     "texto": "O TSE, por unanimidade, cassou o mandato de deputado estadual obtido em 2022 (42,7 mil votos), por não ter prestado no prazo as contas da campanha a vereador de 2020.",
+     "urls": [
+      "https://jornalopcao.com.br/ultimas-noticias/por-unanimidade-tse-cassa-mandato-de-fred-rodrigues-557906/"
+     ]
+    },
+    {
+     "tipo": "decisão",
+     "data": "",
+     "texto": "O TRE-GO acolheu recurso da defesa e aprovou com ressalvas as contas da campanha de 2024 à Prefeitura de Goiânia, com devolução de R$ 2.930,14 ao Tesouro.",
+     "urls": [
+      "https://opopular.com.br/politica/tre-reve-decis-o-e-aprova-contas-de-fred-rodrigues-em-2024-1.3304903"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-deputado estadual cassado; candidato a prefeito de Goiânia em 2024. Data exata das decisões não confirmada nas fontes. 2º turno não pesquisado individualmente (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002554683",
+   "nome_urna": "Carol Do Amiltinho",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadiânia; Alexânia; Campo Limpo De Goiás; Cocalzinho De Goiás; Corumbá De Goiás; Goianápolis; Jesúpolis; Monte Alegre De Goiás; São Domingos; Teresina De Goiás; Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 109.002 votos, 1º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-09",
+     "texto": "Disputou sua primeira eleição em substituição ao marido, o deputado estadual Amilton Filho (MDB), candidato à reeleição morto em acidente de trânsito em 26/09/2026 na região de Cristalina.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/carol-do-amiltinho-e-fabricio-rosa-sao-os-mais-votados-para-a-alego/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/veja-como-carol-do-amiltinho-foi-votada-nos-246-municipios-de-goias-875864/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Teve em Anápolis sua maior base, com 61.717 votos.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/veja-como-carol-do-amiltinho-foi-votada-nos-246-municipios-de-goias-875864/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Deputada estadual mais votada de Goiás em 2026. Notícia (07/10) de que o TRE-GO reconheceu o registro da candidatura não pôde ser aberta. 2º turno não pesquisado individualmente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543237",
+   "nome_urna": "Bruno Peixoto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadiânia; Anicuns; Brazabrantes; Cocalzinho De Goiás; Corumbá De Goiás; Cristianópolis; Guarani De Goiás; Hidrolândia; Moiporá; Morro Agudo De Goiás; Mutunópolis; Nova Veneza; Rianápolis; Rubiataba; São Domingos; São Luiz Do Norte; São Patrício; Terezópolis De Goiás; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) federal por Goiás em 04/10/2026 com 207.899 votos (5,76%), 1º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Presidente da Alego (deputado estadual) até 2026; deputado federal mais votado de Goiás em 2026. 2º turno não pesquisado individualmente (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543473",
+   "nome_urna": "Daniel Agrobom",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadiânia; Campo Limpo De Goiás; Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 116.842 votos (3,24%), 8º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-03",
+     "texto": "Em 11/03/2026 deixou o PL e se filiou ao MDB, declarando apoio à pré-candidatura de Daniel Vilela ao governo.",
+     "urls": [
+      "https://tribunadoplanalto.com.br/deputado-daniel-agrobom-deixa-o-pl-e-se-filia-ao-mdb-em-movimento-de-apoio-a-daniel-vilela/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "TSE e O Hoje registram a candidatura de 2026 pelo PSD, embora em março de 2026 tenha anunciado filiação ao MDB; mudança posterior não verificada. Ex-prefeito de Bom Jesus de Goiás."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543125",
+   "nome_urna": "Zé Diniz",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Abadiânia; Corumbá De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548376",
+   "nome_urna": "Marussa Boldrin",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Alexânia; Buriti De Goiás; Cocalzinho De Goiás; Cristianópolis; Flores De Goiás; Jesúpolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 88.888 votos (2,46%), 15º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-03",
+     "texto": "Em 31/03/2026 deixou o MDB e se filiou ao Republicanos.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/marussa-boldrin-deixa-mdb-e-se-filia-ao-republicanos-810686/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-vereadora de Rio Verde. 2º turno não pesquisado individualmente (limite de buscas)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547109",
+   "nome_urna": "Professor Alcides",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Aparecida De Goiânia; Aragoiânia; Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-03",
+     "texto": "Deputado federal, filiou-se ao PSDB em 21/03/2026 em ato em Aparecida de Goiânia com Marconi Perillo; antes era do PL.",
+     "urls": [
+      "https://ohoje.com/2026/03/21/professor-alcides-se-filia-ao-psdb/",
+      "https://www.jornalopcao.com.br/ultimas-noticias/com-aval-de-valdemar-e-wilder-professor-alcides-deixa-o-pl-e-se-filia-ao-psdb-de-marconi-795486/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Não foi reeleito em 2026; perdeu quase 15 mil votos em Aparecida de Goiânia em relação a 2022.",
+     "urls": [
+      "https://www.jornalopcao.com.br/ultimas-noticias/oposicao-a-vilela-sofre-derrotas-nas-urnas-e-perde-forca-em-aparecida-876101/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Deputado federal em exercício (mandato até jan/2027). 2º turno não pesquisado individualmente (limite de buscas); PSDB nacional liberou os filiados."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546221",
+   "nome_urna": "Charles Bento",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Brazabrantes; Buriti De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 45.901 votos, 17º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543246",
+   "nome_urna": "Jose Nelto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Buriti De Goiás; Monte Alegre De Goiás; Mutunópolis; Nova América; Santo Antônio Do Descoberto; São Luiz Do Norte",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 115.504 votos (3,20%), 9º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543124",
+   "nome_urna": "Major Eldecirio",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Córrego Do Ouro; Moiporá",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548672",
+   "nome_urna": "Cristiano Galindo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Adelândia; Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548379",
+   "nome_urna": "Williard Pontes",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alexânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537390",
+   "nome_urna": "Glaustin Da Fokus",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alexânia; Anicuns; Aragoiânia; Campo Limpo De Goiás; Flores De Goiás; Rianápolis; Santo Antônio Do Descoberto; Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 98.652 votos (2,73%), 14º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547030",
+   "nome_urna": "Talles Barreto",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alexânia; Flores De Goiás; Rianápolis; São Luiz Do Norte; Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 41.429 votos, 21º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002549167",
+   "nome_urna": "Cristóvão",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alexânia; Luziânia; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547130",
+   "nome_urna": "Natália Rinco",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540149",
+   "nome_urna": "Fabricio Rosa",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás; Aparecida De Goiânia; Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 81.540 votos, 2º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Eleito vereador de Goiânia em 2024 com 7.216 votos, primeira pessoa LGBTQIA+ a ocupar cadeira no Legislativo da capital, segundo o jornal.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/carol-do-amiltinho-e-fabricio-rosa-sao-os-mais-votados-para-a-alego/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Vereador de Goiânia (PT) eleito deputado estadual. Declaração própria sobre 2º turno não encontrada (busca limitada)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002542624",
+   "nome_urna": "Magda Mofatto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás; Cocalzinho De Goiás; Corumbá De Goiás; Novo Gama; Santo Antônio Do Descoberto; São Domingos; Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 131.983 votos (3,66%), 5º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548664",
+   "nome_urna": "Alessandro Moreira",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás; Flores De Goiás; Guarani De Goiás; São Domingos",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 36.300 votos, 29º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537434",
+   "nome_urna": "Débora Domingues",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás; Flores De Goiás; Monte Alegre De Goiás; Teresina De Goiás; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547139",
+   "nome_urna": "Aava Santiago",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Alto Paraíso De Goiás; Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548066",
+   "nome_urna": "Paulo Sérgio Do Povo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Anicuns",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547090",
+   "nome_urna": "Rubens Marques",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Anicuns; Brazabrantes",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 24.564 votos, 37º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543218",
+   "nome_urna": "Flávia Morais",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Anicuns; Brazabrantes; Buriti De Goiás; Cristianópolis; Flores De Goiás; Guarani De Goiás; Lagoa Santa; Moiporá; Monte Alegre De Goiás; Nova Veneza; Teresina De Goiás; Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 143.497 votos (3,98%), 4º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537441",
+   "nome_urna": "Willian Panda",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 21.724 votos, 40º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537459",
+   "nome_urna": "Vanilson Bueno",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540944",
+   "nome_urna": "Delegado Humberto Teófilo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002539157",
+   "nome_urna": "Delegada Adriana Accorsi",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aparecida De Goiânia; Aragoiânia; Goiânia; Hidrolândia; Senador Canedo; Trindade",
+   "posicao_2t": {
+    "apoio": "Lula",
+    "texto": "Como presidente do PT-GO, convocou partidos de esquerda para mobilização pela reeleição de Lula no 2º turno: \"Quem não vota, entrega a decisão para quem vota\".",
+    "data": "2026-10-06",
+    "urls": [
+     "https://tribunadoplanalto.com.br/aliados-de-lula-se-reunem-em-goiania-para-buscar-votos-entre-quem-nao-foi-as-urnas/",
+     "https://www.jornalopcao.com.br/politica/adriana-accorsi-convoca-partidos-de-esquerda-para-mobilizacao-por-lula-no-segundo-turno-876311/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 177.103 votos (4,91%), 2º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Presidente estadual do PT e da Federação Brasil da Esperança em Goiás, convocou PT, PCdoB, PV, PSOL, Rede, PDT e PSB para reunião em 07/10/2026 em Goiânia para organizar a campanha de Lula no 2º turno, com foco em eleitores que se abstiveram.",
+     "urls": [
+      "https://www.jornalopcao.com.br/politica/adriana-accorsi-convoca-partidos-de-esquerda-para-mobilizacao-por-lula-no-segundo-turno-876311/",
+      "https://tribunadoplanalto.com.br/aliados-de-lula-se-reunem-em-goiania-para-buscar-votos-entre-quem-nao-foi-as-urnas/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Deputada federal (PT-GO), presidente estadual do PT."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540980",
+   "nome_urna": "Danilo Rios",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547010",
+   "nome_urna": "Jamil Calife",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aragoiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 47.993 votos, 15º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547039",
+   "nome_urna": "André Do Premium",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Aragoiânia; Rubiataba; Santo Antônio Do Descoberto",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 49.718 votos, 13º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547018",
+   "nome_urna": "Virmondes Cruvinel",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Brazabrantes; Córrego Do Ouro; Hidrolândia; Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 53.821 votos, 7º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543566",
+   "nome_urna": "Lucas Calil",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Brazabrantes; Guarani De Goiás; Nova Veneza; Teresina De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) federal por Goiás em 04/10/2026 com 109.025 votos (3,02%), 10º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546225",
+   "nome_urna": "Cairo Salim",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Buriti De Goiás; Cristianópolis; Córrego Do Ouro; Moiporá",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 48.192 votos, 14º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002539151",
+   "nome_urna": "Rubens Otoni",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás; Corumbá De Goiás; Luziânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 101.902 votos (2,82%), 13º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Deputado federal do PT; a convocação de Adriana Accorsi para a campanha de Lula citou sua reeleição, mas não foi encontrada declaração própria. Demais buscas não feitas (limite)."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543157",
+   "nome_urna": "Graciele Da Arte Trigo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás; Jesúpolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 37.252 votos, 28º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548064",
+   "nome_urna": "Vivian Naves",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Campo Limpo De Goiás; Mutunópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543182",
+   "nome_urna": "Fabio Correa",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544868",
+   "nome_urna": "Pedro Araújo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543226",
+   "nome_urna": "Célio Silveira",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental; Goianápolis; Luziânia; Rubiataba; Terezópolis De Goiás; Valparaíso De Goiás; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito(a) deputado(a) federal por Goiás em 04/10/2026 com 105.256 votos (2,92%), 11º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547032",
+   "nome_urna": "Wilde Cambão",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental; Luziânia; Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 53.550 votos, 9º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548364",
+   "nome_urna": "Lêda Borges",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cidade Ocidental; Monte Alegre De Goiás; Novo Gama; Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002549161",
+   "nome_urna": "Anderson Teodoro",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 39.424 votos, 26º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544878",
+   "nome_urna": "José Machado",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cocalzinho De Goiás; Lagoa Santa; Nova América; Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 49.950 votos, 12º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Participou em 21/03/2026 do ato de filiação de Professor Alcides ao PSDB. Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543800",
+   "nome_urna": "Amauri Ribeiro",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Cristianópolis; Hidrolândia; Morro Agudo De Goiás; Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 69.556 votos, 5º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543471",
+   "nome_urna": "Dr. Ismael Alexandrino",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Córrego Do Ouro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547104",
+   "nome_urna": "Itamar Leão",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Córrego Do Ouro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002549166",
+   "nome_urna": "Wagner Neto",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Goianápolis; Morro Agudo De Goiás; Nova América; Rubiataba; São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 40.710 votos, 22º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543505",
+   "nome_urna": "Sargento Novandir",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Goianápolis; Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543799",
+   "nome_urna": "Coronel Urzeda",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 40.116 votos, 23º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544858",
+   "nome_urna": "Gcm Romário Policarpo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Goiânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 55.337 votos, 6º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546219",
+   "nome_urna": "Issy Quinan",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Guarani De Goiás; Monte Alegre De Goiás; Morro Agudo De Goiás; Varjão; Água Fria De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 73.433 votos, 3º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540144",
+   "nome_urna": "Cleiton Silva",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Hidrolândia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543474",
+   "nome_urna": "Professora Fátima Gavioli",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Jesúpolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543470",
+   "nome_urna": "Lucas Do Vale",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Lagoa Santa; Nova América; São Luiz Do Norte; Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) federal por Goiás em 04/10/2026 com 126.679 votos (3,51%), 6º mais votado(a) do estado.",
+     "urls": [
+      "https://ohoje.com/2026/10/04/goias-reelege-11-dos-17-deputados-federais-e-renova-seis-vagas-na-camara/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547125",
+   "nome_urna": "Paulo Do Vale",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Lagoa Santa; Varjão",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 72.792 votos, 4º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ex-prefeito de Rio Verde segundo imprensa local. Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540958",
+   "nome_urna": "Waltinho",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Luziânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543572",
+   "nome_urna": "Eliel Junior",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Luziânia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543170",
+   "nome_urna": "Rosangela Rezende",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Moiporá",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002542621",
+   "nome_urna": "Dr. Wagner Miranda Hosp.Cancer",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Morro Agudo De Goiás; São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002547105",
+   "nome_urna": "Glaucia Melo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Mutunópolis",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002549168",
+   "nome_urna": "Coronel Adailton",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Mutunópolis; Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537446",
+   "nome_urna": "Eneas Amaral",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543788",
+   "nome_urna": "Major Araújo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Nova Veneza",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543561",
+   "nome_urna": "Christovam Machado",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Novo Gama",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546223",
+   "nome_urna": "Pabio Mossoró",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Novo Gama; Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543189",
+   "nome_urna": "Joscilene Do Mangão",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Novo Gama; Vila Propício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 39.977 votos, 24º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002549171",
+   "nome_urna": "Julio Pina",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Rianápolis; Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543783",
+   "nome_urna": "Eduardo Prado",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Rubiataba; São Luiz Do Norte",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 39.446 votos, 25º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543220",
+   "nome_urna": "Lucas Vergílio",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Rubiataba; Terezópolis De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540138",
+   "nome_urna": "Mauro Rubem",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Santo Antônio Do Descoberto",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544899",
+   "nome_urna": "Meiranny Reis",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Santo Antônio Do Descoberto",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002540971",
+   "nome_urna": "Misael",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543129",
+   "nome_urna": "Sergio Bravo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543247",
+   "nome_urna": "Salma Da Pestalozzi",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Senador Canedo",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546220",
+   "nome_urna": "Paulo Cezar Martins",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "São Domingos",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 39.275 votos, 27º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543153",
+   "nome_urna": "Fred Vidigal",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544876",
+   "nome_urna": "Gustavo Sebba",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "São Patrício",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 28.231 votos, 35º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Presidente estadual interino do PSDB-GO segundo imprensa; nota de coluna em que vê apoio de Marconi Perillo a Flávio como 'caminho natural' não pôde ser aberta nem datada, por isso não registrada como posição. Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002544113",
+   "nome_urna": "Dr. Antonio",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002546244",
+   "nome_urna": "Dr. George Morais",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito(a) deputado(a) estadual por Goiás em 04/10/2026 com 51.528 votos, 11º(ª) mais votado(a) para a Alego.",
+     "urls": [
+      "https://www.portaltela.com/politica/2026/10/05/veja-a-lista-dos-deputados-estaduais-eleitos-por-goias/",
+      "https://www.brasildefato.com.br/2026/10/05/veja-quem-sao-os-41-deputados-estaduais-eleitos-em-goias/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não pesquisado individualmente: o limite de buscas web da sessão foi atingido antes desta pessoa. Rodar novamente."
+  },
+  {
+   "ano": "2026",
+   "sq": "90002548059",
+   "nome_urna": "Roni Ferreira",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Trindade",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002537448",
+   "nome_urna": "Denis Bento",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543163",
+   "nome_urna": "Dr Kassio Guimaraes",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "90002543475",
+   "nome_urna": "Dra. Zeli",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "GO",
+   "municipios": "Valparaíso De Goiás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "Nenhuma declaração pública sobre o 2º turno presidencial foi encontrada nas buscas.",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": ""
+  }
+ ]
+}

@@ -1,0 +1,94 @@
+<!doctype html>
+<html lang="pt-BR">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Votos em jogo 2026</title>
+<meta name="description" content="Onde o voto ainda pode mudar no 2º turno de 2026, município a município.">
+<link rel="stylesheet" href="style.css">
+
+<header class="top">
+  <h1>Votos em jogo</h1>
+  <p>Onde o voto ainda pode mudar no 2º turno de 25/10/2026, município a município. Dados oficiais do TSE.</p>
+  <label class="busca" for="busca">
+    <span>Escolha um município</span>
+    <input id="busca" type="search" list="lista-municipios" placeholder="Ex.: Herveiras/RS" autocomplete="off">
+  </label>
+  <datalist id="lista-municipios"></datalist>
+  <button id="local" class="local" type="button" hidden>📍 Usar minha localização</button>
+  <p id="local-msg" class="local-msg" hidden></p>
+</header>
+
+<article id="relatorio" class="relatorio" hidden aria-live="polite"></article>
+
+<main>
+  <section id="ficha" class="ficha" aria-live="polite">
+    <p class="vazio">Carregando…</p>
+  </section>
+
+  <section class="perto">
+    <h2 id="perto-titulo">Perto daqui</h2>
+    <p class="sub">Municípios a até 100 km com mais votos em jogo. Toque para abrir.</p>
+    <ol id="perto"></ol>
+  </section>
+
+  <section class="mapa">
+    <div class="linha">
+      <h2>Mapa</h2>
+      <select id="camada" aria-label="O que o mapa mostra">
+        <optgroup label="Quantidade de votos (círculos)">
+          <option value="q_jogo" selected>Votos em jogo</option>
+          <option value="q_volL">Queda estimada da parcela de Lula</option>
+          <option value="q_ter">Votos em terceiros</option>
+          <option value="q_bn">Brancos e nulos</option>
+          <option value="q_abs">Ausentes extras</option>
+          <option value="q_saldo">Saldo potencial (Lula × Flávio)</option>
+        </optgroup>
+        <optgroup label="Percentual (cores)">
+          <option value="pct">Votos em jogo (% dos eleitores)</option>
+          <option value="saldo">Saldo potencial (% dos eleitores)</option>
+          <option value="sw">Mudança 2022 → 2026</option>
+          <option value="a26">Abstenção 2026</option>
+        </optgroup>
+      </select>
+    </div>
+    <svg id="mapa" role="img" aria-label="Mapa dos municípios do Brasil"></svg>
+    <div id="legenda" class="legenda"></div>
+  </section>
+
+  <section class="ranking">
+    <div class="linha">
+      <h2>Onde há mais votos em jogo</h2>
+    </div>
+    <div class="chips" id="portes" role="group" aria-label="Tamanho do município">
+      <button data-p="0,10000" aria-pressed="true">até 10 mil</button>
+      <button data-p="10000,50000">10–50 mil</button>
+      <button data-p="50000,200000">50–200 mil</button>
+      <button data-p="200000,1e9">200 mil+</button>
+    </div>
+    <ol id="ranking"></ol>
+    <button id="mais" class="mais">Mostrar mais</button>
+  </section>
+
+  <section class="brasil">
+    <h2>Brasil</h2>
+    <div id="brasil"></div>
+  </section>
+
+  <section class="metodo">
+    <h2>Como contamos</h2>
+    <p><b>Votos em jogo</b> é a soma, em cada município, de:</p>
+    <ul>
+      <li>queda da parcela bipartidária de Lula desde o 2º turno de 2022, convertida em votos atuais (e o inverso para o PL);</li>
+      <li>votos em terceiros (Renan, Caiado, Cury, Zema), divididos pela pesquisa Quaest de 02–03/10/2026;</li>
+      <li>brancos e nulos do 1º turno;</li>
+      <li>ausentes acima da menor abstenção já registrada no município desde 2018.</li>
+    </ul>
+    <p><b>Saldo potencial</b> é um cenário: terceiros divididos pela pesquisa, ausentes extras votando como o município e a recuperação da parcela de voto de 2022. Não é previsão.</p>
+    <p>A localização só é usada se você tocar no botão e permitir. Ela fica no seu navegador, serve apenas para achar o município mais próximo e não é enviada nem guardada. A página não guarda nada sobre quem a usa.</p>
+    <p>Cada município e estado tem um relatório com link próprio (botão "Relatório completo"), com os <b>pontos cegos</b>: o que os dados não mostram ali.</p>
+    <p>Os números descrevem lugares, não pessoas. Fontes: TSE (votação 2018, 2022 e 2026, perfil do eleitorado, candidatos 2024), malha IBGE, Quaest.</p>
+  </section>
+</main>
+
+<script src="app.js" charset="utf-8"></script>
+<script src="relatorio.js" charset="utf-8"></script>

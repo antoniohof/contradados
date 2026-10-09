@@ -1,0 +1,1776 @@
+{
+ "lote": "04_BA_PB_PI",
+ "gerado_em": "2026-10-09",
+ "pessoas": [
+  {
+   "ano": "2026",
+   "sq": "50002536314",
+   "nome_urna": "Jerônimo Rodrigues",
+   "papel": "governador(a) 2026",
+   "uf": "BA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Lula",
+    "texto": "Disse que 'a vitória é nossa', defendeu buscar os votos de quem se absteve no 1º turno e afirmou que uma vitória de Flávio Bolsonaro prejudicaria o país; viajou a Brasília com Rui Costa e Jaques Wagner para alinhar a estratégia de Lula no 2º turno.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://atarde.com.br/eleicoes/jeronimo-mira-votos-para-lula-no-2-turno-a-vitoria-e-nossa-1404771",
+     "https://muitainformacao.com.br/eleicoes/jeronimo-viaja-a-brasilia-com-rui-e-wagner-para-definir-estrategia-de-lula-no-segundo-turno/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito governador no 1º turno em 04/10/2026 com 55,29% dos votos válidos, contra 44,22% de ACM Neto (União), segundo o Congresso em Foco.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122697/bahia-reelege-jeronimo-rodrigues-governador"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025-03",
+     "texto": "Em 24/03/2025 trocou os comandos da PM, Polícia Civil, Corpo de Bombeiros e Departamento de Polícia Técnica, em contexto de 678 homicídios registrados nos primeiros meses de 2025 no estado. Justificou as mudanças como forma de 'oxigenar o trabalho'.",
+     "urls": [
+      "https://jornalgrandebahia.com.br/2025/03/quem-sao-os-novos-lideres-das-forcas-de-seguranca-publica-nomeados-pelo-governador-jeronimo-rodrigues-e-qual-cenario-levou-a-demissao-dos-ex-gestores/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Percentual de votos varia levemente entre veículos (55,29% a 55,41%) conforme o momento da apuração."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002536317",
+   "nome_urna": "Jaques Wagner",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "BA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Lula",
+    "texto": "Viajou a Brasília com Jerônimo Rodrigues e Rui Costa para se reunir com Lula e definir a estratégia do 2º turno; o grupo se dispôs a mobilizar apoio a Lula até 25/10.",
+    "data": "2026-10-05",
+    "urls": [
+     "https://muitainformacao.com.br/eleicoes/jeronimo-viaja-a-brasilia-com-rui-e-wagner-para-definir-estrategia-de-lula-no-segundo-turno/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito senador pela Bahia em 04/10/2026 com 27,53% dos votos válidos, para mandato 2027-2035.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122846/bahia-elege-rui-costa-e-jaques-wagner-para-o-senado"
+     ]
+    },
+    {
+     "tipo": "processo",
+     "data": "2026-06",
+     "texto": "É investigado em inquérito da PF (Operação Compliance Zero), sob relatoria do ministro André Mendonça no STF, por suspeita de usar a atuação parlamentar para favorecer o Banco Master em troca de vantagens; não há condenação nem denúncia publicada. Wagner nega irregularidades, diz que não responde por conversas de terceiros e que vai provar sua inocência.",
+     "urls": [
+      "https://www.gazetadopovo.com.br/republica/quem-assume-a-lideranca-do-governo-apos-a-saida-de-jaques-wagner/",
+      "https://revistaoeste.com/politica/jaques-wagner-diz-que-vai-provar-inocencia-no-caso-master/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-06",
+     "texto": "Em 18/06/2026 manteve a candidatura ao Senado e disse que seguiria na liderança do governo no Senado 'até que o presidente Lula peça'; em 29/06/2026 a Gazeta do Povo noticiou sua saída da liderança.",
+     "urls": [
+      "https://www.dgabc.com.br/Noticia/4329955/wagner-diz-que-candidatura-ao-senado-esta-mantida-e-minimiza-possibilidade-de-deixar-lideranca",
+      "https://www.gazetadopovo.com.br/republica/quem-assume-a-lideranca-do-governo-apos-a-saida-de-jaques-wagner/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Fontes divergem sobre a permanência na liderança do governo (Revista Oeste, 31/07/2026, ainda o descreve como líder)."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002536321",
+   "nome_urna": "Rui Costa",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "BA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Lula",
+    "texto": "Viajou a Brasília com Jerônimo Rodrigues e Jaques Wagner para se reunir com Lula e definir a estratégia do 2º turno; o grupo se dispôs a mobilizar apoio a Lula até 25/10.",
+    "data": "2026-10-05",
+    "urls": [
+     "https://muitainformacao.com.br/eleicoes/jeronimo-viaja-a-brasilia-com-rui-e-wagner-para-definir-estrategia-de-lula-no-segundo-turno/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleito senador pela Bahia em 04/10/2026 com 29,06% dos votos válidos, o mais votado, para mandato 2027-2035.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122846/bahia-elege-rui-costa-e-jaques-wagner-para-o-senado"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-04",
+     "texto": "Deixou a chefia da Casa Civil do governo Lula após 39 meses para disputar o Senado na chapa de Jerônimo Rodrigues.",
+     "urls": [
+      "https://atarde.com.br/politica/rui-costa-deixa-ministerio-como-homem-de-confianca-de-lula-1385061"
+     ]
+    },
+    {
+     "tipo": "processo",
+     "data": "2025-08",
+     "texto": "Inquérito sobre a compra de 300 respiradores não entregues (R$ 48 milhões pagos antecipadamente) pelo Consórcio Nordeste em 2020, quando presidia o consórcio, foi enviado pelo ministro Flávio Dino do STF ao STJ; a PGR apontou indícios de envolvimento e o TCU arquivou o caso em abril de 2025. Não há condenação; a defesa afirma que a manifestação da PGR não acrescenta elemento acusatório.",
+     "urls": [
+      "https://www.gazetadopovo.com.br/republica/stf-inquerito-rui-costa-respiradores-bahia-stj/",
+      "https://www.bahianoticias.com.br/noticia/305189-inquerito-que-investiga-consorcio-nordeste-por-compra-de-respiradores-retorna-ao-stf-sob-relatoria-de-flavio-dino"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Situação mais recente do inquérito dos respiradores após ago/2025 não verificada."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001922721",
+   "nome_urna": "Agamenon Coelho",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "posição",
+     "data": "2025-11",
+     "texto": "Mesmo filiado ao União Brasil, declarou apoio à reeleição do governador Jerônimo Rodrigues (PT), citando obras do governo estadual em Araçás.",
+     "urls": [
+      "https://atarde.com.br/politica/prefeito-do-uniao-brasil-declara-apoio-a-reeleicao-de-jeronimo-rodrigues-1366806"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-07",
+     "texto": "Reiterou em 2026 o apoio a Jerônimo, afirmando que o governador 'vem trabalhando muito pela Bahia, principalmente na educação, na saúde, na segurança pública'.",
+     "urls": [
+      "https://atarde.com.br/eleicoes/prefeito-do-uniao-brasil-deixa-oposicao-e-declara-apoio-a-jeronimo-1396345",
+      "https://atarde.com.br/eleicoes/prefeitos-deixam-oposicao-e-declaram-apoio-a-jeronimo-1392025"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Apoio declarado é na disputa estadual; não foi encontrada declaração sobre o 2º turno presidencial."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001910186",
+   "nome_urna": "Gel Da Farmácia",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Buerarema",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "gestão",
+     "data": "2025-03",
+     "texto": "Recebeu do governador Jerônimo Rodrigues ambulância, van para tratamento fora do domicílio, veículo de saúde e equipamentos para a UPA, e discutiu investimentos em água, saúde, saneamento e infraestrutura.",
+     "urls": [
+      "https://www.bahianoticias.com.br/municipios/noticia/44187-governador-jeronimo-rodrigues-entrega-equipamentos-e-discute-investimentos-com-prefeito-de-buerarema"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2025-05",
+     "texto": "Anunciou intenção de romper com ACM Neto (União Brasil), dizendo nunca ter sido procurado por ele desde a eleição, e sinalizou aproximação com o governador Jerônimo Rodrigues (PT).",
+     "urls": [
+      "https://atarde.com.br/politica/prefeito-do-uniao-brasil-abandona-acm-neto-e-acena-para-jeronimo-1317531"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Homônimo conferido: 'Gel da Farmácia' = Gerivaldo Souza Freitas, prefeito de Buerarema (União)."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002067070",
+   "nome_urna": "Adãozinho",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Duas buscas sem notícias relevantes além de cadastros (IBGE)."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002000594",
+   "nome_urna": "Elder Fontes",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2025-02",
+     "texto": "Eleito por aclamação presidente da Associação dos Municípios da Região Cacaueira da Bahia (AMURC) para o biênio 2025-2026.",
+     "urls": [
+      "https://atarde.com.br/municipios/elder-fontes-e-eleito-presidente-da-amurc-1306232"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Uma busca."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002124778",
+   "nome_urna": "Eduardo Hagge",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "decisão",
+     "data": "2025-09",
+     "texto": "A Justiça determinou que a Câmara de Itapetinga instalasse em 10 dias uma CPI para apurar ofício não assinado entregue ao governador pedindo intervenção junto ao TSE em favor de um suplente de vereador. Não há condenação; a defesa do prefeito não foi publicada na fonte consultada.",
+     "urls": [
+      "https://atarde.com.br/municipios/prefeito-de-cidade-baiana-e-alvo-de-cpi-apos-determinacao-da-justica-1349959"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2025-12",
+     "texto": "Promoveu exonerações em massa de cargos comissionados que atingiram aliados de vereadores da base; questionado, disse que não iria 'se ater a coisas pequenas'.",
+     "urls": [
+      "https://atarde.com.br/municipios/prefeito-diz-que-demissoes-em-massa-foram-coisas-pequenas-1373762"
+     ]
+    },
+    {
+     "tipo": "gestão",
+     "data": "2026-02",
+     "texto": "A prefeitura firmou dois contratos de terceirização de mão de obra que somam R$ 38,7 milhões com a RG Soluções Ltda, valor próximo à receita própria anual estimada do município. O prefeito afirmou que são valores estimados e que só será gasto o necessário.",
+     "urls": [
+      "https://atarde.com.br/bahia/prefeitura-baiana-pode-comprometer-r-38-milhoes-com-terceirizados-1379401"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-09",
+     "texto": "Em comício da chapa do PT em Itapetinga em 04/09/2026, ao lado de Jerônimo Rodrigues, criticou o candidato ACM Neto, dizendo que ele 'não tem nada a oferecer' à região.",
+     "urls": [
+      "https://www.bnews.com.br/noticias/politica/ao-lado-de-jeronimo-ex-aliado-de-acm-neto-detona-o-candidato-do-uniao-brasil-nao-tem-nada-a-oferecer.html"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Ponto de 2026-09 baseado no conteúdo exibido na página de resultado da busca (o site retornou 403 ao abrir). Imprensa registra aproximação com o deputado Rosemberg Pinto (PT) e ruptura com o sobrinho, ex-prefeito Rodrigo Hagge. Não foi encontrada declaração sobre o 2º turno presidencial."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002059841",
+   "nome_urna": "Orleans",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Jussari",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-01",
+     "texto": "O vice-prefeito Jessé Bispo (PSD) criticou publicamente a gestão de Orleans Mascarenhas na tribuna da Câmara, dizendo que seu papel era 'meramente figurativo'. A resposta do prefeito não foi publicada na fonte consultada.",
+     "urls": [
+      "https://atarde.com.br/politica/vice-prefeito-de-jussari-usa-tribuna-para-expor-crise-com-gestor-atual-1374815"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Vice citado pela imprensa em 2026 é Jessé Bispo (PSD), não o vice da entrada (Ricardo Paraguai, PT, situação #NULO)."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002048516",
+   "nome_urna": "Robson Venâncio",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Duas buscas sem notícias relevantes além de cadastro (IBGE)."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001948544",
+   "nome_urna": "Professor Rodson",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002221042",
+   "nome_urna": "Magnolia Barreto",
+   "papel": "prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002544905",
+   "nome_urna": "Veneziano",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PB",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002549793",
+   "nome_urna": "Joao Azevêdo",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PB",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002551789",
+   "nome_urna": "Lucas Ribeiro",
+   "papel": "governador(a) 2026",
+   "uf": "PB",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "150001908571",
+   "nome_urna": "Emmanuel De Querubina",
+   "papel": "prefeito(a) 2024",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002532987",
+   "nome_urna": "Rafael Fonteles",
+   "papel": "governador(a) 2026",
+   "uf": "PI",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533964",
+   "nome_urna": "Júlio César O Julim Do Lula",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PI",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533967",
+   "nome_urna": "Marcelo Castro",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PI",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001985778",
+   "nome_urna": "Carlinhos Reis",
+   "papel": "prefeito(a) 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180002104236",
+   "nome_urna": "Renaldinho",
+   "papel": "prefeito(a) 2024",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532643",
+   "nome_urna": "Adolfo Viana",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532689",
+   "nome_urna": "Ludmilla Fiscina",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532691",
+   "nome_urna": "Alex Da Piatã",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002537872",
+   "nome_urna": "Fátima Nunes",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538760",
+   "nome_urna": "Joseildo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás; Jussari",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002535000",
+   "nome_urna": "Paulo Azi",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Araçás; São José Da Vitória; Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002534993",
+   "nome_urna": "Vinícius Ibrann",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002535029",
+   "nome_urna": "Junior Nascimento",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002537866",
+   "nome_urna": "Rosemberg",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema; Itaju Do Colônia; Itapetinga; Jussari; Pau Brasil; São José Da Vitória; Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532621",
+   "nome_urna": "Paulo Magalhães",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema; Itaju Do Colônia; Jussari; São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532626",
+   "nome_urna": "Antonio Brito",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema; Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538682",
+   "nome_urna": "Eduardo Salles",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Buerarema; Jussari; São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002534762",
+   "nome_urna": "Elmo Vaz",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002537846",
+   "nome_urna": "Osni",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002537858",
+   "nome_urna": "Jacó",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538733",
+   "nome_urna": "Matheus De Geraldinho",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538780",
+   "nome_urna": "Lucas Reis",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002536638",
+   "nome_urna": "Jayminho Vieira Lima",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia; Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002534999",
+   "nome_urna": "Manuel Rocha",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002537849",
+   "nome_urna": "Rowenna",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532683",
+   "nome_urna": "Andrea Castro",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia; Jussari; Pau Brasil; São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538765",
+   "nome_urna": "Valmir Assunção",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia; Jussari; Pau Brasil; Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532910",
+   "nome_urna": "Roberta Roma",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002535021",
+   "nome_urna": "Wagner Alves",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538724",
+   "nome_urna": "Carlinhos Sobral",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002535120",
+   "nome_urna": "Jânio Natal Júnior",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002538770",
+   "nome_urna": "Afonso Florence",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002534738",
+   "nome_urna": "Neto Carletto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Pau Brasil; São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002531377",
+   "nome_urna": "Gazo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002532623",
+   "nome_urna": "Bebeto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "50002535069",
+   "nome_urna": "Kátia Oliveira",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "BA",
+   "municipios": "Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002544178",
+   "nome_urna": "Gervásio Maia",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002544185",
+   "nome_urna": "Dr. Jarques",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002544186",
+   "nome_urna": "Olívia Motta",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002544205",
+   "nome_urna": "Hugo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002548943",
+   "nome_urna": "Diego Tavares",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "150002549646",
+   "nome_urna": "Pollyanna",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533555",
+   "nome_urna": "Dr. Gil Carlos",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533565",
+   "nome_urna": "Firmino Paulo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002534825",
+   "nome_urna": "Júlio Cesar Filho",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002536461",
+   "nome_urna": "Castro Neto",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002539127",
+   "nome_urna": "Julio Arcoverde",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002544106",
+   "nome_urna": "Jadyel",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino; São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002532473",
+   "nome_urna": "Zé Santana",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002532479",
+   "nome_urna": "Dr. Francisco",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533547",
+   "nome_urna": "Limma",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002533553",
+   "nome_urna": "Nerinho",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2026",
+   "sq": "180002536231",
+   "nome_urna": "Anyara Santos",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001922720",
+   "nome_urna": "Gelzo",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Araçás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001910187",
+   "nome_urna": "Thaiane",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Buerarema",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002067071",
+   "nome_urna": "Ivan",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itaguaçu Da Bahia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002000595",
+   "nome_urna": "Juscelino",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002007181",
+   "nome_urna": "Jota",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002007189",
+   "nome_urna": "Rualei",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Itaju Do Colônia",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002064358",
+   "nome_urna": "Pastor Jean Doriel",
+   "papel": "vereador(a) PL 2024",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002078252",
+   "nome_urna": "Sibele",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002365577",
+   "nome_urna": "Alecio Chaves",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Itapetinga",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "gestão",
+     "data": "2026-02",
+     "texto": "Como vice-prefeito e responsável pela Secretaria de Educação de Itapetinga, sua pasta concentra R$ 29,9 milhões dos R$ 38,7 milhões em contratos de terceirização firmados pela prefeitura.",
+     "urls": [
+      "https://atarde.com.br/bahia/prefeitura-baiana-pode-comprometer-r-38-milhoes-com-terceirizados-1379401"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Encontrado de forma incidental (sem busca dedicada)."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002059840",
+   "nome_urna": "Ricardo Paraguai",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Jussari",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO (limite de buscas esgotado). Imprensa de jan/2026 cita Jessé Bispo (PSD) como vice-prefeito de Jussari; situação #NULO na entrada."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002349566",
+   "nome_urna": "Vinicius Monteiro",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Jussari",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002048517",
+   "nome_urna": "Man De Milton Da Manteiga",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002048519",
+   "nome_urna": "Acacio",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002048520",
+   "nome_urna": "Beto Moto Taxi",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002048523",
+   "nome_urna": "Fábio Titiah",
+   "papel": "vereador(a) PT 2024",
+   "uf": "BA",
+   "municipios": "Pau Brasil",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50001948543",
+   "nome_urna": "Fernandinho",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "São José Da Vitória",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "50002221043",
+   "nome_urna": "Lebrão",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "BA",
+   "municipios": "Uruçuca",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "150001908572",
+   "nome_urna": "Washington De Tita",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PB",
+   "municipios": "Vista Serrana",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001959125",
+   "nome_urna": "Balinha",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001959126",
+   "nome_urna": "Wilson Barbosa",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001959128",
+   "nome_urna": "Josimar Dias",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001959131",
+   "nome_urna": "Edimar Barbosa",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180001985777",
+   "nome_urna": "Nilmar Barbosa",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PI",
+   "municipios": "Pedro Laurentino",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180002036685",
+   "nome_urna": "Viviany Lima",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  },
+  {
+   "ano": "2024",
+   "sq": "180002104235",
+   "nome_urna": "José Neci",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PI",
+   "municipios": "São Julião",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "NÃO PESQUISADO: limite global de buscas web esgotado antes de chegar a esta pessoa."
+  }
+ ]
+}

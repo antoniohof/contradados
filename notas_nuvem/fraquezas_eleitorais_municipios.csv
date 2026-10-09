@@ -1,0 +1,395 @@
+uf,ibge,municipio,aptos,ausentes,candidato,adversario,cand_pct,adv_pct,outros_gov_pct,flavio_pct,lula_pct,deficit_vs_flavio,votos_cand,votos_adv,votos_outros_gov,brancos_nulos_gov,lider
+AC,1200401,Rio Branco,269772,54208,Mailza Assis (PP),Alan Rick (REPUBLICANOS),45.8,27.2,26.9,63.8,27.3,17.9,89510,53221,52601,19891,candidato PL
+AC,1200203,Cruzeiro Do Sul,63849,12367,Mailza Assis (PP),Alan Rick (REPUBLICANOS),54.5,36.5,9.0,68.9,24.9,14.4,25710,17200,4222,4349,candidato PL
+AC,1200500,Sena Madureira,30862,6201,Mailza Assis (PP),Alan Rick (REPUBLICANOS),43.1,52.6,4.3,70.4,24.5,27.3,9383,11470,939,2867,adversário
+AC,1200609,Tarauacá,29966,7363,Mailza Assis (PP),Alan Rick (REPUBLICANOS),60.5,31.7,7.7,57.8,37.7,-2.7,11938,6257,1525,2880,candidato PL
+AC,1200302,Feijó,24197,6041,Mailza Assis (PP),Alan Rick (REPUBLICANOS),36.3,57.5,6.2,52.4,43.0,16.1,5824,9216,999,2117,adversário
+AC,1200104,Brasiléia,19975,4068,Mailza Assis (PP),Alan Rick (REPUBLICANOS),55.5,31.4,13.1,69.6,25.8,14.1,7875,4450,1864,1715,candidato PL
+AC,1200450,Senador Guiomard,18636,3470,Mailza Assis (PP),Alan Rick (REPUBLICANOS),64.4,21.7,13.9,69.5,24.3,5.1,8830,2983,1906,1446,candidato PL
+AC,1200336,Mâncio Lima,14657,2568,Mailza Assis (PP),Alan Rick (REPUBLICANOS),62.9,34.1,3.0,66.3,29.8,3.4,6987,3785,334,983,candidato PL
+AC,1200252,Epitaciolândia,14596,2894,Mailza Assis (PP),Alan Rick (REPUBLICANOS),48.7,39.8,11.5,72.1,23.5,23.3,5025,4105,1187,1382,candidato PL
+AC,1200807,Porto Acre,14284,2675,Mailza Assis (PP),Alan Rick (REPUBLICANOS),47.8,34.9,17.3,71.2,23.9,23.4,4870,3551,1760,1428,candidato PL
+AC,1200708,Xapuri,12774,2489,Mailza Assis (PP),Alan Rick (REPUBLICANOS),55.1,29.3,15.6,61.8,34.3,6.6,4938,2621,1395,1331,candidato PL
+AC,1200385,Plácido De Castro,12291,2360,Mailza Assis (PP),Alan Rick (REPUBLICANOS),58.5,22.7,18.8,68.8,25.8,10.3,5192,2015,1668,1056,candidato PL
+AC,1200427,Rodrigues Alves,12183,1965,Mailza Assis (PP),Alan Rick (REPUBLICANOS),47.0,46.0,7.0,72.0,23.7,25.0,4431,4333,658,796,candidato PL
+AC,1200351,Marechal Thaumaturgo,11896,2544,Mailza Assis (PP),Alan Rick (REPUBLICANOS),71.2,20.3,8.5,59.1,37.1,-12.1,6098,1737,726,790,candidato PL
+AC,1200138,Bujari,11152,2495,Mailza Assis (PP),Alan Rick (REPUBLICANOS),55.9,26.3,17.8,66.6,28.8,10.7,4292,2019,1364,982,candidato PL
+AC,1200013,Acrelândia,10206,2151,Mailza Assis (PP),Alan Rick (REPUBLICANOS),31.9,33.8,34.3,76.2,19.4,44.4,2348,2495,2529,682,adversário
+AC,1200344,Manoel Urbano,8602,1885,Mailza Assis (PP),Alan Rick (REPUBLICANOS),62.2,32.0,5.8,59.4,37.5,-2.7,3659,1885,343,830,candidato PL
+AC,1200179,Capixaba,8168,1655,Mailza Assis (PP),Alan Rick (REPUBLICANOS),46.5,38.5,15.1,67.1,27.5,20.6,2732,2261,886,632,candidato PL
+AC,1200393,Porto Walter,8031,1511,Mailza Assis (PP),Alan Rick (REPUBLICANOS),47.3,40.3,12.5,44.2,51.0,-3.1,2790,2378,735,617,candidato PL
+AC,1200054,Assis Brasil,7294,1549,Mailza Assis (PP),Alan Rick (REPUBLICANOS),55.9,27.3,16.8,59.3,36.5,3.4,2826,1377,849,693,candidato PL
+AC,1200328,Jordão,5998,1484,Mailza Assis (PP),Alan Rick (REPUBLICANOS),54.3,37.6,8.1,45.0,49.9,-9.3,2166,1499,324,524,candidato PL
+AC,1200435,Santa Rosa Do Purus,3927,1043,Mailza Assis (PP),Alan Rick (REPUBLICANOS),52.4,39.2,8.4,45.9,50.5,-6.5,1336,1001,214,333,candidato PL
+AM,1302603,Manaus,1474745,251516,Professora Maria Do Carmo (PL),Omar Aziz (PSD),32.9,31.4,35.7,54.3,37.1,21.4,371008,354664,402293,93015,candidato PL
+AM,1302504,Manacapuru,81115,17036,Professora Maria Do Carmo (PL),Omar Aziz (PSD),18.6,47.7,33.8,43.6,51.4,25.0,11102,28474,20172,4331,adversário
+AM,1301902,Itacoatiara,76067,17682,Professora Maria Do Carmo (PL),Omar Aziz (PSD),16.3,51.3,32.5,35.3,59.0,19.0,8876,27985,17711,3813,adversário
+AM,1303403,Parintins,73019,16328,Professora Maria Do Carmo (PL),Omar Aziz (PSD),7.6,60.4,32.0,17.0,78.7,9.5,3986,31832,16845,4027,adversário
+AM,1301209,Coari,51475,13334,Professora Maria Do Carmo (PL),Omar Aziz (PSD),18.0,44.7,37.3,37.5,58.5,19.5,6436,15931,13292,2478,adversário
+AM,1304203,Tefé,49826,10340,Professora Maria Do Carmo (PL),Omar Aziz (PSD),13.5,65.2,21.3,37.0,58.8,23.5,5000,24175,7876,2434,adversário
+AM,1301852,Iranduba,45948,8198,Professora Maria Do Carmo (PL),Omar Aziz (PSD),24.4,36.7,38.9,43.2,50.8,18.8,8544,12837,13605,2764,adversário
+AM,1304062,Tabatinga,40225,8545,Professora Maria Do Carmo (PL),Omar Aziz (PSD),17.2,61.2,21.5,32.7,63.2,15.4,5026,17863,6280,2506,adversário
+AM,1302900,Maués,38063,9297,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.3,40.4,51.4,16.5,80.1,8.2,2215,10794,13732,2025,adversário
+AM,1301704,Humaitá,34906,7447,Professora Maria Do Carmo (PL),Omar Aziz (PSD),34.9,32.0,33.1,54.9,39.5,20.0,8974,8212,8509,1764,candidato PL
+AM,1302702,Manicoré,33788,6949,Professora Maria Do Carmo (PL),Omar Aziz (PSD),17.8,26.8,55.3,38.1,57.8,20.3,4535,6827,14082,1394,adversário
+AM,1303809,São Gabriel Da Cachoeira,32417,8325,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.0,65.3,22.7,19.5,77.6,7.5,2732,14865,5171,1322,adversário
+AM,1300300,Autazes,32340,8273,Professora Maria Do Carmo (PL),Omar Aziz (PSD),10.7,22.6,66.7,38.5,56.7,27.8,2402,5082,14986,1597,adversário
+AM,1302405,Lábrea,29346,6883,Professora Maria Do Carmo (PL),Omar Aziz (PSD),17.3,64.1,18.6,38.6,56.6,21.3,3649,13531,3924,1356,adversário
+AM,1303536,Presidente Figueiredo,28339,7976,Professora Maria Do Carmo (PL),Omar Aziz (PSD),25.4,39.9,34.7,46.4,46.7,21.0,4815,7582,6589,1374,adversário
+AM,1301100,Careiro,27451,7235,Professora Maria Do Carmo (PL),Omar Aziz (PSD),16.0,44.1,39.9,36.2,57.7,20.2,2963,8171,7392,1690,adversário
+AM,1300805,Borba,24461,5453,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.0,37.0,52.1,24.5,71.6,13.6,1958,6596,9292,1161,adversário
+AM,1300607,Benjamin Constant,24218,4131,Professora Maria Do Carmo (PL),Omar Aziz (PSD),10.2,56.2,33.6,18.9,77.7,8.7,1898,10512,6283,1394,adversário
+AM,1303569,Rio Preto Da Eva,23243,5775,Professora Maria Do Carmo (PL),Omar Aziz (PSD),21.6,49.6,28.8,45.5,48.7,23.9,3513,8057,4683,1215,adversário
+AM,1300706,Boca Do Acre,23223,5629,Professora Maria Do Carmo (PL),Omar Aziz (PSD),16.1,49.7,34.3,57.5,38.3,41.4,2638,8153,5626,1177,adversário
+AM,1301407,Eirunepé,22838,7244,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.7,55.9,31.4,35.7,58.0,23.0,1808,7955,4479,1352,adversário
+AM,1300508,Barreirinha,22727,4294,Professora Maria Do Carmo (PL),Omar Aziz (PSD),4.5,59.8,35.7,8.9,87.7,4.4,766,10123,6034,1510,adversário
+AM,1303908,São Paulo De Olivença,21421,3503,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.6,73.1,18.3,17.4,79.0,8.8,1456,12329,3083,1050,adversário
+AM,1301001,Carauari,20927,6009,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.2,62.4,29.4,27.2,67.0,19.0,1142,8674,4085,1017,adversário
+AM,1303106,Nova Olinda Do Norte,19945,4237,Professora Maria Do Carmo (PL),Omar Aziz (PSD),9.4,32.3,58.3,25.5,67.3,16.1,1384,4753,8567,1004,adversário
+AM,1303700,Santo Antônio Do Içá,18469,3488,Professora Maria Do Carmo (PL),Omar Aziz (PSD),9.5,67.9,22.5,27.1,69.3,17.6,1341,9545,3167,928,adversário
+AM,1301159,Careiro Da Várzea,18436,4387,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.3,46.5,42.2,37.1,58.1,25.8,1498,6163,5593,795,adversário
+AM,1301605,Fonte Boa,17120,4057,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.2,60.2,27.6,23.9,72.7,11.8,1485,7343,3364,871,adversário
+AM,1301308,Codajás,17092,3930,Professora Maria Do Carmo (PL),Omar Aziz (PSD),20.3,45.7,34.0,38.7,57.1,18.4,2519,5677,4224,742,adversário
+AM,1302306,Jutaí,15903,4919,Professora Maria Do Carmo (PL),Omar Aziz (PSD),14.3,56.5,29.2,39.2,57.2,24.9,1442,5704,2941,897,adversário
+AM,1303007,Nhamundá,15833,3558,Professora Maria Do Carmo (PL),Omar Aziz (PSD),4.3,69.3,26.4,16.2,80.9,11.9,496,7958,3036,785,adversário
+AM,1302553,Manaquiri,15303,3570,Professora Maria Do Carmo (PL),Omar Aziz (PSD),14.6,45.3,40.0,31.3,64.1,16.7,1580,4903,4329,921,adversário
+AM,1300631,Beruri,15139,3591,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.8,67.4,23.8,35.9,60.6,27.1,953,7334,2592,669,adversário
+AM,1304104,Tapauá,14621,3867,Professora Maria Do Carmo (PL),Omar Aziz (PSD),14.7,68.0,17.3,49.8,45.8,35.2,1478,6859,1748,669,adversário
+AM,1304401,Urucurituba,14200,3418,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.7,62.7,28.5,23.5,73.2,14.8,880,6315,2873,714,adversário
+AM,1300680,Boa Vista Do Ramos,13666,3040,Professora Maria Do Carmo (PL),Omar Aziz (PSD),6.1,58.5,35.4,12.8,83.8,6.7,603,5826,3524,673,adversário
+AM,1303205,Novo Airão,13332,3574,Professora Maria Do Carmo (PL),Omar Aziz (PSD),18.5,49.2,32.3,46.1,47.5,27.6,1687,4483,2950,638,adversário
+AM,1303304,Novo Aripuanã,13280,3357,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.6,50.0,38.4,30.3,66.0,18.7,1071,4632,3558,660,adversário
+AM,1300409,Barcelos,12648,4642,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.5,35.3,53.2,40.7,53.9,29.1,859,2623,3956,568,adversário
+AM,1304302,Urucará,12646,3239,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.9,54.7,32.3,25.2,71.7,12.2,1136,4802,2837,631,adversário
+AM,1300029,Alvarães,12444,2605,Professora Maria Do Carmo (PL),Omar Aziz (PSD),7.9,72.8,19.3,27.7,67.4,19.9,728,6735,1787,589,adversário
+AM,1301654,Guajará,12171,2969,Professora Maria Do Carmo (PL),Omar Aziz (PSD),9.4,47.4,43.3,61.7,34.3,52.4,810,4100,3747,545,adversário
+AM,1304237,Tonantins,11653,2227,Professora Maria Do Carmo (PL),Omar Aziz (PSD),8.8,61.7,29.5,20.0,77.3,11.2,777,5435,2600,614,adversário
+AM,1301803,Ipixuna,11575,3120,Professora Maria Do Carmo (PL),Omar Aziz (PSD),10.3,78.5,11.2,40.6,55.1,30.3,805,6140,880,630,adversário
+AM,1303502,Pauini,11565,3000,Professora Maria Do Carmo (PL),Omar Aziz (PSD),9.2,48.5,42.3,39.9,56.2,30.7,746,3939,3435,445,adversário
+AM,1300144,Apuí,11539,3089,Professora Maria Do Carmo (PL),Omar Aziz (PSD),43.1,26.3,30.5,71.0,24.6,27.8,3457,2109,2446,437,candidato PL
+AM,1300102,Anori,11109,2374,Professora Maria Do Carmo (PL),Omar Aziz (PSD),15.0,56.1,28.9,40.8,54.0,25.8,1235,4625,2384,491,adversário
+AM,1301506,Envira,10870,3030,Professora Maria Do Carmo (PL),Omar Aziz (PSD),10.1,50.4,39.4,32.8,58.0,22.7,732,3644,2850,614,adversário
+AM,1300904,Canutama,10740,2808,Professora Maria Do Carmo (PL),Omar Aziz (PSD),17.4,57.7,24.9,47.3,47.3,29.9,1292,4290,1851,499,adversário
+AM,1302801,Maraã,9995,2967,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.7,53.8,33.5,33.2,63.6,20.5,837,3553,2212,426,adversário
+AM,1304260,Uarini,9798,2016,Professora Maria Do Carmo (PL),Omar Aziz (PSD),9.2,61.6,29.3,33.8,62.5,24.7,669,4497,2137,479,adversário
+AM,1302009,Itapiranga,9689,2221,Professora Maria Do Carmo (PL),Omar Aziz (PSD),19.0,40.2,40.8,42.2,53.1,23.2,1337,2831,2868,432,adversário
+AM,1304005,Silves,9656,2115,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.2,61.3,27.5,20.0,75.7,8.8,776,4264,1912,589,adversário
+AM,1300201,Atalaia Do Norte,9507,2542,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.0,73.6,15.4,25.4,71.2,14.5,715,4800,1007,442,adversário
+AM,1300839,Caapiranga,9486,2419,Professora Maria Do Carmo (PL),Omar Aziz (PSD),7.5,48.6,43.9,33.5,62.1,26.0,496,3218,2906,447,adversário
+AM,1303601,Santa Isabel Do Rio Negro,9378,2798,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.4,41.0,47.6,27.3,68.7,15.9,690,2488,2883,518,adversário
+AM,1300086,Anamã,9177,2301,Professora Maria Do Carmo (PL),Omar Aziz (PSD),11.0,57.0,32.0,32.4,63.4,21.4,706,3672,2064,434,adversário
+AM,1303957,São Sebastião Do Uatumã,7748,1865,Professora Maria Do Carmo (PL),Omar Aziz (PSD),20.2,37.0,42.8,44.4,50.6,24.2,1113,2040,2355,375,adversário
+AM,1302207,Juruá,7619,2003,Professora Maria Do Carmo (PL),Omar Aziz (PSD),6.5,64.3,29.2,40.7,54.0,34.2,340,3381,1536,358,adversário
+AM,1300060,Amaturá,7522,1153,Professora Maria Do Carmo (PL),Omar Aziz (PSD),6.9,65.7,27.5,21.6,75.7,14.7,411,3930,1643,385,adversário
+AM,1301951,Itamarati,7342,1813,Professora Maria Do Carmo (PL),Omar Aziz (PSD),6.7,68.2,25.1,34.7,60.9,27.9,345,3496,1288,399,adversário
+AM,1302108,Japurá,5709,1793,Professora Maria Do Carmo (PL),Omar Aziz (PSD),12.5,67.8,19.7,48.3,46.2,35.8,464,2515,730,207,adversário
+DF,5300108,Brasília,2243988,412592,Celina Leão (PP),Leandro Grass (PT),49.9,34.5,15.6,51.3,38.1,1.4,825530,569930,257777,164684,candidato PL
+ES,3205002,Serra,361189,79360,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),52.9,26.9,20.2,49.2,42.1,-3.7,132959,67631,50874,29862,candidato PL
+ES,3205200,Vila Velha,346813,65694,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),54.0,27.1,18.8,55.5,35.5,1.4,137305,68934,47882,25933,candidato PL
+ES,3201308,Cariacica,274127,60323,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),45.2,30.6,24.2,51.9,39.8,6.7,87433,59221,46812,20156,candidato PL
+ES,3205309,Vitória,265883,49159,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),56.5,25.0,18.5,49.4,41.6,-7.1,115011,50939,37578,12054,candidato PL
+ES,3201209,Cachoeiro De Itapemirim,134025,24054,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),44.8,46.5,8.7,65.7,27.3,20.9,44424,46070,8617,10735,adversário
+ES,3203205,Linhares,122326,29207,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),55.4,30.3,14.3,59.1,34.1,3.7,44373,24248,11414,12858,candidato PL
+ES,3202405,Guarapari,101524,24016,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),53.7,33.9,12.5,60.8,31.6,7.1,36719,23167,8551,8692,candidato PL
+ES,3204906,São Mateus,92268,22209,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),39.6,39.0,21.5,45.7,48.2,6.1,24848,24460,13482,7269,candidato PL
+ES,3201506,Colatina,87108,16073,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),60.0,26.0,14.1,61.2,30.6,1.2,37237,16122,8735,8940,candidato PL
+ES,3200607,Aracruz,75116,17216,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),51.7,31.0,17.3,54.7,37.9,3.1,26255,15755,8818,7070,candidato PL
+ES,3205101,Viana,54374,10462,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.0,34.8,18.1,52.1,40.0,5.1,18549,13746,7152,4465,candidato PL
+ES,3203908,Nova Venécia,41191,9624,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.2,37.5,15.3,51.0,42.5,3.8,13444,10691,4347,3085,candidato PL
+ES,3202801,Itapemirim,36630,7359,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),48.0,44.1,7.9,65.5,29.4,17.5,12819,11763,2117,2572,candidato PL
+ES,3200904,Barra De São Francisco,34548,8941,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),43.6,42.1,14.3,53.6,40.8,10.0,10131,9796,3334,2346,candidato PL
+ES,3203320,Marataízes,33341,6041,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.5,44.0,8.5,64.8,29.9,17.4,11773,10918,2115,2493,candidato PL
+ES,3204559,Santa Maria De Jetibá,31314,5791,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),56.0,37.5,6.6,70.1,22.5,14.1,12777,8551,1504,2691,candidato PL
+ES,3201407,Castelo,30029,6166,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),60.6,32.6,6.8,71.5,21.9,10.9,12939,6963,1460,2497,candidato PL
+ES,3201902,Domingos Martins,29142,5471,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),63.7,27.6,8.6,68.2,24.1,4.5,13249,5743,1795,2881,candidato PL
+ES,3200102,Afonso Cláudio,26253,6895,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),48.9,39.5,11.5,59.5,33.5,10.6,8443,6821,1985,2108,candidato PL
+ES,3204708,São Gabriel Da Palha,26248,5580,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),52.2,34.2,13.6,56.7,37.0,4.5,9698,6347,2526,2096,candidato PL
+ES,3201605,Conceição Da Barra,25964,7493,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),30.0,42.1,27.9,35.1,60.1,5.1,4875,6836,4535,2225,adversário
+ES,3200805,Baixo Guandu,24892,5649,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),38.6,50.1,11.3,56.9,37.2,18.3,6643,8609,1943,2048,adversário
+ES,3200409,Anchieta,24797,4477,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),52.5,35.1,12.4,57.0,36.4,4.5,9600,6417,2265,2038,candidato PL
+ES,3203056,Jaguaré,24297,5260,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),32.3,47.9,19.8,41.6,53.6,9.3,5519,8184,3376,1958,adversário
+ES,3200201,Alegre,23553,5613,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),34.6,50.3,15.1,50.6,43.3,16.1,5597,8148,2447,1747,adversário
+ES,3202306,Guaçuí,22346,5503,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),39.6,48.8,11.6,55.5,37.9,15.9,5870,7232,1718,2023,adversário
+ES,3203007,Iúna,21278,5072,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),53.0,37.5,9.5,66.1,28.2,13.1,7468,5290,1336,2105,candidato PL
+ES,3205010,Sooretama,20980,5621,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.3,35.9,16.8,51.0,42.8,3.6,6267,4747,2224,2121,candidato PL
+ES,3204609,Santa Teresa,20734,5345,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),54.0,34.8,11.2,62.9,29.1,8.8,7269,4680,1505,1932,candidato PL
+ES,3205069,Venda Nova Do Imigrante,20196,4710,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),68.4,22.7,8.9,72.2,21.0,3.8,9253,3070,1200,1961,candidato PL
+ES,3203403,Mimoso Do Sul,19743,4041,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),35.3,50.8,13.9,48.2,45.6,13.0,4880,7028,1924,1865,adversário
+ES,3202454,Ibatiba,19595,3829,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),55.0,34.3,10.7,66.6,27.8,11.6,7499,4675,1453,2136,candidato PL
+ES,3202108,Ecoporanga,19064,4815,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),38.9,45.3,15.8,43.2,51.4,4.2,5135,5977,2078,1059,adversário
+ES,3204054,Pedro Canário,18937,5429,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),33.5,43.9,22.6,40.2,54.5,6.8,4037,5302,2729,1440,adversário
+ES,3204104,Pinheiros,18818,4180,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),29.1,51.3,19.7,38.3,56.1,9.2,3868,6828,2618,1324,adversário
+ES,3204203,Piúma,17326,3265,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),44.1,45.2,10.7,57.8,35.8,13.7,5526,5672,1341,1522,adversário
+ES,3205036,Vargem Alta,16001,3180,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),49.3,45.3,5.4,68.4,26.4,19.1,5727,5258,630,1205,candidato PL
+ES,3204005,Pancas,15876,4313,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),49.2,34.7,16.2,53.5,41.5,4.4,5137,3626,1688,1112,candidato PL
+ES,3204351,Rio Bananal,15534,3540,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.8,40.5,11.7,56.3,37.9,8.5,5125,4343,1254,1271,candidato PL
+ES,3203502,Montanha,15420,3786,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),36.6,45.6,17.7,44.7,50.8,8.1,3824,4765,1853,1188,adversário
+ES,3203700,Muniz Freire,14757,3355,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),36.4,51.7,11.8,54.8,38.6,18.4,3681,5229,1196,1296,adversário
+ES,3202207,Fundão,14736,3194,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.7,35.8,16.5,49.1,44.8,1.4,4927,3697,1698,1220,candidato PL
+ES,3203346,Marechal Floriano,14378,2991,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),59.7,28.2,12.1,62.1,29.6,2.4,5996,2833,1212,1346,candidato PL
+ES,3204302,Presidente Kennedy,13255,2806,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),52.8,40.3,6.9,64.0,31.6,11.2,5073,3873,662,840,candidato PL
+ES,3200300,Alfredo Chaves,12984,2934,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),57.9,34.9,7.1,67.8,25.3,9.8,5282,3184,650,934,candidato PL
+ES,3205176,Vila Valério,12919,2383,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),39.3,44.7,16.0,47.5,46.3,8.2,3782,4300,1538,916,adversário
+ES,3203130,João Neiva,12793,2737,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),48.8,36.3,14.9,57.1,36.0,8.3,4252,3164,1296,1344,candidato PL
+ES,3202702,Itaguaçu,11740,2966,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),51.2,40.7,8.1,55.1,38.6,3.9,4018,3189,633,932,candidato PL
+ES,3202603,Iconha,11401,2225,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),53.0,38.4,8.6,62.8,30.2,9.9,4346,3154,706,970,candidato PL
+ES,3202652,Irupi,11392,2733,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),55.8,36.7,7.5,69.6,25.9,13.8,4193,2755,565,1146,candidato PL
+ES,3201001,Boa Esperança,11266,2272,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),42.4,41.0,16.6,46.9,47.8,4.6,3478,3365,1362,789,candidato PL
+ES,3200169,Água Doce Do Norte,11111,2536,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),36.8,42.2,21.0,46.9,48.1,10.1,2852,3269,1628,826,adversário
+ES,3203809,Muqui,11077,2165,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),38.4,46.4,15.2,51.6,41.9,13.2,3053,3692,1207,959,adversário
+ES,3201159,Brejetuba,10987,2931,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.0,38.6,14.5,56.4,37.9,9.4,3333,2737,1027,959,candidato PL
+ES,3203353,Marilândia,10864,1958,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),49.1,41.6,9.3,62.6,31.4,13.5,3829,3245,728,1104,candidato PL
+ES,3203304,Mantenópolis,10402,2669,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),38.6,35.0,26.4,55.0,40.4,16.4,2654,2408,1818,853,candidato PL
+ES,3204500,Santa Leopoldina,10107,2115,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),45.5,42.6,11.9,50.8,41.4,5.3,3293,3080,862,756,candidato PL
+ES,3203106,Jerônimo Monteiro,10071,2194,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),37.6,50.5,11.9,51.5,40.7,14.0,2640,3548,836,853,adversário
+ES,3201704,Conceição Do Castelo,9986,2243,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),53.7,38.7,7.6,67.5,25.6,13.7,3565,2566,503,1109,candidato PL
+ES,3202504,Ibiraçu,9933,2306,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),47.8,40.4,11.8,55.8,37.2,8.0,3186,2696,787,958,candidato PL
+ES,3204955,São Roque Do Canaã,9890,2081,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),41.4,48.4,10.2,59.7,34.3,18.3,2843,3320,697,949,adversário
+ES,3204807,São José Do Calçado,9759,2110,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),37.3,48.4,14.3,45.6,49.4,8.3,2555,3318,980,796,adversário
+ES,3202900,Itarana,9584,2222,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),51.7,41.2,7.1,64.2,28.5,12.5,3445,2746,470,701,candidato PL
+ES,3203163,Laranja Da Terra,9495,1591,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),42.3,52.0,5.7,62.9,31.4,20.6,3023,3716,409,756,adversário
+ES,3200706,Atílio Vivácqua,9255,1696,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),41.6,47.3,11.0,56.2,39.1,14.6,2900,3300,770,589,adversário
+ES,3202256,Governador Lindenberg,9107,2102,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),42.3,37.0,20.6,51.4,41.3,9.0,2648,2317,1291,749,candidato PL
+ES,3200136,Águia Branca,8897,1741,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),37.0,47.9,15.1,44.5,50.0,7.5,2458,3186,1002,509,adversário
+ES,3204401,Rio Novo Do Sul,8808,1534,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),55.1,37.8,7.1,69.8,24.8,14.7,3596,2467,464,747,candidato PL
+ES,3201100,Bom Jesus Do Norte,8487,1756,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),37.8,50.9,11.3,51.4,42.3,13.7,2212,2984,662,873,adversário
+ES,3204658,São Domingos Do Norte,8443,1705,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),46.7,40.6,12.7,50.3,44.0,3.6,2856,2485,776,621,candidato PL
+ES,3205150,Vila Pavão,7761,1187,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),39.8,47.4,12.8,46.9,46.9,7.2,2374,2833,764,603,adversário
+ES,3202553,Ibitirama,7470,1325,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),50.3,40.7,9.0,63.7,31.2,13.4,2705,2190,482,767,candidato PL
+ES,3200359,Alto Rio Novo,6545,1490,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),30.7,51.7,17.6,42.3,51.6,11.6,1406,2369,807,473,adversário
+ES,3204252,Ponto Belo,6490,1505,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),22.8,63.8,13.4,37.5,58.1,14.7,1061,2962,621,341,adversário
+ES,3200508,Apiacá,6320,1414,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),26.5,57.8,15.6,49.4,45.3,22.9,1185,2583,697,441,adversário
+ES,3202009,Dores Do Rio Preto,6285,1332,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),44.1,47.5,8.4,56.1,37.8,12.1,1914,2065,365,609,adversário
+ES,3203601,Mucurici,5140,1107,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),27.5,60.2,12.3,37.5,57.8,10.0,1016,2225,455,336,adversário
+ES,3201803,Divino De São Lourenço,4889,929,Lorenzo Pazolini (REPUBLICANOS),Ricardo Ferraço (MDB),41.9,49.7,8.4,59.6,36.0,17.7,1498,1774,300,388,adversário
+RJ,3304557,Rio De Janeiro,4942710,1283812,Douglas Ruas (PL),Eduardo Paes (PSD),40.0,52.5,7.4,47.9,43.9,7.8,1319722,1730683,244887,354432,adversário
+RJ,3304904,São Gonçalo,652951,153010,Douglas Ruas (PL),Eduardo Paes (PSD),60.0,34.0,6.1,52.4,40.4,-7.6,264410,149679,26695,58938,candidato PL
+RJ,3301702,Duque De Caxias,634424,113802,Douglas Ruas (PL),Eduardo Paes (PSD),49.3,42.5,8.1,55.8,37.3,6.5,218265,188136,36024,77951,candidato PL
+RJ,3303500,Nova Iguaçu,614733,137594,Douglas Ruas (PL),Eduardo Paes (PSD),56.7,35.1,8.2,59.5,33.7,2.8,230011,142266,33421,71257,candidato PL
+RJ,3303302,Niterói,411131,79699,Douglas Ruas (PL),Eduardo Paes (PSD),42.7,49.7,7.6,43.7,48.3,1.0,127926,148902,22657,30874,adversário
+RJ,3301009,Campos Dos Goytacazes,370142,79684,Douglas Ruas (PL),Eduardo Paes (PSD),48.3,29.3,22.3,59.1,33.5,10.8,118137,71699,54570,45759,candidato PL
+RJ,3300456,Belford Roxo,346129,78984,Douglas Ruas (PL),Eduardo Paes (PSD),57.8,34.0,8.2,57.3,36.3,-0.6,130293,76676,18419,41717,candidato PL
+RJ,3305109,São João De Meriti,340086,63325,Douglas Ruas (PL),Eduardo Paes (PSD),54.4,38.1,7.5,56.5,36.8,2.1,127655,89426,17482,42158,candidato PL
+RJ,3303906,Petrópolis,239323,57669,Douglas Ruas (PL),Eduardo Paes (PSD),53.1,38.4,8.5,55.9,33.6,2.8,81201,58673,12978,28573,candidato PL
+RJ,3306305,Volta Redonda,221697,49288,Douglas Ruas (PL),Eduardo Paes (PSD),50.7,40.0,9.3,50.1,42.1,-0.6,75422,59578,13835,23341,candidato PL
+RJ,3302502,Magé,192848,37608,Douglas Ruas (PL),Eduardo Paes (PSD),53.4,39.1,7.6,57.9,35.1,4.6,71368,52262,10143,21421,candidato PL
+RJ,3302403,Macaé,185779,41327,Douglas Ruas (PL),Eduardo Paes (PSD),51.6,40.7,7.7,52.1,40.4,0.5,63568,50120,9463,20886,candidato PL
+RJ,3302700,Maricá,185451,40935,Douglas Ruas (PL),Eduardo Paes (PSD),49.7,41.1,9.3,49.8,43.2,0.1,63771,52690,11871,16046,candidato PL
+RJ,3300704,Cabo Frio,179136,41784,Douglas Ruas (PL),Eduardo Paes (PSD),63.2,28.7,8.1,63.1,30.3,-0.2,77723,35306,9933,13916,candidato PL
+RJ,3301900,Itaboraí,177799,40162,Douglas Ruas (PL),Eduardo Paes (PSD),59.3,33.6,7.1,54.9,38.0,-4.4,71168,40343,8509,17506,candidato PL
+RJ,3303401,Nova Friburgo,155248,35136,Douglas Ruas (PL),Eduardo Paes (PSD),55.5,37.1,7.4,56.0,34.8,0.5,56733,37929,7600,17744,candidato PL
+RJ,3300100,Angra Dos Reis,136830,31479,Douglas Ruas (PL),Eduardo Paes (PSD),62.5,30.8,6.7,62.2,31.5,-0.3,56855,28036,6051,14202,candidato PL
+RJ,3302858,Mesquita,136269,29979,Douglas Ruas (PL),Eduardo Paes (PSD),56.5,36.7,6.8,57.9,35.6,1.4,53341,34666,6449,11804,candidato PL
+RJ,3300407,Barra Mansa,133743,28530,Douglas Ruas (PL),Eduardo Paes (PSD),55.4,37.1,7.5,52.4,39.8,-3.0,49511,33117,6745,15743,candidato PL
+RJ,3305802,Teresópolis,133592,30293,Douglas Ruas (PL),Eduardo Paes (PSD),62.8,30.5,6.7,62.8,28.7,0.0,55419,26974,5922,14873,candidato PL
+RJ,3303203,Nilópolis,128605,28060,Douglas Ruas (PL),Eduardo Paes (PSD),54.0,38.7,7.2,56.5,36.9,2.4,48285,34606,6452,11164,candidato PL
+RJ,3300209,Araruama,111249,25218,Douglas Ruas (PL),Eduardo Paes (PSD),65.9,27.0,7.1,65.0,28.5,-0.9,49862,20416,5383,10265,candidato PL
+RJ,3304524,Rio Das Ostras,107503,24563,Douglas Ruas (PL),Eduardo Paes (PSD),60.2,31.0,8.7,60.7,31.9,0.4,44457,22910,6453,8908,candidato PL
+RJ,3304144,Queimados,104568,17619,Douglas Ruas (PL),Eduardo Paes (PSD),53.8,36.4,9.9,55.3,37.0,1.5,40640,27476,7456,11350,candidato PL
+RJ,3302007,Itaguaí,100476,21640,Douglas Ruas (PL),Eduardo Paes (PSD),55.1,38.5,6.4,59.7,32.8,4.6,37840,26427,4359,10150,candidato PL
+RJ,3304201,Resende,98018,22482,Douglas Ruas (PL),Eduardo Paes (PSD),60.9,32.5,6.6,59.8,31.2,-1.1,40427,21555,4411,9141,candidato PL
+RJ,3305505,Saquarema,92058,20077,Douglas Ruas (PL),Eduardo Paes (PSD),66.7,27.5,5.8,64.4,29.6,-2.4,42718,17597,3723,7942,candidato PL
+RJ,3302270,Japeri,76652,16719,Douglas Ruas (PL),Eduardo Paes (PSD),52.5,39.2,8.3,54.4,39.2,1.8,26535,19802,4202,9394,candidato PL
+RJ,3302205,Itaperuna,76037,17884,Douglas Ruas (PL),Eduardo Paes (PSD),64.8,28.2,7.0,63.8,30.2,-0.9,33740,14716,3639,6058,candidato PL
+RJ,3305208,São Pedro Da Aldeia,74910,16407,Douglas Ruas (PL),Eduardo Paes (PSD),68.1,23.3,8.7,68.0,25.6,-0.0,35774,12227,4558,5941,candidato PL
+RJ,3300308,Barra Do Piraí,69309,16505,Douglas Ruas (PL),Eduardo Paes (PSD),48.5,44.1,7.4,48.6,43.6,0.1,21938,19913,3348,7605,candidato PL
+RJ,3306008,Três Rios,62478,13588,Douglas Ruas (PL),Eduardo Paes (PSD),45.4,46.5,8.1,46.1,45.2,0.7,18416,18873,3281,8318,adversário
+RJ,3305554,Seropédica,60965,13526,Douglas Ruas (PL),Eduardo Paes (PSD),53.2,38.9,7.8,58.6,34.8,5.4,22124,16173,3260,5882,candidato PL
+RJ,3306107,Valença,56821,14897,Douglas Ruas (PL),Eduardo Paes (PSD),38.3,54.3,7.4,40.6,51.3,2.4,13472,19134,2600,6718,adversário
+RJ,3300803,Cachoeiras De Macacu,46722,10225,Douglas Ruas (PL),Eduardo Paes (PSD),62.2,31.9,5.9,59.6,34.2,-2.6,19976,10249,1895,4377,candidato PL
+RJ,3302601,Mangaratiba,46501,12421,Douglas Ruas (PL),Eduardo Paes (PSD),61.9,33.5,4.6,62.0,32.2,0.1,19069,10332,1424,3255,candidato PL
+RJ,3304300,Rio Bonito,45410,9074,Douglas Ruas (PL),Eduardo Paes (PSD),63.7,31.2,5.1,62.0,31.1,-1.7,20587,10083,1648,4016,candidato PL
+RJ,3301850,Guapimirim,44941,9744,Douglas Ruas (PL),Eduardo Paes (PSD),60.1,33.6,6.3,58.7,34.4,-1.3,18713,10472,1969,4043,candidato PL
+RJ,3305000,São João Da Barra,43094,8204,Douglas Ruas (PL),Eduardo Paes (PSD),51.9,36.5,11.5,60.0,32.3,8.0,15562,10937,3460,4931,candidato PL
+RJ,3304755,São Francisco De Itabapoana,39903,10350,Douglas Ruas (PL),Eduardo Paes (PSD),53.9,35.5,10.6,66.7,28.2,12.8,13864,9129,2720,3838,candidato PL
+RJ,3300233,Armação Dos Búzios,36235,8065,Douglas Ruas (PL),Eduardo Paes (PSD),60.5,32.2,7.3,63.3,30.1,2.8,15436,8207,1871,2655,candidato PL
+RJ,3301306,Casimiro De Abreu,35993,8251,Douglas Ruas (PL),Eduardo Paes (PSD),67.1,26.4,6.5,65.8,28.3,-1.3,16708,6579,1625,2830,candidato PL
+RJ,3303807,Paraty,35457,8482,Douglas Ruas (PL),Eduardo Paes (PSD),60.3,32.8,6.9,60.5,33.1,0.2,14391,7824,1636,3121,candidato PL
+RJ,3300258,Arraial Do Cabo,35242,7890,Douglas Ruas (PL),Eduardo Paes (PSD),55.3,38.1,6.6,60.4,32.7,5.1,13634,9396,1618,2704,candidato PL
+RJ,3303708,Paraíba Do Sul,34301,7607,Douglas Ruas (PL),Eduardo Paes (PSD),52.0,40.7,7.2,52.8,39.3,0.7,11805,9243,1635,4008,candidato PL
+RJ,3304706,Santo Antônio De Pádua,33702,7914,Douglas Ruas (PL),Eduardo Paes (PSD),57.0,37.2,5.8,60.1,33.9,3.1,12828,8357,1307,3296,candidato PL
+RJ,3303609,Paracambi,33690,7227,Douglas Ruas (PL),Eduardo Paes (PSD),51.4,40.7,7.9,54.1,38.9,2.7,11712,9285,1792,3674,candidato PL
+RJ,3301876,Iguaba Grande,30569,5834,Douglas Ruas (PL),Eduardo Paes (PSD),62.2,29.7,8.2,65.0,28.4,2.8,13965,6661,1837,2272,candidato PL
+RJ,3304805,São Fidélis,30178,6481,Douglas Ruas (PL),Eduardo Paes (PSD),57.4,24.6,18.0,62.5,31.7,5.1,12369,5290,3881,2157,candidato PL
+RJ,3306206,Vassouras,29259,6056,Douglas Ruas (PL),Eduardo Paes (PSD),51.9,39.2,8.8,50.2,42.1,-1.7,10157,7678,1731,3637,candidato PL
+RJ,3300605,Bom Jesus Do Itabapoana,28469,5891,Douglas Ruas (PL),Eduardo Paes (PSD),57.3,33.5,9.2,56.1,37.7,-1.2,11382,6656,1822,2716,candidato PL
+RJ,3302254,Itatiaia,26584,5818,Douglas Ruas (PL),Eduardo Paes (PSD),58.4,35.4,6.1,56.2,35.7,-2.3,10715,6492,1127,2432,candidato PL
+RJ,3305752,Tanguá,26468,5243,Douglas Ruas (PL),Eduardo Paes (PSD),61.7,31.4,6.9,56.6,37.0,-5.1,11554,5879,1292,2500,candidato PL
+RJ,3302908,Miguel Pereira,24781,5550,Douglas Ruas (PL),Eduardo Paes (PSD),55.1,36.1,8.8,56.9,36.2,1.8,9457,6194,1519,2061,candidato PL
+RJ,3303856,Paty Do Alferes,24302,5269,Douglas Ruas (PL),Eduardo Paes (PSD),65.7,29.0,5.3,62.4,31.0,-3.4,11368,5007,919,1739,candidato PL
+RJ,3304003,Piraí,23699,5357,Douglas Ruas (PL),Eduardo Paes (PSD),49.1,42.8,8.2,49.6,43.0,0.5,7797,6797,1300,2448,candidato PL
+RJ,3300506,Bom Jardim,22628,4833,Douglas Ruas (PL),Eduardo Paes (PSD),59.6,34.5,5.9,56.9,35.1,-2.7,8948,5182,884,2781,candidato PL
+RJ,3303005,Miracema,21055,3925,Douglas Ruas (PL),Eduardo Paes (PSD),43.9,49.5,6.6,45.4,48.6,1.4,6360,7172,955,2642,adversário
+RJ,3302106,Itaocara,19120,3495,Douglas Ruas (PL),Eduardo Paes (PSD),62.5,28.7,8.8,65.4,28.9,2.9,8659,3975,1218,1773,candidato PL
+RJ,3304151,Quissamã,19085,4015,Douglas Ruas (PL),Eduardo Paes (PSD),48.3,43.2,8.5,52.1,41.6,3.9,6345,5681,1112,1932,candidato PL
+RJ,3303955,Pinheiral,18820,4046,Douglas Ruas (PL),Eduardo Paes (PSD),50.2,42.1,7.6,45.6,46.6,-4.6,6458,5420,981,1915,candidato PL
+RJ,3305604,Silva Jardim,18674,3765,Douglas Ruas (PL),Eduardo Paes (PSD),61.6,31.8,6.5,62.6,31.2,0.9,8160,4217,864,1668,candidato PL
+RJ,3304110,Porto Real,17925,3097,Douglas Ruas (PL),Eduardo Paes (PSD),56.0,38.4,5.6,57.2,35.5,1.2,7280,4988,734,1826,candidato PL
+RJ,3301504,Cordeiro,16926,2752,Douglas Ruas (PL),Eduardo Paes (PSD),56.0,37.2,6.9,53.4,39.3,-2.5,6793,4511,836,2034,candidato PL
+RJ,3301405,Conceição De Macabu,16680,3179,Douglas Ruas (PL),Eduardo Paes (PSD),45.2,46.7,8.1,46.3,46.7,1.2,5217,5395,939,1949,adversário
+RJ,3305158,São José Do Vale Do Rio Preto,16230,3261,Douglas Ruas (PL),Eduardo Paes (PSD),70.9,25.1,4.1,74.1,18.6,3.2,8173,2891,469,1436,candidato PL
+RJ,3305406,Sapucaia,15785,3216,Douglas Ruas (PL),Eduardo Paes (PSD),55.8,39.9,4.3,56.7,37.4,0.8,6001,4284,460,1823,candidato PL
+RJ,3301108,Cantagalo,15148,2938,Douglas Ruas (PL),Eduardo Paes (PSD),55.3,36.2,8.6,53.4,39.8,-1.9,5756,3764,892,1798,candidato PL
+RJ,3302809,Mendes,14878,3000,Douglas Ruas (PL),Eduardo Paes (PSD),48.7,44.2,7.1,48.9,43.9,0.1,5044,4573,733,1528,candidato PL
+RJ,3304409,Rio Claro,14700,2721,Douglas Ruas (PL),Eduardo Paes (PSD),44.9,49.4,5.8,47.0,45.6,2.1,4569,5026,589,1795,adversário
+RJ,3301207,Carmo,14237,2477,Douglas Ruas (PL),Eduardo Paes (PSD),47.0,48.1,4.9,48.6,43.7,1.6,4741,4858,497,1664,adversário
+RJ,3305703,Sumidouro,14193,2365,Douglas Ruas (PL),Eduardo Paes (PSD),65.4,30.1,4.5,64.8,29.4,-0.6,6813,3137,466,1412,candidato PL
+RJ,3300936,Carapebus,13468,2496,Douglas Ruas (PL),Eduardo Paes (PSD),61.5,33.7,4.8,57.8,36.8,-3.6,6037,3312,472,1151,candidato PL
+RJ,3304102,Porciúncula,13292,2940,Douglas Ruas (PL),Eduardo Paes (PSD),41.8,45.3,12.9,45.4,48.0,3.7,3597,3902,1113,1739,adversário
+RJ,3301157,Cardoso Moreira,12616,2578,Douglas Ruas (PL),Eduardo Paes (PSD),41.8,47.3,10.9,62.1,31.7,20.3,3822,4328,999,889,adversário
+RJ,3303104,Natividade,12453,2744,Douglas Ruas (PL),Eduardo Paes (PSD),48.5,39.4,12.1,50.4,41.8,1.9,4011,3258,999,1441,candidato PL
+RJ,3300902,Cambuci,12296,2360,Douglas Ruas (PL),Eduardo Paes (PSD),56.4,35.1,8.4,51.3,44.2,-5.1,5066,3156,758,956,candidato PL
+RJ,3302056,Italva,11648,2483,Douglas Ruas (PL),Eduardo Paes (PSD),66.3,25.1,8.6,67.1,27.8,0.8,5476,2078,710,901,candidato PL
+RJ,3301801,Engenheiro Paulo De Frontin,11116,1913,Douglas Ruas (PL),Eduardo Paes (PSD),50.4,38.7,10.8,51.1,41.4,0.6,4029,3095,864,1215,candidato PL
+RJ,3304128,Quatis,10505,1759,Douglas Ruas (PL),Eduardo Paes (PSD),54.0,40.6,5.4,50.8,42.4,-3.2,4135,3108,415,1088,candidato PL
+RJ,3301603,Duas Barras,10314,2085,Douglas Ruas (PL),Eduardo Paes (PSD),48.3,45.1,6.6,50.2,41.6,1.9,3351,3129,456,1293,candidato PL
+RJ,3300225,Areal,10270,2039,Douglas Ruas (PL),Eduardo Paes (PSD),59.1,36.1,4.8,58.1,34.0,-1.0,4214,2575,346,1096,candidato PL
+RJ,3300159,Aperibé,10135,1858,Douglas Ruas (PL),Eduardo Paes (PSD),64.3,28.3,7.4,61.7,33.2,-2.6,4764,2097,546,870,candidato PL
+RJ,3305901,Trajano De Moraes,9269,1804,Douglas Ruas (PL),Eduardo Paes (PSD),52.3,39.3,8.5,50.1,43.9,-2.2,3363,2525,545,1032,candidato PL
+RJ,3304607,Santa Maria Madalena,8846,1844,Douglas Ruas (PL),Eduardo Paes (PSD),44.7,44.0,11.3,49.5,43.0,4.8,2723,2679,688,912,candidato PL
+RJ,3306156,Varre-Sai,8788,1727,Douglas Ruas (PL),Eduardo Paes (PSD),64.7,31.7,3.7,62.6,31.2,-2.0,3941,1929,224,967,candidato PL
+RJ,3304508,Rio Das Flores,8711,1813,Douglas Ruas (PL),Eduardo Paes (PSD),39.5,52.5,7.9,37.4,57.1,-2.1,2394,3183,481,840,adversário
+RJ,3300951,Comendador Levy Gasparian,8032,1212,Douglas Ruas (PL),Eduardo Paes (PSD),37.6,56.9,5.4,41.5,50.3,3.9,2194,3320,317,988,adversário
+RJ,3305307,São Sebastião Do Alto,7793,1766,Douglas Ruas (PL),Eduardo Paes (PSD),52.3,42.0,5.7,56.8,38.1,4.5,2791,2243,303,690,candidato PL
+RJ,3305133,São José De Ubá,7636,1551,Douglas Ruas (PL),Eduardo Paes (PSD),65.6,27.1,7.4,63.1,32.1,-2.4,3616,1493,407,569,candidato PL
+RJ,3302452,Macuco,7132,1070,Douglas Ruas (PL),Eduardo Paes (PSD),49.9,42.8,7.4,50.7,43.1,0.8,2682,2300,397,683,candidato PL
+RJ,3302304,Laje Do Muriaé,6943,1350,Douglas Ruas (PL),Eduardo Paes (PSD),40.0,52.0,8.0,41.3,53.1,1.2,1900,2467,379,846,adversário
+TO,1721000,Palmas,218549,35306,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),44.4,40.4,15.2,58.3,33.5,13.8,71143,64665,24363,22003,candidato PL
+TO,1702109,Araguaína,123845,20423,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),42.4,45.2,12.3,57.5,35.4,15.1,37608,40080,10937,14508,adversário
+TO,1709500,Gurupi,61238,12102,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),40.5,33.6,25.9,60.7,32.4,20.3,17553,14584,11241,5757,candidato PL
+TO,1718204,Porto Nacional,47070,8417,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),33.2,55.3,11.5,49.8,43.4,16.6,11284,18801,3922,4646,adversário
+TO,1716109,Paraíso Do Tocantins,36054,6839,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),32.4,58.0,9.6,68.1,26.0,35.7,8208,14705,2432,3868,adversário
+TO,1705508,Colinas Do Tocantins,25350,5127,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),51.7,39.5,8.7,59.6,35.1,7.9,9115,6968,1541,2597,candidato PL
+TO,1702208,Araguatins,22355,4657,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),49.7,40.8,9.5,42.3,51.5,-7.4,7682,6307,1461,2245,candidato PL
+TO,1709302,Guaraí,17601,2997,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),50.0,42.1,7.9,55.8,38.1,5.8,6448,5434,1021,1700,candidato PL
+TO,1721208,Tocantinópolis,16077,2717,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.4,38.5,15.1,33.6,61.5,-12.8,5308,4408,1725,1919,candidato PL
+TO,1713205,Miracema Do Tocantins,14418,2787,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),51.6,38.6,9.8,41.3,52.1,-10.3,5282,3947,1005,1397,candidato PL
+TO,1708205,Formoso Do Araguaia,14141,2974,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.8,51.5,11.6,58.5,37.1,21.7,3637,5089,1149,1292,adversário
+TO,1702554,Augustinópolis,13638,2697,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.6,48.6,7.8,42.0,53.1,-1.7,4170,4639,746,1386,adversário
+TO,1707009,Dianópolis,13191,2675,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),48.1,44.5,7.5,39.3,53.6,-8.7,4347,4021,678,1470,candidato PL
+TO,1720903,Taguatinga,11229,2413,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),45.0,48.1,6.9,40.2,54.2,-4.8,3355,3585,517,1357,adversário
+TO,1716505,Pedro Afonso,10798,2041,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.6,48.6,4.8,54.3,40.4,7.8,3648,3808,379,921,adversário
+TO,1711902,Lagoa Da Confusão,10221,1986,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.1,46.4,10.5,56.1,39.5,13.0,3205,3444,781,805,adversário
+TO,1713304,Miranorte,10079,1872,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),52.4,40.4,7.2,54.6,39.8,2.2,3744,2884,516,1063,candidato PL
+TO,1720200,São Miguel Do Tocantins,9833,1417,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),26.5,66.1,7.4,39.9,54.3,13.4,1993,4976,560,887,adversário
+TO,1702901,Axixá Do Tocantins,9184,1684,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.3,33.3,5.4,41.5,55.4,-19.8,4056,2201,356,887,candidato PL
+TO,1709005,Goiatins,8809,1496,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.5,50.3,6.1,31.0,64.9,-12.6,2810,3250,395,858,adversário
+TO,1722107,Xambioá,8636,1561,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),37.8,55.8,6.5,52.0,43.8,14.2,2372,3504,406,790,adversário
+TO,1716208,Paranã,8577,2140,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),54.0,40.1,5.8,25.8,68.7,-28.2,2993,2224,323,897,candidato PL
+TO,1702406,Arraias,8200,1978,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),64.5,25.5,10.0,27.9,66.5,-36.6,3444,1360,533,884,candidato PL
+TO,1714880,Nova Olinda,8132,1404,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),47.3,41.8,10.9,47.5,48.1,0.2,2722,2408,629,969,candidato PL
+TO,1720804,Sítio Novo Do Tocantins,8078,1348,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),62.1,28.2,9.7,33.6,61.4,-28.4,3731,1695,585,719,candidato PL
+TO,1700707,Alvorada,8052,1842,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),37.5,56.7,5.8,59.5,35.2,22.0,2067,3121,318,704,adversário
+TO,1701002,Ananás,7593,1251,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),55.3,37.9,6.8,40.7,54.5,-14.5,3134,2149,387,672,candidato PL
+TO,1722081,Wanderlândia,7391,1404,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),48.3,44.4,7.3,44.1,51.3,-4.2,2501,2300,377,809,candidato PL
+TO,1716604,Peixe,7283,1536,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.2,46.5,17.4,36.7,57.6,0.5,1831,2355,879,681,adversário
+TO,1703842,Campos Lindos,6887,1177,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),56.8,37.2,6.0,44.3,49.4,-12.5,2901,1900,304,605,candidato PL
+TO,1714203,Natividade,6806,1452,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),26.8,68.5,4.7,43.0,49.6,16.2,1277,3270,226,581,adversário
+TO,1703800,Buriti Do Tocantins,6689,1162,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.7,56.0,7.3,43.2,52.6,6.5,1792,2739,357,639,adversário
+TO,1703008,Babaçulândia,6651,1005,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),31.8,61.1,7.0,35.5,60.6,3.7,1537,2952,340,817,adversário
+TO,1702000,Araguaçu,6645,1406,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),44.0,51.1,4.8,71.0,23.3,26.9,2025,2353,223,638,adversário
+TO,1707405,Esperantina,6624,1405,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.7,40.5,12.8,30.3,65.5,-16.5,2168,1879,592,579,candidato PL
+TO,1716703,Colméia,6526,1107,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),42.2,54.0,3.8,61.0,34.7,18.8,2042,2611,186,580,adversário
+TO,1707702,Filadélfia,6244,1216,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),42.9,52.9,4.2,40.7,54.8,-2.3,1898,2339,186,605,adversário
+TO,1715754,Palmeirópolis,6163,1177,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),58.4,36.3,5.4,58.0,35.8,-0.4,2582,1604,237,563,candidato PL
+TO,1717503,Pium,5965,1259,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),25.8,69.3,4.9,55.2,40.0,29.4,1093,2931,207,475,adversário
+TO,1718303,Praia Norte,5873,1229,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),72.3,19.9,7.8,33.1,62.1,-39.2,2944,810,318,572,candidato PL
+TO,1707108,Divinópolis Do Tocantins,5779,1104,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.3,40.9,12.8,48.2,46.7,1.9,1883,1662,521,609,candidato PL
+TO,1717909,Ponte Alta Do Tocantins,5628,1100,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),30.4,63.7,5.8,51.3,42.8,20.9,1220,2556,234,518,adversário
+TO,1700400,Almas,5592,1084,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),21.8,67.1,11.1,37.0,56.9,15.2,873,2687,446,502,adversário
+TO,1706100,Cristalândia,5530,1014,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),45.5,49.1,5.3,52.9,41.7,7.4,1875,2022,220,399,adversário
+TO,1718865,Santa Fé Do Araguaia,5525,998,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.0,34.0,5.0,46.7,49.6,-14.3,2443,1363,200,520,candidato PL
+TO,1720101,São Bento Do Tocantins,5456,1079,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),67.5,26.5,6.0,34.9,59.5,-32.6,2666,1046,237,428,candidato PL
+TO,1721109,Tocantínia,5453,757,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),64.6,29.5,5.9,27.0,70.3,-37.5,2752,1259,250,435,candidato PL
+TO,1710508,Itacajá,5444,832,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),55.3,39.6,5.1,39.0,57.1,-16.3,2298,1644,210,458,candidato PL
+TO,1701903,Araguacema,5135,1066,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),59.4,35.6,5.0,42.1,53.3,-17.3,2179,1304,185,401,candidato PL
+TO,1713601,Monte Do Carmo,5125,1061,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),33.3,59.5,7.2,43.6,50.4,10.3,1216,2170,262,416,adversário
+TO,1707207,Dois Irmãos Do Tocantins,5082,982,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.3,45.0,8.7,43.5,50.5,-2.7,1666,1620,315,499,candidato PL
+TO,1703107,Barrolândia,4903,820,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),56.0,38.2,5.7,51.0,43.5,-5.0,2009,1370,206,498,candidato PL
+TO,1720655,Silvanópolis,4865,840,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),28.8,65.5,5.7,47.0,47.2,18.2,1031,2341,204,449,adversário
+TO,1706001,Couto Magalhães,4816,973,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.4,32.2,6.4,43.6,53.4,-17.9,2094,1098,217,434,candidato PL
+TO,1706506,Darcinópolis,4743,915,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.1,32.7,6.2,43.2,52.1,-17.9,2096,1120,212,400,candidato PL
+TO,1710706,Itaguatins,4717,827,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),56.4,39.2,4.4,35.5,60.2,-20.9,1979,1374,156,381,candidato PL
+TO,1707652,Figueirópolis,4679,956,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),33.7,53.7,12.6,56.4,37.8,22.7,1107,1761,413,442,adversário
+TO,1701101,Aparecida Do Rio Negro,4670,664,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),69.0,26.5,4.5,51.6,43.5,-17.4,2459,946,159,442,candidato PL
+TO,1702307,Arapoema,4628,1015,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),56.3,36.8,7.0,47.9,47.3,-8.3,1804,1180,223,406,candidato PL
+TO,1708304,Goianorte,4496,749,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),53.3,40.8,5.9,52.0,41.6,-1.3,1808,1382,201,356,candidato PL
+TO,1701309,Aragominas,4450,804,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.7,30.7,7.6,42.2,53.5,-19.5,1991,991,245,419,candidato PL
+TO,1716653,Pequizeiro,4371,736,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),49.9,43.0,7.2,45.8,50.6,-4.1,1656,1427,238,314,candidato PL
+TO,1715705,Palmeirante,4317,759,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),50.3,39.9,9.8,40.0,55.2,-10.3,1558,1236,304,460,candidato PL
+TO,1700350,Aliança Do Tocantins,4304,884,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.4,53.6,9.9,52.8,41.3,16.4,1120,1649,305,346,adversário
+TO,1718758,Rio Sono,4294,593,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.7,45.8,7.5,46.7,49.3,0.0,1570,1541,252,338,candidato PL
+TO,1718907,Santa Rosa Do Tocantins,4257,778,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),29.8,63.2,7.1,37.5,57.6,7.8,941,1996,223,319,adversário
+TO,1713809,Palmeiras Do Tocantins,4232,794,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),62.1,31.6,6.3,40.3,55.5,-21.8,1883,958,192,405,candidato PL
+TO,1703701,Brejinho De Nazaré,4228,725,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),48.8,42.9,8.3,46.5,48.0,-2.3,1497,1317,255,434,candidato PL
+TO,1718808,Sampaio,4157,1018,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.7,51.1,5.2,32.3,64.5,-11.4,1180,1379,139,441,adversário
+TO,1714302,Nazaré,4125,650,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),56.2,39.7,4.2,29.0,64.4,-27.2,1769,1249,132,325,candidato PL
+TO,1715101,Novo Acordo,4119,714,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),45.4,52.4,2.2,49.0,46.2,3.6,1397,1614,68,326,adversário
+TO,1720499,São Valério,4075,901,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),64.6,28.9,6.5,35.5,58.6,-29.0,1832,820,185,337,candidato PL
+TO,1703073,Barra Do Ouro,4021,756,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),49.0,46.3,4.6,40.5,56.4,-8.5,1394,1318,132,421,candidato PL
+TO,1700301,Aguiarnópolis,3951,789,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),59.8,36.0,4.2,40.1,54.5,-19.7,1648,992,116,405,candidato PL
+TO,1703909,Caseara,3951,704,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),53.2,39.0,7.8,48.4,46.9,-4.8,1557,1140,227,323,candidato PL
+TO,1705557,Combinado,3890,627,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),58.8,38.4,2.8,49.5,42.8,-9.3,1709,1116,80,356,candidato PL
+TO,1712504,Marianópolis Do Tocantins,3802,756,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),44.4,51.0,4.6,52.2,43.2,7.8,1192,1369,123,361,adversário
+TO,1703867,Cariri Do Tocantins,3798,751,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),51.4,31.6,17.0,54.9,40.1,3.6,1408,866,467,306,candidato PL
+TO,1717008,Pindorama Do Tocantins,3710,708,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),41.3,56.9,1.8,44.6,50.9,3.3,1122,1545,49,286,adversário
+TO,1703305,Bom Jesus Do Tocantins,3672,550,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),62.5,34.3,3.2,49.5,46.4,-13.0,1756,963,90,313,candidato PL
+TO,1707306,Dueré,3669,703,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),24.6,17.8,57.6,45.6,47.2,21.0,663,480,1550,273,candidato PL
+TO,1705607,Conceição Do Tocantins,3643,928,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.5,33.2,5.3,30.4,63.7,-31.1,1433,774,124,384,candidato PL
+TO,1717800,Ponte Alta Do Bom Jesus,3642,720,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),49.9,45.7,4.4,36.2,57.5,-13.7,1293,1184,114,331,candidato PL
+TO,1703206,Bernardo Sayão,3604,602,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),51.8,41.7,6.6,55.4,39.9,3.6,1389,1118,177,318,candidato PL
+TO,1712801,Maurilândia Do Tocantins,3586,679,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.7,32.5,3.8,28.3,67.3,-35.4,1613,824,97,373,candidato PL
+TO,1703891,Carrasco Bonito,3567,760,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.8,59.7,3.5,38.5,58.9,1.8,912,1480,88,327,adversário
+TO,1718840,Sandolândia,3566,797,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),47.7,47.8,4.5,57.0,37.5,9.3,1174,1178,111,306,adversário
+TO,1702158,Araguanã,3552,633,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),31.2,64.4,4.5,49.2,46.6,18.1,812,1678,116,313,adversário
+TO,1716307,Pau D'Arco,3551,654,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.3,29.5,7.1,47.4,47.5,-15.9,1648,768,186,295,candidato PL
+TO,1712009,Lajeado,3503,660,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),52.0,40.5,7.6,51.6,42.8,-0.3,1339,1043,195,265,candidato PL
+TO,1718550,Riachinho,3503,574,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),38.0,58.1,3.9,42.7,53.7,4.7,1012,1549,104,264,adversário
+TO,1710904,Itapiratins,3403,530,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),52.8,46.1,1.1,40.2,52.3,-12.6,1379,1203,28,263,candidato PL
+TO,1707553,Fátima,3389,671,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.7,47.5,5.8,56.6,38.6,9.9,1144,1164,142,268,adversário
+TO,1720309,São Sebastião Do Tocantins,3364,635,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),58.8,38.4,2.9,30.9,65.2,-27.8,1420,927,70,312,candidato PL
+TO,1702703,Aurora Do Tocantins,3314,715,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.5,51.1,5.4,40.7,52.9,-2.8,968,1137,120,374,adversário
+TO,1711951,Lagoa Do Tocantins,3307,533,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),40.3,57.5,2.2,40.0,54.4,-0.3,1007,1436,56,275,adversário
+TO,1705102,Chapada Da Natividade,3102,621,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),36.8,57.1,6.1,29.2,65.8,-7.6,803,1248,133,296,adversário
+TO,1712405,Lizarda,3099,717,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.4,34.6,2.0,32.4,62.9,-31.0,1309,715,42,316,candidato PL
+TO,1711506,Jaú Do Tocantins,3091,657,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),50.6,34.0,15.3,49.7,46.2,-0.9,1113,748,337,235,candidato PL
+TO,1708254,Tabocão,3073,590,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),44.4,48.5,7.1,47.5,46.8,3.0,973,1061,155,294,adversário
+TO,1719004,Santa Tereza Do Tocantins,3061,463,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),39.1,58.9,2.0,52.0,42.1,12.9,928,1400,48,222,adversário
+TO,1718501,Recursolândia,2936,451,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),76.4,15.6,8.0,31.3,65.5,-45.1,1739,355,183,208,candidato PL
+TO,1715002,Nova Rosalândia,2880,467,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),42.9,51.4,5.8,56.2,38.6,13.4,934,1119,126,234,adversário
+TO,1713957,Muricilândia,2874,509,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),43.7,53.9,2.4,41.0,54.7,-2.7,930,1146,52,237,adversário
+TO,1718402,Presidente Kennedy,2825,472,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),42.3,54.2,3.4,47.6,46.9,5.3,884,1133,72,264,adversário
+TO,1701051,Angico,2806,531,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),57.7,38.4,3.8,44.5,49.8,-13.2,1174,782,78,241,candidato PL
+TO,1703057,Bandeirantes Do Tocantins,2799,410,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),31.7,65.1,3.2,56.2,38.9,24.5,688,1415,69,217,adversário
+TO,1711100,Itaporã Do Tocantins,2703,469,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.7,34.1,2.2,48.5,47.0,-15.2,1320,706,46,162,candidato PL
+TO,1720259,São Salvador Do Tocantins,2701,740,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),48.6,32.5,18.9,31.1,61.3,-17.5,852,569,332,208,candidato PL
+TO,1718709,Rio Dos Bois,2668,504,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),62.1,31.8,6.1,40.5,55.0,-21.6,1202,616,118,228,candidato PL
+TO,1718006,Porto Alegre Do Tocantins,2639,570,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),49.7,41.4,8.9,35.7,57.7,-14.0,909,758,162,240,candidato PL
+TO,1712454,Luzinópolis,2601,405,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),62.0,33.8,4.3,41.6,53.0,-20.4,1224,667,84,221,candidato PL
+TO,1720978,Talismã,2560,625,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.0,32.2,6.8,53.9,40.8,-7.1,1031,544,115,245,candidato PL
+TO,1713700,Monte Santo Do Tocantins,2559,493,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),33.3,61.7,5.0,60.3,35.3,27.0,607,1125,92,242,adversário
+TO,1718881,Santa Maria Do Tocantins,2546,456,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),35.2,62.7,2.1,51.6,44.1,16.4,674,1202,41,173,adversário
+TO,1704600,Chapada De Areia,2545,533,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),40.9,53.6,5.5,54.2,39.1,13.3,735,963,99,215,adversário
+TO,1700251,Abreulândia,2525,488,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.9,32.4,3.7,51.4,44.8,-12.6,1157,586,67,227,candidato PL
+TO,1703883,Carmolândia,2413,440,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),55.1,41.3,3.6,42.6,52.6,-12.5,961,720,62,230,candidato PL
+TO,1717206,Piraquê,2394,438,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),51.2,43.7,5.2,43.3,51.6,-7.9,903,770,91,192,candidato PL
+TO,1715259,Novo Jardim,2344,525,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.6,49.2,4.2,35.2,59.3,-11.4,745,787,67,220,adversário
+TO,1718451,Pugmil,2328,405,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),46.9,49.5,3.6,55.5,39.7,8.6,820,865,63,175,adversário
+TO,1711803,Juarina,2277,408,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),52.1,41.6,6.3,44.9,49.8,-7.2,866,691,105,207,candidato PL
+TO,1718659,Rio Da Conceição,2139,559,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),60.4,36.6,2.9,34.7,58.9,-25.7,866,525,42,147,candidato PL
+TO,1718899,Santa Rita Do Tocantins,2126,450,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),48.4,40.9,10.7,54.9,39.3,6.5,724,613,160,179,candidato PL
+TO,1720002,Santa Terezinha Do Tocantins,2106,396,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),38.0,57.3,4.7,36.7,55.7,-1.3,589,889,73,159,adversário
+TO,1715150,Novo Alegre,2099,470,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),52.5,44.8,2.7,37.3,53.5,-15.1,761,650,39,179,candidato PL
+TO,1720937,Taipas Do Tocantins,2033,545,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),59.7,37.9,2.4,26.0,69.3,-33.7,783,497,31,177,candidato PL
+TO,1703826,Cachoeirinha,2029,368,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),69.3,18.8,11.9,34.2,59.8,-35.1,1038,281,179,163,candidato PL
+TO,1712157,Lavandeira,2002,348,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),58.4,38.6,3.0,39.9,51.2,-18.5,860,568,44,182,candidato PL
+TO,1712702,Mateiros,2000,412,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),64.8,32.6,2.6,32.4,64.6,-32.4,902,453,36,197,candidato PL
+TO,1709807,Ipueiras,1997,394,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),28.0,68.7,3.3,33.8,62.0,5.8,410,1005,48,140,adversário
+TO,1703602,Brasilândia Do Tocantins,1994,328,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),53.3,44.7,2.0,47.7,47.1,-5.6,796,667,30,173,candidato PL
+TO,1704105,Centenário,1930,338,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),55.4,39.6,5.0,39.2,56.2,-16.2,788,564,71,169,candidato PL
+TO,1720150,São Félix Do Tocantins,1852,292,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),61.3,37.5,1.1,34.1,58.7,-27.3,869,532,16,143,candidato PL
+TO,1721257,Tupirama,1851,340,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),29.1,67.1,3.8,42.7,53.1,13.6,396,913,51,151,adversário
+TO,1706258,Crixás Do Tocantins,1827,361,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),53.4,36.3,10.3,47.7,47.7,-5.7,713,484,137,132,candidato PL
+TO,1721307,Tupiratins,1797,340,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),47.5,48.6,3.9,37.8,57.3,-9.7,625,640,51,141,adversário
+TO,1720853,Sucupira,1762,287,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),63.6,28.4,8.1,51.3,43.1,-12.2,843,376,107,149,candidato PL
+TO,1715507,Oliveira De Fátima,1692,309,Professora Dorinha (UNIÃO),Vicentinho Júnior (PSDB),25.8,69.5,4.7,48.8,47.0,23.0,322,866,58,137,adversário

@@ -1,0 +1,1628 @@
+{
+ "lote": "05_SE_AC_PA",
+ "gerado_em": "2026-10-09",
+ "pessoas": [
+  {
+   "ano": "2026",
+   "sq": "10002532492",
+   "nome_urna": "Alan Rick",
+   "papel": "governador(a) 2026",
+   "uf": "AC",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Declarou apoio a Flávio Bolsonaro (PL) para presidente durante a campanha do 1º turno, reafirmado em entrevista em agosto, segundo a Revista Oeste; não foi localizada declaração nova após 04/10.",
+    "data": "2026-09-09",
+    "urls": [
+     "https://revistaoeste.com/politica/alan-rick-lidera-intencoes-de-voto-ao-governo-do-acre/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Ficou em 2º lugar no 1º turno para governador do Acre, com 32,27% dos votos válidos, e disputa o 2º turno contra Mailza Assis (PP) em 25/10.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122690/acre-tera-segundo-turno-entre-mailza-assis-e-alan-rick"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-08",
+     "texto": "Senador desde 2023, concorreu pela coligação Republicanos, PSD, Novo, Avante, DC e Democrata, com Ricardo Leite como vice; integrava a base de Gladson Cameli (PP) antes de se tornar adversário de Mailza.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/121350/seis-candidatos-disputam-governo-do-acre-ex-aliados-se-enfrentam"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "10002533895",
+   "nome_urna": "Mara Rocha",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "AC",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Eleita senadora pelo Acre em 04/10/2026 com 17,95% dos votos válidos, ao lado de Marcio Bittar (PL); mandato de 2027 a 2035.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122717/marcio-bittar-e-mara-rocha-sao-eleitos-senadores-pelo-acre"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição no 2º turno presidencial não localizada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002544107",
+   "nome_urna": "Mailza Assis",
+   "papel": "governador(a) 2026",
+   "uf": "AC",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Declarou apoio a Flávio Bolsonaro (PL) para presidente durante a campanha, segundo a Revista Oeste; sua coligação inclui o PL. Não foi localizada declaração nova após 04/10.",
+    "data": "2026-09-09",
+    "urls": [
+     "https://revistaoeste.com/politica/alan-rick-lidera-intencoes-de-voto-ao-governo-do-acre/",
+     "https://www.congressoemfoco.com.br/noticia/121350/seis-candidatos-disputam-governo-do-acre-ex-aliados-se-enfrentam"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-04",
+     "texto": "Assumiu o governo do Acre em 02/04/2026, após a renúncia de Gladson Cameli (PP) para disputar o Senado; era vice-governadora.",
+     "urls": [
+      "https://timesbrasil.com.br/brasil/decisao-2026-mailza-assis-pp-e-alan-rick-republicanos-vao-ao-2o-turno-pelo-governo-do-acre/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Terminou o 1º turno em 1º lugar, com 49,76% dos votos válidos, e disputa o 2º turno contra Alan Rick (Republicanos); a coligação reúne PP, União Brasil, MDB, PL, PDT e Democrata.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122690/acre-tera-segundo-turno-entre-mailza-assis-e-alan-rick",
+      "https://www.congressoemfoco.com.br/noticia/121350/seis-candidatos-disputam-governo-do-acre-ex-aliados-se-enfrentam"
+     ]
+    },
+    {
+     "tipo": "alegação",
+     "data": "2026-09",
+     "texto": "O Republicanos representou ao TCE-AC em 09/09/2026 alegando uso de servidor comissionado como motorista dos filhos da governadora; não há condenação. A Casa Civil negou as acusações e afirmou que o servidor atua na residência oficial.",
+     "urls": [
+      "https://ncnews.com.br/?p=45357"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-10",
+     "texto": "Recebeu em 05/10/2026 o apoio formal do prefeito de Rio Branco, Alysson Bestene (PP), para o 2º turno.",
+     "urls": [
+      "https://prensamercosur.org/2026/10/06/apoio-de-alysson-a-mailza-e-uma-troca-ele-apoia-ela-em-2026-para-ter-apoio-em-2028/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Governadora em exercício desde abril de 2026."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002548050",
+   "nome_urna": "Marcio Bittar",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "AC",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Reeleito senador pelo Acre em 04/10/2026 com 25,59% dos votos válidos; está no Senado desde 2019.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122717/marcio-bittar-e-mara-rocha-sao-eleitos-senadores-pelo-acre"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Filiado ao PL, partido de Flávio Bolsonaro, mas não foi localizada declaração específica sobre o 2º turno."
+  },
+  {
+   "ano": "2024",
+   "sq": "10001908807",
+   "nome_urna": "Tião Bocalom",
+   "papel": "prefeito(a) 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Declarou apoio a Flávio Bolsonaro para presidente; na convenção disse que 'nunca deixou de dizer que é Flávio', segundo a Revista Oeste. Não foi localizada declaração nova após o 1º turno.",
+    "data": "2026-09-09",
+    "urls": [
+     "https://revistaoeste.com/politica/alan-rick-lidera-intencoes-de-voto-ao-governo-do-acre/"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-07",
+     "texto": "Ex-prefeito de Rio Branco, foi confirmado candidato a governador do Acre pelo PSDB em convenção; é descrito como aliado de Jair Bolsonaro e ex-filiado ao PL.",
+     "urls": [
+      "https://www.metropoles.com/brasil/acre-coligacao-confirma-tiao-bocalom-ao-governo-e-velloso-ao-senado"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Ficou em 3º lugar na eleição para governador do Acre, com 10,22% dos votos válidos, fora do 2º turno.",
+     "urls": [
+      "https://www.congressoemfoco.com.br/noticia/122690/acre-tera-segundo-turno-entre-mailza-assis-e-alan-rick"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Não é mais prefeito de Rio Branco: deixou o cargo para disputar o governo e trocou o PL pelo PSDB. O prefeito atual é o vice, Alysson Bestene (PP). A data exata da saída não foi confirmada nas fontes."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002058655",
+   "nome_urna": "Salatiel Magalhães",
+   "papel": "prefeito(a) 2024",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": true,
+   "obs": "Uma busca foi feita e só encontrou agenda institucional da prefeitura, sem conteúdo relevante."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002549930",
+   "nome_urna": "Dr. Daniel",
+   "papel": "governador(a) 2026",
+   "uf": "PA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Flávio",
+    "texto": "Em evento com o PL em Oriximiná, o governador eleito disse que vai 'pedir votos para Flávio Bolsonaro' no 2º turno e agradeceu ao PL pelo apoio.",
+    "data": "2026-10-06",
+    "urls": [
+     "https://www.oliberal.com/eleicoes/governador-eleito-do-para-dr-daniel-declara-apoio-a-flavio-bolsonaro-1.1177763"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Foi eleito governador do Pará no 1º turno, com cerca de 51,4% dos votos válidos, derrotando a governadora Hana Ghassan (MDB), candidata do grupo de Helder Barbalho; sua coligação reuniu Podemos, PL, DC e Novo, com Ellayne D'Almeida (PL) como vice.",
+     "urls": [
+      "https://www.em.com.br/politica/2026/10/7514564-dr-daniel-vence-no-1-turno-e-e-eleito-governador-do-para.html",
+      "https://www.tse.jus.br/comunicacao/noticias/2026/Outubro/dr-daniel-e-eleito-governador-do-para-no-1o-turno"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Foi prefeito de Ananindeua de 2021 a 2026, reeleito em 2024, e trocou o PSDB pelo Podemos no início de 2026 para disputar o governo.",
+     "urls": [
+      "https://www.em.com.br/politica/2026/10/7514564-dr-daniel-vence-no-1-turno-e-e-eleito-governador-do-para.html"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": ""
+  },
+  {
+   "ano": "2026",
+   "sq": "140002550779",
+   "nome_urna": "Helder",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "Lula",
+    "texto": "Subiu ao palanque de Lula em Belém em 28/09/2026 e atribuiu sua gestão à parceria com o governo federal; em janeiro de 2026 disse que o MDB deveria ser 'solidário' à recandidatura de Lula. Não foi localizada declaração após o 1º turno.",
+    "data": "2026-09-28",
+    "urls": [
+     "https://diariodopara.com.br/eleicoes-2026/hana-tem-que-ser-governadora-lula-faz-apelo-diante-de-100-mil-pessoas/",
+     "https://www.congressoemfoco.com.br/noticia/119320/mdb-deve-ser-solidario-a-reeleicao-de-lula-afirma-helder-barbalho"
+    ]
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Foi eleito senador pelo Pará em 04/10/2026 com 26,10% dos votos válidos, o mais votado; foi governador de 2019 até abril de 2026, quando deixou o cargo para concorrer. Jader Barbalho é seu 1º suplente.",
+     "urls": [
+      "https://www.oliberal.com/eleicoes/chicao-helder-jader-zequinha-veja-como-fica-senado-do-para-apos-eleicoes-1.1177399",
+      "https://www.congressoemfoco.com.br/noticia/122890/para-elege-helder-e-chicao-para-o-senado"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Sua sucessora e candidata, a governadora Hana Ghassan (MDB), perdeu no 1º turno para Dr. Daniel (Podemos), com 46,5% dos votos válidos.",
+     "urls": [
+      "https://www.em.com.br/politica/2026/10/7514564-dr-daniel-vence-no-1-turno-e-e-eleito-governador-do-para.html"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "O apoio a Lula vem do 1º turno; não há declaração específica para o 2º turno."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002550780",
+   "nome_urna": "Chicão",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "PA",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2026-10",
+     "texto": "Presidente da Alepa desde 2021, foi eleito senador pelo Pará em 04/10/2026 com 22,45% dos votos válidos e ocupa a vaga de Zequinha Marinho (Podemos).",
+     "urls": [
+      "https://www.oliberal.com/eleicoes/chicao-helder-jader-zequinha-veja-como-fica-senado-do-para-apos-eleicoes-1.1177399"
+     ]
+    },
+    {
+     "tipo": "posição",
+     "data": "2026-07",
+     "texto": "Na convenção da Federação União Progressista em 27/07/2026, que oficializou sua candidatura, foi formalizado o apoio à reeleição de Hana Ghassan e à candidatura de Helder Barbalho ao Senado.",
+     "urls": [
+      "https://revistacenarium.com.br/en/presidente-da-alepa-oficializa-candidatura-ao-senado-e-apoio-a-helder-e-hana-2/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Posição no 2º turno presidencial não localizada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002003108",
+   "nome_urna": "Boró",
+   "papel": "prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002219526",
+   "nome_urna": "Alcides Barra",
+   "papel": "prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002152510",
+   "nome_urna": "Valentim",
+   "papel": "prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002533084",
+   "nome_urna": "Delegado Alessandro",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "SE",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002542491",
+   "nome_urna": "Fábio",
+   "papel": "governador(a) 2026",
+   "uf": "SE",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547285",
+   "nome_urna": "Rogerio Carvalho",
+   "papel": "senador(a) eleito(a) 2026",
+   "uf": "SE",
+   "municipios": "",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002045338",
+   "nome_urna": "Ivan Sobral",
+   "papel": "prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002111813",
+   "nome_urna": "Juca",
+   "papel": "prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002026378",
+   "nome_urna": "Guilherme",
+   "papel": "prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002532420",
+   "nome_urna": "Minoru Kinpara",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002532447",
+   "nome_urna": "Marcus Alexandre",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002533980",
+   "nome_urna": "Emerson Jarude",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002544519",
+   "nome_urna": "Samir Bestene",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002545228",
+   "nome_urna": "Coronel Ulysses",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002545231",
+   "nome_urna": "Socorro Neri",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002532422",
+   "nome_urna": "Pedro Longo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002532489",
+   "nome_urna": "Roberto Duarte",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002534784",
+   "nome_urna": "Jailson Amorim",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002544524",
+   "nome_urna": "André Da Droga Vale",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002544527",
+   "nome_urna": "Maria Antonia",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "10002545227",
+   "nome_urna": "Zezinho Barbary",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002540461",
+   "nome_urna": "Cassio Andrade",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002541723",
+   "nome_urna": "Andrea Dantas",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002541727",
+   "nome_urna": "Andreia Xarão",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002548356",
+   "nome_urna": "Yuri Faro",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002540462",
+   "nome_urna": "Antonio Doido",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás; Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002536778",
+   "nome_urna": "Mazinho Salomão",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Anajás; Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002540456",
+   "nome_urna": "Jader Filho",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002548357",
+   "nome_urna": "Dilvanda Faro",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002548993",
+   "nome_urna": "Elias Santiago",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002551126",
+   "nome_urna": "Victor Dias",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002541714",
+   "nome_urna": "Cilene Couto",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru; Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002540452",
+   "nome_urna": "Priante",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002540454",
+   "nome_urna": "Renilce Nicodemos",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002541730",
+   "nome_urna": "Iran Lima",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "140002547295",
+   "nome_urna": "Dra. Alessandra Haber",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002533080",
+   "nome_urna": "Gracinha Garcez",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002545628",
+   "nome_urna": "Paulo Jr",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002550765",
+   "nome_urna": "Fernandinho Franco",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547408",
+   "nome_urna": "Yandra Moura",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda; Laranjeiras; Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547412",
+   "nome_urna": "Capitão Samuel",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda; Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002549384",
+   "nome_urna": "Marcelo Sobral",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda; Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002535754",
+   "nome_urna": "Antônio Bala",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002540207",
+   "nome_urna": "Zezinho Sobral",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002541263",
+   "nome_urna": "Marcos Franco",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002535762",
+   "nome_urna": "Fábio Henrique",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Laranjeiras; Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002542470",
+   "nome_urna": "Delegada Katarina",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Laranjeiras; Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002533076",
+   "nome_urna": "Dra. Clécia",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002541260",
+   "nome_urna": "Claudio Mitidieri",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002545625",
+   "nome_urna": "Padre Inaldo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547478",
+   "nome_urna": "Jorginho Araujo",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547440",
+   "nome_urna": "Marcio Macedo",
+   "papel": "deputado(a) federal 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002547476",
+   "nome_urna": "Adailton Martins",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2026",
+   "sq": "260002549385",
+   "nome_urna": "Netinho Guimarães",
+   "papel": "deputado(a) estadual 2026 (top 3 no município)",
+   "uf": "SE",
+   "municipios": "Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10001908808",
+   "nome_urna": "Alysson Bestene",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "posição",
+     "data": "2026-10",
+     "texto": "Já como prefeito de Rio Branco, anunciou em 05/10/2026 apoio a Mailza Assis (PP) no 2º turno para governador; no 1º turno tinha apoiado Tião Bocalom (PSDB).",
+     "urls": [
+      "https://prensamercosur.org/2026/10/06/apoio-de-alysson-a-mailza-e-uma-troca-ele-apoia-ela-em-2026-para-ter-apoio-em-2028/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Cargo atual: prefeito de Rio Branco (eleito vice em 2024), porque Bocalom deixou o cargo para disputar o governo. Posição no 2º turno presidencial não localizada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10001984745",
+   "nome_urna": "André Kamai",
+   "papel": "vereador(a) PT 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002197042",
+   "nome_urna": "Raimundo Nenem",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002197046",
+   "nome_urna": "Joaquim Florencio",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002197056",
+   "nome_urna": "Antonio Morais",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rio Branco",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002058654",
+   "nome_urna": "Neto Do Jamilson",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002207214",
+   "nome_urna": "Orlinete Smyth",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002207217",
+   "nome_urna": "Chico Vaqueiro",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "10002207220",
+   "nome_urna": "Raiden Da Endemias",
+   "papel": "vereador(a) PL 2024",
+   "uf": "AC",
+   "municipios": "Rodrigues Alves",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002003107",
+   "nome_urna": "Quito",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002243970",
+   "nome_urna": "Oziel Macaco",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PA",
+   "municipios": "Anajás",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140001903907",
+   "nome_urna": "Marquinho Da Pesca",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140001903910",
+   "nome_urna": "Deco Silva",
+   "papel": "vereador(a) PT 2024",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002381602",
+   "nome_urna": "Jenivaldo Costa",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Limoeiro Do Ajuru",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "140002152509",
+   "nome_urna": "Nivaldo",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "PA",
+   "municipios": "Salvaterra",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002045337",
+   "nome_urna": "Pastor Jonatha",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Itaporanga D'Ajuda",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002111814",
+   "nome_urna": "Luciano Da Várzea",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002170952",
+   "nome_urna": "Rustinho Do Lambe Sujo",
+   "papel": "vereador(a) PT 2024",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002170956",
+   "nome_urna": "Dr Leo",
+   "papel": "vereador(a) PT 2024",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002238720",
+   "nome_urna": "Emerson Da Farmácia",
+   "papel": "vereador(a) PL 2024",
+   "uf": "SE",
+   "municipios": "Laranjeiras",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "2024",
+   "sq": "260002026377",
+   "nome_urna": "Detinha",
+   "papel": "vice-prefeito(a) 2024",
+   "uf": "SE",
+   "municipios": "Pirambu",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [],
+   "sem_noticias": false,
+   "obs": "Não pesquisado: o limite de buscas web da sessão (compartilhado entre agentes) acabou antes desta pessoa. Precisa de nova rodada."
+  },
+  {
+   "ano": "",
+   "sq": "",
+   "nome_urna": "Dr. Samuel (Samuel Carvalho)",
+   "papel": "prefeito(a) atual (fora da base TSE)",
+   "uf": "SE",
+   "municipios": "Nossa Senhora Do Socorro",
+   "posicao_2t": {
+    "apoio": "não encontrado",
+    "texto": "",
+    "data": "",
+    "urls": []
+   },
+   "pontos": [
+    {
+     "tipo": "fato",
+     "data": "2024-10",
+     "texto": "Samuel Carvalho, o Dr. Samuel (Cidadania), foi eleito prefeito de Nossa Senhora do Socorro no 1º turno de 06/10/2024, com 59,12% dos votos válidos, contra Carminha (Republicanos, 28,27%) e Clécia (PL, 11,92%).",
+     "urls": [
+      "https://www.cnnbrasil.com.br/eleicoes/dr-samuel-e-eleito-prefeito-de-nossa-senhora-do-socorro-se/"
+     ]
+    },
+    {
+     "tipo": "fato",
+     "data": "2024-12",
+     "texto": "Foi diplomado pela Justiça Eleitoral em 17/12/2024 com 56.391 votos, tendo Elmo Paixão (União Brasil) como vice; a reportagem não menciona contestação judicial.",
+     "urls": [
+      "https://infonet.com.br/noticias/politica/dr-samuel-e-diplomado-prefeito-de-nossa-senhora-do-socorro/"
+     ]
+    }
+   ],
+   "sem_noticias": false,
+   "obs": "Mandato 2025–2028, com posse em 01/01/2025. Ex-deputado estadual, eleito em 2018 e 2022. Não foram encontradas notícias de anulação da eleição, cassação, afastamento ou eleição suplementar em Socorro; ele aparece como prefeito em 2025–2026. A ausência na base TSE parece ser uma lacuna dos dados (por exemplo, registro, nome de urna ou situação de totalização) e não foi verificada no arquivo do TSE. É uma pessoa diferente de 'Capitão Samuel' (UNIÃO), candidato a deputado federal em 2026 nesta mesma lista. Posição no 2º turno presidencial não localizada; busca interrompida pelo limite."
+  }
+ ]
+}

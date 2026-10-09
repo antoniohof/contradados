@@ -1,0 +1,120 @@
+/* Layout: uma coluna no celular; mapa + ficha lado a lado a partir de 900px */
+:root {
+  --bg: #f7f7f4; --card: #ffffff; --fg: #141414; --fg2: #55554f; --line: #e3e2dc;
+  --lula: #d8413f; --flavio: #2a6fd0; --neutro: #ecebe5; --acc: #141414;
+  --f: system-ui, -apple-system, "Segoe UI", Roboto, sans-serif;
+}
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --bg: #111110; --card: #1b1b1a; --fg: #f2f2ee; --fg2: #b5b4ad; --line: #2e2e2b;
+    --lula: #ec6b69; --flavio: #5b9bf0; --neutro: #2a2a27; --acc: #f2f2ee; color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --bg: #111110; --card: #1b1b1a; --fg: #f2f2ee; --fg2: #b5b4ad; --line: #2e2e2b;
+  --lula: #ec6b69; --flavio: #5b9bf0; --neutro: #2a2a27; --acc: #f2f2ee; color-scheme: dark;
+}
+
+* { box-sizing: border-box; }
+body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.45 var(--f); }
+h1 { font-size: 28px; line-height: 1.15; margin: 0 0 4px; text-wrap: balance; }
+h2 { font-size: 18px; margin: 0; }
+h3 { font-size: 22px; margin: 0; text-wrap: balance; }
+p { margin: 0 0 8px; }
+
+.top, main { max-width: 1200px; margin: 0 auto; padding-inline: 16px; }
+.top { padding-block: 20px 8px; }
+.top p { color: var(--fg2); }
+main { display: grid; gap: 16px; padding-block: 8px 40px; }
+section { background: var(--card); border: 1px solid var(--line); border-radius: 12px; padding: 16px; min-width: 0; }
+
+.busca { display: grid; gap: 4px; margin-top: 12px; font-weight: 600; }
+.busca input { font: inherit; font-size: 17px; padding: 12px 14px; border-radius: 10px; border: 1.5px solid var(--fg2); background: var(--card); color: var(--fg); width: 100%; }
+input:focus-visible, select:focus-visible, button:focus-visible { outline: 2px solid var(--flavio); outline-offset: 2px; }
+
+.linha { display: flex; flex-wrap: wrap; gap: 8px; align-items: center; justify-content: space-between; margin-bottom: 10px; }
+select { font: inherit; font-size: 15px; padding: 8px 10px; border-radius: 8px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); max-width: 100%; }
+
+/* ficha do município */
+.ficha .sub { color: var(--fg2); font-size: 14px; margin-bottom: 12px; }
+.grande { font-size: 34px; font-weight: 700; line-height: 1.1; font-variant-numeric: tabular-nums; }
+.grande small { font-size: 15px; font-weight: 400; color: var(--fg2); }
+.barra { display: flex; height: 14px; border-radius: 4px; overflow: hidden; gap: 2px; margin: 10px 0 6px; background: var(--neutro); }
+.barra i { display: block; height: 100%; }
+.kv { display: grid; grid-template-columns: 1fr auto; gap: 6px 12px; font-size: 15px; margin: 8px 0 0; }
+.kv dt { color: var(--fg2); }
+.kv dd { margin: 0; text-align: right; font-variant-numeric: tabular-nums; font-weight: 600; }
+.bloco { border-top: 1px solid var(--line); margin-top: 14px; padding-top: 12px; }
+.bloco h4 { margin: 0 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--fg2); }
+.ficha ul { margin: 6px 0 0; padding-left: 20px; font-size: 15px; }
+.fontes { font-size: 12px; color: var(--fg2); overflow-wrap: anywhere; }
+.fontes a { color: inherit; }
+.vazio { color: var(--fg2); }
+.cor-l { color: var(--lula); } .cor-f { color: var(--flavio); }
+
+/* localização (opcional) e "perto de" */
+.local { margin-top: 10px; font: inherit; font-size: 15px; padding: 10px 14px; border-radius: 10px; border: 1px solid var(--line); background: var(--card); color: var(--fg); cursor: pointer; }
+.local-msg { font-size: 14px; color: var(--fg2); margin-top: 6px; }
+.perto .sub { color: var(--fg2); font-size: 14px; margin: 4px 0 8px; }
+#perto { margin: 0; padding: 0; list-style: none; }
+#perto li { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; padding: 9px 0; border-top: 1px solid var(--line); cursor: pointer; }
+#perto li small { grid-column: 1 / -1; color: var(--fg2); font-size: 13px; }
+#perto li span:nth-child(2) { color: var(--fg2); font-size: 14px; font-variant-numeric: tabular-nums; }
+
+/* mapa */
+#mapa { display: block; width: 100%; height: auto; touch-action: manipulation; }
+#mapa path { stroke: var(--card); stroke-width: .15; cursor: pointer; }
+#mapa path.sel { stroke: var(--acc); stroke-width: 2.5; }
+.legenda { display: flex; justify-content: space-between; gap: 8px; font-size: 13px; color: var(--fg2); margin-top: 8px; }
+.legenda .rampa { flex: 1; height: 10px; border-radius: 4px; align-self: center; }
+
+/* ranking */
+.chips { display: flex; flex-wrap: wrap; gap: 6px; margin-bottom: 10px; }
+.chips button, .mais { font: inherit; font-size: 14px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); cursor: pointer; }
+.chips button[aria-pressed="true"] { background: var(--fg); color: var(--bg); border-color: var(--fg); }
+#ranking { margin: 0; padding: 0; list-style: none; counter-reset: r; }
+#ranking li { display: grid; grid-template-columns: 2em 1fr auto; gap: 8px; padding: 9px 0; border-top: 1px solid var(--line); cursor: pointer; font-variant-numeric: tabular-nums; }
+#ranking li::before { counter-increment: r; content: counter(r); color: var(--fg2); }
+#ranking li span:last-child { text-align: right; color: var(--fg2); font-size: 14px; }
+#ranking li:hover, #ranking li.sel { background: var(--bg); }
+.mais { margin-top: 10px; width: 100%; border-radius: 10px; }
+
+.brasil .kv { font-size: 15px; }
+.metodo { font-size: 15px; color: var(--fg2); }
+.metodo ul { padding-left: 20px; }
+
+@media (min-width: 900px) {
+  main { grid-template-columns: minmax(0, 1fr) 420px; align-items: start; }
+  .ficha { grid-column: 2; grid-row: 1 / span 2; position: sticky; top: env(safe-area-inset-top, 0px); max-height: 100vh; overflow: auto; }
+  .perto, .mapa, .ranking, .brasil, .metodo { grid-column: 1; }
+}
+@media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
+
+/* relatórios (#m-IBGE, #uf-UF) */
+.relatorio { max-width: 760px; margin: 0 auto 40px; padding: 16px; background: var(--card); border: 1px solid var(--line); border-radius: 12px; }
+@media (max-width: 792px) { .relatorio { margin-inline: 16px; } }
+.relatorio h2 { font-size: 26px; margin: 8px 0 4px; text-wrap: balance; }
+.relatorio h3 { font-size: 17px; margin: 22px 0 6px; padding-top: 14px; border-top: 1px solid var(--line); }
+.relatorio .sub, .voltar { color: var(--fg2); font-size: 14px; }
+.relatorio ul { padding-left: 20px; margin: 4px 0; } .relatorio li { margin: 4px 0; }
+.relatorio a { color: inherit; }
+.link { font: inherit; background: none; border: 0; padding: 0; color: inherit; text-decoration: underline; cursor: pointer; }
+.botao { display: inline-block; font-size: 14px; padding: 7px 12px; border-radius: 999px; border: 1px solid var(--line); background: var(--bg); color: var(--fg); text-decoration: none; }
+.acoes { display: flex; flex-wrap: wrap; gap: 6px; margin-top: 14px; }
+.ufs-t { margin: 14px 0 6px; font-size: 13px; text-transform: uppercase; letter-spacing: .05em; color: var(--fg2); }
+@media print { .top, main, .voltar { display: none !important; } .relatorio { border: 0; } }
+
+/* círculos de quantidade */
+#bolhas circle { fill-opacity: .55; stroke: var(--card); stroke-width: .3; cursor: pointer; }
+#mapa.qtd #areas path { stroke-width: .1; }
+.legenda .ref { width: 150px; height: auto; flex: none; }
+.legenda .ref circle { fill: none; stroke: var(--fg2); stroke-width: .8; }
+.legenda .ref text { font-size: 11px; fill: var(--fg2); }
+
+/* tabelas de quantidade */
+.tabela { overflow-x: auto; margin: 0 -4px; }
+.tabela table { border-collapse: collapse; width: 100%; min-width: 540px; font-size: 14px; font-variant-numeric: tabular-nums; }
+.tabela th, .tabela td { padding: 6px 4px; border-top: 1px solid var(--line); text-align: right; white-space: nowrap; }
+.tabela thead th { font-weight: 600; color: var(--fg2); font-size: 12px; border-top: 0; }
+.tabela tbody th { text-align: left; font-weight: 600; white-space: normal; min-width: 120px; position: sticky; left: 0; background: var(--card); }
+.tabela tbody th small { display: block; font-weight: 400; color: var(--fg2); font-size: 12px; }
