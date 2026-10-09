@@ -1,27 +1,26 @@
 // Relatórios por lugar: #m-<IBGE> (município) e #uf-<UF> (estado).
 // Usa as funções e dados de app.js (M, CARDS, num, pct, fr, pp, esc, nome, km...).
 
-// Pontos cegos: códigos gerados em build/build.py → texto para o leitor
+// Limites dos dados: códigos gerados em build/build.py → texto para o leitor
 const ALERTAS = {
-  p: "Município pequeno (menos de 5 mil eleitores): poucos votos mudam muito os percentuais.",
-  e: (v) => `O eleitorado mudou ${v}% desde 2022: as comparações com 2022 são frágeis.`,
-  n: "Município novo, sem histórico de 2022: não há comparação com eleições anteriores.",
-  a: "Abstenção acima de 30%: parte pode ser cadastro desatualizado (eleitores que mudaram ou morreram), não desinteresse.",
-  i: "Mais de 15% dos eleitores têm 70 anos ou mais (voto facultativo): a abstenção tende a ser alta e difícil de mobilizar.",
-  s: "Sem pesquisa local: pautas e contexto não foram levantados para este município.",
-  b: "Pautas locais com confiança baixa (fontes institucionais ou genéricas).",
-  g: "Parte das pautas vem do plano de governo do prefeito (o que ele prometeu), não de imprensa ou pesquisa.",
-  j: "Há votos anulados sub judice para governador ou senado neste estado: os números podem mudar com decisões da Justiça Eleitoral.",
-  t: "Empate exato entre Lula e Flávio em 2026.",
-  f: "Prefeito não encontrado no registro de 2024 do TSE (possível eleição suplementar). Brasília e Fernando de Noronha não têm prefeito.",
+  p: "Menos de 5 mil eleitores: percentuais instáveis.",
+  e: (v) => `Eleitorado mudou ${v}% desde 2022.`,
+  n: "Sem histórico de 2022.",
+  a: "Abstenção acima de 30%; cadastro pode estar desatualizado.",
+  i: "Mais de 15% têm 70+ (voto facultativo).",
+  s: "Sem pesquisa local.",
+  b: "Pautas com baixa confiança.",
+  g: "Pautas incluem promessas do plano de governo.",
+  j: "Votos sub judice: resultados sujeitos a revisão.",
+  t: "Empate Lula × Flávio.",
+  f: "Sem prefeito no registro consultado.",
 };
-// Pontos cegos que valem para todos os lugares
 const CEGOS_GERAIS = [
-  "O repasse dos votos de terceiros usa a média nacional da pesquisa Quaest (02–03/10). Não há pesquisa por município.",
-  "Os dados mostram lugares, não pessoas: não dá para saber se os mesmos eleitores mudaram de voto.",
-  "Renda, religião e urbano/rural vêm do Censo 2022 (população toda, não só eleitores). Ainda falta Bolsa Família por município. O perfil do eleitorado (idade, escolaridade, gênero) é de 2026 e também é usado para comparar com 2022.",
-  "Votos do exterior (916 mil eleitores) ficam fora.",
-  "Este site usa o retrato do 1º turno de 08/10/2026. Não incorpora resultados do 2º turno nem pesquisas posteriores nessa estimativa.",
+  "Repasse Quaest nacional; sem estimativa municipal.",
+  "Territórios, não trajetórias individuais.",
+  "Censo 2022: população. TSE 2026: eleitorado. Sem Bolsa Família municipal.",
+  "Exterior excluído.",
+  "Retrato de 08/10/2026; sem atualização automática.",
 ];
 // mediana das rendas medianas dos municípios (referência)
 let MEDIANA_BR = null;
@@ -34,7 +33,7 @@ const quem = (v) => (v >= 0 ? `<span class="cor-l">Lula</span>` : `<span class="
 function cartao(c) {
   if (!c) return "";
   return `<h3>${esc(c.cargo)}: ${esc(c.cand)} × ${esc(c.adv)}</h3>
-    <p>1º turno: ${esc(c.t1)}. ${esc(c.status)}.</p>${lista(c.pontos.map(esc))}${links(c.urls)}`;
+    <p>${esc(c.t1)}</p><details><summary>Contexto e fontes</summary><p>${esc(c.status)}</p>${lista(c.pontos.map(esc))}${links(c.urls)}</details>`;
 }
 
 function relatorioMunicipio(id) {
@@ -46,22 +45,21 @@ function relatorioMunicipio(id) {
   const razao = Math.abs(m.dif) > 0 ? m.jogo / Math.abs(m.dif) : null;
   const virou = m.dif === 0 ? "terminou empatado" : m.l22 > m.b22 && m.f26 > m.l26 ? "virou de Lula para Flávio" : m.l22 > m.b22 ? "continuou com Lula" : "continuou com o PL";
   return `
-  <p class="voltar"><a href="#">← Voltar</a> · <a href="#uf-${m.uf}">Relatório do estado (${m.uf})</a> · <button id="copiar" class="link" type="button">Copiar link</button></p>
+  <p class="voltar"><a href="#">← Voltar</a> · <a href="#uf-${m.uf}">Estado (${m.uf})</a> · <button id="copiar" class="link" type="button">Copiar link</button></p>
   <h2>${esc(nome(m))}</h2>
   <p class="sub">Relatório de 08/10/2026 · ${num(m.apt)} eleitores · IBGE ${id}</p>
 
   <h3>Resumo</h3>
-  <p>No 1º turno de 2022, Lula teve ${pct(m.l22)} e Bolsonaro ${pct(m.b22)}. Em 2026, Lula teve ${pct(m.l26)} e Flávio ${pct(m.f26)}: o município ${virou}
-  (mudança de ${pp(m.sw)} na margem). ${m.dif === 0 ? "Os dois candidatos empataram em votos." : `${quem(m.dif)} terminou ${num(Math.abs(m.dif))} votos à frente.`}
-  Há ${num(m.jogo)} votos em jogo para o 2º turno${razao ? `, ${razao.toLocaleString("pt-BR", { maximumFractionDigits: 1 })} vezes a diferença atual` : ""}.</p>
+  <p>${m.dif === 0 ? "Empate em votos." : `${quem(m.dif)} +${num(Math.abs(m.dif))} votos.`} ${num(m.jogo)} votos em jogo. Cenário, não previsão.</p>
+  <p>2022: Lula ${pct(m.l22)} × Bolsonaro ${pct(m.b22)}.<br>2026: Lula ${pct(m.l26)} × Flávio ${pct(m.f26)}.<br>Mudança: ${pp(m.sw)}.</p>
 
   <h3>Votos em jogo</h3>
-  ${lista([`Queda da parcela bipartidária de Lula desde o 2º turno de 2022, convertida em votos atuais: <b>${num(m.volL)}</b>`,
-    `Aumento da parcela bipartidária de Lula desde 2022, convertido em votos atuais: <b>${num(m.volF)}</b>`,
-    `Votos em terceiros: <b>${num(m.tL + m.tF + m.tI)}</b> (pela pesquisa: ${num(m.tF)} para Flávio, ${num(m.tL)} para Lula, ${num(m.tI)} indecisos)`,
-    `Brancos e nulos no 1º turno: <b>${num(m.bn)}</b>`,
-    `Ausentes acima da menor abstenção já registrada aqui: <b>${num(m.abs)}</b>`,
-    `Saldo potencial (cenário): ${m.saldo >= 0 ? `<span class="cor-l">Lula +${num(m.saldo)}</span>` : `<span class="cor-f">Flávio +${num(-m.saldo)}</span>`}`])}
+  ${lista([`Queda de Lula (estimativa): <b>${num(m.volL)}</b>`,
+    `Aumento de Lula (estimativa): <b>${num(m.volF)}</b>`,
+    `Terceiros: <b>${num(m.tL + m.tF + m.tI)}</b> (pela pesquisa: ${num(m.tF)} para Flávio, ${num(m.tL)} para Lula, ${num(m.tI)} indecisos)`,
+    `Brancos/nulos: <b>${num(m.bn)}</b>`,
+    `Ausentes extras: <b>${num(m.abs)}</b>`,
+    `Saldo estimado: ${m.saldo >= 0 ? `<span class="cor-l">Lula +${num(m.saldo)}</span>` : `<span class="cor-f">Flávio +${num(-m.saldo)}</span>`}`])}
 
   <h3>Comparecimento</h3>
   <p>Abstenção no 1º turno: ${pct(m.a18)} em 2018, ${pct(m.a22)} em 2022 e ${pct(m.a26)} em 2026. Faltaram ${num(m.aus)} eleitores.</p>
@@ -89,14 +87,14 @@ function relatorioMunicipio(id) {
 
   <h3>Contexto local</h3>
   ${pautas.length ? `${m.eco ? `<p>${esc(m.eco)}</p>` : ""}${lista(pautas.map(esc))}${m.eve ? `<p>${esc(m.eve)}</p>` : ""}${links(fontes)}`
-    : "<p>Sem pesquisa local para este município. Veja o ponto cego abaixo.</p>"}
+    : "<p>Sem pesquisa local.</p>"}
 
   ${CARDS[m.uf] ? cartao(CARDS[m.uf]) : ""}
   ${cartao(CARDS.BR)}
 
   ${viz.length ? `<h3>Perto daqui (até 100 km)</h3>${lista(viz.map(([k, d]) => `<a href="#m-${k}">${esc(nome(M[k]))}</a> · ${Math.round(d)} km · ${num(M[k].jogo)} votos em jogo`))}` : ""}
 
-  <h3>Pontos cegos</h3>
+  <h3>Limites dos dados</h3>
   ${lista((m.al || []).map(textoAlerta).concat(CEGOS_GERAIS).map(esc))}`;
 }
 
@@ -115,11 +113,9 @@ function relatorioUF(uf) {
   <p class="sub">Relatório de 08/10/2026 · ${ids.length} municípios · ${num(t.apt)} eleitores</p>
 
   <h3>Resumo</h3>
-  <p>${quem(t.dif)} terminou o 1º turno ${num(Math.abs(t.dif))} votos à frente no estado. ${viraram.length} municípios viraram de Lula para Flávio
-  desde 2022. Há ${num(t.jogo)} votos em jogo: ${num(t.volL)} votos equivalentes à queda da parcela bipartidária de Lula desde 2022, ${num(t.tF + t.tL + t.tI)} em terceiros,
-  ${num(t.bn)} brancos e nulos e ${num(t.abs)} ausentes acima do normal.</p>
+  <p>${quem(t.dif)} +${num(Math.abs(t.dif))} votos. ${viraram.length} viradas para o PL.<br>${num(t.jogo)} votos em jogo. Cenário, não previsão.</p>
 
-  <h3>Onde há mais votos em jogo</h3>
+  <h3>Mais votos em jogo</h3>
   ${lista(topo.map((k) => `<a href="#m-${k}">${esc(nome(M[k]))}</a> · ${num(M[k].jogo)} (${pct((M[k].jogo / M[k].apt) * 100)} dos eleitores)`))}
 
   <h3>Cidades pequenas (até 10 mil eleitores)</h3>
@@ -127,7 +123,7 @@ function relatorioUF(uf) {
 
   ${CARDS[uf] ? cartao(CARDS[uf]) : ""}
 
-  <h3>Pontos cegos no estado</h3>
+  <h3>Limites dos dados</h3>
   ${lista([`${conta("s")} de ${ids.length} municípios sem pesquisa local de pautas.`,
     `${conta("e")} municípios com eleitorado que mudou mais de 15% desde 2022.`,
     `${conta("a")} com abstenção acima de 30% (possível cadastro desatualizado).`,

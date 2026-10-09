@@ -102,40 +102,41 @@ function escolher(id, rolar) {
 }
 
 function ficha(m) {
-  const partes = [["Queda estimada da parcela de Lula", m.volL, cor("--lula")], ["Terceiros → Lula", m.tL, cor("--lula")],
-    ["Terceiros → Flávio", m.tF, cor("--flavio")], ["Queda estimada da parcela do PL", m.volF, cor("--flavio")],
+  const partes = [["Queda de Lula (estimativa)", m.volL, cor("--lula")], ["Terceiros → Lula", m.tL, cor("--lula")],
+    ["Terceiros → Flávio", m.tF, cor("--flavio")], ["Queda do PL (estimativa)", m.volF, cor("--flavio")],
     ["Terceiros indecisos", m.tI, "#8a8a84"], ["Brancos e nulos", m.bn, "#b9b8b0"], ["Ausentes extras", m.abs, "#55554f"]];
   const barra = partes.filter((x) => x[1] > 0).map((x) => `<i title="${esc(x[0])}: ${num(x[1])}" style="flex:${x[1]};background:${x[2]}"></i>`).join("");
   const lider = m.dif === 0 ? "Empate em votos" : m.dif > 0 ? `<span class="cor-l">Lula +${num(m.dif)}</span>` : `<span class="cor-f">Flávio +${num(-m.dif)}</span>`;
   const saldo = m.saldo >= 0 ? `<span class="cor-l">Lula +${num(m.saldo)}</span>` : `<span class="cor-f">Flávio +${num(-m.saldo)}</span>`;
   const kv = (rows) => `<dl class="kv">${rows.filter((r) => r[1] != null && r[1] !== "–").map((r) => `<dt>${esc(r[0])}</dt><dd>${r[1]}</dd>`).join("")}</dl>`;
-  const card = (c) => c ? `<div class="bloco"><h4>${esc(c.cargo)} · ${esc(c.status)}</h4>
-      <p><b>${esc(c.cand)}</b> × ${esc(c.adv)} · 1º turno ${esc(c.t1)}</p>
-      <ul>${c.pontos.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
-      ${c.urls.length ? `<p class="fontes">Fontes: ${c.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">[${i + 1}]</a>`).join(" ")}</p>` : ""}</div>` : "";
+  const card = (c) => c ? `<div class="bloco"><h4>${esc(c.cargo)}</h4>
+      <p>${esc(c.cand)} × ${esc(c.adv)}<br>${esc(c.t1)}</p>
+      <p class="fontes">${c.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">Fonte ${i + 1}</a>`).join(" · ")}</p></div>` : "";
   const pautas = m.pau ? m.pau.split(" | ").filter(Boolean) : [];
   const fontes = m.fon ? m.fon.split(" | ").filter((u) => /^https?:/.test(u)) : [];
   return `
     <h3>${esc(nome(m))}</h3>
     <p class="sub">${num(m.apt)} eleitores · 1º turno 2026: ${lider}</p>
     <div class="grande">${num(m.jogo)} <small>votos em jogo (${pct((m.jogo / m.apt) * 100)} dos eleitores)</small></div>
+    <p class="cenario">Cenário, não previsão.</p>
     <div class="barra">${barra}</div>
-    ${kv([["Queda estimada da parcela de Lula", num(m.volL)], ["Votos em terceiros", num(m.tL + m.tF + m.tI)], ["… ainda indecisos", num(m.tI)],
-      ["Brancos e nulos", num(m.bn)], ["Ausentes acima do normal", num(m.abs)], ["Saldo potencial (cenário)", saldo]])}
+    ${kv([["Queda de Lula (estimativa)", num(m.volL)], ["Terceiros", num(m.tL + m.tF + m.tI)], ["Indecisos", num(m.tI)],
+      ["Brancos e nulos", num(m.bn)], ["Ausentes extras", num(m.abs)], ["Saldo estimado", saldo]])}
     <div class="bloco"><h4>Voto para presidente</h4>
       ${kv([["2022: Lula × Bolsonaro", `${pct(m.l22)} × ${pct(m.b22)}`], ["2026: Lula × Flávio", `${pct(m.l26)} × ${pct(m.f26)}`],
         ["Terceiros 2026", pct(m.t26)], ["Mudança 2022 → 2026", pp(m.sw)], ["Abstenção 2022 → 2026", `${pct(m.a22)} → ${pct(m.a26)}`]])}</div>
+    <details><summary>Poder local e eleitorado</summary>
     <div class="bloco"><h4>Poder local (2024)</h4>
       ${kv([["Prefeito(a)", m.pf ? `${esc(nomeBonito(m.pf))} (${esc(m.pp)})` : "–"], ["Vereadores do PL", m.vtot ? `${m.vpl ?? 0} de ${m.vtot}` : "–"]])}</div>
     <div class="bloco"><h4>Eleitorado</h4>
-      ${kv([["70 anos ou mais", fr(m.i70)], ["Ensino superior", fr(m.esup)], ["Mulheres", fr(m.mul)], ["Renda mediana por pessoa (Censo)", m.rmd != null ? "R$ " + num(m.rmd) : "–"], ["Evangélicos (Censo)", pct(m.evg)], ["Área urbana (Censo)", pct(m.urb)]])}</div>
-    ${m.gc != null ? `<div class="bloco"><h4>Governador no município</h4>${kv([[m.gcn, pct(m.gc)], [m.gan, pct(m.ga)], ["Candidato do PL abaixo de Flávio", pp(m.gd)]])}</div>` : ""}
-    ${card(CARDS[m.uf])}
-    ${pautas.length ? `<div class="bloco"><h4>Pautas locais</h4>${m.eco ? `<p>${esc(m.eco)}</p>` : ""}<ul>${pautas.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
-      ${fontes.length ? `<p class="fontes">Fontes: ${fontes.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">[${i + 1}]</a>`).join(" ")}</p>` : ""}</div>` : ""}
-    ${card(CARDS.BR)}
-    ${m.al && m.al.length ? `<div class="bloco"><h4>Pontos cegos</h4><ul>${m.al.map((c) => `<li>${esc(textoAlerta(c))}</li>`).join("")}</ul></div>` : ""}
-    <p class="acoes"><a class="botao" href="#m-${m.id}">Relatório completo</a> <a class="botao" href="#uf-${m.uf}">Estado (${m.uf})</a></p>`;
+      ${kv([["70 anos ou mais", fr(m.i70)], ["Ensino superior", fr(m.esup)], ["Mulheres", fr(m.mul)], ["Renda mediana (Censo)", m.rmd != null ? "R$ " + num(m.rmd) : "–"], ["Evangélicos (Censo)", pct(m.evg)], ["Área urbana (Censo)", pct(m.urb)]])}</div>
+    ${m.gc != null ? `<div class="bloco"><h4>Governador no município</h4>${kv([[m.gcn, pct(m.gc)], [m.gan, pct(m.ga)], ["Diferença para Flávio", pp(m.gd)]])}</div>` : ""}
+    </details>
+    ${CARDS[m.uf] || CARDS.BR ? `<details><summary>Candidatos</summary>${card(CARDS[m.uf])}${card(CARDS.BR)}</details>` : ""}
+    ${pautas.length ? `<details><summary>Pautas e fontes</summary><div class="bloco">${m.eco ? `<p>${esc(m.eco)}</p>` : ""}<ul>${pautas.map((x) => `<li>${esc(x)}</li>`).join("")}</ul>
+      ${fontes.length ? `<p class="fontes">Fontes: ${fontes.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">[${i + 1}]</a>`).join(" ")}</p>` : ""}</div></details>` : ""}
+    ${m.al && m.al.length ? `<details><summary>Limites dos dados</summary><ul>${m.al.map((c) => `<li>${esc(textoAlerta(c))}</li>`).join("")}</ul></details>` : ""}
+    <p class="acoes"><a class="botao" href="#m-${m.id}">Ver relatório</a> <a class="botao" href="#uf-${m.uf}">Estado (${m.uf})</a></p>`;
 }
 
 // ---------- perto daqui ----------
@@ -147,7 +148,7 @@ function km(a, b) { // distância aproximada (haversine) entre dois municípios
 function perto(id) {
   const c = M[id]; if (!c || c.lt == null) return;
   const viz = Object.keys(M).filter((k) => k !== id && M[k].lt != null).map((k) => [k, km(c, M[k])]).filter((x) => x[1] <= 100)
-    .sort((a, b) => M[b[0]].jogo - M[a[0]].jogo).slice(0, 8);
+    .sort((a, b) => M[b[0]].jogo - M[a[0]].jogo).slice(0, 5);
   $("#perto-titulo").textContent = `Perto de ${nome(c)}`;
   $("#perto").innerHTML = viz.length ? viz.map(([k, d]) => {
     const m = M[k], dica = m.pau ? m.pau.split(" | ")[0] : m.gc != null ? `Governador: ${m.gcn} ${pct(m.gc)}` : `Prefeito: ${m.pf ? nomeBonito(m.pf) + " (" + m.pp + ")" : "–"}`;
@@ -190,16 +191,16 @@ function brasil() {
       Object.values(M).filter(f).forEach((m) => { g.n++; g.apt += m.apt; g.jogo += m.jogo || 0; g.volL += m.volL || 0; g.ter += (m.tL || 0) + (m.tF || 0) + (m.tI || 0); g.bn += m.bn || 0; g.abs += m.abs || 0; g.saldo += m.saldo || 0; });
       return `<tr><th>${rot}<small>${num(g.n)} mun. · ${fmtCurto(g.apt)} eleitores</small></th><td><b>${fmtCurto(g.jogo)}</b></td><td>${fmtCurto(g.volL)}</td><td>${fmtCurto(g.ter)}</td><td>${fmtCurto(g.bn)}</td><td>${fmtCurto(g.abs)}</td><td class="${g.saldo >= 0 ? "cor-l" : "cor-f"}">${g.saldo >= 0 ? "L" : "F"} +${fmtCurto(Math.abs(g.saldo))}</td></tr>`;
     }).join("");
-    return `<h4 class="ufs-t">${titulo}</h4><div class="tabela"><table><thead><tr><th></th><th>Em jogo</th><th>Ex-Lula</th><th>Terceiros</th><th>Br./nulos</th><th>Ausentes</th><th>Saldo</th></tr></thead><tbody>${linhas}</tbody></table></div>`;
+    return `<h4 class="ufs-t">${titulo}</h4><div class="tabela"><table><thead><tr><th></th><th>Em jogo</th><th>Queda Lula</th><th>Terceiros</th><th>Br./nulos</th><th>Ausentes</th><th>Saldo</th></tr></thead><tbody>${linhas}</tbody></table></div>`;
   };
   const porTamanho = grupos("Por tamanho do município", [["Até 10 mil", (m) => m.apt < 1e4], ["10–50 mil", (m) => m.apt >= 1e4 && m.apt < 5e4], ["50–200 mil", (m) => m.apt >= 5e4 && m.apt < 2e5], ["200 mil+", (m) => m.apt >= 2e5]]);
   const porUrb = grupos("Rural ou urbano (Censo 2022)", [["Mais rural (<50% urbano)", (m) => m.urb != null && m.urb < 50], ["Misto (50–80% urbano)", (m) => m.urb >= 50 && m.urb < 80], ["Urbano (80%+)", (m) => m.urb >= 80]]);
   const porRenda = grupos("Por renda (Censo 2022, mediana por pessoa)", [["Até R$ 700", (m) => m.rmd != null && m.rmd <= 700], ["R$ 700–1.200", (m) => m.rmd > 700 && m.rmd <= 1200], ["Acima de R$ 1.200", (m) => m.rmd > 1200]]);
-  $("#brasil").innerHTML = `<div class="grande">${num(t.jogo)} <small>votos em jogo · Flávio terminou o 1º turno ${num(-t.dif)} votos à frente</small></div>
-    <dl class="kv"><dt>Queda estimada da parcela de Lula</dt><dd>${num(t.volL)}</dd><dt>Terceiros → Flávio (pesquisa)</dt><dd>${num(t.tF)}</dd>
+  $("#brasil").innerHTML = `<div class="grande">${num(t.jogo)} <small>votos em jogo · Flávio +${num(-t.dif)} no 1º turno</small></div>
+    <dl class="kv"><dt>Queda de Lula (estimativa)</dt><dd>${num(t.volL)}</dd><dt>Terceiros → Flávio (pesquisa)</dt><dd>${num(t.tF)}</dd>
     <dt>Terceiros → Lula (pesquisa)</dt><dd>${num(t.tL)}</dd><dt>Terceiros indecisos</dt><dd>${num(t.tI)}</dd>
-    <dt>Brancos e nulos</dt><dd>${num(t.bn)}</dd><dt>Ausentes acima do normal</dt><dd>${num(t.abs)}</dd></dl>
-    ${porTamanho}${porUrb}${porRenda}
+    <dt>Brancos e nulos</dt><dd>${num(t.bn)}</dd><dt>Ausentes extras</dt><dd>${num(t.abs)}</dd></dl>
+    <details><summary>Comparar grupos</summary>${porTamanho}${porUrb}${porRenda}</details>
     <h4 class="ufs-t">Relatório por estado</h4><p class="chips">${[...new Set(Object.values(M).map((m) => m.uf))].sort().map((u) => `<a class="botao" href="#uf-${u}">${u}</a>`).join("")}</p>`;
 }
 
@@ -229,7 +230,6 @@ async function iniciar() {
   $("#perto").addEventListener("click", (e) => { const li = e.target.closest("li[data-id]"); if (li) escolher(li.dataset.id, true); });
   $("#ranking").addEventListener("click", (e) => { const li = e.target.closest("li"); if (li) escolher(li.dataset.id, true); });
   $("#mais").addEventListener("click", () => { mostrar += 30; ranking(); });
-  matchMedia("(prefers-color-scheme: dark)").addEventListener("change", pintar);
   // relatórios por lugar
   window.addEventListener("hashchange", rota);
   $("#relatorio").addEventListener("click", (e) => {
