@@ -1,0 +1,55 @@
+{
+ "pesquisa": {
+  "instituto": "Datafolha",
+  "divulgacao": "2026-10-08",
+  "campo": "2026-10-06 a 2026-10-08 (algumas matérias dizem 06 a 07/10)",
+  "registro_tse": "BR-02949/2026",
+  "amostra": 2520,
+  "margem_erro_pp": 2
+ },
+ "lula2p_1t_oficial": 48.98,
+ "lula2p_pesquisa": 48.0,
+ "lula2p_transferencia_terceiros": 48.49,
+ "gap_pesquisa_votos_aprox": -4677069,
+ "validos_2t_aprox": 116926732,
+ "nordeste": {
+  "ausentes_1t": 8002366,
+  "liq_lula_por_ausente": 0.26,
+  "ausentes_necessarios_para_fechar_gap": 17988728,
+  "fracao_dos_ausentes": 2.25
+ },
+ "S2_todos_ausentes_votando_ganho_lula": {
+  "regional": 74215,
+  "local": 336317
+ },
+ "lula_ausentes_excedentes_local": {
+  "descricao": "ganho de Lula se a abstenção caísse até a média nacional (20,84%) onde está acima dela, votando como o município",
+  "votos": -44107
+ },
+ "municipios_que_viram_para_lula": {
+  "A": 146,
+  "B": 0
+ },
+ "municipios_que_viram_para_flavio": {
+  "A": 91,
+  "B": 44
+ },
+ "perfil_tse_usado": {
+  "sexo": {
+   "Mulheres": 0.5281,
+   "Homens": 0.4719
+  },
+  "idade": {
+   "16-24": 0.1212,
+   "25-34": 0.19,
+   "35-44": 0.1965,
+   "45-59": 0.2558,
+   "60+": 0.2365
+  },
+  "escolaridade": {
+   "Fundamental": 0.5525,
+   "Médio": 0.3355,
+   "Superior": 0.1121
+  }
+ }
+}

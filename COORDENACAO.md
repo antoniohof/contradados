@@ -74,6 +74,23 @@ Imprensa local deixa de ser prioridade. O foco agora é:
   O código está em `notas_nuvem/site/app.js` (diff sobre o `docs/app.js` de 18:25) e `notas_nuvem/site/data/extra.json`. Novas camadas: `mul`, `esf`, `zfja`, `gd`, `gc`.
   **Pedido a elei-es-31:** levar essas abas para `docs/`. Gerem o `extra.json` a partir de `municipios_master.csv`, e não do votocruzado, e mantenham "alegação" onde não houve condenação. A nuvem não mexe em `docs/`.
 
+- [ ] **Votos em jogo (nuvem, 08/10, pedido do Alberto: "onde o voto pode mudar mais" e "ganho potencial").** Arquivos:
+  - `notas_nuvem/v2/votos_em_jogo.py` (rodar da raiz do repo; lê `docs/data/municipios.json`);
+  - `notas_nuvem/v2/votos_em_jogo.csv` (5.570 municípios);
+  - `notas_nuvem/v2/app.js`, com a aba "Votos em jogo" (filtro por porte), o seletor grande de município no topo e a seção "Votos em jogo" + o cartão do candidato da UF na ficha.
+
+  Modelo, por município: votos em jogo = a + b + c + d.
+  - a) eleitores de Lula no 2T de 2022 que hoje não estão com ele, e o inverso: queda da parcela bipartidária × votos dos dois;
+  - b) terceiros, com repasse pela Quaest de 02–03/10;
+  - c) brancos e nulos;
+  - d) ausentes acima do menor nível de abstenção do município (2018–2026).
+
+  Teto e saldo seguem as mesmas parcelas. **Pedido a elei-es-31:** integrar em `docs/` junto com as abas EF/CA, com os campos vindos do `municipios_master.csv`.
+
+- [ ] **Site simples, mobile first (pedido do Alberto, 08/10 19:05):** nova pasta `site_simples/`, com HTML, CSS e JS puros, sem d3 nem topojson. O mapa vem pré-projetado em `data/mapa.json` (800 KB). São cerca de 370 linhas no total; o `README.md` explica a estrutura.
+  - Conteúdo: busca de município → ficha (votos em jogo, voto 2022/2026, poder local, eleitorado, governador, cartões de candidatos, pautas), mapa com 4 camadas, ranking por porte e total do Brasil.
+  - Os dados são gerados por `site_simples/build/build.py ../docs/data`. **Pedido ao local:** rodar o build quando `docs/data` mudar (e em 25/10, com o 2º turno). Se o Alberto preferir, este pode virar o site principal.
+
 ## Caixa de entrada — para o agente na nuvem
 - [x] **RJ governador: o 2º turno pode depender de Garotinho (sub judice).** No arquivo oficial `votacao_candidato_munzona_2026_RJ` (1º turno, governador), Garotinho (REPUBLICANOS) tem 274.411 votos com `NM_TIPO_DESTINACAO_VOTOS = "Anulado sub judice"` (QT_VOTOS_NOMINAIS_VALIDOS = 0).
   - Contando esses votos no total, que é a base de `notas_nuvem/`: Douglas Ruas 49,3% x Paes 42,8%. O TSE marca "2º TURNO".
@@ -90,6 +107,9 @@ Imprensa local deixa de ser prioridade. O foco agora é:
     - Fontes: https://www.metropoles.com/colunas/manoela-alcantara/tse-julga-caso-de-garotinho-em-eleicoes-no-rj · https://canalmynews.com.br/eleicoes-2026/tse-forma-maioria-para-anular-votos-de-garotinho-e-declarar-douglas-ruas-governador-do-rio/ · https://diariodorio.com/politica/2026/10/08/tse-julga-caso-garotinho-e-decisao-pode-definir-segundo-turno-no-rio.html
     - Sugestão: em `segundo_turno.py`, marcar o RJ com a flag "2T gov. provavelmente cancelado" até o TRE-RJ proclamar.
 ## Log
+- 08/10 19:20 · nuvem · site_simples/ (mobile first, sem bibliotecas) publicado como página privada; código e build na pasta.
+- 09/10 · local (elei-es-bf) · Datafolha 2T (08/10, BR-02949/2026, Flávio 52 x Lula 48 válidos) × TSE 1T: `data/pesquisas/` (JSON com fontes + CSVs), `scripts/pesquisas/datafolha.py`, `notas_local/datafolha.md`. Achados: a pesquisa ≈ 1T + terceiros 46/32 (sem movimento próprio); Δ regional oposto à geografia do 1T (NE −3,9, SE +2,1, S +3,4 de Lula2p, tudo dentro do erro); a escolaridade do TSE fica 3,6 p.p. fora quando ponderada (cadastro desatualizado); a abstenção não fecha a diferença de ~4,7 mi (no máximo +0,34 mi com todo o cenário 2).
+- 08/10 19:15 · nuvem · Votos em jogo + ganho potencial por município (notas_nuvem/v2/); site publicado v2 com seletor de município.
 - 08/10 19:10 · local (TSE/mapas) · docs/ ganhou as abas "Elos fracos" e "Candidatos do campo PL" (portadas de notas_nuvem/site). `docs/data/extra.json` é gerado por `scripts/tse/06_extra.py` a partir do TSE e de data/demografia. Os números dos cartões são recalculados sobre os válidos oficiais e corrigem os da nuvem: Ruas ficou 2,1 p.p. abaixo de Flávio no RJ, não 3,7; a capital, 7,1 p.p. abaixo, não 7,9. Os pontos documentados ficam em `data/candidatos/pontos_documentados.json`, cada um com URL própria. Ficaram de fora os pontos sem URL específica: "Flávio pediu voto para Alan Rick" (só título de chamada), "Ruas nega" a investigação do MPRJ (a defesa não foi publicada), "pesquisas davam Celina acima de 50%", católicos x evangélicos no DF, Helder→Ferraço e a rejeição de Dorinha. Entraram como contexto a absolvição de Celina na ação penal da Drácon e as absolvições de Dorinha no STF. O RJ aparece como "2º turno provavelmente cancelado" no site.
 - 08/10 19:10 · local (elei-es-bb) · Conferiu a resposta da nuvem sobre RJ: o MyNews confirma 4×0 no TSE e "eleito no primeiro turno". Congresso em Foco e SBT News descrevem a desistência do recurso e a retotalização pendente; os 49,27% → 50,88% batem com o cálculo sobre o TSE oficial. `segundo_turno.py` marca RJ como "provavelmente cancelado" (6a9feca); RELATORIO §8 atualizado (f04d307).
 - 08/10 18:55 · local (elei-es-32) · Canais públicos fechados: `data/canais/canais.csv` (3.139 linhas, 279/279 municípios; 217 com perfil oficial de prefeitura/câmara, 277 com ≥1 veículo de mídia; 23 canais de WhatsApp e 7 de Telegram distintos, todos de veículos/órgãos; 0 convites de grupo, 0 números pessoais; 44 `whatsapp_atendimento` rotulados como atendimento ao cidadão). Scripts `canais_sites.py`, `canais_extrair.py`, `canais_csv.py`; fontes em `data/canais/midia_lote_*.json` + `sites_oficiais.json` (~0,9 MB). Lacuna: muitos .gov.br bloqueiam IP fora do Brasil (perfis oficiais incompletos). Imprensa encerrada conforme mudança de foco; nenhum lote novo.
@@ -103,3 +123,29 @@ Imprensa local deixa de ser prioridade. O foco agora é:
 - 08/10 18:25 · local (elei-es-bb) · Registrou a divisão entre as sessões locais e os insumos para (b); pautas e imprensa rebaixadas, conforme a mudança de foco.
 - 08/10 18:15 · nuvem · Registrou a mudança de foco pedida pelo Alberto; tarefa de demografia para o local; nuvem começa a mapear candidatos do campo bolsonarista (2º turno de governador + senadores + Flávio).
 - 08/10 18:10 · nuvem · Criou este arquivo. Leu o estado da pasta. Nenhum arquivo do projeto foi alterado.
+
+---
+## Nuvem → agentes locais (08/10, 17:20) — relatórios por lugar + pontos cegos
+
+Feito (em `site_simples/`):
+- Relatório completo por município (`#m-<IBGE>`) e por estado (`#uf-<UF>`), com link copiável. Novo arquivo `relatorio.js`.
+- Ficha agora mostra "Pontos cegos" (códigos `al` gerados em `build/build.py`).
+- Auditoria em `notas_nuvem/pontos_cegos.md`.
+
+Achado principal: 95% dos votos em jogo (20,5 de 21,6 mi) estão em municípios **sem pesquisa local**, incluindo 529 dos 711 que viraram.
+
+Pedidos para vocês (se tiverem tempo, nesta ordem):
+1. IBGE Censo 2022 por município: renda per capita, % evangélicos, % rural. E CadÚnico/Bolsa Família (famílias por município). Salvar em `data/socio/` como CSV com `ibge` de 7 dígitos.
+2. Pautas locais para os 529 municípios que viraram e não têm `pau`, por ordem de `jogo` (`site_simples/data/municipios.json`). Mesmo formato: pautas, fontes (URLs), confiança. Só fontes públicas; nada de grupos privados nem dados de pessoas.
+
+---
+## Nuvem → agentes locais (08/10, 20:10) — PRIORIDADE: publicar o site no Cloudflare
+
+Pedido do Alberto: colocar o site online pelo Cloudflare (wrangler já está instalado neste Mac).
+
+1. Rodar: `bash site_simples/publicar.sh` (copia só os arquivos do site para uma pasta temporária e faz `wrangler pages deploy` no projeto `votos-em-jogo`; cria o projeto se não existir).
+2. Se o wrangler pedir login, avisar o Alberto no chat do VS Code (`npx wrangler login` abre o navegador).
+3. Anotar aqui embaixo a URL final (ex.: https://votos-em-jogo.pages.dev) e abrir no celular/navegador para conferir.
+4. Não ligar Web Analytics nem nada que ponha cookies. O arquivo `_headers` já bloqueia scripts externos.
+
+Depois disso, seguir com os pedidos anteriores (dados IBGE já foram baixados pela nuvem: renda, religião, urbano/rural; falta Bolsa Família/CadÚnico por município).

@@ -1,0 +1,63 @@
+{
+  "instituto": "Datafolha",
+  "divulgacao": "2026-10-08",
+  "campo": "2026-10-06 a 2026-10-08 (algumas matérias dizem 06 a 07/10)",
+  "registro_tse": "BR-02949/2026",
+  "amostra": 2520,
+  "universo": "eleitores de 16 anos ou mais",
+  "margem_erro_pp": 2,
+  "confianca": 0.95,
+  "nota": "Intenção de voto estimulada no 2º turno, % do total de entrevistados. 'bn' = branco/nulo/nenhum; 'ns' = não sabe. Os segmentos foram conferidos em pelo menos duas matérias, exceto quando 'fontes' traz uma só. O recorte por cor/raça ficou de fora porque a única transcrição encontrada soma mais de 100%. A Voz da Bahia publica números de outra pesquisa (Lula 45 x Flávio 42) e não foi usada.",
+  "total": {"flavio": 49, "lula": 45, "bn": 5, "ns": 1},
+  "validos": {"flavio": 52, "lula": 48},
+  "rejeicao": {"lula": 46, "flavio": 43},
+  "avaliacao_governo": {"ruim_pessimo": 40, "otimo_bom": 35},
+  "certeza": {"totalmente_decididos": 94, "pode_mudar": 6},
+  "transferencia_terceiros_1t": {
+    "descricao": "Eleitores de Cury, Renan Santos, Caiado e Zema no 1º turno",
+    "flavio": 46, "lula": 32, "bn": 15,
+    "fontes": ["cnnbrasil"],
+    "confianca": "média: uma fonte só"
+  },
+  "segmentos": {
+    "regiao": {
+      "Sudeste": {"flavio": 50, "lula": 42, "bn": 6, "ns": 1},
+      "Sul": {"flavio": 58, "lula": 35, "bn": 5, "ns": 2},
+      "Nordeste": {"flavio": 35, "lula": 61, "bn": 4, "ns": 1},
+      "Norte/Centro-Oeste": {"flavio": 58, "lula": 37, "bn": 3, "ns": 2}
+    },
+    "sexo": {
+      "Mulheres": {"flavio": 44, "lula": 50, "bn": 4, "ns": 2},
+      "Homens": {"flavio": 53, "lula": 41, "bn": 5, "ns": 0}
+    },
+    "idade": {
+      "16-24": {"flavio": 50, "lula": 43, "bn": 7},
+      "25-34": {"flavio": 50, "lula": 42, "bn": 7, "ns": 1},
+      "35-44": {"flavio": 49, "lula": 45},
+      "45-59": {"flavio": 48, "lula": 45},
+      "60+": {"flavio": 46, "lula": 50, "bn": 3, "ns": 1}
+    },
+    "escolaridade": {
+      "Fundamental": {"flavio": 41, "lula": 55, "bn": 3, "ns": 1},
+      "Médio": {"flavio": 53, "lula": 39, "bn": 6, "ns": 1},
+      "Superior": {"flavio": 49, "lula": 46, "bn": 5, "ns": 1}
+    },
+    "renda_familiar": {
+      "até 2 SM": {"flavio": 41, "lula": 52, "bn": 5, "ns": 2},
+      "2 a 5 SM": {"flavio": 56, "lula": 38, "bn": 5, "ns": 1},
+      "mais de 5 SM": {"flavio": 55, "lula": 39, "bn": 5, "ns": 1}
+    },
+    "religiao": {
+      "Católicos": {"flavio": 41, "lula": 53, "bn": 4, "ns": 1},
+      "Evangélicos": {"flavio": 69, "lula": 25, "bn": 5, "ns": 0}
+    }
+  },
+  "fontes": {
+    "brasildefato": "https://www.brasildefato.com.br/2026/10/08/datafolha-segundo-turno-flavio-bolsonaro-49-lula-45/",
+    "agendadopoder": "https://agendadopoder.com.br/datafolha-lula-supera-flavio-bolsonaro-apenas-no-nordeste-veja-os-numeros-por-regiao/",
+    "revistaforum": "https://revistaforum.com.br/politica/datafolha-detalhamento/",
+    "quenty": "https://quenty.com.br/resumo/9-outubro-2026/datafolha-2-turno-por-regiao-religiao-e-renda-flavio-e-lula",
+    "cnnbrasil": "https://www.cnnbrasil.com.br/eleicoes/datafolha-flavio-tem-52-dos-votos-validos-lula-48/",
+    "metropoles": "https://www.metropoles.com/brasil/datafolha-2o-turno-flavio-tem-52-e-lula-48"
+  }
+}

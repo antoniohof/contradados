@@ -1,0 +1,5 @@
+reg_df,aptos_pct,comp_pct,abst26,lula_1t,flavio_1t,terceiros_1t,lula2p_1t,pesq_flavio,pesq_lula,pesq_lula2p,delta_lula2p,me_lula2p_aprox,transf_lula2p,pesq_menos_transf,liq_por_ausente
+Nordeste,27.57,28.42,18.39,63.77,30.85,5.37,67.39,35,61,63.54,-3.85,4.47,66.28,-2.74,0.26
+Norte/Centro-Oeste,15.9,15.97,20.52,38.98,52.62,8.4,42.55,58,37,38.95,-3.61,6.0,42.45,-3.5,-0.21
+Sudeste,42.04,41.05,22.7,39.68,51.36,8.96,43.59,50,42,45.65,2.07,3.83,43.4,2.25,-0.08
+Sul,14.49,14.56,20.46,31.28,60.08,8.64,34.24,58,35,37.63,3.4,6.31,34.7,2.93,-0.23
