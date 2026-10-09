@@ -23,8 +23,6 @@
   <p id="local-msg" class="local-msg" hidden></p>
 </header>
 
-<article id="relatorio" class="relatorio" hidden aria-live="polite"></article>
-
 <main>
   <section class="mapa">
     <div class="linha">
@@ -61,10 +59,14 @@
     <div id="legenda" class="legenda"></div>
   </section>
 
+  <aside id="painel" class="painel" aria-label="Dados e relatórios">
   <section id="ficha" class="ficha" aria-live="polite">
     <p class="vazio">Carregando…</p>
   </section>
 
+  <article id="relatorio" class="relatorio" hidden aria-live="polite"></article>
+
+  <div id="explorar" class="explorar">
   <section class="ranking">
     <div class="linha">
       <h2>Ranking</h2>
@@ -99,6 +101,8 @@
     <p>Localização opcional, usada só no navegador.</p>
     </details>
   </section>
+  </div>
+  </aside>
 </main>
 
 <script src="app.js" charset="utf-8"></script>

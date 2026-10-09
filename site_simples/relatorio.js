@@ -131,13 +131,23 @@ function relatorioUF(uf) {
     .concat(conta("j") ? ["Há votos anulados sub judice para governador ou senado no estado."] : []).concat(CEGOS_GERAIS).map(esc))}`;
 }
 
-// ---------- rotas: #m-<IBGE> e #uf-<UF>; sem hash = página principal ----------
+// Relatórios e fichas usam o mesmo painel; o mapa mantém posição e zoom.
+function abrirPainel(html) {
+  const box = $("#relatorio");
+  box.hidden = !html;
+  $("#ficha").hidden = !!html;
+  $("#explorar").hidden = !!html;
+  if (html) box.innerHTML = html;
+  $("#painel").scrollTop = 0;
+}
 function rota() {
   if (MEDIANA_BR == null) { const v = Object.values(M).map((m) => m.rmd).filter((x) => x != null).sort((a, b) => a - b); MEDIANA_BR = v[v.length >> 1]; }
-  const h = location.hash.slice(1), box = $("#relatorio");
+  const h = location.hash.slice(1);
   let html = "";
-  if (/^m-\d{7}$/.test(h)) html = relatorioMunicipio(h.slice(2));
-  else if (/^uf-[A-Z]{2}$/.test(h)) html = relatorioUF(h.slice(3));
-  box.hidden = !html; $("main").hidden = !!html;
-  if (html) { box.innerHTML = html; window.scrollTo(0, 0); }
+  if (/^m-\d{7}$/.test(h)) {
+    const id = h.slice(2);
+    if (M[id] && sel !== id) escolher(id, false, true);
+    html = relatorioMunicipio(id);
+  } else if (/^uf-[A-Z]{2}$/.test(h)) html = relatorioUF(h.slice(3));
+  abrirPainel(html);
 }

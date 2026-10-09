@@ -20,7 +20,10 @@ p { margin: 0 0 12px; }
 .top .kicker { margin: 0; border-top: 3px solid var(--fg); padding-top: 12px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; }
 .top .intro { font: 20px/1.5 var(--editorial); max-width: 650px; color: var(--fg2); }
 .top .edicao { font-size: 12px; color: var(--fg2); margin-bottom: 12px; }
-main { display: grid; gap: 32px; padding-bottom: 64px; }
+main { display: grid; gap: 28px; padding-bottom: 32px; }
+.painel { min-width: 0; }
+.explorar { display: grid; gap: 28px; margin-top: 28px; }
+.mapa { position: sticky; top: 0; z-index: 5; background: #fff; }
 section { min-width: 0; border-top: 1px solid var(--fg); padding-top: 20px; }
 .busca { display: grid; gap: 8px; max-width: 600px; font-size: 13px; font-weight: 700; }
 .busca input { font: 17px var(--f); padding: 14px 16px; border: 1px solid #777; border-radius: 0; background: #fff; color: var(--fg); width: 100%; }
@@ -57,7 +60,7 @@ details > :last-child { margin-bottom: 18px; }
 #perto li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--line); cursor: pointer; font-size: 14px; }
 #perto li small { grid-column: 1 / -1; color: var(--fg2); font-size: 12px; }
 #perto li span:nth-child(2) { color: var(--fg2); font-size: 13px; font-variant-numeric: tabular-nums; }
-.mapa-janela { position: relative; height: clamp(640px, 80svh, 1100px); overflow: hidden; background: #fafafa; border: 1px solid var(--line); }
+.mapa-janela { position: relative; height: 45svh; min-height: 240px; overflow: hidden; background: #fafafa; border: 1px solid var(--line); }
 #mapa { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; user-select: none; }
 #mapa.movendo, #mapa.movendo path, #mapa.movendo circle { cursor: grabbing; }
 .zoom-controles { position: absolute; top: 12px; right: 12px; display: flex; flex-direction: column; gap: 6px; }
@@ -89,9 +92,9 @@ body.mapa-ampliado { overflow: hidden; }
 .metodo > details { border: 0; margin: 0; }
 .metodo summary { font: 24px/1.2 var(--editorial); color: var(--fg); padding: 0 0 16px; }
 .metodo ul { padding-left: 20px; }
-.relatorio { max-width: 760px; margin: 0 auto 64px; padding: 24px 28px; background: #fff; border-top: 1px solid var(--fg); font: 18px/1.7 var(--editorial); }
-.relatorio h2 { font-size: 42px; margin: 16px 0 12px; }
-.relatorio h3 { font-size: 25px; margin: 32px 0 12px; padding-top: 20px; border-top: 1px solid var(--line); }
+.relatorio { margin: 0; padding: 20px 0; background: #fff; border-top: 1px solid var(--fg); font: 16px/1.6 var(--editorial); }
+.relatorio h2 { font-size: 30px; margin: 16px 0 12px; }
+.relatorio h3 { font-size: 22px; margin: 32px 0 12px; padding-top: 20px; border-top: 1px solid var(--line); }
 .relatorio .sub, .voltar { color: var(--fg2); font: 13px/1.5 var(--f); }
 .relatorio ul { padding-left: 24px; margin: 12px 0; }
 .relatorio li { margin: 8px 0; }
@@ -112,28 +115,40 @@ body.mapa-ampliado { overflow: hidden; }
 .tabela tbody th { text-align: left; font-weight: 600; white-space: normal; min-width: 120px; position: sticky; left: 0; background: #fff; }
 .tabela tbody th small { display: block; font-weight: 400; color: var(--fg2); font-size: 12px; }
 @media (min-width: 900px) {
-  main { grid-template-columns: minmax(0, 1fr) 340px; grid-template-areas: "mapa ficha" "ranking perto" "brasil brasil" "metodo metodo"; column-gap: 28px; align-items: start; }
-  .mapa { grid-area: mapa; } .ficha { grid-area: ficha; position: sticky; top: 20px; max-height: calc(100svh - 40px); overflow-y: auto; padding-right: 8px; }
-  .top { display: grid; grid-template-columns: minmax(0, 1fr) 340px; column-gap: 28px; }
-  .top .kicker { grid-column: 1 / -1; }
+  body { display: flex; flex-direction: column; height: 100dvh; overflow: hidden; }
+  .top { width: 100%; display: grid; grid-template-columns: minmax(0, 1fr) clamp(360px, 32vw, 520px); column-gap: 28px; flex-shrink: 0; padding-block: 12px; }
+  .top .kicker { grid-column: 1 / -1; padding-top: 8px; }
   .top h1, .top .intro, .top .edicao { grid-column: 1; }
-  .top .intro { font-size: 17px; margin-bottom: 6px; }
+  .top h1 { margin-block: 8px; }
+  .top .intro { font-size: 16px; margin-bottom: 4px; }
+  .top .edicao { margin-bottom: 0; }
   .top .busca { grid-column: 2; grid-row: 2 / 4; align-self: center; }
   .top .local { grid-column: 2; grid-row: 4; justify-self: start; margin-top: 0; }
   .top .local-msg { grid-column: 2; }
-  .ranking { grid-area: ranking; } .perto { grid-area: perto; }
-  .brasil { grid-area: brasil; } .metodo { grid-area: metodo; }
-  .brasil .kv { max-width: 600px; }
+  main { width: 100%; flex: 1; min-height: 0; grid-template-columns: minmax(0, 1fr) clamp(360px, 32vw, 520px); align-items: stretch; padding-bottom: 16px; }
+  .mapa { position: relative; top: auto; height: 100%; min-height: 0; display: flex; flex-direction: column; }
+  .mapa .linha, .mapa .legenda, .mapa .mapa-ajuda { flex-shrink: 0; }
+  .mapa-janela { flex: 1; height: auto; min-height: 0; }
+  .painel { height: 100%; min-height: 0; overflow-y: auto; overscroll-behavior: contain; scrollbar-gutter: stable; padding-right: 12px; }
+  .ficha { position: static; max-height: none; overflow: visible; }
+  .painel .relatorio { font-size: 16px; }
 }
 @media (max-width: 599px) {
   .top, main { padding-inline: 20px; } .top { padding-top: 20px; }
-  .mapa-janela { height: 65svh; min-height: 420px; }
+  .mapa-janela { height: 40svh; min-height: 220px; }
   .zoom-controles { top: 8px; right: 8px; gap: 4px; }
   .mapa.ampliada { padding: 12px; }
   main { gap: 28px; } h2 { font-size: 24px; } h3 { font-size: 28px; }
-  .relatorio { margin-inline: 20px; padding: 20px 0; }
+  .relatorio { margin: 0; padding: 20px 0; }
   .relatorio h2 { font-size: 34px; } .kv { column-gap: 10px; font-size: 13px; }
   #ranking li { column-gap: 8px; font-size: 13px; }
 }
 @media (prefers-reduced-motion: no-preference) { html { scroll-behavior: smooth; } }
-@media print { .top, main, .voltar { display: none !important; } .relatorio { border: 0; } }
+@media print {
+  body { display: block; height: auto; overflow: visible; }
+  .top, .mapa, #ficha, #explorar, .voltar { display: none !important; }
+  main, .painel { display: block; height: auto; overflow: visible; }
+  .relatorio { border: 0; }
+}
+
+.mapa.ampliada { position: fixed; inset: 0; height: auto; }

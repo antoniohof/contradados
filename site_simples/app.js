@@ -201,9 +201,13 @@ function pintar() {
 }
 
 // ---------- ficha do município ----------
-function escolher(id, rolar) {
+function escolher(id, rolar, manterRelatorio = false) {
   const m = M[id]; if (!m) return;
-  if (rolar && location.hash) location.hash = ""; // sai do relatório
+  if (!manterRelatorio) {
+    if (location.hash) history.replaceState(null, "", location.pathname + location.search);
+    abrirPainel("");
+  }
+  if ($(".mapa").classList.contains("ampliada")) mapaAmpliar(false);
   sel = id;
   $("#zoom-municipio").disabled = false;
   document.querySelectorAll("#mapa .sel").forEach((p) => p.classList.remove("sel"));
@@ -212,7 +216,7 @@ function escolher(id, rolar) {
   document.querySelectorAll("#ranking li").forEach((li) => li.classList.toggle("sel", li.dataset.id === id));
   $("#ficha").innerHTML = ficha(m);
   perto(id);
-  if (rolar) { mapaFocar(id); $(".mapa").scrollIntoView({ block: "start" }); }
+  if (rolar) mapaFocar(id);
 }
 
 function ficha(m) {
@@ -328,7 +332,7 @@ async function iniciar() {
   desenharMapa(mapa);
   brasil();
   const ids = ranking();
-  escolher(ids[0], false);
+  escolher(ids[0], false, true);
 
   $("#camada").addEventListener("change", pintar);
   $("#busca").addEventListener("change", (e) => {
@@ -347,6 +351,14 @@ async function iniciar() {
   $("#mais").addEventListener("click", () => { mostrar += 30; ranking(); });
   // relatórios por lugar
   window.addEventListener("hashchange", rota);
+  window.addEventListener("popstate", rota);
+  $("#painel").addEventListener("click", (e) => {
+    const a = e.target.closest('a[href^="#"]'); if (!a) return;
+    e.preventDefault();
+    const hash = a.getAttribute("href");
+    history.pushState(null, "", hash === "#" ? location.pathname + location.search : hash);
+    rota();
+  });
   $("#relatorio").addEventListener("click", (e) => {
     if (!e.target.closest("#copiar")) return;
     navigator.clipboard?.writeText(location.href).then(() => (e.target.textContent = "Link copiado"), () => (e.target.textContent = "Copie o endereço do navegador"));

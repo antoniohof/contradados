@@ -14,7 +14,8 @@ Abra http://localhost:8000. Sem instalação de dependências.
 
 Mapa: zoom por botões, roda do mouse ou pinça; arraste para mover.
 **Brasil** restaura a vista; **Município** centraliza a seleção; **Ampliar**
-ocupa a tela. Teclado: +/−, setas, Home e Esc.
+ocupa a tela. Fichas e relatórios abrem no painel à direita; o mapa permanece
+visível enquanto o painel rola. Teclado: +/−, setas, Home e Esc.
 
 ## Desenvolver
 
