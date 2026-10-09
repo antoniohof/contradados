@@ -46,6 +46,15 @@ Execute **Actions → Publish GitHub Pages → Run workflow**.
 A página principal publica `site_simples/`; a interface adicional fica em
 `/mapas/`. **Validate** verifica cada push e pull request. Publicação manual.
 
+## Mapa das três frentes
+
+`mapa_frentes/` é uma página separada com três frentes para o 2º turno (reconquistar,
+mobilizar e eleitores de terceiros), em total e percentual, por município, aglomerado
+urbano, estado ou região, com método e código à vista. Veja o
+[README da pasta](mapa_frentes/README.md). A lista da Frente 2 para cidades pró-Lula de
+10 a 50 mil eleitores está em
+[outputs/frente2_cidades_10a50mil_eleitores.xlsx](outputs/frente2_cidades_10a50mil_eleitores.xlsx).
+
 ## Dados e método
 
 Fontes: TSE, IBGE/Censo 2022 e pesquisas citadas nos dados.
