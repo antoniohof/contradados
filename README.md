@@ -20,7 +20,7 @@ territórios, não pessoas, e mostram tetos, não previsões.
 As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio), **mobilizar**
 (quem não votou, nas cidades de Lula) e **terceiros** (eleitores de Caiado, Renan, Cury e Zema
 que não escolheram lado). A conta fica em `site/assets/js/frentes.js`, usada pelas páginas e
-pelo build.
+pelo build. 
 
 Visual: botões, menus e faixas no estilo de othernetwork.io; Newsreader (texto e manchetes) e
 Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js. Sem
