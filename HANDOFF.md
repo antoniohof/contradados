@@ -4,6 +4,7 @@ Interface principal: `site_simples/`. Comece pelo [README](README.md).
 
 - Visual: fundo branco, Georgia nos títulos, vermelho `#c4001a`, azul `#0050c8`.
 - Texto: rótulos curtos; contexto longo em seções expansíveis.
+- Mapa: coluna principal ampla, zoom/arraste/pinça, foco no município e modo ampliado.
 - Dados: não foram alterados pela revisão visual.
 - Build: `python3 site_simples/build/build.py`.
 - Validar: `python3 scripts/validate.py` e `node --check` nos dois JS do site.

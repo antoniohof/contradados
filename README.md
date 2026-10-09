@@ -12,11 +12,15 @@ python3 -m http.server 8000 --directory site_simples
 
 Abra http://localhost:8000. Sem instalação de dependências.
 
+Mapa: zoom por botões, roda do mouse ou pinça; arraste para mover.
+**Brasil** restaura a vista; **Município** centraliza a seleção; **Ampliar**
+ocupa a tela. Teclado: +/−, setas, Home e Esc.
+
 ## Desenvolver
 
 - `site_simples/index.html` — página principal.
 - `site_simples/style.css` — branco, títulos Georgia, vermelho e azul.
-- `site_simples/app.js` — mapa, busca, ranking e fichas.
+- `site_simples/app.js` — mapa, zoom, arraste, busca, ranking e fichas.
 - `site_simples/relatorio.js` — relatórios e fontes.
 - `site_simples/build/` — geração dos JSONs.
 - `docs/` — interface analítica adicional.

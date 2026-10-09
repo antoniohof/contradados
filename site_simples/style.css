@@ -11,15 +11,15 @@
 body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.55 var(--f); }
 a { color: inherit; text-underline-offset: 3px; }
 h1, h2, h3 { font-family: var(--editorial); text-wrap: balance; }
-h1 { font-size: clamp(42px, 6vw, 72px); line-height: 1.05; letter-spacing: -.04em; margin: 12px 0; }
+h1 { font-size: clamp(34px, 4vw, 48px); line-height: 1.05; letter-spacing: -.04em; margin: 12px 0; }
 h2 { font-size: 26px; line-height: 1.2; margin: 0 0 16px; }
 h3 { font-size: 32px; line-height: 1.15; letter-spacing: -.025em; margin: 0 0 8px; }
 p { margin: 0 0 12px; }
-.top, main { max-width: 1240px; margin: 0 auto; padding-inline: 28px; }
-.top { padding-block: 32px 28px; }
+.top, main { max-width: 1800px; margin: 0 auto; padding-inline: 28px; }
+.top { padding-block: 20px; }
 .top .kicker { margin: 0; border-top: 3px solid var(--fg); padding-top: 12px; font-size: 12px; font-weight: 700; text-transform: uppercase; letter-spacing: .12em; }
 .top .intro { font: 20px/1.5 var(--editorial); max-width: 650px; color: var(--fg2); }
-.top .edicao { font-size: 12px; color: var(--fg2); margin-bottom: 24px; }
+.top .edicao { font-size: 12px; color: var(--fg2); margin-bottom: 12px; }
 main { display: grid; gap: 32px; padding-bottom: 64px; }
 section { min-width: 0; border-top: 1px solid var(--fg); padding-top: 20px; }
 .busca { display: grid; gap: 8px; max-width: 600px; font-size: 13px; font-weight: 700; }
@@ -57,8 +57,22 @@ details > :last-child { margin-bottom: 18px; }
 #perto li { display: grid; grid-template-columns: 1fr auto; gap: 4px 12px; padding: 12px 0; border-top: 1px solid var(--line); cursor: pointer; font-size: 14px; }
 #perto li small { grid-column: 1 / -1; color: var(--fg2); font-size: 12px; }
 #perto li span:nth-child(2) { color: var(--fg2); font-size: 13px; font-variant-numeric: tabular-nums; }
-#mapa { display: block; width: 100%; height: auto; touch-action: manipulation; }
-#mapa path { stroke: #fff; stroke-width: .15; cursor: pointer; }
+.mapa-janela { position: relative; height: clamp(640px, 80svh, 1100px); overflow: hidden; background: #fafafa; border: 1px solid var(--line); }
+#mapa { display: block; width: 100%; height: 100%; touch-action: none; cursor: grab; user-select: none; }
+#mapa.movendo, #mapa.movendo path, #mapa.movendo circle { cursor: grabbing; }
+.zoom-controles { position: absolute; top: 12px; right: 12px; display: flex; flex-direction: column; gap: 6px; }
+.zoom-controles button { min-width: 44px; min-height: 44px; padding: 8px 10px; border: 1px solid #bbb; background: #fff; color: var(--fg); font: 13px var(--f); cursor: pointer; }
+.zoom-controles button:first-child, .zoom-controles button:nth-child(2) { font-size: 24px; }
+.zoom-controles button:hover { background: #ededed; }
+.zoom-controles button:disabled { opacity: .4; cursor: default; }
+.mapa-ajuda { font-size: 12px; color: var(--fg2); margin: 10px 0 0; }
+.mapa-info { position: absolute; max-width: 280px; background: #fff; border: 1px solid #999; padding: 8px 12px; font-size: 13px; pointer-events: none; z-index: 2; box-shadow: 0 2px 8px #0001; }
+body.mapa-ampliado { overflow: hidden; }
+.mapa.ampliada { position: fixed; inset: 0; z-index: 100; background: #fff; padding: 20px; display: flex; flex-direction: column; border: 0; }
+.mapa.ampliada .mapa-janela { flex: 1; height: auto; min-height: 0; }
+.mapa.ampliada .legenda { flex-shrink: 0; }
+.mapa.ampliada .linha { flex-shrink: 0; }
+#mapa path { vector-effect: non-scaling-stroke; stroke: #fff; stroke-width: .4; cursor: pointer; }
 #mapa path.sel { stroke: var(--acc); stroke-width: 2.5; }
 .legenda { display: flex; justify-content: space-between; gap: 8px; font-size: 12px; color: var(--fg2); margin-top: 12px; }
 .legenda .rampa { flex: 1; height: 8px; align-self: center; }
@@ -98,14 +112,24 @@ details > :last-child { margin-bottom: 18px; }
 .tabela tbody th { text-align: left; font-weight: 600; white-space: normal; min-width: 120px; position: sticky; left: 0; background: #fff; }
 .tabela tbody th small { display: block; font-weight: 400; color: var(--fg2); font-size: 12px; }
 @media (min-width: 900px) {
-  main { grid-template-columns: minmax(0, 1.4fr) minmax(0, 1fr); grid-template-areas: "mapa ficha" "ranking perto" "brasil brasil" "metodo metodo"; column-gap: 44px; align-items: start; }
-  .mapa { grid-area: mapa; } .ficha { grid-area: ficha; }
+  main { grid-template-columns: minmax(0, 1fr) 340px; grid-template-areas: "mapa ficha" "ranking perto" "brasil brasil" "metodo metodo"; column-gap: 28px; align-items: start; }
+  .mapa { grid-area: mapa; } .ficha { grid-area: ficha; position: sticky; top: 20px; max-height: calc(100svh - 40px); overflow-y: auto; padding-right: 8px; }
+  .top { display: grid; grid-template-columns: minmax(0, 1fr) 340px; column-gap: 28px; }
+  .top .kicker { grid-column: 1 / -1; }
+  .top h1, .top .intro, .top .edicao { grid-column: 1; }
+  .top .intro { font-size: 17px; margin-bottom: 6px; }
+  .top .busca { grid-column: 2; grid-row: 2 / 4; align-self: center; }
+  .top .local { grid-column: 2; grid-row: 4; justify-self: start; margin-top: 0; }
+  .top .local-msg { grid-column: 2; }
   .ranking { grid-area: ranking; } .perto { grid-area: perto; }
   .brasil { grid-area: brasil; } .metodo { grid-area: metodo; }
   .brasil .kv { max-width: 600px; }
 }
 @media (max-width: 599px) {
   .top, main { padding-inline: 20px; } .top { padding-top: 20px; }
+  .mapa-janela { height: 65svh; min-height: 420px; }
+  .zoom-controles { top: 8px; right: 8px; gap: 4px; }
+  .mapa.ampliada { padding: 12px; }
   main { gap: 28px; } h2 { font-size: 24px; } h3 { font-size: 28px; }
   .relatorio { margin-inline: 20px; padding: 20px 0; }
   .relatorio h2 { font-size: 34px; } .kv { column-gap: 10px; font-size: 13px; }

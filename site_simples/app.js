@@ -51,12 +51,124 @@ const QTD = {
 };
 const RMAX = 26; // raio do maior círculo (unidades do mapa)
 let CENTRO = {}; // centro de cada município no desenho
+let LIMITES = {};
+let MAPA_BASE = { x: 0, y: 0, w: 1000, h: 990 };
+let MAPA_VISTA = { ...MAPA_BASE };
+let mapaIgnorarClique = false;
+
+function mapaAjustarBolhas() {
+  const escala = MAPA_BASE.w / MAPA_VISTA.w;
+  document.querySelectorAll("#bolhas circle").forEach((c) => c.setAttribute("r", Number(c.dataset.raio) / escala));
+}
+function mapaVista(vista) {
+  MAPA_VISTA = vista;
+  $("#mapa").setAttribute("viewBox", `${vista.x} ${vista.y} ${vista.w} ${vista.h}`);
+  mapaAjustarBolhas();
+  const escala = MAPA_BASE.w / vista.w;
+  $("#zoom-in").disabled = escala >= 60 - 0.001;
+  $("#zoom-out").disabled = escala <= 1 + 0.001;
+}
+function mapaZoom(fator, centro = [MAPA_VISTA.x + MAPA_VISTA.w / 2, MAPA_VISTA.y + MAPA_VISTA.h / 2]) {
+  const v = MAPA_VISTA;
+  const escala = Math.max(1, Math.min(60, MAPA_BASE.w / v.w * fator));
+  const w = MAPA_BASE.w / escala, h = MAPA_BASE.h / escala;
+  mapaVista({ x: centro[0] - (centro[0] - v.x) * w / v.w,
+    y: centro[1] - (centro[1] - v.y) * h / v.h, w, h });
+}
+function mapaFocar(id) {
+  const b = LIMITES[id]; if (!b) return;
+  const escala = Math.max(4, Math.min(60, Math.min(MAPA_BASE.w / (Math.max(b.width, 1) * 3), MAPA_BASE.h / (Math.max(b.height, 1) * 3))));
+  const w = MAPA_BASE.w / escala, h = MAPA_BASE.h / escala;
+  mapaVista({ x: b.x + b.width / 2 - w / 2, y: b.y + b.height / 2 - h / 2, w, h });
+}
+function mapaAmpliar(ativo) {
+  $(".mapa").classList.toggle("ampliada", ativo);
+  document.body.classList.toggle("mapa-ampliado", ativo);
+  $("#mapa-ampliar").setAttribute("aria-pressed", String(ativo));
+  $("#mapa-ampliar").textContent = ativo ? "Fechar" : "Ampliar";
+  $("#mapa-ampliar").title = ativo ? "Fechar mapa ampliado (Esc)" : "Ampliar mapa";
+}
+function navegarMapa() {
+  const svg = $("#mapa"), pontos = new Map(), info = $("#mapa-info");
+  const ponto = (p) => {
+    const q = svg.createSVGPoint(); q.x = p.x; q.y = p.y;
+    const r = q.matrixTransform(svg.getScreenCTM().inverse()); return [r.x, r.y];
+  };
+  const meio = (a, b) => ({ x: (a.x + b.x) / 2, y: (a.y + b.y) / 2 });
+  const distancia = (a, b) => Math.hypot(a.x - b.x, a.y - b.y);
+  let inicio = null;
+  $("#zoom-in").addEventListener("click", () => mapaZoom(2));
+  $("#zoom-out").addEventListener("click", () => mapaZoom(0.5));
+  $("#zoom-reset").addEventListener("click", () => mapaVista({ ...MAPA_BASE }));
+  $("#zoom-municipio").addEventListener("click", () => mapaFocar(sel));
+  $("#mapa-ampliar").addEventListener("click", () => mapaAmpliar(!$(".mapa").classList.contains("ampliada")));
+  document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && $(".mapa").classList.contains("ampliada")) {
+      mapaAmpliar(false); $("#mapa-ampliar").focus();
+    }
+  });
+  svg.addEventListener("keydown", (e) => {
+    if (["+", "=", "-", "Home", "ArrowLeft", "ArrowRight", "ArrowUp", "ArrowDown"].includes(e.key)) e.preventDefault();
+    if (e.key === "+" || e.key === "=") mapaZoom(2);
+    else if (e.key === "-") mapaZoom(0.5);
+    else if (e.key === "Home") mapaVista({ ...MAPA_BASE });
+    else if (e.key.startsWith("Arrow")) {
+      const v = MAPA_VISTA;
+      mapaVista({ ...v, x: v.x + (e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0) * v.w * 0.1,
+        y: v.y + (e.key === "ArrowDown" ? 1 : e.key === "ArrowUp" ? -1 : 0) * v.h * 0.1 });
+    }
+  });
+  svg.addEventListener("wheel", (e) => {
+    e.preventDefault(); info.hidden = true;
+    const delta = e.deltaY * (e.deltaMode === 1 ? 16 : e.deltaMode === 2 ? 300 : 1);
+    mapaZoom(Math.exp(-delta * 0.002), ponto({ x: e.clientX, y: e.clientY }));
+  }, { passive: false });
+  svg.addEventListener("pointerdown", (e) => {
+    if (e.button !== 0) return;
+    if (!pontos.size) { mapaIgnorarClique = false; inicio = { x: e.clientX, y: e.clientY }; }
+    pontos.set(e.pointerId, { x: e.clientX, y: e.clientY });
+    if (pontos.size > 1) mapaIgnorarClique = true;
+    // Capturar no elemento original preserva a seleção por clique.
+    e.target.setPointerCapture(e.pointerId);
+  });
+  svg.addEventListener("pointermove", (e) => {
+    const atual = { x: e.clientX, y: e.clientY };
+    if (pontos.has(e.pointerId)) {
+      const antes = [...pontos.values()];
+      pontos.set(e.pointerId, atual);
+      const depois = [...pontos.values()];
+      if (pontos.size === 1 && !mapaIgnorarClique && distancia(inicio, atual) <= 5) return;
+      mapaIgnorarClique = true; info.hidden = true; svg.classList.add("movendo");
+      const a = antes.length > 1 ? meio(antes[0], antes[1]) : antes[0];
+      const b = depois.length > 1 ? meio(depois[0], depois[1]) : depois[0];
+      const pa = ponto(a), pb = ponto(b);
+      mapaVista({ ...MAPA_VISTA, x: MAPA_VISTA.x + pa[0] - pb[0], y: MAPA_VISTA.y + pa[1] - pb[1] });
+      if (antes.length > 1) mapaZoom(distancia(depois[0], depois[1]) / Math.max(1, distancia(antes[0], antes[1])), ponto(b));
+      return;
+    }
+    const id = e.target.dataset?.id, m = M[id];
+    if (!m || e.pointerType === "touch") { info.hidden = true; return; }
+    const camada = $("#camada").value, q = QTD[camada];
+    info.textContent = `${nome(m)} · ${q ? num(q.v(m)) : pct(CAMADAS[camada].v(m))}`;
+    info.hidden = false;
+    const r = $(".mapa-janela").getBoundingClientRect();
+    info.style.left = Math.max(8, Math.min(e.clientX - r.left + 14, r.width - info.offsetWidth - 8)) + "px";
+    info.style.top = Math.max(8, Math.min(e.clientY - r.top + 14, r.height - info.offsetHeight - 8)) + "px";
+  });
+  const soltar = (e) => { pontos.delete(e.pointerId); if (!pontos.size) svg.classList.remove("movendo"); };
+  svg.addEventListener("pointerup", soltar);
+  svg.addEventListener("pointercancel", soltar);
+  svg.addEventListener("lostpointercapture", soltar);
+  svg.addEventListener("pointerleave", () => { info.hidden = true; });
+}
 function desenharMapa(mapa) {
   const svg = $("#mapa");
-  svg.setAttribute("viewBox", `0 0 ${mapa.w} ${mapa.h}`);
+  MAPA_BASE = { x: 0, y: 0, w: mapa.w, h: mapa.h };
+  mapaVista({ ...MAPA_BASE });
   svg.innerHTML = `<g id="areas">${Object.entries(mapa.p).map(([id, d]) => `<path data-id="${id}" d="${d}"></path>`).join("")}</g><g id="bolhas"></g>`;
-  svg.querySelectorAll("#areas path").forEach((p) => { const b = p.getBBox(); CENTRO[p.dataset.id] = [b.x + b.width / 2, b.y + b.height / 2]; });
-  svg.addEventListener("click", (e) => { const id = e.target.dataset?.id; if (id) escolher(id, false); });
+  svg.querySelectorAll("#areas path").forEach((p) => { const b = p.getBBox(); CENTRO[p.dataset.id] = [b.x + b.width / 2, b.y + b.height / 2]; LIMITES[p.dataset.id] = { x: b.x, y: b.y, width: b.width, height: b.height }; });
+  svg.addEventListener("click", (e) => { if (mapaIgnorarClique) { mapaIgnorarClique = false; return; } const id = e.target.dataset?.id; if (id) escolher(id, false); });
+  navegarMapa();
   pintar();
 }
 const fmtCurto = (v) => (v >= 1e6 ? (v / 1e6).toLocaleString("pt-BR", { maximumFractionDigits: 1 }) + " mi" : v >= 1000 ? Math.round(v / 1000) + " mil" : String(Math.round(v)));
@@ -70,7 +182,8 @@ function pintar() {
     const r = (v) => Math.sqrt(Math.abs(v) / max) * RMAX;
     const corBase = (v) => (q.sinal ? (v > 0 ? cor("--lula") : cor("--flavio")) : cor(q.cor || "--fg"));
     vals.sort((a, b) => Math.abs(b[1]) - Math.abs(a[1])); // grandes atrás, pequenos na frente
-    bolhas.innerHTML = vals.map(([id, v]) => `<circle data-id="${id}" cx="${CENTRO[id][0].toFixed(1)}" cy="${CENTRO[id][1].toFixed(1)}" r="${r(v).toFixed(2)}" fill="${corBase(v)}"><title>${esc(nome(M[id]))}: ${num(Math.abs(v))}</title></circle>`).join("");
+    bolhas.innerHTML = vals.map(([id, v]) => `<circle data-id="${id}" cx="${CENTRO[id][0].toFixed(1)}" cy="${CENTRO[id][1].toFixed(1)}" r="${r(v).toFixed(2)}" data-raio="${r(v).toFixed(2)}" fill="${corBase(v)}"><title>${esc(nome(M[id]))}: ${num(Math.abs(v))}</title></circle>`).join("");
+    mapaAjustarBolhas();
     const refs = [1e4, 1e5, 1e6].filter((x) => x < max * 1.2);
     const total = vals.reduce((a, x) => a + x[1], 0);
     let x0 = 0;
@@ -92,13 +205,14 @@ function escolher(id, rolar) {
   const m = M[id]; if (!m) return;
   if (rolar && location.hash) location.hash = ""; // sai do relatório
   sel = id;
+  $("#zoom-municipio").disabled = false;
   document.querySelectorAll("#mapa .sel").forEach((p) => p.classList.remove("sel"));
   const p = document.querySelector(`#areas path[data-id="${id}"]`);
   if (p) { p.classList.add("sel"); p.parentNode.appendChild(p); } // traz o contorno para a frente
   document.querySelectorAll("#ranking li").forEach((li) => li.classList.toggle("sel", li.dataset.id === id));
   $("#ficha").innerHTML = ficha(m);
   perto(id);
-  if (rolar) $("#ficha").scrollIntoView({ block: "start" });
+  if (rolar) { mapaFocar(id); $(".mapa").scrollIntoView({ block: "start" }); }
 }
 
 function ficha(m) {
@@ -111,6 +225,7 @@ function ficha(m) {
   const kv = (rows) => `<dl class="kv">${rows.filter((r) => r[1] != null && r[1] !== "–").map((r) => `<dt>${esc(r[0])}</dt><dd>${r[1]}</dd>`).join("")}</dl>`;
   const card = (c) => c ? `<div class="bloco"><h4>${esc(c.cargo)}</h4>
       <p>${esc(c.cand)} × ${esc(c.adv)}<br>${esc(c.t1)}</p>
+      <details><summary>Contexto</summary><p>${esc(c.status)}</p><ul>${c.pontos.map((x) => `<li>${esc(x)}</li>`).join("")}</ul></details>
       <p class="fontes">${c.urls.map((u, i) => `<a href="${esc(u)}" target="_blank" rel="noopener">Fonte ${i + 1}</a>`).join(" · ")}</p></div>` : "";
   const pautas = m.pau ? m.pau.split(" | ").filter(Boolean) : [];
   const fontes = m.fon ? m.fon.split(" | ").filter((u) => /^https?:/.test(u)) : [];

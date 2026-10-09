@@ -26,10 +26,6 @@
 <article id="relatorio" class="relatorio" hidden aria-live="polite"></article>
 
 <main>
-  <section id="ficha" class="ficha" aria-live="polite">
-    <p class="vazio">Carregando…</p>
-  </section>
-
   <section class="mapa">
     <div class="linha">
       <h2>Mapa</h2>
@@ -50,8 +46,23 @@
         </optgroup>
       </select>
     </div>
-    <svg id="mapa" role="img" aria-label="Mapa dos municípios do Brasil"></svg>
+    <div class="mapa-janela">
+      <svg id="mapa" role="img" tabindex="0" aria-label="Mapa dos municípios. Use mais e menos para zoom, setas para mover e Home para ver o Brasil." aria-describedby="mapa-ajuda"></svg>
+      <div class="zoom-controles" role="group" aria-label="Navegação do mapa">
+        <button id="zoom-in" type="button" aria-label="Aproximar" title="Aproximar (+)">+</button>
+        <button id="zoom-out" type="button" aria-label="Afastar" title="Afastar (−)">−</button>
+        <button id="zoom-reset" type="button" aria-label="Ver o Brasil inteiro" title="Ver Brasil">Brasil</button>
+        <button id="zoom-municipio" type="button" title="Centralizar município selecionado" disabled>Município</button>
+        <button id="mapa-ampliar" type="button" aria-pressed="false" title="Ampliar mapa">Ampliar</button>
+      </div>
+      <p id="mapa-info" class="mapa-info" hidden></p>
+    </div>
+    <p id="mapa-ajuda" class="mapa-ajuda">Arraste para mover · Role ou use +/− para zoom</p>
     <div id="legenda" class="legenda"></div>
+  </section>
+
+  <section id="ficha" class="ficha" aria-live="polite">
+    <p class="vazio">Carregando…</p>
   </section>
 
   <section class="ranking">
