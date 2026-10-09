@@ -1,0 +1,43 @@
+/* Método: contas, cada frente em um gráfico, código, tabelas, mapas, limites e regras */
+.metodo { padding-top: 84px; }
+.metodo h2.rotulo { margin: 0; }
+.atalhos { margin-top: 18px; }
+.contas .cartao { min-height: 0; }
+.contas .formula { font: 500 15px/20px var(--ui); background: var(--papel); padding: 6px 8px; margin: 4px 0 0; }
+.contas .exp { font: 400 16px/21px var(--texto); margin: 0; }
+pre.codigo { margin: 0; padding: 12px; background: var(--papel); overflow-x: auto; font: 400 13px/19px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; white-space: pre; }
+.lista-limites, .lista-regras { margin: 0; padding-left: 18px; display: grid; gap: 8px; max-width: 900px; font: 400 18px/24px var(--texto); }
+.lista-limites b, .lista-regras b { font-weight: 650; }
+.lista-regras a, .lista-limites a { color: inherit; }
+.tabela a { color: inherit; }
+.rolagem { overflow-x: auto; }
+code { font: 400 13px/1 ui-monospace, Menlo, Consolas, monospace; background: var(--papel); padding: 1px 4px; }
+
+/* ---------------------------------------------------------------- gráficos */
+.graficos { display: grid; grid-template-columns: repeat(auto-fit, minmax(min(100%, 440px), 1fr)); gap: var(--gutter); }
+.grafico-cartao { background: var(--papel); padding: 12px 14px 14px; display: flex; flex-direction: column; gap: 10px; min-width: 0; }
+.grafico-cartao h3 { display: flex; align-items: center; gap: 8px; margin: 0; font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); }
+.grafico-cartao h3 .ponto { width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.grafico-cartao .exp { margin: 0; font: 400 16px/22px var(--texto); max-width: 640px; }
+.grafico-cartao .exp b { font-weight: 650; }
+.grafico-cartao .nota { margin: 0; }
+.grafico { position: relative; }
+.grafico svg { display: block; width: 100%; height: auto; overflow: visible; }
+.grafico .eixo text { font: 400 11px var(--ui); fill: #666; }
+.grafico .eixo path, .grafico .eixo line { stroke: #c4c4c4; }
+.grafico .linhas line { stroke: #eee; }
+.grafico .ref { stroke: #000; stroke-width: 1; stroke-dasharray: 3 3; fill: none; }
+.grafico .titulo-eixo { font: 400 12px var(--ui); fill: #444; }
+.grafico .rot { font: 500 12px var(--ui); fill: #222; }
+.grafico .rot-forte { font: 600 13px var(--ui); fill: #000; paint-order: stroke; stroke: #fff; stroke-width: 3px; stroke-linejoin: round; }
+.grafico .anel { fill: none; stroke: #000; stroke-width: 1.6; pointer-events: none; }
+.grafico .queda { stroke: #000; stroke-width: 1.4; }
+.grafico .cat { font: 500 13px var(--ui); fill: #000; }
+.grafico .sub { font: 400 12px var(--ui); fill: #555; }
+.grafico .seg { font: 500 11px var(--ui); fill: #333; }
+.chaves { display: flex; flex-wrap: wrap; gap: 4px 12px; font: 400 12px/16px var(--ui); color: #333; }
+.chaves span { display: inline-flex; align-items: center; gap: 5px; }
+.chaves i { display: inline-block; width: 10px; height: 10px; border-radius: 50%; flex: none; }
+.chaves .titulo { color: #555; }
+.escala { margin: 0; padding-left: 18px; display: grid; gap: 8px; font: 400 17px/23px var(--texto); }
+.escala b { font-weight: 650; }

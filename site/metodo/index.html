@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <title>Método e fontes · Onde buscar votos</title>
-<meta name="description" content="De onde vêm os números, como a conta das três frentes é feita, as pesquisas usadas, os limites e as regras eleitorais.">
+<meta name="description" content="De onde vêm os números, a conta de cada frente em gráficos, como os mapas foram desenhados, as pesquisas usadas, os limites e as regras eleitorais.">
 <meta property="og:title" content="Método e fontes · Onde buscar votos">
 <meta property="og:image" content="/assets/og.png">
 <meta property="og:image:width" content="1200">
@@ -13,28 +13,24 @@
 <meta name="theme-color" content="#ffffff">
 <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='14' fill='%23dfdede'/%3E%3Ccircle cx='16' cy='16' r='5' fill='%23000'/%3E%3C/svg%3E">
 <link rel="preload" href="../assets/fonts/newsreader-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="../assets/fonts/bricolage-grotesque-latin-standard-normal.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="../assets/css/base.css">
-<style>
-  .metodo { padding-top: 84px; }
-  .metodo section + section { margin-top: 0; }
-  .metodo h2.rotulo { margin: 0; }
-  .contas .cartao { min-height: 0; }
-  .contas .formula { font: 500 15px/20px var(--ui); background: var(--papel); padding: 6px 8px; margin: 4px 0 0; }
-  .contas .exp { font: 400 16px/21px var(--texto); margin: 0; }
-  pre.codigo { margin: 0; padding: 12px; background: var(--papel); overflow-x: auto; font: 400 13px/19px ui-monospace, "SFMono-Regular", Menlo, Consolas, monospace; white-space: pre; }
-  .lista-limites, .lista-regras { margin: 0; padding-left: 18px; display: grid; gap: 8px; max-width: 900px; font: 400 18px/24px var(--texto); }
-  .lista-regras a, .lista-limites a { color: inherit; }
-  .tabela a { color: inherit; }
-  .rolagem { overflow-x: auto; }
-  code { font: 400 13px/1 ui-monospace, Menlo, Consolas, monospace; background: var(--papel); padding: 1px 4px; }
-</style>
+<link rel="stylesheet" href="../assets/css/metodo.css">
 </head>
 <body>
 <main class="metodo">
   <section class="faixa faixa--solida">
-    <div class="faixa__topo"><p class="rotulo">Método e fontes</p><a class="pill pill--lilas" href="../mapa/#metodo">Método completo, com gráficos</a></div>
+    <div class="faixa__topo"><p class="rotulo">Método e fontes</p></div>
     <h1 class="grande">De onde vêm os números, e o que eles não dizem.</h1>
     <p class="texto" style="margin-top:16px">Todos os números do site saem de uma mesma conta, feita no seu navegador a partir de dados públicos. O código está abaixo e no GitHub. Os resultados descrevem cidades, não pessoas, e mostram tetos, não previsões.</p>
+    <nav class="linha atalhos" aria-label="Nesta página">
+      <a class="pill pill--branco" href="#contas-t">As três contas</a>
+      <a class="pill pill--branco" href="#graficos">Cada frente em um gráfico</a>
+      <a class="pill pill--branco" href="#mapas">Como os mapas foram desenhados</a>
+      <a class="pill pill--branco" href="#dados">Dados</a>
+      <a class="pill pill--branco" href="#limites">Limites</a>
+      <a class="pill pill--branco" href="#regras">Regras eleitorais</a>
+    </nav>
   </section>
 
   <section class="faixa contas" aria-labelledby="contas-t">
@@ -46,7 +42,7 @@
         <p class="formula">parcela = Lula ÷ (Lula + adversário)<br>perda = parcela 1º turno 2022 − parcela 1º turno 2026<br>eleitores = perda × (votos de Lula + Flávio em 2026)</p>
         <p class="exp">Na diferença vale 2 por eleitor: um voto a menos para Flávio, um a mais para Lula.</p>
       </article>
-      <article class="cartao">
+      <article class="cartao cartao--f2">
         <p class="cartao__titulo">2 · Mobilizar</p>
         <p class="exp">Só nas cidades de Lula: onde ele vence em 2026 e venceu o 2º turno de 2022.</p>
         <p class="formula">vantagem = parcela de Lula − parcela de Flávio<br>saldo = ausentes no 1º turno × vantagem</p>
@@ -62,25 +58,73 @@
     <p class="nota">Potencial total de uma cidade = 2 × reconquistar + mobilizar + terceiros, em diferença de votos. A frente principal é a maior das três parcelas. Tamanho da cidade pela população do Censo 2022.</p>
   </section>
 
-  <section class="faixa faixa--solida" aria-labelledby="codigo-t">
+  <section class="faixa faixa--solida" aria-labelledby="graficos-t" id="graficos">
+    <div class="faixa__topo"><h2 class="rotulo" id="graficos-t">Cada frente em um gráfico</h2><span class="nota">Passe o mouse para ver a cidade; clique para abrir a ficha.</span></div>
+    <div class="graficos">
+      <article class="grafico-cartao">
+        <h3><span class="ponto" style="background:var(--f1)"></span>Reconquistar</h3>
+        <p class="exp">Cada ponto é uma cidade. Na horizontal, a parcela de Lula entre os dois em 2022; na vertical, a mesma parcela em 2026. Quem está na diagonal não mudou. <b>A distância vertical até a diagonal é a perda</b>, em pontos. O tamanho do ponto é o número de votos em Lula e Flávio; a perda vezes esse número dá os eleitores a reconquistar.</p>
+        <div class="grafico" id="g1"></div>
+        <div class="chaves" id="g1-chave"></div>
+        <p class="nota" id="g1-nota"></p>
+      </article>
+      <article class="grafico-cartao">
+        <h3><span class="ponto" style="background:var(--f2)"></span>Mobilizar</h3>
+        <p class="exp">Na horizontal, a parcela de Lula entre os dois em 2026; na vertical, a abstenção. À direita da linha de 50% estão as cidades de Lula (em cor se ele também venceu o 2º turno de 2022). <b>Quanto mais à direita, mais cada ausente rende para Lula</b>; quanto mais alto, mais ausentes há. O tamanho do ponto é o número de ausentes.</p>
+        <div class="grafico" id="g2"></div>
+        <div class="chaves" id="g2-chave"></div>
+        <p class="nota" id="g2-nota"></p>
+      </article>
+      <article class="grafico-cartao">
+        <h3><span class="ponto" style="background:var(--f3)"></span>Terceiros</h3>
+        <p class="exp">Cada barra é o eleitorado de um candidato no país, dividido pela pesquisa entre quem vai para Lula, quem ainda está <b>em disputa</b> (branco, nulo ou indeciso) e quem vai para Flávio. A parte em disputa, somada cidade a cidade, é a frente Terceiros.</p>
+        <div class="linha" role="group" aria-label="Pesquisa" id="g3-pesquisas"></div>
+        <div class="chaves"><span><i style="background:var(--f1)"></i>para Lula</span><span><i style="background:var(--f3)"></i>em disputa</span><span><i style="background:#8c8c8c"></i>para Flávio</span></div>
+        <div class="grafico" id="g3"></div>
+        <p class="nota" id="g3-nota"></p>
+      </article>
+      <article class="grafico-cartao">
+        <h3>Para ter escala</h3>
+        <p class="exp">Os totais são tetos. Para planejar, ajuda saber quanto vale cada pedaço:</p>
+        <ul class="escala" id="escala"><li>Calculando…</li></ul>
+        <p class="nota">Em 2022, entre o 1º e o 2º turno, a abstenção caiu só de 20,95% para 20,59%.</p>
+      </article>
+    </div>
+  </section>
+
+  <section class="faixa" aria-labelledby="codigo-t">
     <div class="faixa__topo"><h2 class="rotulo" id="codigo-t">O código que faz a conta</h2><a class="pill" href="https://github.com/mneunomne/contradados/blob/main/site/assets/js/frentes.js" target="_blank" rel="noopener">frentes.js no GitHub</a></div>
     <pre class="codigo"><code id="codigo">carregando…</code></pre>
     <p class="nota">O mesmo arquivo roda nas páginas e no build (<code>scripts/site/resumo.mjs</code>). <code>m</code> é uma linha de <a href="../data/municipios.csv">municipios.csv</a>; <code>T</code> é a transferência da pesquisa escolhida.</p>
   </section>
 
-  <section class="faixa" aria-labelledby="pesq-t" id="pesquisas">
-    <div class="faixa__topo"><h2 class="rotulo" id="pesq-t">Pesquisas usadas na Frente 3</h2></div>
+  <section class="faixa faixa--solida" aria-labelledby="pesq-t" id="pesquisas">
+    <div class="faixa__topo"><h2 class="rotulo" id="pesq-t">Pesquisas usadas na frente Terceiros</h2></div>
     <div class="rolagem"><table class="tabela" id="pesquisas-tab"></table></div>
-    <p class="nota">% para Lula / % para Flávio entre os eleitores de cada candidato no 1º turno. O resto até 100 é branco, nulo ou indeciso. O site usa a AtlasIntel por padrão; o <a href="../mapa/">Mapa</a> deixa trocar a pesquisa e editar os valores.</p>
+    <p class="nota">% para Lula / % para Flávio entre os eleitores de cada candidato no 1º turno. O resto até 100 é branco, nulo ou indeciso. O site usa a AtlasIntel por padrão; no gráfico de Terceiros, acima, dá para comparar as três. O Datafolha só divulgou o total dos quatro; na Quaest, Zema e outros são a média dos três, ponderada pelos votos.</p>
   </section>
 
-  <section class="faixa faixa--solida" aria-labelledby="dados-t">
+  <section class="faixa" aria-labelledby="mapas-t" id="mapas">
+    <div class="faixa__topo"><h2 class="rotulo" id="mapas-t">Como os mapas foram desenhados</h2></div>
+    <ul class="lista-limites">
+      <li><b>Projeção</b>: cônica equivalente de Albers (paralelos −2° e −22°, meridiano −54°), a que o IBGE usa para o Brasil. As áreas são proporcionais: um município grande no mapa é grande de verdade.</li>
+      <li><b>Um ponto por cidade</b> no começo do caminho: cada município é um ponto no centro do seu maior polígono.</li>
+      <li><b>1 ponto = 1.000 votos</b> no resto do caminho e em Na prática: cada frente de cada cidade vira pontos, colocados em lugares sorteados dentro do território do município. O arredondamento também é sorteado (1.400 votos dão um ponto e 40% de chance de um segundo), com semente fixa, para o desenho sair igual a cada atualização. O lugar exato de um ponto não quer dizer nada; a densidade, sim. Em Reconquistar, cada ponto é 1.000 eleitores, que valem 2.000 na diferença.</li>
+      <li><b>Espinhos</b> num estado, num roteiro ou numa seleção de até 150 cidades: a altura é proporcional aos votos em jogo. Os espinhos são desenhados de norte a sul, com borda branca, para um não esconder o outro. Se poucas cidades fogem muito do resto, a escala vai até o percentil 99,5 e quem passa de 125% dele é cortado, com uma marca de corte. A régua no canto mostra a altura de um valor redondo.</li>
+      <li><b>Roteiros</b>: cidades da mesma região geográfica imediata do IBGE. A ordem começa pela cidade com mais votos em jogo e segue sempre para a mais próxima, em linha reta. Não é a rota mais curta nem considera estradas.</li>
+      <li><b>Cores</b>: vermelho para reconquistar, verde-água para mobilizar e azul para terceiros, testadas para serem distinguíveis por pessoas com daltonismo. Cinza é o que está fora da seleção.</li>
+    </ul>
+  </section>
+
+  <section class="faixa faixa--solida" aria-labelledby="dados-t" id="dados">
     <div class="faixa__topo"><h2 class="rotulo" id="dados-t">Dados</h2></div>
     <div class="rolagem"><table class="tabela">
       <thead><tr><th>Dado</th><th>Fonte</th><th>Onde entra</th><th>Arquivo no repositório</th></tr></thead>
       <tbody>
-        <tr><td>Votos por município, 1º turno de 2026; comparecimento</td><td><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE, Portal de Dados Abertos</a> (arquivos de 08/10/2026)</td><td>as três frentes</td><td><code>data/tse/</code>, <code>docs/data/municipios.json</code></td></tr>
-        <tr><td>Resultados e abstenção de 2022 (1º e 2º turno)</td><td>compilações conferidas com o TSE</td><td>Frentes 1 e 2</td><td><code>docs/data/municipios.json</code></td></tr>
+        <tr><td>Presidente, 1º turno de 2026: votos de Lula (13), de Flávio (22) e total de terceiros; % de Caiado, Renan Santos e Augusto Cury nos válidos</td><td><a href="https://dadosabertos.tse.jus.br/" target="_blank" rel="noopener">TSE, Portal de Dados Abertos</a>, <code>votacao_candidato_munzona_2026</code> (arquivos de 08/10/2026)</td><td>as três frentes</td><td><code>data/tse/</code>, <code>docs/data/municipios.json</code></td></tr>
+        <tr><td>Comparecimento, 1º turno de 2026: eleitores aptos e ausentes</td><td>TSE, <code>detalhe_votacao_munzona_2026</code></td><td>mobilizar</td><td><code>data/tse/</code></td></tr>
+        <tr><td>Presidente em 2022: % de Lula e de Bolsonaro no 1º turno; % de Lula no 2º turno</td><td>compilações conferidas com o TSE</td><td>reconquistar (linha de base); mobilizar (define as cidades de Lula)</td><td><code>docs/data/municipios.json</code></td></tr>
+        <tr><td>Abstenção no 1º turno de 2022</td><td>TSE, <code>detalhe_votacao_munzona_2022</code></td><td>só contexto: mostra onde a abstenção subiu</td><td><code>docs/data/municipios.json</code></td></tr>
         <tr><td>População por município</td><td><a href="https://sidra.ibge.gov.br/tabela/4709" target="_blank" rel="noopener">IBGE, Censo 2022, tabela 4709</a></td><td>tamanho das cidades</td><td><code>data/ibge/populacao_censo2022.csv</code></td></tr>
         <tr><td>Regiões geográficas imediatas e intermediárias</td><td><a href="https://www.ibge.gov.br/geociencias/organizacao-do-territorio/divisao-regional/15778-divisoes-regionais-do-brasil.html" target="_blank" rel="noopener">IBGE, 2017</a> (API de localidades)</td><td>roteiros e cidades vizinhas</td><td><code>data/ibge/regioes_geograficas.csv</code></td></tr>
         <tr><td>Malha municipal e divisas</td><td>IBGE</td><td>mapas</td><td><code>site/data/municipios.topo.json</code></td></tr>
@@ -91,15 +135,21 @@
         <tr><td>Temas com efeito comprovado e vídeos para compartilhar</td><td><a href="https://radardavirada.pages.dev/" target="_blank" rel="noopener">Radar da Virada</a> (recorte de 09/10/2026)</td><td>reels e ações</td><td><code>data/radar/radar_2026-10-09.json</code></td></tr>
       </tbody>
     </table></div>
+    <p class="texto" style="margin-top:14px">Cada fonte vira uma coluna da mesma tabela, uma linha por município, ligada pelo código IBGE de 7 dígitos. Não há correlação, regressão nem peso estimado: reconquistar e mobilizar saem de somas, divisões e subtrações sobre resultados oficiais; terceiros multiplica os votos de cada candidato pelos percentuais da pesquisa. Votos do exterior ficam de fora.</p>
   </section>
 
-  <section class="faixa" aria-labelledby="lim-t">
-    <div class="faixa__topo"><h2 class="rotulo" id="lim-t">Limites</h2></div>
+  <section class="faixa" aria-labelledby="lim-t" id="limites">
+    <div class="faixa__topo"><h2 class="rotulo" id="lim-t">Premissas e limites</h2></div>
     <ul class="lista-limites">
-      <li>São contas sobre cidades, não sobre pessoas. Uma queda na parcela de Lula não identifica quem mudou de voto.</li>
-      <li>Os potenciais são tetos: supõem que todos os eleitores perdidos voltam, que todos os ausentes votam e que todos os indecisos escolhem Lula. Servem para comparar lugares, não para prever o resultado.</li>
-      <li>A Frente 2 supõe que os ausentes votariam como os vizinhos. Na AtlasIntel, quem não votou no 1º turno declara 63% Lula e 22% Flávio; a conta pode subestimar o ganho.</li>
+      <li><b>É um saldo, não uma contagem de pessoas.</b> Se mil eleitores foram de Lula para Flávio e 300 fizeram o caminho contrário, a conta vê 700.</li>
+      <li><b>Cidades, não pessoas.</b> Saber que um município mudou não diz quem mudou dentro dele. O site diz onde procurar, não quem abordar.</li>
+      <li><b>Os totais são tetos.</b> Supõem que todos os eleitores perdidos voltam, que todos os ausentes votam e que todos os indecisos escolhem Lula. Servem para comparar lugares, não para prever o resultado.</li>
+      <li><b>A linha de base é o 1º turno de 2022.</b> Os outros candidatos eram outros (Ciro e Tebet), o que mexe um pouco na parcela entre os dois.</li>
+      <li><b>Os ausentes votariam como os vizinhos.</b> Parte da abstenção é difícil de reverter: título numa cidade onde a pessoa já não mora, cadastro desatualizado, voto facultativo aos 70 anos ou mais. Por outro lado, na AtlasIntel quem não votou no 1º turno declara 63% Lula e 22% Flávio; a conta pode subestimar o ganho.</li>
+      <li><b>A mesma transferência vale para o país todo.</b> Um eleitor de Cury na Bahia é tratado como um de Cury em São Paulo, porque as pesquisas não divulgam o cruzamento por região. Cada candidato tem cerca de 100 a 150 entrevistados numa pesquisa nacional, o que dá margem de 8 a 10 pontos para cada linha da tabela.</li>
+      <li><b>Os votos de cada terceiro são estimados.</b> O total de votos em terceiros por município é exato; a divisão entre Caiado, Renan e Cury usa os percentuais com uma casa decimal. No país, a soma estimada difere da oficial em menos de 0,3%.</li>
       <li>As pesquisas têm margem de erro e foram feitas em datas diferentes. A Quaest é anterior ao 1º turno.</li>
+      <li>Fica de fora quem votou branco ou nulo no 1º turno (5.964.163 votos).</li>
       <li>Boa Esperança do Norte (MT), criada depois de 2022 e sem Censo, fica fora das frentes.</li>
       <li>Os valores de benefícios são o total pago a moradores do município no período, não o número de famílias.</li>
     </ul>
@@ -120,31 +170,21 @@
   <section class="faixa" aria-labelledby="baixar-t">
     <div class="faixa__topo"><h2 class="rotulo" id="baixar-t">Baixar e atualizar</h2></div>
     <p class="linha">
-      <a class="pill pill--lilas" href="../data/municipios.csv" download>municipios.csv</a>
-      <a class="pill pill--lilas" href="../data/frente2_cidades_10a50mil_habitantes.xlsx" download>Planilha: mobilizar, 10 a 50 mil hab.</a>
+      <a class="pill pill--rosa" href="../data/municipios.csv" download>municipios.csv</a>
+      <a class="pill pill--rosa" href="../data/frente2_cidades_10a50mil_habitantes.xlsx" download>Planilha: mobilizar, 10 a 50 mil hab.</a>
       <a class="pill" href="../data/resumo.json" download>resumo.json</a>
       <a class="pill" href="../data/radar.json" download>radar.json</a>
       <a class="pill" href="https://github.com/mneunomne/contradados" target="_blank" rel="noopener">Repositório</a>
     </p>
     <p class="texto" style="margin-top:14px">Para refazer os dados, na raiz do repositório:</p>
     <pre class="codigo">python3 scripts/site/build_dados.py   # junta TSE, IBGE, Portal da Transparência e Radar
-node scripts/site/resumo.mjs          # aplica a conta e gera os resumos
+node scripts/site/resumo.mjs          # aplica a conta e gera os resumos e os pontos dos mapas
 node scripts/site/montar_arquivo.mjs  # copia a versão anterior para /arquivo
-python3 scripts/frentes/lista_frente2.py  # planilha da Frente 2 (requer openpyxl)</pre>
+python3 scripts/frentes/lista_frente2.py  # planilha de mobilizar (requer openpyxl)</pre>
     <p class="nota">Cada push na branch main publica o site no Cloudflare. A pasta publicada é <code>site/</code>.</p>
   </section>
 </main>
-<script type="module">
-import { montarTopo, rodape, esc } from "../assets/js/ui.js";
-import { calcular, PESQUISAS, CANDS } from "../assets/js/frentes.js";
-montarTopo({ pagina: "metodo/" });
-rodape();
-document.getElementById("codigo").textContent = calcular.toString();
-const ks = Object.keys(PESQUISAS);
-const fmt = (v) => (v == null ? "média dos três" : v.toLocaleString("pt-BR"));
-document.getElementById("pesquisas-tab").innerHTML =
-  `<thead><tr><th>Eleitores de</th>${ks.map((k) => `<th><a href="${PESQUISAS[k].url}" target="_blank" rel="noopener">${esc(PESQUISAS[k].nome)}</a><br><span style="font-weight:400">${esc(PESQUISAS[k].campo)} · ${esc(PESQUISAS[k].amostra)} entrevistas · ${esc(PESQUISAS[k].reg)}</span></th>`).join("")}</tr></thead><tbody>` +
-  CANDS.map(([c, n]) => `<tr><td>${esc(n)}</td>${ks.map((k) => { const t = PESQUISAS[k].t[c]; return `<td>${t ? `${fmt(t[0])} / ${fmt(t[1])}` : "média dos três"}</td>`; }).join("")}</tr>`).join("") + "</tbody>";
-</script>
+<script src="../assets/vendor/d3-7.9.0.min.js"></script>
+<script type="module" src="../assets/js/metodo.js"></script>
 </body>
 </html>

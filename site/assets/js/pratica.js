@@ -10,7 +10,7 @@ const [rows, regioes, divisas, DEN0] = await Promise.all([municipios(), json("da
 completarQuaest(rows);
 const D = aplicar(rows, transferencia()).filter((d) => d.lon != null);
 const NOME_F = ["Todas", "Reconquistar", "Mobilizar", "Terceiros"];
-const COR_F = ["#000", "#ff1a1a", "#7533ff", "#ff9900"];
+const COR_F = ["#000", "#e0201b", "#12a088", "#3056c8"];
 const TXT_F = ["", "f1t", "f2t", "f3t"];
 
 // ---------------------------------------------------------------- estado (vai para o endereço)
@@ -145,7 +145,7 @@ function desenharResumo(sel) {
   document.getElementById("porte-tit").textContent = `Potencial por tamanho de cidade · ${S.uf ? UFNOME[S.uf] : "Brasil"} · ${NOME_F[S.f].toLowerCase()}`;
   document.getElementById("porte").innerHTML = grupos.map((g) => `
     <button class="barra-porte${S.p === g.p ? " ativa" : ""}" type="button" data-pp="${g.p}">
-      <span class="r">${g.nome}</span><span class="b"><i style="width:${(100 * g.v / m).toFixed(1)}%;background:${S.p === g.p ? COR_F[S.f] === "#000" ? "#7533ff" : COR_F[S.f] : "#bdbdbd"}"></i></span><span class="v">+${grande(g.v, true)}</span>
+      <span class="r">${g.nome}</span><span class="b"><i style="width:${(100 * g.v / m).toFixed(1)}%;background:${S.p === g.p ? (S.f ? COR_F[S.f] : "#ff4d94") : "#bdbdbd"}"></i></span><span class="v">+${grande(g.v, true)}</span>
     </button>`).join("");
   document.querySelectorAll("[data-pp]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.pp; S.n = 48; S.roteiro = ""; render(); }));
 
@@ -165,7 +165,7 @@ function cartao(d) {
   const rot = S.f === 0 ? "votos em jogo, somando as três frentes" : S.f === 1 ? `${n0(d.f1)} eleitores a reconquistar (${dec(d.f1Pct)} p.p.)` : S.f === 2 ? `${n0(d.ausentes_26)} não votaram (${pct(d.f2Pct)})` : `em disputa: ${pct(d.f3Pct, 2)} dos válidos`;
   const linhas = [["Reconquistar", "f1t", 0], ["Mobilizar", "f2t", 1], ["Terceiros", "f3t", 2]].map(([n, c, k]) =>
     `<div class="${c}"><span>${n}</span><i style="width:${((100 * g[k]) / gm).toFixed(0)}%"></i><span class="t">${g[k] > 0 ? "+" + grande(g[k]) : "–"}</span></div>`).join("");
-  return `<a class="cartao cidade${f === 1 ? " cartao--f1" : f === 3 ? " cartao--f3" : ""}" href="${RAIZ}cidade/?ibge=${d.ibge}">
+  return `<a class="cartao cidade cartao--f${f}" href="${RAIZ}cidade/?ibge=${d.ibge}">
     <p class="cartao__titulo">${esc(d.municipio)}</p>
     <p class="cartao__sub">${d.uf} · ${d.pop ? grande(d.pop) + " hab." : "sem Censo"}</p>
     <p class="valor">+${grande(valor(d))}<small>${rot}</small></p>
@@ -205,7 +205,7 @@ function desenharRoteiros() {
       <p class="meta">${r.cidades.length} cidades · região intermediária de ${esc(r.inter)} · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais</p>
       <p class="valor ${TXT_F[f]}">+${grande(r.v)} <span class="nota">votos em jogo · ~${n0(t.total)} km em linha reta</span></p>
       <ol>${t.ordem.map((c, i) => `<li><a href="${RAIZ}cidade/?ibge=${c.ibge}">${esc(c.municipio)}</a> <small>+${grande(valor(c))}${i ? ` · ${n0(t.passos[i])} km` : ""}</small></li>`).join("")}</ol>
-      <p class="linha"><button class="pill pill--lilas" type="button" data-ver="${r.cod}">Ver no mapa</button><a class="pill pill--laranja" href="${RAIZ}reels/?ibge=${t.ordem[0].ibge}">Reels para ${esc(t.ordem[0].municipio)}</a></p>
+      <p class="linha"><button class="pill pill--rosa" type="button" data-ver="${r.cod}">Ver no mapa</button><a class="pill pill--tinta" href="${RAIZ}reels/?ibge=${t.ordem[0].ibge}">Reels para ${esc(t.ordem[0].municipio)}</a></p>
     </article>`;
   }).join("") || `<p class="texto">Sem roteiros com duas ou mais cidades nesta seleção.</p>`;
   document.getElementById("mais-rot").hidden = roteirosAtuais.length <= S.nRot;

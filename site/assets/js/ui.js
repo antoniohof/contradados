@@ -76,13 +76,12 @@ const ICO = {
 const PAGINAS = [
   ["", "O caminho", "Por que e onde buscar votos para Lula no 2º turno, em 10 posts."],
   ["na-pratica/", "Na prática", "Cidade por cidade: por frente, porte e estado. Roteiros por região."],
-  ["mapa/", "Mapa das frentes", "As três frentes no país inteiro, com a conta e as pesquisas à vista."],
   ["reels/", "Kit de reels", "Roteiro e cartões verticais para cada cidade, com vídeos do Radar da Virada."],
-  ["metodo/", "Método e fontes", "De onde vêm os números, como a conta é feita e o que ela não diz."],
+  ["metodo/", "Método e fontes", "De onde vêm os números, a conta de cada frente em gráficos, os limites e as regras eleitorais."],
 ];
 
 // as mesmas abas em todas as páginas; a ficha da cidade fica sob "Na prática"
-const ABAS = [["", "O caminho"], ["na-pratica/", "Na prática"], ["mapa/", "Mapa"], ["reels/", "Reels"], ["metodo/", "Método"]];
+const ABAS = [["", "O caminho"], ["na-pratica/", "Na prática"], ["reels/", "Reels"], ["metodo/", "Método"]];
 
 export function montarTopo({ pagina = "", painel = null } = {}) {
   const dias = diasAte2T();
@@ -95,8 +94,8 @@ export function montarTopo({ pagina = "", painel = null } = {}) {
       <a class="pill marca" href="${RAIZ}">Onde buscar votos</a>
     </div>
     <div class="topo__dir">
-      <a class="mais mais--lilas" href="${RAIZ}na-pratica/"><span class="mais__ico" aria-hidden="true">+</span><span class="mais__txt"><span class="oculto-movel">Cidade por cidade</span><span class="so-movel">Cidades</span></span></a>
-      <a class="mais mais--laranja oculto-movel" href="${RAIZ}reels/"><span class="mais__ico" aria-hidden="true">+</span><span class="mais__txt">Kit de reels</span></a>
+      <a class="mais mais--rosa" href="${RAIZ}na-pratica/"><span class="mais__txt"><span class="oculto-movel">Cidade por cidade</span><span class="so-movel">Cidades</span></span><span class="mais__ico" aria-hidden="true">+</span></a>
+      <a class="mais mais--tinta oculto-movel" href="${RAIZ}reels/"><span class="mais__txt">Kit de reels</span><span class="mais__ico" aria-hidden="true">+</span></a>
     </div>`;
   document.body.prepend(topo);
   if (pagina !== "") {
@@ -110,7 +109,7 @@ export function montarTopo({ pagina = "", painel = null } = {}) {
   barra.className = "abas";
   barra.setAttribute("aria-label", "Seções");
   const ativa = pagina === "cidade/" ? "na-pratica/" : pagina;
-  barra.innerHTML = ABAS.map(([h, t]) => `<a class="pill${h === ativa ? " pill--lilas" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
+  barra.innerHTML = ABAS.map(([h, t]) => `<a class="pill${h === ativa ? " pill--rosa" : ""}" href="${RAIZ}${h}"${h === pagina ? ' aria-current="page"' : ""}>${t}</a>`).join("") +
     (dias >= 0 ? `<span class="pill pill--branco contagem oculto-movel" title="Segundo turno em 25 de outubro de 2026">25/10 · ${dias === 0 ? "é hoje" : dias === 1 ? "falta 1 dia" : `faltam ${dias} dias`}</span>` : "");
   topo.after(barra);
 

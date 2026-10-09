@@ -188,9 +188,9 @@ export function checklist(el, itens, { seed = 51 } = {}) {
     blocos.forEach((b, i) => {
       const hb = Math.max(linha, b.ls.length * 17 + 12);
       const cx = 13, cy = y + 13;
-      s.append(rc.rectangle(cx - 10, cy - 10, 20, 20, traco({ seed: seed + i, fill: b.ok ? "#dccdfb" : "#ffe6e6", fillStyle: "solid", roughness: 1 })));
-      if (b.ok) s.append(rc.linearPath([[cx - 6, cy], [cx - 1, cy + 6], [cx + 8, cy - 8]], { stroke: "#5b1fe0", strokeWidth: 2.2, roughness: 1, seed: seed + 30 + i }));
-      else { s.append(rc.line(cx - 6, cy - 6, cx + 6, cy + 6, { stroke: "#d10000", strokeWidth: 2.2, roughness: 1, seed: seed + 50 + i })); s.append(rc.line(cx + 6, cy - 6, cx - 6, cy + 6, { stroke: "#d10000", strokeWidth: 2.2, roughness: 1, seed: seed + 70 + i })); }
+      s.append(rc.rectangle(cx - 10, cy - 10, 20, 20, traco({ seed: seed + i, fill: b.ok ? "#d4f2eb" : "#ffe0dd", fillStyle: "solid", roughness: 1 })));
+      if (b.ok) s.append(rc.linearPath([[cx - 6, cy], [cx - 1, cy + 6], [cx + 8, cy - 8]], { stroke: "#0b7a66", strokeWidth: 2.2, roughness: 1, seed: seed + 30 + i }));
+      else { s.append(rc.line(cx - 6, cy - 6, cx + 6, cy + 6, { stroke: "#c4130e", strokeWidth: 2.2, roughness: 1, seed: seed + 50 + i })); s.append(rc.line(cx + 6, cy - 6, cx - 6, cy + 6, { stroke: "#c4130e", strokeWidth: 2.2, roughness: 1, seed: seed + 70 + i })); }
       b.ls.forEach((l, k) => texto(s, 34, cy + k * 17, l, { tam: 14.5, peso: k === 0 ? 500 : 400 }));
       y += hb;
     });
@@ -217,7 +217,7 @@ export function ranking(el, itens, { formato = String, seed = 61 } = {}) {
       t.remove(); a.append(t);
       texto(s, x0, y + 26, d.sub, { classe: "rot", tam: 12 });
       const w = Math.max(3, (larg * d.valor) / m);
-      s.append(rc.line(x0, y + 38, x0 + w, y + 38, { stroke: d.cor || "#7533ff", strokeWidth: 3.2, roughness: 0.9, seed: seed + i }));
+      s.append(rc.line(x0, y + 38, x0 + w, y + 38, { stroke: d.cor || "#000", strokeWidth: 3.2, roughness: 0.9, seed: seed + i }));
       texto(s, x0 + w + 6, y + 38, formato(d.valor), { classe: "val", tam: 12.5, peso: 650 });
     });
   });

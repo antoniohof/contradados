@@ -11,9 +11,9 @@ const D = aplicar(rows, transferencia());
 const porIbge = new Map(D.map((d) => [d.ibge, d]));
 const TEMAS = Object.fromEntries(radar.temas.map((t) => [t.id, t]));
 const ESTILO = {
-  1: { fundo: "#ffe6e6", forte: "#ff1a1a", texto: "#c80000", nome: "Reconquistar" },
-  2: { fundo: "#dccdfb", forte: "#7533ff", texto: "#5b1fe0", nome: "Mobilizar" },
-  3: { fundo: "#ffe5bf", forte: "#ff9900", texto: "#9a5200", nome: "Terceiros" },
+  1: { fundo: "#ffe0dd", forte: "#e0201b", texto: "#c4130e", nome: "Reconquistar" },
+  2: { fundo: "#d4f2eb", forte: "#12a088", texto: "#0b7a66", nome: "Mobilizar" },
+  3: { fundo: "#e0e7fb", forte: "#3056c8", texto: "#2848b0", nome: "Terceiros" },
 };
 
 // ---------------------------------------------------------------- escolha da cidade
@@ -31,7 +31,7 @@ campo.addEventListener("change", () => { const d = acharCidade(campo.value); if 
 campo.addEventListener("keydown", (e) => { if (e.key === "Enter") { const d = acharCidade(campo.value); if (d) escolher(d); } });
 const peq = D.filter((d) => d.porte === 2);
 const atalhos = [1, 2, 3].flatMap((k) => peq.filter((d) => d.principal === k).sort((a, b) => b["g" + k] - a["g" + k]).slice(0, 2));
-document.getElementById("atalhos").innerHTML = `<span class="nota">Sugestões:</span>` + atalhos.map((d) => `<button class="pill ${d.principal === 1 ? "pill--vermelho" : d.principal === 3 ? "pill--laranja" : "pill--lilas"}" type="button" data-i="${d.ibge}">${esc(rotulo(d))}</button>`).join("");
+document.getElementById("atalhos").innerHTML = `<span class="nota">Sugestões:</span>` + atalhos.map((d) => `<button class="pill ${["", "pill--vermelho", "pill--verde", "pill--azul"][d.principal] || ""}" type="button" data-i="${d.ibge}">${esc(rotulo(d))}</button>`).join("");
 document.querySelectorAll("[data-i]").forEach((b) => b.addEventListener("click", () => escolher(porIbge.get(b.dataset.i))));
 
 function escolher(d, rolar = true) {
@@ -59,7 +59,7 @@ function compor(d) {
     c.push({ kicker: "1º turno", numero: n0(d.ausentes_26), titulo: `pessoas de ${cid} não votaram.`, sub: "Dia 25 de outubro, a gente decide.", fonte: "TSE, 1º turno de 2026", mapa: true });
     c.push({ kicker: "Na sua cidade", ...politica });
     c.push({ kicker: "A conta", titulo: `Aqui, Lula venceu com ${p26}% dos votos.`, sub: `Se quem faltou for votar, a vantagem pode crescer em até ${n0(d.f2)} votos.`, fonte: "TSE, 1º turno de 2026. Estimativa: ausentes votando como os vizinhos.",
-      barras: [{ nome: "Lula", valor: d.votos_lula_26, texto: n0(d.votos_lula_26), cor: "#ff1a1a" }, { nome: "Flávio", valor: d.votos_flavio_26, texto: n0(d.votos_flavio_26), cor: "#6b6b6b" }, { nome: "Não votaram", valor: d.ausentes_26, texto: n0(d.ausentes_26), cor: "#7533ff" }] });
+      barras: [{ nome: "Lula", valor: d.votos_lula_26, texto: n0(d.votos_lula_26), cor: "#e0201b" }, { nome: "Flávio", valor: d.votos_flavio_26, texto: n0(d.votos_flavio_26), cor: "#6b6b6b" }, { nome: "Não votaram", valor: d.ausentes_26, texto: n0(d.ausentes_26), cor: "#12a088" }] });
   } else if (k === 1) {
     const ganhou22 = d.parcela22 > 0.5;
     c.push({ kicker: "Desde 2022", numero: dec(d.f1Pct, 1).replace(",0", "") + " pts", titulo: ganhou22 ? `foi o que Lula perdeu em ${cid}, que votou nele em 2022.` : `foi o que Lula perdeu em ${cid} desde 2022.`, sub: "Dá para trazer esses votos de volta.", fonte: "TSE, 1º turnos de 2022 e 2026", mapa: true });
@@ -231,7 +231,7 @@ async function montar(d) {
   el.innerHTML = `
     <div class="kit__cab">
       <h2 class="medio">${esc(d.municipio)} (${d.uf}): <em style="color:${est.texto}">${est.nome.toLowerCase()}</em> é a frente que mais rende.</h2>
-      <div class="linha"><a class="pill pill--lilas" href="${RAIZ}cidade/?ibge=${d.ibge}">Ficha da cidade</a><button class="pill" type="button" id="baixa-todos">Baixar os 4 cartões</button></div>
+      <div class="linha"><a class="pill pill--rosa" href="${RAIZ}cidade/?ibge=${d.ibge}">Ficha da cidade</a><button class="pill" type="button" id="baixa-todos">Baixar os 4 cartões</button></div>
     </div>
     <div class="kit__grade">
       <div class="roteiro-reel">
@@ -243,13 +243,13 @@ async function montar(d) {
       <div class="cartoes-reel">${kit.cartoes.map((c, i) => `<figure><canvas width="${W}" height="${H}" id="cv${i}" aria-label="Cartão ${i + 1}: ${esc(c.titulo)}"></canvas><figcaption><span>${i + 1}. ${esc(c.kicker)}</span><button class="pill pill--branco" type="button" data-baixa="${i}">PNG</button></figcaption></figure>`).join("")}</div>
     </div>
     <div class="faixa mensagem">
-      <div class="faixa__topo"><h3 class="rotulo">Mensagem para WhatsApp</h3><div class="linha"><a class="pill pill--lilas" target="_blank" rel="noopener" href="${linkWhats(kit.zap)}">Abrir no WhatsApp</a><button class="pill" type="button" id="copia-zap">Copiar</button></div></div>
+      <div class="faixa__topo"><h3 class="rotulo">Mensagem para WhatsApp</h3><div class="linha"><a class="pill pill--rosa" target="_blank" rel="noopener" href="${linkWhats(kit.zap)}">Abrir no WhatsApp</a><button class="pill" type="button" id="copia-zap">Copiar</button></div></div>
       <textarea id="zap" aria-label="Mensagem">${esc(kit.zap)}</textarea>
       <p class="nota">Mande para pessoas e grupos que você conhece. Disparo em massa é proibido.</p>
     </div>
     <div class="faixa faixa--solida videos">
       <div class="faixa__topo"><h3 class="rotulo">Vídeos do Radar da Virada para ${est.nome.toLowerCase()}</h3><span class="nota">recorte de ${radar.coletado_em.split("-").reverse().join("/")} · <a href="${radar.fonte}" target="_blank" rel="noopener">ver os mais recentes</a></span></div>
-      <div class="grade">${kit.videos.map((v) => `<a class="cartao${kit.k === 1 ? " cartao--f1" : kit.k === 3 ? " cartao--f3" : ""}" href="${esc(v.url)}" target="_blank" rel="noopener"><p class="cartao__titulo">${esc(v.fonte)}</p><p class="cartao__sub">${esc(v.titulo)}</p><p class="cartao__pe"><span>${grande(v.views)} visualizações</span><span>Abrir</span></p></a>`).join("")}</div>
+      <div class="grade">${kit.videos.map((v) => `<a class="cartao cartao--f${kit.k}" href="${esc(v.url)}" target="_blank" rel="noopener"><p class="cartao__titulo">${esc(v.fonte)}</p><p class="cartao__sub">${esc(v.titulo)}</p><p class="cartao__pe"><span>${grande(v.views)} visualizações</span><span>Abrir</span></p></a>`).join("")}</div>
       <p class="nota">Links para conteúdo de terceiros, como o Radar da Virada lista. Antes de repostar ou remixar, assista e confira.</p>
     </div>`;
   await fontes();

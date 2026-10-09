@@ -13,8 +13,8 @@ territórios, não pessoas, e mostram tetos, não previsões.
 | `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. No Brasil, mapa de densidade; num estado ou roteiro, um espinho por cidade (altura = votos em jogo). |
 | `/cidade/?ibge=…` | **Ficha**: as três frentes, o que fazer, políticas federais que chegam lá, contexto local e cidades vizinhas. |
 | `/reels/?ibge=…` | **Kit de reels**: roteiro de 30 s, 4 cartões 1080×1920 em PNG, mensagem de WhatsApp e vídeos do Radar da Virada. |
-| `/mapa/` | **Mapa das frentes**: mapa interativo, pesquisa editável, agrupamentos e método completo com o código. |
-| `/metodo/` | Fontes, a conta, limites e regras eleitorais. |
+| `/mapa/` | Redireciona para `/metodo/#graficos` (o antigo mapa das frentes saiu; os gráficos e o método foram para Método). |
+| `/metodo/` | A conta, cada frente em um gráfico, como os mapas foram desenhados, fontes, limites e regras eleitorais. |
 | `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`), fora do menu. |
 
 As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio), **mobilizar**
@@ -22,7 +22,8 @@ As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio)
 que não escolheram lado). A conta fica em `site/assets/js/frentes.js`, usada pelas páginas e
 pelo build. 
 
-Visual: botões, menus e faixas no estilo de othernetwork.io; Newsreader (texto e manchetes) e
+Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (rosa e
+preto na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
 Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js. Sem
 dependências externas em tempo de execução.
 
@@ -75,7 +76,7 @@ das bases do repositório.
 A base oficial tem 5.571 registros; o site compara 5.570 municípios. Boa Esperança do
 Norte/MT não tem histórico de 2022 nem Censo. Exterior excluído. Pesquisas da Frente 3:
 AtlasIntel/Bloomberg (padrão), Datafolha e Quaest, com registro no TSE. Detalhes em
-`/metodo/` e em `/mapa/#metodo`.
+`/metodo/`.
 
 - [Relatório](RELATORIO.md) · [Planilha geral](outputs/eleitor_pendular_2026.xlsx) ·
   [Base oficial](data/tse/municipios_master.csv) · [Guia para continuar](HANDOFF.md)

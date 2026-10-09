@@ -10,14 +10,14 @@ const UF_COD = { 11: "RO", 12: "AC", 13: "AM", 14: "RR", 15: "PA", 16: "AP", 17:
 export const ufDoCodigo = (ibge) => UF_COD[String(ibge).slice(0, 2)];
 
 const hex = (h) => { const n = parseInt(h.slice(1), 16); return [(n >> 16) & 255, (n >> 8) & 255, n & 255]; };
-// marcas no mapa: as três frentes passam no teste de daltonismo em todas as combinações
-export const HEX = { tinta: "#000000", f1: "#e0201b", f2: "#7533ff", f3: "#e58a00", flavio: "#7a7a7a", claro: "#e6e6e6", apagado: "#cfcfcf", meio: "#a6a6a6" };
+// marcas no mapa: vermelho, verde-água e azul passam no teste de daltonismo em todas as combinações
+export const HEX = { tinta: "#000000", f1: "#e0201b", f2: "#12a088", f3: "#3056c8", flavio: "#7a7a7a", claro: "#e6e6e6", apagado: "#cfcfcf", meio: "#a6a6a6" };
 export const COR = Object.fromEntries(Object.entries(HEX).map(([k, v]) => [k, hex(v)]));
 COR.lula = COR.f1;
 export const COR_F = [COR.tinta, COR.f1, COR.f2, COR.f3];
 export const HEX_F = [HEX.tinta, HEX.f1, HEX.f2, HEX.f3];
 // tons de texto (contraste AA sobre branco)
-export const TXT_F = ["#000000", "#d10000", "#6526e8", "#a85a00"];
+export const TXT_F = ["#000000", "#c4130e", "#0b7a66", "#2848b0"];
 
 const FONTE = "'Bricolage Grotesque', 'Helvetica Neue', Helvetica, Arial, sans-serif";
 const ease = (t) => (t < 0.5 ? 4 * t * t * t : 1 - Math.pow(-2 * t + 2, 3) / 2);

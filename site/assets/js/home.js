@@ -121,35 +121,35 @@ aplicar("inicio", true);
 const VIZ = {
   placar: (el) => barras(el, [
     { rotulo: "Flávio", valor: T.flavio, cor: "#8a8a8a", texto: curto(T.flavio) },
-    { rotulo: "Lula", valor: T.lula, cor: "#ff1a1a", texto: curto(T.lula) },
+    { rotulo: "Lula", valor: T.lula, cor: "#e0201b", texto: curto(T.lula) },
   ], { rotuloLargura: 64, altura: 28 }),
   cascata: (el) => cascata(el, [
     { rotulo: "Diferença\nno 1º turno", valor: T.diferenca, cor: "#8a8a8a", tipo: "base", texto: curto(T.diferenca) },
-    { rotulo: "Terceiros que\njá escolheram", valor: T.saldoTerceirosDecididos, cor: "#ff9900", tipo: "soma", texto: "+" + curto(T.saldoTerceirosDecididos) },
+    { rotulo: "Terceiros que\njá escolheram", valor: T.saldoTerceirosDecididos, cor: "#3056c8", tipo: "soma", texto: "+" + curto(T.saldoTerceirosDecididos) },
     { rotulo: "Distância\nreal", valor: T.diferencaEfetiva, cor: "#6b6b6b", tipo: "total", texto: curto(T.diferencaEfetiva) },
   ]),
   caminhos: (el) => caminhos(el, [
-    { nome: "Reconquistar", valor: T.f1, cor: "#ff1a1a", quem: "quem votou em Lula em 2022 e foi de Flávio", texto: curto(T.f1) },
-    { nome: "Mobilizar", valor: T.f2, cor: "#7533ff", quem: "quem não votou, nas cidades onde Lula ganha", texto: curto(T.f2) },
-    { nome: "Convencer", valor: T.f3, cor: "#ff9900", quem: "eleitores de terceiros que não escolheram lado", texto: curto(T.f3) },
+    { nome: "Reconquistar", valor: T.f1, cor: "#e0201b", quem: "quem votou em Lula em 2022 e foi de Flávio", texto: curto(T.f1) },
+    { nome: "Mobilizar", valor: T.f2, cor: "#12a088", quem: "quem não votou, nas cidades onde Lula ganha", texto: curto(T.f2) },
+    { nome: "Convencer", valor: T.f3, cor: "#3056c8", quem: "eleitores de terceiros que não escolheram lado", texto: curto(T.f3) },
   ]),
-  "regiao-f1": (el) => barras(el, R.porRegiao.slice().sort((a, b) => b.f1 - a.f1).map((r) => ({ rotulo: r.id, valor: r.f1, cor: "#ff1a1a", texto: curto(r.f1) })), { rotuloLargura: 98 }),
-  "regiao-f2": (el) => barras(el, R.porRegiao.slice().sort((a, b) => b.f2 - a.f2).map((r) => ({ rotulo: r.id, valor: r.f2, cor: "#7533ff", texto: curto(r.f2) })), { rotuloLargura: 98 }),
+  "regiao-f1": (el) => barras(el, R.porRegiao.slice().sort((a, b) => b.f1 - a.f1).map((r) => ({ rotulo: r.id, valor: r.f1, cor: "#e0201b", texto: curto(r.f1) })), { rotuloLargura: 98 }),
+  "regiao-f2": (el) => barras(el, R.porRegiao.slice().sort((a, b) => b.f2 - a.f2).map((r) => ({ rotulo: r.id, valor: r.f2, cor: "#12a088", texto: curto(r.f2) })), { rotuloLargura: 98 }),
   terceiros: (el) => {
     const t = PESQUISAS.atlas.t;
-    const linha = (nome, [l, f]) => ({ rotulo: nome, partes: [{ valor: l, cor: "#ff7f7f" }, { valor: f, cor: "#a9a9a9" }, { valor: 100 - l - f, cor: "#ff9900", solido: true }] });
+    const linha = (nome, [l, f]) => ({ rotulo: nome, partes: [{ valor: l, cor: "#ff8f8a" }, { valor: f, cor: "#a9a9a9" }, { valor: 100 - l - f, cor: "#3056c8", solido: true }] });
     empilhadas(el, [linha("Caiado", t.caiado), linha("Renan Santos", t.renan), linha("Augusto Cury", t.cury), linha("Zema e outros", t.outros)],
-      { legenda: [{ nome: "Lula", cor: "#ff7f7f" }, { nome: "Flávio", cor: "#a9a9a9" }, { nome: "em disputa", cor: "#ff9900", solido: true }] });
+      { legenda: [{ nome: "Lula", cor: "#ff8f8a" }, { nome: "Flávio", cor: "#a9a9a9" }, { nome: "em disputa", cor: "#3056c8", solido: true }] });
   },
   pessoas: (el) => pessoas(el, [
-    { valor: "+2", nome: "volta de Flávio\npara Lula", cor: "#ff1a1a", corTexto: "#d10000" },
-    { valor: "+1", nome: "indeciso de terceiros\nescolhe Lula", cor: "#ff9900", corTexto: "#a85a00" },
-    { valor: "+0,4", nome: "não votou e vai\n(cidade 70% Lula)", cor: "#7533ff", corTexto: "#6526e8" },
+    { valor: "+2", nome: "volta de Flávio\npara Lula", cor: "#e0201b", corTexto: "#c4130e" },
+    { valor: "+1", nome: "indeciso de terceiros\nescolhe Lula", cor: "#3056c8", corTexto: "#2848b0" },
+    { valor: "+0,4", nome: "não votou e vai\n(cidade 70% Lula)", cor: "#12a088", corTexto: "#0b7a66" },
   ]),
-  portes: (el) => barras(el, R.porPorte.map((p) => ({ rotulo: p.curto, valor: p.gTot, cor: p.id === 2 ? "#7533ff" : "#a9a9a9", destaque: p.id === 2, texto: curto(p.gTot) })), { rotuloLargura: 96 }),
+  portes: (el) => barras(el, R.porPorte.map((p) => ({ rotulo: p.curto, valor: p.gTot, cor: p.id === 2 ? "#ff4d94" : "#a9a9a9", destaque: p.id === 2, texto: curto(p.gTot) })), { rotuloLargura: 96 }),
   roteiros: (el) => ranking(el, rotas.map((r) => {
     const g = [r.g1, r.f2, r.f3], f = 1 + g.indexOf(Math.max(...g));
-    return { titulo: `${r.nome} (${r.uf})`, sub: `${r.cidades} cidades · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais`, valor: r.gTot, cor: ["", "#ff1a1a", "#7533ff", "#ff9900"][f], href: `${RAIZ}na-pratica/#roteiro=${r.codigo}` };
+    return { titulo: `${r.nome} (${r.uf})`, sub: `${r.cidades} cidades · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais`, valor: r.gTot, cor: ["", "#e0201b", "#12a088", "#3056c8"][f], href: `${RAIZ}na-pratica/#roteiro=${r.codigo}` };
   }), { formato: (v) => "+" + grande(v) }),
   lei: (el) => checklist(el, [
     { ok: true, texto: "Conversar olho no olho com quem você conhece: família, vizinhos, trabalho, igreja." },
@@ -170,9 +170,9 @@ document.querySelectorAll(".post").forEach((post) => {
   const url = base + "#" + post.id;
   const f = pe.dataset.filtro;
   const extra = !f ? "" :
-    f === "roteiros" ? `<a class="pill pill--lilas" href="${RAIZ}na-pratica/#roteiros">Ver os ${R.roteirosTotal} roteiros</a>` :
-    f === "cidade" ? `<button class="pill pill--lilas" type="button" data-acha>Achar minha cidade</button><a class="pill pill--laranja" href="${RAIZ}reels/">Kit de reels</a>` :
-    `<a class="pill pill--lilas" href="${RAIZ}na-pratica/#${f}">Ver cidades</a>`;
+    f === "roteiros" ? `<a class="pill pill--rosa" href="${RAIZ}na-pratica/#roteiros">Ver os ${R.roteirosTotal} roteiros</a>` :
+    f === "cidade" ? `<button class="pill pill--rosa" type="button" data-acha>Achar minha cidade</button><a class="pill pill--tinta" href="${RAIZ}reels/">Kit de reels</a>` :
+    `<a class="pill pill--rosa" href="${RAIZ}na-pratica/#${f}">Ver cidades</a>`;
   pe.innerHTML = `${extra}<a class="pill" href="${linkWhats(titulo, url)}" target="_blank" rel="noopener">WhatsApp</a><button class="pill" type="button" data-copia>Copiar link</button>`;
   pe.querySelector("[data-copia]").addEventListener("click", (e) => copiar(url, e.currentTarget));
   pe.querySelector("[data-acha]")?.addEventListener("click", (e) => { e.stopPropagation(); document.querySelector("[data-busca]").click(); });
@@ -184,7 +184,7 @@ function destacar(post) {
   if (marcados.has(post.id)) return;
   marcados.add(post.id);
   post.querySelectorAll(".post__titulo em").forEach((em, k) => {
-    const cor = em.classList.contains("f1t") ? "#ffe6e6" : em.classList.contains("f2t") ? "#dccdfb" : em.classList.contains("f3t") ? "#ffe5bf" : "#dccdfb";
+    const cor = em.classList.contains("f1t") ? "#ffe0dd" : em.classList.contains("f2t") ? "#d4f2eb" : em.classList.contains("f3t") ? "#e0e7fb" : "#ffd7e8";
     setTimeout(() => annotate(em, { type: "highlight", color: cor, animationDuration: 700, multiline: true, iterations: 1 }).show(), 250 + k * 200);
   });
 }

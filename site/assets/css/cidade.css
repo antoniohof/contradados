@@ -40,7 +40,7 @@
 
 .vizinhas ol { margin: 0; padding: 0; list-style: none; display: grid; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); gap: 8px; }
 .vizinhas li a { display: grid; grid-template-columns: 1fr auto; gap: 2px 8px; background: var(--papel); padding: 6px 8px; text-decoration: none; font: 500 15px/18px var(--ui); }
-.vizinhas li a:hover { background: var(--roxo-3); }
+.vizinhas li a:hover { background: var(--rosa-3); }
 .vizinhas li small { grid-column: 1 / -1; font: 400 12px/14px var(--ui); color: #444; }
 .vizinhas .km { color: var(--cinza); font-weight: 400; }
 
