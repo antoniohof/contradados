@@ -13,7 +13,7 @@
 }
 .controles select.pill { appearance: none; -webkit-appearance: none; padding-right: 26px; background-image: linear-gradient(45deg, transparent 50%, #000 50%), linear-gradient(135deg, #000 50%, transparent 50%); background-position: calc(100% - 13px) 11px, calc(100% - 8px) 11px; background-size: 5px 5px; background-repeat: no-repeat; }
 .controles .campo { width: 190px; cursor: text; background: var(--cinza-3); }
-.controles .campo:focus { background: var(--papel); outline: 1px solid var(--rosa-2); }
+.controles .campo:focus { background: var(--papel); outline: 1px solid var(--tinta); }
 
 .painel-dados { display: grid; grid-template-columns: minmax(0, 1.25fr) minmax(300px, 1fr); gap: var(--gutter); padding: var(--gutter); align-items: start; }
 .mapa-caixa { position: relative; height: min(68vh, 640px); min-height: 360px; background: var(--papel); }
@@ -26,7 +26,7 @@
 .estados ul { list-style: none; margin: 0; padding: 0; columns: 2; column-gap: 16px; }
 .estados li { display: flex; justify-content: space-between; gap: 6px; padding: 3px 0; font: 500 14px/17px var(--ui); break-inside: avoid; border-bottom: 1px solid var(--cinza-2); }
 .estados li button { all: unset; cursor: pointer; }
-.estados li button:hover { color: var(--rosa-txt); }
+.estados li button:hover { text-decoration: underline; }
 .estados li .num { color: #555; font-weight: 400; }
 
 .lista .faixa__topo { position: relative; }
@@ -44,8 +44,8 @@
 
 .lista-roteiros { display: grid; grid-template-columns: repeat(auto-fill, minmax(320px, 1fr)); gap: var(--gutter); margin-top: var(--gutter); }
 .roteiro { background: var(--papel); padding: 8px; display: grid; gap: 6px; scroll-margin-top: 140px; }
-.roteiro.alvo { outline: 2px solid var(--rosa); }
-.roteiro h3 { margin: 0; font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); color: var(--rosa-txt); }
+.roteiro.alvo { outline: 2px solid var(--tinta); }
+.roteiro h3 { margin: 0; font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); color: var(--tinta); }
 .roteiro .meta { font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #333; }
 .roteiro .valor { font: 600 26px/28px var(--ui); font-stretch: 85%; font-variant-numeric: tabular-nums; }
 .roteiro ol { margin: 0; padding-left: 22px; font: 400 15px/20px var(--texto); }

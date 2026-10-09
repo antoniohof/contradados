@@ -146,7 +146,7 @@ const VIZ = {
     { valor: "+1", nome: "indeciso de terceiros\nescolhe Lula", cor: "#3056c8", corTexto: "#2848b0" },
     { valor: "+0,4", nome: "não votou e vai\n(cidade 70% Lula)", cor: "#12a088", corTexto: "#0b7a66" },
   ]),
-  portes: (el) => barras(el, R.porPorte.map((p) => ({ rotulo: p.curto, valor: p.gTot, cor: p.id === 2 ? "#ff4d94" : "#a9a9a9", destaque: p.id === 2, texto: curto(p.gTot) })), { rotuloLargura: 96 }),
+  portes: (el) => barras(el, R.porPorte.map((p) => ({ rotulo: p.curto, valor: p.gTot, cor: p.id === 2 ? "#111111" : "#a9a9a9", destaque: p.id === 2, texto: curto(p.gTot) })), { rotuloLargura: 96 }),
   roteiros: (el) => ranking(el, rotas.map((r) => {
     const g = [r.g1, r.f2, r.f3], f = 1 + g.indexOf(Math.max(...g));
     return { titulo: `${r.nome} (${r.uf})`, sub: `${r.cidades} cidades · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais`, valor: r.gTot, cor: ["", "#e0201b", "#12a088", "#3056c8"][f], href: `${RAIZ}na-pratica/#roteiro=${r.codigo}` };
@@ -170,9 +170,9 @@ document.querySelectorAll(".post").forEach((post) => {
   const url = base + "#" + post.id;
   const f = pe.dataset.filtro;
   const extra = !f ? "" :
-    f === "roteiros" ? `<a class="pill pill--rosa" href="${RAIZ}na-pratica/#roteiros">Ver os ${R.roteirosTotal} roteiros</a>` :
-    f === "cidade" ? `<button class="pill pill--rosa" type="button" data-acha>Achar minha cidade</button><a class="pill pill--tinta" href="${RAIZ}reels/">Kit de reels</a>` :
-    `<a class="pill pill--rosa" href="${RAIZ}na-pratica/#${f}">Ver cidades</a>`;
+    f === "roteiros" ? `<a class="pill pill--tinta" href="${RAIZ}na-pratica/#roteiros">Ver os ${R.roteirosTotal} roteiros</a>` :
+    f === "cidade" ? `<button class="pill pill--tinta" type="button" data-acha>Achar minha cidade</button><a class="pill pill--branco" href="${RAIZ}reels/">Kit de reels</a>` :
+    `<a class="pill pill--tinta" href="${RAIZ}na-pratica/#${f}">Ver cidades</a>`;
   pe.innerHTML = `${extra}<a class="pill" href="${linkWhats(titulo, url)}" target="_blank" rel="noopener">WhatsApp</a><button class="pill" type="button" data-copia>Copiar link</button>`;
   pe.querySelector("[data-copia]").addEventListener("click", (e) => copiar(url, e.currentTarget));
   pe.querySelector("[data-acha]")?.addEventListener("click", (e) => { e.stopPropagation(); document.querySelector("[data-busca]").click(); });
@@ -184,8 +184,9 @@ function destacar(post) {
   if (marcados.has(post.id)) return;
   marcados.add(post.id);
   post.querySelectorAll(".post__titulo em").forEach((em, k) => {
-    const cor = em.classList.contains("f1t") ? "#ffe0dd" : em.classList.contains("f2t") ? "#d4f2eb" : em.classList.contains("f3t") ? "#e0e7fb" : "#ffd7e8";
-    setTimeout(() => annotate(em, { type: "highlight", color: cor, animationDuration: 700, multiline: true, iterations: 1 }).show(), 250 + k * 200);
+    const cor = em.classList.contains("f1t") ? "#ffe0dd" : em.classList.contains("f2t") ? "#d4f2eb" : em.classList.contains("f3t") ? "#e0e7fb" : null;
+    const opc = cor ? { type: "highlight", color: cor } : { type: "underline", color: "#000", strokeWidth: 2.5, padding: 2 };
+    setTimeout(() => annotate(em, { ...opc, animationDuration: 700, multiline: true, iterations: 1 }).show(), 250 + k * 200);
   });
 }
 const posts = [...document.querySelectorAll(".post")];

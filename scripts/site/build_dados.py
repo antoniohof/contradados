@@ -14,6 +14,7 @@ Entradas
   data/geo/arranjos_populacionais_ibge_2015.csv
   data/canais/canais.csv                    canais públicos (prefeitura, câmara, imprensa local)
   data/radar/radar_2026-10-09.json          recorte do Radar da Virada (temas com fonte e vídeos)
+  data/noticias/noticias_locais.json        notícias e pautas locais das cidades pequenas (ganchos dos reels)
 
 Saídas em site/data/
   municipios.csv        uma linha por município; as contas das frentes ficam no navegador
@@ -23,6 +24,7 @@ Saídas em site/data/
   locais.json           economia e pautas locais com fontes (pesquisa local, ~300 cidades)
   canais.json           canais públicos por município
   radar.json            temas e vídeos do Radar da Virada
+  noticias.json         ganchos locais por município, do melhor para o pior
 """
 import csv
 import json
@@ -231,9 +233,23 @@ def main():
     shutil.copyfile(REPO / "docs/data/municipios.topo.json", OUT / "municipios.topo.json")
     shutil.copyfile(REPO / "data/radar/radar_2026-10-09.json", OUT / "radar.json")
 
+    # notícias locais (ganchos dos reels): as confirmadas, recentes e de temas do dia a dia primeiro
+    fonte_not = json.loads((REPO / "data/noticias/noticias_locais.json").read_text(encoding="utf-8"))
+    prioritarios = {"saude", "agua", "estrada", "clima", "educacao", "emprego", "programa_federal", "moradia", "energia", "agricultura"}
+    def nota(x):
+        ano = x["data"][:4]
+        return (2 if x["confirmado"] else 0) + (2 if ano == "2026" else 1 if ano == "2025" else 0) \
+            + (1 if x["tom"] != "neutro" else 0) + (1 if x["tema"] in prioritarios else 0)
+    noticias = {}
+    for k, c in fonte_not["cidades"].items():
+        itens = sorted(c["noticias"], key=lambda x: (nota(x), x["data"]), reverse=True)[:3]
+        if itens:
+            noticias[k] = [{"d": x["data"], "v": x["veiculo"], "u": x["url"], "r": x["resumo"], "te": x["tema"], "to": x["tom"], "g": x["gancho"], "c": int(x["confirmado"])} for x in itens]
+    (OUT / "noticias.json").write_text(json.dumps(noticias, ensure_ascii=False, separators=(",", ":")), encoding="utf-8")
+
     sem_pop = [k for k in base if k not in pop]
     print(f"{len(base)} municípios -> {OUT.relative_to(REPO)}/municipios.csv; sem Censo: {sem_pop}; "
-          f"{len(locais)} com pesquisa local; {len(canais)} com canais")
+          f"{len(locais)} com pesquisa local; {len(canais)} com canais; {len(noticias)} com notícia local")
 
 
 if __name__ == "__main__":

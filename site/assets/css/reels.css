@@ -5,11 +5,12 @@
 .escolha .campo { width: min(420px, 100%); background: var(--papel); cursor: text; }
 .escolha .linha .pill { font-size: 14px; min-height: 22px; padding: 3px 7px; }
 
-.kit { padding: var(--gutter); display: grid; gap: var(--gutter); }
+.kit { padding: var(--gutter); display: grid; grid-template-columns: minmax(0, 1fr); gap: var(--gutter); }
+.kit .rotulo { white-space: normal; }
 .kit__cab { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: end; gap: 12px; }
 .kit__cab .medio { max-width: 900px; }
 .kit__cab .medio em { font-style: normal; }
-.kit__grade { display: grid; grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr); gap: var(--gutter); align-items: start; }
+.kit__grade { display: grid; grid-template-columns: minmax(0, 400px) minmax(0, 1fr); gap: calc(2 * var(--gutter)); align-items: start; }
 
 .roteiro-reel { background: var(--cinza-3); padding: 12px; }
 .roteiro-reel ol { list-style: none; margin: 0; padding: 0; display: grid; gap: 10px; }
@@ -23,11 +24,21 @@
 .dica { font: 400 15px/20px var(--texto); margin: 12px 0 0; }
 .acoes-kit { display: flex; flex-wrap: wrap; gap: 4px; margin-top: 12px; }
 
-.cartoes-reel { display: grid; grid-template-columns: repeat(4, minmax(0, 1fr)); gap: 8px; }
-.cartoes-reel figure { margin: 0; display: grid; gap: 6px; }
-.cartoes-reel canvas { width: 100%; height: auto; aspect-ratio: 9 / 16; background: var(--cinza-3); box-shadow: 0 0 0 1px var(--cinza-2); }
-.cartoes-reel figcaption { display: flex; justify-content: space-between; align-items: center; gap: 4px; font: 500 12px/14px var(--ui); }
-.cartoes-reel figcaption .pill { font-size: 13px; min-height: 22px; padding: 3px 7px; }
+/* reel: prévia tocável, controles e opções */
+.reel { display: grid; gap: 10px; align-content: start; }
+.reel__tela { position: relative; width: min(100%, 380px); }
+.reel__tela canvas { display: block; width: 100%; height: auto; aspect-ratio: 9 / 16; background: #0d0d0d; cursor: pointer; }
+.reel__play { position: absolute; inset: 0; margin: auto; width: 84px; height: 84px; border: 0; border-radius: 50%; background: rgba(0, 0, 0, 0.62); color: #fff; font-size: 34px; line-height: 84px; padding-left: 6px; cursor: pointer; }
+.reel__play[hidden] { display: none; }
+.reel__controles { display: flex; align-items: center; gap: 8px; width: min(100%, 380px); }
+.reel__controles input[type="range"] { flex: 1; accent-color: #000; }
+.reel__controles .num { font: 500 13px/1 var(--ui); color: #444; white-space: nowrap; }
+.reel__opcoes { display: grid; gap: 8px; }
+.reel__opcoes .nota { display: block; margin: 0 0 4px; }
+.reel .pill:disabled { opacity: 0.7; cursor: progress; }
+.noticia { background: var(--papel); padding: 10px 12px; }
+.noticia .nota { margin: 0; }
+.noticia__resumo { font: 400 18px/24px var(--texto); margin: 6px 0; }
 
 .videos .grade { grid-template-columns: repeat(auto-fill, minmax(230px, 1fr)); }
 .videos .cartao { min-height: 120px; }
@@ -38,5 +49,5 @@
 .lista-regras { margin: 0; padding-left: 18px; display: grid; gap: 8px; max-width: 900px; font: 400 17px/22px var(--texto); }
 .lista-regras b { font-weight: 650; }
 
-@media (max-width: 1000px) { .kit__grade { grid-template-columns: 1fr; } }
-@media (max-width: 560px) { .cartoes-reel { grid-template-columns: repeat(2, minmax(0, 1fr)); } .reels { padding-top: 76px; } }
+@media (max-width: 1000px) { .kit__grade { grid-template-columns: minmax(0, 1fr); } }
+@media (max-width: 560px) { .reels { padding-top: 76px; } .reel__tela, .reel__controles { width: 100%; } }

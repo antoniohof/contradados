@@ -1,20 +1,195 @@
-// Kit de reels por cidade: roteiro de 30 s, 4 cartões 1080×1920, legenda, mensagem e vídeos do Radar da Virada.
-import { montarTopo, rodape, municipios, json, grande, n0, pct, dec, esc, reais, linkWhats, copiar, baixarArquivo, RAIZ, semAcento } from "./ui.js";
-import { aplicar, transferencia, completarQuaest, UFNOME } from "./frentes.js";
+// Kit de reels por cidade: um vídeo de 23 s que abre com uma notícia da própria cidade, liga a notícia a uma
+// política de Lula, mostra o que o adversário disse (com fonte) e chama para o dia 25. Toca na página e baixa em MP4.
+// Junto: roteiro para gravar, legenda, mensagem e vídeos do Radar da Virada para compartilhar na cidade.
+import { montarTopo, rodape, municipios, json, grande, n0, pct, esc, reais, linkWhats, copiar, baixarArquivo, RAIZ, semAcento } from "./ui.js";
+import { aplicar, transferencia, completarQuaest } from "./frentes.js";
+import { montarReel, prepararMapa, projetar, Player, gravar, capa } from "./reel.js";
 
 montarTopo({ pagina: "reels/" });
 rodape();
 
-const [rows, radar, P] = await Promise.all([municipios(), json("data/radar.json"), json("data/pontos.json")]);
+const [rows, radar, P, NOT] = await Promise.all([municipios(), json("data/radar.json"), json("data/pontos.json"), json("data/noticias.json")]);
 completarQuaest(rows);
 const D = aplicar(rows, transferencia());
 const porIbge = new Map(D.map((d) => [d.ibge, d]));
 const TEMAS = Object.fromEntries(radar.temas.map((t) => [t.id, t]));
-const ESTILO = {
-  1: { fundo: "#ffe0dd", forte: "#e0201b", texto: "#c4130e", nome: "Reconquistar" },
-  2: { fundo: "#d4f2eb", forte: "#12a088", texto: "#0b7a66", nome: "Mobilizar" },
-  3: { fundo: "#e0e7fb", forte: "#3056c8", texto: "#2848b0", nome: "Terceiros" },
+const M = prepararMapa(P);
+const idxP = new Map(Array.from(P.ibge, (c, i) => [String(c), i]));
+// cor forte, cor clara, cor de texto, nome
+const COR = { 1: ["#e0201b", "#ffe0dd", "#c4130e", "Reconquistar"], 2: ["#12a088", "#d4f2eb", "#0b7a66", "Mobilizar"], 3: ["#3056c8", "#e0e7fb", "#2848b0", "Terceiros"] };
+const limpo = (s) => String(s || "").replace(/\*/g, "");
+const MESES = ["jan", "fev", "mar", "abr", "mai", "jun", "jul", "ago", "set", "out", "nov", "dez"];
+const ASSUNTO = { saude: "Saúde", estrada: "Estrada", clima: "Clima", agua: "Água", obra: "Obra", educacao: "Escola", emprego: "Emprego", programa_federal: "Programa federal", economia: "Economia", agricultura: "Roça", cultura: "Festa e cultura", moradia: "Moradia", transporte: "Transporte", energia: "Energia" };
+const dataCurta = (s) => { const [a, m, d] = String(s || "").split("-"); return !a ? "" : !m ? a : d ? `${+d}/${m}/${a}` : `${MESES[+m - 1]}/${a}`; };
+
+// ---------------------------------------------------------------- o que Lula fez ou propõe, por assunto da notícia
+const PROGRAMAS = {
+  saude: { nome: "Agora Tem Especialistas", frase: "Com Lula, o SUS faz *mutirão de consultas, exames e cirurgias* com especialista.", fonte: "Ministério da Saúde, programa Agora Tem Especialistas." },
+  farmacia: { nome: "Farmácia Popular", frase: "Com Lula, o Farmácia Popular dá *remédio de graça* para pressão alta, diabetes e asma.", fonte: "Ministério da Saúde, Farmácia Popular." },
+  agua_sertao: { nome: "Novo PAC", frase: "Com Lula, o Novo PAC voltou a fazer *adutora e barragem* no sertão.", fonte: "Governo federal, Novo PAC." },
+  agua: { nome: "Novo PAC", frase: "Com Lula, o Novo PAC investe em *água e saneamento* nas cidades.", fonte: "Governo federal, Novo PAC." },
+  desastre: { nome: "Defesa Civil Nacional", frase: "Com Lula, a Defesa Civil Nacional manda *dinheiro para socorro e reconstrução.*", fonte: "Ministério da Integração e do Desenvolvimento Regional, Defesa Civil Nacional." },
+  chuva: { nome: "Novo PAC", frase: "Com Lula, o Novo PAC tem obra de *drenagem e contenção* para quem sofre com a chuva.", fonte: "Governo federal, Novo PAC." },
+  obra: { nome: "Novo PAC", frase: "Com Lula, o Novo PAC voltou a mandar *obra para cidade pequena.*", fonte: "Governo federal, Novo PAC." },
+  creche: { nome: "Novo PAC", frase: "Com Lula, o Novo PAC voltou a construir *creche e escola.*", fonte: "Ministério da Educação e Novo PAC." },
+  educacao: { nome: "Pé-de-Meia", frase: "Com Lula, o Pé-de-Meia *paga para o jovem* estudar e terminar o ensino médio.", fonte: "Ministério da Educação, Pé-de-Meia." },
+  emprego: { nome: "Imposto de Renda", frase: "Com Lula, quem ganha até R$ 5 mil por mês *não paga mais Imposto de Renda.*", fonte: "Lei de 2025 que isentou do IR quem ganha até R$ 5 mil, em vigor desde janeiro de 2026." },
+  moradia: { nome: "Minha Casa Minha Vida", frase: "Com Lula, o Minha Casa Minha Vida *voltou a entregar casa* para quem precisa.", fonte: "Ministério das Cidades, Minha Casa Minha Vida." },
+  energia: { nome: "Luz para Todos", frase: "Com Lula, o Luz para Todos voltou a levar *energia a quem não tinha.*", fonte: "Ministério de Minas e Energia, Luz para Todos." },
+  agricultura: { nome: "Merenda e Pronaf", frase: "Com Lula, a merenda escolar *compra de quem planta aqui* e o Pronaf financia a roça.", fonte: "FNDE (merenda escolar) e Pronaf." },
+  cultura: { nome: "Lei Aldir Blanc", frase: "Com Lula, a Lei Aldir Blanc manda *dinheiro para a cultura* de toda cidade.", fonte: "Ministério da Cultura, Política Nacional Aldir Blanc." },
+  renda: { nome: "Bolsa Família", frase: "Com Lula, o Bolsa Família voltou: *R$ 600 por família* e mais R$ 150 por criança pequena.", fonte: "Ministério do Desenvolvimento Social, Bolsa Família." },
+  salario: { nome: "Salário mínimo", frase: "Com Lula, o salário mínimo voltou a *subir acima da inflação.*", fonte: "Política de valorização do salário mínimo." },
 };
+// semiárido: Nordeste e norte de Minas
+const NORDESTE = new Set(["AL", "BA", "CE", "MA", "PB", "PE", "PI", "RN", "SE"]);
+const sertao = (d) => NORDESTE.has(d.uf) || (d.uf === "MG" && d.lat > -17.5);
+function programaPara(n, k, d) {
+  const te = n?.te, txt = n ? `${n.r} ${n.g}`.toLowerCase() : "";
+  const agua = sertao(d) ? "agua_sertao" : "agua";
+  if (/farm[aá]cia|rem[eé]dio/.test(txt)) return "farmacia";
+  if (te === "saude") return "saude";
+  if (/creche|educa[cç][aã]o infantil/.test(txt)) return "creche";
+  if (te === "agua") return agua;
+  if (te === "clima") {
+    if (/temporal|granizo|vendaval|tempestade|ventania|ciclone|tornado|desliza|desabrig|desalojad|deixaram suas casas|estragos?\b|tempo extremo|destelha|barragem/.test(txt)) return "desastre";
+    if (/chuva|enchente|alag|enxurr|cheia|inunda/.test(txt)) return "chuva";
+    if (/\bseca\b|estiagem/.test(txt) && !sertao(d)) return "agricultura";
+    return agua;
+  }
+  if (te === "estrada" || te === "obra" || te === "transporte") return "obra";
+  if (["educacao", "moradia", "energia", "agricultura"].includes(te)) return te;
+  if (te === "emprego" || te === "economia") return "emprego";
+  if (te === "programa_federal") {
+    if (/p[eé]-de-meia/.test(txt)) return "educacao";
+    if (/minha casa/.test(txt)) return "moradia";
+    if (/luz para todos/.test(txt)) return "energia";
+    if (/aldir/.test(txt)) return "cultura";
+    if (/m[eé]dic|sa[uú]de/.test(txt)) return "saude";
+    return "obra";
+  }
+  if (/\bleit(e|eiro|eira)\b|queijo|\bsafra|lavoura|\bro[cç]a\b|rebanho|\bgado\b|produtor(es)? rura|agricultor|feira livre/.test(txt)) return "agricultura";
+  if (te === "cultura" && /aldir|cultura/.test(txt)) return "cultura";
+  return k === 2 ? "renda" : d.urbana >= 75 ? "emprego" : "salario";
+}
+
+// ---------------------------------------------------------------- o contraste: o que o adversário disse (temas do Radar da Virada, com fonte)
+const ATAQUES = {
+  bolso: {
+    nome: "Aposentadoria e BPC",
+    ataque: "A equipe dele planejou *desligar a aposentadoria e o BPC* do aumento real do salário mínimo.",
+    sub: "Em público, promete aumento, mas não diz se mantém a regra. E o plano dele prevê cortar R$ 190 bilhões.",
+    soco: (cid) => `Quem paga essa conta é *${cid}.*`,
+    fonte: "Folha de S.Paulo, Gazeta do Povo e Poder360. A campanha de Flávio nega o plano.",
+    tema: "bolso", links: ["140578", "fbccaa", "d3cc21"], radar: ["bolso", "idosos", "direitos", "saude"],
+  },
+  "6x1": {
+    nome: "Escala 6x1",
+    ataque: "Sobre o fim da escala 6x1, ele disse que mais folga *“não adianta”* com trabalhador endividado.",
+    sub: "",
+    soco: () => "Quem trabalha 6 por 1 sabe de que lado *ficar.*",
+    fonte: "O Globo, outubro de 2026.",
+    tema: "6x1", links: ["a0ab2b"], radar: ["6x1", "trabalho"],
+  },
+  constituicao: {
+    nome: "Democracia",
+    ataque: "Ele diz que o Brasil *não vive uma democracia plena* e quer mudar a Constituição.",
+    sub: "Deixou em aberto até aumentar o mandato de presidente.",
+    soco: () => "Com as regras do jogo não se *brinca.*",
+    fonte: "Jornal de Brasília, 6 e 7 de outubro de 2026.",
+    tema: "constituicao", links: ["753fc6", "016734"], radar: ["constituicao", "democracia", "direita", "renan", "cury_renan"],
+  },
+};
+function ataquePara(d, k, n) {
+  if (k === 3) return "constituicao";
+  if (n && (n.te === "emprego" || n.te === "economia")) return "6x1";
+  if (k === 1) return d.urbana >= 75 ? "6x1" : "bolso";
+  return d.idosos >= 22 || d.bpc > 0 ? "bolso" : "6x1";
+}
+const FEDERAL = /federal|novo pac|\bpac\b|codevasf|bndes|minist[eé]rio|\buni[aã]o\b|mais m[eé]dicos|p[eé]-de-meia|farm[aá]cia popular|minha casa|luz para todos|aldir blanc|defesa civil nacional/i;
+// "Polícia Federal", "Justiça Federal" e "Ministério Público" não são dinheiro do governo federal
+const temFederal = (s) => FEDERAL.test(String(s).replace(/pol[ií]cia federal|justi[cç]a federal|tribunal regional federal|minist[eé]rio p[uú]blico( federal)?/gi, ""));
+
+// ---------------------------------------------------------------- composição do kit
+function compor(d, escolha = {}) {
+  const k = d.gTot < 30 ? (d.areaLula ? 2 : 1) : d.principal;
+  const [cor, corClara, corTexto, nomeFrente] = COR[k];
+  const cid = d.municipio;
+  const noticias = NOT[d.ibge] || [];
+  const n = escolha.noticia === -1 ? null : noticias[escolha.noticia ?? 0] || null;
+  const atq = ATAQUES[escolha.ataque || ataquePara(d, k, n)];
+  const prog = PROGRAMAS[programaPara(n, k, d)];
+  const dinheiro = (d.bf || 0) + (d.bpc || 0);
+
+  // 1. gancho: a notícia da cidade; sem notícia, um dado da cidade
+  let gancho, ganchoFonte, ganchoDado = null;
+  if (n) { gancho = n.g; ganchoFonte = `Fonte: ${n.v}${n.d ? `, ${dataCurta(n.d)}` : ""}.`; }
+  else if (k === 2) { gancho = `${cid}: *${n0(d.ausentes_26)} pessoas* não votaram no 1º turno.`; ganchoFonte = "Fonte: TSE, 1º turno de 2026."; ganchoDado = "ausentes"; }
+  else if (k === 3) { gancho = `Em ${cid}, *${pct(d.terceiros_26_pct, 0)}* votaram em Caiado, Renan, Cury ou Zema.`; ganchoFonte = "Fonte: TSE, 1º turno de 2026."; ganchoDado = "terceiros"; }
+  else { gancho = d.parcela22 > 0.5 ? `${cid} votou em *Lula* em 2022.` : `Em ${cid}, Lula perdeu terreno desde 2022.`; ganchoFonte = "Fonte: TSE, 1º turnos de 2022 e 2026."; }
+
+  // 2. virada: a emoção, e o que Lula fez ou propõe sobre o assunto
+  const virada = n
+    ? n.to === "problema" ? `Quem mora em ${cid} sabe o quanto isso *pesa.*`
+      : n.to === "conquista" ? (temFederal(`${n.r} ${n.g}`) ? "Isso tem dinheiro do *governo federal.*" : `${cid} merece muito mais *conquistas assim.*`)
+      : `${cid} merece atenção *de verdade.*`
+    : k === 1 ? "Tem coisa que voltou e não pode *ir embora de novo.*"
+      : k === 2 ? "Aqui, a gente sabe de que lado *está.*"
+      : "Não é sobre gostar do Lula. É sobre o que está *em jogo.*";
+
+  // 4. um número da cidade, com emoção
+  let numero, numeroTexto, numeroEmocao, numeroFonte;
+  if (k === 2 && ganchoDado !== "ausentes") {
+    numero = n0(d.ausentes_26); numeroTexto = `pessoas de ${cid} não votaram no 1º turno.`;
+    numeroEmocao = "Aqui, Lula ganha. Mas só se a gente *for votar.*"; numeroFonte = "Fonte: TSE, 1º turno de 2026.";
+  } else if (k === 3 && ganchoDado !== "terceiros") {
+    numero = pct(d.terceiros_26_pct, 0); numeroTexto = `de ${cid} votou em Caiado, Renan, Cury ou Zema no 1º turno.`;
+    numeroEmocao = "No 2º turno, quem decide *é você.*"; numeroFonte = "Fonte: TSE, 1º turno de 2026.";
+  } else if (dinheiro > 0) {
+    numero = reais(dinheiro).replace(" milhões", " mi").replace(" milhão", " mi"); numeroTexto = `do Bolsa Família e do BPC chegam a ${cid} todo mês.`;
+    numeroEmocao = "Dinheiro que gira no comércio *daqui.*"; numeroFonte = "Fonte: Portal da Transparência (CGU), agosto de 2026.";
+  } else {
+    numero = n0(d.aptos_26); numeroTexto = `eleitores em ${cid}.`;
+    numeroEmocao = "Cada voto daqui *conta.*"; numeroFonte = "Fonte: TSE, 2026.";
+  }
+
+  // 5. chamada
+  const chamadaTopo = k === 1 ? `${cid}, volta pra casa.` : k === 2 ? `${cid}, bora votar.` : `${cid}, pela democracia.`;
+  const chamadaAcao = k === 1 ? "Conversa com quem foi de Flávio. Sem briga, com respeito."
+    : k === 2 ? "Chama tua mãe, teu vizinho, teu colega. Vão juntos."
+    : "No 2º turno, a escolha é entre o diálogo e a aventura.";
+
+  const i = idxP.get(d.ibge);
+  const alvo = i != null ? [M.u[i], M.v[i]] : projetar(d.lon, d.lat);
+  const reel = {
+    cidade: cid, uf: d.uf, cor, corClara, corTexto, alvo,
+    gancho, ganchoFonte, virada, proposta: prog.frase, propostaFonte: `Fonte: ${prog.fonte}`,
+    ataque: atq.ataque, ataqueSub: atq.sub, soco: atq.soco(cid), ataqueFonte: `Fontes: ${atq.fonte}`,
+    numero, numeroTexto, numeroEmocao, numeroFonte, chamadaTopo, chamadaAcao,
+  };
+
+  // roteiro para quem vai gravar o próprio vídeo
+  const roteiro = [
+    { t: "0–5 s", nome: "Gancho da cidade", tela: limpo(gancho), fala: n ? `Você viu? ${limpo(gancho)}` : limpo(gancho), fonte: limpo(ganchoFonte) },
+    { t: "5–9 s", nome: "Virada", tela: limpo(prog.frase), fala: `${limpo(virada)} ${limpo(prog.frase)}`, fonte: limpo(reel.propostaFonte) },
+    { t: "9–14 s", nome: "O adversário", tela: `E o Flávio? ${limpo(atq.ataque)}`, fala: `E o Flávio? ${limpo(atq.ataque)} ${limpo(reel.soco)}`, fonte: limpo(reel.ataqueFonte), links: (TEMAS[atq.tema]?.fontes || []).filter((f) => !atq.links || atq.links.includes(f.id)) },
+    { t: "14–18 s", nome: "A cidade", tela: `${numero} ${numeroTexto}`, fala: limpo(numeroEmocao), fonte: limpo(numeroFonte) },
+    { t: "18–23 s", nome: "Chamada", tela: `${chamadaTopo} Dia 25, é 13.`, fala: `${chamadaTopo} Dia 25, é 13. ${chamadaAcao}`, fonte: "Domingo, 25/10, das 8h às 17h (horário de Brasília)." },
+  ];
+  const tag = "#" + semAcento(cid).replace(/[^a-z0-9]/g, "");
+  const legenda = `${limpo(gancho)} ${limpo(virada)} ${limpo(prog.frase)} E o Flávio? ${limpo(atq.ataque)} ${chamadaTopo} Dia 25, é 13. Fontes: ${[n?.v, prog.fonte.split(",")[0], atq.fonte.split(".")[0]].filter(Boolean).join("; ")}. Feito com auxílio de IA. ${tag} #2ºturno #vote13`;
+  const urlCidade = new URL(`${RAIZ}cidade/?ibge=${d.ibge}`, location.href).href;
+  const zap = `*${cid}, isso é com a gente*\n${limpo(gancho)}${n ? ` (${n.v})` : ""}\n${limpo(prog.frase)}\nE o Flávio? ${limpo(atq.ataque)} (${atq.fonte.split(".")[0]})\n${chamadaTopo} Dia 25, é 13.\nOs números da cidade: ${urlCidade}`;
+
+  // vídeos do Radar da Virada para compartilhar na cidade: mesma frente e mesmo assunto primeiro
+  const letra = ["", "r", "m", "t"][k];
+  const afins = new Set([...atq.radar, ...(prog === PROGRAMAS.educacao ? ["jovens"] : []), ...(prog === PROGRAMAS.saude || prog === PROGRAMAS.farmacia ? ["saude"] : []), ...(d.idosos >= 22 ? ["idosos"] : [])]);
+  const videos = radar.videos
+    .map((v) => ({ ...v, nota: (v.frentes.includes(letra) ? 3 : 0) + (afins.has(v.tema) ? 3 : 0) + Math.log10(v.views) }))
+    .sort((a, b) => b.nota - a.nota).slice(0, 4);
+
+  return { k, nomeFrente, cor, corTexto, n, noticias, atq, prog, reel, roteiro, legenda, zap, videos };
+}
 
 // ---------------------------------------------------------------- escolha da cidade
 const campo = document.getElementById("cidade");
@@ -29,8 +204,10 @@ function acharCidade(txt) {
 }
 campo.addEventListener("change", () => { const d = acharCidade(campo.value); if (d) escolher(d); });
 campo.addEventListener("keydown", (e) => { if (e.key === "Enter") { const d = acharCidade(campo.value); if (d) escolher(d); } });
+// sugestões: cidades pequenas com notícia local e mais votos em jogo, duas por frente
 const peq = D.filter((d) => d.porte === 2);
-const atalhos = [1, 2, 3].flatMap((k) => peq.filter((d) => d.principal === k).sort((a, b) => b["g" + k] - a["g" + k]).slice(0, 2));
+const comNoticia = peq.filter((d) => NOT[d.ibge]);
+const atalhos = [1, 2, 3].flatMap((k) => (comNoticia.some((d) => d.principal === k) ? comNoticia : peq).filter((d) => d.principal === k).sort((a, b) => b.gTot - a.gTot).slice(0, 2));
 document.getElementById("atalhos").innerHTML = `<span class="nota">Sugestões:</span>` + atalhos.map((d) => `<button class="pill ${["", "pill--vermelho", "pill--verde", "pill--azul"][d.principal] || ""}" type="button" data-i="${d.ibge}">${esc(rotulo(d))}</button>`).join("");
 document.querySelectorAll("[data-i]").forEach((b) => b.addEventListener("click", () => escolher(porIbge.get(b.dataset.i))));
 
@@ -41,223 +218,103 @@ function escolher(d, rolar = true) {
   if (rolar) document.getElementById("kit").scrollIntoView({ behavior: "smooth", block: "start" });
 }
 
-// ---------------------------------------------------------------- conteúdo do kit
-function compor(d) {
-  const k = d.gTot < 30 ? (d.areaLula ? 2 : 1) : d.principal;
-  const p26 = Math.round(d.parcela26 * 100);
-  const cid = d.municipio;
-  const tema = k === 3 ? TEMAS.constituicao : k === 1 ? (d.urbana >= 75 ? TEMAS["6x1"] : TEMAS.bolso) : (d.bpc > 0 ? TEMAS.bolso : TEMAS["6x1"]);
-  const fonteTema = tema ? [tema.prova?.f, ...tema.fontes.slice(0, 2).map((f) => f.f)].filter(Boolean).join("; ") : "";
-  const politica = d.bf > 0
-    ? { titulo: `Todo mês, ${reais(d.bf)} do Bolsa Família chegam a ${cid}.`, sub: d.bpc > 0 ? `E mais ${reais(d.bpc)} do BPC para idosos e pessoas com deficiência.` : "É dinheiro que gira no comércio da cidade.", fonte: d.pdm > 0 ? "Portal da Transparência (CGU): Bolsa Família e BPC em agosto de 2026; Pé-de-Meia, média mensal de janeiro a agosto de 2026" : "Portal da Transparência (CGU), agosto de 2026" }
-    : { titulo: `${cid} recebe programas federais todo mês.`, sub: "Bolsa Família, BPC e Pé-de-Meia.", fonte: "Portal da Transparência (CGU)" };
-  politica.barras = [["Bolsa Família", d.bf, "por mês"], ["BPC", d.bpc, "por mês"], ["Pé-de-Meia", d.pdm ? d.pdm / 8 : 0, "média mensal em 2026"]]
-    .filter(([, v]) => v > 0).map(([n, v, u]) => ({ nome: n, valor: v, texto: reais(v), unidade: u }));
-
-  const c = [];
-  if (k === 2) {
-    c.push({ kicker: "1º turno", numero: n0(d.ausentes_26), titulo: `pessoas de ${cid} não votaram.`, sub: "Dia 25 de outubro, a gente decide.", fonte: "TSE, 1º turno de 2026", mapa: true });
-    c.push({ kicker: "Na sua cidade", ...politica });
-    c.push({ kicker: "A conta", titulo: `Aqui, Lula venceu com ${p26}% dos votos.`, sub: `Se quem faltou for votar, a vantagem pode crescer em até ${n0(d.f2)} votos.`, fonte: "TSE, 1º turno de 2026. Estimativa: ausentes votando como os vizinhos.",
-      barras: [{ nome: "Lula", valor: d.votos_lula_26, texto: n0(d.votos_lula_26), cor: "#e0201b" }, { nome: "Flávio", valor: d.votos_flavio_26, texto: n0(d.votos_flavio_26), cor: "#6b6b6b" }, { nome: "Não votaram", valor: d.ausentes_26, texto: n0(d.ausentes_26), cor: "#12a088" }] });
-  } else if (k === 1) {
-    const ganhou22 = d.parcela22 > 0.5;
-    c.push({ kicker: "Desde 2022", numero: dec(d.f1Pct, 1).replace(",0", "") + " pts", titulo: ganhou22 ? `foi o que Lula perdeu em ${cid}, que votou nele em 2022.` : `foi o que Lula perdeu em ${cid} desde 2022.`, sub: "Dá para trazer esses votos de volta.", fonte: "TSE, 1º turnos de 2022 e 2026", mapa: true });
-    c.push({ kicker: "Na sua cidade", ...politica });
-    c.push({ kicker: tema.titulo, titulo: tema.pergunta, sub: tema.prova ? `${tema.prova.num} ${tema.prova.txt}` : "", fato: tema.fato, fonte: fonteTema });
-  } else {
-    c.push({ kicker: "1º turno", numero: pct(d.terceiros_26_pct, 0), titulo: `de ${cid} votou em Caiado, Renan, Cury ou Zema.`, sub: `${n0(d.f3)} votos ainda estão em aberto.`, fonte: "TSE, 1º turno de 2026; AtlasIntel, 3 a 8/10/2026", mapa: true });
-    c.push({ kicker: "Na sua cidade", ...politica });
-    c.push({ kicker: tema.titulo, titulo: tema.pergunta, sub: tema.prova ? `${tema.prova.num} ${tema.prova.txt}` : "", fato: tema.fato, fonte: fonteTema });
-  }
-  c.push({ kicker: "25 de outubro", titulo: k === 3 ? "No 2º turno, escolha a democracia. Vote 13." : "Dia 25, vote 13.", sub: "Das 8h às 17h (horário de Brasília). Chame alguém para ir com você. Seu local de votação está no app e-Título.", nota: "Ônibus gratuito no dia é dever do poder público (STF, ADPF 1.013).", cheio: true, grande: "25/10" });
-
-  const roteiro = [
-    { t: "0–3 s", nome: "Gancho", tela: (c[0].numero ? c[0].numero + " " : "") + c[0].titulo, fala: `Olha esse número de ${cid}.`, fonte: c[0].fonte },
-    { t: "3–12 s", nome: "Na cidade", tela: c[1].titulo, fala: d.bf > 0 ? `Isso é Bolsa Família${d.bpc > 0 ? " e BPC" : ""}: dinheiro que entra todo mês e gira no comércio daqui.` : "São programas federais que chegam aqui todo mês.", fonte: c[1].fonte },
-    { t: "12–24 s", nome: k === 2 ? "A conta" : "O tema", tela: c[2].titulo, fala: k === 2 ? `Aqui o Lula ganhou. Quem faltou no 1º turno pode decidir o 2º.` : tema.pergunta, fonte: c[2].fonte, links: k === 2 ? [] : tema.fontes.slice(0, 2) },
-    { t: "24–30 s", nome: "Chamada", tela: c[3].titulo, fala: "Dia 25, vote 13. E chama alguém para ir com você.", fonte: c[3].nota },
-  ];
-  const tag = "#" + semAcento(cid).replace(/[^a-z0-9]/g, "");
-  const legenda = `${cid}, dia 25 é a nossa vez. ${c[0].numero ? c[0].numero + " " : ""}${c[0].titulo} ${c[1].titulo} Fontes: TSE e Portal da Transparência. ${tag} #2ºturno #vote13`;
-  const urlCidade = new URL(`${RAIZ}cidade/?ibge=${d.ibge}`, location.href).href;
-  const zap = `*${cid} decide no dia 25*\n${c[0].numero ? c[0].numero + " " : ""}${c[0].titulo}\n${c[1].titulo} (Portal da Transparência)\n${k === 2 ? `Aqui o Lula ganhou com ${p26}%. Se quem faltou votar, a vantagem cresce.` : tema.zap}\nVeja os números da cidade: ${urlCidade}`;
-
-  // vídeos do Radar: mesma frente, com bônus para o mesmo tema
-  const letra = ["", "r", "m", "t"][k];
-  const temasAfins = { "6x1": ["6x1", "trabalho"], bolso: ["bolso", "saude"], constituicao: ["constituicao", "democracia", "direita", "renan", "cury_renan"] }[tema?.id] || [];
-  const videos = radar.videos.filter((v) => v.frentes.includes(letra))
-    .map((v) => ({ ...v, nota: v.views * (temasAfins.includes(v.tema) ? 3 : 1) }))
-    .sort((a, b) => b.nota - a.nota).slice(0, 6);
-  return { k, cartoes: c, roteiro, legenda, zap, videos, tema };
-}
-
-// ---------------------------------------------------------------- desenho dos cartões (1080 × 1920)
-const W = 1080, H = 1920, M = 84;
-const proj = d3geo();
-function d3geo() {
-  // projeção cônica equivalente simplificada (a mesma família do mapa do site), sem depender de d3
-  const lon0 = -54 * Math.PI / 180, p1 = -2 * Math.PI / 180, p2 = -22 * Math.PI / 180;
-  const n = (Math.sin(p1) + Math.sin(p2)) / 2, C = Math.cos(p1) ** 2 + 2 * n * Math.sin(p1);
-  const rho = (phi) => Math.sqrt(C - 2 * n * Math.sin(phi)) / n;
-  return ([lon, lat]) => { const l = lon * Math.PI / 180, f = lat * Math.PI / 180, th = n * (l - lon0), r = rho(f); return [r * Math.sin(th), -(rho(0) - r * Math.cos(th))]; };
-}
-const XY = Array.from(P.lon, (lo, i) => proj([lo, P.lat[i]]));
-const bx = { x0: Math.min(...XY.map((p) => p[0])), x1: Math.max(...XY.map((p) => p[0])), y0: Math.min(...XY.map((p) => p[1])), y1: Math.max(...XY.map((p) => p[1])) };
-const idxIbge = new Map(Array.from(P.ibge, (c, i) => [String(c), i]));
-
-function quebrar(ctx, txt, larg) {
-  const ps = String(txt).split(/\s+/), ls = [];
-  let a = "";
-  for (const p of ps) { const t = a ? a + " " + p : p; if (ctx.measureText(t).width > larg && a) { ls.push(a); a = p; } else a = t; }
-  if (a) ls.push(a);
-  return ls;
-}
-function pilula(ctx, txt, x, y, fundo = "#fff", cor = "#000", tam = 34) {
-  ctx.font = `500 ${tam}px "Bricolage Grotesque"`;
-  const w = ctx.measureText(txt).width + 32, h = tam + 22;
-  ctx.fillStyle = fundo; ctx.beginPath(); ctx.roundRect(x, y, w, h, 10); ctx.fill();
-  ctx.fillStyle = cor; ctx.textBaseline = "middle"; ctx.fillText(txt, x + 16, y + h / 2 + 1);
-  return w;
-}
-function mapaPontos(ctx, d, est, x, y, w, h) {
-  const s = Math.min(w / (bx.x1 - bx.x0), h / (bx.y1 - bx.y0));
-  const ox = x + (w - (bx.x1 - bx.x0) * s) / 2, oy = y + (h - (bx.y1 - bx.y0) * s) / 2;
-  ctx.fillStyle = "rgba(0,0,0,0.55)";
-  ctx.beginPath();
-  for (const [px, py] of XY) { const X = ox + (px - bx.x0) * s, Y = oy + (py - bx.y0) * s; ctx.moveTo(X + 2.6, Y); ctx.arc(X, Y, 2.6, 0, 6.2832); }
-  ctx.fill();
-  const i = idxIbge.get(d.ibge);
-  if (i != null) {
-    const X = ox + (XY[i][0] - bx.x0) * s, Y = oy + (XY[i][1] - bx.y0) * s;
-    ctx.fillStyle = est.forte; ctx.globalAlpha = 0.28; ctx.beginPath(); ctx.arc(X, Y, 64, 0, 6.2832); ctx.fill();
-    ctx.globalAlpha = 1; ctx.beginPath(); ctx.arc(X, Y, 15, 0, 6.2832); ctx.fill();
-    ctx.lineWidth = 5; ctx.strokeStyle = "#fff"; ctx.stroke();
-  }
-}
-function desenharCartao(cv, d, kit, n) {
-  const ctx = cv.getContext("2d");
-  const c = kit.cartoes[n], est = ESTILO[kit.k];
-  const cheio = !!c.cheio;
-  ctx.fillStyle = cheio ? est.forte : est.fundo;
-  ctx.fillRect(0, 0, W, H);
-  // topo: cidade e contador
-  pilula(ctx, `${d.municipio} · ${d.uf}`, M, M, "#fff", "#000");
-  ctx.font = '500 34px "Bricolage Grotesque"';
-  const cont = `${n + 1}/4`;
-  pilula(ctx, cont, W - M - ctx.measureText(cont).width - 32, M, "#fff", "#000");
-  // rótulo da seção
-  let y = 300;
-  ctx.textBaseline = "alphabetic";
-  ctx.fillStyle = cheio ? "#fff" : est.texto;
-  ctx.font = '600 40px "Bricolage Grotesque"';
-  ctx.fillText(c.kicker, M, y);
-  y += 40;
-  // número grande
-  if (c.numero) {
-    ctx.font = '700 230px "Bricolage Grotesque"';
-    ctx.fillStyle = cheio ? "#fff" : est.texto;
-    let tam = 230;
-    while (ctx.measureText(c.numero).width > W - 2 * M && tam > 120) { tam -= 10; ctx.font = `700 ${tam}px "Bricolage Grotesque"`; }
-    y += tam * 0.9;
-    ctx.fillText(c.numero, M - 6, y);
-    y += 30;
-  } else y += 30;
-  // manchete
-  const tamT = c.numero ? 78 : c.titulo.length > 90 ? 76 : 96;
-  ctx.font = `500 ${tamT}px "Newsreader"`;
-  ctx.fillStyle = cheio ? "#fff" : "#000";
-  for (const l of quebrar(ctx, c.titulo, W - 2 * M)) { y += tamT * 1.05; ctx.fillText(l, M, y); }
-  // apoio
-  if (c.sub) {
-    y += 44;
-    ctx.font = '500 46px "Bricolage Grotesque"';
-    ctx.fillStyle = cheio ? "rgba(255,255,255,0.92)" : "#1d1d1d";
-    for (const l of quebrar(ctx, c.sub, W - 2 * M)) { y += 56; ctx.fillText(l, M, y); }
-  }
-  // mapa de pontos no primeiro cartão
-  if (c.mapa) mapaPontos(ctx, d, est, M, Math.max(y + 60, 1080), W - 2 * M, H - Math.max(y + 60, 1080) - 230);
-  // barras de dados
-  if (c.barras && c.barras.length) {
-    const vmax = Math.max(...c.barras.map((b) => b.valor));
-    let by = Math.max(y + 120, 1150);
-    for (const b of c.barras) {
-      ctx.font = '600 38px "Bricolage Grotesque"'; ctx.fillStyle = "#000"; ctx.textBaseline = "alphabetic";
-      ctx.fillText(b.nome, M, by);
-      const wn = ctx.measureText(b.nome).width;
-      if (b.unidade) { ctx.font = '400 30px "Bricolage Grotesque"'; ctx.fillStyle = "#444"; ctx.fillText(b.unidade, M + wn + 16, by); }
-      const bw = Math.max(8, (W - 2 * M - 360) * (b.valor / vmax));
-      ctx.fillStyle = b.cor || est.forte; ctx.fillRect(M, by + 18, bw, 54);
-      ctx.font = '700 44px "Bricolage Grotesque"'; ctx.fillStyle = "#000"; ctx.fillText(b.texto, M + bw + 18, by + 62);
-      by += 150;
-    }
-  }
-  if (c.fato) {
-    ctx.font = '400 38px "Newsreader"'; ctx.fillStyle = "#1d1d1d"; ctx.textBaseline = "alphabetic";
-    const ls = quebrar(ctx, c.fato, W - 2 * M).slice(0, 9);
-    let fy = Math.max(y + 110, H - 300 - ls.length * 50);
-    ctx.fillStyle = est.forte; ctx.fillRect(M, fy - 46, 8, ls.length * 50 + 10);
-    ctx.fillStyle = "#1d1d1d";
-    for (const l of ls) { ctx.fillText(l, M + 30, fy); fy += 50; }
-  }
-  if (c.grande) {
-    ctx.font = '700 300px "Bricolage Grotesque"'; ctx.fillStyle = "rgba(255,255,255,0.95)"; ctx.textBaseline = "alphabetic";
-    ctx.fillText(c.grande, M - 10, H - 330);
-    ctx.font = '600 52px "Bricolage Grotesque"'; ctx.fillText("domingo · 8h às 17h", M, H - 250);
-  }
-  // fonte
-  ctx.font = '400 30px "Bricolage Grotesque"';
-  ctx.fillStyle = cheio ? "rgba(255,255,255,0.85)" : "#3a3a3a";
-  const fl = quebrar(ctx, c.nota || "Fonte: " + c.fonte, W - 2 * M).slice(0, 3);
-  let fy = H - M - (fl.length - 1) * 38;
-  for (const l of fl) { ctx.fillText(l, M, fy); fy += 38; }
-}
-
 // ---------------------------------------------------------------- página do kit
 let fontesProntas = null;
-async function fontes() {
-  if (!fontesProntas) fontesProntas = Promise.all([
-    document.fonts.load('500 96px "Newsreader"'), document.fonts.load('700 200px "Bricolage Grotesque"'),
-    document.fonts.load('500 40px "Bricolage Grotesque"'), document.fonts.load('400 30px "Bricolage Grotesque"'),
-  ]).catch(() => null);
-  return fontesProntas;
-}
+const fontes = () => (fontesProntas ||= Promise.all(["800 90px", "700 60px", "600 60px", "500 40px", "400 28px"].map((f) => document.fonts.load(`${f} "Bricolage Grotesque"`))).catch(() => null));
+let player = null;
 
-async function montar(d) {
-  const kit = compor(d);
-  const est = ESTILO[kit.k];
+async function montar(d, escolha = {}) {
+  const kit = compor(d, escolha);
   const slug = semAcento(d.municipio).replace(/[^a-z0-9]+/g, "-");
   const el = document.getElementById("kit");
+  const nAtual = kit.n;
+  const opcoesGancho = kit.noticias.map((x, i) => `<button class="pill pill--p" type="button" data-gancho="${i}" aria-pressed="${kit.n === x}">${esc(`${ASSUNTO[x.te] || "Notícia"}${x.d ? ` · ${dataCurta(x.d).replace(/\/\d{4}$/, "")}` : ""}`)}</button>`).join("")
+    + `<button class="pill pill--p" type="button" data-gancho="-1" aria-pressed="${!kit.n}">Dado da cidade</button>`;
+  const opcoesAtaque = Object.entries(ATAQUES).map(([id, a]) => `<button class="pill pill--p" type="button" data-ataque="${id}" aria-pressed="${kit.atq === a}">${esc(a.nome)}</button>`).join("");
   el.innerHTML = `
     <div class="kit__cab">
-      <h2 class="medio">${esc(d.municipio)} (${d.uf}): <em style="color:${est.texto}">${est.nome.toLowerCase()}</em> é a frente que mais rende.</h2>
-      <div class="linha"><a class="pill pill--rosa" href="${RAIZ}cidade/?ibge=${d.ibge}">Ficha da cidade</a><button class="pill" type="button" id="baixa-todos">Baixar os 4 cartões</button></div>
+      <h2 class="medio">${esc(d.municipio)} (${d.uf}): <em style="color:${kit.corTexto}">${kit.nomeFrente.toLowerCase()}</em> é a frente que mais rende.</h2>
+      <div class="linha"><a class="pill pill--tinta" href="${RAIZ}cidade/?ibge=${d.ibge}">Ficha da cidade</a></div>
     </div>
     <div class="kit__grade">
+      <div class="reel">
+        <div class="reel__tela"><canvas id="reel" aria-label="Prévia do reel de ${esc(d.municipio)}"></canvas><button class="reel__play" type="button" id="play" aria-label="Tocar o vídeo">▶</button></div>
+        <div class="reel__controles">
+          <button class="pill" type="button" id="toca">Tocar</button>
+          <input type="range" id="tempo" min="0" max="1000" value="0" aria-label="Posição no vídeo">
+          <span class="num" id="relogio">0:00</span>
+        </div>
+        <div class="linha">
+          <button class="pill pill--tinta" type="button" id="mp4">Baixar vídeo (MP4)</button>
+          <button class="pill pill--branco" type="button" id="png">Baixar capa (PNG)</button>
+        </div>
+        <p class="nota" id="estado-video">Vídeo vertical de 23 segundos, 1080 × 1920, sem som: escolha a música no Instagram ou no TikTok.</p>
+        <div class="reel__opcoes">
+          <div><span class="nota">Gancho</span><div class="linha">${opcoesGancho}</div></div>
+          <div><span class="nota">Contraste</span><div class="linha">${opcoesAtaque}</div></div>
+        </div>
+      </div>
       <div class="roteiro-reel">
-        <div class="faixa__topo" style="margin-bottom:10px"><h3 class="rotulo">Roteiro de 30 segundos</h3></div>
-        <ol>${kit.roteiro.map((b) => `<li><div class="tempo">${b.t}<small>${b.nome}</small></div><div><div class="tela">Na tela: ${esc(b.tela)}</div><p class="fala">“${esc(b.fala)}”</p><p class="fonte">Fonte: ${esc(b.fonte)}${b.links && b.links.length ? " · " + b.links.map((f) => `<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.f)}</a>`).join(", ") : ""}</p></div></li>`).join("")}</ol>
-        <p class="dica"><b>Como gravar:</b> num lugar que todo mundo reconhece (a praça, a feira, a igreja matriz, a rodoviária). Celular na vertical, até 30 segundos, legenda na tela. Use os cartões como fundo ou como fim do vídeo.</p>
+        ${nAtual ? `<div class="noticia"><p class="nota">A notícia de ${esc(d.municipio)} que abre o vídeo</p><p class="noticia__resumo">${esc(nAtual.r)}</p><p class="nota"><a href="${esc(nAtual.u)}" target="_blank" rel="noopener">${esc(nAtual.v)}${nAtual.d ? `, ${dataCurta(nAtual.d)}` : ""} ↗</a>${nAtual.c ? "" : " · confira a matéria antes de postar"}</p></div>`
+          : `<div class="noticia"><p class="nota">Ainda não temos notícia local de ${esc(d.municipio)}: o vídeo abre com um dado da cidade. Se você sabe de algo que aconteceu aí, grave o seu próprio gancho com o roteiro abaixo.</p></div>`}
+        <div class="faixa__topo" style="margin:14px 0 10px"><h3 class="rotulo">Roteiro para gravar</h3></div>
+        <ol>${kit.roteiro.map((b) => `<li><div class="tempo">${b.t}<small>${b.nome}</small></div><div><div class="tela">Na tela: ${esc(b.tela)}</div><p class="fala">“${esc(b.fala)}”</p><p class="fonte">${esc(b.fonte)}${b.links && b.links.length ? " · " + b.links.slice(0, 3).map((f) => `<a href="${esc(f.u)}" target="_blank" rel="noopener">${esc(f.f)}</a>`).join(", ") : ""}</p></div></li>`).join("")}</ol>
+        <p class="dica"><b>Como gravar:</b> num lugar que todo mundo da cidade reconhece (a praça, a feira, a igreja matriz, a rodoviária). Fale como fala com o vizinho: com emoção, sem ler. Celular na vertical, até 30 segundos, legenda na tela.</p>
         <div class="acoes-kit"><button class="pill" type="button" id="copia-roteiro">Copiar roteiro</button><button class="pill" type="button" id="copia-legenda">Copiar legenda</button></div>
       </div>
-      <div class="cartoes-reel">${kit.cartoes.map((c, i) => `<figure><canvas width="${W}" height="${H}" id="cv${i}" aria-label="Cartão ${i + 1}: ${esc(c.titulo)}"></canvas><figcaption><span>${i + 1}. ${esc(c.kicker)}</span><button class="pill pill--branco" type="button" data-baixa="${i}">PNG</button></figcaption></figure>`).join("")}</div>
     </div>
     <div class="faixa mensagem">
-      <div class="faixa__topo"><h3 class="rotulo">Mensagem para WhatsApp</h3><div class="linha"><a class="pill pill--rosa" target="_blank" rel="noopener" href="${linkWhats(kit.zap)}">Abrir no WhatsApp</a><button class="pill" type="button" id="copia-zap">Copiar</button></div></div>
+      <div class="faixa__topo"><h3 class="rotulo">Mensagem para WhatsApp</h3><div class="linha"><a class="pill pill--tinta" target="_blank" rel="noopener" href="${linkWhats(kit.zap)}">Abrir no WhatsApp</a><button class="pill" type="button" id="copia-zap">Copiar</button></div></div>
       <textarea id="zap" aria-label="Mensagem">${esc(kit.zap)}</textarea>
       <p class="nota">Mande para pessoas e grupos que você conhece. Disparo em massa é proibido.</p>
     </div>
     <div class="faixa faixa--solida videos">
-      <div class="faixa__topo"><h3 class="rotulo">Vídeos do Radar da Virada para ${est.nome.toLowerCase()}</h3><span class="nota">recorte de ${radar.coletado_em.split("-").reverse().join("/")} · <a href="${radar.fonte}" target="_blank" rel="noopener">ver os mais recentes</a></span></div>
-      <div class="grade">${kit.videos.map((v) => `<a class="cartao cartao--f${kit.k}" href="${esc(v.url)}" target="_blank" rel="noopener"><p class="cartao__titulo">${esc(v.fonte)}</p><p class="cartao__sub">${esc(v.titulo)}</p><p class="cartao__pe"><span>${grande(v.views)} visualizações</span><span>Abrir</span></p></a>`).join("")}</div>
-      <p class="nota">Links para conteúdo de terceiros, como o Radar da Virada lista. Antes de repostar ou remixar, assista e confira.</p>
+      <div class="faixa__topo"><h3 class="rotulo">Do Radar da Virada, para compartilhar em ${esc(d.municipio)}</h3><span class="nota">recorte de ${radar.coletado_em.split("-").reverse().join("/")} · <a href="${radar.fonte}" target="_blank" rel="noopener">ver os mais recentes</a></span></div>
+      <div class="grade">${kit.videos.map((v) => `<article class="cartao cartao--f${kit.k}"><p class="cartao__titulo">${esc(v.fonte)}</p><p class="cartao__sub">${esc(v.titulo)}</p><p class="cartao__pe"><span>${grande(v.views)} visualizações</span></p><p class="linha"><a class="pill pill--branco pill--p" href="${esc(v.url)}" target="_blank" rel="noopener">Assistir</a><a class="pill pill--tinta pill--p" href="${linkWhats(`Pra quem é de ${d.municipio}: ${v.titulo} ${v.url}`)}" target="_blank" rel="noopener">Mandar no WhatsApp</a></p></article>`).join("")}</div>
+      <p class="nota">Escolhidos pela frente que mais pesa na cidade e pelo assunto do vídeo acima. São links para conteúdo de terceiros, como o Radar da Virada lista: assista antes de mandar.</p>
     </div>`;
+
   await fontes();
-  kit.cartoes.forEach((_, i) => desenharCartao(document.getElementById("cv" + i), d, kit, i));
-  const baixar = (i) => new Promise((ok) => document.getElementById("cv" + i).toBlob((b) => { baixarArquivo(`reel-${slug}-${i + 1}.png`, b); setTimeout(ok, 350); }, "image/png"));
-  el.querySelectorAll("[data-baixa]").forEach((b) => b.addEventListener("click", () => baixar(+b.dataset.baixa)));
-  document.getElementById("baixa-todos").addEventListener("click", async () => { for (let i = 0; i < 4; i++) await baixar(i); });
-  const txtRoteiro = kit.roteiro.map((b) => `${b.t} · ${b.nome}\nNa tela: ${b.tela}\nFala: ${b.fala}\nFonte: ${b.fonte}`).join("\n\n");
+  const reel = montarReel(kit.reel, M);
+  const cv = document.getElementById("reel"), tempo = document.getElementById("tempo"), relogio = document.getElementById("relogio");
+  const bToca = document.getElementById("toca"), bPlay = document.getElementById("play");
+  const mmss = (t) => `${Math.floor(t / 60)}:${String(Math.floor(t % 60)).padStart(2, "0")}`;
+  player?.pausar();
+  player = new Player(cv, reel, {
+    escala: 0.5,
+    aoMudar: (t, dur, tocando) => {
+      tempo.value = String(Math.round((t / dur) * 1000));
+      relogio.textContent = `${mmss(t)} / ${mmss(dur)}`;
+      bToca.textContent = tocando ? "Pausar" : "Tocar";
+      bPlay.hidden = tocando;
+    },
+  });
+  player.ir(2.4); // primeiro quadro com o gancho já na tela
+  const alternar = () => (player.tocando ? player.pausar() : player.tocar());
+  bToca.addEventListener("click", alternar);
+  bPlay.addEventListener("click", alternar);
+  cv.addEventListener("click", alternar);
+  tempo.addEventListener("input", () => { const v = +tempo.value; player.tocando = false; player.ir((v / 1000) * reel.duracao); });
+
+  const estado = document.getElementById("estado-video"), bMp4 = document.getElementById("mp4");
+  bMp4.addEventListener("click", async () => {
+    bMp4.disabled = true;
+    const txt = bMp4.textContent;
+    try {
+      const r = await gravar(reel, { aoProgresso: (p) => { bMp4.textContent = `Gerando vídeo… ${Math.round(p * 100)}%`; } });
+      baixarArquivo(`reel-${slug}.${r.ext}`, r.blob);
+      estado.textContent = r.ext === "mp4"
+        ? (r.codec === "avc" ? "Pronto: MP4 (H.264), aceito no Instagram, no TikTok e no WhatsApp." : "Pronto: MP4 com codec VP9. Se o app não aceitar, gere de novo no Chrome ou no Safari.")
+        : "Pronto: vídeo em WebM. Para MP4, use o Chrome ou o Safari atualizados.";
+    } catch (e) {
+      estado.textContent = "Não deu para gerar o vídeo neste navegador. Tente no Chrome ou no Safari atualizados.";
+    } finally { bMp4.disabled = false; bMp4.textContent = txt; }
+  });
+  document.getElementById("png").addEventListener("click", async () => baixarArquivo(`reel-${slug}-capa.png`, await capa(reel)));
+
+  el.querySelectorAll("[data-gancho]").forEach((b) => b.addEventListener("click", () => montar(d, { ...escolha, noticia: +b.dataset.gancho })));
+  el.querySelectorAll("[data-ataque]").forEach((b) => b.addEventListener("click", () => montar(d, { ...escolha, ataque: b.dataset.ataque })));
+  const txtRoteiro = kit.roteiro.map((b) => `${b.t} · ${b.nome}\nNa tela: ${b.tela}\nFala: ${b.fala}\n${b.fonte}`).join("\n\n");
   document.getElementById("copia-roteiro").addEventListener("click", (e) => copiar(txtRoteiro, e.currentTarget));
   document.getElementById("copia-legenda").addEventListener("click", (e) => copiar(kit.legenda, e.currentTarget));
   document.getElementById("copia-zap").addEventListener("click", (e) => copiar(document.getElementById("zap").value, e.currentTarget));
@@ -265,5 +322,5 @@ async function montar(d) {
 
 // ---------------------------------------------------------------- início
 const pedido = new URLSearchParams(location.search).get("ibge");
-const inicial = (pedido && porIbge.get(pedido)) || [...peq].sort((a, b) => b.gTot - a.gTot)[0];
+const inicial = (pedido && porIbge.get(pedido)) || [...(comNoticia.length ? comNoticia : peq)].sort((a, b) => b.gTot - a.gTot)[0];
 escolher(inicial, false);

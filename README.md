@@ -12,7 +12,7 @@ territórios, não pessoas, e mostram tetos, não previsões.
 | `/` | **O caminho**: 10 posts em formato de feed, com o mapa mudando a cada passo (scrollytelling): primeiro um ponto por cidade, depois 1 ponto = 1.000 votos, na cor de cada frente. |
 | `/na-pratica/` | **Cidade por cidade**: frente × tamanho da cidade × estado, lista para baixar e roteiros por região imediata do IBGE. No Brasil, mapa de densidade; num estado ou roteiro, um espinho por cidade (altura = votos em jogo). |
 | `/cidade/?ibge=…` | **Ficha**: as três frentes, o que fazer, políticas federais que chegam lá, contexto local e cidades vizinhas. |
-| `/reels/?ibge=…` | **Kit de reels**: roteiro de 30 s, 4 cartões 1080×1920 em PNG, mensagem de WhatsApp e vídeos do Radar da Virada. |
+| `/reels/?ibge=…` | **Kit de reels**: um vídeo de 23 s por cidade (1080×1920) que abre com uma notícia local, liga o assunto a uma política de Lula, mostra o que Flávio disse (com fonte) e chama para o dia 25. Toca na página e baixa em MP4 (H.264 no Chrome e no Safari; VP9 ou WebM nos demais), com capa em PNG, roteiro para gravar, legenda, mensagem de WhatsApp e vídeos do Radar da Virada. |
 | `/mapa/` | Redireciona para `/metodo/#graficos` (o antigo mapa das frentes saiu; os gráficos e o método foram para Método). |
 | `/metodo/` | A conta, cada frente em um gráfico, como os mapas foram desenhados, fontes, limites e regras eleitorais. |
 | `/arquivo/` | Versão anterior (`site_simples/` e, em `/arquivo/mapas/`, `docs/`), fora do menu. |
@@ -22,9 +22,10 @@ As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio)
 que não escolheram lado). A conta fica em `site/assets/js/frentes.js`, usada pelas páginas e
 pelo build. 
 
-Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (rosa e
-preto na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
-Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js. Sem
+Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (preto,
+branco e cinza na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
+Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js; MP4 dos reels
+gravado no navegador (WebCodecs + mp4-muxer, copiado em `site/assets/vendor/`). Sem
 dependências externas em tempo de execução.
 
 ## Ver localmente
@@ -64,6 +65,9 @@ Entradas novas desta versão:
   (jan–ago/2026) e Garantia-Safra (2025), em R$ mil, pelo Portal da Transparência.
 - `data/radar/radar_2026-10-09.json`: temas com fonte e vídeos do
   [Radar da Virada](https://radardavirada.pages.dev/), com marcação de frente.
+- `data/noticias/noticias_locais.json`: notícias locais de 2026 de cidades pequenas, com veículo,
+  data, link, assunto, tom e a frase de gancho do reel (`confirmado` = matéria aberta e conferida).
+  O build guarda até 3 por cidade em `site/data/noticias.json`.
 
 A planilha da Frente 2 (1.310 cidades pró-Lula de 10 a 50 mil habitantes) fica em
 `outputs/frente2_cidades_10a50mil_habitantes.xlsx` e para download em `/data/`.
@@ -89,4 +93,6 @@ AtlasIntel/Bloomberg (padrão), Datafolha e Quaest, com registro no TSE. Detalhe
 `estrategias_2t/` guardam pesquisa exploratória.
 
 Sem licença definida para o código. Fontes: SIL Open Font License (Newsreader, Bricolage
-Grotesque). Materiais de terceiros mantêm suas condições de uso.
+Grotesque). mp4-muxer 5.2.2: licença MIT
+(`site/assets/vendor/mp4-muxer-5.2.2.LICENSE.txt`). Materiais de terceiros mantêm suas
+condições de uso.

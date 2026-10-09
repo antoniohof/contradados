@@ -1,0 +1,4032 @@
+{
+ "_sobre": "Notícias e pautas locais de cidades de 10 a 50 mil habitantes, para o gancho dos reels. 'pesquisa': levantadas em 09/10/2026 em imprensa local e sites oficiais (confirmado = matéria aberta e conferida). 'pautas': reaproveitadas da pesquisa local anterior (data/pesquisa_local.json), sem nova conferência. Cidades com lista vazia foram pesquisadas sem resultado útil.",
+ "coletado_em": "2026-10-09",
+ "cidades": {
+  "1300607": {
+   "municipio": "Benjamin Constant",
+   "uf": "AM",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-11-07",
+     "titulo": "Benjamin Constant recebe Água Boa, LED e nova ponte do governo",
+     "veiculo": "Em Tempo",
+     "url": "https://emtempo.com.br/433432/amazonas/agua-boa-led-ponte-benjamin-constant/",
+     "resumo": "Governo do Amazonas inaugurou sistema de abastecimento do programa Água Boa na comunidade indígena Novo Porto Lima, para 70 famílias, e iluminação LED com 1.696 pontos.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Benjamin Constant: 70 famílias de Novo Porto Lima ganharam sistema de água.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-24",
+     "titulo": "Benjamin Constant Intensifica Ações de Prevenção contra o Sarampo",
+     "veiculo": "Prefeitura de Benjamin Constant",
+     "url": "https://benjaminconstant.am.gov.br/prevencao-sarampo-benjamin-constant/",
+     "resumo": "Reunião com Ministério da Saúde, FVS, UNICEF e Cosems definiu ações contra o sarampo, com foco em ampliar a vacinação; está previsto envio de novas doses.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Benjamin Constant busca ampliar a vacinação contra o sarampo.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-25",
+     "titulo": "Prefeitura Conclui Pavimentação da Rua Tancredo Neves",
+     "veiculo": "Prefeitura de Benjamin Constant",
+     "url": "https://benjaminconstant.am.gov.br/pavimentacao-rua-tancredo-neves-benjamin-constant/",
+     "resumo": "Segundo o título publicado pela prefeitura, foi concluída a pavimentação da Rua Tancredo Neves; o texto da matéria não foi aberto.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Benjamin Constant concluiu a pavimentação da Rua Tancredo Neves.",
+     "confirmado": false
+    }
+   ]
+  },
+  "1303106": {
+   "municipio": "Nova Olinda do Norte",
+   "uf": "AM",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "1506203": {
+   "municipio": "Salinópolis",
+   "uf": "PA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-05",
+     "titulo": "De praias lotadas a novos empreendimentos: Salinópolis vive nova fase do turismo no Pará",
+     "veiculo": "Bacana.news",
+     "url": "https://bacananews.com.br/de-praias-lotadas-a-novos-empreendimentos-salinopolis-vive-nova-fase-do-turismo-no-para/",
+     "resumo": "Salinópolis vive expansão do turismo, com novos empreendimentos; o Aqualand Park & Resort mantém cerca de 550 empregados diretos, cerca de 90% moradores da cidade.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Em Salinópolis, um só resort emprega cerca de 550 pessoas.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2100477": {
+   "municipio": "Alto Alegre do Pindaré",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-01-30",
+     "titulo": "Carlos Brandão inaugura Estrada do Progresso e leva desenvolvimento a Alto Alegre do Pindaré",
+     "veiculo": "Site de Carlos Brandão (governador do Maranhão)",
+     "url": "https://carlosbrandao.com.br/carlos-brandao-inaugura-estrada-do-progresso-e-leva-desenvolvimento-a-alto-alegre-do-pindare/",
+     "resumo": "Inaugurada a Estrada do Progresso, com mais de 10 km asfaltados ligando os povoados Centro da Rosa e Timbira do Bogéa; prefeitura fez a drenagem e o Estado, o asfalto.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Estrada do Progresso, asfaltada, liga povoados de Alto Alegre do Pindaré.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2100907": {
+   "municipio": "Araioses",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-18",
+     "titulo": "Obras e investimentos impulsionam avanços em saúde, educação e infraestrutura em Araioses",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/cidades/2026/06/obras-e-investimentos-impulsionam-avancos-em-saude-educacao-e-infraestrutura-em-araioses/",
+     "resumo": "Segundo a prefeitura, começaram as obras do novo Hospital Municipal, avança uma UBS no bairro Botafogo, povoados ganharam escolas e o lixão foi desativado.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Araioses começou a construir seu novo Hospital Municipal.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-10-06",
+     "titulo": "Prefeitura de Araioses, MA, realizará ação de saúde no povoado Ponta Grossa nesta sexta-feira, 9 de outubro",
+     "veiculo": "Cidades na Net",
+     "url": "https://cidadesnanet.com/portal/municipios/maranhao/prefeitura-de-araioses-ma-realizara-acao-de-saude-no-povoado-ponta-grossa-nesta-sexta-feira-9-de-outubro/",
+     "resumo": "Programa municipal Saúde Mais Perto de Você leva consultas, vacinação, testes rápidos, preventivo e entrega de remédios ao povoado Ponta Grossa em 9 de outubro.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Araioses marcou dia de consultas e vacinação no povoado Ponta Grossa.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2102002": {
+   "municipio": "Bom Jardim",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-27",
+     "titulo": "Prefeitura de Bom Jardim lança edital da Política Nacional Aldir Blanc para valorização da cultu...",
+     "veiculo": "Prefeitura de Bom Jardim (MA)",
+     "url": "https://www.bomjardim.ma.gov.br/informa/126/prefeitura-de-bom-jardim-lan-a-edital-da-pol-tica-",
+     "resumo": "A Prefeitura de Bom Jardim lançou edital da Política Nacional Aldir Blanc voltado à valorização da cultura.",
+     "tema": "programa_federal",
+     "tom": "neutro",
+     "gancho": "Bom Jardim abriu edital da Política Nacional Aldir Blanc para a cultura.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2106607": {
+   "municipio": "Matões",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-02",
+     "titulo": "Brandão assina ordem de serviço para pavimentação asfáltica da rodovia MA-040, trecho Timon a Matões",
+     "veiculo": "Portal R10 (Blog do Lucão)",
+     "url": "https://www.portalr10.com/blogs-e-colunas/175114/brandao-assina-ordem-de-servico-para-pavimentacao-asfaltica-da-rodovia-ma-040-trecho-timon-a-matoes/",
+     "resumo": "Governo do Maranhão assina ordem de serviço para asfaltar 74,5 km da MA-040 entre Timon e Matões, com cerca de R$ 118 milhões e conclusão prevista em 18 meses.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "A MA-040, entre Matões e Timon, vai ganhar asfalto.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2107803": {
+   "municipio": "Parnarama",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-30",
+     "titulo": "Parnarama recebe Portal de Entrada e 6 km de asfalto em parceria com o Estado",
+     "veiculo": "Conecta Piauí",
+     "url": "https://conectapiaui.com.br/blog/municipios-em-foco/parnarama-recebe-portal-de-entrada-e-6-km-de-asfalto-em-parceria-com-o-estado-33155.html",
+     "resumo": "Parnarama recebeu seis quilômetros de pavimentação asfáltica e um novo portal de entrada, obras executadas pelo Governo do Maranhão em parceria com a prefeitura.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Parnarama ganhou seis quilômetros de asfalto e um portal de entrada.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03-04",
+     "titulo": "VEREADORES DE PARNARAMA DEBATEM SOBRE AS ENCHENTES DO POVOADO TABOCA",
+     "veiculo": "Câmara Municipal de Parnarama",
+     "url": "https://parnarama.ma.leg.br/noticia/913/vereadores-de-parnarama-debatem-sobre-as-enchentes-do-povoado-taboca",
+     "resumo": "Câmara de Parnarama debateu as enchentes no povoado Taboca, a cerca de 30 km da sede; segundo vereador, chuvas também afetam Paiol do Centro e Cocalinho.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Enchentes no povoado Taboca viraram pauta na Câmara de Parnarama.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2109809": {
+   "municipio": "Santa Helena",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2110708": {
+   "municipio": "São Domingos do Maranhão",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-09-13",
+     "titulo": "Água é vida! São Domingos entrega mais uma grande obra em comemoração aos 73 anos do município no povoado Lagoa Nova",
+     "veiculo": "Prefeitura de São Domingos do Maranhão",
+     "url": "https://www.saodomingosdomaranhao.ma.gov.br/noticias/desenvolvimento/agua-e-vida-sao-domingos-entrega-mais-uma-grande-obra-em-comemoracao-aos-73-anos-do-municipio-no-povoado-lagoa-nova",
+     "resumo": "Segundo o título da prefeitura, sob o mote 'Água é vida!', o município entregou grande obra no povoado Lagoa Nova nos seus 73 anos; matéria não aberta.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "São Domingos do Maranhão entregou grande obra no povoado Lagoa Nova.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-09-06",
+     "titulo": "Prefeitura Municipal reinaugura duas Unidades Básicas de Saúde e reforça o compromisso a população",
+     "veiculo": "Prefeitura de São Domingos do Maranhão",
+     "url": "https://www.saodomingosdomaranhao.ma.gov.br/noticias/saude/prefeitura-municipal-reinaugura-duas-unidades-basicas-de-saude-e-reforca-o-compromisso-a-populacao",
+     "resumo": "Segundo o título publicado pela prefeitura, duas Unidades Básicas de Saúde foram reinauguradas; a matéria não pôde ser aberta para confirmar detalhes.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "São Domingos do Maranhão reinaugurou duas Unidades Básicas de Saúde.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2112308": {
+   "municipio": "Tuntum",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-18",
+     "titulo": "Tuntum tem emergência reconhecida após chuvas e pode receber ajuda federal",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/clima/2026/03/tuntum-tem-emergencia-reconhecida-apos-chuvas-e-pode-receber-ajuda-federal/",
+     "resumo": "Governo federal reconheceu situação de emergência em Tuntum após chuvas intensas com alagamentos e enxurradas; prefeitura pode pedir recursos para atender moradores afetados.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Tuntum teve emergência reconhecida após alagamentos e enxurradas.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2112407": {
+   "municipio": "Turiaçu",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2202703": {
+   "municipio": "Cocal",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-27",
+     "titulo": "Obras estruturantes vão ampliar acesso à água no interior do Piauí",
+     "veiculo": "Brasil 61",
+     "url": "https://brasil61.com/n/obras-estruturantes-vao-ampliar-acesso-a-agua-no-interior-do-piaui-pmdr264089",
+     "resumo": "Barragem Nova Algodões, em Cocal, tem R$ 240 milhões federais no Novo PAC, passava de 21% concluída em março e deve ficar pronta em 2028.",
+     "tema": "programa_federal",
+     "tom": "neutro",
+     "gancho": "A Barragem Nova Algodões, em Cocal, deve ficar pronta em 2028.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-22",
+     "titulo": "Governo investe na barragem Nova Algodões e mais 40 obras em Cocal",
+     "veiculo": "Portal Piauí Hoje",
+     "url": "https://piauihoje.com/noticias/geral/governo-investe-na-barragem-nova-algodoes-e-mais-40-obras-em-cocal-452848.html",
+     "resumo": "Governo do Piauí diz executar mais de 40 obras em Cocal; mais de 400 km de estradas vicinais foram recuperados e a barragem deve gerar cerca de 200 empregos.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Cocal teve mais de 400 km de estradas vicinais recuperadas.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2205508": {
+   "municipio": "José de Freitas",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-23",
+     "titulo": "José de Freitas amplia sistema de água com novas redes, poços e modernização",
+     "veiculo": "Portal AZ",
+     "url": "https://www.portalaz.com.br/noticia/geral/96643/jose-de-freitas-amplia-sistema-de-agua-com-novas-redes-pocos-e-modernizacao/",
+     "resumo": "Águas do Piauí implantou 300 metros de rede, iniciou a setorização da zona urbana e ativou poços no Matadouro e Centro, beneficiando mais de 2,3 mil famílias.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "José de Freitas: obras de água beneficiam mais de 2,3 mil famílias.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-01-16",
+     "titulo": "Prefeitura de José de Freitas recupera mais de 300km de estradas vicinais em um ano de gestão",
+     "veiculo": "GP1",
+     "url": "https://www.gp1.com.br/pi/piaui/noticia/2026/1/16/prefeitura-de-jose-de-freitas-recupera-mais-de-300km-de-estradas-vicinais-em-um-ano-de-gestao-613222.html",
+     "resumo": "Prefeitura informa ter recuperado mais de 300 km de estradas vicinais em um ano, com piçarramento e patrolamento, facilitando transporte escolar e escoamento da produção.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "José de Freitas: prefeitura recuperou mais de 300 km de estradas rurais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2208304": {
+   "municipio": "Piracuruca",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-23",
+     "titulo": "Governo do Piauí realiza 46 obras em Piracuruca",
+     "veiculo": "Piauí Hoje",
+     "url": "https://piauihoje.com/noticias/politica/governo-do-piaui-realiza-46-obras-em-piracuruca-452981.html",
+     "resumo": "Governo do Piauí soma 46 obras em Piracuruca desde 2023, 43 concluídas, com mais de R$ 44 milhões, incluindo mais de 135 km de estradas vicinais.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Mais de 135 km de estradas do interior de Piracuruca receberam obras.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-24",
+     "titulo": "Piracuruca entrega novos materiais para fortalecer atuação da equipe eMulti",
+     "veiculo": "Portal R10",
+     "url": "https://www.portalr10.com/blogs-e-colunas/180007/piracuruca-entrega-novos-materiais-para-fortalecer-atuacao-da-equipe-emulti/",
+     "resumo": "Prefeitura de Piracuruca entregou novos materiais à equipe eMulti, com fisioterapeutas, nutricionistas e educadores físicos que atuam em prevenção e cuidado da população.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Piracuruca, fisioterapeutas e nutricionistas da saúde pública receberam novos materiais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2300408": {
+   "municipio": "Aiuaba",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-30",
+     "titulo": "Aiuaba registra 13.3 °C e bate recorde de menor temperatura do mês no Ceará",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/aiuaba-registra-133-c-e-bate-recorde-de-menor-temperatura-do-mes-no-ceara-1.3780445",
+     "resumo": "Segundo a Funceme, Aiuaba registrou 13,3 °C na manhã de 30 de julho, menor temperatura de julho no Ceará, superando o recorde anterior de 13,7 °C, também na cidade.",
+     "tema": "clima",
+     "tom": "neutro",
+     "gancho": "Aiuaba registrou 13,3 °C, a menor temperatura de julho no Ceará.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-07-24",
+     "titulo": "Aiuaba avança na redução da fila de tomografias com apoio do Programa Mais Especialistas",
+     "veiculo": "Prefeitura de Aiuaba",
+     "url": "https://www.aiuaba.ce.gov.br/informa/505/aiuaba-avan-a-na-redu-o-da-fila-de-tomografias-com",
+     "resumo": "Prefeitura de Aiuaba informa avanço na redução da fila de tomografias com apoio do Programa Mais Especialistas.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Aiuaba, a fila de tomografias está diminuindo.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-07-24",
+     "titulo": "Aiuaba realiza 39 cirurgias de catarata e amplia o acesso à saúde especializada",
+     "veiculo": "Prefeitura de Aiuaba",
+     "url": "https://www.aiuaba.ce.gov.br/informa/504/aiuaba-realiza-39-cirurgias-de-catarata-e-amplia-o",
+     "resumo": "Prefeitura de Aiuaba informa que realizou 39 cirurgias de catarata, ampliando o acesso da população à saúde especializada.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Aiuaba realizou 39 cirurgias de catarata.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2300507": {
+   "municipio": "Alcântaras",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-20",
+     "titulo": "ÁGUA ENCANADA CHEGA AO SÍTIO ALGODÕES E BENEFICIA 170 FAMÍLIAS",
+     "veiculo": "Prefeitura Municipal de Alcântaras",
+     "url": "https://alcantaras.ce.gov.br/",
+     "resumo": "Prefeitura informou a chegada de água encanada ao Sítio Algodões, em parceria com o SISAR, beneficiando 170 famílias.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Água encanada chega ao Sítio Algodões, em Alcântaras, para 170 famílias.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09-21",
+     "titulo": "RECUPERAÇÃO DAS ESTRADAS VICINAIS AVANÇA EM ALCÂNTARAS COM SERVIÇOS DE PIÇARRAMENTO",
+     "veiculo": "Prefeitura Municipal de Alcântaras",
+     "url": "https://alcantaras.ce.gov.br/",
+     "resumo": "Prefeitura informou que avança a recuperação das estradas vicinais do município com serviços de piçarramento.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Estradas da zona rural de Alcântaras estão sendo recuperadas com piçarra.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2301604": {
+   "municipio": "Assaré",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-24",
+     "titulo": "Assaré investe R$ 909 mil em pavimentação na zona rural com verba federal",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/7/24/assare-investe-r-909-mil-em-pavimentacao-na-zona-rural-com-verba-federal",
+     "resumo": "Convênio da prefeitura com o Ministério da Integração e do Desenvolvimento Regional prevê R$ 909 mil para pavimentar trechos da zona rural de Assaré.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Assaré vai pavimentar trechos da zona rural com verba federal.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-07-23",
+     "titulo": "Governo do Ceará entrega de equipamentos sociais e estradas em Assaré",
+     "veiculo": "Governo do Estado do Ceará",
+     "url": "https://www.ceara.gov.br/2025/07/23/governo-do-ceara-entrega-de-equipamentos-sociais-e-estradas-em-assare/",
+     "resumo": "Publicação oficial do Governo do Ceará registra a entrega de equipamentos sociais e estradas em Assaré em julho de 2025.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Assaré recebeu estradas e equipamentos sociais do governo estadual.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2304236": {
+   "municipio": "Croatá",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2304509": {
+   "municipio": "Frecheirinha",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-03",
+     "titulo": "Prefeitura de Frecheirinha realiza reparo preventivo no Açude Caiçara para evitar riscos à população",
+     "veiculo": "Prefeitura de Frecheirinha",
+     "url": "https://www.frecheirinha.ce.gov.br/informa.php?id=445",
+     "resumo": "Segundo o site da prefeitura, Frecheirinha realizou reparo preventivo no Açude Caiçara para evitar riscos à população.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Em Frecheirinha, o Açude Caiçara passou por reparo preventivo.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-05-02",
+     "titulo": "Prefeitura de Frecheirinha assina ordem de serviço para pavimentação no Conjunto Novo",
+     "veiculo": "Prefeitura de Frecheirinha",
+     "url": "https://www.frecheirinha.ce.gov.br/informa.php?id=447",
+     "resumo": "Segundo o site da prefeitura, foi assinada ordem de serviço para pavimentação no Conjunto Novo, em Frecheirinha.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "O Conjunto Novo, em Frecheirinha, teve ordem de serviço para pavimentação.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2305001": {
+   "municipio": "Guaraciaba do Norte",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-10-05",
+     "titulo": "Cidade cearense é a maior produtora de pimentão do Brasil; veja ranking",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/negocios/agro/cidade-cearense-e-a-maior-produtora-de-pimentao-do-brasil-veja-ranking-1.3795068",
+     "resumo": "Segundo a pesquisa PAM do IBGE, Guaraciaba do Norte produziu 35 mil toneladas de pimentão em 2025, cerca de 10% da safra nacional, liderando o ranking brasileiro.",
+     "tema": "agricultura",
+     "tom": "conquista",
+     "gancho": "Guaraciaba do Norte é a maior produtora de pimentão do Brasil.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-08-21",
+     "titulo": "Guaraciaba do Norte: Reunião Essencial para Agricultores sobre o Programa Garantia Safra 2025/2026",
+     "veiculo": "Prefeitura de Guaraciaba do Norte",
+     "url": "https://www.guaraciabadonorte.ce.gov.br/informa/52/guaraciaba-do-norte-reuni-o-essencial-para-agricul",
+     "resumo": "Secretaria de Agricultura convocou presidentes de associações e líderes comunitários para orientar o cadastro no Garantia Safra 2025/2026, que dá apoio financeiro em perdas de safra.",
+     "tema": "programa_federal",
+     "tom": "neutro",
+     "gancho": "Guaraciaba do Norte convocou líderes comunitários para orientar sobre o Garantia Safra.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2305209": {
+   "municipio": "Hidrolândia",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-02",
+     "titulo": "Cagece espera concluir adutora em seis meses e solucionar problema de falta d`água em Hidrolândia",
+     "veiculo": "A Voz de Santa Quitéria",
+     "url": "https://avozdesantaquiteria.com.br/noticia/67527/cagece-espera-concluir-adutora-em-seis-meses-e-solucionar-problema-de-falta-d-agua-em-hidrolandia",
+     "resumo": "Cagece atribui a falta d'água em Hidrolândia ao sistema desgastado e prevê em seis meses adutora de 12 km, acima de R$ 4 milhões, com 5% executados.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Hidrolândia sofre com falta d'água e espera adutora de 12 km.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2306900": {
+   "municipio": "Jaguaribe",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-12",
+     "titulo": "Jaguaribe conquista novo recorde com queijo de 3,5 toneladas",
+     "veiculo": "O POVO",
+     "url": "https://www.opovo.com.br/noticias/ceara/jaguaribe/2026/07/12/jaguaribe-conquista-novo-recorde-com-queijo-de-35-toneladas.html",
+     "resumo": "Na ExpoJaguar, Jaguaribe produziu queijo coalho de 3.519 kg com cerca de 35 mil litros de leite, retomando de Quixeramobim o título de maior do mundo.",
+     "tema": "cultura",
+     "tom": "conquista",
+     "gancho": "Jaguaribe fez o maior queijo coalho do mundo: 3,5 toneladas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-30",
+     "titulo": "Jaguaribe atinge quase 40ºC; cinco cidades no Ceará têm chuvas nesta quarta",
+     "veiculo": "O POVO",
+     "url": "https://www.opovo.com.br/noticias/ceara/2026/09/30/jaguaribe-atinge-quase-40c-5-cidades-no-ceara-tem-chuvas.html",
+     "resumo": "Jaguaribe registrou 39,3 °C na tarde de 29 de setembro, a maior temperatura do Ceará em 24 horas, segundo a Funceme.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Jaguaribe bateu 39,3 graus, a maior marca do Ceará no dia.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2307502": {
+   "municipio": "Lavras da Mangabeira",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-04",
+     "titulo": "Cagece investe mais de R$ 700 mil em melhorias no abastecimento de água de Lavras da Mangabeira",
+     "veiculo": "Leia Sempre Brasil",
+     "url": "https://leiasemprebrasil.com.br/2026/03/04/cagece-investe-mais-de-r-700-mil-em-melhorias-no-abastecimento-de-agua-de-lavras-da-mangabeira/",
+     "resumo": "Cagece investe mais de R$ 700 mil em nova rede de distribuição de água no bairro Além Rio e no Sítio Volta, beneficiando cerca de 3.900 pessoas.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Lavras da Mangabeira ganha rede de água para cerca de 3.900 pessoas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-28",
+     "titulo": "Saúde da Mulher e do Homem Rural",
+     "veiculo": "Prefeitura de Lavras da Mangabeira",
+     "url": "https://www.lavrasdamangabeira.ce.gov.br/informa/261/sa-de-da-mulher-e-do-homem-rural",
+     "resumo": "Prefeitura anunciou a Carreta da Saúde na Praça da Matriz, em Quitaiús, a partir das 8h de 29 de setembro, com diversos serviços de saúde.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Lavras da Mangabeira programou a Carreta da Saúde em Quitaiús.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2308302": {
+   "municipio": "Milagres",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-10-05",
+     "titulo": "Escola Marieta Cals ganha nova estrutura após reforma e amplia conforto para alunos e profissionais",
+     "veiculo": "Prefeitura de Milagres",
+     "url": "https://www.milagres.ce.gov.br/informa/2136/escola-marieta-cals-ganha-nova-estrutura-ap-s-refo",
+     "resumo": "Reforma de cerca de um mês na Escola Municipal Marieta Cals instalou ar-condicionado nas salas, novas portas, revestimento em PVC e poço próprio.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Alunos da Escola Marieta Cals, em Milagres, ganharam salas climatizadas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-10-03",
+     "titulo": "Prefeitura de Milagres anuncia construção de passagem molhada no Sítio São Tomé",
+     "veiculo": "Prefeitura de Milagres",
+     "url": "https://www.milagres.ce.gov.br/informa/2137/prefeitura-de-milagres-anuncia-constru-o-de-passag",
+     "resumo": "Prefeitura anunciou passagem molhada no Sítio São Tomé, antiga reivindicação para garantir acesso à comunidade em períodos de chuva; ordem de serviço prevista para 5/10.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "O Sítio São Tomé, em Milagres, vai ganhar passagem molhada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2308906": {
+   "municipio": "Morrinhos",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-10-05",
+     "titulo": "Dia D de Vacinação em Morrinhos!",
+     "veiculo": "Prefeitura de Morrinhos",
+     "url": "https://morrinhos.ce.gov.br/informa/1069/dia-d-de-vacina-o-em-morrinhos",
+     "resumo": "Prefeitura de Morrinhos divulgou em seu site um Dia D de vacinação no município.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Morrinhos marcou um Dia D de vacinação para sua população.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2309003": {
+   "municipio": "Mucambo",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2310951": {
+   "municipio": "Pires Ferreira",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2312007": {
+   "municipio": "Santana do Acaraú",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2312304": {
+   "municipio": "São Benedito",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-10-28",
+     "titulo": "Reijers projeta alta de 30% nas vendas de flores para o Dia de Finados",
+     "veiculo": "O POVO+",
+     "url": "https://mais.opovo.com.br/jornal/economia/2025/10/28/reijers-projeta-alta-de-30-nas-vendas-de-flores-para-o-dia-de-finados.html",
+     "resumo": "Empresa de flores sediada em São Benedito, com quase 500 trabalhadores, previa despachar 35 carretas para Finados e alta de mais de 30% nas vendas.",
+     "tema": "emprego",
+     "tom": "neutro",
+     "gancho": "Em São Benedito, uma empresa de flores emprega quase 500 pessoas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-10",
+     "titulo": "ASSINATURA DE ORDEM DE SERVIÇO DO PROJETO SERTÃO VIVO, ENTREGA DE MECANIZAÇÃO AGRÍCOLA E PROJETOS PRODUTIVOS PARA A IBIAPABA",
+     "veiculo": "Prefeitura de São Benedito",
+     "url": "https://www.saobenedito.ce.gov.br/informa/114/assinatura-de-ordem-de-servi-o-do-projeto-sert-o-v",
+     "resumo": "Prefeitura anunciou para 12 de junho a assinatura da ordem de serviço do Projeto Sertão Vivo e entrega de mecanização agrícola para a Ibiapaba.",
+     "tema": "agricultura",
+     "tom": "neutro",
+     "gancho": "São Benedito marcou entrega de máquinas agrícolas para a Ibiapaba.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2313609": {
+   "municipio": "Ubajara",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-25",
+     "titulo": "Justiça determina suspensão de obras em Ubajara após derrubada de 46 árvores",
+     "veiculo": "O POVO",
+     "url": "https://www.opovo.com.br/noticias/ceara/ubajara/2026/07/25/justica-determina-suspensao-de-obras-em-ubajara-apos-derrubada-de-46-arvores.html",
+     "resumo": "A pedido do Ministério Público, a Justiça suspendeu obras da prefeitura na Av. Monsenhor Gonçalo Eufrásio, no centro, após corte de cerca de 46 árvores.",
+     "tema": "obra",
+     "tom": "problema",
+     "gancho": "Obra no centro de Ubajara foi suspensa após corte de 46 árvores.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-12",
+     "titulo": "Icnofósseis de 430 milhões de anos reforçam evidências de que Ibiapaba era mar",
+     "veiculo": "O POVO",
+     "url": "https://www.opovo.com.br/noticias/ceara/ubajara/2026/05/12/icnofosseis-de-430-milhoes-de-anos-sao-expostos-em-ubajara.html",
+     "resumo": "Parque Nacional de Ubajara passou a expor, com visita gratuita, rocha com marcas de animais marinhos de 430 milhões de anos, reforçando que a Ibiapaba foi mar.",
+     "tema": "cultura",
+     "tom": "neutro",
+     "gancho": "Ubajara expõe fósseis de 430 milhões de anos, de quando era mar.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2401008": {
+   "municipio": "Apodi",
+   "uf": "RN",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-11-14",
+     "titulo": "Prefeito Sabino acompanha recuperação das estradas na região da Areia, em Apodi-RN",
+     "veiculo": "Mossoró Hoje",
+     "url": "https://www.mossorohoje.com.br/noticias/55075-prefeito-sabino-acompanha-recuperacao-das-estradas-na-regiao-da-areia-em-apodi-rn.amp",
+     "resumo": "Prefeitura realizou recuperação de estradas vicinais que ligam comunidades da região da Areia, no distrito Córrego, como Lagoa Amarela, Retiro, Garapa, Mineiro e Sítio Ponta.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Estradas rurais da região da Areia, em Apodi, passaram por recuperação.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08",
+     "titulo": "RAMAL DO APODI DEVE SER CONCLUÍDO EM 2027, PREVÊ MINISTRO WALDEZ GÓES",
+     "veiculo": "Blog do Erivan Justino",
+     "url": "https://www.erivanjustino.com.br/2026/08/ramal-do-apodi-deve-ser-concluido-em.html",
+     "resumo": "Segundo o título, o ministro Waldez Góes prevê que o Ramal do Apodi seja concluído em 2027; a matéria não pôde ser aberta.",
+     "tema": "programa_federal",
+     "tom": "neutro",
+     "gancho": "O Ramal do Apodi deve ser concluído em 2027, prevê o ministro.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2508901": {
+   "municipio": "Mamanguape",
+   "uf": "PB",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-28",
+     "titulo": "Mamanguape (PB) realizou desfile cívico-militar, encontro de bandas, fanfarras, enfatizou a cultura e a religião, na tarde de ontem (27)",
+     "veiculo": "Vale Notícia (PB)",
+     "url": "https://www.valenoticiapb.com.br/mamanguape-pb-realizou-desfile-civico-militar-encontro-de-bandas-fanfaras-enfatizou-a-cultura-e-a-religiao-na-tarde-de-ontem-27/",
+     "resumo": "Mamanguape realizou desfile cívico-militar com encontro de bandas e fanfarras na Avenida Senador Rui Carneiro, com tema sobre a história da cidade.",
+     "tema": "cultura",
+     "tom": "neutro",
+     "gancho": "Mamanguape foi às ruas com bandas e fanfarras para contar sua história.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09-25",
+     "titulo": "Seis prefeitos prestigiaram a realização da “V Festa Literária do Vale do Mamanguape”, organizada pela ALCA-VN, nesta 6ª feira (25)",
+     "veiculo": "Vale Notícia (PB)",
+     "url": "https://www.valenoticiapb.com.br/seis-prefeitos-prestigiaram-a-realizacao-da-v-festa-literaria-do-vale-do-mamanguape-organizada-pela-alca-vn-nesta-6a-feira-25/",
+     "resumo": "A V Festa Literária do Vale do Mamanguape, organizada pela ALCA-VN, teve lançamento de livros, apresentações culturais, homenagens e concurso de redação.",
+     "tema": "cultura",
+     "tom": "neutro",
+     "gancho": "O Vale do Mamanguape fez sua quinta Festa Literária com novos livros.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2600302": {
+   "municipio": "Agrestina",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-29",
+     "titulo": "Agrestina amplia acesso à água até Sapucaia de Baixo",
+     "veiculo": "Prefeitura de Agrestina",
+     "url": "https://agrestina.pe.gov.br/agrestina-amplia-acesso-a-agua-ate-sapucaia-de-baixo/",
+     "resumo": "Prefeitura de Agrestina iniciou, com recursos municipais, obra de 5 mil metros de rede de água até Sapucaia de Baixo, que deve beneficiar cerca de 80 famílias.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Agrestina começou a levar a rede de água até Sapucaia de Baixo.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08-07",
+     "titulo": "Projeto Saúde na Comunidade retorna à zona rural de Agrestina levando saúde para mais perto de quem precisa",
+     "veiculo": "Prefeitura de Agrestina",
+     "url": "https://agrestina.pe.gov.br/projeto-saude-na-comunidade-retorna-a-zona-rural-de-agrestina-levando-saude-para-mais-perto-de-quem-precisa/",
+     "resumo": "Projeto itinerante de saúde voltou à zona rural de Agrestina com consultas, dentista, vacinas e testes rápidos, começando pela UBS reinaugurada de Vila Cruz de Água Branca.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Agrestina reinaugurou o posto de saúde da Vila Cruz de Água Branca.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-02-20",
+     "titulo": "Prefeitura de Agrestina atualiza piso salarial de professores, agentes comunitários de saúde e agentes de combate às endemias para 2026",
+     "veiculo": "Prefeitura de Agrestina",
+     "url": "https://agrestina.pe.gov.br/prefeitura-de-agrestina-atualiza-piso-salarial-de-professores-agentes-comunitarios-de-saude-e-agentes-de-combate-as-endemias-para-2026/",
+     "resumo": "Leis municipais deram reajuste de 5,4% aos professores efetivos de Agrestina e fixaram em R$ 3.242, o piso nacional, o salário dos agentes de saúde e endemias.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Professores de Agrestina tiveram reajuste de 5,4% em 2026.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2600807": {
+   "municipio": "Altinho",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-01",
+     "titulo": "Raquel Lyra entrega ponte aguardada desde 2010 em Altinho e restaura rodovias no Agreste",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-entrega-ponte-aguardada-desde-2010-em-altinho-e-restaura/625656/",
+     "resumo": "Governo de Pernambuco entregou ponte de R$ 3,25 milhões sobre o Rio Una, na VPE-147, entre Altinho e o distrito de Barra do Jardim, em Agrestina.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Altinho ganhou ponte sobre o Rio Una, esperada desde 2010.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-07-27",
+     "titulo": "Obra da UBS do Centro é retomada",
+     "veiculo": "Prefeitura do Altinho",
+     "url": "https://altinho.pe.gov.br/v1/obra-da-ubs-do-centro-e-retomada/",
+     "resumo": "Prefeitura retomou em 27 de julho as obras da Unidade Básica de Saúde do Centro, para ampliar a atenção primária; não informou prazo nem valor.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Em Altinho, a obra da UBS do Centro foi retomada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2601003": {
+   "municipio": "Angelim",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2602001": {
+   "municipio": "Bodocó",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2603009": {
+   "municipio": "Cabrobó",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-17",
+     "titulo": "Em Cabrobó, Raquel Lyra anuncia avanço de obra que promete acabar com rodízio de água",
+     "veiculo": "Blog do Jamildo (Jamildo.com)",
+     "url": "https://jamildo.com/cidades/em-cabrobo-raquel-lyra-anuncia-avanco-de-obra-que-promete-acabar-com-rodizio-de-agua.html",
+     "resumo": "Obra de R$ 16,8 milhões na estação de tratamento de água deve acabar com o rodízio para cerca de 34 mil moradores e quase triplicar a oferta.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Nova estação promete acabar com o rodízio de água em Cabrobó.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-10-24",
+     "titulo": "Prefeitura de Cabrobó avança com obras na zona rural e realiza sonhos antigos das comunidades",
+     "veiculo": "Prefeitura de Cabrobó",
+     "url": "https://cabrobo.pe.gov.br/prefeitura-de-cabrobo-avanca-com-obras-na-zona-rural-e-realiza-sonhos-antigos-das-comunidades/",
+     "resumo": "Prefeitura concluiu a passagem molhada do Tamboril, iniciou a do Curral Novo, com 81 metros e mais de R$ 800 mil, e requalifica estradas do Murici e Boqueirão.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Na zona rural de Cabrobó, a passagem molhada do Tamboril ficou pronta.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2603504": {
+   "municipio": "Camocim de São Félix",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-02",
+     "titulo": "Camocim de São Félix inicia construção da Feira de Gado, obra que impulsionará a economia e fortalecerá a agropecuária",
+     "veiculo": "Prefeitura de Camocim de São Félix",
+     "url": "https://camocimdesaofelix.pe.gov.br/camocim-de-sao-felix-inicia-construcao-da-feira-de-gado-obra-que-impulsionara-a-economia-e-fortalecera-a-agropecuaria/",
+     "resumo": "Prefeitura de Camocim de São Félix iniciou a construção da Feira de Gado, para dar mais estrutura, organização e segurança a produtores rurais, comerciantes e compradores.",
+     "tema": "agricultura",
+     "tom": "conquista",
+     "gancho": "Camocim de São Félix começou a construir sua Feira de Gado.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08-15",
+     "titulo": "Camocim de São Félix inaugura CAPS Dr. Érlon Barros Giló e fortalece a Rede de Atenção à Saúde Mental",
+     "veiculo": "Prefeitura de Camocim de São Félix",
+     "url": "https://camocimdesaofelix.pe.gov.br/camocim-de-sao-felix-inaugura-caps-dr-erlon-barros-gilo-e-fortalece-a-rede-de-atencao-a-saude-mental/",
+     "resumo": "Prefeitura de Camocim de São Félix inaugurou um Centro de Atenção Psicossocial (CAPS), reforçando a Rede de Atenção à Saúde Mental.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Camocim de São Félix inaugurou CAPS para atendimento em saúde mental.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-08-28",
+     "titulo": "Prefeitura de Camocim de São Félix entrega moderno aparelho de Raio-X ao Hospital Nossa Senhora do Bom Parto",
+     "veiculo": "Prefeitura de Camocim de São Félix",
+     "url": "https://camocimdesaofelix.pe.gov.br/prefeitura-de-camocim-de-sao-felix-entrega-moderno-aparelho-de-raio-x-ao-hospital-nossa-senhora-do-bom-parto/",
+     "resumo": "Prefeitura de Camocim de São Félix entregou um aparelho de Raio-X moderno ao Hospital Nossa Senhora do Bom Parto.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "O hospital de Camocim de São Félix recebeu novo aparelho de Raio-X.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2603702": {
+   "municipio": "Canhotinho",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-02-27",
+     "titulo": "Ao lado da prefeita Sandra Paes, Álvaro Porto participa de entregas em Canhotinho",
+     "veiculo": "Blog do Finfa",
+     "url": "https://blogdofinfa.com.br/2026/02/ao-lado-da-prefeita-sandra-paes-alvaro-porto-participa-de-entregas-em-canhotinho.html",
+     "resumo": "Hospital Municipal de Canhotinho teve inaugurada a primeira etapa da requalificação, passando a 36 leitos, com nova enfermaria, sala de triagem e sala de vacina.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "O hospital de Canhotinho ganhou reforma e passou a ter 36 leitos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2603801": {
+   "municipio": "Capoeiras",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-21",
+     "titulo": "Prefeitura de Capoeiras assina ordem de serviço para reforma e ampliação do CAPS",
+     "veiculo": "Prefeitura de Capoeiras",
+     "url": "https://capoeiras.pe.gov.br/prefeitura-de-capoeiras-assina-ordem-de-servico-para-reforma-e-ampliacao-do-caps/",
+     "resumo": "Prefeitura de Capoeiras assinou ordem de serviço para reformar e ampliar o Centro de Atenção Psicossocial (CAPS), melhorando a estrutura física da unidade.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Capoeiras, o CAPS vai ser reformado e ampliado.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08-14",
+     "titulo": "PE-193 recebe quebra-molas e serviços de tapa-buracos no perímetro urbano de Capoeiras",
+     "veiculo": "Prefeitura de Capoeiras",
+     "url": "https://capoeiras.pe.gov.br/pe-193-recebe-quebra-molas-e-servicos-de-tapa-buracos-no-perimetro-urbano-de-capoeiras/",
+     "resumo": "Governo do Estado começou a instalar quebra-molas na PE-193, no perímetro urbano de Capoeiras, a pedido do município, com serviços de tapa-buracos.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Na PE-193, em Capoeiras, chegaram quebra-molas e tapa-buracos.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-08-14",
+     "titulo": "Prefeitura de Capoeiras garante transporte para estudantes do PREVUPE",
+     "veiculo": "Prefeitura de Capoeiras",
+     "url": "https://capoeiras.pe.gov.br/prefeitura-de-capoeiras-garante-transporte-para-estudantes-do-prevupe/",
+     "resumo": "Prefeitura de Capoeiras oferece transporte gratuito aos sábados e domingos para estudantes que participam do PREVUPE em Garanhuns.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Estudantes de Capoeiras têm transporte gratuito para estudar em Garanhuns.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2604502": {
+   "municipio": "Chã Grande",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-02",
+     "titulo": "Raquel Lyra entrega água do Rio São Francisco a Gravatá e garante pacote de R$ 195 milhões em obras",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/raquel-lyra-entrega-agua-do-rio-sao-francisco-a-gravata/618333/",
+     "resumo": "Governo de Pernambuco autorizou obras de cerca de R$ 24 milhões na PE-071, trecho de 8,2 km entre a BR-232, em Gravatá, e Chã Grande.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "A PE-071, que liga Chã Grande a Gravatá, teve obra autorizada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2605301": {
+   "municipio": "Exu",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-01",
+     "titulo": "Adutora de Negreiros garantirá abastecimento de água para 11 municípios do Sertão do Araripe",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/adutora-de-negreiros-garantira-agua-para-11-municipios-do-araripe/623066/",
+     "resumo": "Adutora estadual de R$ 300 milhões levará água do reservatório Negreiros, da transposição, a 11 cidades do Araripe, incluindo Exu, beneficiando cerca de 420 mil pessoas.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Exu está entre as 11 cidades da Adutora de Negreiros.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-30",
+     "titulo": "Pernambuco decreta emergência em 75 municípios por causa da estiagem",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/clima/pernambuco-decreta-emergencia-em-75-municipios-por-causa-da-estiagem/625599/",
+     "resumo": "Decreto estadual incluiu Exu entre 75 municípios de Pernambuco em situação de emergência pela estiagem, por 180 dias, com reservatórios da Compesa em baixa.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Exu entrou em situação de emergência por causa da seca.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-01-10",
+     "titulo": "Bora de ASFALTAÇO !!! A maior operação de pavimentação asfáltica da história de…",
+     "veiculo": "Prefeitura de Exu",
+     "url": "https://www.exu.pe.gov.br/bora-de-asfaltaco-a-maior-operacao-de-pavimentacao-asfaltica-da-historia-de/",
+     "resumo": "Prefeitura informou mais de 60 mil m² de asfalto em Exu, incluindo trecho central do distrito de Timorante, em parceria com a Codevasf.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Exu ganhou mais de 60 mil metros quadrados de asfalto.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2606507": {
+   "municipio": "Iati",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-08-11",
+     "titulo": "Prefeitura de Iati Inicia Cadastro de Produtores Culturais para Fortalecer o Setor",
+     "veiculo": "Prefeitura de Iati",
+     "url": "https://iati.pe.gov.br/prefeitura-de-iati-inicia-cadastro-de-produtores-culturais-para-fortalecer-o-setor/",
+     "resumo": "Secretaria de Cultura de Iati abriu cadastro gratuito de artistas, artesãos, produtores e grupos culturais, até 30 de agosto, para facilitar acesso a editais e políticas públicas.",
+     "tema": "cultura",
+     "tom": "neutro",
+     "gancho": "Iati abriu cadastro para valorizar seus artistas e produtores culturais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2607307": {
+   "municipio": "Ipubi",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-01",
+     "titulo": "Adutora de Negreiros garantirá abastecimento de água para 11 municípios do Sertão do Araripe",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/adutora-de-negreiros-garantira-agua-para-11-municipios-do-araripe/623066/",
+     "resumo": "Adutora estadual de R$ 300 milhões levará água do reservatório Negreiros, da transposição, a 11 cidades do Araripe, incluindo Ipubi, beneficiando cerca de 420 mil pessoas.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Ipubi está entre as 11 cidades da Adutora de Negreiros.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-30",
+     "titulo": "Pernambuco decreta emergência em 75 municípios por causa da estiagem",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/clima/pernambuco-decreta-emergencia-em-75-municipios-por-causa-da-estiagem/625599/",
+     "resumo": "Decreto estadual incluiu Ipubi entre 75 municípios de Pernambuco em situação de emergência pela estiagem, por 180 dias, com reservatórios da Compesa em baixa.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Ipubi entrou em situação de emergência por causa da seca.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2608107": {
+   "municipio": "João Alfredo",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-02",
+     "titulo": "Zé Martins sanciona projeto para construção do Hospital Regional em João Alfredo",
+     "veiculo": "Blog Cenário",
+     "url": "https://blogcenario.com.br/2026/05/02/ze-martins-sanciona-projeto-para-construcao-do-hospital-regional-em-joao-alfredo",
+     "resumo": "Prefeito sancionou projeto que autoriza construir Hospital Regional de 64 leitos em João Alfredo, com recursos do BNDES pelo Fundo de Investimento em Infraestrutura Social.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "João Alfredo aprovou a construção de um hospital regional de 64 leitos.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08-12",
+     "titulo": "Prefeitura de João Alfredo inicia agosto dando ordens de serviço para várias obras na saúde e infraestrutura",
+     "veiculo": "Prefeitura de João Alfredo",
+     "url": "https://joaoalfredo.pe.gov.br/noticia/prefeitura-de-joao-alfredo-inicia-agosto-dando-ordens-de-servico-para-varias-obras-na-saude-e-infraestrutura/",
+     "resumo": "Prefeitura deu ordens de serviço para novos postos de saúde em Olho D'Água Cercado e no bairro São José, um CAPS e calçamentos.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Olho D'Água Cercado, em João Alfredo, vai ganhar posto de saúde.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2608305": {
+   "municipio": "Jupi",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2610202": {
+   "municipio": "Panelas",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2611507": {
+   "municipio": "Quipapá",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2612307": {
+   "municipio": "Saloá",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-15",
+     "titulo": "Pavimentação em São Serafim entra na fase final",
+     "veiculo": "Prefeitura de Saloá",
+     "url": "https://saloa.pe.gov.br/pavimentacao-em-sao-serafim-entra-na-fase-final/",
+     "resumo": "Obra de pavimentação em paralelepípedo na comunidade rural de São Serafim, em Saloá, segue em ritmo acelerado e se aproxima da conclusão, segundo a prefeitura.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "O calçamento de São Serafim, em Saloá, entrou na fase final.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-02-05",
+     "titulo": "Prefeitura de Saloá lança o Programa Água para Todos para ampliar o acesso à água no município",
+     "veiculo": "Prefeitura de Saloá",
+     "url": "https://saloa.pe.gov.br/prefeitura-de-saloa-lanca-o-programa-agua-para-todos-para-ampliar-o-acesso-a-agua-no-municipio/",
+     "resumo": "Prefeitura lançou o programa Água para Todos, que perfurará poços artesianos perto de escolas e unidades de saúde, com recursos de emenda de deputado estadual.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Saloá lançou programa de poços para ampliar o acesso à água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2613107": {
+   "municipio": "São Caitano",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2613206": {
+   "municipio": "São João",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-08-22",
+     "titulo": "Raquel Lyra assina ordem de serviço para construção da Maternidade de Garanhuns no Agreste",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-assina-ordem-de-servico/601824/",
+     "resumo": "Em evento em Garanhuns, o governo de Pernambuco incluiu São João entre 20 municípios do Agreste Meridional com escolas estaduais em projeto de requalificação.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Escolas estaduais de São João entraram em projeto de requalificação.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2614006": {
+   "municipio": "Serrita",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-08-15",
+     "titulo": "Raquel Lyra anuncia R$ 124 milhões em obras no Sertão Central durante Ouvir para Mudar",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-ouvir-para-mudar-investe-em-obras-no-sertao/601317/",
+     "resumo": "Governo de Pernambuco assinou ordem de serviço de R$ 11,8 milhões para recuperar a Barragem de Poço Grande, em Serrita, iniciada nos anos 1990 e nunca finalizada.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Serrita: barragem de Poço Grande, começada nos anos 1990, será recuperada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2615409": {
+   "municipio": "Toritama",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-27",
+     "titulo": "Toritama celebra chegada das águas do São Francisco e anuncia novos investimentos",
+     "veiculo": "Blog Cenário",
+     "url": "https://blogcenario.com.br/2026/04/27/toritama-celebra-chegada-das-aguas-do-sao-francisco-e-anuncia-novos-investimentos",
+     "resumo": "Águas do Rio São Francisco chegaram à estação de tratamento de Toritama em 27 de abril, encerrando, segundo a prefeitura, mais de oito anos de desabastecimento.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "A água do São Francisco chegou a Toritama em abril.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-22",
+     "titulo": "Toritama: DNIT aprova projeto de R$ 30 milhões para melhorar travessia urbana da cidade",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/regiao-metropolitana/outras-cidades/toritama-dnit-aprova-projeto-travessia-urbana-cidade/619687/",
+     "resumo": "DNIT aprovou projeto de mais de R$ 30 milhões para a travessia urbana de Toritama, visando reduzir congestionamentos e melhorar o escoamento das confecções; sem prazo para as obras.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "DNIT aprovou projeto de R$ 30 milhões para a travessia de Toritama.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-10-02",
+     "titulo": "Em Toritama, Prefeito Sérgio Colin apresenta nova escola em tempo integral com capacidade para 1,6 mil alunos",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/toritama-apresenta-nova-escola-em-tempo-integral-com-capacidade-para/633305/",
+     "resumo": "Toritama apresentou a Escola em Tempo Integral José Jota de Araújo, da rede municipal, para até 1.600 alunos, com piscina e laboratórios; inauguração prevista para as próximas semanas.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Toritama vai inaugurar escola em tempo integral para 1.600 alunos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2615607": {
+   "municipio": "Trindade",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2702009": {
+   "municipio": "Coité do Nóia",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-01-09",
+     "titulo": "Faltas de energia paralisam sistemas que abastecem municípios do Agreste",
+     "veiculo": "Casal - Companhia de Saneamento de Alagoas",
+     "url": "https://www.casal.al.gov.br/2026/01/faltas-de-energia-paralisam-sistemas-que-abastecem-municipios-do-agreste/",
+     "resumo": "Segundo a Casal, quedas de energia em três ocasiões na noite de 8 de janeiro paralisaram sistemas que abastecem de água municípios do Agreste.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Falta de energia parou sistemas que levam água a Coité do Nóia.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-01-06",
+     "titulo": "Falta de energia paralisa atividades do Sistema Adutor do Agreste",
+     "veiculo": "Casal - Companhia de Saneamento de Alagoas",
+     "url": "https://www.casal.al.gov.br/2026/01/falta-de-energia-paralisa-atividades-do-sistema-adutor-do-agreste/",
+     "resumo": "Segundo a Casal, a falta de energia das 2h55 às 4h26 de 6 de janeiro paralisou as atividades do Sistema Adutor do Agreste.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Coité do Nóia: madrugada sem energia parou o sistema adutor do Agreste.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2704005": {
+   "municipio": "Junqueiro",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-26",
+     "titulo": "Prefeitura de Junqueiro inicia recapeamento asfáltico da estrada que liga o povoado Retiro ao São Benedito",
+     "veiculo": "Já é Notícia",
+     "url": "https://www.jaenoticia.com.br/blogs/2026/03/26/8981-prefeitura-de-junqueiro-inicia-recapeamento-asfaltico-da-estrada-que-liga-o-povoado-retiro-ao-sao-benedito",
+     "resumo": "Prefeitura de Junqueiro iniciou, em parceria com o Governo de Alagoas, o recapeamento asfáltico da estrada que liga o povoado Retiro ao São Benedito.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Junqueiro começou o recapeamento da estrada do Retiro ao São Benedito.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-27",
+     "titulo": "Prefeitura de Junqueiro realiza ação “Saúde em Dia” e beneficia mais de 1.700 pessoas com exames e atendimentos especializados",
+     "veiculo": "Prefeitura de Junqueiro",
+     "url": "https://junqueiro.al.gov.br/prefeitura-de-junqueiro-realiza-acao-saude-em-dia-e-beneficia-mais-de-1-600-pessoas-com-exames-e-atendimentos-especializados/",
+     "resumo": "Ação “Saúde em Dia” da prefeitura de Junqueiro realizou mais de 1.700 exames, como mamografia e endoscopia, além de consultas com especialistas, em 24 e 25 de abril.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em dois dias, Junqueiro fez mais de 1.700 exames de saúde.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2704104": {
+   "municipio": "Lagoa da Canoa",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-30",
+     "titulo": "Virada de chave: Edilza Alves inicia novo ciclo de obras em Lagoa da Canoa",
+     "veiculo": "AL1",
+     "url": "https://al1.com.br/noticias/noticias/207688-virada-de-chave-edilza-alves-inicia-novo-ciclo-de-obras-em-lagoa-da-canoa",
+     "resumo": "Prefeitura iniciou asfaltamento de mais de 10 km de ruas urbanas, em parceria com o programa estadual Pró-Estrada, e prevê iniciar em breve duas creches do programa CRIA.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Lagoa da Canoa começou a asfaltar mais de 10 km de ruas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-21",
+     "titulo": "Falta de energia afeta fornecimento de água para Lagoa da Canoa",
+     "veiculo": "Casal (Companhia de Saneamento de Alagoas)",
+     "url": "https://www.casal.al.gov.br/2026/09/falta-de-energia-afeta-fornecimento-de-agua-para-lagoa-da-canoa-2/",
+     "resumo": "Queda de energia no Booster Massapê parou o bombeamento e deixou deficiente o abastecimento de água de Lagoa da Canoa a partir das 10h20 de 21 de setembro.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Falta de energia prejudicou o abastecimento de água em Lagoa da Canoa.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2704203": {
+   "municipio": "Limoeiro de Anadia",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-08",
+     "titulo": "Limoeiro de Anadia vai receber investimentos na área de educação e infraestrutura viária",
+     "veiculo": "GazetaWeb (Gazeta de Alagoas)",
+     "url": "https://www.gazetaweb.com/noticias/politica/limoeiro-de-anadia-vai-receber-investimentos-na-area-de-educacao-e-infraestrutura-viaria-928120",
+     "resumo": "Governo de Alagoas anunciou mais de R$ 8 milhões para Limoeiro de Anadia: creche para 200 crianças (R$ 5 milhões) e asfalto ligando povoados à zona urbana.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Limoeiro de Anadia vai ganhar uma creche para 200 crianças.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2704807": {
+   "municipio": "Maribondo",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-01",
+     "titulo": "Paulo Dantas entrega pacote de investimento de R$ 6 milhões em Maribondo",
+     "veiculo": "Tribuna do Sertão",
+     "url": "https://www.tribunadosertao.com.br/alagoas/2026/04/01/881950-paulo-dantas-entrega-pacote-de-investimento-de-r-6-milhoes-em-maribondo",
+     "resumo": "Governo de Alagoas entregou em Maribondo cinco poços artesianos em sítios, calçamento de 10 ruas, sementes para 115 famílias e autorizou creche de R$ 4,8 milhões.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Famílias de sítios de Maribondo ganharam poços artesianos.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-21",
+     "titulo": "Prefeitura de Maribondo lança edital da PNAB 2026 com mais de R$ 112 mil para projetos culturais",
+     "veiculo": "Prefeitura de Maribondo",
+     "url": "https://www.maribondo.al.gov.br/prefeitura-de-maribondo-lanca-edital-da-pnab-2026-com-mais-de-r-112-mil-para-projetos-culturais",
+     "resumo": "Edital municipal da Política Nacional Aldir Blanc, criada por lei federal, destina R$ 112.150 a 67 projetos culturais de Maribondo, com cotas.",
+     "tema": "programa_federal",
+     "tom": "neutro",
+     "gancho": "Maribondo abriu R$ 112 mil da Aldir Blanc para 67 projetos culturais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2804508": {
+   "municipio": "Nossa Senhora da Glória",
+   "uf": "SE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-17",
+     "titulo": "Edital Nº 001-2026 - PMCMV",
+     "veiculo": "Prefeitura de Nossa Senhora da Glória",
+     "url": "https://gloria.se.gov.br/noticia/849/edital-no-001-2026-pmcmv",
+     "resumo": "Assistência Social divulgou lista preliminar de candidatos habilitados e inabilitados na seleção de famílias beneficiárias do Minha Casa Minha Vida, linha FAR, em Nossa Senhora da Glória.",
+     "tema": "moradia",
+     "tom": "neutro",
+     "gancho": "Nossa Senhora da Glória divulgou lista prévia do Minha Casa Minha Vida.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-20",
+     "titulo": "ExpoGlória 2026 reúne cerca de 50 mil pessoas no Parque Cidade do Leite",
+     "veiculo": "Prefeitura de Nossa Senhora da Glória",
+     "url": "https://gloria.se.gov.br/noticia/855/expogloria-2026-reune-cerca-de-50-mil-pessoas-no-parque-cidade-do-leite",
+     "resumo": "Segundo a prefeitura, a ExpoGlória 2026 reuniu cerca de 50 mil pessoas no Parque Cidade do Leite e movimentou a economia local.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "ExpoGlória 2026 reuniu cerca de 50 mil pessoas em Glória.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2901007": {
+   "municipio": "Amargosa",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-15",
+     "titulo": "Novo sistema de saneamento deve ampliar cobertura para mais de 90% de Amargosa",
+     "veiculo": "Prefeitura de Amargosa",
+     "url": "https://www.amargosa.ba.gov.br/noticia&id=110&titulo=novo-sistema-de-saneamento-deve-ampliar-cobertura-para-mais-de-90-de-amargosa",
+     "resumo": "Prefeitura e Embasa trataram de sistema de saneamento de cerca de R$ 178 milhões, com mais de 120 km de rede e cobertura prevista acima de 90% da cidade.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Saneamento de R$ 178 milhões deve cobrir mais de 90% de Amargosa.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-20",
+     "titulo": "Nos 135 anos de Amargosa, Roberta Santana inaugura unidades de saúde, entrega ambulância e vistoria obras da Maternidade Regional",
+     "veiculo": "Sesab (Secretaria da Saúde da Bahia)",
+     "url": "https://www.saude.ba.gov.br/2026/06/20/nos-135-anos-de-amargosa-roberta-santana-inaugura-unidades-de-saude-entrega-ambulancia-e-vistoria-obras-da-maternidade-regional/",
+     "resumo": "Nos 135 anos de Amargosa, a Secretaria da Saúde da Bahia inaugurou unidades de saúde, entregou ambulância e vistoriou obras da Maternidade Regional.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Amargosa ganhou novas unidades de saúde e ambulância nos seus 135 anos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2902609": {
+   "municipio": "Baixa Grande",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2902807": {
+   "municipio": "Barra da Estiva",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-24",
+     "titulo": "Em reunião com representantes do Sebrae, prefeitura alinha Elaboração do Plano Municipal de Turismo de Barra da Estiva",
+     "veiculo": "Informe Barra",
+     "url": "https://www.informebarra.com.br/noticias/1558-2026/09/24/em-reuniao-com-representantes-do-sebrae-prefeitura-alinha-elaboracao-do-plano-municipal-de-turismo-de-barra-da-estiva",
+     "resumo": "Prefeitura e Sebrae/BA discutiram a elaboração participativa do Plano Municipal de Turismo, para identificar potencialidades e impulsionar turismo e desenvolvimento econômico.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "Prefeitura de Barra da Estiva e Sebrae discutem plano de turismo.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2902906": {
+   "municipio": "Barra do Choça",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-10-24",
+     "titulo": "Em Barra do Choça, Jerônimo entrega investimentos de quase R$ 17 milhões",
+     "veiculo": "Panorama da Bahia",
+     "url": "https://panoramadabahia.com.br/em-barra-do-choca-jeronimo-entrega-investimentos-de-quase-r-17-milhoes/",
+     "resumo": "Governo da Bahia entregou à Cooperbac galpão de armazenamento e torrefação de café de R$ 5 milhões, que gerou 215 empregos diretos e indiretos.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Barra do Choça ganhou galpão de café que gerou 215 empregos.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-10-04",
+     "titulo": "obras do Governo da Bahia ampliam infraestrutura em Jequié, Vitória da Conquista e cidades do Sudoeste",
+     "veiculo": "Mateus Oliver Repórter",
+     "url": "https://www.mateusoliverreporter.com.br/2026/10/04/obras-do-governo-da-bahia-ampliam-infraestrutura-em-jequie-vitoria-da-conquista-e-cidades-do-sudoeste/",
+     "resumo": "Balanço de obras estaduais no Sudoeste registra 4 km pavimentados entre a BA-265 e a BR-415, no acesso ao povoado do Cafezal, por cerca de R$ 3,8 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Quatro km do acesso ao Cafezal, em Barra do Choça, foram pavimentados.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2903508": {
+   "municipio": "Belo Campo",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-22",
+     "titulo": "Agroindústria familiar amplia capacidade de beneficiamento da mandioca em Belo Campo",
+     "veiculo": "Agora Sudoeste",
+     "url": "https://www.agorasudoeste.com.br/noticias/belo-campo/agroindustria-familiar-amplia-capacidade-de-beneficiamento-da-mandioca-em-belo-campo",
+     "resumo": "Agroindústria da associação de Lagoa do Canto processa mandioca em farinha, polvilho e biscoitos, atende mais de 120 agricultores familiares e vende parte à merenda escolar.",
+     "tema": "agricultura",
+     "tom": "conquista",
+     "gancho": "Mandioca de Belo Campo vira farinha, biscoito e merenda escolar.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2903706": {
+   "municipio": "Boa Nova",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-18",
+     "titulo": "Secretaria Nacional de Proteção e Defesa Civil reconhece emergência por estiagem em quatro municípios do Nordeste",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/secretaria-nacional-de-protecao-e-defesa-civil-reconhece-81023",
+     "resumo": "Portaria federal de 17 de agosto reconheceu situação de emergência por estiagem em Boa Nova, permitindo mobilizar recursos e apoio técnico da União.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Boa Nova teve emergência por seca reconhecida pelo governo federal.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2906204": {
+   "municipio": "Canarana",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-29",
+     "titulo": "JERÔNIMO AUTORIZA REFORMA DE HOSPITAL E NOVAS OBRAS EM CANARANA",
+     "veiculo": "Líder Notícias",
+     "url": "https://lidernoticias.com/jeronimo-autoriza-reforma-de-hospital-e-novas-obras-em-canarana/",
+     "resumo": "O governo da Bahia autorizou a reforma do Hospital Municipal de Canarana, a construção de uma UBS em Lagoa do Zeca e pavimentação no bairro Planalto.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "A reforma do hospital de Canarana foi autorizada em abril.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2906709": {
+   "municipio": "Cândido Sales",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-16",
+     "titulo": "Cândido Sales: Jeronimo entrega nova escola de tempo integral e autoriza construção de 90 casas",
+     "veiculo": "Sertão Hoje",
+     "url": "https://www.sertaohoje.com.br/noticias/candido-sales/candido-sales-jeronimo-entrega-nova-escola-de-tempo-integral-e-autoriza-construcao-de-90-casas",
+     "resumo": "Governo da Bahia entregou nova escola de tempo integral em Cândido Sales e autorizou 90 casas do Minha Casa, Minha Vida.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Cândido Sales ganhou nova escola de tempo integral.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09-23",
+     "titulo": "Lagoa Grande recebe Mercado Municipal, área da feira livre e novos espaços de lazer",
+     "veiculo": "Sertão Hoje",
+     "url": "https://www.sertaohoje.com.br/noticias/candido-sales/lagoa-grande-recebe-mercado-municipal-area-da-feira-livre-e-novos-espacos-de-lazer",
+     "resumo": "A localidade de Lagoa Grande, em Cândido Sales, recebeu Mercado Municipal, área para feira livre e novos espaços de lazer.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Lagoa Grande, em Cândido Sales, ganhou mercado e área de feira livre.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-05-20",
+     "titulo": "Prefeitura oferece curso gratuito de operação de máquinas pesadas",
+     "veiculo": "Sertão Hoje",
+     "url": "https://www.sertaohoje.com.br/noticias/candido-sales/prefeitura-oferece-curso-gratuito-de-operacao-de-maquinas-pesadas",
+     "resumo": "Prefeitura de Cândido Sales ofereceu curso gratuito de operação de máquinas pesadas, com inscrições em maio, em parceria com uma empresa de treinamentos.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Cândido Sales abriu curso gratuito para operar máquinas pesadas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2906808": {
+   "municipio": "Cansanção",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-13",
+     "titulo": "Após décadas de abandono, trecho da BA-120 entre Queimadas e Cansanção está praticamente concluído",
+     "veiculo": "Calila Notícias",
+     "url": "https://www.calilanoticias.com/2026/05/apos-decadas-de-abandono-trecho-da-ba-120-entre-queimadas-e-cansancao-esta-praticamente-concluido",
+     "resumo": "Recuperação de cerca de 40 km da BA-120 entre Queimadas e Cansanção, iniciada em agosto de 2025, estava em fase final, com novo asfalto e sinalização.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "A BA-120 entre Queimadas e Cansanção ganhou asfalto novo.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-05",
+     "titulo": "Garantia Safra fortalece agricultura familiar e movimenta mais de R$ 3,6 milhões na economia de Cansanção",
+     "veiculo": "Prefeitura de Cansanção",
+     "url": "https://www.cansancao.ba.gov.br/site/?p=823",
+     "resumo": "Segundo a prefeitura, o Garantia Safra fortalece a agricultura familiar e movimenta mais de R$ 3,6 milhões na economia de Cansanção.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "O Garantia Safra movimentou mais de R$ 3,6 milhões em Cansanção.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-04-10",
+     "titulo": "Famílias de Cansanção já podem acessar o Programa Gás do Povo",
+     "veiculo": "Prefeitura de Cansanção",
+     "url": "https://www.cansancao.ba.gov.br/site/?p=806",
+     "resumo": "Prefeitura informou que famílias de Cansanção que se enquadram nos critérios do Programa Gás do Povo já podem acessar o benefício.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Famílias de Cansanção já podem acessar o programa Gás do Povo.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2907103": {
+   "municipio": "Carinhanha",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-10-02",
+     "titulo": "POLICLÍNICA MUNICIPAL: MAIS DIGNIDADE PARA CARINHANHA!",
+     "veiculo": "Prefeitura Municipal de Carinhanha",
+     "url": "https://www.carinhanha.ba.gov.br/noticias/policlinica-municipal-mais-dignidade-para-carinhanha-29438/",
+     "resumo": "A prefeitura entregou a Policlínica Municipal, antigo centro de especialidades requalificado, com novo agendamento para substituir filas; 150 pacientes foram atendidos no primeiro dia.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Carinhanha, 150 pacientes foram atendidos no primeiro dia da Policlínica.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-18",
+     "titulo": "Carinhanha inaugura Sala do Terra cidadã do INCRA, recebe títulos e contratos de regularização fundiária para famílias rurais",
+     "veiculo": "Prefeitura Municipal de Carinhanha",
+     "url": "https://www.carinhanha.ba.gov.br/noticias/carinhanha-inaugura-sala-do-terra-cidada-do-incra-recebe-titulos-e-contratos-de-21089/",
+     "resumo": "Segundo o título, Carinhanha inaugurou a Sala do Terra Cidadã do INCRA e recebeu títulos e contratos de regularização fundiária para famílias rurais.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Carinhanha recebeu títulos de terra para famílias rurais do município.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2907509": {
+   "municipio": "Catu",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2907608": {
+   "municipio": "Central",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-03",
+     "titulo": "#Chapada: Seabra entre os municípios que receberam novas obras com investimentos em educação, estradas e abastecimento",
+     "veiculo": "Jornal da Chapada",
+     "url": "https://jornaldachapada.com.br/2026/09/03/bahia-novas-obras-beneficiam-oito-municipios-com-investimentos-em-educacao-estradas-e-abastecimento/",
+     "resumo": "Foi assinada ordem de serviço para pavimentar 15 km da BA-434 entre Central e o distrito de Hidrolândia, em Uibaí, na região de Irecê.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Central vai ganhar 15 km de estrada pavimentada até Hidrolândia.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2908200": {
+   "municipio": "Conceição da Feira",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2908705": {
+   "municipio": "Condeúba",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-12",
+     "titulo": "Nova UBS amplia atendimento de saúde para cerca de 3 mil pessoas em Condeúba",
+     "veiculo": "piroponews.com",
+     "url": "https://www.piroponews.com/2026/09/nova-ubs-amplia-atendimento-de-saude.html",
+     "resumo": "Nova UBS no Centro de Condeúba, inaugurada com cerca de R$ 1,8 milhão do Governo Federal e equipamentos do Estado, atende cerca de 3 mil pessoas.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Em Condeúba, novo posto de saúde atende cerca de 3 mil pessoas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03-15",
+     "titulo": "Com obras de infraestrutura e novos investimentos, Governo do Estado fortalece mobilidade e qualidade de vida em Condeúba",
+     "veiculo": "Jornal Folha de Condeúba",
+     "url": "https://folhadecondeuba.com.br/com-obras-de-infraestrutura-e-novos-investimentos-governo-do-estado-fortalece-mobilidade-e-qualidade-de-vida-em-condeuba/",
+     "resumo": "O governo estadual entregou 40 km da BA-263 entre Irundiara (Jacaraci) e Condeúba, investimento acima de R$ 55 milhões, e R$ 5 milhões em acessos e travessia urbana.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "O trecho de 40 km da BA-263 até Condeúba foi entregue.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2909307": {
+   "municipio": "Correntina",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-20",
+     "titulo": "Correntina registra crescimento de 174% na geração de empregos formais em 2026",
+     "veiculo": "Prefeitura de Correntina",
+     "url": "https://www.correntina.ba.gov.br/correntina-registra-crescimento-de-174-na-geracao-de-empregos-formais-em-2026/",
+     "resumo": "Segundo a prefeitura, com dados do Caged, Correntina criou 379 empregos formais nos quatro primeiros meses de 2026, ante 138 em 2025, alta de 174%.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Correntina criou 379 empregos com carteira assinada no início de 2026.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-07-24",
+     "titulo": "Obras do sistema de esgotamento sanitário de Correntina chegam a 30% e avançam para novas áreas",
+     "veiculo": "Blog do Sigi Vilares",
+     "url": "https://sigivilares.com.br/obras-do-sistema-de-esgotamento-sanitario-de-correntina-chegam-a-30-e-avancam-para-novas-areas/",
+     "resumo": "Obra de esgotamento sanitário executada pela prefeitura atingiu cerca de 30%, com cerca de 40% da rede coletora implantada; conclusão do sistema prevista para o fim de 2027.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "A obra de esgoto de Correntina chegou a 30% em julho.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2910404": {
+   "municipio": "Encruzilhada",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2912004": {
+   "municipio": "Ibiassucê",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-06-11",
+     "titulo": "Ibiassucê (BA) obtém o reconhecimento federal de situação de emergência por causa da estiagem",
+     "veiculo": "Ministério da Integração e do Desenvolvimento Regional (gov.br)",
+     "url": "https://www.gov.br/mdr/pt-br/noticias/ibiassuce-ba-obtem-o-reconhecimento-federal-de-situacao-de-emergencia-por-causa-da-estiagem",
+     "resumo": "Defesa Civil Nacional reconheceu situação de emergência por estiagem em Ibiassucê, permitindo à prefeitura pedir recursos federais para cestas básicas, água mineral e kits de higiene.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "A seca colocou Ibiassucê em situação de emergência.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2912400": {
+   "municipio": "Ibipeba",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2913101": {
+   "municipio": "Ibititá",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-03",
+     "titulo": "#Chapada: Seabra entre os municípios que receberam novas obras com investimentos em educação, estradas e abastecimento",
+     "veiculo": "Jornal da Chapada",
+     "url": "https://jornaldachapada.com.br/2026/09/03/bahia-novas-obras-beneficiam-oito-municipios-com-investimentos-em-educacao-estradas-e-abastecimento/",
+     "resumo": "Foi assinada ordem de serviço para pavimentar 17,4 km do acesso ao povoado de Lagoa do Leite, em Ibititá, pela BA-434 até o entroncamento da BA-148.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "O acesso a Lagoa do Leite, em Ibititá, vai ser asfaltado.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2913408": {
+   "municipio": "Igaporã",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-13",
+     "titulo": "Prefeitura de Igaporã entrega equipamentos e reforça saúde e produção rural no município",
+     "veiculo": "iGuanambi",
+     "url": "https://www.iguanambi.com.br/noticias/2026/04/13/prefeitura-de-igapora-entrega-equipamentos-e-reforca-saude-e-producao-rural-no-municipio/",
+     "resumo": "Igaporã recebeu retroescavadeira para estradas rurais, tanque de resfriamento de leite e ambulância do SAMU, adquiridos por convênios com os governos federal e estadual.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Igaporã recebeu ambulância do SAMU e retroescavadeira para estradas rurais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2913507": {
+   "municipio": "Iguaí",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-02-16",
+     "titulo": "MAPA firma convênio de R$ 1,5 milhão com Iguaí (BA) para melhoria de estradas vicinais",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/mapa-firma-convenio-de-rs-1-5-milhao-com-iguai-ba-para-15151",
+     "resumo": "Ministério da Agricultura e Pecuária firmou convênio de R$ 1,5 milhão com Iguaí para obras em estradas vicinais, buscando facilitar o escoamento da produção.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Iguaí garantiu R$ 1,5 milhão para estradas da zona rural.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2914307": {
+   "municipio": "Iramaia",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2916500": {
+   "municipio": "Itapicuru",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2917201": {
+   "municipio": "Ituaçu",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-05",
+     "titulo": "Ituaçu: Festa do Sagrado Coração de Jesus reúne milhares de romeiros na Gruta da Mangabeira",
+     "veiculo": "Achei Sudoeste",
+     "url": "https://www.acheisudoeste.com.br/noticias/ituacu/ituacu-festa-do-sagrado-coracao-de-jesus-reune-milhares-de-romeiros-na-gruta-da-mangabeira",
+     "resumo": "Milhares de romeiros lotaram a Gruta da Mangabeira em 3 de setembro na tradicional Festa do Sagrado Coração de Jesus, com missa do bispo diocesano.",
+     "tema": "cultura",
+     "tom": "neutro",
+     "gancho": "Milhares de romeiros lotaram a Gruta da Mangabeira, em Ituaçu.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-07-14",
+     "titulo": "Em companhia de secretário e vice-prefeito, Almir Pessoa visita comunidades e busca recuperação de estradas vicinais",
+     "veiculo": "Informe Barra",
+     "url": "https://www.informebarra.com.br/noticias/1501-2026/07/14/em-companhia-de-secretario-e-vice-prefeito-almir-pessoa-visita-comunidades-e-busca-recuperacao-de-estradas-vicinais",
+     "resumo": "Moradores de Queimada da Onça, Brejinhos e arredores, na zona rural de Ituaçu, cobram melhorias nas estradas vicinais; autoridades municipais visitaram as comunidades.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Moradores de Queimada da Onça, em Ituaçu, cobram estradas melhores.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2917334": {
+   "municipio": "Iuiu",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-20",
+     "titulo": "Prefeitura de Iuiu notifica empresa e cobra recuperação de estradas rurais danificadas por obras de linha de transmissão",
+     "veiculo": "iGuanambi",
+     "url": "https://www.iguanambi.com.br/noticias/2026/08/20/prefeitura-de-iuiu-notifica-empresa-e-cobra-recuperacao-de-estradas-rurais-danificadas-por-obras-de-linha-de-transmissao/",
+     "resumo": "Prefeitura de Iuiu notificou a Rialma para recuperar estradas rurais danificadas por obras de linha de transmissão; buracos e poeira afetam transporte escolar e ambulâncias.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Em Iuiu, estradas rurais ficaram esburacadas com obras de linha de transmissão.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-24",
+     "titulo": "BAHIA AMPLIA SERVIÇOS DE SEGURANÇA, PAVIMENTAÇÃO E ABASTECIMENTO DE ÁGUA EM MUNICÍPIOS BAIANOS",
+     "veiculo": "Bahia Econômica",
+     "url": "https://bahiaeconomica.com.br/wp/2026/09/24/bahia-amplia-servicos-de-seguranca-pavimentacao-e-abastecimento-de-agua-em-municipios-baianos/",
+     "resumo": "Embasa autorizou investimentos para o novo sistema de abastecimento de água de Pindorama, em Iuiu, com 34 km de adutoras e redes; extensão para Casa Armada está 50% executada.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Pindorama, em Iuiu, vai ganhar novo sistema de abastecimento de água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2918100": {
+   "municipio": "Jeremoabo",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-23",
+     "titulo": "Jeremoabo: secretário detalha obras de água, energia e estradas",
+     "veiculo": "ChicoSabeTudo",
+     "url": "https://www.chicosabetudo.com.br/politica/jeremoabo-secretario-detalha-obras-de-agua-energia-e-estradas-0926",
+     "resumo": "Secretário de Infraestrutura disse à Jeremoabo FM que mais de 40 km de redes de água estão sendo implantados na zona rural; números não confirmados oficialmente.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Jeremoabo leva novas redes de água à zona rural, diz secretário.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2918506": {
+   "municipio": "Jussara",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2918753": {
+   "municipio": "Lagoa Real",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-01-21",
+     "titulo": "Lagoa Real recebe CEP por logradouro público",
+     "veiculo": "Achei Sudoeste",
+     "url": "https://www.acheisudoeste.com.br/noticias/lagoa-real/lagoa-real-recebe-cep-por-logradouro-publico",
+     "resumo": "Os Correios concluíram a codificação postal de Lagoa Real, e cada logradouro passou a ter CEP próprio, já disponível para consulta no portal dos Correios.",
+     "tema": "outro",
+     "tom": "conquista",
+     "gancho": "Cada rua de Lagoa Real agora tem seu próprio CEP.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-11-18",
+     "titulo": "Lama impede o translado em estradas vicinais no município de Lagoa Real",
+     "veiculo": "Achei Sudoeste",
+     "url": "https://www.acheisudoeste.com.br/noticias/lagoa-real/lama-impede-o-translado-em-estradas-vicinais-no-municipio-de-lagoa-real",
+     "resumo": "Moradores da comunidade rural Dantas relataram que estradas vicinais em mau estado, com lama, impedem o transporte escolar.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Em Lagoa Real, a lama nas estradas rurais impediu o transporte escolar.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2919504": {
+   "municipio": "Livramento de Nossa Senhora",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-27",
+     "titulo": "Livramento de Nossa Senhora: R$ 42,75 milhões para recuperar canal de irrigação",
+     "veiculo": "Achei Sudoeste",
+     "url": "https://www.acheisudoeste.com.br/noticias/livramento-de-nossa-senhora/livramento-de-nossa-senhora-r-42-75-milhoes-para-recuperar-canal-de-irrigacao",
+     "resumo": "R$ 42,75 milhões para recuperar o canal do projeto de irrigação estão disponíveis no DNOCS; o próximo passo é a licitação da obra.",
+     "tema": "agricultura",
+     "tom": "conquista",
+     "gancho": "Livramento tem R$ 42,75 milhões garantidos para recuperar o canal de irrigação.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03-17",
+     "titulo": "Livramento de Nossa Senhora avança com obras e ações do Governo da Bahia",
+     "veiculo": "Governo da Bahia (ba.gov.br)",
+     "url": "https://www.ba.gov.br/comunicacao/noticias/2026-03/379723/livramento-de-nossa-senhora-avanca-com-obras-e-acoes-do-governo-da-bahia",
+     "resumo": "Governo da Bahia listou obras no município; sistema de esgotamento sanitário de R$ 139,8 milhões, do Novo PAC, está em implantação para mais de 48 mil habitantes.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Livramento está ganhando rede de esgoto para mais de 48 mil moradores.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-02-05",
+     "titulo": "Prefeitura de Livramento de Nossa Senhora recupera estradas 24h após fortes chuvas",
+     "veiculo": "Achei Sudoeste",
+     "url": "https://www.acheisudoeste.com.br/noticias/79956-2026/02/05/prefeitura-de-livramento-de-nossa-senhora-recupera-estradas-24h-apos-fortes-chuvas",
+     "resumo": "Chuvas de 1º de fevereiro bloquearam estradas vicinais entre Lagoinha, Barbosa e Iguatemi; a prefeitura iniciou reparos em menos de 24 horas e concluiu no dia seguinte.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Livramento recuperou em um dia estradas rurais danificadas pela chuva.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2919603": {
+   "municipio": "Macajuba",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-06",
+     "titulo": "Prefeitura de Macajuba amplia abastecimento de água por carro-pipa em comunidades da zona rural",
+     "veiculo": "Deixa Comigo Macajuba",
+     "url": "https://www.deixacomigomacajuba.com.br/2026/08/prefeitura-de-macajuba-amplia.html",
+     "resumo": "Por causa da estiagem, a prefeitura ampliou a entrega de água por carro-pipa a comunidades rurais como Iramaia, Urupê, Lagoa do Morro, Limoeiro e Cancela Preta.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Na estiagem, comunidades rurais de Macajuba recebem água de carro-pipa.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-27",
+     "titulo": "Estrada de Macajuba: Enquanto Caldeirão do Morro celebra melhorias, Jundiá cobra agilidade nas obras",
+     "veiculo": "Deixa Comigo Macajuba",
+     "url": "https://www.deixacomigomacajuba.com.br/2026/05/estrada-de-macajuba-enquanto-caldeirao.html",
+     "resumo": "Estrada entre a sede e Caldeirão do Morro foi recuperada; moradores do Jundiá, próxima etapa, relatam poeira, desgaste e dificuldade para se locomover.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "No Jundiá, em Macajuba, moradores esperam a recuperação da estrada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2919801": {
+   "municipio": "Macaúbas",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-04",
+     "titulo": "SAAE REALIZA EXTENSÃO DA REDE DE ABASTECIMENTO DE ÁGUA NO LOTEAMENTO BASTOS",
+     "veiculo": "SAAE Macaúbas (site oficial)",
+     "url": "https://www.saaemacaubas.ba.gov.br/saae-realiza-extensao-da-rede-de-abastecimento-de-agua-no-loteamento-bastos/",
+     "resumo": "O SAAE de Macaúbas realizou extensão da rede de abastecimento de água no Loteamento Bastos, segundo chamada publicada no site da autarquia.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Loteamento Bastos, em Macaúbas, ganhou extensão da rede de água.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-10-01",
+     "titulo": "EL NIÑO, SECA E A IMPORTÂNCIA DE ECONOMIZAR ÁGUA: PRESERVAR É RESPONSABILIDADE DE TODOS",
+     "veiculo": "SAAE Macaúbas (site oficial)",
+     "url": "https://www.saaemacaubas.ba.gov.br/el-nino-seca-e-a-importancia-de-economizar-agua-preservar-e-responsabilidade-de-todos/",
+     "resumo": "O SAAE de Macaúbas publicou texto sobre o El Niño, a seca e a importância de economizar água.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Com a seca, o SAAE pede que Macaúbas economize água.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09-15",
+     "titulo": "IMPLANTE ANTICONCEPCIONAL (IMPLANON) NO SUS",
+     "veiculo": "Prefeitura de Macaúbas",
+     "url": "https://macaubas.ba.gov.br/noticias/implante-anticoncepcional-implanon-no-sus-28730/",
+     "resumo": "A Prefeitura de Macaúbas publicou informe sobre o implante anticoncepcional Implanon no SUS.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Prefeitura de Macaúbas informa sobre implante anticoncepcional no SUS.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2920601": {
+   "municipio": "Maragogipe",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-21",
+     "titulo": "Governador Jerônimo autoriza R$ 27,8 milhões para pavimentação da BA-514 e entrega unidade de beneficiamento em Maragogipe",
+     "veiculo": "Jornal Grande Bahia (JGB)",
+     "url": "https://jornalgrandebahia.com.br/2026/05/governador-jeronimo-autoriza-r-278-milhoes-para-pavimentacao-da-ba-514-e-entrega-unidade-de-beneficiamento-em-maragogipe/",
+     "resumo": "Estado autorizou R$ 27,8 milhões para pavimentar a BA-514 entre o entroncamento da BA-001, São Roque do Paraguaçu e Enseada, e entregou unidade de beneficiamento de produtos suínos.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Pavimentação da BA-514 em Maragogipe foi autorizada: R$ 27,8 milhões.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-16",
+     "titulo": "Governo anuncia reforma no atracadouro de Maragogipe e pavimentação em estradas de 5 cidades baianas",
+     "veiculo": "Bahia Notícias",
+     "url": "https://www.bahianoticias.com.br/municipios/noticia/51231-governo-anuncia-reforma-no-atracadouro-de-maragogipe-e-pavimentacao-em-estradas-de-5-cidades-baianas",
+     "resumo": "Governo da Bahia anunciou R$ 8,3 milhões para recuperar ponte, píer e terminal do atracadouro de Maragogipe, usado por estudantes de povoados que vão à escola pelo rio.",
+     "tema": "transporte",
+     "tom": "conquista",
+     "gancho": "Reforma de R$ 8,3 milhões foi anunciada para o atracadouro de Maragogipe.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-11",
+     "titulo": "Governador visita andamentos das obras da Ponte Salvador-Itaparica, em Maragogipe",
+     "veiculo": "Acorda Cidade",
+     "url": "https://www.acordacidade.com.br/bahia/governador-visita-andamentos-das-obras-da-ponte-salvador-itaparica-em-maragogipe/",
+     "resumo": "Canteiro da Ponte Salvador-Itaparica em São Roque do Paraguaçu, Maragogipe, ocupa cerca de 400 mil m² e já gerou cerca de 200 empregos; pico previsto de 700.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Canteiro da ponte Salvador-Itaparica em Maragogipe já gerou cerca de 200 empregos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2921500": {
+   "municipio": "Monte Santo",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-10",
+     "titulo": "Pavimentação e novo Caps qualificam mobilidade e atendimento para saúde em municípios baianos",
+     "veiculo": "A Notícia do Vale",
+     "url": "https://anoticiadovale.com/2026/09/10/pavimentacao-e-novo-caps-qualificam-mobilidade-e-atendimento-para-saude-em-municipios-baianos/",
+     "resumo": "Governo da Bahia autorizou a pavimentação de 24,2 km da BA-220 entre Pedra Vermelha e Horizonte Novo, em Monte Santo, com investimento de R$ 32,7 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Monte Santo vai ganhar 24 km de pavimento na BA-220.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2921807": {
+   "municipio": "Mortugaba",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-14",
+     "titulo": "BAHIA AMPLIA INVESTIMENTO EM INFRAESTRUTURA E DÁ ORDEM DE SERVIÇO PARA MELHORIA DE ESTRADAS DE 16 MUNICÍPIOS DO ESTADO",
+     "veiculo": "Redação Bahia",
+     "url": "https://redacaobahia.com.br/2026/08/14/bahia-amplia-investimento-em-infraestrutura-e-da-ordem-de-servico-para-melhoria-de-estradas-de-16-municipios-do-estado/",
+     "resumo": "Mortugaba está entre os 12 municípios que receberam ordens de serviço do governo baiano para melhoria de estradas, num total de 114,55 km e cerca de R$ 120 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Mortugaba recebeu ordem de serviço para obra de melhoria em estrada.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-27",
+     "titulo": "Modernização e laboratórios marcam nova fase da educação em Mortugaba com entrega de escola",
+     "veiculo": "Governo da Bahia (Casa Civil)",
+     "url": "https://www.ba.gov.br/casacivil/noticias/2026-04/3451/modernizacao-e-laboratorios-marcam-nova-fase-da-educacao-em-mortugaba-com",
+     "resumo": "Governo da Bahia entregou a nova sede do Colégio Estadual de Tempo Integral de Mortugaba, com capacidade para mais de 560 alunos e investimento de R$ 27,7 milhões.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Mortugaba ganhou prédio novo de escola de tempo integral.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2922052": {
+   "municipio": "Mulungu do Morro",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-21",
+     "titulo": "#Chapada: Acácio Teles acompanha pavimentação das ruas Raimundo Dias e Ana de Jesus e anuncia novas obras em Mulungu do Morro",
+     "veiculo": "Jornal da Chapada",
+     "url": "https://jornaldachapada.com.br/2026/09/21/chapada-acacio-teles-acompanha-pavimentacao-das-ruas-raimundo-dias-e-ana-de-jesus-e-anuncia-novas-obras-em-mulungu-do-morro/",
+     "resumo": "Começou a pavimentação em paralelepípedo de cinco ruas, duas na comunidade da Portelinha e três no povoado do Chicão, após reclamações de moradores sobre poeira.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Cinco ruas de Mulungu do Morro começaram a receber calçamento.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-10-06",
+     "titulo": "#Chapada: No Dia do Prefeito, Acácio Teles reforça planos para o futuro e destaca ações que transformam Mulungu do Morro",
+     "veiculo": "Jornal da Chapada",
+     "url": "https://jornaldachapada.com.br/2026/10/06/chapada-no-dia-do-prefeito-acacio-teles-reforca-planos-para-o-futuro-e-destaca-acoes-que-transformam-mulungu-do-morro/",
+     "resumo": "Texto da seção Assessoria lista ações da prefeitura, como feira de saúde com mais de 400 exames gratuitos, nova van para Tratamento Fora do Domicílio e Selo Prata de alfabetização.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Mulungu do Morro fez feira de saúde com mais de 400 exames.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09",
+     "titulo": "EX PREFEITO DE MULUNGU DO MORRO COMEMORA CHEGA DE TUBULAÇÕES PARA ALAGADIÇO",
+     "veiculo": "noticiasdagente.com.br",
+     "url": "http://www.noticiasdagente.com.br/2026/09/ex-prefeito-de-mulungu-do-morro.html",
+     "resumo": "Segundo o título, um ex-prefeito comemorou a chegada de tubulações para o Alagadiço; a matéria não pôde ser aberta para confirmar detalhes.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Tubulações chegaram ao Alagadiço, em Mulungu do Morro.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2922300": {
+   "municipio": "Muritiba",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-09-08",
+     "titulo": "Embasa suspende abastecimento de água em cinco cidades do Recôncavo Baiano para reparo emergencial; saiba mais",
+     "veiculo": "Bahia Notícias",
+     "url": "https://www.bahianoticias.com.br/municipios/noticia/47061-embasa-suspende-abastecimento-de-agua-em-cinco-cidades-do-reconcavo-baiano-para-reparo-emergencial-saiba-mais",
+     "resumo": "Conserto emergencial em adutora da Embasa interrompeu a água em cinco cidades do Recôncavo, incluindo o povoado Tabuleiro da Baiana, em Muritiba; retorno previsto em até 48 horas.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "Tabuleiro da Baiana, em Muritiba, ficou sem água por conserto de adutora.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-08-10",
+     "titulo": "Prefeitura realizará a reinauguração da Quadra do Buriti, nesta quarta-feira (12)",
+     "veiculo": "Prefeitura de Muritiba",
+     "url": "https://www.muritiba.ba.gov.br/noticia/1741/prefeitura-realizar-a-reinaugura-o-da-quadra-do-buriti-nesta-quarta-feira-12",
+     "resumo": "A Prefeitura de Muritiba anunciou a reinauguração da Quadra do Buriti para quarta-feira, 12 de agosto de 2026.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Muritiba anunciou a reinauguração da Quadra do Buriti.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2923704": {
+   "municipio": "Paratinga",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2925006": {
+   "municipio": "Planalto",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2925600": {
+   "municipio": "Presidente Dutra",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2925709": {
+   "municipio": "Presidente Jânio Quadros",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-04",
+     "titulo": "Bahia investe R$ 130 milhões para implantação de barragem no sudoeste",
+     "veiculo": "A TARDE",
+     "url": "https://atarde.com.br/politica/bahia-investe-r-130-milhoes-para-implantacao-de-barragem-no-sudoeste-1394077",
+     "resumo": "Bahia assinou contrato de R$ 129,4 milhões da Barragem de Morrinhos, no Rio Gavião, para atender mais de 60 mil pessoas de Presidente Jânio Quadros e região.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Presidente Jânio Quadros está entre as cidades da nova Barragem de Morrinhos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2926004": {
+   "municipio": "Remanso",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05-03",
+     "titulo": "Governo da Bahia entrega pacote de obras e serviços e amplia infraestrutura em Remanso",
+     "veiculo": "Panorama da Bahia",
+     "url": "https://panoramadabahia.com.br/governo-da-bahia-entrega-pacote-de-obras-e-servicos-e-amplia-infraestrutura-em-remanso/",
+     "resumo": "Governo da Bahia entregou em Remanso pavimentação de ruas, com investimento acima de R$ 3 milhões, cinco pontos de internet gratuita e o Detran reinaugurado.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Remanso ganhou ruas pavimentadas e cinco pontos de internet grátis.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2926400": {
+   "municipio": "Riacho de Santana",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-20",
+     "titulo": "ESCOLA MODERNIZADA, PAVIMENTAÇÃO E COMBATE À FOME MARCAM AGENDA DO GOVERNADOR EM RIACHO DE SANTANA",
+     "veiculo": "Bahia Econômica",
+     "url": "https://bahiaeconomica.com.br/wp/2026/06/20/escola-modernizada-pavimentacao-e-combate-a-fome-marcam-agenda-do-governador-em-riacho-de-santana/",
+     "resumo": "Colégio Estadual Sinésio Costa, com cerca de mil alunos, foi modernizado com R$ 7 milhões; a travessia urbana da BR-430 recebeu 3 km de pavimentação.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Cerca de mil alunos de Riacho de Santana estudam em colégio modernizado.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2928000": {
+   "municipio": "Santaluz",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-18",
+     "titulo": "Governo do Estado anuncia novos investimentos em Santaluz e fortalece saúde, campo e infraestrutura",
+     "veiculo": "Calila Notícias",
+     "url": "https://www.calilanoticias.com/2026/04/governo-do-estado-anuncia-novos-investimentos-em-santaluz-e-fortalece-saude-campo-e-infraestrutura",
+     "resumo": "Governo da Bahia anunciou raio-X móvel e kits para UBS e autorizou convênio de mais de R$ 58 milhões para construir novo hospital municipal em Santaluz.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Santaluz teve autorizado convênio para construir um novo hospital municipal.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2928109": {
+   "municipio": "Santa Maria da Vitória",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-13",
+     "titulo": "A Carreta do Ministério da Saúde já está em Santa Maria da Vitória!",
+     "veiculo": "Prefeitura de Santa Maria da Vitória",
+     "url": "https://santamariadavitoria.ba.gov.br/noticia/765/a-carreta-do-ministerio-da-saude-ja-esta-em-santa-maria-da-vitoria",
+     "resumo": "Carreta do Ministério da Saúde oferece em Santa Maria da Vitória, por 30 dias, ultrassonografias e tomografias sem contraste, com agendamento na Regulação Municipal.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Santa Maria da Vitória recebeu carreta com ultrassom e tomografia pelo SUS.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-06-27",
+     "titulo": "Mais de R$ 45 milhões em obras de pavimentação melhoram a mobilidade de Santa Maria da Vitória",
+     "veiculo": "Bahia Econômica",
+     "url": "https://bahiaeconomica.com.br/wp/2026/06/27/mais-de-r-45-milhoes-em-obras-de-pavimentacao-melhoram-a-mobilidade-de-santa-maria-da-vitoria/",
+     "resumo": "Governo da Bahia autorizou pavimentar cerca de 8 km de estrada até Montevidinha e 26 km até Água Quente, somando mais de R$ 45 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Água Quente e Montevidinha, em Santa Maria da Vitória, terão estrada pavimentada.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-08-21",
+     "titulo": "Os primeiros Implanon já foram inseridos na Rede Municipal de Saúde, ampliando o acesso das mulheres a um método contraceptivo de longa duração",
+     "veiculo": "Prefeitura de Santa Maria da Vitória",
+     "url": "https://santamariadavitoria.ba.gov.br/noticia/756/os-primeiros-implanon-ja-foram-inseridos-na-rede-municipal-de-saude-ampliando-o-acesso-das-mulheres-a-um-metodo-contraceptivo-de-longa-duracao",
+     "resumo": "Prefeitura informou que os primeiros implantes Implanon foram inseridos na rede municipal de saúde, ampliando o acesso das mulheres a contraceptivo de longa duração.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Os primeiros implantes Implanon já foram colocados em Santa Maria da Vitória.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2928901": {
+   "municipio": "São Desidério",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-01",
+     "titulo": "Novo Complexo de Saúde é inaugurado e visa ampliar o atendimento no Distrito de Roda Velha 03 em São Desidério",
+     "veiculo": "Prefeitura de São Desidério",
+     "url": "https://saodesiderio.ba.gov.br/mais-noticias/novo-complexo-de-saude-e-inaugurado-e-visa-ampliar-o-atendimento-no-distrito-de-roda-velha-03-em-sao-desiderio/",
+     "resumo": "Prefeitura inaugurou complexo de saúde no distrito de Roda Velha 03, com unidade de Saúde da Família e pronto-socorro 24 horas.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Roda Velha, em São Desidério, ganhou pronto-socorro 24 horas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-02",
+     "titulo": "Prefeitura de São Desidério conclui pavimentação asfáltica entre Almas, Batalha e Volta da Ema",
+     "veiculo": "Prefeitura de São Desidério",
+     "url": "https://saodesiderio.ba.gov.br/mais-noticias/prefeitura-de-sao-desiderio-conclui-pavimentacao-asfaltica-entre-almas-batalha-e-volta-da-ema/",
+     "resumo": "Prefeitura concluiu mais de 10 km de asfalto entre os povoados de Almas, Batalha e Volta da Ema, com recursos próprios; prevê mais de 56 km em outras localidades.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Almas, Batalha e Volta da Ema, em São Desidério, ganharam asfalto.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-09-10",
+     "titulo": "Prefeitura de São Desidério amplia investimentos e mantém grandes obras em Roda Velha",
+     "veiculo": "Se Liga Barreiras",
+     "url": "https://www.seligabarreiras.com.br/prefeitura-de-sao-desiderio-amplia-investimentos-e-mantem-grandes-obras-em-roda-velha/",
+     "resumo": "Distrito de Roda Velha, a mais de 120 km da sede, tem escola de tempo integral em obra, ginásio quase pronto, drenagem e novos poços artesianos.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Em Roda Velha, São Desidério constrói escola de tempo integral.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2929305": {
+   "municipio": "São Gonçalo dos Campos",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2929909": {
+   "municipio": "Seabra",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-14",
+     "titulo": "Município de Seabra investe R$ 2 milhões na construção de nova unidade de saúde",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/9/14/municipio-de-seabra-investe-r-2-milhoes-na-construcao-de-nova-unidade-de-saude",
+     "resumo": "Seabra contratou por R$ 2,01 milhões a construção de uma UBS Porte 1 para equipe de Saúde da Família; contrato vai até fevereiro de 2028.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Seabra vai ganhar uma nova Unidade Básica de Saúde.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-05-26",
+     "titulo": "Governo assina contrato de R$ 38,7 milhões para ampliar abastecimento de água em Seabra",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/governo-assina-contrato-de-rs-38-7-milhoes-para-ampliar-30898",
+     "resumo": "Contrato de R$ 38,7 milhões, assinado em 15 de maio, prevê ampliar o sistema e a rede de abastecimento de água de Seabra em até 720 dias.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Seabra terá rede de água ampliada em obra de R$ 38,7 milhões.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-29",
+     "titulo": "Governo da Bahia investe R$ 102 milhões em nova Policlínica de Seabra e ampliação do Hospital de Guanambi",
+     "veiculo": "Secretaria da Saúde da Bahia (Sesab)",
+     "url": "https://www.saude.ba.gov.br/2026/04/29/governo-da-bahia-investe-r-102-milhoes-em-nova-policlinica-de-seabra-e-ampliacao-do-hospital-de-guanambi/",
+     "resumo": "Governo da Bahia investe R$ 102 milhões, somados, em nova Policlínica de Seabra e na ampliação do Hospital de Guanambi.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Seabra terá uma nova Policlínica, segundo o Governo da Bahia.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2930402": {
+   "municipio": "Serra Preta",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-10",
+     "titulo": "Pavimentação e novo Caps qualificam mobilidade e atendimento para saúde em municípios baianos",
+     "veiculo": "A Notícia do Vale",
+     "url": "https://anoticiadovale.com/2026/09/10/pavimentacao-e-novo-caps-qualificam-mobilidade-e-atendimento-para-saude-em-municipios-baianos/",
+     "resumo": "Governo da Bahia autorizou requalificar 2,8 km do acesso ao distrito do Bravo, a partir da BA-052, com estrutura para ciclistas e caminhada, por R$ 9,7 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Acesso ao Bravo, em Serra Preta, terá obra de R$ 9,7 milhões.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03-22",
+     "titulo": "Serra Preta recebe pacote de obras, equipamentos e novas autorizações no encerramento da maratona de entregas do governador Jrônimo",
+     "veiculo": "Jornal Grande Bahia (JGB)",
+     "url": "https://jornalgrandebahia.com.br/2026/03/serra-preta-recebe-pacote-de-obras-equipamentos-e-novas-autorizacoes-no-encerramento-da-maratona-de-entregas-do-governador-jronimo/",
+     "resumo": "Colégio estadual de tempo integral do distrito do Bravo foi entregue ampliado; município também recebeu ônibus escolar, aparelho de raio-X, veículo para TFD e equipamentos para produtores rurais.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Colégio do distrito do Bravo, em Serra Preta, foi ampliado e modernizado.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2931004": {
+   "municipio": "Tanhaçu",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-10",
+     "titulo": "Prefeitura de Tanhaçu anuncia avanço da adutora e prevê água chegando à Sussuarana",
+     "veiculo": "Agora Sudoeste",
+     "url": "https://www.agorasudoeste.com.br/noticias/tanhacu/prefeitura-de-tanhacu-anuncia-avanco-da-adutora-e-preve-agua-chegando-a-sussuarana",
+     "resumo": "Prefeitura informou avanço da obra de adutora e prevê que a água chegue à Sussuarana depois da conclusão dos trabalhos em Laços.",
+     "tema": "agua",
+     "tom": "neutro",
+     "gancho": "Tanhaçu: obra de adutora avança e água deve chegar à Sussuarana.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-09-08",
+     "titulo": "Após 18 anos fechado, PSF do Pitu volta a funcionar em Tanhaçu",
+     "veiculo": "Agora Sudoeste",
+     "url": "https://www.agorasudoeste.com.br/noticias/tanhacu/apos-18-anos-fechado-psf-do-pitu-volta-a-funcionar-em-tanhacu",
+     "resumo": "Unidade de saúde da família da comunidade do Pitu, fechada havia 18 anos, voltou a funcionar, aproximando o atendimento de saúde pública dos moradores.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "No Pitu, em Tanhaçu, o posto de saúde reabriu após 18 anos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2931806": {
+   "municipio": "Tremedal",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2933208": {
+   "municipio": "Vera Cruz",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-31",
+     "titulo": "Vera Cruz investe R$ 1,28 milhão em shows de emancipação e obras de pavimentação",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/7/31/vera-cruz-investe-r-128-milhao-em-shows-de-emancipacao-e-obras-de-pavimentacao",
+     "resumo": "Prefeitura de Vera Cruz destinou R$ 1,28 milhão a shows da emancipação e obras, incluindo R$ 266,2 mil para pavimentar rua em Mar Grande.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Uma rua de Mar Grande, em Vera Cruz, vai ser pavimentada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "3149804": {
+   "municipio": "Perdizes",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3151701": {
+   "municipio": "Poço Fundo",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Folha Dirigida",
+     "url": "https://folha.qconcursos.com/n/poco-fundo-mg-retifica-concurso-2025",
+     "resumo": "A Prefeitura de Poço Fundo abriu concurso público com 46 vagas em 2025.",
+     "tema": "emprego",
+     "tom": "neutro",
+     "gancho": "Poço Fundo abriu concurso público com 46 vagas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3152006": {
+   "municipio": "Pompéu",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Instituto Guaicuy",
+     "url": "https://guaicuy.org.br/wp-content/uploads/2023/08/20240807_ANEXO-1.3_Projetos_POMPEU.pdf",
+     "resumo": "Projetos de reparação do desastre de Brumadinho escolhidos por consulta popular em Pompéu preveem ampliar consultas, exames especializados e cirurgias eletivas e estruturar salas de urgência.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Em Pompéu, a reparação de Brumadinho prevê mais consultas e cirurgias.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Instituto Guaicuy",
+     "url": "https://guaicuy.org.br/wp-content/uploads/2023/08/20240807_ANEXO-1.3_Projetos_POMPEU.pdf",
+     "resumo": "Projetos de reparação do desastre de Brumadinho em Pompéu incluem equipamentos para recuperar estradas vicinais e trevo com pista lateral no entroncamento da MG-420 com a MG-164.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Em Pompéu, a reparação prevê máquinas para as estradas rurais.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3152204": {
+   "municipio": "Porteirinha",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Diário do Comércio",
+     "url": "https://diariodocomercio.com.br/economia/minas-governo-federal-reconhece-situacao-emergencia-porteirinha/",
+     "resumo": "O governo federal reconheceu situação de emergência em Porteirinha após risco de rompimento de barragem que deslocou mais de cem pessoas no início de 2026.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Porteirinha teve emergência reconhecida pelo governo federal após risco em barragem.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Jornal de Brasília",
+     "url": "https://jornaldebrasilia.com.br/noticias/brasil/risco-de-rompimento-em-barragem-leva-ao-deslocamento-de-mais-de-cem-pessoas-em-mg/",
+     "resumo": "Chuva de 120 mm em 4 horas deixou a Barragem das Lajes, em Porteirinha, em risco iminente de rompimento; 114 pessoas de 46 residências foram evacuadas.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Porteirinha, 114 pessoas deixaram suas casas por risco de barragem.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3152808": {
+   "municipio": "Prata",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Prata",
+     "url": "https://www.prata.mg.gov.br/",
+     "resumo": "O programa municipal Bolsa Faculdade, de Prata, ofereceu 186 vagas remanescentes em 2026, com bolsa de R$ 429 por mês para o ensino superior.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Em Prata, a prefeitura oferece bolsa de R$ 429 para faculdade.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Prata",
+     "url": "https://www.prata.mg.gov.br/",
+     "resumo": "A Prefeitura de Prata divulgou isenção de IPTU em 2026 para idosos e pessoas com deficiência.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "Em Prata, idosos e pessoas com deficiência podem ter isenção de IPTU.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3153400": {
+   "municipio": "Presidente Olegário",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-08",
+     "titulo": "",
+     "veiculo": "Prefeitura de Presidente Olegário",
+     "url": "https://presidenteolegario.mg.gov.br/",
+     "resumo": "A Prefeitura de Presidente Olegário realizou em agosto de 2026 o Café das Gestantes, ação de saúde materno-infantil.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Presidente Olegário fez o Café das Gestantes em agosto.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-08",
+     "titulo": "",
+     "veiculo": "Prefeitura de Presidente Olegário",
+     "url": "https://presidenteolegario.mg.gov.br/",
+     "resumo": "Na alfabetização, Presidente Olegário registrou 99,9% de lançamentos no ciclo II do CNCA, segundo a agenda da prefeitura de agosto de 2026.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Presidente Olegário acompanha a alfabetização das crianças no programa nacional.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3155504": {
+   "municipio": "Rio Paranaíba",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Rio Paranaíba",
+     "url": "https://www.rioparanaiba.mg.gov.br/",
+     "resumo": "A Prefeitura de Rio Paranaíba manteve o transporte universitário gratuito até o fim do ano letivo de 2025.",
+     "tema": "transporte",
+     "tom": "neutro",
+     "gancho": "Em Rio Paranaíba, universitários tiveram transporte gratuito em 2025.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3157005": {
+   "municipio": "Salinas",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-10",
+     "titulo": "",
+     "veiculo": "Prefeitura de Salinas",
+     "url": "https://www.salinas.mg.gov.br/",
+     "resumo": "A agenda da Prefeitura de Salinas inclui o 1º Mutirão de Limpeza de combate à dengue, em outubro de 2026.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Salinas faz mutirão de limpeza contra a dengue em outubro.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/",
+     "resumo": "Salinas foi listada em situação de emergência por seca em 2023; a estiagem é recorrente no Norte de Minas.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Salinas já entrou em emergência por causa da seca.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3157708": {
+   "municipio": "Santa Juliana",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Santa Juliana",
+     "url": "https://www.santajuliana.mg.gov.br/",
+     "resumo": "A agenda de 2026 da Prefeitura de Santa Juliana inclui a construção de uma nova UBS no bairro Horácio Ferreira.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Santa Juliana vai ganhar nova UBS no bairro Horácio Ferreira.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Santa Juliana",
+     "url": "https://www.santajuliana.mg.gov.br/",
+     "resumo": "A Prefeitura de Santa Juliana faz ações de combate à dengue, com fumacê e dedetização de bueiros.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Santa Juliana faz fumacê e dedetiza bueiros contra a dengue.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3160702": {
+   "municipio": "Santos Dumont",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-10",
+     "titulo": "",
+     "veiculo": "Prefeitura de Santos Dumont",
+     "url": "https://www.santosdumont.mg.gov.br/",
+     "resumo": "A Prefeitura de Santos Dumont intensificou, em outubro de 2026, as ações voltadas à população em situação de rua.",
+     "tema": "outro",
+     "tom": "neutro",
+     "gancho": "Santos Dumont intensificou ações para pessoas em situação de rua.",
+     "confirmado": false
+    },
+    {
+     "data": "2023-02",
+     "titulo": "",
+     "veiculo": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/apos-forte-chuva-distrito-de-santos-dumont-esta-sem-luz-eletrica-ha-24h-e-produtores-de-leite-temem-prejuizo/",
+     "resumo": "Em fevereiro de 2023, forte chuva deixou distritos rurais de Santos Dumont sem energia, com estradas bloqueadas e perdas de leite.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Santos Dumont, a chuva já deixou a zona rural sem luz.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3161908": {
+   "municipio": "São Gonçalo do Rio Abaixo",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Diário do Comércio",
+     "url": "https://diariodocomercio.com.br/integra-minas/sao-goncalo-aposta-infraestrutura-diversificar-economia/",
+     "resumo": "São Gonçalo do Rio Abaixo, dependente da mineração, busca diversificar a economia com o programa Prospera+, atração de frigorífico e processadora de cacau em 2025.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "São Gonçalo do Rio Abaixo quer depender menos da mineração.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3162104": {
+   "municipio": "São Gotardo",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3162401": {
+   "municipio": "São João da Ponte",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Itatiaia",
+     "url": "https://www.itatiaia.com.br/brasil/sudeste/mg/minas-tem-135-cidades-em-situacao-de-emergencia-para-seca-veja-lista/",
+     "resumo": "São João da Ponte, no semiárido mineiro, foi listado em situação de emergência por seca em 2023.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "São João da Ponte já entrou em emergência por causa da seca.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3169604": {
+   "municipio": "Tupaciguara",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3170800": {
+   "municipio": "Várzea da Palma",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3171006": {
+   "municipio": "Vazante",
+   "uf": "MG",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Vazante",
+     "url": "https://www.vazante.mg.gov.br/",
+     "resumo": "Segundo o portal da prefeitura, Vazante tinha obras de novas UBSs em andamento em setembro de 2026.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Vazante está construindo novos postos de saúde.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-10",
+     "titulo": "",
+     "veiculo": "Prefeitura de Vazante",
+     "url": "https://www.vazante.mg.gov.br/",
+     "resumo": "A Prefeitura de Vazante abriu em outubro de 2026 inscrições para moradias populares.",
+     "tema": "moradia",
+     "tom": "neutro",
+     "gancho": "Vazante abriu inscrições para moradias populares em outubro.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3201605": {
+   "municipio": "Conceição da Barra",
+   "uf": "ES",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3301603": {
+   "municipio": "Duas Barras",
+   "uf": "RJ",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "Prefeitura de Duas Barras",
+     "url": "https://www.duasbarras.rj.gov.br/",
+     "resumo": "O site da Prefeitura de Duas Barras destacou em junho de 2026 ações da Defesa Civil e alertas de chuva.",
+     "tema": "clima",
+     "tom": "neutro",
+     "gancho": "Em Duas Barras, a Defesa Civil alertou para chuvas em junho.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3304151": {
+   "municipio": "Quissamã",
+   "uf": "RJ",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "Correio da Manhã",
+     "url": "https://www.correiodamanha.com.br/estado-do-rio/norte-noroeste/2026/04/281970-quissama-em-defesa-dos-royalties.html",
+     "resumo": "Em abril de 2026, Quissamã, dependente dos royalties do petróleo, teve a mobilização 'Quissamã em defesa dos royalties'.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "Quissamã se mobilizou em defesa dos royalties do petróleo.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3517703": {
+   "municipio": "Guará",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3520103": {
+   "municipio": "Igarapava",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3521309": {
+   "municipio": "Ipuã",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Ipuã",
+     "url": "https://www.ipua.sp.gov.br/",
+     "resumo": "As 'áreas de lazer' de Ipuã são alvo de disputa judicial com decisão do STF, e a prefeitura publicou nota de esclarecimento.",
+     "tema": "outro",
+     "tom": "neutro",
+     "gancho": "As áreas de lazer de Ipuã viraram disputa na Justiça.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3521804": {
+   "municipio": "Itaí",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3529708": {
+   "municipio": "Miguelópolis",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Miguelópolis",
+     "url": "https://www.miguelopolis.sp.gov.br/",
+     "resumo": "Miguelópolis teve sorteio de casas da CDHU em 24 de setembro de 2026.",
+     "tema": "moradia",
+     "tom": "neutro",
+     "gancho": "Em Miguelópolis, casas da CDHU foram sorteadas em setembro.",
+     "confirmado": false
+    },
+    {
+     "data": "2024-04",
+     "titulo": "",
+     "veiculo": "Alesp",
+     "url": "https://www.al.sp.gov.br/noticia/?id=474243",
+     "resumo": "Em audiência da Alesp em Ituverava, em abril de 2024, foi reservado R$ 1,5 milhão para as Santas Casas de Ituverava e Franca e para a APAE de Miguelópolis.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "A reforma da APAE de Miguelópolis entrou na pauta da Alesp.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3537008": {
+   "municipio": "Pedregulho",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "3543006": {
+   "municipio": "Ribeirão Branco",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Alerta Licitação",
+     "url": "https://alertalicitacao.com.br/!licitacao/MN-3543006-2-9320262-932026",
+     "resumo": "A Prefeitura de Ribeirão Branco abriu em setembro de 2026 a Concorrência 93/2026 para construir ponte sobre o rio Apiaí-Guaçu, no km 9 da SP-252.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Ribeirão Branco abriu licitação para ponte no rio Apiaí-Guaçu.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Alesp",
+     "url": "https://www.al.sp.gov.br/spl/2025/12/Propositura/1000674849_1000844527_Propositura.pdf",
+     "resumo": "Ribeirão Branco depende economicamente do tomate; projeto de lei na Alesp em 2025 propõe reconhecer a cidade como 'Capital do Tomate'.",
+     "tema": "agricultura",
+     "tom": "neutro",
+     "gancho": "Ribeirão Branco pode virar oficialmente a Capital do Tomate.",
+     "confirmado": false
+    }
+   ]
+  },
+  "3553609": {
+   "municipio": "Tapiratiba",
+   "uf": "SP",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4101002": {
+   "municipio": "Ampére",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4102901": {
+   "municipio": "Bituruna",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4104428": {
+   "municipio": "Candói",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4104501": {
+   "municipio": "Capanema",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-03",
+     "titulo": "",
+     "veiculo": "Prefeitura de Capanema",
+     "url": "https://www.capanema.pr.gov.br/",
+     "resumo": "O trecho de estrada rural até Santo Antônio do Siemes, em Capanema, recebeu melhorias em março de 2025, após mais de 10 anos sem obra.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Em Capanema, estrada rural teve obra após mais de dez anos.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-12",
+     "titulo": "",
+     "veiculo": "Prefeitura de Capanema",
+     "url": "https://www.capanema.pr.gov.br/",
+     "resumo": "Em dezembro de 2025, a taxa de coleta de lixo de Capanema passou para a conta de água da Sanepar, com prazo até fevereiro de 2026 para pedir retirada.",
+     "tema": "economia",
+     "tom": "problema",
+     "gancho": "Em Capanema, a taxa do lixo veio na conta de água.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4105706": {
+   "municipio": "Clevelândia",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Clevelândia",
+     "url": "https://www.clevelandia.pr.gov.br/",
+     "resumo": "A Prefeitura de Clevelândia realiza obras de melhoria em estradas rurais.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Clevelândia faz melhorias nas estradas rurais.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Clevelândia",
+     "url": "https://www.clevelandia.pr.gov.br/",
+     "resumo": "A Prefeitura de Clevelândia destaca a agência do SINE na área de emprego.",
+     "tema": "emprego",
+     "tom": "neutro",
+     "gancho": "Em Clevelândia, a agência do SINE ajuda quem busca emprego.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4107207": {
+   "municipio": "Dois Vizinhos",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Dois Vizinhos",
+     "url": "https://www.doisvizinhos.pr.gov.br/",
+     "resumo": "Um temporal atingiu mais de 700 famílias em Dois Vizinhos, com atuação da Defesa Civil e decreto de situação de emergência.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Dois Vizinhos, um temporal atingiu mais de 700 famílias.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Dois Vizinhos",
+     "url": "https://www.doisvizinhos.pr.gov.br/",
+     "resumo": "Dois Vizinhos tem ações de saúde escolar pelo programa Bons Olhos Paraná.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Alunos de Dois Vizinhos passam pelo programa Bons Olhos Paraná.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4111209": {
+   "municipio": "Itapejara D'Oeste",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4113304": {
+   "municipio": "Laranjeiras do Sul",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Laranjeiras do Sul",
+     "url": "https://www.laranjeirasdosul.pr.gov.br/",
+     "resumo": "Laranjeiras do Sul tem obras de pavimentação urbana e de novas creches.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Laranjeiras do Sul tem obras de pavimentação e novas creches.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Laranjeiras do Sul",
+     "url": "https://www.laranjeirasdosul.pr.gov.br/",
+     "resumo": "Habitação e regularização fundiária urbana estão entre as pautas da Prefeitura de Laranjeiras do Sul.",
+     "tema": "moradia",
+     "tom": "neutro",
+     "gancho": "Laranjeiras do Sul tem ações de moradia e regularização de terrenos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4114401": {
+   "municipio": "Mangueirinha",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-07",
+     "titulo": "",
+     "veiculo": "Prefeitura de Mangueirinha",
+     "url": "https://www.mangueirinha.pr.gov.br/",
+     "resumo": "Mangueirinha teve em julho de 2025 o seu 1º Plano Municipal de Segurança Alimentar.",
+     "tema": "outro",
+     "tom": "conquista",
+     "gancho": "Mangueirinha fez seu primeiro plano de segurança alimentar.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4115408": {
+   "municipio": "Marmeleiro",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-08",
+     "titulo": "",
+     "veiculo": "Prefeitura de Marmeleiro",
+     "url": "https://www.marmeleiro.pr.gov.br/noticia.php?notid=3984",
+     "resumo": "Granizo de 30 de agosto de 2026 atingiu cerca de 848 casas e 3.396 pessoas em Marmeleiro; o governo federal reconheceu a emergência em 16 de setembro.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Marmeleiro, o granizo atingiu cerca de 848 casas.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "Prefeitura de Marmeleiro",
+     "url": "https://www.marmeleiro.pr.gov.br/",
+     "resumo": "Marmeleiro investiu R$ 3,6 milhões em ônibus de transporte escolar em abril de 2026; a educação municipal tem Ideb 7,5, segundo a prefeitura.",
+     "tema": "transporte",
+     "tom": "conquista",
+     "gancho": "Marmeleiro investiu R$ 3,6 milhões em ônibus escolares.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4117255": {
+   "municipio": "Nova Prata do Iguaçu",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Jornal Novo Tempo",
+     "url": "https://www.jornalnovotempo.com.br/~jornalno/noticias/regional/temporal-causa-alagamentos-e-deixa-dezenas-de-familias-afetadas-em-nova-prata-do-iguacu",
+     "resumo": "Temporal de 29 de setembro de 2026 danificou cerca de 60 casas em Nova Prata do Iguaçu, desalojou 15 pessoas, inundou o posto de saúde e destruiu pontes.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Temporal em Nova Prata do Iguaçu danificou cerca de 60 casas.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Rinet",
+     "url": "https://www.rinet.com.br/noticia.aspx?id=14861&t=obra-de-r-112-milhoes-vai-transformar-acesso-e-escoamento-agricola-em-nova-prata-do-iguacu",
+     "resumo": "O asfalto de cerca de 9 km da Rodovia Cândido Rizzotto, em Nova Prata do Iguaçu, reivindicado há mais de 30 anos, terá R$ 11,2 milhões do Estado.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Nova Prata do Iguaçu terá asfalto pedido há mais de 30 anos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4117602": {
+   "municipio": "Palmas",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "RBJ",
+     "url": "https://rbj.com.br/palmas-segue-como-maior-exportador-do-sudoeste-do-parana-apesar-de-queda-em-2025/",
+     "resumo": "As exportações de compensado de Palmas caíram em 2025 por tarifas de até 50% dos EUA, que não foram retiradas para o produto.",
+     "tema": "emprego",
+     "tom": "problema",
+     "gancho": "Em Palmas, tarifas dos EUA fizeram cair a exportação de compensado.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-02",
+     "titulo": "",
+     "veiculo": "Jornal A Folha",
+     "url": "https://www.jornalafolha.com.br/noticia/bio-tee-sul-america-suspende-temporariamente-atividades-em-palmas-decisao-afeta-quadro-de-funcionarios",
+     "resumo": "A Bio Tee Sul América, do grupo Bioiberica, suspendeu sua unidade de heparina em Palmas a partir de 1º de fevereiro de 2026, com desligamento de funcionários.",
+     "tema": "emprego",
+     "tom": "problema",
+     "gancho": "Em Palmas, uma fábrica parou e trabalhadores foram desligados.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4117800": {
+   "municipio": "Palmital",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "Banda B",
+     "url": "https://www.bandab.com.br/noticias-parana/temporal-vendaval-palmital-destelhamentos/",
+     "resumo": "Temporal com vendaval em 29 de abril de 2026 destelhou casas em Palmital, e a Assistência Social mobilizou atendimento às famílias.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Palmital, o vendaval de abril arrancou telhados de casas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4119608": {
+   "municipio": "Pitanga",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-05",
+     "titulo": "",
+     "veiculo": "g1",
+     "url": "https://g1.globo.com/pr/parana/videos-boa-noite-parana/video/obra-do-hospital-regional-de-pitanga-esta-parada-ha-quase-3-anos-14603379.ghtml",
+     "resumo": "A obra do Hospital Regional de Pitanga está parada há quase três anos; laudo aponta falhas estruturais e pacientes viajam a outras cidades.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Obra do hospital regional de Pitanga está parada há quase três anos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4119806": {
+   "municipio": "Planalto",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "Bem Paraná",
+     "url": "https://www.bemparana.com.br/noticias/parana/seca-no-parana-cada-vez-mais-cidades-decretam-situacao-de-emergencia/",
+     "resumo": "Planalto está entre os municípios do Paraná em situação de emergência pela estiagem de 2025/26, segundo o Bem Paraná em abril de 2026.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Planalto entrou em situação de emergência por causa da seca.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4122206": {
+   "municipio": "Rio Branco do Sul",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-07",
+     "titulo": "",
+     "veiculo": "Gazeta do Povo",
+     "url": "https://www.gazetadopovo.com.br/parana/apagoes-rio-branco-do-sul-denuncia-mp/",
+     "resumo": "Apagões recorrentes desde 2025 em Rio Branco do Sul levaram a denúncia contra a Copel no MPPR em julho de 2026, com relatos de idosos em respiradores.",
+     "tema": "energia",
+     "tom": "problema",
+     "gancho": "Rio Branco do Sul sofre com apagões desde 2025.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-04",
+     "titulo": "",
+     "veiculo": "g1",
+     "url": "https://g1.globo.com/pr/parana/noticia/2026/04/05/chuva-deixa-alagamentos-em-rio-branco-do-sul-e-moradores-passam-a-pascoa-calculando-estragos.ghtml",
+     "resumo": "Em 5 de abril de 2026, 67 mm de chuva em 20 minutos alagaram casas no bairro Santaria, em Rio Branco do Sul.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Rio Branco do Sul, 20 minutos de chuva alagaram casas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4124400": {
+   "municipio": "Santo Antônio do Sudoeste",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-07",
+     "titulo": "",
+     "veiculo": "Rádio Clube",
+     "url": "https://www.radiocluberza.com.br/noticia.aspx?t=santo-antonio-forte-chuva-provoca-alagamentos-e-atinge-cerca-de-40-residencias",
+     "resumo": "Chuva de cerca de 150 mm em 21 e 22 de julho de 2026 atingiu cerca de 40 casas no bairro Vila Nova, em Santo Antônio do Sudoeste.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em Santo Antônio do Sudoeste, a chuva atingiu cerca de 40 casas.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "RBJ",
+     "url": "https://rbj.com.br/carta-do-sudoeste-2026-reune-demandas-regionais-e-destaca-avancos-conquistados-em-24-anos/",
+     "resumo": "A Carta do Sudoeste 2026, da Amsop, traz como nova reivindicação um Porto Seco em Santo Antônio do Sudoeste.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "A região pede um Porto Seco em Santo Antônio do Sudoeste.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4125100": {
+   "municipio": "São João do Triunfo",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Governo do Paraná",
+     "url": "https://www.parana.pr.gov.br/Audio/Estado-libera-R-255-milhoes-para-saude-de-Antonio-Olinto-e-Sao-Joao-do-Triunfo",
+     "resumo": "O Governo do Paraná liberou R$ 2,55 milhões para a saúde de Antônio Olinto e São João do Triunfo.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "São João do Triunfo recebeu recursos do Estado para a saúde.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4126603": {
+   "municipio": "Siqueira Campos",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-03",
+     "titulo": "",
+     "veiculo": "Preto no Branco",
+     "url": "https://pretonobranco.com.br/noticia/4572/governo-destina-r-24-4-milhoes-para-novas-estruturas-de-saude-no-norte-pioneiro",
+     "resumo": "O Estado destinou R$ 3,3 milhões a Siqueira Campos em março de 2026 para clínica de fisioterapia, ampliação da UBS Alemoa e veículos para transporte de pacientes.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Siqueira Campos ganhou verba para clínica de fisioterapia e UBS.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4127502": {
+   "municipio": "Tibagi",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Bem Paraná",
+     "url": "https://www.bemparana.com.br/noticias/parana/cidadesdoparana/estrada-entre-comunidades-rurais-de-tibagi-passa-por-melhorias/",
+     "resumo": "Estrada entre comunidades rurais de Tibagi passa por obras de melhoria.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Em Tibagi, estrada entre comunidades rurais passa por melhorias.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4127965": {
+   "municipio": "Turvo",
+   "uf": "PR",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Turvo",
+     "url": "https://www.turvo.pr.gov.br/",
+     "resumo": "Entre setembro e outubro de 2026, o site da Prefeitura de Turvo destacou um curso da UAB em parceria com o IFPR.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Em Turvo, há curso da Universidade Aberta do Brasil com o IFPR.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4205308": {
+   "municipio": "Faxinal dos Guedes",
+   "uf": "SC",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-06",
+     "titulo": "",
+     "veiculo": "Secretaria de Estado da Saúde de SC",
+     "url": "https://www.saude.sc.gov.br/edocman/legislacao/legislacao-geral/deliberacoes/deliberacoes-2025/delibera%c3%87%c3%83o%20cib-215-2025.pdf",
+     "resumo": "Faxinal dos Guedes teve emenda parlamentar federal de R$ 300 mil para a atenção primária à saúde, segundo a deliberação CIB 215/2025, de junho de 2025.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Faxinal dos Guedes teve R$ 300 mil para a saúde básica.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4301909": {
+   "municipio": "Barra do Ribeiro",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Barra do Ribeiro",
+     "url": "https://www.barradoribeiro.rs.gov.br/",
+     "resumo": "A agenda de saúde de 2026 da Prefeitura de Barra do Ribeiro inclui compra de medicamentos e insumos para o Pronto Atendimento e veículos para a saúde.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Barra do Ribeiro compra remédios e veículos para a saúde.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4304507": {
+   "municipio": "Canguçu",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-12-18",
+     "titulo": "Canguçu é contemplado com recursos estaduais para fortalecer a infraestrutura rural",
+     "veiculo": "Canguçu Online",
+     "url": "https://www.cangucuonline.com.br/noticias/cangucu/rs/geral/cangucu-e-contemplado-com-recursos-estaduais-para-fortalecer-a-infraestrutura-rural/",
+     "resumo": "Canguçu está entre os municípios com convênio assinado pela Secretaria estadual da Agricultura no programa Avançar Cisternas, voltado a ampliar o acesso à água no meio rural.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Canguçu vai receber recursos para levar mais água ao interior.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4305207": {
+   "municipio": "Cerro Largo",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4306502": {
+   "municipio": "Dom Feliciano",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "",
+     "veiculo": "Prefeitura de Dom Feliciano",
+     "url": "https://www.domfeliciano.rs.gov.br/",
+     "resumo": "Dom Feliciano teve danos causados por um evento climático extremo na madrugada de 21 de setembro de 2026.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Dom Feliciano teve estragos com o tempo extremo de setembro.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-08",
+     "titulo": "",
+     "veiculo": "Prefeitura de Dom Feliciano",
+     "url": "https://www.domfeliciano.rs.gov.br/",
+     "resumo": "A Prefeitura de Dom Feliciano nomeou novos profissionais de saúde em agosto de 2026 para ampliar o atendimento.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Dom Feliciano nomeou novos profissionais para ampliar o atendimento de saúde.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4306601": {
+   "municipio": "Dom Pedrito",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4311205": {
+   "municipio": "Júlio de Castilhos",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-02",
+     "titulo": "",
+     "veiculo": "Canal Rural",
+     "url": "https://www.canalrural.com.br/agricultura/projeto-soja-brasil/municipio-do-rs-decreta-emergencia-apos-estiagem-comprometer-safra-de-soja-25-26/",
+     "resumo": "Júlio de Castilhos decretou situação de emergência em fevereiro de 2026 pela estiagem, com perdas de 60% a 70% da soja em algumas áreas.",
+     "tema": "agricultura",
+     "tom": "problema",
+     "gancho": "Júlio de Castilhos decretou emergência: a seca quebrou a safra de soja.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-03",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+     "resumo": "A União reconheceu em março de 2025 a situação de emergência de Júlio de Castilhos pela estiagem da safra 2024/25.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em 2025, a União reconheceu emergência por seca em Júlio de Castilhos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4311809": {
+   "municipio": "Marau",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-26",
+     "titulo": "União autoriza garantia de R$ 40 milhões para investimentos em Marau",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/8/26/uniao-autoriza-garantia-de-r-40-milhoes-para-investimentos-em-marau",
+     "resumo": "Ministério da Fazenda autorizou garantia da União a financiamento de R$ 40 milhões do Banco do Brasil para despesas de capital de Marau no Programa de Eficiência Municipal.",
+     "tema": "economia",
+     "tom": "conquista",
+     "gancho": "Marau recebeu aval da União para financiamento de R$ 40 milhões.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4313706": {
+   "municipio": "Palmeira das Missões",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-07",
+     "titulo": "",
+     "veiculo": "Extra Classe",
+     "url": "https://www.extraclasse.org.br/ambiente/2026/07/governo-federal-reconhece-emergencia-em-dois-municipios-gauchos/",
+     "resumo": "A Defesa Civil Nacional reconheceu em 28 de julho de 2026 a situação de emergência de Palmeira das Missões por fortes chuvas.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Palmeira das Missões teve emergência reconhecida por causa das chuvas.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jornal-cidades/2025/01/1186634-palmeira-das-missoes-e-ufsm-pleiteiam-curso-de-medicina-na-cidade.html",
+     "resumo": "Um curso de Medicina no campus da UFSM em Palmeira das Missões foi citado como prioridade da gestão municipal em janeiro de 2025.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Palmeira das Missões quer um curso de Medicina na UFSM.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4313904": {
+   "municipio": "Panambi",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-12-18",
+     "titulo": "Em Panambi, vice-governador anuncia R$ 1 milhão para equipar pronto atendimento e inaugura serviço para a população idosa",
+     "veiculo": "Governo do Estado do Rio Grande do Sul",
+     "url": "https://www.estado.rs.gov.br/em-panambi-vice-governador-anuncia-r-1-milhao-para-equipar-pronto-atendimento-e-inaugura-servico-para-a-populacao-idosa",
+     "resumo": "Estado assinou repasse de R$ 1 milhão para equipar o pronto atendimento SUS do Hospital Panambi e inaugurou ali serviço para idosos de 20 municípios.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "O Hospital Panambi abriu um serviço especializado para idosos.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4315305": {
+   "municipio": "Quaraí",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-07",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jornal-cidades/2026/07/1258164-apos-oito-dias-seguidos-de-elevacao-ate-a-cota-de-inundacao-rio-uruguai-comeca-a-recuar-na-fronteira-oeste.html",
+     "resumo": "Quaraí tem histórico de cheias com milhares de desabrigados; em julho e setembro de 2026, o Rio Uruguai chegou à cota de inundação na região.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Quaraí já teve milhares de desabrigados pelas cheias do rio.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4316451": {
+   "municipio": "Salto do Jacuí",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4317301": {
+   "municipio": "Santa Vitória do Palmar",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2024-11",
+     "titulo": "",
+     "veiculo": "Brasil de Fato",
+     "url": "https://brasildefato.com.br/2024/11/05/santa-vitoria-do-palmar-rs-secretaria-de-saude-usa-onibus-precarios-para-transporte-de-pacientes-a-outras-cidades/",
+     "resumo": "Denúncia de novembro de 2024 apontou que o hospital único de Santa Vitória do Palmar não tem especialistas e pacientes vão a Rio Grande e Pelotas em ônibus precários.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em Santa Vitória do Palmar, pacientes viajam longe para ver especialista.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4317400": {
+   "municipio": "Santiago",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-24",
+     "titulo": "Governo federal repassa R$ 5 milhões para recuperação em Santiago, no RS",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/6/24/governo-federal-repassa-r-5-milhoes-para-recuperacao-em-santiago-no-rs",
+     "resumo": "Ministério da Integração e do Desenvolvimento Regional repassou R$ 5 milhões a Santiago para recuperar infraestrutura danificada por desastres; obras têm prazo de 365 dias.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Santiago recebeu R$ 5 milhões federais para recuperar estragos de desastres.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-03-04",
+     "titulo": "Prefeitura de Santiago recebe novas máquinas; reparos em estradas será prioridade máxima",
+     "veiculo": "Rádio Santiago FM",
+     "url": "https://radiosantiago.com.br/obras/prefeitura-de-santiago-recebe-novas-maquinas-reparos-em-estradas-sera-prioridade-maxima/",
+     "resumo": "Prefeitura de Santiago recebeu duas patrolas e um rolo compactador, mais de R$ 2 milhões, para manter estradas e escoar a produção rural.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Santiago recebeu máquinas novas para recuperar as estradas do interior.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4317806": {
+   "municipio": "Santo Augusto",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4318101": {
+   "municipio": "São Francisco de Assis",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "IBGE",
+     "url": "https://www.ibge.gov.br/cidades-e-estados/rs/sao-francisco-de-assis.html",
+     "resumo": "São Francisco de Assis perdeu 8,5% de sua população entre 2010 e 2022.",
+     "tema": "outro",
+     "tom": "problema",
+     "gancho": "São Francisco de Assis perdeu 8,5% dos moradores em doze anos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4318200": {
+   "municipio": "São Francisco de Paula",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4318408": {
+   "municipio": "São Jerônimo",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4318507": {
+   "municipio": "São José do Norte",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jcsul/2025/05/1202471-empresa-de-sc-fara-projeto-executivo-de-ponte-rio-grande-sao-jose-do-norte.html",
+     "resumo": "O projeto executivo da ponte entre Rio Grande e São José do Norte teve licitação e contratação em 2025.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "São José do Norte tem projeto de ponte até Rio Grande.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-01",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jcsul/2025/01/1188206-ponte-rio-grande-sao-jose-do-norte-facilitara-cuidado-a-pacientes-hospitalares.html",
+     "resumo": "O acesso de moradores de São José do Norte ao atendimento hospitalar em Rio Grande depende da travessia, pauta associada à ponte em janeiro de 2025.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "Em São José do Norte, ir ao hospital depende da travessia.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4318804": {
+   "municipio": "São Lourenço do Sul",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-10-31",
+     "titulo": "São Lourenço do Sul garante repasse de R$ 846 mil do Governo do Estado para recuperação de vias e infraestrutura afetadas pelas enchentes",
+     "veiculo": "Prefeitura de São Lourenço do Sul",
+     "url": "https://www.saolourencodosul.rs.gov.br/portal/noticias/0/3/7832/sao-lourenco-do-sul-garante-repasse-de-r-846-mil-do-governo-do-estado-para-recuperacao-de-vias-e-infraestrutura-afetadas-pelas-enchentes",
+     "resumo": "Governo do RS repassou R$ 846 mil da Defesa Civil para recuperar ruas, estradas rurais e bueiros danificados pelas inundações de agosto de 2025.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "São Lourenço do Sul garantiu R$ 846 mil para consertar estradas.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-08-23",
+     "titulo": "Arroio transborda e atinge mais de 2 mil casas em São Lourenço do Sul",
+     "veiculo": "Agora RS",
+     "url": "https://agorars.com/rs/costa-doce/enchente-sao-lourenco-rs-calamidade-publica-2025/",
+     "resumo": "Transbordamento do Arroio São Lourenço atingiu mais de 2 mil casas e levou o município a decretar calamidade pública.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Cheia atingiu mais de 2 mil casas em São Lourenço do Sul.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-08-13",
+     "titulo": "Liberado viaduto sobre a BR-116 em São Lourenço do Sul",
+     "veiculo": "Agora RS",
+     "url": "https://agorars.com/agora-no-transito/viaduto-br116-acesso-sao-lourenco-do-sul/",
+     "resumo": "Viaduto em formato de trevo, parte da duplicação da BR-116, foi liberado, substituindo uma rotatória e facilitando o acesso à ERS-265.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "São Lourenço do Sul ganhou viaduto na duplicação da BR-116.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4318903": {
+   "municipio": "São Luiz Gonzaga",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-03",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+     "resumo": "A União reconheceu situação de emergência em São Luiz Gonzaga pela estiagem do verão de 2025, em portaria de 19 de março de 2025.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "São Luiz Gonzaga teve emergência reconhecida pela seca de 2025.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4319604": {
+   "municipio": "São Sepé",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4320800": {
+   "municipio": "Soledade",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Senado Federal",
+     "url": "https://www12.senado.leg.br/radio/1/noticia/2025/09/10/congresso-da-a-soledade-o-titulo-de-capital-nacional-das-pedras-preciosas",
+     "resumo": "A Lei 15.217/2025 deu a Soledade o título de Capital Nacional das Pedras Preciosas, aprovado pelo Congresso em 2025.",
+     "tema": "economia",
+     "tom": "conquista",
+     "gancho": "Soledade agora é, por lei, a Capital Nacional das Pedras Preciosas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "4321402": {
+   "municipio": "Tenente Portela",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "4322202": {
+   "municipio": "Tupanciretã",
+   "uf": "RS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2025-03",
+     "titulo": "",
+     "veiculo": "Jornal do Comércio",
+     "url": "https://www.jornaldocomercio.com/jcsul/2025/03/1195722-uniao-reconhece-emergencia-em-bage-e-outras-33-cidades-gauchas-pela-estiagem.html",
+     "resumo": "A União reconheceu situação de emergência em Tupanciretã pela estiagem do verão de 2025, em portaria de 10 de fevereiro de 2025.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Tupanciretã teve emergência reconhecida pela seca de 2025.",
+     "confirmado": false
+    }
+   ]
+  },
+  "5000203": {
+   "municipio": "Água Clara",
+   "uf": "MS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Semadesc-MS",
+     "url": "https://www.semadesc.ms.gov.br/municipio-estrategico-da-base-florestal-de-ms-agua-clara-recebe-r-609-milhoes-em-investimentos-do-governo-do-estado-com-hospital-e-aerodromo",
+     "resumo": "A construção do Hospital Municipal de Água Clara, no bairro Novo Horizonte, tem R$ 23,3 milhões do governo estadual.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Água Clara vai ganhar hospital municipal no bairro Novo Horizonte.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Semadesc-MS",
+     "url": "https://www.semadesc.ms.gov.br/municipio-estrategico-da-base-florestal-de-ms-agua-clara-recebe-r-609-milhoes-em-investimentos-do-governo-do-estado-com-hospital-e-aerodromo",
+     "resumo": "O crescimento ligado à indústria florestal e de celulose pressiona a infraestrutura de Água Clara, como habitação e escolas.",
+     "tema": "moradia",
+     "tom": "problema",
+     "gancho": "Água Clara cresce com a celulose e precisa de casas e escolas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "5004601": {
+   "municipio": "Itaquiraí",
+   "uf": "MS",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "2026-10",
+     "titulo": "",
+     "veiculo": "Prefeitura de Itaquiraí",
+     "url": "https://www.itaquirai.ms.gov.br/noticias/obras-e-servicos-urbanos/thalles-leva-reclamacoes-de-moradores-e-cobra-solucoes-da-energisa-para-itaquirai",
+     "resumo": "Em outubro de 2026, o prefeito de Itaquiraí cobrou da Energisa solução para quedas frequentes de energia na cidade, na zona rural e nos assentamentos.",
+     "tema": "energia",
+     "tom": "problema",
+     "gancho": "Em Itaquiraí, a energia cai com frequência e demora a voltar.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Itaquiraí",
+     "url": "https://www.itaquirai.ms.gov.br/paginas/prefeito",
+     "resumo": "A Prefeitura de Itaquiraí destaca saldo positivo de empregos no primeiro semestre de 2026.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Itaquiraí fechou o primeiro semestre com mais empregos criados que perdidos.",
+     "confirmado": false
+    }
+   ]
+  },
+  "5106232": {
+   "municipio": "Nova Olímpia",
+   "uf": "MT",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5106422": {
+   "municipio": "Peixoto de Azevedo",
+   "uf": "MT",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5107008": {
+   "municipio": "Poxoréu",
+   "uf": "MT",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Poxoréu",
+     "url": "https://www.poxoreu.mt.gov.br/Administracao/Prefeito/",
+     "resumo": "O distrito de Nova Poxoréu tem pavimentação de 5,6 km em parceria com o Estado e uma nova escola estadual.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "O distrito de Nova Poxoréu recebe pavimentação e nova escola estadual.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Poxoréu",
+     "url": "https://www.poxoreu.mt.gov.br/Administracao/Prefeito/",
+     "resumo": "O Ideb de Poxoréu subiu de 5,1 para 5,7, e o município tem formação de professores indígenas.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "A nota das escolas de Poxoréu no Ideb subiu para 5,7.",
+     "confirmado": false
+    }
+   ]
+  },
+  "5107701": {
+   "municipio": "Rosário Oeste",
+   "uf": "MT",
+   "origem": "pautas",
+   "noticias": [
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Rosário Oeste",
+     "url": "https://www.rosariooeste.mt.gov.br/",
+     "resumo": "O Hospital Municipal de Rosário Oeste fez mutirões de cirurgias eletivas em 2026 para reduzir as filas.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Rosário Oeste fez mutirões para reduzir a fila de cirurgias.",
+     "confirmado": false
+    },
+    {
+     "data": "",
+     "titulo": "",
+     "veiculo": "Prefeitura de Rosário Oeste",
+     "url": "https://www.rosariooeste.mt.gov.br/",
+     "resumo": "A Prefeitura de Rosário Oeste recupera ruas e estradas vicinais, como no distrito de Bauxi.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Rosário Oeste recupera ruas e estradas rurais, como no Bauxi.",
+     "confirmado": false
+    }
+   ]
+  },
+  "5200134": {
+   "municipio": "Acreúna",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5203500": {
+   "municipio": "Bom Jesus",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5204300": {
+   "municipio": "Caçu",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5209101": {
+   "municipio": "Goiatuba",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5209952": {
+   "municipio": "Indiara",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5210901": {
+   "municipio": "Itapaci",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5215306": {
+   "municipio": "Orizona",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5217708": {
+   "municipio": "Pontalina",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5218300": {
+   "municipio": "Posse",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5218508": {
+   "municipio": "Quirinópolis",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5219308": {
+   "municipio": "Santa Helena de Goiás",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5220405": {
+   "municipio": "São Simão",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  },
+  "5220603": {
+   "municipio": "Silvânia",
+   "uf": "GO",
+   "origem": "pautas",
+   "noticias": []
+  }
+ }
+}

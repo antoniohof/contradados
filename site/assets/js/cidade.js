@@ -23,7 +23,7 @@ function escolher() {
       <div class="faixa__topo"><p class="rotulo">Ficha da cidade</p></div>
       <h1 class="grande">Escolha uma cidade.</h1>
       <p class="texto">Use a lupa no alto da página ou comece pelas cidades de 10 a 50 mil habitantes com mais votos em jogo.</p>
-      <p class="linha" style="margin-top:16px"><button class="pill pill--rosa" type="button" id="abre-busca">Buscar cidade</button><a class="pill" href="${RAIZ}na-pratica/">Ver a lista completa</a></p>
+      <p class="linha" style="margin-top:16px"><button class="pill pill--tinta" type="button" id="abre-busca">Buscar cidade</button><a class="pill" href="${RAIZ}na-pratica/">Ver a lista completa</a></p>
       <div class="grade">${top.map((x) => `<a class="cartao cartao--f${x.principal}" href="?ibge=${x.ibge}"><p class="cartao__titulo">${esc(x.municipio)}</p><p class="cartao__sub">${x.uf} · +${grande(x.gTot)} votos em jogo</p><p class="cartao__pe"><span>${NOMES[x.principal]} pesa mais</span></p></a>`).join("")}</div>
     </section>`;
   document.getElementById("abre-busca").addEventListener("click", (e) => { e.stopPropagation(); document.querySelector("[data-busca]").click(); });
@@ -79,7 +79,7 @@ function ficha(d, local, cn) {
       <div class="faixa__topo">
         <p class="rotulo">${UFNOME[d.uf]}${imNome ? ` · região de ${esc(imNome)}` : ""}</p>
         <div class="linha">
-          <a class="pill pill--tinta" href="${RAIZ}reels/?ibge=${d.ibge}">Kit de reels</a>
+          <a class="pill pill--branco" href="${RAIZ}reels/?ibge=${d.ibge}">Kit de reels</a>
           <a class="pill" href="${linkWhats(`${d.municipio} (${d.uf}): onde buscar votos para Lula no 2º turno`, urlFicha)}" target="_blank" rel="noopener">WhatsApp</a>
           <button class="pill" type="button" id="copia">Copiar link</button>
         </div>
@@ -94,7 +94,7 @@ function ficha(d, local, cn) {
     </section>
 
     <section class="faixa fazer" aria-labelledby="fazer-t">
-      <div class="faixa__topo"><h2 class="rotulo" id="fazer-t">O que fazer aqui</h2><a class="pill pill--tinta" href="${RAIZ}reels/?ibge=${d.ibge}">Montar reels para ${esc(d.municipio)}</a></div>
+      <div class="faixa__topo"><h2 class="rotulo" id="fazer-t">O que fazer aqui</h2><a class="pill pill--branco" href="${RAIZ}reels/?ibge=${d.ibge}">Montar reels para ${esc(d.municipio)}</a></div>
       <ol>${fazer.map((a) => `<li>${a}</li>`).join("")}</ol>
     </section>
 
@@ -113,7 +113,7 @@ function ficha(d, local, cn) {
     </section>
 
     <section class="faixa faixa--solida vizinhas" aria-labelledby="viz-t">
-      <div class="faixa__topo"><h2 class="rotulo" id="viz-t">Cidades vizinhas${imNome ? ` · região de ${esc(imNome)}` : ""}</h2>${d.imediata ? `<a class="pill pill--rosa" href="${RAIZ}na-pratica/#roteiro=${d.imediata}">Ver roteiro da região</a>` : ""}</div>
+      <div class="faixa__topo"><h2 class="rotulo" id="viz-t">Cidades vizinhas${imNome ? ` · região de ${esc(imNome)}` : ""}</h2>${d.imediata ? `<a class="pill pill--tinta" href="${RAIZ}na-pratica/#roteiro=${d.imediata}">Ver roteiro da região</a>` : ""}</div>
       <div class="viz-grade">
         <div class="mapa-mini"><canvas id="mapa-mini" aria-label="Mapa das cidades da região: altura do espinho = votos em jogo"></canvas></div>
         <ol id="vizinhas"></ol>

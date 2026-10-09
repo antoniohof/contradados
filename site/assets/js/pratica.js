@@ -145,7 +145,7 @@ function desenharResumo(sel) {
   document.getElementById("porte-tit").textContent = `Potencial por tamanho de cidade · ${S.uf ? UFNOME[S.uf] : "Brasil"} · ${NOME_F[S.f].toLowerCase()}`;
   document.getElementById("porte").innerHTML = grupos.map((g) => `
     <button class="barra-porte${S.p === g.p ? " ativa" : ""}" type="button" data-pp="${g.p}">
-      <span class="r">${g.nome}</span><span class="b"><i style="width:${(100 * g.v / m).toFixed(1)}%;background:${S.p === g.p ? (S.f ? COR_F[S.f] : "#ff4d94") : "#bdbdbd"}"></i></span><span class="v">+${grande(g.v, true)}</span>
+      <span class="r">${g.nome}</span><span class="b"><i style="width:${(100 * g.v / m).toFixed(1)}%;background:${S.p === g.p ? (S.f ? COR_F[S.f] : "#111") : "#bdbdbd"}"></i></span><span class="v">+${grande(g.v, true)}</span>
     </button>`).join("");
   document.querySelectorAll("[data-pp]").forEach((b) => b.addEventListener("click", () => { S.p = +b.dataset.pp; S.n = 48; S.roteiro = ""; render(); }));
 
@@ -205,7 +205,7 @@ function desenharRoteiros() {
       <p class="meta">${r.cidades.length} cidades · região intermediária de ${esc(r.inter)} · ${["", "reconquistar", "mobilizar", "terceiros"][f]} pesa mais</p>
       <p class="valor ${TXT_F[f]}">+${grande(r.v)} <span class="nota">votos em jogo · ~${n0(t.total)} km em linha reta</span></p>
       <ol>${t.ordem.map((c, i) => `<li><a href="${RAIZ}cidade/?ibge=${c.ibge}">${esc(c.municipio)}</a> <small>+${grande(valor(c))}${i ? ` · ${n0(t.passos[i])} km` : ""}</small></li>`).join("")}</ol>
-      <p class="linha"><button class="pill pill--rosa" type="button" data-ver="${r.cod}">Ver no mapa</button><a class="pill pill--tinta" href="${RAIZ}reels/?ibge=${t.ordem[0].ibge}">Reels para ${esc(t.ordem[0].municipio)}</a></p>
+      <p class="linha"><button class="pill pill--tinta" type="button" data-ver="${r.cod}">Ver no mapa</button><a class="pill pill--branco" href="${RAIZ}reels/?ibge=${t.ordem[0].ibge}">Reels para ${esc(t.ordem[0].municipio)}</a></p>
     </article>`;
   }).join("") || `<p class="texto">Sem roteiros com duas ou mais cidades nesta seleção.</p>`;
   document.getElementById("mais-rot").hidden = roteirosAtuais.length <= S.nRot;

@@ -1,7 +1,7 @@
 /* =====================================================================
    Onde buscar votos · sistema visual
    Botões, menus e faixas partem do desenho do othernetwork.io (pílulas de 26 px,
-   cinza translúcido, campo de pontos), com cores próprias: rosa e preto na interface;
+   cinza translúcido, campo de pontos), com cores próprias: preto na interface;
    vermelho, verde-água e azul nas três frentes.
    Fontes: Newsreader (texto e manchetes, jornalística) e
    Bricolage Grotesque (interface, números e rótulos).
@@ -60,8 +60,7 @@
   --vidro: rgba(245, 245, 245, 0.9);
   --vidro-forte: rgba(245, 245, 245, 0.96);
 
-  /* interface: rosa para destacar, preto para a ação secundária */
-  --rosa: #ff4d94;     --rosa-2: #ff9fc6;     --rosa-3: #ffd7e8;     --rosa-txt: #b0005a;
+  /* interface: preto para destacar (a cor fica só com os dados) */
   /* frentes: as três cores passam no teste de daltonismo em todas as combinações */
   --vermelho: #e0201b; --vermelho-2: #ff8f8a; --vermelho-3: #ffe0dd;
   --verde: #12a088;    --verde-2: #86d8c6;    --verde-3: #d4f2eb;
@@ -105,12 +104,10 @@ button { font: inherit; color: inherit; }
 }
 button.pill:hover, a.pill:hover { background: var(--cinza-2); }
 .pill--branco { background: var(--papel); }
-.pill--rosa { background: var(--rosa-3); }
 .pill--tinta { background: var(--tinta); color: var(--papel); }
 .pill--vermelho { background: var(--vermelho-3); }
 .pill--verde { background: var(--verde-3); }
 .pill--azul { background: var(--azul-3); }
-a.pill--rosa:hover, button.pill--rosa:hover { background: var(--rosa-2); }
 a.pill--tinta:hover, button.pill--tinta:hover { background: #333; }
 a.pill--vermelho:hover, button.pill--vermelho:hover { background: var(--vermelho-2); }
 a.pill--verde:hover, button.pill--verde:hover { background: var(--verde-2); }
@@ -118,10 +115,11 @@ a.pill--azul:hover, button.pill--azul:hover { background: var(--azul-2); }
 a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .pill--ico { width: var(--pill-h); padding: 0; justify-content: center; }
 .pill--ico svg { width: 15px; height: 15px; }
-.pill[aria-pressed="true"], .pill.ativa { background: var(--rosa-3); }
-.pill--f1[aria-pressed="true"] { background: var(--f1-3); }
-.pill--f2[aria-pressed="true"] { background: var(--f2-3); }
-.pill--f3[aria-pressed="true"] { background: var(--f3-3); }
+.pill[aria-pressed="true"], .pill.ativa { background: var(--tinta); color: var(--papel); }
+.pill[aria-pressed="true"]:hover, .pill.ativa:hover { background: #333; }
+.pill--f1[aria-pressed="true"], .pill--f1[aria-pressed="true"]:hover { background: var(--f1-3); color: var(--tinta); }
+.pill--f2[aria-pressed="true"], .pill--f2[aria-pressed="true"]:hover { background: var(--f2-3); color: var(--tinta); }
+.pill--f3[aria-pressed="true"], .pill--f3[aria-pressed="true"]:hover { background: var(--f3-3); color: var(--tinta); }
 .pill .ponto { width: 9px; height: 9px; border-radius: 50%; background: currentColor; flex: none; }
 .pill--p { font-size: 14px; line-height: 16px; min-height: 22px; padding: 3px 7px; }
 
@@ -130,8 +128,8 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .mais__ico, .mais__txt { display: inline-flex; align-items: center; min-height: var(--pill-h); border-radius: var(--r); }
 .mais__ico { width: var(--pill-h); justify-content: center; font-weight: 300; font-size: 22px; }
 .mais__txt { padding: 4px 8px; white-space: nowrap; }
-.mais--rosa .mais__ico { background: var(--rosa-2); }
-.mais--rosa .mais__txt { background: var(--rosa-3); }
+.mais--branco .mais__ico { background: var(--cinza-2); }
+.mais--branco .mais__txt { background: var(--papel); }
 .mais--tinta { color: var(--papel); }
 .mais--tinta .mais__ico { background: #3d3d3d; }
 .mais--tinta .mais__txt { background: var(--tinta); }
@@ -143,9 +141,9 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
   display: flex; align-items: center; justify-content: center;
   min-height: var(--pill-h); padding: 4px 8px; border: 0; border-radius: 0;
   font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); text-decoration: none; cursor: pointer;
-  background: var(--rosa); color: var(--tinta);
+  background: var(--tinta); color: var(--papel);
 }
-.cta--tinta { background: var(--tinta); color: var(--papel); }
+.cta--claro { background: var(--cinza-2); color: var(--tinta); }
 .cta:hover { filter: brightness(1.06); }
 
 /* ---------------------------------------------------------------- topo */
@@ -180,13 +178,13 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 }
 .busca ul { list-style: none; margin: 4px 0 0; padding: 0; max-height: 50vh; overflow: auto; }
 .busca li a { display: flex; justify-content: space-between; gap: 8px; padding: 5px 8px; border-radius: var(--r-p); text-decoration: none; font: 500 15px/18px var(--ui); }
-.busca li a:hover, .busca li a.sel { background: var(--rosa-3); }
+.busca li a:hover, .busca li a.sel { background: var(--cinza-2); }
 .busca li small { color: var(--cinza); font-weight: 400; }
 
 /* ---------------------------------------------------------------- menu */
 .menu {
   position: fixed; inset: 0; z-index: 58;
-  background: rgba(255, 159, 198, 0.86);
+  background: rgba(14, 14, 14, 0.9);
   -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
   display: flex; flex-direction: column; justify-content: space-between;
   padding: 46px var(--gutter) var(--gutter);
@@ -195,7 +193,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .menu__pe { flex-direction: row; flex-wrap: wrap; }
 .menu .pill { background: var(--papel); }
 .menu .pill:hover { background: var(--cinza-3); }
-.menu__lista small { display: block; margin: 0 0 6px 8px; font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #5c0030; max-width: 320px; }
+.menu__lista small { display: block; margin: 0 0 6px 8px; font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #cfcfcf; max-width: 320px; }
 
 /* ---------------------------------------------------------------- painel lateral (Locations) */
 .painel {
@@ -225,7 +223,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
   font: 500 var(--fs-m)/var(--lh-m) var(--texto);
   letter-spacing: -0.01em; margin: 0; text-wrap: balance;
 }
-.grande em, .medio em { font-style: normal; color: var(--rosa-txt); }
+.grande em, .medio em { font-style: normal; }
 .texto { font: 400 19px/25px var(--texto); margin: 0; max-width: 720px; }
 .texto + .texto { margin-top: 10px; }
 .texto b, .texto strong { font-weight: 650; }
@@ -238,7 +236,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .grade { display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr)); gap: var(--gutter); }
 .cartao { background: var(--papel); padding: 8px; display: flex; flex-direction: column; gap: 6px; min-height: 160px; text-decoration: none; color: var(--tinta); }
 .cartao--f1 { background: var(--f1-3); } .cartao--f2 { background: var(--f2-3); } .cartao--f3 { background: var(--f3-3); } .cartao--cinza { background: var(--cinza-3); }
-.cartao__titulo { font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); color: var(--rosa-txt); margin: 0; }
+.cartao__titulo { font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); color: var(--tinta); margin: 0; }
 .cartao--f1 .cartao__titulo { color: var(--f1-txt); } .cartao--f2 .cartao__titulo { color: var(--f2-txt); } .cartao--f3 .cartao__titulo { color: var(--f3-txt); }
 .cartao__sub { font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); margin: 0; }
 .cartao__pe { margin-top: auto; display: flex; gap: 10px; flex-wrap: wrap; font: 400 var(--fs-p)/var(--lh-p) var(--ui); }
@@ -246,11 +244,11 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .cartao__pe a::after { content: " ↗"; }
 
 /* ---------------------------------------------------------------- letreiro */
-.letreiro { background: var(--rosa-3); overflow: hidden; }
+.letreiro { background: var(--tinta); overflow: hidden; }
 .letreiro__trilho { display: flex; width: max-content; animation: letreiro 60s linear infinite; }
 .letreiro:hover .letreiro__trilho { animation-play-state: paused; }
-.letreiro__item { padding: 8px 64px; text-decoration: none; color: var(--tinta); font: 500 var(--fs-g)/var(--lh-g) var(--ui); letter-spacing: -0.02em; white-space: nowrap; }
-.letreiro__item b { display: block; font-weight: 500; color: var(--rosa-txt); }
+.letreiro__item { padding: 8px 64px; text-decoration: none; color: #a8a8a8; font: 500 var(--fs-g)/var(--lh-g) var(--ui); letter-spacing: -0.02em; white-space: nowrap; }
+.letreiro__item b { display: block; font-weight: 500; color: var(--papel); }
 @keyframes letreiro { to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .letreiro__trilho { animation: none; } }
 
@@ -310,6 +308,6 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .mapa-dica b { font-weight: 600; }
 .mapa-dica .v { display: block; font: 500 19px/23px var(--ui); margin: 2px 0 1px; font-variant-numeric: tabular-nums; }
 .mapa-dica small { display: block; color: #555; }
-.mapa-dica a { display: none; margin-top: 5px; color: var(--rosa-txt); font-weight: 500; }
+.mapa-dica a { display: none; margin-top: 5px; color: var(--tinta); font-weight: 500; }
 .mapa-dica.fixa a { display: inline-block; }
 .mapa-voltar { position: absolute; z-index: 4; top: 10px; left: 10px; }
