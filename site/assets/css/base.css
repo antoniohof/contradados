@@ -1,7 +1,7 @@
 /* =====================================================================
    Onde buscar votos · sistema visual
    Botões, menus e faixas partem do desenho do othernetwork.io (pílulas de 26 px,
-   cinza translúcido, campo de pontos), com cores próprias: verde-limão na interface;
+   cinza translúcido, campo de pontos), com cores próprias: lilás e roxo na interface;
    vermelho, verde-água e azul nas três frentes.
    Fontes: Newsreader (texto e manchetes, jornalística) e
    Bricolage Grotesque (interface, números e rótulos).
@@ -60,9 +60,8 @@
   --vidro: rgba(245, 245, 245, 0.9);
   --vidro-forte: rgba(245, 245, 245, 0.96);
 
-  /* interface: verde-limão com texto preto em botões, abas e faixas. Fica longe das três frentes
-     (também para daltônicos), do rosa, do roxo e do amarelo. A borda escura marca o estado ativo. */
-  --acento: #9ad11d;   --acento-2: #c2e46e;   --acento-3: #ecf7cc;   --acento-forte: #8cc214;   --acento-borda: #5c8a00;
+  /* interface: lilás com texto preto em botões, abas e faixas; roxo forte na borda do estado ativo e nos botões cheios */
+  --acento: #dccdfb;   --acento-2: #ba99ff;   --acento-3: #efe8fd;   --acento-forte: #cbb5fd;   --acento-borda: #7533ff;
   /* frentes: as três cores passam no teste de daltonismo em todas as combinações */
   --vermelho: #e0201b; --vermelho-2: #ff8f8a; --vermelho-3: #ffe0dd;
   --verde: #12a088;    --verde-2: #86d8c6;    --verde-3: #d4f2eb;
@@ -142,7 +141,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
   display: flex; align-items: center; justify-content: center;
   min-height: var(--pill-h); padding: 4px 8px; border: 0; border-radius: 0;
   font: 500 var(--fs-ui)/var(--lh-ui) var(--ui); text-decoration: none; cursor: pointer;
-  background: var(--acento); color: var(--tinta);
+  background: var(--acento-borda); color: var(--papel);
 }
 .cta--claro { background: var(--cinza-2); color: var(--tinta); }
 .cta:hover { filter: brightness(1.06); }
@@ -186,7 +185,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 /* ---------------------------------------------------------------- menu */
 .menu {
   position: fixed; inset: 0; z-index: 58;
-  background: rgba(236, 247, 204, 0.96);
+  background: rgba(186, 153, 255, 0.86);
   -webkit-backdrop-filter: blur(8px); backdrop-filter: blur(8px);
   display: flex; flex-direction: column; justify-content: space-between;
   padding: 46px var(--gutter) var(--gutter);
@@ -195,7 +194,7 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .menu__pe { flex-direction: row; flex-wrap: wrap; }
 .menu .pill { background: var(--papel); }
 .menu .pill:hover { background: var(--cinza-3); }
-.menu__lista small { display: block; margin: 0 0 6px 8px; font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #24330a; max-width: 320px; }
+.menu__lista small { display: block; margin: 0 0 6px 8px; font: 400 var(--fs-p)/var(--lh-p) var(--ui); color: #24104f; max-width: 320px; }
 
 /* ---------------------------------------------------------------- painel lateral (Locations) */
 .painel {
@@ -249,8 +248,8 @@ a.pill--branco:hover, button.pill--branco:hover { background: var(--cinza-3); }
 .letreiro { background: var(--acento); overflow: hidden; }
 .letreiro__trilho { display: flex; width: max-content; animation: letreiro 60s linear infinite; }
 .letreiro:hover .letreiro__trilho { animation-play-state: paused; }
-.letreiro__item { padding: 8px 64px; text-decoration: none; color: #34480c; font: 500 var(--fs-g)/var(--lh-g) var(--ui); letter-spacing: -0.02em; white-space: nowrap; }
-.letreiro__item b { display: block; font-weight: 500; color: var(--tinta); }
+.letreiro__item { padding: 8px 64px; text-decoration: none; color: var(--tinta); font: 500 var(--fs-g)/var(--lh-g) var(--ui); letter-spacing: -0.02em; white-space: nowrap; }
+.letreiro__item b { display: block; font-weight: 500; color: #5a1fe0; }
 @keyframes letreiro { to { transform: translateX(-50%); } }
 @media (prefers-reduced-motion: reduce) { .letreiro__trilho { animation: none; } }
 

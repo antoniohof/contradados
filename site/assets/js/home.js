@@ -185,7 +185,7 @@ function destacar(post) {
   marcados.add(post.id);
   post.querySelectorAll(".post__titulo em").forEach((em, k) => {
     const cor = em.classList.contains("f1t") ? "#ffe0dd" : em.classList.contains("f2t") ? "#d4f2eb" : em.classList.contains("f3t") ? "#e0e7fb" : null;
-    const opc = { type: "highlight", color: cor || "#d6ef94" };
+    const opc = { type: "highlight", color: cor || "#dccdfb" };
     setTimeout(() => annotate(em, { ...opc, animationDuration: 700, multiline: true, iterations: 1 }).show(), 250 + k * 200);
   });
 }

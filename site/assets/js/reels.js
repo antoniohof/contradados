@@ -54,6 +54,7 @@ const PROGRAMAS = {
 const sertao = (d) => d.safra > 0;
 const NORTE = new Set(["AC", "AM", "AP", "PA", "RO", "RR", "TO"]);
 const CHUVA = /chuva|enchente|alag|enxurr|cheia|inunda/;
+const SECA = /\bseca\b|estiagem|falta de chuva|sem chuva|escassez h[ií]drica|crise h[ií]drica/;
 const DESASTRE = /temporal|granizo|vendaval|tempestade|ventania|ciclone|tornado|desliza|desabrig|desalojad|deixaram suas casas|estragos?\b|tempo extremo|destelha|barragem/;
 const AGUA = /adutora|abastecimento|po[cç]os? artesian|cisterna|[aá]gua tratada|(carro|caminh[aã]o|caminh[oõ]es)-pipa/;
 const ROCA = /\bleit(e|eiro|eira)\b|queijo|\bsafra|lavoura|\bro[cç]a\b|rebanho|\bgado\b|produtor(es)? rura|agricultor|agricultura familiar|feira livre|\bpaa\b|aquisi[cç][aã]o de alimentos/;
@@ -63,17 +64,30 @@ function programaPara(n, k, d) {
   if (/farm[aá]cia|rem[eé]dio/.test(txt)) return "farmacia";
   if (te === "saude") return "saude";
   if (/creche|educa[cç][aã]o infantil/.test(txt)) return "creche";
+  // escola sendo construída ou reformada: a frase de creche e escola do Novo PAC, não o Pé-de-Meia
+  if (te === "educacao" && /(constru|reform|amplia|nova|novas)\w* (de )?(uma |duas |\d+ )?escolas?|escolas? (nova|novas)\b/.test(txt)) return "creche";
   if (te === "agua") return agua;
   if (te === "clima") {
     // na Amazônia, cheia e seca isolam a cidade: o que chega é socorro da Defesa Civil
     if (DESASTRE.test(txt) || NORTE.has(d.uf)) return "desastre";
+    // seca antes de chuva: "falta de chuvas" é seca, e o que resolve é água, não drenagem
+    if (SECA.test(txt)) return sertao(d) ? agua : "agricultura";
     if (CHUVA.test(txt)) return "chuva";
-    if (/\bseca\b|estiagem/.test(txt) && !sertao(d)) return "agricultura";
     return agua;
   }
-  if (te === "estrada" || te === "obra" || te === "transporte") return CHUVA.test(txt) ? "chuva" : AGUA.test(txt) ? agua : "obra";
+  if (te === "estrada" || te === "obra" || te === "transporte") {
+    // ponte que caiu ou estrada destruída pela chuva: é socorro e reconstrução (Defesa Civil), não drenagem
+    // (barragem aqui é obra, não rompimento: fica de fora)
+    if (/temporal|granizo|vendaval|tempestade|ciclone|tornado|desliza|desabrig|desalojad/.test(txt) || (CHUVA.test(txt) && /desab|destru|ilhad|arrast|rompe|cedeu|cratera|caiu/.test(txt))) return "desastre";
+    return CHUVA.test(txt) ? "chuva" : AGUA.test(txt) ? agua : "obra";
+  }
   if (["educacao", "moradia", "energia", "agricultura"].includes(te)) return te;
-  if (te === "emprego" || te === "economia") return ROCA.test(txt) ? "agricultura" : "emprego";
+  if (te === "emprego" || te === "economia") {
+    if (ROCA.test(txt)) return "agricultura";
+    // dinheiro da União para a prefeitura investir: é obra
+    if (/(garantia|aval) da uni[aã]o|(conv[eê]nio|recursos?|verbas?|emendas?) federa|governo federal/.test(txt)) return "obra";
+    return "emprego";
+  }
   if (te === "programa_federal") {
     if (ROCA.test(txt)) return "agricultura";
     if (/p[eé]-de-meia/.test(txt)) return "educacao";
@@ -91,7 +105,8 @@ function programaPara(n, k, d) {
 function dinheiroPara(prog, d) {
   const cid = d.municipio, PT = "Portal da Transparência (CGU)";
   if ((prog === "educacao" || prog === "creche") && d.pdm > 0) return { numero: curto(d.pdm), texto: `do Pé-de-Meia para estudantes de ${cid} em 2026.`, fonte: `${PT}, Pé-de-Meia, janeiro a agosto de 2026.` };
-  if (["agricultura", "agua_sertao", "desastre"].includes(prog) && d.safra > 0) return { numero: curto(d.safra), texto: `do Garantia-Safra para agricultores de ${cid} em 2025.`, fonte: `${PT}, Garantia-Safra 2025.` };
+  // abaixo de R$ 50 mil o Garantia-Safra é número pequeno demais para tela (mesmo corte da página da cidade)
+  if (["agricultura", "agua_sertao", "desastre"].includes(prog) && d.safra >= 50) return { numero: curto(d.safra), texto: `do Garantia-Safra para agricultores de ${cid} em 2025.`, fonte: `${PT}, Garantia-Safra 2025.` };
   if (prog === "renda" && d.bf > 0) return { numero: curto(d.bf), texto: `do Bolsa Família chegam a ${cid} todo mês.`, fonte: `${PT}, agosto de 2026.` };
   if (prog === "salario" && d.bpc > 0) return { numero: curto(d.bpc), texto: `do BPC, um salário mínimo por pessoa, chegam a ${cid} todo mês.`, fonte: `${PT}, agosto de 2026.` };
   const v = (d.bf || 0) + (d.bpc || 0);

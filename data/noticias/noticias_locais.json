@@ -95,11 +95,35 @@
     }
    ]
   },
+  "1300805": {
+   "municipio": "Borba",
+   "uf": "AM",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "1300904": {
    "municipio": "Canutama",
    "uf": "AM",
    "origem": "pautas",
    "noticias": []
+  },
+  "1301001": {
+   "municipio": "Carauari",
+   "uf": "AM",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-25",
+     "titulo": "Projeto leva atendimento médico a comunidades ribeirinhas do Amazonas",
+     "veiculo": "O POVO (Agência Brasil)",
+     "url": "https://www.opovo.com.br/noticias/saude/2026/07/25/projeto-leva-atendimento-medico-a-comunidades-ribeirinhas-do-amazonas.html",
+     "resumo": "Projeto SUS na Floresta, da Fundação Amazônia Sustentável, abriu pontos de atenção básica em Bauana e Campina para atender 56 comunidades ribeirinhas e cerca de 4,7 mil pessoas.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Ribeirinhos de Carauari ganharam dois novos pontos de saúde na floresta.",
+     "confirmado": true
+    }
+   ]
   },
   "1301100": {
    "municipio": "Careiro",
@@ -137,6 +161,12 @@
     }
    ]
   },
+  "1302306": {
+   "municipio": "Jutaí",
+   "uf": "AM",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "1302405": {
    "municipio": "Lábrea",
    "uf": "AM",
@@ -172,6 +202,24 @@
    "uf": "PA",
    "origem": "pautas",
    "noticias": []
+  },
+  "1500909": {
+   "municipio": "Augusto Corrêa",
+   "uf": "PA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-28",
+     "titulo": "Ministério das Cidades entrega moradias e anuncia obras de pavimentação no PA",
+     "veiculo": "Diário do Pará",
+     "url": "https://diariodopara.com.br/para/ministerio-das-cidades-entrega-moradias-e-anuncia-obras-de-pavimentacao-no-pa/",
+     "resumo": "Ministro das Cidades assinou ordens de serviço para três obras de pavimentação, com sinalização e drenagem, em sete bairros da cidade, somando R$ 9,1 milhões.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Sete bairros de Augusto Corrêa tiveram obras de asfalto autorizadas.",
+     "confirmado": true
+    }
+   ]
   },
   "1501451": {
    "municipio": "Belterra",
@@ -219,6 +267,30 @@
      "confirmado": false
     }
    ]
+  },
+  "1502905": {
+   "municipio": "Curuçá",
+   "uf": "PA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-09",
+     "titulo": "Secretaria Nacional de Políticas de Desenvolvimento Regional autoriza convênio de R$ 7,2 mi para estradas vicinais em Curuçá/PA",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/secretaria-nacional-de-politicas-de-desenvolvimento-69642",
+     "resumo": "Secretaria do Ministério da Integração firmou convênio de cerca de R$ 7,2 milhões com o município para construir estradas vicinais, com repasse previsto em 2026.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Curuçá fechou convênio federal de R$ 7,2 milhões para estradas vicinais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "1503077": {
+   "municipio": "Garrafão do Norte",
+   "uf": "PA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "1503705": {
    "municipio": "Itupiranga",
@@ -283,6 +355,12 @@
    "municipio": "Placas",
    "uf": "PA",
    "origem": "pautas",
+   "noticias": []
+  },
+  "1505908": {
+   "municipio": "Porto de Moz",
+   "uf": "PA",
+   "origem": "pesquisa",
    "noticias": []
   },
   "1506195": {
@@ -446,6 +524,18 @@
     }
    ]
   },
+  "2102101": {
+   "municipio": "Brejo",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2102200": {
+   "municipio": "Buriti",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2103406": {
    "municipio": "Coelho Neto",
    "uf": "MA",
@@ -463,6 +553,18 @@
      "confirmado": false
     }
    ]
+  },
+  "2103505": {
+   "municipio": "Colinas",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2103703": {
+   "municipio": "Cururupu",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2105427": {
    "municipio": "Itinga do Maranhão",
@@ -511,6 +613,12 @@
     }
    ]
   },
+  "2106904": {
+   "municipio": "Monção",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2107803": {
    "municipio": "Parnarama",
    "uf": "MA",
@@ -558,8 +666,67 @@
     }
    ]
   },
+  "2108504": {
+   "municipio": "Pindaré-Mirim",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-29",
+     "titulo": "Pindaré-Mirim celebra aniversário de 102 anos e recebe obras estaduais",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2025/07/pindare-mirim-celebra-aniversario-de-102-anos-e-recebe-obras-estaduais/",
+     "resumo": "No aniversário de 102 anos, o governo estadual entregou 149 títulos de propriedade a moradores e a Estação Tech, centro de formação tecnológica para jovens.",
+     "tema": "moradia",
+     "tom": "conquista",
+     "gancho": "Moradores de Pindaré-Mirim receberam 149 títulos de propriedade.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2109106": {
+   "municipio": "Presidente Dutra",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-01",
+     "titulo": "Presidente Dutra recebe estrada, escola e Casa da Mulher em agenda com pacote de entregas",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2026/03/presidente-dutra-recebe-estrada-escola-e-casa-da-mulher-em-agenda-com-pacote-de-entregas/",
+     "resumo": "Em 28 de fevereiro, o governo estadual entregou 17 km de estrada pavimentada até o povoado Creoli, escola no povoado Columbi e a Casa da Mulher Maranhense.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Presidente Dutra ganhou 17 km de estrada pavimentada até o Creoli.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-23",
+     "titulo": "Prefeitura de Presidente Dutra (MA) assina contrato de R$ 15,8 mi para obras de prevenção de desastres",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/prefeitura-de-presidente-dutra-ma-assina-contrato-de-rs-15-28280",
+     "resumo": "Contrato de R$ 15,8 milhões prevê desassoreamento e controle de vazão do Riachinho, afluente do rio Preguiça, na zona urbana, para prevenir enchentes, em até 12 meses.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Presidente Dutra assinou contrato de R$ 15,8 milhões contra enchentes.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2109601": {
+   "municipio": "Rosário",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2109809": {
    "municipio": "Santa Helena",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2110203": {
+   "municipio": "Santa Rita",
    "uf": "MA",
    "origem": "pesquisa",
    "noticias": []
@@ -599,10 +766,34 @@
     }
    ]
   },
+  "2111003": {
+   "municipio": "São João Batista",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-12-01",
+     "titulo": "Brandão entrega estrada em São João Batista e vistoria a Travessia da Baixada",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2025/12/brandao-entrega-estrada-em-sao-joao-batista-e-vistoria-a-travessia-da-baixada/",
+     "resumo": "Governo estadual entregou mais de 15 km de estrada pavimentada entre o povoado Santana, no entroncamento da MA-314, e a sede, com investimento de R$ 29,8 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "São João Batista ganhou mais de 15 km de asfalto até Santana.",
+     "confirmado": true
+    }
+   ]
+  },
   "2111508": {
    "municipio": "São Mateus do Maranhão",
    "uf": "MA",
    "origem": "pautas",
+   "noticias": []
+  },
+  "2112100": {
+   "municipio": "Timbiras",
+   "uf": "MA",
+   "origem": "pesquisa",
    "noticias": []
   },
   "2112308": {
@@ -629,6 +820,12 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2112605": {
+   "municipio": "Urbano Santos",
+   "uf": "MA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2112704": {
    "municipio": "Vargem Grande",
    "uf": "MA",
@@ -640,6 +837,70 @@
    "uf": "MA",
    "origem": "pautas",
    "noticias": []
+  },
+  "2200400": {
+   "municipio": "Altos",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2201200": {
+   "municipio": "Barras",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-10-06",
+     "titulo": "",
+     "veiculo": "Assembleia Legislativa do Piauí",
+     "url": "https://www.al.pi.leg.br/comunicacao/noticias-2026-2/apos-requerimento-da-alepi-aguas-do-piaui-pode-ampliar-acesso-a-agua-em-barras",
+     "resumo": "A Águas do Piauí disse ser tecnicamente viável atender o bairro Santinho com caixa d'água de 10 mil litros e aguarda retorno da prefeitura.",
+     "tema": "agua",
+     "tom": "problema",
+     "gancho": "O bairro Santinho, em Barras, ainda espera reforço na água.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-06-24",
+     "titulo": "",
+     "veiculo": "Alerta Licitação (aviso do DOU)",
+     "url": "https://alertalicitacao.com.br/!licitacao/DOU-bf53989cf84abcb35a5a",
+     "resumo": "Concorrência contrata construção de escola de 9 salas na sede de Barras, com recursos que incluem FNDE e Fundeb.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Barras vai construir uma escola nova de nove salas.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2202208": {
+   "municipio": "Campo Maior",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-03",
+     "titulo": "",
+     "veiculo": "GP1",
+     "url": "https://www.gp1.com.br/pi/piaui/noticia/2026/7/3/reforma-da-orla-do-acude-menor-tem-obras-iniciadas-em-campo-maior-626567.html",
+     "resumo": "Começaram as obras de reforma da Orla do Açude Menor, do Governo do Piauí via Seinfra, com investimento de R$ 8,59 milhões.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Campo Maior começou a reformar a orla do Açude Menor.",
+     "confirmado": false
+    },
+    {
+     "data": "2025-11-24",
+     "titulo": "",
+     "veiculo": "Portal O Franco",
+     "url": "https://www.portalofranco.com.br/noticia/569-ministerio-do-esporte-seleciona-30-municipios-do-piaui-para-receber-pracas-esportivas-do-novo-pac",
+     "resumo": "Portaria do Ministério do Esporte selecionou Campo Maior entre 30 municípios do Piauí para receber Praça Esportiva do Novo PAC.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Campo Maior vai ganhar praça esportiva do Novo PAC.",
+     "confirmado": false
+    }
+   ]
   },
   "2202703": {
    "municipio": "Cocal",
@@ -705,6 +966,42 @@
     }
    ]
   },
+  "2205706": {
+   "municipio": "Luis Correia",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-11-24",
+     "titulo": "",
+     "veiculo": "Portal O Franco",
+     "url": "https://www.portalofranco.com.br/noticia/569-ministerio-do-esporte-seleciona-30-municipios-do-piaui-para-receber-pracas-esportivas-do-novo-pac",
+     "resumo": "Luís Correia está entre os 30 municípios do Piauí selecionados para Praça Esportiva do Novo PAC, com campo sintético, quadra 3x3 e parque infantil.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Luis Correia foi escolhida para praça esportiva do Novo PAC.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2206209": {
+   "municipio": "Miguel Alves",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-11-24",
+     "titulo": "",
+     "veiculo": "Portal O Franco",
+     "url": "https://www.portalofranco.com.br/noticia/569-ministerio-do-esporte-seleciona-30-municipios-do-piaui-para-receber-pracas-esportivas-do-novo-pac",
+     "resumo": "Miguel Alves está entre os 30 municípios do Piauí selecionados para receber Praça Esportiva do Novo PAC.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Miguel Alves vai receber praça esportiva do Novo PAC.",
+     "confirmado": false
+    }
+   ]
+  },
   "2207900": {
    "municipio": "Pedro Ii",
    "uf": "PI",
@@ -739,6 +1036,36 @@
      "confirmado": true
     }
    ]
+  },
+  "2210607": {
+   "municipio": "São Raimundo Nonato",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-09",
+     "titulo": "SEFIR firma contrato de R$ 10,5 mi para ampliar abastecimento de água em zona rural de São Raimundo Nonato (PI)",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/sefir-firma-contrato-de-rs-10-5-mi-para-ampliar-27400",
+     "resumo": "Contrato de R$ 10,5 milhões, assinado em março pela SEFIR, prevê ampliar o abastecimento de água em localidades rurais de São Raimundo Nonato.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Zona rural de São Raimundo Nonato tem R$ 10,5 milhões para água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2211100": {
+   "municipio": "União",
+   "uf": "PI",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2300309": {
+   "municipio": "Acopiara",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2300408": {
    "municipio": "Aiuaba",
@@ -809,6 +1136,18 @@
     }
    ]
   },
+  "2300754": {
+   "municipio": "Amontada",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2301307": {
+   "municipio": "Araripe",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2301604": {
    "municipio": "Assaré",
    "uf": "CE",
@@ -835,6 +1174,48 @@
      "tom": "conquista",
      "gancho": "Assaré recebeu estradas e equipamentos sociais do governo estadual.",
      "confirmado": false
+    }
+   ]
+  },
+  "2301703": {
+   "municipio": "Aurora",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2302107": {
+   "municipio": "Baturité",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-28",
+     "titulo": "",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/7/28/baturite-formaliza-contratos-de-r-54-milhoes-para-galpoes-industriais-e-arena-esportiva",
+     "resumo": "A prefeitura contratou R$ 5,4 milhões em obras via convênio com a Adece, incluindo galpões industriais e uma areninha na zona rural.",
+     "tema": "emprego",
+     "tom": "conquista",
+     "gancho": "Baturité vai ganhar galpões industriais e uma areninha.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2302701": {
+   "municipio": "Campos Sales",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-12-20",
+     "titulo": "Elmano reúne secretários e projeta metas para 2026",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/pontopoder/elmano-reune-secretarios-e-projeta-metas-para-2026-1.3720691",
+     "resumo": "Matéria sobre metas do governo do Ceará para 2026 cita a entrega de novos campi da Uece, incluindo Campos Sales.",
+     "tema": "educacao",
+     "tom": "neutro",
+     "gancho": "Campos Sales está entre as cidades com novo campus da Uece previsto.",
+     "confirmado": true
     }
    ]
   },
@@ -920,10 +1301,63 @@
     }
    ]
   },
+  "2305308": {
+   "municipio": "Ibiapina",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2305803": {
+   "municipio": "Ipu",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2305902": {
    "municipio": "Ipueiras",
    "uf": "CE",
    "origem": "pautas",
+   "noticias": []
+  },
+  "2306306": {
+   "municipio": "Itapajé",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07",
+     "titulo": "Hospital e Maternidade João Ferreira Gomes realiza primeiro Teste da Orelhinha da história do município",
+     "veiculo": "Prefeitura de Itapajé (Boletim Semanal nº 07.4/2026)",
+     "url": "https://www.itapaje.ce.gov.br/arquivos/3413/BOLETINS__2026_0000001.pdf",
+     "resumo": "Hospital e Maternidade João Ferreira Gomes passou a fazer o Teste da Orelhinha, triagem auditiva de recém-nascidos antes feita em outras cidades.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Bebês de Itapajé agora fazem o Teste da Orelhinha na cidade.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-07",
+     "titulo": "Praça da Juventude é inaugurada e novos investimentos são anunciados para Itapajé",
+     "veiculo": "Prefeitura de Itapajé (Boletim Semanal nº 07.4/2026)",
+     "url": "https://www.itapaje.ce.gov.br/arquivos/3413/BOLETINS__2026_0000001.pdf",
+     "resumo": "Nos 167 anos de emancipação, a prefeitura inaugurou a Praça da Juventude e anunciou novo posto de saúde no Barateiro e pavimentação de todas as ruas da Piçarra.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Itapajé inaugurou a Praça da Juventude e anunciou novo posto de saúde.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2306553": {
+   "municipio": "Itarema",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2306603": {
+   "municipio": "Itatira",
+   "uf": "CE",
+   "origem": "pesquisa",
    "noticias": []
   },
   "2306900": {
@@ -955,6 +1389,12 @@
     }
    ]
   },
+  "2307106": {
+   "municipio": "Jardim",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2307502": {
    "municipio": "Lavras da Mangabeira",
    "uf": "CE",
@@ -984,6 +1424,42 @@
     }
    ]
   },
+  "2307908": {
+   "municipio": "Martinópole",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2308005": {
+   "municipio": "Massapê",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-03",
+     "titulo": "Governo anuncia obras no Ceará",
+     "veiculo": "Correio da Manhã (Correio Nordeste)",
+     "url": "https://digital.correiodamanha.com.br/jornalcorreiodamanha/2026/07/03/23342b/pdf/0307df_cmanha18-DIG.pdf",
+     "resumo": "O governo do Ceará anunciou a construção de estrada ligando Massapê ao distrito de Madeiro, antigo sonho da população; licitação prevista para 6 de julho.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Estrada ligando Massapê ao Madeiro é sonho antigo da população.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2308104": {
+   "municipio": "Mauriti",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2308203": {
+   "municipio": "Meruoca",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2308302": {
    "municipio": "Milagres",
    "uf": "CE",
@@ -1009,6 +1485,35 @@
      "tema": "estrada",
      "tom": "neutro",
      "gancho": "O Sítio São Tomé, em Milagres, vai ganhar passagem molhada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2308401": {
+   "municipio": "Missão Velha",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-01-26",
+     "titulo": "Caminhão do Cidadão leva identidade e serviços gratuitos à Capital e ao Interior",
+     "veiculo": "Opinião CE (jornal impresso)",
+     "url": "https://www.opiniaoce.com.br/wp-content/uploads/2026/01/OPINIAO-No-1252_26-01-2026-1.pdf",
+     "resumo": "Caminhão do Cidadão, programa estadual, atende em Missão Velha de terça a quinta, na Escola Major Felipe Gomes, com emissão gratuita da Carteira de Identidade Nacional.",
+     "tema": "outro",
+     "tom": "neutro",
+     "gancho": "O Caminhão do Cidadão levou identidade gratuita a Missão Velha.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-07-17",
+     "titulo": "A Missão Velha da Transnordestina",
+     "veiculo": "O POVO+ (coluna Jocélio Leal)",
+     "url": "https://mais.opovo.com.br/colunistas/jocelio-leal/2025/07/17/a-missao-velha-da-transnordestina.html",
+     "resumo": "Nota sobre visita às obras da Transnordestina em Missão Velha, onde foram lançadas em 2006; a ferrovia tinha 280 km em obras e quatro mil trabalhadores.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Foi em Missão Velha que as obras da Transnordestina foram lançadas.",
      "confirmado": true
     }
    ]
@@ -1043,6 +1548,36 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2309201": {
+   "municipio": "Nova Olinda",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2309409": {
+   "municipio": "Novo Oriente",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2310209": {
+   "municipio": "Paracuru",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-06-19",
+     "titulo": "Obra de energia vai beneficiar 8 comunidades e 2 indústrias do setor agropecuário em Paracuru",
+     "veiculo": "Opinião CE (jornal impresso)",
+     "url": "https://www.opiniaoce.com.br/wp-content/uploads/2025/06/OP-CE-QUINTA-19-06-2025-2.pdf",
+     "resumo": "Obra estadual de energia de R$ 1,54 milhão, com 3.137 metros de rede e 56 postes, passava de 90% e vai beneficiar oito comunidades e duas indústrias.",
+     "tema": "energia",
+     "tom": "conquista",
+     "gancho": "Paracuru teve obra de energia para oito comunidades.",
+     "confirmado": true
+    }
+   ]
+  },
   "2310308": {
    "municipio": "Parambu",
    "uf": "CE",
@@ -1067,17 +1602,95 @@
     }
    ]
   },
+  "2310704": {
+   "municipio": "Pentecoste",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-11",
+     "titulo": "Umirim-Pentecoste: rodovia CE-354 é inaugurada e atende antigo sonho da população",
+     "veiculo": "Ceará em Destaque (informativo diário do Governo do Ceará)",
+     "url": "https://www.ce.gov.br/wp-content/uploads/2026/04/Ceara-em-Destaque-11.03.2026.pdf",
+     "resumo": "Informativo do governo estadual noticiou a inauguração da rodovia CE-354, entre Umirim e Pentecoste; segundo o governo, a obra garante mais mobilidade e desenvolvimento à região.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "A rodovia CE-354, entre Pentecoste e Umirim, foi inaugurada.",
+     "confirmado": true
+    }
+   ]
+  },
   "2310951": {
    "municipio": "Pires Ferreira",
    "uf": "CE",
    "origem": "pesquisa",
    "noticias": []
   },
+  "2311702": {
+   "municipio": "Reriutaba",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-28",
+     "titulo": "Caixa Econômica Federal repassa R$ 3.832.751 ao município de Reriutaba/CE para pavimentação asfáltica",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/caixa-economica-federal-repassa-rs-3-832-751-ao-municipio-75592",
+     "resumo": "Contrato federal de repasse via Caixa, do programa Mobilidade Urbana, destina R$ 3,83 milhões ao asfaltamento de ruas da sede e distritos de Reriutaba.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "Reriutaba tem R$ 3,8 milhões federais para asfaltar ruas.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2311959": {
+   "municipio": "Salitre",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-01-28",
+     "titulo": "Governo Federal reconhece situação de emergência em três municípios do Ceará por estiagem",
+     "veiculo": "Opinião CE (jornal impresso)",
+     "url": "https://www.opiniaoce.com.br/wp-content/uploads/2026/01/OPINIAO-No-1254_28-01-2026-1.pdf",
+     "resumo": "Defesa Civil Nacional reconheceu emergência por estiagem em Salitre; falta de chuvas compromete abastecimento de água, agricultura e criação de animais; prefeitura pode pedir apoio federal.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Salitre teve emergência por seca reconhecida em janeiro de 2026.",
+     "confirmado": true
+    }
+   ]
+  },
   "2312007": {
    "municipio": "Santana do Acaraú",
    "uf": "CE",
    "origem": "pesquisa",
    "noticias": []
+  },
+  "2312106": {
+   "municipio": "Santana do Cariri",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2312205": {
+   "municipio": "Santa Quitéria",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-01",
+     "titulo": "Estado inicia restauração da CE-366 em municípios",
+     "veiculo": "Correio da Manhã",
+     "url": "https://digital.correiodamanha.com.br/jornalcorreiodamanha/2025/07/01/2224cd/pdf/0107df_cmanha13.pdf",
+     "resumo": "Cerimônia em Varjota, em 30 de junho, autorizou restaurar a CE-366 entre Varjota e Santa Quitéria; obra prevê reconstruir 39 km com mais de R$ 36 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "A CE-366 entre Santa Quitéria e Varjota teve restauração autorizada.",
+     "confirmado": true
+    }
+   ]
   },
   "2312304": {
    "municipio": "São Benedito",
@@ -1125,6 +1738,36 @@
      "confirmado": true
     }
    ]
+  },
+  "2313906": {
+   "municipio": "Uruoca",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2313955": {
+   "municipio": "Varjota",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-01",
+     "titulo": "Estado inicia restauração da CE-366 em municípios",
+     "veiculo": "Correio da Manhã",
+     "url": "https://digital.correiodamanha.com.br/jornalcorreiodamanha/2025/07/01/2224cd/pdf/0107df_cmanha13.pdf",
+     "resumo": "Cerimônia em Varjota, em 30 de junho, autorizou restaurar a CE-366 entre Varjota e Santa Quitéria; obra prevê reconstruir 39 km com mais de R$ 36 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Em Varjota, foi autorizada a reconstrução de 39 km da CE-366.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2314003": {
+   "municipio": "Várzea Alegre",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2401008": {
    "municipio": "Apodi",
@@ -1180,6 +1823,30 @@
      "tema": "cultura",
      "tom": "neutro",
      "gancho": "O Vale do Mamanguape fez sua quinta Festa Literária com novos livros.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2512507": {
+   "municipio": "Queimadas",
+   "uf": "PB",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2600104": {
+   "municipio": "Afogados da Ingazeira",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06",
+     "titulo": "",
+     "veiculo": "O Secretário do Povo",
+     "url": "https://www.osecretariodopovo.com/2026/06/tfd-de-afogados-da-ingazeira-atende.html",
+     "resumo": "Em maio, o Tratamento Fora do Domicílio levou mais de 2.200 pessoas a consultas, exames e procedimentos em outras cidades.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Afogados da Ingazeira levou 2.200 pacientes para se tratar fora.",
      "confirmado": false
     }
    ]
@@ -1277,6 +1944,12 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2601300": {
+   "municipio": "Barra de Guabiraba",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2601409": {
    "municipio": "Barreiros",
    "uf": "PE",
@@ -1341,6 +2014,12 @@
     }
    ]
   },
+  "2602308": {
+   "municipio": "Bonito",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2602605": {
    "municipio": "Brejo da Madre de Deus",
    "uf": "PE",
@@ -1395,6 +2074,47 @@
      "tema": "estrada",
      "tom": "conquista",
      "gancho": "Na zona rural de Cabrobó, a passagem molhada do Tamboril ficou pronta.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2603108": {
+   "municipio": "Cachoeirinha",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2603207": {
+   "municipio": "Caetés",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2603306": {
+   "municipio": "Calçado",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-17",
+     "titulo": "Em Calçado, governadora entrega a 280ª cozinha comunitária, ônibus escolares e pavimentação de ruas",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/bastidores-da-politica/em-calcado-governadora-entrega-a-280a-cozinha-comunitaria-onibus/619297/",
+     "resumo": "Calçado recebeu sua segunda cozinha comunitária, com cerca de 200 refeições gratuitas por dia, além de dois ônibus escolares e convênio para calçar 23 ruas.",
+     "tema": "outro",
+     "tom": "conquista",
+     "gancho": "Calçado ganhou sua segunda cozinha comunitária, com refeições gratuitas.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-02-27",
+     "titulo": "Ponte desaba em Calçado e tráfego para outras regiões fica impossibilitado após muita chuva",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/ponte-desaba-em-calcado-agreste-pernambuco/616048/",
+     "resumo": "Após chuva forte, desabou a ponte que liga a entrada de Calçado ao centro, um dos principais acessos à cidade, impedindo o tráfego para outras regiões.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Em Calçado, a ponte da entrada da cidade desabou após muita chuva.",
      "confirmado": true
     }
    ]
@@ -1515,6 +2235,36 @@
     }
    ]
   },
+  "2604700": {
+   "municipio": "Correntes",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2604908": {
+   "municipio": "Cumaru",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2605004": {
+   "municipio": "Cupira",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-19",
+     "titulo": "Procuradoria-Geral da Fazenda Nacional garante financiamento de R$ 39 milhões à Caixa para Cupira/PE",
+     "veiculo": "Atlas Público",
+     "url": "https://atlaspublico.com.br/noticias/procuradoria-geral-da-fazenda-nacional-garante-60246",
+     "resumo": "PGFN firmou com a Caixa garantia da União de R$ 39 milhões para financiamento a Cupira, que pode abranger infraestrutura, saneamento, saúde e educação.",
+     "tema": "economia",
+     "tom": "neutro",
+     "gancho": "Cupira obteve garantia da União para um financiamento de R$ 39 milhões.",
+     "confirmado": true
+    }
+   ]
+  },
   "2605103": {
    "municipio": "Custódia",
    "uf": "PE",
@@ -1584,6 +2334,24 @@
     }
    ]
   },
+  "2605707": {
+   "municipio": "Floresta",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-07-19",
+     "titulo": "No Sertão de Itaparica, governadora vistoria obras de estradas e nas áreas de segurança e educação",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/no-sertao-de-itaparica-governadora-vistoria-obras-de-estradas-e-nas/627333/",
+     "resumo": "Governo estadual constrói duas creches em Floresta, com mais de 300 vagas cada; cidade terá 20 vias pavimentadas e Espaço CEU da Cultura, parceria federal.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Floresta está construindo duas creches com mais de 300 vagas cada.",
+     "confirmado": true
+    }
+   ]
+  },
   "2606507": {
    "municipio": "Iati",
    "uf": "PE",
@@ -1601,6 +2369,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2606606": {
+   "municipio": "Ibimirim",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2607307": {
    "municipio": "Ipubi",
@@ -1631,6 +2405,12 @@
     }
    ]
   },
+  "2608008": {
+   "municipio": "Jataúba",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2608107": {
    "municipio": "João Alfredo",
    "uf": "PE",
@@ -1660,8 +2440,50 @@
     }
    ]
   },
+  "2608255": {
+   "municipio": "Jucati",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-02-27",
+     "titulo": "Pernambuco: chuva destrói estrada de acesso a Jucati e população fica ilhada",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/pernambuco-chuva-destroi-estrada-de-acesso-a-jucati/616052/",
+     "resumo": "Chuva forte de 26 de fevereiro abriu crateras e arrastou parte do pavimento da estrada de acesso a Jucati, afetando trabalhadores, transporte de mercadorias e acesso à saúde.",
+     "tema": "estrada",
+     "tom": "problema",
+     "gancho": "Jucati ficou praticamente ilhada após a chuva destruir a estrada de acesso.",
+     "confirmado": true
+    }
+   ]
+  },
   "2608305": {
    "municipio": "Jupi",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2608404": {
+   "municipio": "Jurema",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2608602": {
+   "municipio": "Lagoa do Ouro",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2608701": {
+   "municipio": "Lagoa dos Gatos",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2608800": {
+   "municipio": "Lajedo",
    "uf": "PE",
    "origem": "pesquisa",
    "noticias": []
@@ -1672,8 +2494,56 @@
    "origem": "pesquisa",
    "noticias": []
   },
+  "2610301": {
+   "municipio": "Paranatama",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-15",
+     "titulo": "Governadora recebe ministro de Lula para anúncio de obras hídricas nesta quinta-feira (16)",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/governadora-recebe-ministro-lula-para-anuncio-obras-hidricas/619141/",
+     "resumo": "Paranatama está entre nove municípios que receberão 43 sistemas de dessalinização para ampliar o acesso à água potável em comunidades rurais, segundo a agenda estadual.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Comunidades rurais de Paranatama vão receber dessalinizadores de água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2611002": {
+   "municipio": "Petrolândia",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2611507": {
    "municipio": "Quipapá",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2611705": {
+   "municipio": "Riacho das Almas",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-15",
+     "titulo": "Governadora recebe ministro de Lula para anúncio de obras hídricas nesta quinta-feira (16)",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/governadora-recebe-ministro-lula-para-anuncio-obras-hidricas/619141/",
+     "resumo": "Riacho das Almas está entre nove municípios que receberão 43 sistemas de dessalinização para ampliar o acesso à água potável em comunidades rurais, segundo a agenda estadual.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Comunidades rurais de Riacho das Almas vão receber dessalinizadores de água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2612000": {
+   "municipio": "Sairé",
    "uf": "PE",
    "origem": "pesquisa",
    "noticias": []
@@ -1706,6 +2576,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2612604": {
+   "municipio": "Santa Maria da Boa Vista",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2613008": {
    "municipio": "São Bento do Una",
@@ -1760,6 +2636,12 @@
     }
    ]
   },
+  "2613305": {
+   "municipio": "São Joaquim do Monte",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2613503": {
    "municipio": "São José do Belmonte",
    "uf": "PE",
@@ -1803,6 +2685,60 @@
      "tema": "agua",
      "tom": "conquista",
      "gancho": "Serrita: barragem de Poço Grande, começada nos anos 1990, será recuperada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2614105": {
+   "municipio": "Sertânia",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09-08",
+     "titulo": "Governo de Pernambuco investe R$ 28,5 milhões em obras de água, educação e infraestrutura em Sertânia",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/governo-de-pernambuco-investe-r-28-5-milhoes-em-obras-em-sertania/631736/",
+     "resumo": "Governo estadual investe R$ 28,5 milhões em Sertânia; nova adutora de R$ 16 milhões, prevista para novembro, deve encerrar rodízio de água para cerca de 33 mil habitantes.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Em Sertânia, a nova adutora deve acabar com o rodízio de água.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2614600": {
+   "municipio": "Tabira",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-13",
+     "titulo": "Raquel Lyra entrega restauração da PE-304, cozinha comunitária e Centro da Mulher em Tabira",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-cumpre-agenda-em-tabira/617057/",
+     "resumo": "Restauração de 16 km da PE-304, com R$ 18,53 milhões, foi entregue em Tabira, junto com a segunda cozinha comunitária da cidade e dois dessalinizadores.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Tabira recebeu a PE-304 restaurada até a divisa com a Paraíba.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2615003": {
+   "municipio": "Taquaritinga do Norte",
+   "uf": "PE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-11",
+     "titulo": "Raquel Lyra entrega requalificação da PE-130 em Taquaritinga do Norte",
+     "veiculo": "Portal de Prefeitura",
+     "url": "https://portaldeprefeitura.com.br/pernambuco/raquel-lyra-entrega-requalificacao-da-pe-130-em-taquaritinga-do-norte/618835/",
+     "resumo": "Requalificação de 19,5 km da PE-130, entre a PE-090, em Vertentes, e a BR-104, foi entregue em 10 de abril, com investimento de mais de R$ 20 milhões.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Taquaritinga do Norte recebeu a PE-130 reformada: 19,5 km de estrada.",
      "confirmado": true
     }
    ]
@@ -1905,6 +2841,24 @@
      "confirmado": false
     }
    ]
+  },
+  "2702355": {
+   "municipio": "Craíbas",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2702603": {
+   "municipio": "Feira Grande",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2702900": {
+   "municipio": "Girau do Ponciano",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2704005": {
    "municipio": "Junqueiro",
@@ -2010,6 +2964,54 @@
      "confirmado": true
     }
    ]
+  },
+  "2708006": {
+   "municipio": "Santana do Ipanema",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-27",
+     "titulo": "",
+     "veiculo": "Cada Minuto",
+     "url": "https://www.cadaminuto.com.br/noticia/2026/04/27/santana-do-ipanema-avanca-na-saude-com-inauguracao-de-duas-ubss",
+     "resumo": "A prefeitura inaugurou duas UBSs, nos loteamentos Reserva da Serra e Colorado II; a do Reserva da Serra deve atender cerca de 2.800 pessoas.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Santana do Ipanema ganhou duas novas unidades de saúde.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2708402": {
+   "municipio": "São José da Tapera",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2708808": {
+   "municipio": "São Sebastião",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-09-01",
+     "titulo": "Governo Federal anuncia R$ 40 mi para novos trechos da BR-101 em Alagoas",
+     "veiculo": "Movimento Econômico",
+     "url": "https://movimentoeconomico.com.br/?p=100064",
+     "resumo": "Ministério dos Transportes entregou 6 km duplicados da BR-101 em São Sebastião, com R$ 9,5 milhões, e anunciou R$ 40 milhões para passagens de acesso a aldeias indígenas.",
+     "tema": "programa_federal",
+     "tom": "conquista",
+     "gancho": "São Sebastião ganhou 6 km de BR-101 duplicada.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2709103": {
+   "municipio": "Taquarana",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2709152": {
    "municipio": "Teotônio Vilela",
@@ -2527,6 +3529,24 @@
    "uf": "BA",
    "origem": "pesquisa",
    "noticias": []
+  },
+  "2914505": {
+   "municipio": "Irará",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-06-11",
+     "titulo": "",
+     "veiculo": "O Tempo",
+     "url": "https://www.otempo.com.br/politica/2026/6/11/prefeitura-de-irara-oficializa-construcao-de-ubs-com-investimento-de-r-15-milhao",
+     "resumo": "A prefeitura oficializou R$ 1,5 milhão para construir uma UBS no loteamento Sol Nascente, por convênio com a Sesab.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Irará vai construir um posto de saúde no Sol Nascente.",
+     "confirmado": false
+    }
+   ]
   },
   "2916500": {
    "municipio": "Itapicuru",
@@ -4473,6 +5493,35 @@
    "origem": "pautas",
    "noticias": []
   },
+  "4308508": {
+   "municipio": "Frederico Westphalen",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-19",
+     "titulo": "",
+     "veiculo": "Guia Crissiumal",
+     "url": "https://guiacrissiumal.com.br/noticias/19-04-2026-Mais_de_20_medicos_pedem_demissao_em_meio_a_crise_financeira_no_hospital_de_Frederico_Westphalen",
+     "resumo": "Em meio à crise financeira, 22 médicos do Hospital Divina Providência pediram demissão; a prefeitura assumiu a gestão do hospital por decreto em março.",
+     "tema": "saude",
+     "tom": "problema",
+     "gancho": "O hospital de Frederico Westphalen perdeu 22 médicos na crise.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-07-15",
+     "titulo": "",
+     "veiculo": "Grupo Chiru",
+     "url": "https://www.grupochiru.com/noticias/administracao-de-frederico-westphalen-apresenta-projetos-de-saude-e-infraestrutura-a-bancada-gaucha-em-brasilia/",
+     "resumo": "A prefeitura apresentou à bancada gaúcha projetos de R$ 25,6 milhões, incluindo R$ 10,9 milhões para ampliar o Hospital Divina Providência.",
+     "tema": "saude",
+     "tom": "neutro",
+     "gancho": "Frederico Westphalen busca R$ 10,9 milhões para o hospital.",
+     "confirmado": false
+    }
+   ]
+  },
   "4311205": {
    "municipio": "Júlio de Castilhos",
    "uf": "RS",
@@ -4955,6 +6004,24 @@
    "uf": "GO",
    "origem": "pautas",
    "noticias": []
+  },
+  "5210406": {
+   "municipio": "Itaberaí",
+   "uf": "GO",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-04-24",
+     "titulo": "",
+     "veiculo": "Goinfra (Governo de Goiás)",
+     "url": "https://www.goinfra.go.gov.br/noticias/governo-de-goias-lanca-212-obras-em-44-municipios-goianos/214210",
+     "resumo": "O Governo de Goiás lançou 212 obras em 44 municípios, incluindo Itaberaí, para trocar pontes de madeira por bueiros de concreto.",
+     "tema": "estrada",
+     "tom": "conquista",
+     "gancho": "Itaberaí vai trocar pontes de madeira por bueiros.",
+     "confirmado": false
+    }
+   ]
   },
   "5210901": {
    "municipio": "Itapaci",

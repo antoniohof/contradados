@@ -1,5 +1,5 @@
 {
- "_sobre": "Fatos documentados sobre a gestão de prefeitos eleitos pelo PL (partido de Flávio Bolsonaro) em 2024, levantados em 09/10/2026 em imprensa e sites oficiais (MP, TCE, Câmara, MPF). Só a gestão atual; investigação não é condenação. 'tela' é a frase do vídeo; 'estagio' diz em que pé está e a resposta da prefeitura. Pesquisadas 80 cidades com mais votos em jogo; sem fato útil nas demais.",
+ "_sobre": "Fatos documentados sobre a gestão de prefeitos eleitos pelo PL (partido de Flávio Bolsonaro) em 2024, levantados em 09/10/2026 em imprensa e sites oficiais (MP, TCE, Câmara, MPF). Só a gestão atual; investigação não é condenação. 'tela' é a frase do vídeo; 'estagio' diz em que pé está e a resposta da prefeitura. Pesquisadas as 92 cidades do PL com mais votos em jogo (80 em 09/10 e 12 em 10/10/2026); sem fato útil nas demais.",
  "coletado_em": "2026-10-09",
  "cidades": {
   "3303401": {
@@ -333,6 +333,72 @@
      "url": "https://www.portaldoispontos.com.br/noticia/tribunal-de-contas-aponta-irregularidades-em-contratos-de-tecnologia-em-caieiras-e-apura-pedido-de-devolucao-de-mais-de-r-12-milhoes-aos-cofres-publicos",
      "resposta": "A prefeitura não havia se manifestado até a publicação.",
      "confirmado": true
+    }
+   ]
+  },
+  "5007901": {
+   "municipio": "Sidrolândia",
+   "uf": "MS",
+   "prefeito": "Rodrigo Basso",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2026-10-07",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "Segundo a Midiamax, a 2ª fase da Operação Dirty Pix (Gecoc e Gaeco do MPMS) apura supostos desvios de R$ 18 milhões no Hospital Municipal; a Justiça afastou dois secretários da gestão Basso por 180 dias.",
+     "tela": "O MP apura suspeita de desvio de R$ 18 milhões no hospital municipal.",
+     "estagio": "Operação de outubro de 2026. A Justiça afastou dois secretários do prefeito, que não é investigado.",
+     "veiculo": "Midiamax",
+     "url": "https://midiamax.com.br/politica/transparencia/2026/dois-secretarios-tres-vereadores-sao-afastados-apos-operacao-desvios-r-18-milhoes/",
+     "resposta": "A prefeitura e o prefeito não responderam à reportagem até a publicação.",
+     "confirmado": true
+    }
+   ]
+  },
+  "3555406": {
+   "municipio": "Ubatuba",
+   "uf": "SP",
+   "prefeito": "Flavia Pascoal",
+   "genero": "a",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-10-14",
+     "tipo": "eleitoral",
+     "status": "cassada pela Câmara em 2023; cassação suspensa pela Justiça; registro mantido pelo TSE",
+     "fato": "Segundo o TSE, a Câmara cassou Flavia Pascoal em 2023 por supostas irregularidades na compra de pães para a merenda escolar; a Justiça suspendeu a cassação e o TSE manteve o registro dela em 2025.",
+     "tela": "Em 2023, a Câmara cassou a prefeita por suspeita na compra de pães da merenda.",
+     "estagio": "A Justiça suspendeu a cassação, e o TSE manteve o registro dela.",
+     "veiculo": "TSE",
+     "url": "https://www.tse.jus.br/comunicacao/noticias/2025/Outubro/tse-mantem-registro-de-candidata-reeleita-prefeita-de-ubatuba-sp",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "5005707": {
+   "municipio": "Naviraí",
+   "uf": "MS",
+   "prefeito": "Rodrigo Sacuno",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025",
+     "tipo": "justica",
+     "status": "reajuste suspenso por liminar, mantida pelo TJMS",
+     "fato": "Após parecer favorável do MPMS, a Justiça suspendeu a lei que elevou o salário do prefeito de R$ 18 mil para R$ 35 mil; o TJMS manteve a liminar e o prefeito desistiu do recurso.",
+     "tela": "A Justiça barrou o aumento do salário do prefeito para R$ 35 mil.",
+     "estagio": "Liminar mantida pelo Tribunal de Justiça; o prefeito desistiu do recurso.",
+     "veiculo": "Midiamax e JD1 Notícias",
+     "url": "https://midiamax.com.br/politica/2025/mp-e-a-favor-da-derrubada-do-reajuste-salarial-do-prefeito-e-vice-de-navirai/",
+     "resposta": "",
+     "confirmado": false
     }
    ]
   }

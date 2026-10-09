@@ -24,8 +24,8 @@ As três frentes: **reconquistar** (quem votou em Lula em 2022 e foi de Flávio)
 que não escolheram lado). A conta fica em `site/assets/js/frentes.js`, usada pelas páginas e
 pelo build. 
 
-Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (preto,
-branco e cinza na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
+Visual: botões, menus e faixas partem do desenho do othernetwork.io, com cores próprias (lilás e
+roxo na interface; vermelho, verde-água e azul nas frentes, testadas para daltonismo); Newsreader (texto e manchetes) e
 Bricolage Grotesque (interface e números), auto-hospedadas; desenhos com rough.js; MP4 dos reels
 gravado no navegador (WebCodecs + mp4-muxer, copiado em `site/assets/vendor/`). A única chamada externa
 é a foto de fundo dos reels, que o navegador busca na Wikidata e no Wikimedia Commons; sem rede, o vídeo
