@@ -617,7 +617,7 @@ async function montar(d, escolha = {}) {
         <p class="rotulo">Sugestão de reel</p>
         <h2 class="medio">${esc(d.municipio)} (${d.uf}): <em style="color:${kit.corTexto}">${kit.nomeFrente.toLowerCase()}</em> é a frente que mais rende.</h2>
         <p class="fio"><b>O fio deste vídeo${kit.fio.assunto ? `: ${esc(kit.fio.assunto)}` : ""}.</b> ${kit.fio.passos.map(esc).join(" → ")}.</p>
-        <p class="nota">É uma sugestão. Troque o gancho, o contraste e as partes, ou use os temas e os fatos de ${esc(d.municipio)}, logo abaixo, para escrever o seu roteiro, sempre com a fonte.</p>
+        <p class="nota">É só uma sugestão: mude as partes do vídeo ou use os temas e os fatos abaixo para fazer o seu.</p>
       </div>
       <div class="linha"><a class="pill pill--acento" href="${RAIZ}cidade/?ibge=${d.ibge}">Ficha da cidade</a><a class="pill pill--branco" href="#escolha">Outra cidade</a></div>
     </div>
