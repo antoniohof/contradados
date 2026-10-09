@@ -1,0 +1,871 @@
+escopo,ibge,municipio,uf,papel,ano,sq,nome_urna,nome,partido,situacao,votos_no_municipio,foto
+municipio,1200401,Rio Branco,AC,prefeito(a) 2024,2024,10001908807,Tião Bocalom,Sebastiao Bocalom Rodrigues,PL,ELEITO,,fotos/2024_10001908807.jpg
+municipio,1200401,Rio Branco,AC,vice-prefeito(a) 2024,2024,10001908808,Alysson Bestene,Alysson Bestene Lins,PP,ELEITO,,fotos/2024_10001908808.jpg
+municipio,1200427,Rodrigues Alves,AC,prefeito(a) 2024,2024,10002058655,Salatiel Magalhães,Salatiel Pinheiro Magalhaes,PSD,ELEITO,,fotos/2024_10002058655.jpg
+municipio,1200427,Rodrigues Alves,AC,vice-prefeito(a) 2024,2024,10002058654,Neto Do Jamilson,Antônio Leandro De Almeida Neto,REPUBLICANOS,ELEITO,,fotos/2024_10002058654.jpg
+municipio,1300060,Amaturá,AM,prefeito(a) 2024,2024,40001924371,Nazaré Rocha,Maria De Nazaré Da Silva Rocha,MDB,ELEITO,,fotos/2024_40001924371.jpg
+municipio,1300060,Amaturá,AM,vice-prefeito(a) 2024,2024,40001924372,Rodney,Rodeney Rabelo Torres,REPUBLICANOS,ELEITO,,fotos/2024_40001924372.jpg
+municipio,2916401,Itapetinga,BA,prefeito(a) 2024,2024,50002124778,Eduardo Hagge,Eduardo Jorge Almeida Hagge,MDB,ELEITO,,fotos/2024_50002124778.jpg
+municipio,2916401,Itapetinga,BA,vice-prefeito(a) 2024,2024,50002365577,Alecio Chaves,Alecio Silva Chaves,PSB,ELEITO,,fotos/2024_50002365577.jpg
+municipio,2932705,Uruçuca,BA,prefeito(a) 2024,2024,50002221042,Magnolia Barreto,Magnolia Andrade Barreto,UNIÃO,ELEITO,,fotos/2024_50002221042.jpg
+municipio,2932705,Uruçuca,BA,vice-prefeito(a) 2024,2024,50002221043,Lebrão,Alessandro Santos Ribeiro,PSB,ELEITO,,fotos/2024_50002221043.jpg
+municipio,2904704,Buerarema,BA,prefeito(a) 2024,2024,50001910186,Gel Da Farmácia,Gerivaldo Souza Freitas,UNIÃO,ELEITO,,fotos/2024_50001910186.jpg
+municipio,2904704,Buerarema,BA,vice-prefeito(a) 2024,2024,50001910187,Thaiane,Thaiane Santos Pereira,UNIÃO,ELEITO,,fotos/2024_50001910187.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,prefeito(a) 2024,2024,50002067070,Adãozinho,Adão Alves De Carvalho Filho,PSD,ELEITO,,fotos/2024_50002067070.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,vice-prefeito(a) 2024,2024,50002067071,Ivan,Ivan Tiburtino Oliveira,PSD,ELEITO,,fotos/2024_50002067071.jpg
+municipio,2902054,Araçás,BA,prefeito(a) 2024,2024,50001922721,Agamenon Coelho,Agamenon Oliveira Coelho,UNIÃO,ELEITO,,fotos/2024_50001922721.jpg
+municipio,2902054,Araçás,BA,vice-prefeito(a) 2024,2024,50001922720,Gelzo,Sandro Barbosa De Almeida,UNIÃO,ELEITO,,fotos/2024_50001922720.jpg
+municipio,2923902,Pau Brasil,BA,prefeito(a) 2024,2024,50002048516,Robson Venâncio,Robson Venâncio Do Nascimento,PT,ELEITO,,fotos/2024_50002048516.jpg
+municipio,2923902,Pau Brasil,BA,vice-prefeito(a) 2024,2024,50002048517,Man De Milton Da Manteiga,Osman De França Santos,PSD,ELEITO,,fotos/2024_50002048517.jpg
+municipio,2915403,Itaju Do Colônia,BA,prefeito(a) 2024,2024,50002000594,Elder Fontes,Elder Marques Fontes,PSD,ELEITO,,fotos/2024_50002000594.jpg
+municipio,2915403,Itaju Do Colônia,BA,vice-prefeito(a) 2024,2024,50002000595,Juscelino,Juscelino Pires De Almeida,PSD,ELEITO,,fotos/2024_50002000595.jpg
+municipio,2929354,São José Da Vitória,BA,prefeito(a) 2024,2024,50001948544,Professor Rodson,Rodson Pereira Costa,PODE,ELEITO,,fotos/2024_50001948544.jpg
+municipio,2929354,São José Da Vitória,BA,vice-prefeito(a) 2024,2024,50001948543,Fernandinho,Fernando Pereira Barros,PODE,ELEITO,,fotos/2024_50001948543.jpg
+municipio,2918555,Jussari,BA,prefeito(a) 2024,2024,50002059841,Orleans,Orleans Mascarenhas Dos Santos,PSD,ELEITO,,fotos/2024_50002059841.jpg
+municipio,2918555,Jussari,BA,vice-prefeito(a) 2024,2024,50002059840,Ricardo Paraguai,Ricardo Figueiredo Fontes,PT,#NULO,,fotos/2024_50002059840.jpg
+municipio,5208707,Goiânia,GO,prefeito(a) 2024,2024,90002002544,Mabel,Sandro Da Mabel Antônio Scodro,UNIÃO,ELEITO,,fotos/2024_90002002544.jpg
+municipio,5208707,Goiânia,GO,vice-prefeito(a) 2024,2024,90002002545,Coronel Claudia,Claudia Da Silva Lira,AVANTE,ELEITO,,fotos/2024_90002002545.jpg
+municipio,5201405,Aparecida De Goiânia,GO,prefeito(a) 2024,2024,90001991831,Leandro Vilela,Leandro Vilela Velloso,MDB,ELEITO,,fotos/2024_90001991831.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vice-prefeito(a) 2024,2024,90001991832,João Campos,Joao Campos De Araujo,PODE,ELEITO,,fotos/2024_90001991832.jpg
+municipio,5212501,Luziânia,GO,prefeito(a) 2024,2024,90002020990,Diego Sorgatto,Diego Vaz Sorgatto,UNIÃO,ELEITO,,fotos/2024_90002020990.jpg
+municipio,5212501,Luziânia,GO,vice-prefeito(a) 2024,2024,90002020989,Télio Rodrigues,Télio Rodrigues De Queiroz,MDB,ELEITO,,fotos/2024_90002020989.jpg
+municipio,5221858,Valparaíso De Goiás,GO,prefeito(a) 2024,2024,90002217052,Marcus Vinicius,Marcus Vinicius Mendes Ferreira,MDB,ELEITO,,fotos/2024_90002217052.jpg
+municipio,5221858,Valparaíso De Goiás,GO,vice-prefeito(a) 2024,2024,90002217051,Waguinho Do Céu Azul,Wagner Paixão Espírito Santo,UNIÃO,ELEITO,,fotos/2024_90002217051.jpg
+municipio,5221403,Trindade,GO,prefeito(a) 2024,2024,90002072540,Marden,Marden Gabriel Alves De Aguiar Júnior,UNIÃO,ELEITO,,fotos/2024_90002072540.jpg
+municipio,5221403,Trindade,GO,vice-prefeito(a) 2024,2024,90002072541,Juan Carlos Freire,Juan Carlos Alves Freire,MDB,ELEITO,,fotos/2024_90002072541.jpg
+municipio,5220454,Senador Canedo,GO,prefeito(a) 2024,2024,90002256583,Fernando Pellozo,Fernando Pellozo,UNIÃO,ELEITO,,fotos/2024_90002256583.jpg
+municipio,5220454,Senador Canedo,GO,vice-prefeito(a) 2024,2024,90002256582,Salma Bahia,Salma Bahia Carreiro Leite Da Silveira,PP,ELEITO,,fotos/2024_90002256582.jpg
+municipio,5215231,Novo Gama,GO,prefeito(a) 2024,2024,90001958456,Carlinhos Do Mangão,Carlos Alves Dos Santos,PL,ELEITO,,fotos/2024_90001958456.jpg
+municipio,5215231,Novo Gama,GO,vice-prefeito(a) 2024,2024,90001958455,Akalanto,Antônio Joviniano Pacífico,PP,ELEITO,,fotos/2024_90001958455.jpg
+municipio,5205497,Cidade Ocidental,GO,prefeito(a) 2024,2024,90002244866,Lulinha,Luiz Gonzaga Viana Filho,PP,ELEITO,,fotos/2024_90002244866.jpg
+municipio,5205497,Cidade Ocidental,GO,vice-prefeito(a) 2024,2024,90002244865,Professor Luciano,Anderson Luciano De Carvalho,PODE,#NULO,,fotos/2024_90002244865.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,prefeito(a) 2024,2024,90001957026,Jessica Do Premium,Jessica Aparecida Ribeiro Gomes,UNIÃO,ELEITO,,fotos/2024_90001957026.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,vice-prefeito(a) 2024,2024,90001957025,Alexandre De Jesus,Alexandre De Jesus Assis,MDB,ELEITO,,fotos/2024_90001957025.jpg
+municipio,5209705,Hidrolândia,GO,prefeito(a) 2024,2024,90002027177,Zé Délio Jr,José Délio Alves Júnior,UNIÃO,ELEITO,,fotos/2024_90002027177.jpg
+municipio,5209705,Hidrolândia,GO,vice-prefeito(a) 2024,2024,90002027178,Welington Leandro,Welington Leandro De Souza,MDB,ELEITO,,fotos/2024_90002027178.jpg
+municipio,5200308,Alexânia,GO,prefeito(a) 2024,2024,90002137769,Warley Gouveia,Warley Ferreira Gouveia,PODE,ELEITO,,fotos/2024_90002137769.jpg
+municipio,5200308,Alexânia,GO,vice-prefeito(a) 2024,2024,90002137770,Naldim Magalhaes,Antonio Naldim Magalhaes,PRD,ELEITO,,fotos/2024_90002137770.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,prefeito(a) 2024,2024,90002225574,Alessandro Barcelos,Alessandro Otone Barcelos,UNIÃO,ELEITO,,fotos/2024_90002225574.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,vice-prefeito(a) 2024,2024,90002225575,Gilmar Meneses,Gilmar José De Meneses,PRD,ELEITO,,fotos/2024_90002225575.jpg
+municipio,5200050,Abadia De Goiás,GO,prefeito(a) 2024,2024,90001971838,Wander Saraiva,Wander Saraiva De Carvalho,PP,ELEITO,,fotos/2024_90001971838.jpg
+municipio,5200050,Abadia De Goiás,GO,vice-prefeito(a) 2024,2024,90001971837,André Da Farmácia,André Bueno De Freitas,CIDADANIA,ELEITO,,fotos/2024_90001971837.jpg
+municipio,5218904,Rubiataba,GO,prefeito(a) 2024,2024,90002276264,Padre Weber,Weber Sivirino Da Costa,PSD,ELEITO,,fotos/2024_90002276264.jpg
+municipio,5218904,Rubiataba,GO,vice-prefeito(a) 2024,2024,90002276265,Professora Maria Rufino,Maria Aparecida Rufino Vieira,PL,ELEITO,,fotos/2024_90002276265.jpg
+municipio,5201306,Anicuns,GO,prefeito(a) 2024,2024,90002225933,Paulinho Do Barreirão,Paulo César José Do Nascimento,UNIÃO,ELEITO,,fotos/2024_90002225933.jpg
+municipio,5201306,Anicuns,GO,vice-prefeito(a) 2024,2024,90002225934,Junior Valadão,Domingos Pereira Valadão Junior,MDB,ELEITO,,fotos/2024_90002225934.jpg
+municipio,5200100,Abadiânia,GO,prefeito(a) 2024,2024,90002059096,Dr Itamar,Itamar Vieira Gomes,PP,ELEITO,,fotos/2024_90002059096.jpg
+municipio,5200100,Abadiânia,GO,vice-prefeito(a) 2024,2024,90002059097,André Do Dão,André Luis Arantes Lima,NOVO,ELEITO,,fotos/2024_90002059097.jpg
+municipio,5208400,Goianápolis,GO,prefeito(a) 2024,2024,90002312633,Jeovazinho,Jeova Leite Cardoso,UNIÃO,ELEITO,,fotos/2024_90002312633.jpg
+municipio,5208400,Goianápolis,GO,vice-prefeito(a) 2024,2024,90002312634,Paulinho Badiania,Paulo Cezar Rodrigues Dos Reis,MDB,ELEITO,,fotos/2024_90002312634.jpg
+municipio,5201801,Aragoiânia,GO,prefeito(a) 2024,2024,90002015923,Waldir Da Fokus,Waldir Batista Rios,PODE,ELEITO,,fotos/2024_90002015923.jpg
+municipio,5201801,Aragoiânia,GO,vice-prefeito(a) 2024,2024,90002015922,Wendel,Wendel Rodrigues Rosa,MDB,ELEITO,,fotos/2024_90002015922.jpg
+municipio,5215009,Nova Veneza,GO,prefeito(a) 2024,2024,90001967572,Costa,Valdemar Batista Costa,UNIÃO,ELEITO,,fotos/2024_90001967572.jpg
+municipio,5215009,Nova Veneza,GO,vice-prefeito(a) 2024,2024,90001967573,Reginaldo,Reginaldo Tavares Canto,PL,ELEITO,,fotos/2024_90001967573.jpg
+municipio,5207907,Flores De Goiás,GO,prefeito(a) 2024,2024,90002091647,Altran Avelar,Altran Lopes Avelar Nery,UNIÃO,ELEITO,,fotos/2024_90002091647.jpg
+municipio,5207907,Flores De Goiás,GO,vice-prefeito(a) 2024,2024,90002091646,Mauro Do Aviao,Mauro Moura De Oliveira,PL,ELEITO,,fotos/2024_90002091646.jpg
+municipio,5205802,Corumbá De Goiás,GO,prefeito(a) 2024,2024,90002024518,Chico Vaca,Francisco Alessandro Fernandes,PL,ELEITO,,fotos/2024_90002024518.jpg
+municipio,5205802,Corumbá De Goiás,GO,vice-prefeito(a) 2024,2024,90002024517,Celio Fleury,Celio Fleury,UNIÃO,ELEITO,,fotos/2024_90002024517.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,prefeito(a) 2024,2024,90002225262,Marcus Rinco,Marcus Adilson Rinco,UNIÃO,ELEITO,,fotos/2024_90002225262.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,vice-prefeito(a) 2024,2024,90002225263,Helena,Helena Maria Da Conceicao Gomes,PRD,ELEITO,,fotos/2024_90002225263.jpg
+municipio,5219803,São Domingos,GO,prefeito(a) 2024,2024,90002197337,Gilvanir Cardoso,Gilvanir Cardoso Dos Reis,PP,ELEITO,,fotos/2024_90002197337.jpg
+municipio,5219803,São Domingos,GO,vice-prefeito(a) 2024,2024,90002197336,Gilson Serracena,Gilson De Paula Serracena,PRD,ELEITO,,fotos/2024_90002197336.jpg
+municipio,5221197,Terezópolis De Goiás,GO,prefeito(a) 2024,2024,90002229723,Fhelipe Do Bill,Fhelipe Oliveira De Almeida Souza,PP,ELEITO,,fotos/2024_90002229723.jpg
+municipio,5221197,Terezópolis De Goiás,GO,vice-prefeito(a) 2024,2024,90002229724,Dr Antônio,Antônio Carlos Da Silva Júnior,PSDB,ELEITO,,fotos/2024_90002229724.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,prefeito(a) 2024,2024,90002005960,Graciele Da Arte Trigo,Graciele Marta Do Nascimento,UNIÃO,ELEITO,,fotos/2024_90002005960.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,vice-prefeito(a) 2024,2024,90002005961,Alzemar,Alzemar Teixeira Barbosa Neto,PL,ELEITO,,fotos/2024_90002005961.jpg
+municipio,5222302,Vila Propício,GO,prefeito(a) 2024,2024,90002073692,Waldilei Lemos,Waldilei Jose De Lemos,UNIÃO,ELEITO,,fotos/2024_90002073692.jpg
+municipio,5222302,Vila Propício,GO,vice-prefeito(a) 2024,2024,90002073691,Joao Tatico,Joao Batista Filho,PP,ELEITO,,fotos/2024_90002073691.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,prefeito(a) 2024,2024,90002298624,Felipi Campos,Felipi De Sousa Campos,UNIÃO,ELEITO,,fotos/2024_90002298624.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,vice-prefeito(a) 2024,2024,90002384323,Rubão,Luiz Rubens Da Rocha,MDB,ELEITO,,fotos/2024_90002384323.jpg
+municipio,5220157,São Luiz Do Norte,GO,prefeito(a) 2024,2024,90002189768,Elieudes Moraes,Elieudes Dias De Moraes,UNIÃO,ELEITO,,fotos/2024_90002189768.jpg
+municipio,5220157,São Luiz Do Norte,GO,vice-prefeito(a) 2024,2024,90002189767,Magno Do Abacaxi,Magno Fernandes Martins,MDB,ELEITO,,fotos/2024_90002189767.jpg
+municipio,5200175,Água Fria De Goiás,GO,prefeito(a) 2024,2024,90001933650,Virginia Castro,Virginia Angelica Santos Castro,PP,ELEITO,,fotos/2024_90001933650.jpg
+municipio,5200175,Água Fria De Goiás,GO,vice-prefeito(a) 2024,2024,90001933649,Wendel,Wendel Cavalcante De Lima,SOLIDARIEDADE,ELEITO,,fotos/2024_90001933649.jpg
+municipio,5209408,Guarani De Goiás,GO,prefeito(a) 2024,2024,90002184139,Janezio,Janezio Pereira Da Silva,MDB,ELEITO,,fotos/2024_90002184139.jpg
+municipio,5209408,Guarani De Goiás,GO,vice-prefeito(a) 2024,2024,90002184140,Tonim De Zim,Luiz Antonio Tavares Lopes,PL,ELEITO,,fotos/2024_90002184140.jpg
+municipio,5221908,Varjão,GO,prefeito(a) 2024,2024,90002016519,Diogo Guimarães,Diogo Guimarães De Almeida,PODE,ELEITO,,fotos/2024_90002016519.jpg
+municipio,5221908,Varjão,GO,vice-prefeito(a) 2024,2024,90002016520,Cristiane Nico,Cristiane Kelen Da Silva,PODE,ELEITO,,fotos/2024_90002016520.jpg
+municipio,5206305,Cristianópolis,GO,prefeito(a) 2024,2024,90002024134,Juliana Da Farmácia,Juliana Izabel De Paula Costa,UNIÃO,ELEITO,,fotos/2024_90002024134.jpg
+municipio,5206305,Cristianópolis,GO,vice-prefeito(a) 2024,2024,90002024135,Wander Prudente,Wander Prudente Guimarães Neto,PL,ELEITO,,fotos/2024_90002024135.jpg
+municipio,5218706,Rianápolis,GO,prefeito(a) 2024,2024,90002114653,Gilber Miranda,Gilber Roque Pereira De Miranda,PP,ELEITO,,fotos/2024_90002114653.jpg
+municipio,5218706,Rianápolis,GO,vice-prefeito(a) 2024,2024,90002114654,Cristiano Fernandes,Cristiano Fernandes Dos Reis,MDB,ELEITO,,fotos/2024_90002114654.jpg
+municipio,5203609,Brazabrantes,GO,prefeito(a) 2024,2024,90001926826,Marcio Tuca,Marcio Antônio Machado,UNIÃO,ELEITO,,fotos/2024_90001926826.jpg
+municipio,5203609,Brazabrantes,GO,vice-prefeito(a) 2024,2024,90001926827,Lacir Do Alaor,Lacir Carlos De Oliveira,MDB,ELEITO,,fotos/2024_90001926827.jpg
+municipio,5214101,Mutunópolis,GO,prefeito(a) 2024,2024,90002141827,Luizinho,Luiz Martins De Oliveira,MDB,ELEITO,,fotos/2024_90002141827.jpg
+municipio,5214101,Mutunópolis,GO,vice-prefeito(a) 2024,2024,90002141828,Gustavo Do Rui,Gustavo Rocha Vaz Da Costa,MDB,ELEITO,,fotos/2024_90002141828.jpg
+municipio,5203939,Buriti De Goiás,GO,prefeito(a) 2024,2024,90002155834,Dra. Átila,Átila Rúbia De Deus,UNIÃO,ELEITO,,fotos/2024_90002155834.jpg
+municipio,5203939,Buriti De Goiás,GO,vice-prefeito(a) 2024,2024,90002155835,Pastor João Pinto,João Batista Alves Pinto,PL,ELEITO,,fotos/2024_90002155835.jpg
+municipio,5221080,Teresina De Goiás,GO,prefeito(a) 2024,2024,90001951342,Mano,Kleverton Barbosa De Mello,UNIÃO,ELEITO,,fotos/2024_90001951342.jpg
+municipio,5221080,Teresina De Goiás,GO,vice-prefeito(a) 2024,2024,90001951341,Martinho,Martinho Soares Da Silva,PRD,ELEITO,,fotos/2024_90001951341.jpg
+municipio,5205703,Córrego Do Ouro,GO,prefeito(a) 2024,2024,90002105558,Danilo Contador,Danilo Marcos Dos Santos,PP,ELEITO,,fotos/2024_90002105558.jpg
+municipio,5205703,Córrego Do Ouro,GO,vice-prefeito(a) 2024,2024,90002105557,Urailto Tavares,Urailto Antonio Tavares,UNIÃO,ELEITO,,fotos/2024_90002105557.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,prefeito(a) 2024,2024,90002311409,Deny Leles,Deny Leles Aparecido Rosa,MDB,ELEITO,,fotos/2024_90002311409.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,vice-prefeito(a) 2024,2024,90002311410,Leitão,Elias Gomes Santiago,UNIÃO,ELEITO,,fotos/2024_90002311410.jpg
+municipio,5200159,Adelândia,GO,prefeito(a) 2024,2024,90002104719,Edinho Do Laticínio,Edson Vieira De Paula,UNIÃO,ELEITO,,fotos/2024_90002104719.jpg
+municipio,5200159,Adelândia,GO,vice-prefeito(a) 2024,2024,90002104718,David,David Teodoro Batista,MDB,ELEITO,,fotos/2024_90002104718.jpg
+municipio,5214705,Nova América,GO,prefeito(a) 2024,2024,90001930999,Cléber Junio,Cléber Junio De Souza,UNIÃO,ELEITO,,fotos/2024_90001930999.jpg
+municipio,5214705,Nova América,GO,vice-prefeito(a) 2024,2024,90001931000,Weuler John,Weuler John De Souza,MDB,ELEITO,,fotos/2024_90001931000.jpg
+municipio,5212055,Jesúpolis,GO,prefeito(a) 2024,2024,90002312070,Adriano Peixoto,Adriano Peixoto Oliveira,PP,ELEITO,,fotos/2024_90002312070.jpg
+municipio,5212055,Jesúpolis,GO,vice-prefeito(a) 2024,2024,90002312071,Jeso Vidal,Jeso Vidal Da Silva,MDB,ELEITO,,fotos/2024_90002312071.jpg
+municipio,5213400,Moiporá,GO,prefeito(a) 2024,2024,90002078050,Zé Wilson,Wilson José Ferreira,PL,ELEITO,,fotos/2024_90002078050.jpg
+municipio,5213400,Moiporá,GO,vice-prefeito(a) 2024,2024,90002078051,Paulo Vitor,Paulo Vitor Ferreira,PP,ELEITO,,fotos/2024_90002078051.jpg
+municipio,5220280,São Patrício,GO,prefeito(a) 2024,2024,90001930985,Danilo Max,Danilo Max De Souza Costa,MDB,ELEITO,,fotos/2024_90001930985.jpg
+municipio,5220280,São Patrício,GO,vice-prefeito(a) 2024,2024,90002067945,Wendel Antonio,Wendel Antonio Ferreira,UNIÃO,ELEITO,,fotos/2024_90002067945.jpg
+municipio,5212253,Lagoa Santa,GO,prefeito(a) 2024,2024,90002353719,Adivair,Adivair Gonçalves De Macedo,MDB,ELEITO,,fotos/2024_90002353719.jpg
+municipio,5212253,Lagoa Santa,GO,vice-prefeito(a) 2024,2024,90002353720,Vera,Veronice Rodrigues Da Silva,UNIÃO,ELEITO,,fotos/2024_90002353720.jpg
+municipio,5106174,Nova Nazaré,MT,prefeito(a) 2024,2024,110002009093,Narizinho,Reginaldo Martins Del Colle,PSB,ELEITO,,fotos/2024_110002009093.jpg
+municipio,5106174,Nova Nazaré,MT,vice-prefeito(a) 2024,2024,110002009094,Luís Felipe,Luis Felipe Alves De Carvalho,MDB,ELEITO,,fotos/2024_110002009094.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,prefeito(a) 2024,2024,140002219526,Alcides Barra,Alcides Abreu Barra,MDB,ELEITO,,fotos/2024_140002219526.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,vice-prefeito(a) 2024,2024,140002381602,Jenivaldo Costa,Jenivaldo Trindade Costa,PSDB,ELEITO,,fotos/2024_140002381602.jpg
+municipio,1500701,Anajás,PA,prefeito(a) 2024,2024,140002003108,Boró,Vivaldo Mendes Conceição,MDB,ELEITO,,fotos/2024_140002003108.jpg
+municipio,1500701,Anajás,PA,vice-prefeito(a) 2024,2024,140002003107,Quito,João Nascimento E Silva Filho,PSDB,ELEITO,,fotos/2024_140002003107.jpg
+municipio,1506302,Salvaterra,PA,prefeito(a) 2024,2024,140002152510,Valentim,Valentim Lucas De Oliveira,MDB,ELEITO,,fotos/2024_140002152510.jpg
+municipio,1506302,Salvaterra,PA,vice-prefeito(a) 2024,2024,140002152509,Nivaldo,Nivaldo Do Nascimento Ramos,UNIÃO,ELEITO,,fotos/2024_140002152509.jpg
+municipio,2505501,Vista Serrana,PB,prefeito(a) 2024,2024,150001908571,Emmanuel De Querubina,Emmanuel Da Nobrega Dias,PSB,ELEITO,,fotos/2024_150001908571.jpg
+municipio,2505501,Vista Serrana,PB,vice-prefeito(a) 2024,2024,150001908572,Washington De Tita,Washington Gomes De Medeiros,PDT,ELEITO,,fotos/2024_150001908572.jpg
+municipio,2611606,Recife,PE,prefeito(a) 2024,2024,170002004102,João Campos,João Henrique De Andrade Lima Campos,PSB,ELEITO,,fotos/2024_170002004102.jpg
+municipio,2611606,Recife,PE,vice-prefeito(a) 2024,2024,170002004103,Victor Marques,Victor Marques Alves,PC do B,ELEITO,,fotos/2024_170002004103.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,prefeito(a) 2024,2024,170001935254,Mano Medeiros,Luiz José Inojosa De Medeiros,PL,ELEITO,,fotos/2024_170001935254.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vice-prefeito(a) 2024,2024,170001935255,Irmã Babate,Josabete Maria Da Silva,PL,ELEITO,,fotos/2024_170001935255.jpg
+municipio,2609600,Olinda,PE,prefeito(a) 2024,2024,170001959444,Mirella,Mirella Fernanda Bezerra De Almeida,PSD,ELEITO,,fotos/2024_170001959444.jpg
+municipio,2609600,Olinda,PE,vice-prefeito(a) 2024,2024,170001959445,Chiquinho,Francisco Carvalho Da Silva Neto,PSD,ELEITO,,fotos/2024_170001959445.jpg
+municipio,2610707,Paulista,PE,prefeito(a) 2024,2024,170002082073,Ramos,Severino Ramos De Santana,PSDB,ELEITO,,fotos/2024_170002082073.jpg
+municipio,2610707,Paulista,PE,vice-prefeito(a) 2024,2024,170002082074,Felipe Andrade,Felipe Andrade De Oliveira,PSD,ELEITO,,fotos/2024_170002082074.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,prefeito(a) 2024,2024,170001935054,Lula Cabral,Luiz Cabral De Oliveira Filho,SOLIDARIEDADE,ELEITO,,fotos/2024_170001935054.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,vice-prefeito(a) 2024,2024,170001935055,Jamerson Batera,Jamerson Wellington Ramos Da Silva,PSB,ELEITO,,fotos/2024_170001935055.jpg
+municipio,2603454,Camaragibe,PE,prefeito(a) 2024,2024,170001915525,Diego Cabral,Diego Da Rocha Cabral,REPUBLICANOS,ELEITO,,fotos/2024_170001915525.jpg
+municipio,2603454,Camaragibe,PE,vice-prefeito(a) 2024,2024,170001915524,Comandante Debora,Debora Lourdes Da Rocha Da Silva,PT,ELEITO,,fotos/2024_170001915524.jpg
+municipio,2613701,São Lourenço Da Mata,PE,prefeito(a) 2024,2024,170001991551,Vinicius Labanca,Vinicius Labanca,PSB,ELEITO,,fotos/2024_170001991551.jpg
+municipio,2613701,São Lourenço Da Mata,PE,vice-prefeito(a) 2024,2024,170001991552,Lucca,Lucca Kehrle Pereira Albanez Labanca,PSB,ELEITO,,fotos/2024_170001991552.jpg
+municipio,2601409,Barreiros,PE,prefeito(a) 2024,2024,170002183861,Carlinhos Da Pedreira,Carlos Artur Soares De Avellar Junior,PP,ELEITO,,fotos/2024_170002183861.jpg
+municipio,2601409,Barreiros,PE,vice-prefeito(a) 2024,2024,170002183860,Zonari Sanguinetti,Zonari Tadeu Wanderley Sanguinetti,PP,ELEITO,,fotos/2024_170002183860.jpg
+municipio,2614204,Sirinhaém,PE,prefeito(a) 2024,2024,170002040601,Manoel Da Retifica,Manoel Soares De Souza Filho,PODE,ELEITO,,fotos/2024_170002040601.jpg
+municipio,2614204,Sirinhaém,PE,vice-prefeito(a) 2024,2024,170002040600,Fernado Urquiza,Fernando Luiz Urquiza Lima,PL,#NULO,,fotos/2024_170002040600.jpg
+municipio,2611804,Ribeirão,PE,prefeito(a) 2024,2024,170001976558,Carol Jordão,Ana Carolina Coelho Jordão,PSB,ELEITO,,fotos/2024_170001976558.jpg
+municipio,2611804,Ribeirão,PE,vice-prefeito(a) 2024,2024,170001976557,Militão Filho,Alequissandro Miranda De Barros Silva,PSB,ELEITO,,fotos/2024_170001976557.jpg
+municipio,2609501,Nazaré Da Mata,PE,prefeito(a) 2024,2024,170001915020,Aninha Da Ferbom,Adriana Andrade Lima Vasconcelos Coutinho,PSDB,ELEITO,,fotos/2024_170001915020.jpg
+municipio,2609501,Nazaré Da Mata,PE,vice-prefeito(a) 2024,2024,170001915021,Rostand Negromonte,Rostand Cysneiros Negromonte Filho,PODE,ELEITO,,fotos/2024_170001915021.jpg
+municipio,2600401,Água Preta,PE,prefeito(a) 2024,2024,170001925080,Miruca,Antonio Manoel Da Silva,PSB,ELEITO,,fotos/2024_170001925080.jpg
+municipio,2600401,Água Preta,PE,vice-prefeito(a) 2024,2024,170001925081,Xavier,Cícero Francisco Da Silva,PSB,ELEITO,,fotos/2024_170001925081.jpg
+municipio,2608503,Lagoa De Itaenga,PE,prefeito(a) 2024,2024,170001915130,Dimas Natanael,Dimas Caetano De Sousa,REPUBLICANOS,ELEITO,,fotos/2024_170001915130.jpg
+municipio,2608503,Lagoa De Itaenga,PE,vice-prefeito(a) 2024,2024,170001915129,Estenio Ferreira,Estênio Ferreira Oliveira Da Silva,AVANTE,ELEITO,,fotos/2024_170001915129.jpg
+municipio,2613404,São José Da Coroa Grande,PE,prefeito(a) 2024,2024,170002047824,Barbosa,José Barbosa De Andrade,PSD,ELEITO,,fotos/2024_170002047824.jpg
+municipio,2613404,São José Da Coroa Grande,PE,vice-prefeito(a) 2024,2024,170002047825,Bruna De Odaci,Bruna Suelem Sales Alves,PSDB,ELEITO,,fotos/2024_170002047825.jpg
+municipio,2210300,São Julião,PI,prefeito(a) 2024,2024,180002104236,Renaldinho,Renaldo Ramos Rodrigues,PDT,ELEITO,,fotos/2024_180002104236.jpg
+municipio,2210300,São Julião,PI,vice-prefeito(a) 2024,2024,180002104235,José Neci,Jose Francisco De Sousa,PT,ELEITO,,fotos/2024_180002104235.jpg
+municipio,2207934,Pedro Laurentino,PI,prefeito(a) 2024,2024,180001985778,Carlinhos Reis,Carlos Henrique Coelho Reis,MDB,ELEITO,,fotos/2024_180001985778.jpg
+municipio,2207934,Pedro Laurentino,PI,vice-prefeito(a) 2024,2024,180001985777,Nilmar Barbosa,Nilmar Barbosa Damasceno,PSB,ELEITO,,fotos/2024_180001985777.jpg
+municipio,4126678,Tamarana,PR,prefeito(a) 2024,2024,160002262239,Luzia Suzukawa,Luzia Harue Suzukawa,PSD,ELEITO,,fotos/2024_160002262239.jpg
+municipio,4126678,Tamarana,PR,vice-prefeito(a) 2024,2024,160002262238,João Vanite,Joao Batista Pereira,PL,ELEITO,,fotos/2024_160002262238.jpg
+municipio,3303609,Paracambi,RJ,prefeito(a) 2024,2024,190002141635,Andrezinho Ceciliano,Andre Luiz Ramalho Ceciliano,PT,ELEITO,,fotos/2024_190002141635.jpg
+municipio,3303609,Paracambi,RJ,vice-prefeito(a) 2024,2024,190002141634,Romero Do Hospital,Romero Marques De Freitas,PT,ELEITO,,fotos/2024_190002141634.jpg
+municipio,2412302,São José Do Campestre,RN,prefeito(a) 2024,2024,200002187105,Eribaldo Pinguim,Eribaldo Lima,MDB,ELEITO,,fotos/2024_200002187105.jpg
+municipio,2412302,São José Do Campestre,RN,vice-prefeito(a) 2024,2024,200002187106,Anderson Andrade,Anderson Henrique Alencar Andrade,SOLIDARIEDADE,ELEITO,,fotos/2024_200002187106.jpg
+municipio,1100106,Guajará-Mirim,RO,prefeito(a) 2024,2024,220002134109,Netinho,Fabio Garcia De Oliveira,PP,ELEITO,,fotos/2024_220002134109.jpg
+municipio,1100106,Guajará-Mirim,RO,vice-prefeito(a) 2024,2024,220002134110,Ricardo Maia,Ricardo Lira Maia,REPUBLICANOS,ELEITO,,fotos/2024_220002134110.jpg
+municipio,1400456,Pacaraima,RR,prefeito(a) 2024,2024,230002128682,Walderi D Avila,Walderi D Avila Sampaio,PP,ELEITO,,fotos/2024_230002128682.jpg
+municipio,1400456,Pacaraima,RR,vice-prefeito(a) 2024,2024,230002377277,Vagner Da Patrol,Vagner Bezerra De Araujo,REPUBLICANOS,ELEITO,,fotos/2024_230002377277.jpg
+municipio,1400407,Normandia,RR,prefeito(a) 2024,2024,230002193965,Dr Raposo,Wenston Paulino Berto Raposo,PP,ELEITO,,fotos/2024_230002193965.jpg
+municipio,1400407,Normandia,RR,vice-prefeito(a) 2024,2024,230002193966,Veralice,Veralice Lima De Oliveira,REDE,ELEITO,,fotos/2024_230002193966.jpg
+municipio,1400704,Uiramutã,RR,prefeito(a) 2024,2024,230002128774,Tuxaua Benísio,Benísio Roberto De Souza,REDE,ELEITO,,fotos/2024_230002128774.jpg
+municipio,1400704,Uiramutã,RR,vice-prefeito(a) 2024,2024,230002128775,Professor Jeremias,Jeremias Souza Lima,REDE,ELEITO,,fotos/2024_230002128775.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,prefeito(a) 2024,2024,260002045338,Ivan Sobral,Ivan Apostolo Sobral,UNIÃO,ELEITO,,fotos/2024_260002045338.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,vice-prefeito(a) 2024,2024,260002045337,Pastor Jonatha,Jonatha Santana Santos,PSD,ELEITO,,fotos/2024_260002045337.jpg
+municipio,2803609,Laranjeiras,SE,prefeito(a) 2024,2024,260002111813,Juca,Jose De Araujo Leite Neto,MDB,ELEITO,,fotos/2024_260002111813.jpg
+municipio,2803609,Laranjeiras,SE,vice-prefeito(a) 2024,2024,260002111814,Luciano Da Várzea,Luciano Dos Santos,PSD,ELEITO,,fotos/2024_260002111814.jpg
+municipio,2805307,Pirambu,SE,prefeito(a) 2024,2024,260002026378,Guilherme,Guilherme Jullius Zacarias De Melo,UNIÃO,ELEITO,,fotos/2024_260002026378.jpg
+municipio,2805307,Pirambu,SE,vice-prefeito(a) 2024,2024,260002026377,Detinha,Maria Bernadete Do Carmo,PSD,ELEITO,,fotos/2024_260002026377.jpg
+municipio,1200401,Rio Branco,AC,vereador(a) PT 2024,2024,10001984745,André Kamai,André Kamai Da Silva Soares,PT,ELEITO POR MÉDIA,,fotos/2024_10001984745.jpg
+municipio,1200427,Rodrigues Alves,AC,vereador(a) PL 2024,2024,10002207220,Raiden Da Endemias,Raiden Da Silva Alves,PL,ELEITO POR MÉDIA,,fotos/2024_10002207220.jpg
+municipio,1200427,Rodrigues Alves,AC,vereador(a) PL 2024,2024,10002207214,Orlinete Smyth,Orlinete Nascimento Vieira,PL,ELEITO POR QP,,fotos/2024_10002207214.jpg
+municipio,1200401,Rio Branco,AC,vereador(a) PL 2024,2024,10002197042,Raimundo Nenem,Raimundo Nonato Ferreira Da Silva,PL,ELEITO POR QP,,fotos/2024_10002197042.jpg
+municipio,1200401,Rio Branco,AC,vereador(a) PL 2024,2024,10002197046,Joaquim Florencio,Joaquim Florencio Da Silva,PL,ELEITO POR QP,,fotos/2024_10002197046.jpg
+municipio,1200427,Rodrigues Alves,AC,vereador(a) PL 2024,2024,10002207217,Chico Vaqueiro,Francisco Fernandes De Sena,PL,ELEITO POR QP,,fotos/2024_10002207217.jpg
+municipio,1200401,Rio Branco,AC,vereador(a) PL 2024,2024,10002197056,Antonio Morais,Antonio Lira De Morais,PL,ELEITO POR MÉDIA,,fotos/2024_10002197056.jpg
+municipio,2923902,Pau Brasil,BA,vereador(a) PT 2024,2024,50002048519,Acacio,Acacio Matos De Miranda,PT,ELEITO POR QP,,fotos/2024_50002048519.jpg
+municipio,2918555,Jussari,BA,vereador(a) PT 2024,2024,50002349566,Vinicius Monteiro,Vinicius Dos Santos Monteiro,PT,ELEITO POR QP,,fotos/2024_50002349566.jpg
+municipio,2923902,Pau Brasil,BA,vereador(a) PT 2024,2024,50002048520,Beto Moto Taxi,Alberto De Jesus Reis,PT,ELEITO POR MÉDIA,,fotos/2024_50002048520.jpg
+municipio,2916401,Itapetinga,BA,vereador(a) PT 2024,2024,50002078252,Sibele,Sibele Shirley Da Silva Moura Nery,PT,ELEITO POR QP,,fotos/2024_50002078252.jpg
+municipio,2915403,Itaju Do Colônia,BA,vereador(a) PT 2024,2024,50002007181,Jota,José Alves Dos Santos Filho,PT,ELEITO POR QP,,fotos/2024_50002007181.jpg
+municipio,2923902,Pau Brasil,BA,vereador(a) PT 2024,2024,50002048523,Fábio Titiah,Fábio Vieira Dos Santos,PT,ELEITO POR QP,,fotos/2024_50002048523.jpg
+municipio,2915403,Itaju Do Colônia,BA,vereador(a) PT 2024,2024,50002007189,Rualei,Rualei Costa Lucas,PT,ELEITO POR QP,,fotos/2024_50002007189.jpg
+municipio,2916401,Itapetinga,BA,vereador(a) PL 2024,2024,50002064358,Pastor Jean Doriel,Jean Doriel Da Silva,PL,ELEITO POR MÉDIA,,fotos/2024_50002064358.jpg
+municipio,5214705,Nova América,GO,vereador(a) PL 2024,2024,90001997209,Carlos Daniel,Carlos Daniel Aparecido De Oliveira,PL,ELEITO POR QP,,fotos/2024_90001997209.jpg
+municipio,5215231,Novo Gama,GO,vereador(a) PL 2024,2024,90001973338,Paulo Jordão,Paulo Sérgio Moreira Júnior,PL,ELEITO POR QP,,fotos/2024_90001973338.jpg
+municipio,5205497,Cidade Ocidental,GO,vereador(a) PL 2024,2024,90002245592,Frank Denis,Frank Denis Costa Miranda,PL,ELEITO POR QP,,fotos/2024_90002245592.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vereador(a) PL 2024,2024,90002059367,Dieyme Vasconcelos,Dieyme Xavier De Vasconcelos,PL,ELEITO POR MÉDIA,,fotos/2024_90002059367.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PT 2024,2024,90002106318,Professor Edward,Edward Madureira Brasil,PT,ELEITO POR QP,,fotos/2024_90002106318.jpg
+municipio,5212253,Lagoa Santa,GO,vereador(a) PL 2024,2024,90002308066,Elson Motorista,Elson Batista Alves,PL,ELEITO POR QP,,fotos/2024_90002308066.jpg
+municipio,5208400,Goianápolis,GO,vereador(a) PL 2024,2024,90002231779,Roberto Amorim,Roberto Gonçalves De Amorim,PL,ELEITO POR QP,,fotos/2024_90002231779.jpg
+municipio,5220280,São Patrício,GO,vereador(a) PL 2024,2024,90002152362,Claudia Parreira,Claudia Alexandrina Parreira Rodrigues,PL,ELEITO POR QP,,fotos/2024_90002152362.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,vereador(a) PL 2024,2024,90002222886,Wemerson,Wemerson Pereira Nascimento,PL,ELEITO POR QP,,fotos/2024_90002222886.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,vereador(a) PL 2024,2024,90002222880,Hudes Ferraz,Hudes Moreira Ferraz,PL,ELEITO POR QP,,fotos/2024_90002222880.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,vereador(a) PL 2024,2024,90002106553,Rafael Victor Da Rádio,Rafael Victor Mendonça Ciriaco,PL,ELEITO POR QP,,fotos/2024_90002106553.jpg
+municipio,5201801,Aragoiânia,GO,vereador(a) PL 2024,2024,90002140844,Eudes,Eudes Carlos De Oliveira,PL,ELEITO POR MÉDIA,,fotos/2024_90002140844.jpg
+municipio,5220280,São Patrício,GO,vereador(a) PL 2024,2024,90002152364,Rosane Do Vaka Loka,Rosane Alves Garcia,PL,ELEITO POR QP,,fotos/2024_90002152364.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vereador(a) PL 2024,2024,90002059353,Gleison Flávio,Gleison De Oliveira Flavio,PL,ELEITO POR QP,,fotos/2024_90002059353.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PT 2024,2024,90002106330,Kátia,Kátia Maria Dos Santos,PT,ELEITO POR QP,,fotos/2024_90002106330.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PL 2024,2024,90002064974,Oséias Varão,Oseias Mendes Pereira Varao,PL,ELEITO POR QP,,fotos/2024_90002064974.jpg
+municipio,5215009,Nova Veneza,GO,vereador(a) PL 2024,2024,90001983255,Serginho Do Souza,Sergio Manuel Souza,PL,ELEITO POR QP,,fotos/2024_90001983255.jpg
+municipio,5221403,Trindade,GO,vereador(a) PL 2024,2024,90002357312,Pastor Alex Nepomoceno,Alex Correia Da Silva Nepomoceno,PL,ELEITO POR MÉDIA,,fotos/2024_90002357312.jpg
+municipio,5215231,Novo Gama,GO,vereador(a) PL 2024,2024,90001973341,Zé Lopes,José Lopes Da Silva,PL,ELEITO POR QP,,fotos/2024_90001973341.jpg
+municipio,5221080,Teresina De Goiás,GO,vereador(a) PT 2024,2024,90001951471,Tchola,Josivane Moreira Da Silva,PT,ELEITO POR QP,,fotos/2024_90001951471.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,vereador(a) PL 2024,2024,90002028879,Gralha,Edivanio Tavares De Oliveira,PL,ELEITO POR MÉDIA,,fotos/2024_90002028879.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vereador(a) PL 2024,2024,90002059356,Felipe Cortez,Felipe Cortes Bezerra,PL,ELEITO POR QP,,fotos/2024_90002059356.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PT 2024,2024,90002106319,Fabrício Rosa,Fabrício Silva Rosa,PT,ELEITO POR MÉDIA,,fotos/2024_90002106319.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PL 2024,2024,90002064984,Willian Veloso,Willian Veloso De Carvalho,PL,ELEITO POR MÉDIA,,fotos/2024_90002064984.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PL 2024,2024,90002064983,Coronel Urzêda,Wellington De Urzeda Mota,PL,ELEITO POR QP,,fotos/2024_90002064983.jpg
+municipio,5215231,Novo Gama,GO,vereador(a) PL 2024,2024,90001973327,Vereador Pacífico,José Pacífico Neto,PL,ELEITO POR MÉDIA,,fotos/2024_90001973327.jpg
+municipio,5215231,Novo Gama,GO,vereador(a) PL 2024,2024,90001973342,André Logos,André Campos Da Silva,PL,ELEITO POR MÉDIA,,fotos/2024_90001973342.jpg
+municipio,5205802,Corumbá De Goiás,GO,vereador(a) PL 2024,2024,90002054211,Reinaldo Potência,Reinaldo Belchior De Siqueira,PL,ELEITO POR QP,,fotos/2024_90002054211.jpg
+municipio,5205497,Cidade Ocidental,GO,vereador(a) PL 2024,2024,90002245585,Del,Jasiel Almeida Mota,PL,ELEITO POR MÉDIA,,fotos/2024_90002245585.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vereador(a) PT 2024,2024,90002263952,Mazinho Madre Germana,Velomar Vieira De Sousa,PT,ELEITO POR QP,,fotos/2024_90002263952.jpg
+municipio,5201405,Aparecida De Goiânia,GO,vereador(a) PL 2024,2024,90002059371,André Fortaleza,Andre Luis Carlos Da Silva,PL,ELEITO POR QP,,fotos/2024_90002059371.jpg
+municipio,5208707,Goiânia,GO,vereador(a) PL 2024,2024,90002064982,Major Vitor Hugo,Vitor Hugo De Araujo Almeida,PL,ELEITO POR QP,,fotos/2024_90002064982.jpg
+municipio,5207907,Flores De Goiás,GO,vereador(a) PL 2024,2024,90002091709,Magela,Geraldo Magela Pereira,PL,ELEITO POR MÉDIA,,fotos/2024_90002091709.jpg
+municipio,5201801,Aragoiânia,GO,vereador(a) PL 2024,2024,90002140835,Junior Doutor,Jovany Doutor Da Silva,PL,ELEITO POR QP,,fotos/2024_90002140835.jpg
+municipio,5221080,Teresina De Goiás,GO,vereador(a) PT 2024,2024,90001951476,Zinha,Reimar Pereira Da Silva,PT,ELEITO POR MÉDIA,,fotos/2024_90001951476.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,vereador(a) PL 2024,2024,90002028880,Adriano Teixeira,Adriano Manoel Teixeira Campos,PL,ELEITO POR QP,,fotos/2024_90002028880.jpg
+municipio,5214705,Nova América,GO,vereador(a) PL 2024,2024,90001997212,Jermisson Jeimim,Jermisson Pereira De Deus,PL,ELEITO POR MÉDIA,,fotos/2024_90001997212.jpg
+municipio,5207907,Flores De Goiás,GO,vereador(a) PL 2024,2024,90002091706,Camila Marciel,Camila Marciel De Holanda,PL,ELEITO POR QP,,fotos/2024_90002091706.jpg
+municipio,5215009,Nova Veneza,GO,vereador(a) PL 2024,2024,90001983251,Weber Balduino,Weber Balduino Dos Santos,PL,ELEITO POR MÉDIA,,fotos/2024_90001983251.jpg
+municipio,5215231,Novo Gama,GO,vereador(a) PL 2024,2024,90001973337,Marcos Oliveira,Marcos Antônio De Oliveira,PL,ELEITO POR MÉDIA,,fotos/2024_90001973337.jpg
+municipio,5200100,Abadiânia,GO,vereador(a) PL 2024,2024,90002287887,Renato Da Autoescola,Renato Farias Ribeiro,PL,ELEITO POR QP,,fotos/2024_90002287887.jpg
+municipio,5214705,Nova América,GO,vereador(a) PL 2024,2024,90001997207,Ildelmar Serralheiro,Ildelmar Alves De Souza,PL,ELEITO POR QP,,fotos/2024_90001997207.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,vereador(a) PL 2024,2024,90002106551,Fernando Iphone,Fernando Henrique Fiduario Gomes,PL,ELEITO POR QP,,fotos/2024_90002106551.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,vereador(a) PT 2024,2024,140001903910,Deco Silva,Raimundo Jorge De Leao E Silva,PT,ELEITO POR QP,,fotos/2024_140001903910.jpg
+municipio,1500701,Anajás,PA,vereador(a) PT 2024,2024,140002243970,Oziel Macaco,Oziel Reis De Souza,PT,ELEITO POR QP,,fotos/2024_140002243970.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,vereador(a) PT 2024,2024,140001903907,Marquinho Da Pesca,Marcos Magalhaes Pimentel Rodrigues,PT,ELEITO POR MÉDIA,,fotos/2024_140001903907.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PT 2024,2024,170002086594,Henrique Metalúrgico,Henrique Gomes Do Nascimento,PT,ELEITO POR MÉDIA,,fotos/2024_170002086594.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936559,Getulio Belem,Getulio Manoel Belem,PL,ELEITO POR QP,,fotos/2024_170001936559.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936571,Charles Motorista,Charles Darks Rodrigues De Aguiar,PL,ELEITO POR QP,,fotos/2024_170001936571.jpg
+municipio,2609600,Olinda,PE,vereador(a) PT 2024,2024,170001980556,Eugênia Lima,Maria Eugenia Wanderley Lima,PT,ELEITO POR QP,,fotos/2024_170001980556.jpg
+municipio,2609600,Olinda,PE,vereador(a) PL 2024,2024,170002110999,Jadilson Bombeiro,Jadilson Francisco De Andrade,PL,ELEITO POR QP,,fotos/2024_170002110999.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936557,Nado Do Caminhão,Jose Leonardo Diniz,PL,ELEITO POR QP,,fotos/2024_170001936557.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,vereador(a) PL 2024,2024,170002095318,Naelson Valerio,Naelson Valerio De Oliveira,PL,ELEITO POR MÉDIA,,fotos/2024_170002095318.jpg
+municipio,2611606,Recife,PE,vereador(a) PT 2024,2024,170002103421,Kari Santos,Karina Da Silva Santos,PT,ELEITO POR MÉDIA,,fotos/2024_170002103421.jpg
+municipio,2611606,Recife,PE,vereador(a) PL 2024,2024,170002103378,Gilson Machado Filho,Gilson Machado Guimarães,PL,ELEITO POR QP,,fotos/2024_170002103378.jpg
+municipio,2609600,Olinda,PE,vereador(a) PL 2024,2024,170002111006,Sarmento,Alessandro Barbosa Sarmento,PL,ELEITO POR MÉDIA,,fotos/2024_170002111006.jpg
+municipio,2609501,Nazaré Da Mata,PE,vereador(a) PL 2024,2024,170002198545,Son Da Saúde,Edson Antonio Da Silva,PL,ELEITO POR QP,,fotos/2024_170002198545.jpg
+municipio,2609501,Nazaré Da Mata,PE,vereador(a) PL 2024,2024,170002198546,Joaquim De Fabinho,Joaquim Francisco De Oliveira Neto,PL,ELEITO POR MÉDIA,,fotos/2024_170002198546.jpg
+municipio,2610707,Paulista,PE,vereador(a) PL 2024,2024,170001939191,Fernanda De Edinho,Fernanda Angela Gomes De Albuquerque Pinto,PL,ELEITO POR QP,,fotos/2024_170001939191.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936581,Armando Junior,Armando Jose Ursulino Neto,PL,ELEITO POR MÉDIA,,fotos/2024_170001936581.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936556,Eurico Moura,Eurico Da Silva Moura,PL,ELEITO POR QP,,fotos/2024_170001936556.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,vereador(a) PT 2024,2024,170001983434,Gabi Jerônimo,Bruna Gabriela Jerônimo Santos,PT,ELEITO POR QP,,fotos/2024_170001983434.jpg
+municipio,2611606,Recife,PE,vereador(a) PT 2024,2024,170002103418,Liana Cirne,Liana Cristina Da Costa Cirne Lins,PT,ELEITO POR QP,,fotos/2024_170002103418.jpg
+municipio,2611606,Recife,PE,vereador(a) PL 2024,2024,170002103385,Paulo Muniz,Paulo Sergio Moreira Muniz Filho,PL,ELEITO POR MÉDIA,,fotos/2024_170002103385.jpg
+municipio,2610707,Paulista,PE,vereador(a) PT 2024,2024,170002082211,George Freitas,George Washington Jaime De Freitas,PT,ELEITO POR QP,,fotos/2024_170002082211.jpg
+municipio,2601409,Barreiros,PE,vereador(a) PL 2024,2024,170002243042,Lucas Lafaiete,Lucas Lafaiete Nascimento Dos Santos,PL,ELEITO POR QP,,fotos/2024_170002243042.jpg
+municipio,2601409,Barreiros,PE,vereador(a) PL 2024,2024,170002243044,Elimário,Elimário De Melo Farias,PL,ELEITO POR QP,,fotos/2024_170002243044.jpg
+municipio,2601409,Barreiros,PE,vereador(a) PL 2024,2024,170002243037,Henrique Do Hospital,Luiz Henrique Texeira Gama,PL,ELEITO POR MÉDIA,,fotos/2024_170002243037.jpg
+municipio,2611606,Recife,PE,vereador(a) PL 2024,2024,170002103376,Fred Ferreira,Frederico Menezes De Moura Sobrinho Ferreira,PL,ELEITO POR QP,,fotos/2024_170002103376.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936577,Adeildo Da Igreja,Adeildo Pereira Lins,PL,ELEITO POR MÉDIA,,fotos/2024_170001936577.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,vereador(a) PL 2024,2024,170001936578,Neneca Do Piston,Jose Givaldo Ribeiro,PL,ELEITO POR QP,,fotos/2024_170001936578.jpg
+municipio,2611606,Recife,PE,vereador(a) PL 2024,2024,170002103383,Thiago Medina,Thiago Medina Duarte,PL,ELEITO POR QP,,fotos/2024_170002103383.jpg
+municipio,2207934,Pedro Laurentino,PI,vereador(a) PT 2024,2024,180001959128,Josimar Dias,Josimar Dias Rodrigues,PT,ELEITO POR QP,,fotos/2024_180001959128.jpg
+municipio,2207934,Pedro Laurentino,PI,vereador(a) PT 2024,2024,180001959125,Balinha,Josivaldo De Sousa Araujo,PT,ELEITO POR QP,,fotos/2024_180001959125.jpg
+municipio,2210300,São Julião,PI,vereador(a) PT 2024,2024,180002036685,Viviany Lima,Viviany Lima Santos,PT,ELEITO POR QP,,fotos/2024_180002036685.jpg
+municipio,2207934,Pedro Laurentino,PI,vereador(a) PT 2024,2024,180001959131,Edimar Barbosa,Edimar Barbosa Coelho,PT,ELEITO POR MÉDIA,,fotos/2024_180001959131.jpg
+municipio,2207934,Pedro Laurentino,PI,vereador(a) PT 2024,2024,180001959126,Wilson Barbosa,Wilson De Sousa Barbosa,PT,ELEITO POR QP,,fotos/2024_180001959126.jpg
+municipio,3303609,Paracambi,RJ,vereador(a) PT 2024,2024,190002142306,Doutor Igor Diogo,Igor Franco De Souza Araujo Diogo,PT,ELEITO POR QP,,fotos/2024_190002142306.jpg
+municipio,3303609,Paracambi,RJ,vereador(a) PL 2024,2024,190002144194,Alan Silva,Alan Silva Dos Santos,PL,ELEITO POR QP,,fotos/2024_190002144194.jpg
+municipio,3303609,Paracambi,RJ,vereador(a) PL 2024,2024,190002144196,Rhavid Carvalho,Rhavid Lima Carvalho,PL,ELEITO POR MÉDIA,,fotos/2024_190002144196.jpg
+municipio,2412302,São José Do Campestre,RN,vereador(a) PL 2024,2024,200001995529,Luciano De Honório,Régio Luciano Xavier Alves,PL,ELEITO POR QP,,fotos/2024_200001995529.jpg
+municipio,1100106,Guajará-Mirim,RO,vereador(a) PL 2024,2024,220002371636,Barrosão,Gecildo Alves Barroso,PL,ELEITO POR MÉDIA,,fotos/2024_220002371636.jpg
+municipio,1400704,Uiramutã,RR,vereador(a) PT 2024,2024,230002127851,Esdras Do Coração Macuxi,Esdras Kaian Ribeiro Xavier,PT,ELEITO POR QP,,fotos/2024_230002127851.jpg
+municipio,2803609,Laranjeiras,SE,vereador(a) PL 2024,2024,260002238720,Emerson Da Farmácia,Emerson Batista Rocha,PL,ELEITO POR MÉDIA,,fotos/2024_260002238720.jpg
+municipio,2803609,Laranjeiras,SE,vereador(a) PT 2024,2024,260002170952,Rustinho Do Lambe Sujo,Ruston Luiz Zuzarte Dos Santos,PT,ELEITO POR MÉDIA,,fotos/2024_260002170952.jpg
+municipio,2803609,Laranjeiras,SE,vereador(a) PT 2024,2024,260002170956,Dr Leo,Whorton Leon Cruz De Lima,PT,ELEITO POR QP,,fotos/2024_260002170956.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) federal 2026 (top 3 no município),2026,220002536880,Coronel Chrisóstomo,Joao Chrisostomo De Moura,PL,ELEITO POR QP,3449.0,fotos/2026_220002536880.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) federal 2026 (top 3 no município),2026,220002536882,Lucio Mosquini,Lucio Antonio Mosquini,PL,ELEITO POR QP,2499.0,fotos/2026_220002536882.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) federal 2026 (top 3 no município),2026,220002541487,Dra. Cordélia Santana,Cordélia Cruz Santana,PDT,NÃO ELEITO,2305.0,fotos/2026_220002541487.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) estadual 2026 (top 3 no município),2026,220002537560,Dra. Taíssa Sousa,Taissa Da Silva Sousa,PL,ELEITO POR QP,8556.0,fotos/2026_220002537560.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) estadual 2026 (top 3 no município),2026,220002542550,Raissa Bento,Raissa Da Silva Paes,PSD,SUPLENTE,2850.0,fotos/2026_220002542550.jpg
+municipio,1100106,Guajará-Mirim,RO,deputado(a) estadual 2026 (top 3 no município),2026,220002547345,Tambura Amondawa,Tambura Amondawa,SOLIDARIEDADE,SUPLENTE,674.0,fotos/2026_220002547345.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) federal 2026 (top 3 no município),2026,10002545227,Zezinho Barbary,Jose Estephan Amorim Barbary Filho,PP,SUPLENTE,1957.0,fotos/2026_10002545227.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) federal 2026 (top 3 no município),2026,10002532422,Pedro Longo,Pedro Luis Longo,MDB,ELEITO POR QP,1600.0,fotos/2026_10002532422.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) federal 2026 (top 3 no município),2026,10002532489,Roberto Duarte,Roberto Duarte Junior,REPUBLICANOS,ELEITO POR QP,921.0,fotos/2026_10002532489.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002534784,Jailson Amorim,Jailson Pontes De Amorim,PSD,ELEITO POR QP,2567.0,fotos/2026_10002534784.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002544527,Maria Antonia,Maria Antonia Pinheiro Barbosa,PP,SUPLENTE,1527.0,fotos/2026_10002544527.jpg
+municipio,1200427,Rodrigues Alves,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002544524,André Da Droga Vale,Andre Roberto Rogerio Vale Dos Santos,PP,ELEITO POR QP,685.0,fotos/2026_10002544524.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) federal 2026 (top 3 no município),2026,10002545228,Coronel Ulysses,Ulysses Freitas Pereira De Araujo,UNIÃO,ELEITO POR QP,18240.0,fotos/2026_10002545228.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) federal 2026 (top 3 no município),2026,10002545231,Socorro Neri,Maria Do Socorro Neri Medeiros De Souza,PP,ELEITO POR QP,18215.0,fotos/2026_10002545231.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) federal 2026 (top 3 no município),2026,10002532420,Minoru Kinpara,Minoru Martins Kinpara,MDB,SUPLENTE,14731.0,fotos/2026_10002532420.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002532447,Marcus Alexandre,Marcus Alexandre Medici Aguiar Viana Da Silva,MDB,ELEITO POR QP,11424.0,fotos/2026_10002532447.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002533980,Emerson Jarude,Emerson Oliveira Jarude Thomaz,NOVO,ELEITO POR QP,8616.0,fotos/2026_10002533980.jpg
+municipio,1200401,Rio Branco,AC,deputado(a) estadual 2026 (top 3 no município),2026,10002544519,Samir Bestene,Samir Figueiredo Bestene,PP,ELEITO POR QP,8528.0,fotos/2026_10002544519.jpg
+municipio,1300060,Amaturá,AM,deputado(a) federal 2026 (top 3 no município),2026,40002532761,Sidney Leite,Sidney Ricardo De Oliveira Leite,PSD,ELEITO POR QP,2737.0,fotos/2026_40002532761.jpg
+municipio,1300060,Amaturá,AM,deputado(a) federal 2026 (top 3 no município),2026,40002533206,Silas Câmara,Silas Camara,REPUBLICANOS,SUPLENTE,728.0,fotos/2026_40002533206.jpg
+municipio,1300060,Amaturá,AM,deputado(a) federal 2026 (top 3 no município),2026,40002542670,Fausto Jr,Fausto Vieira Dos Santos Junior,UNIÃO,ELEITO POR QP,552.0,fotos/2026_40002542670.jpg
+municipio,1300060,Amaturá,AM,deputado(a) estadual 2026 (top 3 no município),2026,40002532791,Rozenha,Ednailson Leite Rozenha,PSD,ELEITO POR QP,3390.0,fotos/2026_40002532791.jpg
+municipio,1300060,Amaturá,AM,deputado(a) estadual 2026 (top 3 no município),2026,40002534389,João Luiz,Joao Luiz Almeida Da Silva,REPUBLICANOS,SUPLENTE,740.0,fotos/2026_40002534389.jpg
+municipio,1300060,Amaturá,AM,deputado(a) estadual 2026 (top 3 no município),2026,40002532751,David Bemerguy,David Nunes Bemerguy,MDB,ELEITO POR QP,331.0,fotos/2026_40002532751.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549830,Joenia Wapichana,Joenia Batista De Carvalho,PT,NÃO ELEITO,2617.0,fotos/2026_230002549830.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549630,Defensor Stélio Dener,Stélio Dener De Souza Cruz,UNIÃO,ELEITO POR MÉDIA,1468.0,fotos/2026_230002549630.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) federal 2026 (top 3 no município),2026,230002538184,Rodrigo Mesquita,Rodrigo Fernandes Mesquita,PODE,ELEITO POR QP,860.0,fotos/2026_230002538184.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549344,Joilma Teodora,Joilma Teodora De Araujo Silva,UNIÃO,ELEITO POR QP,1069.0,fotos/2026_230002549344.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549327,Zelandes Patamona,Zelandes Alberto Oliveira,PT,NÃO ELEITO,903.0,fotos/2026_230002549327.jpg
+municipio,1400704,Uiramutã,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549352,Marcelo Cabral,Marcelo Mota De Macedo,UNIÃO,ELEITO POR QP,551.0,fotos/2026_230002549352.jpg
+municipio,1400407,Normandia,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549838,Edio Lopes,Edio Vieira Lopes,PSDB,NÃO ELEITO,1011.0,fotos/2026_230002549838.jpg
+municipio,1400407,Normandia,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549628,Zé Haroldo Cathedral,Jose Haroldo Figueiredo Campos,UNIÃO,ELEITO POR QP,997.0,fotos/2026_230002549628.jpg
+municipio,1400407,Normandia,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549830,Joenia Wapichana,Joenia Batista De Carvalho,PT,NÃO ELEITO,954.0,fotos/2026_230002549830.jpg
+municipio,1400407,Normandia,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549344,Joilma Teodora,Joilma Teodora De Araujo Silva,UNIÃO,ELEITO POR QP,838.0,fotos/2026_230002549344.jpg
+municipio,1400407,Normandia,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002533356,Neto Loureiro,Jose Hamilton Gomes Loureiro Neto,PL,ELEITO POR QP,698.0,fotos/2026_230002533356.jpg
+municipio,1400407,Normandia,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002552042,Victor Spies,Victor Spies Lima,PDT,ELEITO POR QP,474.0,fotos/2026_230002552042.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549630,Defensor Stélio Dener,Stélio Dener De Souza Cruz,UNIÃO,ELEITO POR MÉDIA,1109.0,fotos/2026_230002549630.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) federal 2026 (top 3 no município),2026,230002549628,Zé Haroldo Cathedral,Jose Haroldo Figueiredo Campos,UNIÃO,ELEITO POR QP,1039.0,fotos/2026_230002549628.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) federal 2026 (top 3 no município),2026,230002538184,Rodrigo Mesquita,Rodrigo Fernandes Mesquita,PODE,ELEITO POR QP,887.0,fotos/2026_230002538184.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549347,Catarina Guerra,Catarina De Lima Guerra Da Silva,UNIÃO,ELEITO POR QP,803.0,fotos/2026_230002549347.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549243,Darbi De Jesus,Darbilene Rufino Do Vale,REPUBLICANOS,ELEITO POR QP,506.0,fotos/2026_230002549243.jpg
+municipio,1400456,Pacaraima,RR,deputado(a) estadual 2026 (top 3 no município),2026,230002549356,Jorge Everton,Jorge Everton Barreto Guimaraes,UNIÃO,ELEITO POR QP,438.0,fotos/2026_230002549356.jpg
+municipio,1500701,Anajás,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540462,Antonio Doido,Antonio Leocadio Dos Santos,MDB,ELEITO POR MÉDIA,5631.0,fotos/2026_140002540462.jpg
+municipio,1500701,Anajás,PA,deputado(a) federal 2026 (top 3 no município),2026,140002548356,Yuri Faro,Yuri Roberto Furtado Faro,PT,SUPLENTE,1414.0,fotos/2026_140002548356.jpg
+municipio,1500701,Anajás,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540461,Cassio Andrade,Cassio Coelho Andrade,MDB,ELEITO POR MÉDIA,1061.0,fotos/2026_140002540461.jpg
+municipio,1500701,Anajás,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002541727,Andreia Xarão,Andreia Serra Melo,MDB,ELEITO POR QP,2834.0,fotos/2026_140002541727.jpg
+municipio,1500701,Anajás,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002536778,Mazinho Salomão,Odimar Wanderley Salomao,REPUBLICANOS,SUPLENTE,2426.0,fotos/2026_140002536778.jpg
+municipio,1500701,Anajás,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002541723,Andrea Dantas,Andrea Costa Dantas,MDB,ELEITO POR MÉDIA,1960.0,fotos/2026_140002541723.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) federal 2026 (top 3 no município),2026,140002548357,Dilvanda Faro,Dilvanda Furtado Faro,PT,ELEITO POR QP,3324.0,fotos/2026_140002548357.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540462,Antonio Doido,Antonio Leocadio Dos Santos,MDB,ELEITO POR MÉDIA,2486.0,fotos/2026_140002540462.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540456,Jader Filho,Jader Fontenelle Barbalho Filho,MDB,ELEITO POR QP,2160.0,fotos/2026_140002540456.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002551126,Victor Dias,Victor Orengel Dias,UNIÃO,ELEITO POR QP,2267.0,fotos/2026_140002551126.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002548993,Elias Santiago,Elias Guimaraes Santiago,PT,ELEITO POR QP,1540.0,fotos/2026_140002548993.jpg
+municipio,1504000,Limoeiro Do Ajuru,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002541714,Cilene Couto,Cilene Lisboa Couto Marques,MDB,ELEITO POR QP,1323.0,fotos/2026_140002541714.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540452,Priante,Jose Benito Priante Junior,MDB,ELEITO POR QP,4332.0,fotos/2026_140002540452.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) federal 2026 (top 3 no município),2026,140002540454,Renilce Nicodemos,Renilce Conceicao Nicodemos De Albuquerque,MDB,ELEITO POR QP,1418.0,fotos/2026_140002540454.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) federal 2026 (top 3 no município),2026,140002547295,Dra. Alessandra Haber,Alessandra Haber Carvalho Santos,PODE,ELEITO POR QP,1144.0,fotos/2026_140002547295.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002541730,Iran Lima,Iran Ataide De Lima,MDB,ELEITO POR QP,2906.0,fotos/2026_140002541730.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002541714,Cilene Couto,Cilene Lisboa Couto Marques,MDB,ELEITO POR QP,1050.0,fotos/2026_140002541714.jpg
+municipio,1506302,Salvaterra,PA,deputado(a) estadual 2026 (top 3 no município),2026,140002536778,Mazinho Salomão,Odimar Wanderley Salomao,REPUBLICANOS,SUPLENTE,700.0,fotos/2026_140002536778.jpg
+municipio,2210300,São Julião,PI,deputado(a) federal 2026 (top 3 no município),2026,180002532479,Dr. Francisco,Francisco De Assis De Oliveira Costa,PT,ELEITO POR QP,1501.0,fotos/2026_180002532479.jpg
+municipio,2210300,São Julião,PI,deputado(a) federal 2026 (top 3 no município),2026,180002544106,Jadyel,Jadyel Silva Alencar,REPUBLICANOS,ELEITO POR MÉDIA,925.0,fotos/2026_180002544106.jpg
+municipio,2210300,São Julião,PI,deputado(a) federal 2026 (top 3 no município),2026,180002532473,Zé Santana,Jose Ribamar Noleto De Santana,PT,ELEITO POR QP,812.0,fotos/2026_180002532473.jpg
+municipio,2210300,São Julião,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002533553,Nerinho,Jose Icemar Lavor Neri,PT,ELEITO POR QP,1221.0,fotos/2026_180002533553.jpg
+municipio,2210300,São Julião,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002536231,Anyara Santos,Anyara Soares Aires Santos,MDB,ELEITO POR QP,1092.0,fotos/2026_180002536231.jpg
+municipio,2210300,São Julião,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002533547,Limma,Francisco Das Chagas Limma,PT,ELEITO POR QP,764.0,fotos/2026_180002533547.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) federal 2026 (top 3 no município),2026,180002536461,Castro Neto,José Dias De Castro Neto,MDB,ELEITO POR QP,931.0,fotos/2026_180002536461.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) federal 2026 (top 3 no município),2026,180002539127,Julio Arcoverde,Julio Ferraz Arcoverde,PP,ELEITO POR QP,634.0,fotos/2026_180002539127.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) federal 2026 (top 3 no município),2026,180002544106,Jadyel,Jadyel Silva Alencar,REPUBLICANOS,ELEITO POR MÉDIA,375.0,fotos/2026_180002544106.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002533555,Dr. Gil Carlos,Gil Carlos Modesto Alves,PT,ELEITO POR QP,914.0,fotos/2026_180002533555.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002534825,Júlio Cesar Filho,Julio Cesar De Carvalho Lima Filho,PSD,ELEITO POR QP,807.0,fotos/2026_180002534825.jpg
+municipio,2207934,Pedro Laurentino,PI,deputado(a) estadual 2026 (top 3 no município),2026,180002533565,Firmino Paulo,Firmino Soares Paulo,PT,ELEITO POR QP,385.0,fotos/2026_180002533565.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) federal 2026 (top 3 no município),2026,200002538213,Nega De Nenem Borges,Luciana Araújo Silva,PSDB,NÃO ELEITO,2077.0,fotos/2026_200002538213.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) federal 2026 (top 3 no município),2026,200002533875,General Girão,Elieser Girao Monteiro Filho,PL,ELEITO POR QP,1013.0,fotos/2026_200002533875.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) federal 2026 (top 3 no município),2026,200002533880,Nina,Yraguacy Araujo Almeida De Souza,PL,ELEITO POR QP,881.0,fotos/2026_200002533880.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) estadual 2026 (top 3 no município),2026,200002533888,Coronel Azevedo,Andre Luiz Vieira De Azevedo,PL,ELEITO POR QP,1021.0,fotos/2026_200002533888.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) estadual 2026 (top 3 no município),2026,200002538230,Ezequiel,Ezequiel Galvao Ferreira De Souza,PSDB,ELEITO POR QP,818.0,fotos/2026_200002538230.jpg
+municipio,2412302,São José Do Campestre,RN,deputado(a) estadual 2026 (top 3 no município),2026,200002533864,Ubaldo Fernandes,Ubaldo Fernandes Da Silva,PV,SUPLENTE,476.0,fotos/2026_200002533864.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) federal 2026 (top 3 no município),2026,150002544178,Gervásio Maia,Gervasio Agripino Maia,PCDOB,ELEITO POR MÉDIA,1851.0,fotos/2026_150002544178.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) federal 2026 (top 3 no município),2026,150002549646,Pollyanna,Yasnaia Pollyanna Werton Dutra,PP,ELEITO POR MÉDIA,171.0,fotos/2026_150002549646.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) federal 2026 (top 3 no município),2026,150002544205,Hugo,Hugo Motta Wanderley Da Nobrega,REPUBLICANOS,ELEITO POR QP,127.0,fotos/2026_150002544205.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) estadual 2026 (top 3 no município),2026,150002548943,Diego Tavares,Marcio Diego Fernandes Tavares De Albuquerque,PP,ELEITO POR MÉDIA,1792.0,fotos/2026_150002548943.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) estadual 2026 (top 3 no município),2026,150002544185,Dr. Jarques,Jarques Lucio Da Silva Ii,REPUBLICANOS,ELEITO POR QP,211.0,fotos/2026_150002544185.jpg
+municipio,2505501,Vista Serrana,PB,deputado(a) estadual 2026 (top 3 no município),2026,150002544186,Olívia Motta,Olivia Motta Wanderley Da Nóbrega,REPUBLICANOS,ELEITO POR QP,116.0,fotos/2026_150002544186.jpg
+municipio,2600401,Água Preta,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544063,Lula Da Fonte,Luiz Eduardo De Queiroz Campos Da Fonte Albuquerque,PP,ELEITO POR QP,3222.0,fotos/2026_170002544063.jpg
+municipio,2600401,Água Preta,PE,deputado(a) federal 2026 (top 3 no município),2026,170002535167,Joana De Neto,Joana Graziele Da Silva Cavalcanti,PODE,SUPLENTE,2391.0,fotos/2026_170002535167.jpg
+municipio,2600401,Água Preta,PE,deputado(a) federal 2026 (top 3 no município),2026,170002533320,Clodoaldo Magalhães,Clodoaldo Magalhaes Oliveira Lyra,PV,ELEITO POR QP,1228.0,fotos/2026_170002533320.jpg
+municipio,2600401,Água Preta,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002543747,France Hacker,Franz Araujo Hacker,PP,ELEITO POR QP,3450.0,fotos/2026_170002543747.jpg
+municipio,2600401,Água Preta,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533335,Lara Santana,Lara De Oliveira Santana,PV,ELEITO POR QP,1296.0,fotos/2026_170002533335.jpg
+municipio,2600401,Água Preta,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542912,Rodrigo Farias,Rodrigo Mota De Farias,PSB,ELEITO POR QP,907.0,fotos/2026_170002542912.jpg
+municipio,2601409,Barreiros,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544063,Lula Da Fonte,Luiz Eduardo De Queiroz Campos Da Fonte Albuquerque,PP,ELEITO POR QP,4001.0,fotos/2026_170002544063.jpg
+municipio,2601409,Barreiros,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532954,Silvio Costa Filho,Silvio Serafim Costa Filho,REPUBLICANOS,ELEITO POR QP,1530.0,fotos/2026_170002532954.jpg
+municipio,2601409,Barreiros,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532733,Augusto Coutinho,Augusto Rodrigues Coutinho De Melo,REPUBLICANOS,ELEITO POR QP,1311.0,fotos/2026_170002532733.jpg
+municipio,2601409,Barreiros,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002543747,France Hacker,Franz Araujo Hacker,PP,ELEITO POR QP,5209.0,fotos/2026_170002543747.jpg
+municipio,2601409,Barreiros,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533335,Lara Santana,Lara De Oliveira Santana,PV,ELEITO POR QP,1883.0,fotos/2026_170002533335.jpg
+municipio,2601409,Barreiros,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542896,Maria Arraes,Maria Leal Arraes De Alencar Fortaleza,PSB,ELEITO POR QP,1589.0,fotos/2026_170002542896.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540310,Sargento Almeida,Edson Henrique De Lima Almeida,PSD,SUPLENTE,44322.0,fotos/2026_170002540310.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544057,Juliana De Chaparral,Juliana Barbosa Da Silva Aguiar,UNIÃO,ELEITO POR QP,12812.0,fotos/2026_170002544057.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,5713.0,fotos/2026_170002550641.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542909,Batista Cabral,João Batista Cabral Da Rocha,PSB,ELEITO POR QP,31961.0,fotos/2026_170002542909.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535172,Jeferson Timóteo,Jeferson Timoteo De Lima,PODE,ELEITO POR MÉDIA,18104.0,fotos/2026_170002535172.jpg
+municipio,2602902,Cabo De Santo Agostinho,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540380,Raimundo Pimentel,Jose Raimundo Pimentel Do Espirito Santo,PSD,SUPLENTE,3787.0,fotos/2026_170002540380.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) federal 2026 (top 3 no município),2026,170002539181,Anderson Ferreira,Anderson Ferreira Rodrigues,PL,ELEITO POR QP,26260.0,fotos/2026_170002539181.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,26020.0,fotos/2026_170002550641.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540312,Guilherme Uchoa Junior,Guilherme Aristoteles Uchoa Cavalcanti Pessoa De Melo Junior,PSD,ELEITO POR QP,19513.0,fotos/2026_170002540312.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540372,Andréa Medeiros,Andrea Maria Ventura De Medeiros,PSD,ELEITO POR QP,33327.0,fotos/2026_170002540372.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533345,Dani Portela,Danielle Gondim Portela,PT,ELEITO POR QP,18519.0,fotos/2026_170002533345.jpg
+municipio,2607901,Jaboatão Dos Guararapes,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002539476,André Ferreira,André Ferreira Rodrigues,PL,ELEITO POR QP,17663.0,fotos/2026_170002539476.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532954,Silvio Costa Filho,Silvio Serafim Costa Filho,REPUBLICANOS,ELEITO POR QP,3543.0,fotos/2026_170002532954.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) federal 2026 (top 3 no município),2026,170002537232,Cássia Do Moinho,Kássia Geane De Arruda Massena,MDB,SUPLENTE,2230.0,fotos/2026_170002537232.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544057,Juliana De Chaparral,Juliana Barbosa Da Silva Aguiar,UNIÃO,ELEITO POR QP,1453.0,fotos/2026_170002544057.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540368,Aglailson Victor,Victor Moraes Queralvares Glaser,PSD,ELEITO POR QP,3827.0,fotos/2026_170002540368.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535184,Gustavo Gouveia,Gustavo Fuchs Campos Gouveia,PODE,ELEITO POR QP,1147.0,fotos/2026_170002535184.jpg
+municipio,2608503,Lagoa De Itaenga,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542418,Sileno,Sileno Sousa Guedes,PSB,ELEITO POR MÉDIA,1036.0,fotos/2026_170002542418.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002534909,Marcelo Gouveia,Marcello Fuchs Campos Gouveia,PODE,ELEITO POR QP,4951.0,fotos/2026_170002534909.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540289,Lucas Ramos,Lucas Cavalcanti Ramos,PSB,SUPLENTE,1257.0,fotos/2026_170002540289.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540301,Pedro Campos,Pedro Henrique De Andrade Lima Carneiro Campos,PSB,ELEITO POR QP,1051.0,fotos/2026_170002540301.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535184,Gustavo Gouveia,Gustavo Fuchs Campos Gouveia,PODE,ELEITO POR QP,3165.0,fotos/2026_170002535184.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540355,Antonio Moraes,Antonio De Morais Andrade Neto,PSD,ELEITO POR QP,1230.0,fotos/2026_170002540355.jpg
+municipio,2609501,Nazaré Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533335,Lara Santana,Lara De Oliveira Santana,PV,ELEITO POR QP,1115.0,fotos/2026_170002533335.jpg
+municipio,2609600,Olinda,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,20204.0,fotos/2026_170002550641.jpg
+municipio,2609600,Olinda,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540301,Pedro Campos,Pedro Henrique De Andrade Lima Carneiro Campos,PSB,ELEITO POR QP,10849.0,fotos/2026_170002540301.jpg
+municipio,2609600,Olinda,PE,deputado(a) federal 2026 (top 3 no município),2026,170002530336,Eduardo Moura,Eduardo Ramos De Moura,NOVO,ELEITO POR MÉDIA,10688.0,fotos/2026_170002530336.jpg
+municipio,2609600,Olinda,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533353,Vini Castello,Vinícius Nascimento Dos Santos,PCDOB,ELEITO POR QP,27759.0,fotos/2026_170002533353.jpg
+municipio,2609600,Olinda,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540377,Professor Lupércio,Lupercio Carlos Do Nascimento,PSD,SUPLENTE,13975.0,fotos/2026_170002540377.jpg
+municipio,2609600,Olinda,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533345,Dani Portela,Danielle Gondim Portela,PT,ELEITO POR QP,8357.0,fotos/2026_170002533345.jpg
+municipio,2610707,Paulista,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,14931.0,fotos/2026_170002550641.jpg
+municipio,2610707,Paulista,PE,deputado(a) federal 2026 (top 3 no município),2026,170002530336,Eduardo Moura,Eduardo Ramos De Moura,NOVO,ELEITO POR MÉDIA,7998.0,fotos/2026_170002530336.jpg
+municipio,2610707,Paulista,PE,deputado(a) federal 2026 (top 3 no município),2026,170002534911,Gilson Machado,Gilson Machado Guimarães Neto,PODE,ELEITO POR QP,7120.0,fotos/2026_170002534911.jpg
+municipio,2610707,Paulista,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540357,Amanda Ramos,Amanda Rodrigues De Santana,PSD,SUPLENTE,11008.0,fotos/2026_170002540357.jpg
+municipio,2610707,Paulista,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002532399,Junior Matuto,Gilberto Goncalves Feitosa Junior,REPUBLICANOS,SUPLENTE,9946.0,fotos/2026_170002532399.jpg
+municipio,2610707,Paulista,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542422,Francismar,Francismar Mendes Pontes,PSB,ELEITO POR QP,8350.0,fotos/2026_170002542422.jpg
+municipio,2611606,Recife,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,81364.0,fotos/2026_170002550641.jpg
+municipio,2611606,Recife,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540301,Pedro Campos,Pedro Henrique De Andrade Lima Carneiro Campos,PSB,ELEITO POR QP,72444.0,fotos/2026_170002540301.jpg
+municipio,2611606,Recife,PE,deputado(a) federal 2026 (top 3 no município),2026,170002530336,Eduardo Moura,Eduardo Ramos De Moura,NOVO,ELEITO POR MÉDIA,54534.0,fotos/2026_170002530336.jpg
+municipio,2611606,Recife,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533345,Dani Portela,Danielle Gondim Portela,PT,ELEITO POR QP,60131.0,fotos/2026_170002533345.jpg
+municipio,2611606,Recife,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535197,Gilson Machado Filho,Gilson Machado Guimarães,PODE,ELEITO POR QP,46487.0,fotos/2026_170002535197.jpg
+municipio,2611606,Recife,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542422,Francismar,Francismar Mendes Pontes,PSB,ELEITO POR QP,38649.0,fotos/2026_170002542422.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540316,Fernando Monteiro,Fernando Monteiro De Albuquerque,PSD,ELEITO POR QP,2753.0,fotos/2026_170002540316.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544057,Juliana De Chaparral,Juliana Barbosa Da Silva Aguiar,UNIÃO,ELEITO POR QP,2248.0,fotos/2026_170002544057.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532960,Karina Paiva,Anna Karina Gouveia Paiva,REPUBLICANOS,SUPLENTE,1940.0,fotos/2026_170002532960.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540373,Janjão,João Francisco Da Silva Neto,PSD,ELEITO POR QP,2768.0,fotos/2026_170002540373.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535809,Álvaro Porto,Álvaro Porto De Barros,MDB,ELEITO POR QP,2090.0,fotos/2026_170002535809.jpg
+municipio,2611804,Ribeirão,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002532386,Jobson Almeida,Jobson Almeida Lima,REPUBLICANOS,ELEITO POR QP,1098.0,fotos/2026_170002532386.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) federal 2026 (top 3 no município),2026,170002539181,Anderson Ferreira,Anderson Ferreira Rodrigues,PL,ELEITO POR QP,2398.0,fotos/2026_170002539181.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544057,Juliana De Chaparral,Juliana Barbosa Da Silva Aguiar,UNIÃO,ELEITO POR QP,2258.0,fotos/2026_170002544057.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532733,Augusto Coutinho,Augusto Rodrigues Coutinho De Melo,REPUBLICANOS,ELEITO POR QP,1189.0,fotos/2026_170002532733.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002540384,Romero Sales Filho,Romero Antonio Raposo Sales Filho,PSD,SUPLENTE,2187.0,fotos/2026_170002540384.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542425,Eriberto Filho,Eriberto Gabriel Acioli Medeiros,PSB,ELEITO POR QP,1292.0,fotos/2026_170002542425.jpg
+municipio,2613404,São José Da Coroa Grande,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533335,Lara Santana,Lara De Oliveira Santana,PV,ELEITO POR QP,1168.0,fotos/2026_170002533335.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532954,Silvio Costa Filho,Silvio Serafim Costa Filho,REPUBLICANOS,ELEITO POR QP,10085.0,fotos/2026_170002532954.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002534909,Marcelo Gouveia,Marcello Fuchs Campos Gouveia,PODE,ELEITO POR QP,8382.0,fotos/2026_170002534909.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,3229.0,fotos/2026_170002550641.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542425,Eriberto Filho,Eriberto Gabriel Acioli Medeiros,PSB,ELEITO POR QP,9177.0,fotos/2026_170002542425.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002535184,Gustavo Gouveia,Gustavo Fuchs Campos Gouveia,PODE,ELEITO POR QP,4007.0,fotos/2026_170002535184.jpg
+municipio,2613701,São Lourenço Da Mata,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533339,João De Nadegi,João Victor Queiroz Do Nascimento,PV,ELEITO POR QP,3311.0,fotos/2026_170002533339.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) federal 2026 (top 3 no município),2026,170002534909,Marcelo Gouveia,Marcello Fuchs Campos Gouveia,PODE,ELEITO POR QP,5263.0,fotos/2026_170002534909.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) federal 2026 (top 3 no município),2026,170002544063,Lula Da Fonte,Luiz Eduardo De Queiroz Campos Da Fonte Albuquerque,PP,ELEITO POR QP,2440.0,fotos/2026_170002544063.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) federal 2026 (top 3 no município),2026,170002532954,Silvio Costa Filho,Silvio Serafim Costa Filho,REPUBLICANOS,ELEITO POR QP,1444.0,fotos/2026_170002532954.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002543747,France Hacker,Franz Araujo Hacker,PP,ELEITO POR QP,6259.0,fotos/2026_170002543747.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542425,Eriberto Filho,Eriberto Gabriel Acioli Medeiros,PSB,ELEITO POR QP,4100.0,fotos/2026_170002542425.jpg
+municipio,2614204,Sirinhaém,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533335,Lara Santana,Lara De Oliveira Santana,PV,ELEITO POR QP,2305.0,fotos/2026_170002533335.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540314,Daniel Coelho,Daniel Pires Coelho,PSD,SUPLENTE,6660.0,fotos/2026_170002540314.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) federal 2026 (top 3 no município),2026,170002540301,Pedro Campos,Pedro Henrique De Andrade Lima Carneiro Campos,PSB,ELEITO POR QP,6467.0,fotos/2026_170002540301.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) federal 2026 (top 3 no município),2026,170002550641,Jones Manoel,Jones Manoel Da Silva,PSOL,ELEITO POR QP,6379.0,fotos/2026_170002550641.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002533339,João De Nadegi,João Victor Queiroz Do Nascimento,PV,ELEITO POR QP,14482.0,fotos/2026_170002533339.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002542895,Ednaldo Moura,Ednaldo Alves De Moura Junior,PSB,SUPLENTE,8278.0,fotos/2026_170002542895.jpg
+municipio,2603454,Camaragibe,PE,deputado(a) estadual 2026 (top 3 no município),2026,170002532314,Ivan Guedes,Ivan Guedes De Lima Filho,NOVO,SUPLENTE,5901.0,fotos/2026_170002532314.jpg
+municipio,2918555,Jussari,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538760,Joseildo,Joseildo Ribeiro Ramos,PT,ELEITO POR MÉDIA,1177.0,fotos/2026_50002538760.jpg
+municipio,2918555,Jussari,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532621,Paulo Magalhães,Paulo Sérgio Paranhos De Magalhães,PSD,SUPLENTE,306.0,fotos/2026_50002532621.jpg
+municipio,2918555,Jussari,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538765,Valmir Assunção,Valmir Carlos Da Assunção,PT,ELEITO POR QP,303.0,fotos/2026_50002538765.jpg
+municipio,2918555,Jussari,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002538682,Eduardo Salles,Eduardo Seixas De Salles,PV,ELEITO POR QP,1233.0,fotos/2026_50002538682.jpg
+municipio,2918555,Jussari,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532683,Andrea Castro,Andrea Rodrigues Simas Castro,PSD,ELEITO POR QP,422.0,fotos/2026_50002532683.jpg
+municipio,2918555,Jussari,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,323.0,fotos/2026_50002537866.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) federal 2026 (top 3 no município),2026,260002533080,Gracinha Garcez,Maria Das Gracas Souza Garcez,REPUBLICANOS,SUPLENTE,5111.0,fotos/2026_260002533080.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547408,Yandra Moura,Yandra Barreto Ferreira,UNIÃO,ELEITO POR QP,2314.0,fotos/2026_260002547408.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547412,Capitão Samuel,Samuel Alves Barreto,UNIÃO,ELEITO POR MÉDIA,1413.0,fotos/2026_260002547412.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002549384,Marcelo Sobral,Marcelo Oliveira Sobral,UNIÃO,ELEITO POR QP,7887.0,fotos/2026_260002549384.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002545628,Paulo Jr,Paulo Roberto De Santana Junior,PV,ELEITO POR QP,2558.0,fotos/2026_260002545628.jpg
+municipio,2803203,Itaporanga D'Ajuda,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002550765,Fernandinho Franco,Fernando Ribeiro Franco Neto,PL,ELEITO POR MÉDIA,1339.0,fotos/2026_260002550765.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) federal 2026 (top 3 no município),2026,260002541263,Marcos Franco,Marcos Leite Franco Sobrinho,PSB,SUPLENTE,2654.0,fotos/2026_260002541263.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547408,Yandra Moura,Yandra Barreto Ferreira,UNIÃO,ELEITO POR QP,1957.0,fotos/2026_260002547408.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) federal 2026 (top 3 no município),2026,260002542470,Delegada Katarina,Katarina Feitoza Lima Santana,PSD,ELEITO POR MÉDIA,1585.0,fotos/2026_260002542470.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002535754,Antônio Bala,Antônio Menezes Leite Neto,MDB,ELEITO POR QP,7974.0,fotos/2026_260002535754.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002540207,Zezinho Sobral,Jose Macedo Sobral,PSB,ELEITO POR QP,2264.0,fotos/2026_260002540207.jpg
+municipio,2803609,Laranjeiras,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002535762,Fábio Henrique,Fabio Henrique Santana De Carvalho,MDB,ELEITO POR QP,583.0,fotos/2026_260002535762.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547412,Capitão Samuel,Samuel Alves Barreto,UNIÃO,ELEITO POR MÉDIA,12254.0,fotos/2026_260002547412.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) federal 2026 (top 3 no município),2026,260002541260,Claudio Mitidieri,Claudio Mitidieri Simões,PSB,ELEITO POR QP,12195.0,fotos/2026_260002541260.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) federal 2026 (top 3 no município),2026,260002533076,Dra. Clécia,Clécia Dos Santos Oliveira Carvalho,REPUBLICANOS,SUPLENTE,7201.0,fotos/2026_260002533076.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002535762,Fábio Henrique,Fabio Henrique Santana De Carvalho,MDB,ELEITO POR QP,12907.0,fotos/2026_260002535762.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002545625,Padre Inaldo,Inaldo Luis Da Silva,PT,SUPLENTE,6203.0,fotos/2026_260002545625.jpg
+municipio,2804805,Nossa Senhora Do Socorro,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002547478,Jorginho Araujo,Jorge Araujo Filho,PSD,ELEITO POR QP,4116.0,fotos/2026_260002547478.jpg
+municipio,2805307,Pirambu,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547408,Yandra Moura,Yandra Barreto Ferreira,UNIÃO,ELEITO POR QP,1770.0,fotos/2026_260002547408.jpg
+municipio,2805307,Pirambu,SE,deputado(a) federal 2026 (top 3 no município),2026,260002542470,Delegada Katarina,Katarina Feitoza Lima Santana,PSD,ELEITO POR MÉDIA,784.0,fotos/2026_260002542470.jpg
+municipio,2805307,Pirambu,SE,deputado(a) federal 2026 (top 3 no município),2026,260002547440,Marcio Macedo,Marcio Costa Macedo,PT,SUPLENTE,441.0,fotos/2026_260002547440.jpg
+municipio,2805307,Pirambu,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002547476,Adailton Martins,Adailton Martins De Oliveira Filho,PSD,ELEITO POR QP,1366.0,fotos/2026_260002547476.jpg
+municipio,2805307,Pirambu,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002549384,Marcelo Sobral,Marcelo Oliveira Sobral,UNIÃO,ELEITO POR QP,873.0,fotos/2026_260002549384.jpg
+municipio,2805307,Pirambu,SE,deputado(a) estadual 2026 (top 3 no município),2026,260002549385,Netinho Guimarães,Leudes Alves Dos Santos Neto,UNIÃO,ELEITO POR QP,299.0,fotos/2026_260002549385.jpg
+municipio,2902054,Araçás,BA,deputado(a) federal 2026 (top 3 no município),2026,50002535000,Paulo Azi,Paulo Velloso Dantas Azi,UNIÃO,ELEITO POR QP,2240.0,fotos/2026_50002535000.jpg
+municipio,2902054,Araçás,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538760,Joseildo,Joseildo Ribeiro Ramos,PT,ELEITO POR MÉDIA,1132.0,fotos/2026_50002538760.jpg
+municipio,2902054,Araçás,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532643,Adolfo Viana,Adolfo Viana De Castro Neto,PSDB,ELEITO POR QP,397.0,fotos/2026_50002532643.jpg
+municipio,2902054,Araçás,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532689,Ludmilla Fiscina,Ludmilla Fonseca Fiscina,PSD,ELEITO POR MÉDIA,3042.0,fotos/2026_50002532689.jpg
+municipio,2902054,Araçás,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537872,Fátima Nunes,Maria De Fatima Nunes Dos Anjos,PT,ELEITO POR QP,538.0,fotos/2026_50002537872.jpg
+municipio,2902054,Araçás,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532691,Alex Da Piatã,Alex Lopes Da Silva,PSD,ELEITO POR QP,492.0,fotos/2026_50002532691.jpg
+municipio,2904704,Buerarema,BA,deputado(a) federal 2026 (top 3 no município),2026,50002534993,Vinícius Ibrann,Vinicius Ibrann Dantas Andrade Oliveira,UNIÃO,SUPLENTE,4616.0,fotos/2026_50002534993.jpg
+municipio,2904704,Buerarema,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532621,Paulo Magalhães,Paulo Sérgio Paranhos De Magalhães,PSD,SUPLENTE,1084.0,fotos/2026_50002532621.jpg
+municipio,2904704,Buerarema,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532626,Antonio Brito,Antonio Luiz Paranhos Ribeiro Leite De Brito,PSD,ELEITO POR QP,875.0,fotos/2026_50002532626.jpg
+municipio,2904704,Buerarema,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002535029,Junior Nascimento,Antonio Carlos Nascimento Junior,UNIÃO,ELEITO POR QP,1792.0,fotos/2026_50002535029.jpg
+municipio,2904704,Buerarema,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002538682,Eduardo Salles,Eduardo Seixas De Salles,PV,ELEITO POR QP,1208.0,fotos/2026_50002538682.jpg
+municipio,2904704,Buerarema,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,949.0,fotos/2026_50002537866.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538780,Lucas Reis,Lucas Araujo Dos Reis,PT,ELEITO POR QP,5077.0,fotos/2026_50002538780.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002534762,Elmo Vaz,Elmo Vaz Bastos De Matos,AVANTE,ELEITO POR MÉDIA,610.0,fotos/2026_50002534762.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002536638,Jayminho Vieira Lima,Jayme De Souza Vieira Lima Filho,MDB,SUPLENTE,372.0,fotos/2026_50002536638.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537858,Jacó,Mario Augusto De Almeida Neto,PT,SUPLENTE,4675.0,fotos/2026_50002537858.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002538733,Matheus De Geraldinho,Matheus De Oliveira Ferreira,MDB,SUPLENTE,900.0,fotos/2026_50002538733.jpg
+municipio,2915353,Itaguaçu Da Bahia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537846,Osni,Osni Cardoso De Araujo,PT,ELEITO POR QP,276.0,fotos/2026_50002537846.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532621,Paulo Magalhães,Paulo Sérgio Paranhos De Magalhães,PSD,SUPLENTE,2465.0,fotos/2026_50002532621.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002534999,Manuel Rocha,Manuel Azevedo Rocha,UNIÃO,ELEITO POR MÉDIA,891.0,fotos/2026_50002534999.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538765,Valmir Assunção,Valmir Carlos Da Assunção,PT,ELEITO POR QP,75.0,fotos/2026_50002538765.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,2295.0,fotos/2026_50002537866.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532683,Andrea Castro,Andrea Rodrigues Simas Castro,PSD,ELEITO POR QP,867.0,fotos/2026_50002532683.jpg
+municipio,2915403,Itaju Do Colônia,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537849,Rowenna,Rowenna Dos Santos Brito,PT,ELEITO POR QP,260.0,fotos/2026_50002537849.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532626,Antonio Brito,Antonio Luiz Paranhos Ribeiro Leite De Brito,PSD,ELEITO POR QP,6384.0,fotos/2026_50002532626.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532910,Roberta Roma,Roberta De Araujo Costa Roma,PL,ELEITO POR QP,5347.0,fotos/2026_50002532910.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) federal 2026 (top 3 no município),2026,50002536638,Jayminho Vieira Lima,Jayme De Souza Vieira Lima Filho,MDB,SUPLENTE,3736.0,fotos/2026_50002536638.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,5022.0,fotos/2026_50002537866.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002535021,Wagner Alves,Wagner Santos Alves Dias,UNIÃO,SUPLENTE,3963.0,fotos/2026_50002535021.jpg
+municipio,2916401,Itapetinga,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002538724,Carlinhos Sobral,Carlos Augusto Silveira Sobral,MDB,ELEITO POR QP,2752.0,fotos/2026_50002538724.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538765,Valmir Assunção,Valmir Carlos Da Assunção,PT,ELEITO POR QP,2194.0,fotos/2026_50002538765.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) federal 2026 (top 3 no município),2026,50002534738,Neto Carletto,Orlando Sulz De Almeida Neto,AVANTE,ELEITO POR QP,560.0,fotos/2026_50002534738.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538770,Afonso Florence,Afonso Bandeira Florence,PT,ELEITO POR QP,547.0,fotos/2026_50002538770.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,2049.0,fotos/2026_50002537866.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532683,Andrea Castro,Andrea Rodrigues Simas Castro,PSD,ELEITO POR QP,824.0,fotos/2026_50002532683.jpg
+municipio,2923902,Pau Brasil,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002535120,Jânio Natal Júnior,Janio Natal Andrade Borges Junior,PL,ELEITO POR QP,357.0,fotos/2026_50002535120.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) federal 2026 (top 3 no município),2026,50002535000,Paulo Azi,Paulo Velloso Dantas Azi,UNIÃO,ELEITO POR QP,3425.0,fotos/2026_50002535000.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532623,Bebeto,Adalberto Souza Galvão,PSD,SUPLENTE,1625.0,fotos/2026_50002532623.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) federal 2026 (top 3 no município),2026,50002538765,Valmir Assunção,Valmir Carlos Da Assunção,PT,ELEITO POR QP,1492.0,fotos/2026_50002538765.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002535069,Kátia Oliveira,Kátia Cristina Cerqueira Oliveira,UNIÃO,SUPLENTE,2129.0,fotos/2026_50002535069.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,1666.0,fotos/2026_50002537866.jpg
+municipio,2932705,Uruçuca,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002531377,Gazo,Irailson Warneaux De Oliveira,PDT,SUPLENTE,1361.0,fotos/2026_50002531377.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) federal 2026 (top 3 no município),2026,50002532621,Paulo Magalhães,Paulo Sérgio Paranhos De Magalhães,PSD,SUPLENTE,1321.0,fotos/2026_50002532621.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) federal 2026 (top 3 no município),2026,50002535000,Paulo Azi,Paulo Velloso Dantas Azi,UNIÃO,ELEITO POR QP,421.0,fotos/2026_50002535000.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) federal 2026 (top 3 no município),2026,50002534738,Neto Carletto,Orlando Sulz De Almeida Neto,AVANTE,ELEITO POR QP,420.0,fotos/2026_50002534738.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002537866,Rosemberg,Rosemberg Evangelista Pinto,PT,ELEITO POR QP,1266.0,fotos/2026_50002537866.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002532683,Andrea Castro,Andrea Rodrigues Simas Castro,PSD,ELEITO POR QP,531.0,fotos/2026_50002532683.jpg
+municipio,2929354,São José Da Vitória,BA,deputado(a) estadual 2026 (top 3 no município),2026,50002538682,Eduardo Salles,Eduardo Seixas De Salles,PV,ELEITO POR QP,248.0,fotos/2026_50002538682.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) federal 2026 (top 3 no município),2026,190002532798,Dr. Flávio,Flávio Campos Ferreira,PL,SUPLENTE,4881.0,fotos/2026_190002532798.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) federal 2026 (top 3 no município),2026,190002541060,Dr. Luizinho,Luiz Antonio De Souza Teixeira Junior,PP,ELEITO POR QP,2061.0,fotos/2026_190002541060.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) federal 2026 (top 3 no município),2026,190002537142,Welington Braga,Welington Braga De Sousa,AVANTE,NÃO ELEITO,1931.0,fotos/2026_190002537142.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) estadual 2026 (top 3 no município),2026,190002543309,André Ceciliano,Andre Luiz Ceciliano,PT,ELEITO POR QP,10716.0,fotos/2026_190002543309.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) estadual 2026 (top 3 no município),2026,190002533419,Dr. Deodalto,Deodalto Jose Ferreira,PL,SUPLENTE,3949.0,fotos/2026_190002533419.jpg
+municipio,3303609,Paracambi,RJ,deputado(a) estadual 2026 (top 3 no município),2026,190002533418,Índia Armelau,Amanda Brandão Paes Armelau,PL,ELEITO POR QP,599.0,fotos/2026_190002533418.jpg
+municipio,4126678,Tamarana,PR,deputado(a) federal 2026 (top 3 no município),2026,160002542314,Beto Preto,Carlos Alberto Gebrim Preto,PSD,ELEITO POR QP,923.0,fotos/2026_160002542314.jpg
+municipio,4126678,Tamarana,PR,deputado(a) federal 2026 (top 3 no município),2026,160002532855,Luisa Canziani,Luísa Canziani Dos Santos Silveira,UNIÃO,SUPLENTE,728.0,fotos/2026_160002532855.jpg
+municipio,4126678,Tamarana,PR,deputado(a) federal 2026 (top 3 no município),2026,160002532863,Diego Garcia,Diego Alexsander Gonçalo Paula Garcia,UNIÃO,SUPLENTE,596.0,fotos/2026_160002532863.jpg
+municipio,4126678,Tamarana,PR,deputado(a) estadual 2026 (top 3 no município),2026,160002547696,Tercilio Turini,Tercilio Luiz Turini,MDB,SUPLENTE,2285.0,fotos/2026_160002547696.jpg
+municipio,4126678,Tamarana,PR,deputado(a) estadual 2026 (top 3 no município),2026,160002547398,Alex Canziani,Alex Canziani Silveira,AVANTE,NÃO ELEITO,745.0,fotos/2026_160002547398.jpg
+municipio,4126678,Tamarana,PR,deputado(a) estadual 2026 (top 3 no município),2026,160002542270,Ivan Kaingang,Ivan Bribis Rodrigues,PT,SUPLENTE,452.0,fotos/2026_160002542270.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) federal 2026 (top 3 no município),2026,110002549188,Juliana Kolankiewicz,Juliana Rosa De Souza Kolankiewicz,REPUBLICANOS,SUPLENTE,545.0,fotos/2026_110002549188.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) federal 2026 (top 3 no município),2026,110002550863,Fábio Garcia,Fabio Paulino Garcia,UNIÃO,ELEITO POR QP,336.0,fotos/2026_110002550863.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) federal 2026 (top 3 no município),2026,110002538410,Coronel Assis,Jonildo José De Assis,PL,ELEITO POR QP,235.0,fotos/2026_110002538410.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) estadual 2026 (top 3 no município),2026,110002547793,Dr. Eugênio,José Eugênio De Paiva,REPUBLICANOS,ELEITO POR QP,798.0,fotos/2026_110002547793.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) estadual 2026 (top 3 no município),2026,110002549774,Onesio Juruna Filho,Onésimo Uné Tserewaririwe,PDT,NÃO ELEITO,346.0,fotos/2026_110002549774.jpg
+municipio,5106174,Nova Nazaré,MT,deputado(a) estadual 2026 (top 3 no município),2026,110002550850,Dr. João,Joao Jose De Matos,MDB,ELEITO POR QP,189.0,fotos/2026_110002550850.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543473,Daniel Agrobom,Daniel Vieira Ramos,PSD,ELEITO POR MÉDIA,1266.0,fotos/2026_90002543473.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,1113.0,fotos/2026_90002543237.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,942.0,fotos/2026_90002543239.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543125,Zé Diniz,Jose Aparecido Alves Diniz,MOBILIZA,SUPLENTE,3110.0,fotos/2026_90002543125.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,2330.0,fotos/2026_90002554683.jpg
+municipio,5200100,Abadiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,360.0,fotos/2026_90002546224.jpg
+municipio,5200308,Alexânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,3349.0,fotos/2026_90002537390.jpg
+municipio,5200308,Alexânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548379,Williard Pontes,Antonio Williard Pontes,REPUBLICANOS,SUPLENTE,2034.0,fotos/2026_90002548379.jpg
+municipio,5200308,Alexânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,1121.0,fotos/2026_90002548376.jpg
+municipio,5200308,Alexânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547030,Talles Barreto,Talles Alves Barreto,UNIÃO,ELEITO POR MÉDIA,2247.0,fotos/2026_90002547030.jpg
+municipio,5200308,Alexânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,1436.0,fotos/2026_90002554683.jpg
+municipio,5200308,Alexânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549167,Cristóvão,Cristovao Vaz Tormin,PRD,SUPLENTE,1073.0,fotos/2026_90002549167.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,1024.0,fotos/2026_90002542624.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547139,Aava Santiago,Aava Santiago Aguiar,PSB,NÃO ELEITO,553.0,fotos/2026_90002547139.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547130,Natália Rinco,Natalia Bravim Rinco,PSB,NÃO ELEITO,519.0,fotos/2026_90002547130.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537434,Débora Domingues,Debora Domingues Carvalhedo Barros,PODE,SUPLENTE,2100.0,fotos/2026_90002537434.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548664,Alessandro Moreira,Alessandro Moreira Dos Santos,PRD,ELEITO POR QP,494.0,fotos/2026_90002548664.jpg
+municipio,5200605,Alto Paraíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540149,Fabricio Rosa,Fabricio Silva Rosa,PT,ELEITO POR QP,428.0,fotos/2026_90002540149.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,1013.0,fotos/2026_90002543239.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542621,Dr. Wagner Miranda Hosp.Cancer,Wagner Miranda,PL,SUPLENTE,277.0,fotos/2026_90002542621.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,180.0,fotos/2026_90002543237.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549166,Wagner Neto,Wagner Camargo Neto,SOLIDARIEDADE,ELEITO POR QP,1365.0,fotos/2026_90002549166.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546219,Issy Quinan,Issy Quinan Júnior,MDB,ELEITO POR QP,146.0,fotos/2026_90002546219.jpg
+municipio,5213855,Morro Agudo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543800,Amauri Ribeiro,Amauri Ribeiro,PL,ELEITO POR QP,112.0,fotos/2026_90002543800.jpg
+municipio,5201306,Anicuns,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,1487.0,fotos/2026_90002537390.jpg
+municipio,5201306,Anicuns,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,846.0,fotos/2026_90002543218.jpg
+municipio,5201306,Anicuns,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,844.0,fotos/2026_90002543237.jpg
+municipio,5201306,Anicuns,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547090,Rubens Marques,Rubens Marques Vieira Dos Santos,PSB,ELEITO POR QP,5052.0,fotos/2026_90002547090.jpg
+municipio,5201306,Anicuns,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547013,Lincoln Tejota,Lincoln Graziani Pereira Da Rocha Tejota,UNIÃO,SUPLENTE,1220.0,fotos/2026_90002547013.jpg
+municipio,5201306,Anicuns,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548066,Paulo Sérgio Do Povo,Paulo Sergio Jose De Souza,REPUBLICANOS,SUPLENTE,357.0,fotos/2026_90002548066.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547109,Professor Alcides,Alcides Ribeiro Filho,PSDB,NÃO ELEITO,18609.0,fotos/2026_90002547109.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,18499.0,fotos/2026_90002539157.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002540944,Delegado Humberto Teófilo,Humberto Teófilo De Menezes Neto,NOVO,NÃO ELEITO,17842.0,fotos/2026_90002540944.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537441,Willian Panda,Willian Rodrigues Figueiredo,PODE,ELEITO POR QP,17781.0,fotos/2026_90002537441.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537459,Vanilson Bueno,Vanilson Dos Anjos Bueno,PODE,SUPLENTE,9674.0,fotos/2026_90002537459.jpg
+municipio,5201405,Aparecida De Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540149,Fabricio Rosa,Fabricio Silva Rosa,PT,ELEITO POR QP,8632.0,fotos/2026_90002540149.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,3260.0,fotos/2026_90002537390.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547109,Professor Alcides,Alcides Ribeiro Filho,PSDB,NÃO ELEITO,698.0,fotos/2026_90002547109.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,279.0,fotos/2026_90002539157.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547039,André Do Premium,Andre Luiz Gomes Gontijo,UNIÃO,ELEITO POR QP,589.0,fotos/2026_90002547039.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547010,Jamil Calife,Jamil Sebba Calife,PP,ELEITO POR QP,581.0,fotos/2026_90002547010.jpg
+municipio,5201801,Aragoiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540980,Danilo Rios,Danilo Igor De Oliveira Rios,NOVO,SUPLENTE,503.0,fotos/2026_90002540980.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,1242.0,fotos/2026_90002543246.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,759.0,fotos/2026_90002543237.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543470,Lucas Do Vale,Lucas Martins Do Vale,PSD,ELEITO POR QP,347.0,fotos/2026_90002543470.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,1340.0,fotos/2026_90002546224.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547030,Talles Barreto,Talles Alves Barreto,UNIÃO,ELEITO POR MÉDIA,418.0,fotos/2026_90002547030.jpg
+municipio,5220157,São Luiz Do Norte,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543783,Eduardo Prado,Eduardo José Do Prado,PL,ELEITO POR QP,412.0,fotos/2026_90002543783.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,5170.0,fotos/2026_90002539157.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543247,Salma Da Pestalozzi,Salma Bahia Carreiro Leite Da Silveira,UNIÃO,SUPLENTE,4377.0,fotos/2026_90002543247.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543243,Silvye Alves,Silvye Alves Da Silva,UNIÃO,ELEITO POR MÉDIA,4325.0,fotos/2026_90002543243.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540971,Misael,Misael Pereira De Oliveira,NOVO,SUPLENTE,9384.0,fotos/2026_90002540971.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549171,Julio Pina,Julio Pina Neto,SOLIDARIEDADE,SUPLENTE,7394.0,fotos/2026_90002549171.jpg
+municipio,5220454,Senador Canedo,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543129,Sergio Bravo,Sergio De Souza Bravo,MOBILIZA,SUPLENTE,3120.0,fotos/2026_90002543129.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,1002.0,fotos/2026_90002543237.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543566,Lucas Calil,Lucas Pinheiro Brandao Calil,PRD,ELEITO POR QP,189.0,fotos/2026_90002543566.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,158.0,fotos/2026_90002543218.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547018,Virmondes Cruvinel,Virmondes Borges Cruvinel Filho,UNIÃO,ELEITO POR QP,457.0,fotos/2026_90002547018.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546221,Charles Bento,Charles Bento Evangelista,MDB,ELEITO POR QP,292.0,fotos/2026_90002546221.jpg
+municipio,5203609,Brazabrantes,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547090,Rubens Marques,Rubens Marques Vieira Dos Santos,PSB,ELEITO POR QP,270.0,fotos/2026_90002547090.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543566,Lucas Calil,Lucas Pinheiro Brandao Calil,PRD,ELEITO POR QP,668.0,fotos/2026_90002543566.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,449.0,fotos/2026_90002543218.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,307.0,fotos/2026_90002542624.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,715.0,fotos/2026_90002554683.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,527.0,fotos/2026_90002546224.jpg
+municipio,5221080,Teresina De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537434,Débora Domingues,Debora Domingues Carvalhedo Barros,PODE,SUPLENTE,186.0,fotos/2026_90002537434.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,3022.0,fotos/2026_90002542624.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,744.0,fotos/2026_90002543237.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,720.0,fotos/2026_90002548376.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,1251.0,fotos/2026_90002554683.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544878,José Machado,Jose Machado Dos Santos,PSDB,ELEITO POR QP,1205.0,fotos/2026_90002544878.jpg
+municipio,5205513,Cocalzinho De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549161,Anderson Teodoro,Anderson Teodoro Da Cunha Dourado,PRD,ELEITO POR QP,1193.0,fotos/2026_90002549161.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,998.0,fotos/2026_90002543239.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,119.0,fotos/2026_90002548376.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543474,Professora Fátima Gavioli,Aparecida De Fátima Gavioli Soares Pereira,PSD,SUPLENTE,115.0,fotos/2026_90002543474.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,846.0,fotos/2026_90002554683.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543157,Graciele Da Arte Trigo,Graciele Marta Do Nascimento,AGIR,ELEITO POR MÉDIA,230.0,fotos/2026_90002543157.jpg
+municipio,5212055,Jesúpolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,151.0,fotos/2026_90002546224.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548364,Lêda Borges,Leda Borges De Moura,REPUBLICANOS,SUPLENTE,5051.0,fotos/2026_90002548364.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,2311.0,fotos/2026_90002543239.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,2282.0,fotos/2026_90002543226.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543182,Fabio Correa,Fabio Correa De Oliveira,AGIR,SUPLENTE,8735.0,fotos/2026_90002543182.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544868,Pedro Araújo,Pedro Henrique De Oliveira Araújo,PSDB,SUPLENTE,5904.0,fotos/2026_90002544868.jpg
+municipio,5205497,Cidade Ocidental,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547032,Wilde Cambão,Wilde Lopes Roriz,UNIÃO,ELEITO POR QP,4136.0,fotos/2026_90002547032.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,725.0,fotos/2026_90002543246.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,362.0,fotos/2026_90002543218.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,211.0,fotos/2026_90002548376.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546225,Cairo Salim,Cairo Salim Marcelino Lopes,MDB,ELEITO POR QP,605.0,fotos/2026_90002546225.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546221,Charles Bento,Charles Bento Evangelista,MDB,ELEITO POR QP,328.0,fotos/2026_90002546221.jpg
+municipio,5203939,Buriti De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547013,Lincoln Tejota,Lincoln Graziani Pereira Da Rocha Tejota,UNIÃO,SUPLENTE,186.0,fotos/2026_90002547013.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,1159.0,fotos/2026_90002543239.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547104,Itamar Leão,Itamar Leao Do Amaral,PSDB,NÃO ELEITO,265.0,fotos/2026_90002547104.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543471,Dr. Ismael Alexandrino,Ismael Alexandrino Junior,PSD,SUPLENTE,162.0,fotos/2026_90002543471.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547018,Virmondes Cruvinel,Virmondes Borges Cruvinel Filho,UNIÃO,ELEITO POR QP,747.0,fotos/2026_90002547018.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543124,Major Eldecirio,Eldecirio Da Silva,MOBILIZA,SUPLENTE,382.0,fotos/2026_90002543124.jpg
+municipio,5205703,Córrego Do Ouro,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546225,Cairo Salim,Cairo Salim Marcelino Lopes,MDB,ELEITO POR QP,233.0,fotos/2026_90002546225.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,2053.0,fotos/2026_90002542624.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,635.0,fotos/2026_90002543237.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539151,Rubens Otoni,Rubens Otoni Gomide,PT,ELEITO POR MÉDIA,332.0,fotos/2026_90002539151.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,801.0,fotos/2026_90002546224.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543125,Zé Diniz,Jose Aparecido Alves Diniz,MOBILIZA,SUPLENTE,593.0,fotos/2026_90002543125.jpg
+municipio,5205802,Corumbá De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,557.0,fotos/2026_90002554683.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,1845.0,fotos/2026_90002543226.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,484.0,fotos/2026_90002543237.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543220,Lucas Vergílio,Lucas De Castro Santos,MDB,SUPLENTE,280.0,fotos/2026_90002543220.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547018,Virmondes Cruvinel,Virmondes Borges Cruvinel Filho,UNIÃO,ELEITO POR QP,1522.0,fotos/2026_90002547018.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,352.0,fotos/2026_90002554683.jpg
+municipio,5221197,Terezópolis De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543505,Sargento Novandir,Novandir Rodrigues Da Silva,DEMOCRATA,NÃO ELEITO,311.0,fotos/2026_90002543505.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,809.0,fotos/2026_90002543218.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,493.0,fotos/2026_90002543237.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,273.0,fotos/2026_90002548376.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546225,Cairo Salim,Cairo Salim Marcelino Lopes,MDB,ELEITO POR QP,692.0,fotos/2026_90002546225.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543807,Lissauer Vieira,Lissauer Vieira,PL,ELEITO POR QP,317.0,fotos/2026_90002543807.jpg
+municipio,5206305,Cristianópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543800,Amauri Ribeiro,Amauri Ribeiro,PL,ELEITO POR QP,306.0,fotos/2026_90002543800.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548364,Lêda Borges,Leda Borges De Moura,REPUBLICANOS,SUPLENTE,13021.0,fotos/2026_90002548364.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543475,Dra. Zeli,Zeli Fritsche,PSD,SUPLENTE,12841.0,fotos/2026_90002543475.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,6244.0,fotos/2026_90002543226.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546223,Pabio Mossoró,Pabio Correia Lopes,MDB,SUPLENTE,20666.0,fotos/2026_90002546223.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537448,Denis Bento,Denis Bento Da Silva,PODE,SUPLENTE,9676.0,fotos/2026_90002537448.jpg
+municipio,5221858,Valparaíso De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543163,Dr Kassio Guimaraes,Kassio Henrique Cunha Guimaraes,AGIR,SUPLENTE,3585.0,fotos/2026_90002543163.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,8973.0,fotos/2026_90002542624.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548364,Lêda Borges,Leda Borges De Moura,REPUBLICANOS,SUPLENTE,8662.0,fotos/2026_90002548364.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543561,Christovam Machado,Christovam Machado Do Espirito Santo,SOLIDARIEDADE,SUPLENTE,2636.0,fotos/2026_90002543561.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543189,Joscilene Do Mangão,Joscilene Martins Dos Santos,AGIR,ELEITO POR QP,23729.0,fotos/2026_90002543189.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547032,Wilde Cambão,Wilde Lopes Roriz,UNIÃO,ELEITO POR QP,1923.0,fotos/2026_90002547032.jpg
+municipio,5215231,Novo Gama,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546223,Pabio Mossoró,Pabio Correia Lopes,MDB,SUPLENTE,1649.0,fotos/2026_90002546223.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,2622.0,fotos/2026_90002543239.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543243,Silvye Alves,Silvye Alves Da Silva,UNIÃO,ELEITO POR MÉDIA,597.0,fotos/2026_90002543243.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542618,Fred Rodrigues,Frederico Gustavo Rodrigues Cunha,PL,ELEITO POR QP,566.0,fotos/2026_90002542618.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547013,Lincoln Tejota,Lincoln Graziani Pereira Da Rocha Tejota,UNIÃO,SUPLENTE,2348.0,fotos/2026_90002547013.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,525.0,fotos/2026_90002546224.jpg
+municipio,5200050,Abadia De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543807,Lissauer Vieira,Lissauer Vieira,PL,ELEITO POR QP,311.0,fotos/2026_90002543807.jpg
+municipio,5220280,São Patrício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,763.0,fotos/2026_90002543239.jpg
+municipio,5220280,São Patrício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,162.0,fotos/2026_90002543237.jpg
+municipio,5220280,São Patrício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542621,Dr. Wagner Miranda Hosp.Cancer,Wagner Miranda,PL,SUPLENTE,137.0,fotos/2026_90002542621.jpg
+municipio,5220280,São Patrício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549166,Wagner Neto,Wagner Camargo Neto,SOLIDARIEDADE,ELEITO POR QP,971.0,fotos/2026_90002549166.jpg
+municipio,5220280,São Patrício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543153,Fred Vidigal,Frederico Goncalves Vidigal,MOBILIZA,SUPLENTE,154.0,fotos/2026_90002543153.jpg
+municipio,5220280,São Patrício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544876,Gustavo Sebba,Gustavo Koppan Faiad Sebba,PSDB,ELEITO POR QP,80.0,fotos/2026_90002544876.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543473,Daniel Agrobom,Daniel Vieira Ramos,PSD,ELEITO POR MÉDIA,1836.0,fotos/2026_90002543473.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,698.0,fotos/2026_90002543239.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547109,Professor Alcides,Alcides Ribeiro Filho,PSDB,NÃO ELEITO,263.0,fotos/2026_90002547109.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547030,Talles Barreto,Talles Alves Barreto,UNIÃO,ELEITO POR MÉDIA,1815.0,fotos/2026_90002547030.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544878,José Machado,Jose Machado Dos Santos,PSDB,ELEITO POR QP,1180.0,fotos/2026_90002544878.jpg
+municipio,5222302,Vila Propício,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543189,Joscilene Do Mangão,Joscilene Martins Dos Santos,AGIR,ELEITO POR QP,267.0,fotos/2026_90002543189.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,1331.0,fotos/2026_90002537390.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543473,Daniel Agrobom,Daniel Vieira Ramos,PSD,ELEITO POR MÉDIA,984.0,fotos/2026_90002543473.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539151,Rubens Otoni,Rubens Otoni Gomide,PT,ELEITO POR MÉDIA,291.0,fotos/2026_90002539151.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543157,Graciele Da Arte Trigo,Graciele Marta Do Nascimento,AGIR,ELEITO POR MÉDIA,3578.0,fotos/2026_90002543157.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,482.0,fotos/2026_90002554683.jpg
+municipio,5204854,Campo Limpo De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548064,Vivian Naves,Vivian Cristina Albernaz Tanus Naves,REPUBLICANOS,SUPLENTE,205.0,fotos/2026_90002548064.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,2251.0,fotos/2026_90002548376.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,1085.0,fotos/2026_90002543218.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,291.0,fotos/2026_90002537390.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547030,Talles Barreto,Talles Alves Barreto,UNIÃO,ELEITO POR MÉDIA,1327.0,fotos/2026_90002547030.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548664,Alessandro Moreira,Alessandro Moreira Dos Santos,PRD,ELEITO POR QP,744.0,fotos/2026_90002548664.jpg
+municipio,5207907,Flores De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537434,Débora Domingues,Debora Domingues Carvalhedo Barros,PODE,SUPLENTE,689.0,fotos/2026_90002537434.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,533.0,fotos/2026_90002543218.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543470,Lucas Do Vale,Lucas Martins Do Vale,PSD,ELEITO POR QP,245.0,fotos/2026_90002543470.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,57.0,fotos/2026_90002543239.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547013,Lincoln Tejota,Lincoln Graziani Pereira Da Rocha Tejota,UNIÃO,SUPLENTE,449.0,fotos/2026_90002547013.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547125,Paulo Do Vale,Paulo Faria Do Vale,PSD,ELEITO POR QP,152.0,fotos/2026_90002547125.jpg
+municipio,5212253,Lagoa Santa,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544878,José Machado,Jose Machado Dos Santos,PSDB,ELEITO POR QP,98.0,fotos/2026_90002544878.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,1068.0,fotos/2026_90002543226.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,916.0,fotos/2026_90002543239.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543243,Silvye Alves,Silvye Alves Da Silva,UNIÃO,ELEITO POR MÉDIA,655.0,fotos/2026_90002543243.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,1652.0,fotos/2026_90002554683.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543505,Sargento Novandir,Novandir Rodrigues Da Silva,DEMOCRATA,NÃO ELEITO,663.0,fotos/2026_90002543505.jpg
+municipio,5208400,Goianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549166,Wagner Neto,Wagner Camargo Neto,SOLIDARIEDADE,ELEITO POR QP,615.0,fotos/2026_90002549166.jpg
+municipio,5208707,Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542618,Fred Rodrigues,Frederico Gustavo Rodrigues Cunha,PL,ELEITO POR QP,79783.0,fotos/2026_90002542618.jpg
+municipio,5208707,Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,70074.0,fotos/2026_90002539157.jpg
+municipio,5208707,Goiânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547139,Aava Santiago,Aava Santiago Aguiar,PSB,NÃO ELEITO,60295.0,fotos/2026_90002547139.jpg
+municipio,5208707,Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540149,Fabricio Rosa,Fabricio Silva Rosa,PT,ELEITO POR QP,38522.0,fotos/2026_90002540149.jpg
+municipio,5208707,Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544858,Gcm Romário Policarpo,Romario Barbosa Policarpo,CIDADANIA,ELEITO POR QP,35585.0,fotos/2026_90002544858.jpg
+municipio,5208707,Goiânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543799,Coronel Urzeda,Wellington De Urzeda Mota,PL,ELEITO POR QP,22754.0,fotos/2026_90002543799.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,1591.0,fotos/2026_90002543218.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543566,Lucas Calil,Lucas Pinheiro Brandao Calil,PRD,ELEITO POR QP,422.0,fotos/2026_90002543566.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,376.0,fotos/2026_90002543237.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546219,Issy Quinan,Issy Quinan Júnior,MDB,ELEITO POR QP,1537.0,fotos/2026_90002546219.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548664,Alessandro Moreira,Alessandro Moreira Dos Santos,PRD,ELEITO POR QP,672.0,fotos/2026_90002548664.jpg
+municipio,5209408,Guarani De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,342.0,fotos/2026_90002546224.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,5831.0,fotos/2026_90002543239.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,2502.0,fotos/2026_90002543237.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,846.0,fotos/2026_90002539157.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547018,Virmondes Cruvinel,Virmondes Borges Cruvinel Filho,UNIÃO,ELEITO POR QP,8412.0,fotos/2026_90002547018.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543800,Amauri Ribeiro,Amauri Ribeiro,PL,ELEITO POR QP,587.0,fotos/2026_90002543800.jpg
+municipio,5209705,Hidrolândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540144,Cleiton Silva,Cleiton Eleuterio Da Silva,PT,SUPLENTE,546.0,fotos/2026_90002540144.jpg
+municipio,5212501,Luziânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,28496.0,fotos/2026_90002543226.jpg
+municipio,5212501,Luziânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543572,Eliel Junior,Eliel Flores Roriz Junior,SOLIDARIEDADE,SUPLENTE,5784.0,fotos/2026_90002543572.jpg
+municipio,5212501,Luziânia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539151,Rubens Otoni,Rubens Otoni Gomide,PT,ELEITO POR MÉDIA,4866.0,fotos/2026_90002539151.jpg
+municipio,5212501,Luziânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547032,Wilde Cambão,Wilde Lopes Roriz,UNIÃO,ELEITO POR QP,27436.0,fotos/2026_90002547032.jpg
+municipio,5212501,Luziânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540958,Waltinho,Walter Roriz De Queiroz,NOVO,SUPLENTE,10979.0,fotos/2026_90002540958.jpg
+municipio,5212501,Luziânia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549167,Cristóvão,Cristovao Vaz Tormin,PRD,SUPLENTE,10434.0,fotos/2026_90002549167.jpg
+municipio,5213400,Moiporá,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,628.0,fotos/2026_90002543239.jpg
+municipio,5213400,Moiporá,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,185.0,fotos/2026_90002543237.jpg
+municipio,5213400,Moiporá,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,181.0,fotos/2026_90002543218.jpg
+municipio,5213400,Moiporá,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546225,Cairo Salim,Cairo Salim Marcelino Lopes,MDB,ELEITO POR QP,502.0,fotos/2026_90002546225.jpg
+municipio,5213400,Moiporá,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543170,Rosangela Rezende,Rosangela De Rezende Amorim,AGIR,SUPLENTE,203.0,fotos/2026_90002543170.jpg
+municipio,5213400,Moiporá,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543124,Major Eldecirio,Eldecirio Da Silva,MOBILIZA,SUPLENTE,159.0,fotos/2026_90002543124.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,1507.0,fotos/2026_90002543246.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,376.0,fotos/2026_90002543218.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548364,Lêda Borges,Leda Borges De Moura,REPUBLICANOS,SUPLENTE,279.0,fotos/2026_90002548364.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546219,Issy Quinan,Issy Quinan Júnior,MDB,ELEITO POR QP,1219.0,fotos/2026_90002546219.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,451.0,fotos/2026_90002554683.jpg
+municipio,5213509,Monte Alegre De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537434,Débora Domingues,Debora Domingues Carvalhedo Barros,PODE,SUPLENTE,267.0,fotos/2026_90002537434.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,965.0,fotos/2026_90002543246.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,400.0,fotos/2026_90002543237.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547105,Glaucia Melo,Glaucia Aparecida Fernandes De Melo,PSDB,NÃO ELEITO,264.0,fotos/2026_90002547105.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,887.0,fotos/2026_90002546224.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548064,Vivian Naves,Vivian Cristina Albernaz Tanus Naves,REPUBLICANOS,SUPLENTE,327.0,fotos/2026_90002548064.jpg
+municipio,5214101,Mutunópolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549168,Coronel Adailton,Adailton Florentino Do Nascimento,SOLIDARIEDADE,SUPLENTE,221.0,fotos/2026_90002549168.jpg
+municipio,5214705,Nova América,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,872.0,fotos/2026_90002543246.jpg
+municipio,5214705,Nova América,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543470,Lucas Do Vale,Lucas Martins Do Vale,PSD,ELEITO POR QP,185.0,fotos/2026_90002543470.jpg
+municipio,5214705,Nova América,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,171.0,fotos/2026_90002543239.jpg
+municipio,5214705,Nova América,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547013,Lincoln Tejota,Lincoln Graziani Pereira Da Rocha Tejota,UNIÃO,SUPLENTE,838.0,fotos/2026_90002547013.jpg
+municipio,5214705,Nova América,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544878,José Machado,Jose Machado Dos Santos,PSDB,ELEITO POR QP,216.0,fotos/2026_90002544878.jpg
+municipio,5214705,Nova América,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549166,Wagner Neto,Wagner Camargo Neto,SOLIDARIEDADE,ELEITO POR QP,160.0,fotos/2026_90002549166.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,1212.0,fotos/2026_90002543237.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,646.0,fotos/2026_90002543218.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543566,Lucas Calil,Lucas Pinheiro Brandao Calil,PRD,ELEITO POR QP,511.0,fotos/2026_90002543566.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543788,Major Araújo,Junio Alves Araujo,PL,SUPLENTE,777.0,fotos/2026_90002543788.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549168,Coronel Adailton,Adailton Florentino Do Nascimento,SOLIDARIEDADE,SUPLENTE,507.0,fotos/2026_90002549168.jpg
+municipio,5215009,Nova Veneza,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537446,Eneas Amaral,Eneas Julio Amaral E Silva,PODE,SUPLENTE,504.0,fotos/2026_90002537446.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,757.0,fotos/2026_90002543239.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,402.0,fotos/2026_90002543237.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,296.0,fotos/2026_90002537390.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547030,Talles Barreto,Talles Alves Barreto,UNIÃO,ELEITO POR MÉDIA,802.0,fotos/2026_90002547030.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546224,Lineu Olimpio,Lineu Olimpio De Souza,MDB,ELEITO POR QP,596.0,fotos/2026_90002546224.jpg
+municipio,5218706,Rianápolis,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549171,Julio Pina,Julio Pina Neto,SOLIDARIEDADE,SUPLENTE,280.0,fotos/2026_90002549171.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,3127.0,fotos/2026_90002543237.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,893.0,fotos/2026_90002543226.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543220,Lucas Vergílio,Lucas De Castro Santos,MDB,SUPLENTE,514.0,fotos/2026_90002543220.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547039,André Do Premium,Andre Luiz Gomes Gontijo,UNIÃO,ELEITO POR QP,2010.0,fotos/2026_90002547039.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549166,Wagner Neto,Wagner Camargo Neto,SOLIDARIEDADE,ELEITO POR QP,1463.0,fotos/2026_90002549166.jpg
+municipio,5218904,Rubiataba,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543783,Eduardo Prado,Eduardo José Do Prado,PL,ELEITO POR QP,1387.0,fotos/2026_90002543783.jpg
+municipio,5219803,São Domingos,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,1410.0,fotos/2026_90002542624.jpg
+municipio,5219803,São Domingos,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,721.0,fotos/2026_90002543239.jpg
+municipio,5219803,São Domingos,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,662.0,fotos/2026_90002543237.jpg
+municipio,5219803,São Domingos,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548664,Alessandro Moreira,Alessandro Moreira Dos Santos,PRD,ELEITO POR QP,1435.0,fotos/2026_90002548664.jpg
+municipio,5219803,São Domingos,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002554683,Carol Do Amiltinho,Ana Caroline Guimarães De Oliveira Faria,MDB,ELEITO POR QP,330.0,fotos/2026_90002554683.jpg
+municipio,5219803,São Domingos,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546220,Paulo Cezar Martins,Paulo Cezar Martins,MDB,ELEITO POR MÉDIA,313.0,fotos/2026_90002546220.jpg
+municipio,5221403,Trindade,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543218,Flávia Morais,Flavia Carreiro Albuquerque Morais,MDB,ELEITO POR QP,12908.0,fotos/2026_90002543218.jpg
+municipio,5221403,Trindade,GO,deputado(a) federal 2026 (top 3 no município),2026,90002544113,Dr. Antonio,Antonio Carlos Caetano De Moraes,SOLIDARIEDADE,SUPLENTE,9794.0,fotos/2026_90002544113.jpg
+municipio,5221403,Trindade,GO,deputado(a) federal 2026 (top 3 no município),2026,90002539157,Delegada Adriana Accorsi,Adriana Sauthier Accorsi,PT,ELEITO POR QP,3769.0,fotos/2026_90002539157.jpg
+municipio,5221403,Trindade,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548672,Cristiano Galindo,Cristiano Galindo De Carvalho,SOLIDARIEDADE,SUPLENTE,17853.0,fotos/2026_90002548672.jpg
+municipio,5221403,Trindade,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546244,Dr. George Morais,George Morais Ferreira,MDB,ELEITO POR QP,7126.0,fotos/2026_90002546244.jpg
+municipio,5221403,Trindade,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548059,Roni Ferreira,Ronigles Ferreira Dos Santos,REPUBLICANOS,SUPLENTE,2967.0,fotos/2026_90002548059.jpg
+municipio,5221908,Varjão,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,1108.0,fotos/2026_90002537390.jpg
+municipio,5221908,Varjão,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543470,Lucas Do Vale,Lucas Martins Do Vale,PSD,ELEITO POR QP,505.0,fotos/2026_90002543470.jpg
+municipio,5221908,Varjão,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,175.0,fotos/2026_90002543239.jpg
+municipio,5221908,Varjão,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546219,Issy Quinan,Issy Quinan Júnior,MDB,ELEITO POR QP,779.0,fotos/2026_90002546219.jpg
+municipio,5221908,Varjão,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547125,Paulo Do Vale,Paulo Faria Do Vale,PSD,ELEITO POR QP,394.0,fotos/2026_90002547125.jpg
+municipio,5221908,Varjão,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543800,Amauri Ribeiro,Amauri Ribeiro,PL,ELEITO POR QP,209.0,fotos/2026_90002543800.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,4960.0,fotos/2026_90002543246.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) federal 2026 (top 3 no município),2026,90002537390,Glaustin Da Fokus,Glauskston Batista Rios,PODE,ELEITO POR MÉDIA,4637.0,fotos/2026_90002537390.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) federal 2026 (top 3 no município),2026,90002542624,Magda Mofatto,Magda Mofatto Hon,PL,ELEITO POR QP,2574.0,fotos/2026_90002542624.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002547039,André Do Premium,Andre Luiz Gomes Gontijo,UNIÃO,ELEITO POR QP,22349.0,fotos/2026_90002547039.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002544899,Meiranny Reis,Meirany Goncalves Dos Reis,PSDB,SUPLENTE,2810.0,fotos/2026_90002544899.jpg
+municipio,5219753,Santo Antônio Do Descoberto,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002540138,Mauro Rubem,Mauro Rubem De Menezes Jonas,PT,SUPLENTE,602.0,fotos/2026_90002540138.jpg
+municipio,5200159,Adelândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543246,Jose Nelto,Jose Nelto Lagares Das Mercez,UNIÃO,ELEITO POR QP,491.0,fotos/2026_90002543246.jpg
+municipio,5200159,Adelândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002548376,Marussa Boldrin,Marussa Cassia Favaro Boldrin,REPUBLICANOS,ELEITO POR QP,304.0,fotos/2026_90002548376.jpg
+municipio,5200159,Adelândia,GO,deputado(a) federal 2026 (top 3 no município),2026,90002547109,Professor Alcides,Alcides Ribeiro Filho,PSDB,NÃO ELEITO,247.0,fotos/2026_90002547109.jpg
+municipio,5200159,Adelândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546221,Charles Bento,Charles Bento Evangelista,MDB,ELEITO POR QP,638.0,fotos/2026_90002546221.jpg
+municipio,5200159,Adelândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002543124,Major Eldecirio,Eldecirio Da Silva,MOBILIZA,SUPLENTE,312.0,fotos/2026_90002543124.jpg
+municipio,5200159,Adelândia,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002548672,Cristiano Galindo,Cristiano Galindo De Carvalho,SOLIDARIEDADE,SUPLENTE,158.0,fotos/2026_90002548672.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543226,Célio Silveira,Celio Antonio Da Silveira,MDB,ELEITO POR MÉDIA,1011.0,fotos/2026_90002543226.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543237,Bruno Peixoto,Brunno Regiany Peixoto Pimenta,UNIÃO,ELEITO POR QP,540.0,fotos/2026_90002543237.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) federal 2026 (top 3 no município),2026,90002543239,Adriano Do Baldy,Adriano Antonio Avelar,PP,ELEITO POR QP,343.0,fotos/2026_90002543239.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002546219,Issy Quinan,Issy Quinan Júnior,MDB,ELEITO POR QP,740.0,fotos/2026_90002546219.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002537434,Débora Domingues,Debora Domingues Carvalhedo Barros,PODE,SUPLENTE,664.0,fotos/2026_90002537434.jpg
+municipio,5200175,Água Fria De Goiás,GO,deputado(a) estadual 2026 (top 3 no município),2026,90002549167,Cristóvão,Cristovao Vaz Tormin,PRD,SUPLENTE,346.0,fotos/2026_90002549167.jpg
+municipio,5300108,Brasília,DF,deputado(a) federal 2026 (top 3 no município),2026,70002533381,Fábio Felix,Fábio Felix Silveira,PSOL,ELEITO POR QP,224224.0,fotos/2026_70002533381.jpg
+municipio,5300108,Brasília,DF,deputado(a) federal 2026 (top 3 no município),2026,70002538935,Rafael Prudente,Rafael Cavalcanti Prudente,MDB,ELEITO POR QP,119427.0,fotos/2026_70002538935.jpg
+municipio,5300108,Brasília,DF,deputado(a) federal 2026 (top 3 no município),2026,70002550322,Alberto Fraga,Joao Alberto Fraga Silva,PL,ELEITO POR QP,118579.0,fotos/2026_70002550322.jpg
+municipio,5300108,Brasília,DF,deputado(a) distrital 2026 (top 3 no município),2026,70002533394,Max Maciel,Max Maciel Cavalcanti,PSOL,ELEITO POR QP,92234.0,fotos/2026_70002533394.jpg
+municipio,5300108,Brasília,DF,deputado(a) distrital 2026 (top 3 no município),2026,70002538493,Eduardo Pedrosa,Eduardo Weyne Pedrosa,UNIÃO,ELEITO POR QP,50833.0,fotos/2026_70002538493.jpg
+municipio,5300108,Brasília,DF,deputado(a) distrital 2026 (top 3 no município),2026,70002540503,Chico Vigilante,Francisco Domingos Dos Santos,PT,ELEITO POR QP,50046.0,fotos/2026_70002540503.jpg
+uf,,,AC,governador(a) 2026,2026,10002532492,Alan Rick,Alan Rick Miranda,REPUBLICANOS,2º TURNO,141859.0,fotos/2026_10002532492.jpg
+uf,,,AC,governador(a) 2026,2026,10002544107,Mailza Assis,Mailza Assis Cameli,PP,2º TURNO,218760.0,fotos/2026_10002544107.jpg
+uf,,,AC,senador(a) eleito(a) 2026,2026,10002533895,Mara Rocha,Cylmara Fernandes Da Rocha Gripp,REPUBLICANOS,ELEITO,157104.0,fotos/2026_10002533895.jpg
+uf,,,AC,senador(a) eleito(a) 2026,2026,10002548050,Marcio Bittar,Marcio Miguel Bittar,PL,ELEITO,223972.0,fotos/2026_10002548050.jpg
+uf,,,AM,governador(a) 2026,2026,40002532272,Omar Aziz,Omar Jose Abdelaziz,PSD,2º TURNO,841846.0,fotos/2026_40002532272.jpg
+uf,,,AM,governador(a) 2026,2026,40002541626,Professora Maria Do Carmo,Maria Do Carmo Seffair Lins De Albuquerque,PL,2º TURNO,507335.0,fotos/2026_40002541626.jpg
+uf,,,AM,senador(a) eleito(a) 2026,2026,40002531447,Eduardo Braga,Carlos Eduardo De Souza Braga,MDB,ELEITO,1240471.0,fotos/2026_40002531447.jpg
+uf,,,AM,senador(a) eleito(a) 2026,2026,40002537344,Plinio Valério,Francisco Plinio Valerio Tomaz,PSDB,ELEITO,948793.0,fotos/2026_40002537344.jpg
+uf,,,BA,governador(a) 2026,2026,50002536314,Jerônimo Rodrigues,Jeronimo Rodrigues Souza,PT,ELEITO,4626509.0,fotos/2026_50002536314.jpg
+uf,,,BA,senador(a) eleito(a) 2026,2026,50002536317,Jaques Wagner,Jaques Wagner,PT,ELEITO,3986690.0,fotos/2026_50002536317.jpg
+uf,,,BA,senador(a) eleito(a) 2026,2026,50002536321,Rui Costa,Rui Costa Dos Santos,PT,ELEITO,4335196.0,fotos/2026_50002536321.jpg
+uf,,,DF,governador(a) 2026,2026,70002552496,Leandro Grass,Leandro Antônio Grass Peixoto,PT,2º TURNO,569930.0,fotos/2026_70002552496.jpg
+uf,,,DF,governador(a) 2026,2026,70002553055,Celina Leão,Celina Leao Hizim Ferreira,PP,2º TURNO,825530.0,fotos/2026_70002553055.jpg
+uf,,,DF,senador(a) eleito(a) 2026,2026,70002552934,Bia Kicis,Beatriz Kicis Torrents De Sordi,PL,ELEITO,886616.0,fotos/2026_70002552934.jpg
+uf,,,DF,senador(a) eleito(a) 2026,2026,70002552936,Michelle Bolsonaro,Michelle De Paula Firmo Reinaldo Bolsonaro,PL,ELEITO,938496.0,fotos/2026_70002552936.jpg
+uf,,,GO,governador(a) 2026,2026,90002540993,Daniel Vilela,Daniel Elias Carvalho Vilela,MDB,ELEITO,2148218.0,fotos/2026_90002540993.jpg
+uf,,,GO,senador(a) eleito(a) 2026,2026,90002540997,Gracinha Caiado,Maria Das Graças Landim De Carvalho Caiado,UNIÃO,ELEITO,1458522.0,fotos/2026_90002540997.jpg
+uf,,,GO,senador(a) eleito(a) 2026,2026,90002543556,Gustavo Gayer,Gustavo Gayer Machado De Araujo,PL,ELEITO,1639247.0,fotos/2026_90002543556.jpg
+uf,,,MT,governador(a) 2026,2026,110002551480,Otaviano Pivetta,Otaviano Olavo Pivetta,REPUBLICANOS,ELEITO,1128099.0,fotos/2026_110002551480.jpg
+uf,,,MT,senador(a) eleito(a) 2026,2026,110002551966,Mauro Mendes,Mauro Mendes Ferreira,UNIÃO,ELEITO,1187352.0,fotos/2026_110002551966.jpg
+uf,,,MT,senador(a) eleito(a) 2026,2026,110002552693,Zé Medeiros,Jose Antonio Dos Santos Medeiros,PL,ELEITO,977777.0,fotos/2026_110002552693.jpg
+uf,,,PA,governador(a) 2026,2026,140002549930,Dr. Daniel,Daniel Barbosa Santos,PODE,ELEITO,2345721.0,fotos/2026_140002549930.jpg
+uf,,,PA,senador(a) eleito(a) 2026,2026,140002550779,Helder,Helder Zahluth Barbalho,MDB,ELEITO,2342070.0,fotos/2026_140002550779.jpg
+uf,,,PA,senador(a) eleito(a) 2026,2026,140002550780,Chicão,Francisco Das Chagas Silva Melo Filho,UNIÃO,ELEITO,2014409.0,fotos/2026_140002550780.jpg
+uf,,,PB,governador(a) 2026,2026,150002551789,Lucas Ribeiro,Lucas Ribeiro Novais De Araujo,PP,ELEITO,1470252.0,fotos/2026_150002551789.jpg
+uf,,,PB,senador(a) eleito(a) 2026,2026,150002544905,Veneziano,Veneziano Vital Do Rêgo Segundo Neto,MDB,ELEITO,974550.0,fotos/2026_150002544905.jpg
+uf,,,PB,senador(a) eleito(a) 2026,2026,150002549793,Joao Azevêdo,João Azevêdo Lins Filho,PSB,ELEITO,1391994.0,fotos/2026_150002549793.jpg
+uf,,,PE,governador(a) 2026,2026,170002537227,Raquel Lyra,Raquel Teixeira Lyra Lucena,PSD,ELEITO,2805438.0,fotos/2026_170002537227.jpg
+uf,,,PE,senador(a) eleito(a) 2026,2026,170002547771,Marília Arraes,Marília Valença Rocha Arraes De Alencar,PDT,ELEITO,2325127.0,fotos/2026_170002547771.jpg
+uf,,,PE,senador(a) eleito(a) 2026,2026,170002547773,Humberto Costa,Humberto Sergio Costa Lima,PT,ELEITO,2531389.0,fotos/2026_170002547773.jpg
+uf,,,PI,governador(a) 2026,2026,180002532987,Rafael Fonteles,Rafael Tajra Fonteles,PT,ELEITO,1436697.0,fotos/2026_180002532987.jpg
+uf,,,PI,senador(a) eleito(a) 2026,2026,180002533964,Júlio César O Julim Do Lula,Julio Cesar De Carvalho Lima,PSD,ELEITO,989146.0,fotos/2026_180002533964.jpg
+uf,,,PI,senador(a) eleito(a) 2026,2026,180002533967,Marcelo Castro,Marcelo Costa E Castro,MDB,ELEITO,1307833.0,fotos/2026_180002533967.jpg
+uf,,,PR,governador(a) 2026,2026,160002540833,Sergio Moro,Sergio Fernando Moro,PL,ELEITO,3127911.0,fotos/2026_160002540833.jpg
+uf,,,PR,senador(a) eleito(a) 2026,2026,160002547660,Filipe Barros,Filipe Barros Baptista De Toledo Ribeiro,PL,ELEITO,3148583.0,fotos/2026_160002547660.jpg
+uf,,,PR,senador(a) eleito(a) 2026,2026,160002547661,Deltan Dallagnol,Deltan Martinazzo Dallagnol,NOVO,ELEITO,2904594.0,fotos/2026_160002547661.jpg
+uf,,,RJ,governador(a) 2026,2026,190002542887,Douglas Ruas,Douglas Ruas Dos Santos,PL,2º TURNO,4271199.0,fotos/2026_190002542887.jpg
+uf,,,RJ,governador(a) 2026,2026,190002543380,Eduardo Paes,Eduardo Da Costa Paes,PSD,2º TURNO,3706984.0,fotos/2026_190002543380.jpg
+uf,,,RJ,senador(a) eleito(a) 2026,2026,190002535142,Carlos Portinho,Carlos Francisco Portinho,PL,ELEITO,4264932.0,fotos/2026_190002535142.jpg
+uf,,,RJ,senador(a) eleito(a) 2026,2026,190002542888,Carlos Jordy,Carlos Roberto Coelho De Mattos Júnior,PL,ELEITO,3912405.0,fotos/2026_190002542888.jpg
+uf,,,RN,governador(a) 2026,2026,200002534001,Cadu De Lula,Carlos Eduardo Xavier,PT,2º TURNO,718300.0,fotos/2026_200002534001.jpg
+uf,,,RN,governador(a) 2026,2026,200002535255,Allyson,Allyson Leandro Bezerra Silva,UNIÃO,2º TURNO,733809.0,fotos/2026_200002535255.jpg
+uf,,,RN,senador(a) eleito(a) 2026,2026,200002533841,Samanda De Lula,Samanda Alves De Freitas,PT,ELEITO,635924.0,fotos/2026_200002533841.jpg
+uf,,,RN,senador(a) eleito(a) 2026,2026,200002534448,Styvenson Valentim,Eann Styvenson Valentim Mendes,PODE,ELEITO,1055000.0,fotos/2026_200002534448.jpg
+uf,,,RO,governador(a) 2026,2026,220002541939,Marcos Rogério,Marcos Rogerio Da Silva Brito,PL,ELEITO,537370.0,fotos/2026_220002541939.jpg
+uf,,,RO,senador(a) eleito(a) 2026,2026,220002539995,Bruno Scheid,Bruno Scheid,PL,ELEITO,474226.0,fotos/2026_220002539995.jpg
+uf,,,RO,senador(a) eleito(a) 2026,2026,220002539996,Dr. Fernando Máximo,Fernando Rodrigues Máximo,PL,ELEITO,570799.0,fotos/2026_220002539996.jpg
+uf,,,RR,governador(a) 2026,2026,230002549223,Arthur Henrique,Arthur Henrique Brandao Machado,PL,ELEITO,220809.0,fotos/2026_230002549223.jpg
+uf,,,RR,senador(a) eleito(a) 2026,2026,230002534804,Nicoletti,Antonio Carlos Nicoletti,PL,ELEITO,138269.0,fotos/2026_230002534804.jpg
+uf,,,RR,senador(a) eleito(a) 2026,2026,230002553006,Teresa Surita,Maria Teresa Saenz Surita Guimarães,MDB,ELEITO,117270.0,fotos/2026_230002553006.jpg
+uf,,,SE,governador(a) 2026,2026,260002542491,Fábio,Fabio Cruz Mitidieri,PSD,ELEITO,727291.0,fotos/2026_260002542491.jpg
+uf,,,SE,senador(a) eleito(a) 2026,2026,260002533084,Delegado Alessandro,Alessandro Vieira,MDB,ELEITO,399775.0,fotos/2026_260002533084.jpg
+uf,,,SE,senador(a) eleito(a) 2026,2026,260002547285,Rogerio Carvalho,Rogerio Carvalho Santos,PT,ELEITO,511142.0,fotos/2026_260002547285.jpg

@@ -1,0 +1,190 @@
+<title>Rostos dos elos fracos</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Barlow+Condensed:wght@500;600;700&family=Source+Sans+3:wght@400;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap">
+<style>
+/* Layout: índice fixo de municípios à esquerda, ficha do município à direita (cartaz de urna: foto 3:4, nome, partido). */
+:root {
+  --bg: #f3f4f1; --panel: #ffffff; --ink: #1c2321; --muted: #5d6763; --line: #d9ddd8;
+  --accent: #0f5c57; --accent-soft: #e1eeec;
+  --lula: #b3261e; --lula-soft: #f8e3e1; --pl: #1f4fa3; --pl-soft: #e2e9f7;
+  --warn: #8a5a00; --warn-soft: #f6ecd6; --neutral-soft: #eceeea;
+  --display: "Barlow Condensed", "Arial Narrow", sans-serif;
+  --body: "Source Sans 3", "Segoe UI", system-ui, sans-serif;
+  --mono: "IBM Plex Mono", ui-monospace, Menlo, monospace;
+}
+@media (prefers-color-scheme: dark) { :root:not([data-theme="light"]) {
+  --bg: #141917; --panel: #1c2220; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2f3835;
+  --accent: #5cc0b5; --accent-soft: #1d3633;
+  --lula: #f08c84; --lula-soft: #3a1f1d; --pl: #8fb0f0; --pl-soft: #1d2a43;
+  --warn: #e7b85a; --warn-soft: #3a3020; --neutral-soft: #262d2a; color-scheme: dark } }
+:root[data-theme="dark"] {
+  --bg: #141917; --panel: #1c2220; --ink: #e6ebe8; --muted: #9aa6a1; --line: #2f3835;
+  --accent: #5cc0b5; --accent-soft: #1d3633;
+  --lula: #f08c84; --lula-soft: #3a1f1d; --pl: #8fb0f0; --pl-soft: #1d2a43;
+  --warn: #e7b85a; --warn-soft: #3a3020; --neutral-soft: #262d2a; color-scheme: dark }
+* { box-sizing: border-box }
+body { background: var(--bg); color: var(--ink); font: 15px/1.5 var(--body); margin: 0 }
+a { color: var(--accent) }
+a:focus-visible, button:focus-visible, input:focus-visible, select:focus-visible { outline: 2px solid var(--accent); outline-offset: 2px }
+.wrap { display: grid; grid-template-columns: 290px minmax(0, 1fr); gap: 28px; max-width: 1280px; margin: 0 auto; padding-inline: 20px; padding-block: 24px 64px }
+header.top { grid-column: 1 / -1; display: grid; gap: 6px }
+.eyebrow { font: 600 12px/1 var(--body); letter-spacing: .08em; text-transform: uppercase; color: var(--muted) }
+h1 { font: 700 clamp(30px, 4vw, 44px)/1.05 var(--display); margin: 0; text-wrap: balance }
+.lede { color: var(--muted); max-width: 70ch; margin: 0 }
+.tally { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 6px }
+.chip { display: inline-flex; align-items: center; gap: 6px; padding: 2px 9px; border-radius: 999px; font: 600 12px/1.6 var(--body); background: var(--neutral-soft); color: var(--ink); white-space: nowrap }
+.chip.lula { background: var(--lula-soft); color: var(--lula) }
+.chip.flavio { background: var(--pl-soft); color: var(--pl) }
+.chip.warn { background: var(--warn-soft); color: var(--warn) }
+.chip.acc { background: var(--accent-soft); color: var(--accent) }
+
+nav.idx { position: sticky; top: calc(env(safe-area-inset-top, 0px) + 12px); align-self: start; max-height: calc(100vh - 24px); display: flex; flex-direction: column; gap: 10px; min-width: 0 }
+nav.idx input { width: 100%; font: inherit; padding: 8px 10px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink) }
+nav.idx ol { list-style: none; margin: 0; padding: 0; overflow-y: auto; border-top: 1px solid var(--line) }
+nav.idx li button { width: 100%; display: grid; grid-template-columns: 1fr auto; gap: 8px; text-align: left; font: inherit; color: var(--ink); background: none; border: 0; border-bottom: 1px solid var(--line); padding: 7px 6px; cursor: pointer }
+nav.idx li button:hover { background: var(--panel) }
+nav.idx li button[aria-current="true"] { background: var(--accent-soft) }
+nav.idx .uf { color: var(--muted); font-size: 12px }
+nav.idx .num { font: 12px/1.9 var(--mono); color: var(--muted); font-variant-numeric: tabular-nums }
+#sel { display: none; width: 100%; font: inherit; padding: 8px; border: 1px solid var(--line); border-radius: 6px; background: var(--panel); color: var(--ink) }
+
+main { min-width: 0; display: grid; gap: 28px; align-content: start }
+.town h2 { font: 700 clamp(34px, 5vw, 56px)/1 var(--display); margin: 4px 0 0 }
+.stats { display: grid; grid-template-columns: repeat(auto-fit, minmax(150px, 1fr)); gap: 1px; background: var(--line); border: 1px solid var(--line); border-radius: 8px; overflow: hidden; margin-top: 16px }
+.stat { background: var(--panel); padding: 10px 12px; display: grid; gap: 2px }
+.stat b { font: 500 22px/1.2 var(--mono); font-variant-numeric: tabular-nums }
+.stat span { font-size: 12.5px; color: var(--muted) }
+.stat.key b { color: var(--accent) }
+.note { font-size: 13px; color: var(--muted); max-width: 80ch }
+
+section.grp h3 { font: 600 22px/1.2 var(--display); letter-spacing: .01em; margin: 0 0 10px; padding-bottom: 6px; border-bottom: 2px solid var(--ink) }
+.cards { display: grid; grid-template-columns: repeat(auto-fill, minmax(min(100%, 360px), 1fr)); gap: 14px }
+.card { background: var(--panel); border: 1px solid var(--line); border-radius: 8px; padding: 12px; display: grid; grid-template-columns: 84px minmax(0, 1fr); gap: 12px; align-items: start }
+.ph { width: 84px; aspect-ratio: 3 / 4; border-radius: 4px; background: var(--neutral-soft); object-fit: cover; display: grid; place-items: center; color: var(--muted); font: 600 22px var(--display) }
+.who { display: grid; gap: 4px; min-width: 0 }
+.who .nm { font: 700 20px/1.1 var(--display) }
+.who .meta { display: flex; flex-wrap: wrap; gap: 6px; align-items: center; font-size: 13px; color: var(--muted) }
+.party { font: 600 12px/1.6 var(--mono); padding: 0 6px; border: 1px solid var(--line); border-radius: 4px; color: var(--ink) }
+.pos { font-size: 13.5px }
+ul.pts { list-style: none; margin: 4px 0 0; padding: 0; display: grid; gap: 8px; grid-column: 1 / -1 }
+ul.pts li { display: grid; gap: 3px; padding-top: 8px; border-top: 1px dashed var(--line); font-size: 14px }
+ul.pts .src { font-size: 12px; display: flex; flex-wrap: wrap; gap: 8px; color: var(--muted) }
+.empty { font-size: 13px; color: var(--muted); grid-column: 1 / -1 }
+footer { grid-column: 1 / -1; border-top: 1px solid var(--line); padding-top: 16px; font-size: 13px; color: var(--muted); display: grid; gap: 6px; max-width: 90ch }
+
+@media (max-width: 860px) {
+  .wrap { grid-template-columns: minmax(0, 1fr); padding-inline: 16px }
+  nav.idx { display: none }
+  #sel { display: block }
+}
+@media (prefers-reduced-motion: no-preference) { .town { animation: in .25s ease-out } @keyframes in { from { opacity: .4 } to { opacity: 1 } } }
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <div class="eyebrow">2º turno 2026 · municípios onde Flávio ficou abaixo de Jair 2022</div>
+    <h1>Rostos dos elos fracos</h1>
+    <p class="lede">90 municípios em que Flávio Bolsonaro teve, no 1º turno de 2026, uma fatia dos votos válidos menor que a de Jair Bolsonaro no 1º turno de 2022. Para cada um: as pessoas públicas locais e estaduais, com a foto oficial de candidatura do TSE, a posição declarada no 2º turno presidencial e o que a imprensa publicou sobre a atuação pública delas.</p>
+    <div class="tally" id="tally"></div>
+    <select id="sel" aria-label="Escolher município"></select>
+  </header>
+  <nav class="idx" aria-label="Municípios">
+    <input id="q" type="search" placeholder="Buscar município ou UF" aria-label="Buscar município ou UF">
+    <ol id="list"></ol>
+  </nav>
+  <main id="main"></main>
+  <footer>
+    <div><b>Fontes.</b> Pessoas, partidos, situação e votos: TSE, dados abertos (consulta_cand 2024, votacao_candidato_munzona 2026). Fotos: fotos de divulgação de candidatura do TSE. Números do município: TSE, 1º turno de 2022 e 2026, sem o exterior. Cenário A: pesquisa Datafolha de 08/10/2026 (BR-02949/2026), com o deslocamento regional aplicado de forma uniforme. É um cenário, não uma previsão.</div>
+    <div><b>Regras das notícias.</b> Cada ponto tem ao menos um link próprio. "Alegação" quer dizer que não há condenação; quando a defesa, a absolvição ou o arquivamento foram publicados, aparecem junto. A vida privada fica de fora. É uma compilação documentada, não uma avaliação das pessoas.</div>
+    <div><b>Território, não indivíduos.</b> Os números descrevem municípios. Nada aqui diz como votou uma pessoa ou um grupo.</div>
+  </footer>
+</div>
+
+<script>
+const DATA = /*__DATA__*/null;
+const FOTOS = /*__FOTOS__*/null;
+const fmt = (x, d = 1) => x == null || isNaN(x) ? "–" : Number(x).toLocaleString("pt-BR", { minimumFractionDigits: d, maximumFractionDigits: d });
+const sign = (x, d = 1) => x == null ? "–" : (x > 0 ? "+" : "") + fmt(x, d);
+const esc = s => String(s ?? "").replace(/[&<>"]/g, c => ({ "&": "&amp;", "<": "&lt;", ">": "&gt;", '"': "&quot;" }[c]));
+const host = u => { try { return new URL(u).hostname.replace(/^www\./, "") } catch { return "fonte" } };
+const ids = Object.keys(DATA.municipios);
+
+function posChip(p) {
+  if (!p || !p.apoio || p.apoio === "não encontrado") return '<span class="chip">2º turno: sem declaração encontrada</span>';
+  const cls = p.apoio === "Lula" ? "lula" : p.apoio === "Flávio" ? "flavio" : "";
+  const label = p.apoio === "neutro" ? "neutro" : "apoia " + p.apoio;
+  return `<span class="chip ${cls}">2º turno: ${esc(label)}</span>`;
+}
+function pontos(p) {
+  const pts = [];
+  if (p.posicao_2t && p.posicao_2t.texto && (p.posicao_2t.urls || []).length)
+    pts.push({ tipo: "posição", data: p.posicao_2t.data, texto: p.posicao_2t.texto, urls: p.posicao_2t.urls });
+  for (const x of p.pontos || []) if ((x.urls || []).length) pts.push(x);
+  if (!pts.length) return `<div class="empty">${!p.pesquisado ? "Pesquisa de notícias ainda não feita." : "Nada relevante encontrado na imprensa."}</div>`;
+  return '<ul class="pts">' + pts.map(x => {
+    const t = (x.tipo || "").toLowerCase();
+    const cls = t === "alegação" || t === "processo" ? "warn" : t === "decisão" ? "acc" : "";
+    return `<li><div><span class="chip ${cls}">${esc(x.tipo)}</span> <span class="num">${esc(x.data || "")}</span></div><div>${esc(x.texto)}</div><div class="src">${x.urls.map(u => `<a href="${esc(u)}" target="_blank" rel="noopener">${esc(host(u))}</a>`).join("")}</div></li>`;
+  }).join("") + "</ul>";
+}
+function card(p) {
+  const src = p.foto && FOTOS[p.foto];
+  const ini = esc((p.nome || "?").split(/\s+/).map(w => w[0]).slice(0, 2).join(""));
+  const ph = src ? `<img class="ph" src="${src}" alt="Foto de candidatura de ${esc(p.nome)}" loading="lazy">` : `<div class="ph" aria-hidden="true">${ini}</div>`;
+  const votos = p.votos_no_municipio ? `<span>${p.votos_no_municipio.toLocaleString("pt-BR")} votos aqui</span>` : "";
+  const sit = p.situacao && !p.situacao.startsWith("#") ? `<span>${esc(p.situacao.toLowerCase())}</span>` : "";
+  return `<article class="card">${ph}<div class="who"><div class="nm">${esc(p.nome)}</div>
+    <div class="meta"><span class="party">${esc(p.partido || "–")}</span><span>${esc(p.cargo)}</span>${sit}${votos}</div>
+    <div class="pos">${posChip(p.posicao_2t)}</div>${p.obs ? `<div class="note">${esc(p.obs)}</div>` : ""}</div>${pontos(p)}</article>`;
+}
+const GRUPOS = [
+  ["Prefeitura (eleita em 2024)", c => /^(prefeito|vice)/.test(c)],
+  ["Câmara municipal: vereadores do PL e do PT (2024)", c => c.startsWith("vereador")],
+  ["Deputados mais votados aqui em 2026", c => c.startsWith("deputado")],
+];
+function render(id) {
+  const m = DATA.municipios[id];
+  if (!m) return;
+  const groups = GRUPOS.map(([t, f]) => [t, m.pessoas.filter(p => f(p.cargo))]).filter(g => g[1].length);
+  groups.push([`No estado (${m.uf}): governo e Senado`, DATA.uf[m.uf] || []]);
+  document.getElementById("main").innerHTML = `<article class="town" id="m-${id}">
+    <div class="eyebrow">${esc(m.uf)} · ${esc(m.regiao)} · ${m.aptos26.toLocaleString("pt-BR")} eleitores aptos</div>
+    <h2>${esc(m.municipio)}</h2>
+    <div class="stats">
+      <div class="stat key"><b>${sign(m.flavio_menos_jair, 2)}</b><span>Flávio 2026 − Jair 2022, p.p. dos válidos (1º turno)</span></div>
+      <div class="stat"><b>${fmt(m.lula26)}% · ${fmt(m.flavio26)}%</b><span>Lula · Flávio, 1º turno 2026</span></div>
+      <div class="stat"><b>${fmt(m.caiado26)}% · ${fmt(m.renan26)}%</b><span>Caiado · Renan, 1º turno 2026</span></div>
+      <div class="stat"><b>${fmt(m.abst26)}%</b><span>abstenção 2026 (${sign(m.d_abst)} p.p. desde 2022)</span></div>
+      <div class="stat"><b>${fmt(m.lula2p_1t)} → ${fmt(m.lula2p_datafolha_A)}</b><span>Lula/(Lula+Flávio): 1º turno → cenário A Datafolha</span></div>
+      <div class="stat"><b>${fmt(m.mulheres_pct)} · ${fmt(m.superior_pct)} · ${fmt(m.idosos_60_pct)}</b><span>% mulheres · superior · 60+ no eleitorado (TSE; escolaridade só para comparar)</span></div>
+    </div></article>` +
+    groups.map(([t, ps]) => `<section class="grp"><h3>${esc(t)}</h3><div class="cards">${ps.map(card).join("")}</div></section>`).join("");
+  document.querySelectorAll("#list button").forEach(b => b.setAttribute("aria-current", b.dataset.id === id));
+  document.getElementById("sel").value = id;
+  if (location.hash !== "#m-" + id) history.replaceState(null, "", "#m-" + id);
+}
+function list(q = "") {
+  q = q.trim().toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+  const norm = s => s.toLowerCase().normalize("NFD").replace(/\p{M}/gu, "");
+  document.getElementById("list").innerHTML = ids.filter(id => {
+    const m = DATA.municipios[id]; return !q || norm(m.municipio + " " + m.uf).includes(q);
+  }).map(id => { const m = DATA.municipios[id];
+    return `<li><button data-id="${id}"><span>${esc(m.municipio)} <span class="uf">${m.uf}</span></span><span class="num">${sign(m.flavio_menos_jair, 2)}</span></button></li>` }).join("");
+}
+function tally() {
+  const seen = new Map();
+  for (const m of Object.values(DATA.municipios)) for (const p of m.pessoas) seen.set(p.nome + p.cargo, p);
+  for (const ps of Object.values(DATA.uf)) for (const p of ps) seen.set(p.nome + p.cargo, p);
+  const c = { Lula: 0, "Flávio": 0, neutro: 0 };
+  for (const p of seen.values()) { const a = p.posicao_2t && p.posicao_2t.apoio; if (a in c) c[a]++ }
+  document.getElementById("tally").innerHTML =
+    `<span class="chip">${ids.length} municípios · ${seen.size} pessoas</span><span class="chip lula">${c.Lula} declararam apoio a Lula</span><span class="chip flavio">${c["Flávio"]} a Flávio</span><span class="chip">${c.neutro} neutras</span>`;
+}
+document.getElementById("sel").innerHTML = ids.map(id => `<option value="${id}">${esc(DATA.municipios[id].municipio)} (${DATA.municipios[id].uf})</option>`).join("");
+document.getElementById("sel").addEventListener("change", e => render(e.target.value));
+document.getElementById("list").addEventListener("click", e => { const b = e.target.closest("button"); if (b) { render(b.dataset.id); window.scrollTo({ top: 0 }) } });
+document.getElementById("q").addEventListener("input", e => list(e.target.value));
+list(); tally();
+const h = location.hash.replace("#m-", "");
+render(DATA.municipios[h] ? h : ids[0]);
+</script>
