@@ -189,3 +189,6 @@ new IntersectionObserver((ents) => {
 const top = R.listas.pequenas.todas.slice(0, 18);
 const item = (d) => `<a class="letreiro__item" href="${RAIZ}cidade/?ibge=${d.ibge}"><b>${esc(d.nome)}</b>${d.uf} · +${grande(d.gTot)}</a>`;
 document.getElementById("letreiro").innerHTML = top.map(item).join("") + top.map(item).join("");
+
+// legenda some no fim da página (não cobre o rodapé)
+new IntersectionObserver((ents) => painel.classList.toggle("fora", ents[0].isIntersecting), { rootMargin: "0px 0px -30% 0px" }).observe(document.querySelector(".fim"));

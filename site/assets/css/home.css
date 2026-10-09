@@ -44,3 +44,5 @@
   .post:first-child { margin-top: 64svh; }
   .post__titulo { font-size: 27px; line-height: 29px; }
 }
+.painel--legenda { transition: opacity 0.3s; }
+.painel--legenda.fora { opacity: 0; pointer-events: none; }
