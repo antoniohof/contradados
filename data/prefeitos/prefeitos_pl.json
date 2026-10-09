@@ -1,5 +1,5 @@
 {
- "_sobre": "Fatos documentados sobre a gestão de prefeitos eleitos pelo PL (partido de Flávio Bolsonaro) em 2024, levantados em 09/10/2026 em imprensa e sites oficiais (MP, TCE, Câmara, MPF). Só a gestão atual; investigação não é condenação. 'tela' é a frase do vídeo; 'estagio' diz em que pé está e a resposta da prefeitura. Pesquisadas as 92 cidades do PL com mais votos em jogo (80 em 09/10 e 12 em 10/10/2026); sem fato útil nas demais.",
+ "_sobre": "Fatos documentados sobre a gestão de prefeitos eleitos pelo PL (partido de Flávio Bolsonaro) em 2024, levantados em 09/10/2026 em imprensa e sites oficiais (MP, TCE, Câmara, MPF). Só a gestão atual; investigação não é condenação. 'tela' é a frase do vídeo; 'estagio' diz em que pé está e a resposta da prefeitura. Pesquisadas as 180 cidades do PL com mais votos em jogo (80 em 09/10 e 100 em 10/10/2026, a segunda rodada só por busca, sem abrir páginas novas); sem fato útil nas demais. Ficaram de fora fatos de mandatos anteriores, de prefeitos que saíram do PL e de fonte única partidária ou sem data.",
  "coletado_em": "2026-10-09",
  "cidades": {
   "3303401": {
@@ -399,6 +399,106 @@
      "url": "https://midiamax.com.br/politica/2025/mp-e-a-favor-da-derrubada-do-reajuste-salarial-do-prefeito-e-vice-de-navirai/",
      "resposta": "",
      "confirmado": false
+    }
+   ]
+  },
+  "2104057": {
+   "municipio": "Estreito",
+   "uf": "MA",
+   "prefeito": "Léo Cunha",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2026-05-04",
+     "tipo": "eleitoral",
+     "status": "condenação 1ª instância",
+     "fato": "O juiz da 82ª Zona Eleitoral cassou em 1ª instância o prefeito Léo Cunha e a vice por abuso de poder político e econômico na eleição de 2024 e o declarou inelegível por oito anos; cabe recurso.",
+     "tela": "A Justiça Eleitoral cassou o prefeito em 1ª instância por abuso de poder na eleição de 2024.",
+     "estagio": "Cabe recurso, e ele segue no cargo. A defesa não se manifestou.",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2026/05/prefeito-de-estreito-e-cassado-por-uso-da-maquina-publica-e-acoes-irregulares-em-campanha-eleitoral/",
+     "resposta": "Até a publicação, a defesa dos gestores não havia se manifestado.",
+     "confirmado": true
+    },
+    {
+     "data": "2025-08-21",
+     "tipo": "policia",
+     "status": "investigação",
+     "fato": "A PF fez buscas na casa do prefeito Léo Cunha na Operação Lei do Retorno, que investiga suspeita de desvio de recursos do Fundeb por fraude em licitações entre 2021 e 2025.",
+     "tela": "A PF fez buscas na casa do prefeito numa investigação de suspeita de desvio do Fundeb, o dinheiro da educação.",
+     "estagio": "Operação Lei do Retorno, agosto de 2025. O prefeito diz que está tranquilo e colaborando.",
+     "veiculo": "O Imparcial",
+     "url": "https://oimparcial.com.br/noticias/2025/08/prefeitos-do-maranhao-sao-alvos-de-operacao-da-pf-que-investiga-desvios-na-educacao-leo-cunha-se-manifesta/",
+     "resposta": "Disse estar tranquilo e colaborando com as investigações; afirmou que o contrato investigado, de material didático de 2021, seguiu os trâmites legais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "4115408": {
+   "municipio": "Marmeleiro",
+   "uf": "PR",
+   "prefeito": "Jander Loss",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": false,
+   "itens": [
+    {
+     "data": "2026-09-22",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "O MPPR cumpriu seis mandados de busca na Operação Cota 140, que apura suspeitas de corrupção passiva e lavagem de dinheiro envolvendo o prefeito de Marmeleiro numa desapropriação com suspeita de sobrepreço.",
+     "tela": "O MP do Paraná fez buscas numa investigação de suspeita de corrupção que envolve o prefeito.",
+     "estagio": "Operação Cota 140, setembro de 2026, sobre uma desapropriação. Investigação não é conclusão.",
+     "veiculo": "Diário do Sudoeste",
+     "url": "https://diariodosudoeste.com.br/mppr-cumpre-seis-mandados-em-investigacao-em-marmeleiro/",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "1100130": {
+   "municipio": "Machadinho D'Oeste",
+   "uf": "RO",
+   "prefeito": "Paulo Henrique dos Santos",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": false,
+   "itens": [
+    {
+     "data": "2025-12-01",
+     "tipo": "mp",
+     "status": "documentado na imprensa",
+     "fato": "Em diagnóstico do MPEduc, o MPF e o MPRO apontaram falta de energia, goteiras e transporte precário em escolas municipais e enviaram 20 recomendações à prefeitura.",
+     "tela": "O MPF e o MP de Rondônia apontaram falta de energia e goteiras em escolas municipais.",
+     "estagio": "Diagnóstico de dezembro de 2025, com 20 recomendações à prefeitura.",
+     "veiculo": "Ministério Público Federal",
+     "url": "https://www.mpf.mp.br/o-mpf/unidades/pr-ro/noticias/atuacao-do-mpeduc-resulta-em-20-recomendacoes-ao-municipio-de-machadinho-do-oeste-ro",
+     "resposta": "",
+     "confirmado": true
+    }
+   ]
+  },
+  "2506806": {
+   "municipio": "Ingá",
+   "uf": "PB",
+   "prefeito": "Janderson de Oliveira Chaves",
+   "genero": "o",
+   "partido": "PL",
+   "partido_confirmado": true,
+   "itens": [
+    {
+     "data": "2025-09-23",
+     "tipo": "mp",
+     "status": "investigação",
+     "fato": "Segundo o Polêmica Paraíba, o prefeito é alvo de inquérito civil do MPPB sobre o aluguel sem licitação, por R$ 240 mil anuais, de imóvel de empresa de uma servidora para uma escola municipal.",
+     "tela": "O MP da Paraíba investiga o prefeito por alugar sem licitação, por R$ 240 mil ao ano, um prédio para escola.",
+     "estagio": "Inquérito civil aberto em 2025. A prefeitura não respondeu ao site.",
+     "veiculo": "Polêmica Paraíba",
+     "url": "https://www.polemicaparaiba.com.br/na-rota-da-justica/prefeito-de-inga-e-investigado-por-contrato-de-r-240-mil-com-empresa-de-servidora/",
+     "resposta": "Procurada, a prefeitura não respondeu até a publicação.",
+     "confirmado": true
     }
    ]
   }

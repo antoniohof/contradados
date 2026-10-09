@@ -1,5 +1,5 @@
 {
- "_sobre": "Notícias e pautas locais de cidades de 10 a 50 mil habitantes, para o gancho dos reels. 'pesquisa': levantadas em 09/10/2026 em imprensa local e sites oficiais (confirmado = matéria aberta e conferida). 'pautas': reaproveitadas da pesquisa local anterior (data/pesquisa_local.json), sem nova conferência. Cidades com lista vazia foram pesquisadas sem resultado útil.",
+ "_sobre": "Notícias e pautas locais de cidades de 10 a 50 mil habitantes, para o gancho dos reels. 'pesquisa': levantadas em 09 e 10/10/2026 em imprensa local e sites oficiais (confirmado = matéria aberta e conferida; a rodada de 10/10 usou só a busca, sem abrir a matéria, e só aceitou notícia com data). 'pautas': reaproveitadas da pesquisa local anterior (data/pesquisa_local.json), sem nova conferência. Cidades com lista vazia foram pesquisadas sem resultado útil.",
  "coletado_em": "2026-10-09",
  "cidades": {
   "1200302": {
@@ -1219,11 +1219,147 @@
     }
    ]
   },
+  "2303105": {
+   "municipio": "Cariré",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2303204": {
+   "municipio": "Caririaçu",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-09",
+     "titulo": "Caririaçu amplia obras de infraestrutura e moradia em diferentes comunidades",
+     "veiculo": "News Cariri",
+     "url": "https://www.newscariri.com.br/2026/09/caririacu-amplia-obras-de-infraestrutura-e-moradia-em-diferentes-comunidades",
+     "resumo": "Caririaçu amplia obras de infraestrutura e moradia em diferentes comunidades do município, segundo o site regional News Cariri.",
+     "tema": "obra",
+     "tom": "neutro",
+     "gancho": "Caririaçu amplia obras de infraestrutura e moradia em várias comunidades.",
+     "confirmado": false
+    },
+    {
+     "data": "2026-04",
+     "titulo": "Prefeitura de Caririaçu realiza obras de drenagem em estrada vicinal na zona rural",
+     "veiculo": "News Cariri",
+     "url": "https://www.newscariri.com.br/2026/04/prefeitura-de-caririacu-realiza-obras-de-drenagem-em-estrada-vicinal-na-zona-rura",
+     "resumo": "Prefeitura de Caririaçu realiza obras de drenagem em estrada vicinal na zona rural do município, segundo o site regional News Cariri.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Na zona rural de Caririaçu, estrada vicinal recebe obras de drenagem.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2303402": {
+   "municipio": "Carnaubal",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03-23",
+     "titulo": "Cearenses transformaram quintais em negócios lucrativos na Serra da Ibiapaba",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/negocios/agro/cearenses-transformaram-quintais-em-negocios-lucrativos-na-serra-da-ibiapaba-1.3751085",
+     "resumo": "Reportagem sobre o microcrédito Agroamigo, do Banco do Nordeste, mostra agricultura de Carnaubal; cooperativa CoopeNort comercializa a produção de mais de 50 produtores da região.",
+     "tema": "agricultura",
+     "tom": "conquista",
+     "gancho": "Em Carnaubal, quintal virou negócio com ajuda do microcrédito rural.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2303659": {
+   "municipio": "Catunda",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-06",
+     "titulo": "Ceará tem 5 cidades nota 10 no Ideb 2025; veja quais",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/ceara-tem-5-cidades-nota-10-no-ideb-2025-veja-quais-1.3781849",
+     "resumo": "Catunda está entre as cinco cidades cearenses com nota 10 no Ideb 2025 nos anos iniciais do ensino fundamental, com salto de 1,7 pontos.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Catunda alcançou nota 10 no Ideb 2025, nos anos iniciais.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2304004": {
+   "municipio": "Coreaú",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08-06",
+     "titulo": "Ceará tem 5 cidades nota 10 no Ideb 2025; veja quais",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/ceara-tem-5-cidades-nota-10-no-ideb-2025-veja-quais-1.3781849",
+     "resumo": "Coreaú está entre as cinco cidades do Ceará com nota 10 no Ideb 2025 nos anos iniciais do ensino fundamental; na edição anterior tinha 9,5.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Coreaú alcançou nota 10 no Ideb 2025, nos anos iniciais.",
+     "confirmado": true
+    },
+    {
+     "data": "2026-04-28",
+     "titulo": "Cheia do Rio Coreaú invade casas e leva município a decretar emergência",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/cheia-do-rio-coreau-invade-casas-e-leva-municipio-a-decretar-emergencia-1.3760351",
+     "resumo": "Cheia do Rio Coreaú invadiu casas e afetou famílias; prefeitura decretou emergência em 27 de abril e ofereceu abrigo no CRAS e no CAEE.",
+     "tema": "clima",
+     "tom": "problema",
+     "gancho": "Em abril, a cheia do Rio Coreaú invadiu casas na cidade.",
+     "confirmado": true
+    }
+   ]
+  },
   "2304236": {
    "municipio": "Croatá",
    "uf": "CE",
    "origem": "pesquisa",
    "noticias": []
+  },
+  "2304301": {
+   "municipio": "Farias Brito",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-05",
+     "titulo": "Prefeitura de Farias Brito intensifica recuperação de estradas vicinais após período chuvoso",
+     "veiculo": "Site Caririensi",
+     "url": "https://caririensi.com.br/2026/05/prefeitura-de-farias-brito-intensifica-recuperacao-de-estradas-vicinais-apos-periodo-chuvoso.html",
+     "resumo": "Prefeitura de Farias Brito intensifica a recuperação de estradas vicinais após o período chuvoso, segundo o Site Caririensi.",
+     "tema": "estrada",
+     "tom": "neutro",
+     "gancho": "Depois das chuvas, Farias Brito recupera suas estradas vicinais.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2304350": {
+   "municipio": "Forquilha",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-19",
+     "titulo": "Nove cidades do CE alcançaram 100% das crianças alfabetizadas na idade certa em 2024",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/nove-cidades-do-ce-alcancaram-100-das-criancas-alfabetizadas-na-idade-certa-em-2024-1.3671081",
+     "resumo": "Forquilha está entre as nove cidades do Ceará com 100% das crianças alfabetizadas na idade certa em 2024 e manteve o índice de 2023, segundo o Inep.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Forquilha manteve 100% das crianças alfabetizadas na idade certa em 2024.",
+     "confirmado": true
+    }
+   ]
   },
   "2304509": {
    "municipio": "Frecheirinha",
@@ -1253,6 +1389,30 @@
      "confirmado": false
     }
    ]
+  },
+  "2304657": {
+   "municipio": "Graça",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07-19",
+     "titulo": "Nove cidades do CE alcançaram 100% das crianças alfabetizadas na idade certa em 2024",
+     "veiculo": "Diário do Nordeste",
+     "url": "https://diariodonordeste.verdesmares.com.br/ceara/nove-cidades-do-ce-alcancaram-100-das-criancas-alfabetizadas-na-idade-certa-em-2024-1.3671081",
+     "resumo": "Graça está entre as nove cidades cearenses com 100% das crianças alfabetizadas na idade certa em 2024, segundo indicador do Inep/MEC.",
+     "tema": "educacao",
+     "tom": "conquista",
+     "gancho": "Em 2024, Graça teve 100% das crianças alfabetizadas na idade certa.",
+     "confirmado": true
+    }
+   ]
+  },
+  "2304905": {
+   "municipio": "Groaíras",
+   "uf": "CE",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2305001": {
    "municipio": "Guaraciaba do Norte",
@@ -3019,6 +3179,18 @@
    "origem": "pautas",
    "noticias": []
   },
+  "2709202": {
+   "municipio": "Traipu",
+   "uf": "AL",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2801207": {
+   "municipio": "Canindé de São Francisco",
+   "uf": "SE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2804508": {
    "municipio": "Nossa Senhora da Glória",
    "uf": "SE",
@@ -3048,6 +3220,18 @@
     }
    ]
   },
+  "2807105": {
+   "municipio": "Simão Dias",
+   "uf": "SE",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2900405": {
+   "municipio": "Água Fria",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2901007": {
    "municipio": "Amargosa",
    "uf": "BA",
@@ -3076,6 +3260,48 @@
      "confirmado": false
     }
    ]
+  },
+  "2901106": {
+   "municipio": "Amélia Rodrigues",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2901155": {
+   "municipio": "América Dourada",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2901205": {
+   "municipio": "Anagé",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-07",
+     "titulo": "Governo do Estado entrega obras e fortalece educação, segurança e infraestrutura hídrica, urbana e rural de Anagé",
+     "veiculo": "Governo da Bahia (ba.gov.br)",
+     "url": "https://www.ba.gov.br/comunicacao/noticias/2025-07/370814/governo-do-estado-entrega-obras-e-fortalece-educacao-seguranca-e",
+     "resumo": "O Governo da Bahia entregou obras em Anagé e reforçou educação, segurança e infraestrutura hídrica, urbana e rural do município.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Anagé recebeu obras de educação, segurança e infraestrutura de água.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2901502": {
+   "municipio": "Anguera",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2901700": {
+   "municipio": "Antônio Cardoso",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2902104": {
    "municipio": "Araci",
@@ -3136,6 +3362,30 @@
     }
    ]
   },
+  "2903003": {
+   "municipio": "Barra do Mendes",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2903235": {
+   "municipio": "Barro Alto",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-08",
+     "titulo": "Barro Alto recebe obra de pavimentação e novos pontos de internet gratuita",
+     "veiculo": "Governo da Bahia (ba.gov.br)",
+     "url": "https://www.ba.gov.br/comunicacao/noticias/2026-08/383961/barro-alto-recebe-obra-de-pavimentacao-e-novos-pontos-de-internet-gratuita",
+     "resumo": "Portal do Governo da Bahia informa que Barro Alto recebeu obra de pavimentação e novos pontos de internet gratuita.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Barro Alto recebeu obra de pavimentação e novos pontos de internet gratuita.",
+     "confirmado": false
+    }
+   ]
+  },
   "2903508": {
    "municipio": "Belo Campo",
    "uf": "BA",
@@ -3172,6 +3422,48 @@
     }
    ]
   },
+  "2904050": {
+   "municipio": "Bonito",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2904209": {
+   "municipio": "Botuporã",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2904902": {
+   "municipio": "Cachoeira",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2905008": {
+   "municipio": "Caculé",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2905156": {
+   "municipio": "Caetanos",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2905305": {
+   "municipio": "Cafarnaum",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2905909": {
+   "municipio": "Campo Alegre de Lourdes",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2906204": {
    "municipio": "Canarana",
    "uf": "BA",
@@ -3194,6 +3486,12 @@
    "municipio": "Canavieiras",
    "uf": "BA",
    "origem": "pautas",
+   "noticias": []
+  },
+  "2906600": {
+   "municipio": "Candiba",
+   "uf": "BA",
+   "origem": "pesquisa",
    "noticias": []
   },
   "2906709": {
@@ -3276,6 +3574,24 @@
     }
    ]
   },
+  "2906857": {
+   "municipio": "Capela do Alto Alegre",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2026-03",
+     "titulo": "Governador Jerônimo entrega obras e autoriza novos investimentos em saúde, segurança, educação e infraestrutura em Capela do Alto Alegre",
+     "veiculo": "Jornal Grande Bahia",
+     "url": "https://jornalgrandebahia.com.br/2026/03/governador-jeronimo-entrega-obras-e-autoriza-novos-investimentos-em-saude-seguranca-educacao-e-infraestrutura-em-capela-do-alto-alegre/",
+     "resumo": "O governador da Bahia entregou obras e autorizou novos investimentos em saúde, segurança, educação e infraestrutura em Capela do Alto Alegre.",
+     "tema": "obra",
+     "tom": "conquista",
+     "gancho": "Capela do Alto Alegre recebeu obras e teve novos investimentos autorizados.",
+     "confirmado": false
+    }
+   ]
+  },
   "2907103": {
    "municipio": "Carinhanha",
    "uf": "BA",
@@ -3305,6 +3621,12 @@
     }
    ]
   },
+  "2907301": {
+   "municipio": "Castro Alves",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2907509": {
    "municipio": "Catu",
    "uf": "BA",
@@ -3329,8 +3651,20 @@
     }
    ]
   },
+  "2907806": {
+   "municipio": "Cícero Dantas",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2908200": {
    "municipio": "Conceição da Feira",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2908507": {
+   "municipio": "Conceição do Jacuípe",
    "uf": "BA",
    "origem": "pesquisa",
    "noticias": []
@@ -3364,6 +3698,24 @@
     }
    ]
   },
+  "2908903": {
+   "municipio": "Coração de Maria",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-12",
+     "titulo": "Zona rural de Coração de Maria recebe investimento de R$ 14 milhões em abastecimento de água pela Embasa",
+     "veiculo": "Jornal Grande Bahia",
+     "url": "https://jornalgrandebahia.com.br/2025/12/zona-rural-de-coracao-de-maria-recebe-investimento-de-r-14-milhoes-em-abastecimento-de-agua-pela-embasa/",
+     "resumo": "A zona rural de Coração de Maria recebe investimento de R$ 14 milhões da Embasa em abastecimento de água.",
+     "tema": "agua",
+     "tom": "conquista",
+     "gancho": "Coração de Maria: R$ 14 milhões para água na zona rural.",
+     "confirmado": false
+    }
+   ]
+  },
   "2909307": {
    "municipio": "Correntina",
    "uf": "BA",
@@ -3393,6 +3745,12 @@
     }
    ]
   },
+  "2909901": {
+   "municipio": "Curaçá",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2910404": {
    "municipio": "Encruzilhada",
    "uf": "BA",
@@ -3417,6 +3775,18 @@
     }
    ]
   },
+  "2910602": {
+   "municipio": "Esplanada",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2911105": {
+   "municipio": "Formosa do Rio Preto",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2912004": {
    "municipio": "Ibiassucê",
    "uf": "BA",
@@ -3434,6 +3804,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2912202": {
+   "municipio": "Ibicoara",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2912400": {
    "municipio": "Ibipeba",
@@ -3495,6 +3871,18 @@
     }
    ]
   },
+  "2913705": {
+   "municipio": "Inhambupe",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2913804": {
+   "municipio": "Ipecaetá",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2913903": {
    "municipio": "Ipiaú",
    "uf": "BA",
@@ -3547,6 +3935,18 @@
      "confirmado": false
     }
    ]
+  },
+  "2915353": {
+   "municipio": "Itaguaçu da Bahia",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2915809": {
+   "municipio": "Itambé",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2916500": {
    "municipio": "Itapicuru",
@@ -3612,6 +4012,12 @@
     }
    ]
   },
+  "2917409": {
+   "municipio": "Jacaraci",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2917607": {
    "municipio": "Jaguaquara",
    "uf": "BA",
@@ -3648,6 +4054,12 @@
     }
    ]
   },
+  "2918357": {
+   "municipio": "João Dourado",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2918506": {
    "municipio": "Jussara",
    "uf": "BA",
@@ -3682,6 +4094,18 @@
      "confirmado": false
     }
    ]
+  },
+  "2919157": {
+   "municipio": "Lapão",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2919405": {
+   "municipio": "Licínio de Almeida",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2919504": {
    "municipio": "Livramento de Nossa Senhora",
@@ -3792,6 +4216,24 @@
     }
    ]
   },
+  "2920106": {
+   "municipio": "Mairi",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2920205": {
+   "municipio": "Malhada",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2920502": {
+   "municipio": "Maracás",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2920601": {
    "municipio": "Maragogipe",
    "uf": "BA",
@@ -3838,6 +4280,18 @@
    "origem": "pautas",
    "noticias": []
   },
+  "2921054": {
+   "municipio": "Matina",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2921450": {
+   "municipio": "Mirante",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2921500": {
    "municipio": "Monte Santo",
    "uf": "BA",
@@ -3855,6 +4309,12 @@
      "confirmado": true
     }
    ]
+  },
+  "2921708": {
+   "municipio": "Morro do Chapéu",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2921807": {
    "municipio": "Mortugaba",
@@ -3920,6 +4380,12 @@
     }
    ]
   },
+  "2922102": {
+   "municipio": "Mundo Novo",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2922300": {
    "municipio": "Muritiba",
    "uf": "BA",
@@ -3949,8 +4415,62 @@
     }
    ]
   },
+  "2922706": {
+   "municipio": "Nova Canaã",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2922904": {
+   "municipio": "Nova Soure",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": [
+    {
+     "data": "2025-06",
+     "titulo": "Governador Jerônimo reforça saúde, infraestrutura e combate à seca em Nova Soure com pacote de investimentos superiores a R$ 9 milhões",
+     "veiculo": "Jornal Grande Bahia",
+     "url": "https://jornalgrandebahia.com.br/2025/06/governador-jeronimo-reforca-saude-infraestrutura-e-combate-a-seca-em-nova-soure-com-pacote-de-investimentos-superiores-a-r-9-milhoes/",
+     "resumo": "Governo da Bahia reforçou saúde, infraestrutura e combate à seca em Nova Soure com pacote de investimentos superior a R$ 9 milhões.",
+     "tema": "saude",
+     "tom": "conquista",
+     "gancho": "Nova Soure ganhou mais de R$ 9 milhões para saúde e obras.",
+     "confirmado": false
+    }
+   ]
+  },
+  "2923407": {
+   "municipio": "Palmas de Monte Alto",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2923704": {
    "municipio": "Paratinga",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2924058": {
+   "municipio": "Pé de Serra",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2924405": {
+   "municipio": "Pilão Arcado",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2924504": {
+   "municipio": "Pindaí",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2924652": {
+   "municipio": "Pintadas",
    "uf": "BA",
    "origem": "pesquisa",
    "noticias": []
@@ -3991,6 +4511,12 @@
     }
    ]
   },
+  "2925956": {
+   "municipio": "Rafael Jambeiro",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2926004": {
    "municipio": "Remanso",
    "uf": "BA",
@@ -4009,6 +4535,12 @@
     }
    ]
   },
+  "2926301": {
+   "municipio": "Riachão do Jacuípe",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2926400": {
    "municipio": "Riacho de Santana",
    "uf": "BA",
@@ -4026,6 +4558,24 @@
      "confirmado": true
     }
    ]
+  },
+  "2926806": {
+   "municipio": "Rio do Antônio",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2927200": {
+   "municipio": "Ruy Barbosa",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2927507": {
+   "municipio": "Santa Bárbara",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2927705": {
    "municipio": "Santa Cruz Cabrália",
@@ -4091,6 +4641,12 @@
     }
    ]
   },
+  "2928406": {
+   "municipio": "Santa Rita de Cássia",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2928901": {
    "municipio": "São Desidério",
    "uf": "BA",
@@ -4137,8 +4693,20 @@
    "origem": "pautas",
    "noticias": []
   },
+  "2929255": {
+   "municipio": "São Gabriel",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2929305": {
    "municipio": "São Gonçalo dos Campos",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2929503": {
+   "municipio": "São Sebastião do Passé",
    "uf": "BA",
    "origem": "pesquisa",
    "noticias": []
@@ -4182,6 +4750,12 @@
      "confirmado": false
     }
    ]
+  },
+  "2930204": {
+   "municipio": "Sento Sé",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "2930402": {
    "municipio": "Serra Preta",
@@ -4241,8 +4815,38 @@
     }
    ]
   },
+  "2931053": {
+   "municipio": "Tanque Novo",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "2931806": {
    "municipio": "Tremedal",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2931905": {
+   "municipio": "Tucano",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2932408": {
+   "municipio": "Uibaí",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2932606": {
+   "municipio": "Urandi",
+   "uf": "BA",
+   "origem": "pesquisa",
+   "noticias": []
+  },
+  "2933059": {
+   "municipio": "Várzea da Roça",
    "uf": "BA",
    "origem": "pesquisa",
    "noticias": []
@@ -4402,6 +5006,12 @@
    "origem": "pautas",
    "noticias": []
   },
+  "3118809": {
+   "municipio": "Coração de Jesus",
+   "uf": "MG",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "3121605": {
    "municipio": "Diamantina",
    "uf": "MG",
@@ -4418,6 +5028,12 @@
    "municipio": "Ibiá",
    "uf": "MG",
    "origem": "pautas",
+   "noticias": []
+  },
+  "3132503": {
+   "municipio": "Itamarandiba",
+   "uf": "MG",
+   "origem": "pesquisa",
    "noticias": []
   },
   "3133501": {
@@ -5344,6 +5960,12 @@
     }
    ]
   },
+  "4125605": {
+   "municipio": "São Mateus do Sul",
+   "uf": "PR",
+   "origem": "pesquisa",
+   "noticias": []
+  },
   "4126603": {
    "municipio": "Siqueira Campos",
    "uf": "PR",
@@ -5397,6 +6019,12 @@
      "confirmado": false
     }
    ]
+  },
+  "4204806": {
+   "municipio": "Curitibanos",
+   "uf": "SC",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "4205308": {
    "municipio": "Faxinal dos Guedes",
@@ -5675,6 +6303,12 @@
      "confirmado": true
     }
    ]
+  },
+  "4317608": {
+   "municipio": "Santo Antônio da Patrulha",
+   "uf": "RS",
+   "origem": "pesquisa",
+   "noticias": []
   },
   "4317806": {
    "municipio": "Santo Augusto",
@@ -6027,6 +6661,12 @@
    "municipio": "Itapaci",
    "uf": "GO",
    "origem": "pautas",
+   "noticias": []
+  },
+  "5211800": {
+   "municipio": "Jaraguá",
+   "uf": "GO",
+   "origem": "pesquisa",
    "noticias": []
   },
   "5215306": {
